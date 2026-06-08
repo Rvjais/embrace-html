@@ -1,13 +1,7 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    {
-      "source": "/",
-      "destination": "/pages/index.html"
-    },
-    {
-      "source": "/:path((?!assets/|practitioner-images/|_external/).*)",
-      "destination": "/pages/:path.html"
-    }
+    { "source": "/", "destination": "/pages/index.html" },
+    { "source": "/(.*)", "destination": "/pages/$1.html" }
   ]
 }
