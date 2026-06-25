@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // 2. Action Buttons
   const buttons = document.querySelectorAll('button');
   buttons.forEach(btn => {
-    const text = btn.innerText.trim();
-    if (text === 'Request Session' || text === 'Book a Consultation') {
+    const text = btn.innerText.trim().toLowerCase();
+    if (text.includes('request session') || text.includes('book a consultation') || text.includes('book a session') || text.includes('book appointment')) {
       btn.addEventListener('click', () => {
         window.location.href = './appointment.html';
       });

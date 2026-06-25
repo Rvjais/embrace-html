@@ -245,150 +245,123 @@
         </div>
       </nav>
       <!-- Book an Appointment Section -->
-      <main>
-        <section
-          class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 bg-gradient-to-b from-[#FFF8E0] via-[#FFFFFF99] to-[#ECECFFCC] relative overflow-hidden py-16 md:py-24 flex flex-col items-center"
-        >
-          <div class="hidden md:block w-16 h-16 rounded-full bg-[#ffcc00]/50 absolute top-[12%] -right-[2%]"></div>
-          <div class="hidden md:block w-11 h-10 rounded-full bg-[#b9f1da]/80 absolute left-[0.5%] top-[47%]"></div>
-          <div class="-z-1 hidden md:block w-16 h-16 rounded-full bg-[#c8b3fc] absolute -bottom-[4%] left-[10%]"></div>
-          <div class="flex flex-col items-center justify-center max-w-3xl mx-auto text-center">
-            <h1 class="text-3xl md:text-4xl 2xl:text-5xl font-bold">Book an Appointment</h1>
-            <p
-              class="2xl:mt-4 2xl:text-2xl font-medium text-base md:text-lg text-center text-[var(--text-gray)] italic mt-4 md:mt-6"
-            >
-              Take the first step towards <span class="text-[#234394]">better mental health</span>. Schedule a session
-              with our expert psychologists &amp; therapists — online or in-person.
-            </p>
-          </div>
-        </section>
+      
+      <main class="px-4 md:px-8 lg:px-16 xl:px-24 py-16 bg-[#F8F2FF] min-h-[70vh] flex justify-center items-center">
+        <div class="bg-white rounded-3xl shadow-lg p-8 md:p-12 w-full max-w-4xl">
+            <h1 class="text-3xl font-bold text-center text-[#234394] mb-8">Book a Session</h1>
+            <form accept-charset='UTF-8' action='https://app.formester.com/forms/6rj1mkdNE/submissions' method='POST' class="flex flex-col gap-6">
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex flex-col gap-2">
+                        <label for="name" class="font-medium text-gray-700">Patient Name *</label>
+                        <input type="text" id="name" name="name" required class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-[#234394] focus:ring-1 focus:ring-[#234394]">
+                    </div>
 
-        <!-- Booking Options Section -->
-        <section class="px-4 md:px-8 lg:px-16 xl:px-24 py-12 md:py-16 bg-gradient-to-b from-[#FFFFFF] to-[#F8F2FF]">
-          <div class="max-w-5xl mx-auto">
-            <h2 class="text-xl md:text-3xl font-bold text-center 2xl:text-4xl">How to Book</h2>
-            <p
-              class="font-medium text-sm md:text-base text-center text-[var(--text-gray)] italic mt-4 max-w-2xl mx-auto"
-            >
-              Choose your preferred way to get started with eMbrace
-            </p>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-10">
-              <div
-                class="bg-white border border-[#ADADAD] rounded-4xl shadow-md p-6 md:p-8 flex flex-col items-center text-center"
-              >
-                <div class="w-16 h-16 rounded-full bg-[#E7F7FF] flex items-center justify-center text-3xl mb-4">📞</div>
-                <h3 class="text-lg font-semibold text-[#234394] mb-2">Call / WhatsApp</h3>
-                <p class="text-sm text-gray-600 mb-4">Speak to our team directly to schedule your session</p>
-                <a
-                  href="https://wa.me/919971576800"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="px-6 py-2 rounded-full bg-[var(--blue-fig)] text-white font-medium cursor-pointer"
-                  >+91 9971576800</a
-                >
-              </div>
-              <div
-                class="bg-white border border-[#ADADAD] rounded-4xl shadow-md p-6 md:p-8 flex flex-col items-center text-center"
-              >
-                <div class="w-16 h-16 rounded-full bg-[#FEF3F7] flex items-center justify-center text-3xl mb-4">✉️</div>
-                <h3 class="text-lg font-semibold text-[#234394] mb-2">Email Us</h3>
-                <p class="text-sm text-gray-600 mb-4">Send us your details and preferred time slot</p>
-                <a
-                  href="mailto:info@embracelives.com"
-                  class="px-6 py-2 rounded-full bg-[var(--blue-fig)] text-white font-medium cursor-pointer"
-                  >info@embracelives.com</a
-                >
-              </div>
-              <div
-                class="bg-white border border-[#ADADAD] rounded-4xl shadow-md p-6 md:p-8 flex flex-col items-center text-center"
-              >
-                <div class="w-16 h-16 rounded-full bg-[#FFF8E0] flex items-center justify-center text-3xl mb-4">🌐</div>
-                <h3 class="text-lg font-semibold text-[#234394] mb-2">Browse Therapists</h3>
-                <p class="text-sm text-gray-600 mb-4">Find the right therapist and book directly</p>
-                <a
-                  href="./userListing.html"
-                  class="px-6 py-2 rounded-full bg-[var(--blue-fig)] text-white font-medium cursor-pointer"
-                  >View Our Team</a
-                >
-              </div>
-            </div>
-          </div>
-        </section>
+                    <div class="flex flex-col gap-2">
+                        <label for="parent_name" class="font-medium text-gray-700">Parent/Guardian Name *</label>
+                        <input type="text" id="parent_name" name="parent_name" required class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-[#234394] focus:ring-1 focus:ring-[#234394]">
+                    </div>
+                </div>
 
-        <!-- What to Expect Section -->
-        <section class="px-4 md:px-8 lg:px-16 xl:px-24 py-12 md:py-16 relative">
-          <div class="bg-[#7AE6B95E] h-14 w-14 rounded-full absolute hidden md:block top-[5%] -right-[2%]"></div>
-          <div class="bg-[#FFCC004A] h-12 w-12 rounded-full absolute hidden md:block bottom-[10%] left-[3%]"></div>
-          <div class="max-w-4xl mx-auto">
-            <h2 class="text-xl md:text-3xl font-bold text-center 2xl:text-4xl">What to Expect</h2>
-            <div class="flex flex-col gap-4 mt-8">
-              <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
-                <div
-                  class="w-10 h-10 rounded-full bg-[#E7F7FF] flex items-center justify-center text-lg font-bold text-[#234394] flex-shrink-0"
-                >
-                  1
-                </div>
-                <div>
-                  <h3 class="font-semibold text-base text-gray-900">Initial Consultation</h3>
-                  <p class="text-sm text-gray-600 mt-1">
-                    A thorough first session to understand your concerns, history, and goals. We'll match you with the
-                    right therapist.
-                  </p>
-                </div>
-              </div>
-              <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
-                <div
-                  class="w-10 h-10 rounded-full bg-[#FEF3F7] flex items-center justify-center text-lg font-bold text-[#234394] flex-shrink-0"
-                >
-                  2
-                </div>
-                <div>
-                  <h3 class="font-semibold text-base text-gray-900">Personalised Care Plan</h3>
-                  <p class="text-sm text-gray-600 mt-1">
-                    Your therapist will create an evidence-based treatment plan tailored to your specific needs.
-                  </p>
-                </div>
-              </div>
-              <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
-                <div
-                  class="w-10 h-10 rounded-full bg-[#F1E6FF] flex items-center justify-center text-lg font-bold text-[#234394] flex-shrink-0"
-                >
-                  3
-                </div>
-                <div>
-                  <h3 class="font-semibold text-base text-gray-900">Ongoing Support</h3>
-                  <p class="text-sm text-gray-600 mt-1">
-                    Regular sessions — online or in-person — with progress tracking and adjustments to your care plan as
-                    needed.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex flex-col gap-2">
+                        <label for="email" class="font-medium text-gray-700">Email Address *</label>
+                        <input type="email" id="email" name="email" required class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-[#234394] focus:ring-1 focus:ring-[#234394]">
+                    </div>
 
-        <!-- CTA Section -->
-        <section
-          class="bg-gradient-to-b from-[#F1E6FF] to-[#FEF9FC] py-16 md:py-12 w-full flex overflow-hidden justify-center relative"
-        >
-          <div class="bg-[#D82D7E87] h-14 w-14 rounded-full absolute -top-[10%] right-[5%] md:right-[15%]"></div>
-          <div class="bg-[#FAC600] h-12 w-12 rounded-full absolute -bottom-[10%] left-[5%] md:left-[38%]"></div>
-          <div class="w-full md:w-[60%] flex flex-col items-center justify-center gap-2 md:gap-6 px-4">
-            <p class="2xl:text-2xl font-medium text-base md:text-lg text-center text-[var(--text-gray)] italic">
-              Ready to take the <span class="text-[#234394]">first step towards better mental health?</span>
-            </p>
-            <a
-              href="https://wa.me/919971576800"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
-              >Book Now via WhatsApp</a
-            >
-          </div>
-        </section>
+                    <div class="flex flex-col gap-2">
+                        <label for="phone" class="font-medium text-gray-700">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-[#234394] focus:ring-1 focus:ring-[#234394]">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex flex-col gap-2">
+                        <label for="location" class="font-medium text-gray-700">Preferred Location *</label>
+                        <select id="location" name="location" required class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-[#234394] focus:ring-1 focus:ring-[#234394]">
+                            <option value="">Select Location</option>
+                            <option value="online">Online (All India)</option>
+                            <option value="vasant_kunj">eMbrace Vasant Kunj</option>
+                            <option value="dlf_gurgaon">eMbrace DLF City Court, Gurgaon</option>
+                            <option value="rainbow_hospital">eMbrace Rainbow Children's Hospital</option>
+                            <option value="makkar_hospital">eMbrace Makkar Hospital</option>
+                        </select>
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <label for="age_group" class="font-medium text-gray-700">Age Group *</label>
+                        <select id="age_group" name="age_group" required class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-[#234394] focus:ring-1 focus:ring-[#234394]">
+                            <option value="">Select Age Group</option>
+                            <option value="infants">Infants (0–2 yrs)</option>
+                            <option value="toddlers">Toddlers (3–5 yrs)</option>
+                            <option value="school_age">School-Age (6–11 yrs)</option>
+                            <option value="pre_teens">Pre-Teens (12–14 yrs)</option>
+                            <option value="teenagers">Teenagers (15–18 yrs)</option>
+                            <option value="adults">Adults (18+)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex flex-col gap-2">
+                        <label for="specialty" class="font-medium text-gray-700">Specialty *</label>
+                        <select id="specialty" name="specialty" required class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-[#234394] focus:ring-1 focus:ring-[#234394]">
+                            <option value="">Select Specialty</option>
+                            <option value="clinical_psychologist">Clinical Psychologist</option>
+                            <option value="child_psychologist">Child Psychologist</option>
+                            <option value="psychiatrist">Psychiatrist</option>
+                            <option value="occupational_therapist">Occupational Therapist</option>
+                            <option value="speech_language_therapist">Speech & Language Therapist</option>
+                            <option value="physiotherapist">Physiotherapist</option>
+                            <option value="special_educator">Special Educator</option>
+                            <option value="couples_therapist">Couples Therapist</option>
+                        </select>
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <label for="condition" class="font-medium text-gray-700">Condition Treated *</label>
+                        <select id="condition" name="condition" required class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-[#234394] focus:ring-1 focus:ring-[#234394]">
+                            <option value="">Select Condition</option>
+                            <option value="anxiety_stress">Anxiety & Stress</option>
+                            <option value="depression">Depression</option>
+                            <option value="adhd">ADHD</option>
+                            <option value="autism_asd">Autism / ASD</option>
+                            <option value="speech_delay">Speech Delay</option>
+                            <option value="learning_disability">Learning Disability</option>
+                            <option value="sensory_processing">Sensory Processing</option>
+                            <option value="ocd">OCD</option>
+                            <option value="trauma_ptsd">Trauma / PTSD</option>
+                            <option value="relationship_issues">Relationship Issues</option>
+                            <option value="child_adolescent">Child & Adolescent</option>
+                            <option value="grief_loss">Grief & Loss</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex flex-col gap-2">
+                        <label for="appointment_date" class="font-medium text-gray-700">Preferred Date *</label>
+                        <input type="date" id="appointment_date" name="appointment_date" required class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-[#234394] focus:ring-1 focus:ring-[#234394]">
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <label for="appointment_time" class="font-medium text-gray-700">Preferred Time *</label>
+                        <input type="time" id="appointment_time" name="appointment_time" required class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-[#234394] focus:ring-1 focus:ring-[#234394]">
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <label for="message" class="font-medium text-gray-700">Message / Concern</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Please describe your concern or requirements" class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-[#234394] focus:ring-1 focus:ring-[#234394]"></textarea>
+                </div>
+
+                <button type="submit" class="w-full md:w-auto self-center mt-4 bg-[var(--blue-fig)] text-white font-semibold text-lg px-10 py-3 rounded-full hover:scale-105 transition-transform duration-200 cursor-pointer">Book Appointment</button>
+            </form>
+        </div>
       </main>
+
       <footer class="bg-gradient-to-r from-[#FFF5DC99] to-[#FFF8E445] text-gray-800 p-10">
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-5">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5">
           <div>
             <a href="#" style="display: inline-block"
               ><img alt="Logo" class="w-35 h-35 object-contain" src="./assets/Logo-DrHvIBUF.svg"
@@ -499,6 +472,9 @@
                   src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2048%2048'%20width='48px'%20height='48px'%3e%3cpath%20fill='%23039be5'%20d='M24%205A19%2019%200%201%200%2024%2043A19%2019%200%201%200%2024%205Z'/%3e%3cpath%20fill='%23fff'%20d='M26.572,29.036h4.917l0.772-4.995h-5.69v-2.73c0-2.075,0.678-3.915,2.619-3.915h3.119v-4.359c-0.548-0.074-1.707-0.236-3.897-0.236c-4.573,0-7.254,2.415-7.254,7.917v3.323h-4.701v4.995h4.701v13.729C22.089,42.905,23.032,43,24,43c0.875,0,1.729-0.08,2.572-0.194V29.036z'/%3e%3c/svg%3e"
               /></a>
             </div>
+          </div>
+          <div class="flex justify-center md:justify-start" style="transform: scale(0.8); transform-origin: top left; margin-top: -15px; margin-left: 15px; width: 350px; max-width: 120%;">
+            <script defer data-active data-widget-type="group" data-person="ae1ad96c-477b-41a3-96cc-ef98a345c9b0" src="https://app.wacrs.com/install-widget/bundle.js?key=6a4151f9-3b56-4868-993a-34ddc5e31b35"></script><div data-active id="whatapp-people-widget-ae1ad96c-477b-41a3-96cc-ef98a345c9b0"></div>
           </div>
         </div>
       </footer>
