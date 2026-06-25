@@ -1,20 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Mobile Menu Toggle
-  const menuBtn = document.querySelector('button[aria-label="Open menu"]');
-  if (menuBtn) {
-    menuBtn.addEventListener('click', () => {
+  document.addEventListener('click', (e) => {
+    const menuBtn = e.target.closest('button[aria-label="Open menu"]');
+    if (menuBtn) {
       const menu = document.querySelector('.md\\:hidden.hidden.absolute.top-full');
       if (menu) {
         menu.classList.toggle('hidden');
       }
-    });
-  }
+    }
+  });
 
   // 2. Action Buttons & Booking Modal
   const modalHTML = `
     <div id="booking-modal" class="fixed inset-0 hidden flex items-center justify-center px-4" style="z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
       <div class="w-full max-w-xl relative rounded-3xl overflow-hidden" style="background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.6); box-shadow: 0 8px 32px 0 rgba(31,38,135,0.15);">
-          <button id="close-modal" class="absolute top-5 right-6 text-gray-500 hover:text-black text-4xl font-light cursor-pointer leading-none transition-colors" style="z-index: 10;">&times;</button>
+          <button id="close-modal" class="absolute top-5 right-6 text-gray-500 hover:text-black text-4xl font-light cursor-pointer leading-none transition-colors" style="z-index: 50;">&times;</button>
           
           <div class="flex border-b border-gray-300/50 relative" style="z-index: 10; background: rgba(255, 255, 255, 0.3);">
              <button id="tab-new" class="flex-1 py-5 text-center font-bold text-lg md:text-xl border-b-4 border-[var(--blue-fig)] text-[var(--blue-fig)] transition-colors cursor-pointer" style="background: rgba(255,255,255,0.6);">New Patient</button>
@@ -55,8 +55,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const contentExisting = document.getElementById('content-existing');
 
   // Close modal logic
-  closeModalBtn.addEventListener('click', () => {
-    bookingModal.classList.add('hidden');
+  document.addEventListener('click', (e) => {
+    if (e.target.closest('#close-modal')) {
+      bookingModal.classList.add('hidden');
+    }
   });
   
   // Close on outside click
@@ -94,14 +96,17 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Attach modal to action buttons
-  const buttons = document.querySelectorAll('button');
-  buttons.forEach(btn => {
-    const text = btn.innerText.trim().toLowerCase();
-    if (text.includes('request session') || text.includes('book a consultation') || text.includes('book a session') || text.includes('book appointment')) {
-      btn.addEventListener('click', (e) => {
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('button');
+    if (btn) {
+      // Ignore buttons that are inside a form (like submit buttons)
+      if (btn.closest('form')) return;
+      
+      const text = btn.innerText.trim().toLowerCase();
+      if (text.includes('request session') || text.includes('book a consultation') || text.includes('book a session') || text.includes('book appointment')) {
         e.preventDefault();
         bookingModal.classList.remove('hidden');
-      });
+      }
     }
   });
 
@@ -296,5 +301,31 @@ document.addEventListener('DOMContentLoaded', () => {
     
     countUpElements.forEach(el => observer.observe(el));
   }
+
+  // 7. Component Loader
+  const loadComponent = async (placeholderId, componentPath) => {
+    const placeholder = document.getElementById(placeholderId);
+    if (placeholder) {
+      try {
+        const response = await fetch(componentPath);
+        if (response.ok) {
+          const html = await response.text();
+          placeholder.outerHTML = html;
+        }
+      } catch (err) {
+        console.error('Failed to load component:', componentPath, err);
+      }
+    }
+  };
+
+  // Load components
+  loadComponent('header-placeholder', './components/header.html');
+  loadComponent('footer-placeholder', './components/footer.html');
+
+  // 8. Global Widget Injection
+  const widgetScript = document.createElement('script');
+  widgetScript.defer = true;
+  widgetScript.src = 'https://app.wacrs.com/install-widget/bundle.js?key=6a4151f9-3b56-4868-993a-34ddc5e31b35';
+  document.body.appendChild(widgetScript);
 
 });
