@@ -246,10 +246,21 @@
       </nav>
       <!-- Book an Appointment Section -->
       
-      <main class="px-4 md:px-8 lg:px-16 xl:px-24 py-16 bg-[#F8F2FF] min-h-[70vh] flex justify-center items-center">
-        <div class="bg-white rounded-3xl shadow-lg p-8 md:p-12 w-full max-w-4xl">
-            <h1 class="text-3xl font-bold text-center text-[#234394] mb-8">Book a Session</h1>
-            <form accept-charset='UTF-8' action='https://app.formester.com/forms/6rj1mkdNE/submissions' method='POST' class="flex flex-col gap-6">
+            <main class="px-4 md:px-8 lg:px-16 xl:px-24 py-16 bg-[#F8F2FF] min-h-[70vh] flex justify-center items-center relative overflow-hidden">
+        <!-- Decorative blobs for background -->
+        <div class="absolute top-10 left-10 w-64 h-64 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-50"></div>
+        <div class="absolute bottom-10 right-10 w-64 h-64 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-50"></div>
+        
+        <div class="w-full max-w-4xl relative rounded-3xl overflow-hidden z-10" style="background: rgba(255, 255, 255, 0.65); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.6); box-shadow: 0 8px 32px 0 rgba(31,38,135,0.15);">
+          
+          <div class="flex border-b border-gray-300/50 relative" style="z-index: 10; background: rgba(255, 255, 255, 0.3);">
+             <button id="page-tab-new" class="flex-1 py-6 text-center font-bold text-xl md:text-2xl border-b-4 border-[var(--blue-fig)] text-[var(--blue-fig)] transition-colors cursor-pointer" style="background: rgba(255,255,255,0.6);">New Patient</button>
+             <button id="page-tab-existing" class="flex-1 py-6 text-center font-bold text-xl md:text-2xl border-b-4 border-transparent text-gray-600 hover:text-gray-900 transition-colors cursor-pointer" style="background: transparent;">Existing Patient</button>
+          </div>
+          
+          <div class="p-8 md:p-12 relative" style="z-index: 10;">
+             <div id="page-content-new" class="transition-opacity duration-300">
+                <form accept-charset='UTF-8' action='https://app.formester.com/forms/6rj1mkdNE/submissions' method='POST' class="flex flex-col gap-6">
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div class="flex flex-col gap-2">
@@ -357,7 +368,54 @@
 
                 <button type="submit" class="w-full md:w-auto self-center mt-4 bg-[var(--blue-fig)] text-white font-semibold text-lg px-10 py-3 rounded-full hover:scale-105 transition-transform duration-200 cursor-pointer">Book Appointment</button>
             </form>
-        </div>
+             </div>
+             
+             <div id="page-content-existing" class="hidden flex flex-col items-center justify-center py-16 gap-6 transition-opacity duration-300">
+                <div class="w-24 h-24 rounded-full flex items-center justify-center mb-4" style="background: rgba(16, 185, 129, 0.1);">
+                    <svg class="w-12 h-12" style="color: #10B981;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <h3 class="text-3xl font-bold text-center text-gray-800">Welcome back!</h3>
+                <p class="text-xl text-center text-gray-700 mb-4">Please click below to access our partner portal and securely book your next session.</p>
+                <a href="https://meet-my-doctor.firebaseapp.com/#/app?eid=47033" target="_blank" class="bg-[var(--blue-fig)] text-white font-semibold text-xl px-16 py-5 rounded-full hover:scale-105 transition-transform duration-300 cursor-pointer inline-block" style="box-shadow: 0 4px 15px rgba(35, 67, 148, 0.3);">Book the Appointment</a>
+             </div>
+          </div>
+      </div>
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const tabNew = document.getElementById('page-tab-new');
+          const tabExisting = document.getElementById('page-tab-existing');
+          const contentNew = document.getElementById('page-content-new');
+          const contentExisting = document.getElementById('page-content-existing');
+          
+          if(tabNew && tabExisting) {
+            tabNew.addEventListener('click', () => {
+              tabNew.classList.remove('border-transparent', 'text-gray-600');
+              tabNew.classList.add('border-[var(--blue-fig)]', 'text-[var(--blue-fig)]');
+              tabNew.style.background = 'rgba(255,255,255,0.6)';
+              
+              tabExisting.classList.remove('border-[var(--blue-fig)]', 'text-[var(--blue-fig)]');
+              tabExisting.classList.add('border-transparent', 'text-gray-600');
+              tabExisting.style.background = 'transparent';
+              
+              contentNew.classList.remove('hidden');
+              contentExisting.classList.add('hidden');
+            });
+
+            tabExisting.addEventListener('click', () => {
+              tabExisting.classList.remove('border-transparent', 'text-gray-600');
+              tabExisting.classList.add('border-[var(--blue-fig)]', 'text-[var(--blue-fig)]');
+              tabExisting.style.background = 'rgba(255,255,255,0.6)';
+              
+              tabNew.classList.remove('border-[var(--blue-fig)]', 'text-[var(--blue-fig)]');
+              tabNew.classList.add('border-transparent', 'text-gray-600');
+              tabNew.style.background = 'transparent';
+              
+              contentExisting.classList.remove('hidden');
+              contentNew.classList.add('hidden');
+            });
+          }
+        });
+      </script>
       </main>
 
       <footer class="bg-gradient-to-r from-[#FFF5DC99] to-[#FFF8E445] text-gray-800 p-10">
@@ -472,9 +530,6 @@
                   src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2048%2048'%20width='48px'%20height='48px'%3e%3cpath%20fill='%23039be5'%20d='M24%205A19%2019%200%201%200%2024%2043A19%2019%200%201%200%2024%205Z'/%3e%3cpath%20fill='%23fff'%20d='M26.572,29.036h4.917l0.772-4.995h-5.69v-2.73c0-2.075,0.678-3.915,2.619-3.915h3.119v-4.359c-0.548-0.074-1.707-0.236-3.897-0.236c-4.573,0-7.254,2.415-7.254,7.917v3.323h-4.701v4.995h4.701v13.729C22.089,42.905,23.032,43,24,43c0.875,0,1.729-0.08,2.572-0.194V29.036z'/%3e%3c/svg%3e"
               /></a>
             </div>
-          </div>
-          <div class="flex justify-center md:justify-start" style="transform: scale(0.8); transform-origin: top left; margin-top: -15px; margin-left: 15px; width: 350px; max-width: 120%;">
-            <script defer data-active data-widget-type="group" data-person="ae1ad96c-477b-41a3-96cc-ef98a345c9b0" src="https://app.wacrs.com/install-widget/bundle.js?key=6a4151f9-3b56-4868-993a-34ddc5e31b35"></script><div data-active id="whatapp-people-widget-ae1ad96c-477b-41a3-96cc-ef98a345c9b0"></div>
           </div>
         </div>
       </footer>
