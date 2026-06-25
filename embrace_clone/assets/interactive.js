@@ -259,4 +259,42 @@ document.addEventListener('DOMContentLoaded', () => {
     requestAnimationFrame(animateTestimonials);
   });
 
+  // 6. Number Count-Up Animation
+  const countUpElements = document.querySelectorAll('.count-up');
+  const animateCountUp = (el) => {
+    const target = parseInt(el.getAttribute('data-target'), 10);
+    const duration = 2000;
+    let current = 0;
+    
+    const startTime = performance.now();
+    const updateCount = (currentTime) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const ease = 1 - Math.pow(1 - progress, 4);
+      current = Math.floor(target * ease);
+      
+      el.innerText = current.toLocaleString() + '+';
+      
+      if (progress < 1) {
+        requestAnimationFrame(updateCount);
+      } else {
+        el.innerText = target.toLocaleString() + '+';
+      }
+    };
+    requestAnimationFrame(updateCount);
+  };
+
+  if (countUpElements.length > 0) {
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCountUp(entry.target);
+          obs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    
+    countUpElements.forEach(el => observer.observe(el));
+  }
+
 });
