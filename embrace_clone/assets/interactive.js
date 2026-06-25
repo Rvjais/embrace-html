@@ -123,4 +123,56 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   }
+
+  // 6. Auto-Scrolling Marquees (Featured Partners & Testimonials)
+  
+  // A. Slick Slider (Featured Partners)
+  const slickTracks = document.querySelectorAll('.slick-track');
+  slickTracks.forEach(track => {
+    // Remove static transform so it doesn't get stuck
+    track.style.transform = 'translate3d(0px, 0px, 0px)';
+    
+    let position = 0;
+    const speed = 1.0; // pixels per frame
+    
+    const animateSlick = () => {
+      position -= speed;
+      // When we've scrolled half the track (since it has clones), reset to 0
+      if (Math.abs(position) >= track.scrollWidth / 2) {
+        position = 0;
+      }
+      track.style.transform = `translate3d(${position}px, 0px, 0px)`;
+      requestAnimationFrame(animateSlick);
+    };
+    requestAnimationFrame(animateSlick);
+  });
+
+  // B. Testimonials (Overflow auto containers)
+  const testimonialContainers = document.querySelectorAll('.flex.overflow-x-auto.hide-scrollbar');
+  testimonialContainers.forEach(container => {
+    // Clone children to create a seamless loop
+    const children = Array.from(container.children);
+    children.forEach(child => {
+      const clone = child.cloneNode(true);
+      container.appendChild(clone);
+    });
+
+    let scrollPos = 0;
+    const speed = 0.5; // pixels per frame
+
+    const animateTestimonials = () => {
+      scrollPos += speed;
+      // If we've scrolled past the original set of children
+      if (scrollPos >= container.scrollWidth / 2) {
+        scrollPos = 0;
+      }
+      container.scrollLeft = scrollPos;
+      requestAnimationFrame(animateTestimonials);
+    };
+    
+    // Disable manual scroll interference for a smooth auto-scroll
+    container.style.overflowX = 'hidden';
+    requestAnimationFrame(animateTestimonials);
+  });
+
 });
