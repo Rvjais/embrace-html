@@ -10,102 +10,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // 2. Action Buttons & Booking Modal
-  const modalHTML = `
-    <div id="booking-modal" class="fixed inset-0 hidden flex items-center justify-center px-4" style="z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
-      <div class="w-full max-w-xl relative rounded-3xl overflow-hidden" style="background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.6); box-shadow: 0 8px 32px 0 rgba(31,38,135,0.15);">
-          <button id="close-modal" class="absolute top-5 right-6 text-gray-500 hover:text-black text-4xl font-light cursor-pointer leading-none transition-colors" style="z-index: 50;">&times;</button>
-          
-          <div class="flex border-b border-gray-300/50 relative" style="z-index: 10; background: rgba(255, 255, 255, 0.3);">
-             <button id="tab-new" class="flex-1 py-5 text-center font-bold text-lg md:text-xl border-b-4 border-[var(--blue-fig)] text-[var(--blue-fig)] transition-colors cursor-pointer" style="background: rgba(255,255,255,0.6);">New Patient</button>
-             <button id="tab-existing" class="flex-1 py-5 text-center font-bold text-lg md:text-xl border-b-4 border-transparent text-gray-600 hover:text-gray-900 transition-colors cursor-pointer" style="background: transparent;">Existing Patient</button>
-          </div>
-          
-          <div class="p-8 md:p-12 relative" style="z-index: 10;">
-             <div id="content-new" class="flex flex-col items-center justify-center py-6 gap-6 transition-opacity duration-300">
-                <div class="w-16 h-16 rounded-full flex items-center justify-center mb-2" style="background: rgba(35, 67, 148, 0.1);">
-                    <svg class="w-8 h-8 text-[var(--blue-fig)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"></path></svg>
-                </div>
-                <h3 class="text-2xl font-bold text-center text-gray-800">Welcome to eMbrace!</h3>
-                <p class="text-lg text-center text-gray-700 mb-2">Please fill out our intake form to help us understand your needs and match you with the right specialist.</p>
-                <a href="./appointment.html" class="bg-[var(--blue-fig)] text-white font-semibold text-lg px-12 py-4 rounded-full hover:scale-105 transition-transform duration-300 cursor-pointer inline-block" style="box-shadow: 0 4px 15px rgba(35, 67, 148, 0.3);">Fill the Form</a>
-             </div>
-             
-             <div id="content-existing" class="hidden flex flex-col items-center justify-center py-6 gap-6 transition-opacity duration-300">
-                <div class="w-16 h-16 rounded-full flex items-center justify-center mb-2" style="background: rgba(16, 185, 129, 0.1);">
-                    <svg class="w-8 h-8" style="color: #10B981;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                </div>
-                <h3 class="text-2xl font-bold text-center text-gray-800">Welcome back!</h3>
-                <p class="text-lg text-center text-gray-700 mb-2">Please click below to access our partner portal and securely book your next session.</p>
-                <a href="https://meet-my-doctor.firebaseapp.com/#/app?eid=47033" target="_blank" class="bg-[var(--blue-fig)] text-white font-semibold text-lg px-12 py-4 rounded-full hover:scale-105 transition-transform duration-300 cursor-pointer inline-block" style="box-shadow: 0 4px 15px rgba(35, 67, 148, 0.3);">Book the Appointment</a>
-             </div>
-          </div>
-      </div>
-    </div>
-  `;
-
-  // Inject modal into body
-  document.body.insertAdjacentHTML('beforeend', modalHTML);
-
-  const bookingModal = document.getElementById('booking-modal');
-  const closeModalBtn = document.getElementById('close-modal');
-  const tabNew = document.getElementById('tab-new');
-  const tabExisting = document.getElementById('tab-existing');
-  const contentNew = document.getElementById('content-new');
-  const contentExisting = document.getElementById('content-existing');
-
-  // Close modal logic
+  // 2. Action Buttons redirection to Appointment Form
   document.addEventListener('click', (e) => {
-    if (e.target.closest('#close-modal')) {
-      bookingModal.classList.add('hidden');
-    }
-  });
-  
-  // Close on outside click
-  bookingModal.addEventListener('click', (e) => {
-    if (e.target === bookingModal) {
-      bookingModal.classList.add('hidden');
-    }
-  });
-
-  // Tab switching logic
-  tabNew.addEventListener('click', () => {
-    tabNew.classList.remove('border-transparent', 'text-gray-600');
-    tabNew.classList.add('border-[var(--blue-fig)]', 'text-[var(--blue-fig)]');
-    tabNew.style.background = 'rgba(255,255,255,0.6)';
-    
-    tabExisting.classList.remove('border-[var(--blue-fig)]', 'text-[var(--blue-fig)]');
-    tabExisting.classList.add('border-transparent', 'text-gray-600');
-    tabExisting.style.background = 'transparent';
-    
-    contentNew.classList.remove('hidden');
-    contentExisting.classList.add('hidden');
-  });
-
-  tabExisting.addEventListener('click', () => {
-    tabExisting.classList.remove('border-transparent', 'text-gray-600');
-    tabExisting.classList.add('border-[var(--blue-fig)]', 'text-[var(--blue-fig)]');
-    tabExisting.style.background = 'rgba(255,255,255,0.6)';
-    
-    tabNew.classList.remove('border-[var(--blue-fig)]', 'text-[var(--blue-fig)]');
-    tabNew.classList.add('border-transparent', 'text-gray-600');
-    tabNew.style.background = 'transparent';
-    
-    contentExisting.classList.remove('hidden');
-    contentNew.classList.add('hidden');
-  });
-
-  // Attach modal to action buttons
-  document.addEventListener('click', (e) => {
-    const btn = e.target.closest('button');
-    if (btn) {
-      // Ignore buttons that are inside a form (like submit buttons)
-      if (btn.closest('form')) return;
+    const el = e.target.closest('button, a');
+    if (el) {
+      // Ignore elements inside forms
+      if (el.closest('form')) return;
       
-      const text = btn.innerText.trim().toLowerCase();
+      const text = el.innerText.trim().toLowerCase();
       if (text.includes('request session') || text.includes('book a consultation') || text.includes('book a session') || text.includes('book appointment')) {
         e.preventDefault();
-        bookingModal.classList.remove('hidden');
+        window.location.href = './appointment.html';
       }
     }
   });
