@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // Determine page depth for relative path resolution
+  const subdirPattern = /\/(?:adhd|autism|learning-disabilities|speech-therapy|occupational-therapy|child-psychology|teen-mental-health|adult-mental-health|parent-hub|schools-hub|corporate-wellness|locations)\//;
+  const isSubdir = subdirPattern.test(window.location.pathname);
+  const prefix = isSubdir ? '../' : './';
+
   // 1. Mobile Menu Toggle
   document.addEventListener('click', (e) => {
     const menuBtn = e.target.closest('button[aria-label="Open menu"]');
@@ -20,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const text = el.innerText.trim().toLowerCase();
       if (text.includes('request session') || text.includes('book a consultation') || text.includes('book a session') || text.includes('book appointment')) {
         e.preventDefault();
-        window.location.href = './appointment.html';
+        window.location.href = prefix + 'appointment.html';
       }
     }
   });
@@ -100,14 +105,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 5. Wellbeing Spaces Carousel (Single image rotation)
   const wbImages = [
-    './assets/carousel1-BUqaO1dK.jpg',
-    './assets/carousel2-DTTdaTuf.jpg',
-    './assets/carousel3-GFF7ZgxW.jpg',
-    './assets/carousel4-kql07uS0.jpg',
-    './assets/carousel5-5PBn5vWJ.jpg',
-    './assets/carousel6-BRLlaZgG.jpg',
-    './assets/carousel7-BPTj019V.jpg',
-    './assets/carousel8-DtyaDwxk.jpg'
+    prefix + 'assets/carousel1-BUqaO1dK.jpg',
+    prefix + 'assets/carousel2-DTTdaTuf.jpg',
+    prefix + 'assets/carousel3-GFF7ZgxW.jpg',
+    prefix + 'assets/carousel4-kql07uS0.jpg',
+    prefix + 'assets/carousel5-5PBn5vWJ.jpg',
+    prefix + 'assets/carousel6-BRLlaZgG.jpg',
+    prefix + 'assets/carousel7-BPTj019V.jpg',
+    prefix + 'assets/carousel8-DtyaDwxk.jpg'
   ];
   
   const wbImgEl = document.querySelector('img[alt="carousel-1"]');
@@ -224,7 +229,10 @@ document.addEventListener('DOMContentLoaded', () => {
       try {
         const response = await fetch(componentPath);
         if (response.ok) {
-          const html = await response.text();
+          let html = await response.text();
+          // Rewrite relative paths in loaded components to match current page depth
+          html = html.replace(/"(\.\/)(assets\/|index\.html)/g, '"' + prefix + '$2');
+          html = html.replace(/href="\.\//g, 'href="' + prefix);
           placeholder.outerHTML = html;
         }
       } catch (err) {
@@ -233,9 +241,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  // Load components
-  loadComponent('header-placeholder', './components/header.html');
-  loadComponent('footer-placeholder', './components/footer.html');
+  loadComponent('header-placeholder', prefix + 'components/header.html');
+  loadComponent('footer-placeholder', prefix + 'components/footer.html');
 
   // 8. Global Widget Injection
   const widgetScript = document.createElement('script');
