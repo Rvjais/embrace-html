@@ -241,8 +241,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  loadComponent('header-placeholder', prefix + 'components/header.html');
-  loadComponent('footer-placeholder', prefix + 'components/footer.html');
+  loadComponent('header-placeholder', prefix + 'components/header.html?v=' + new Date().getTime());
+  loadComponent('footer-placeholder', prefix + 'components/footer.html?v=' + new Date().getTime());
 
   // 8. Global Widget Injection
   const widgetScript = document.createElement('script');
