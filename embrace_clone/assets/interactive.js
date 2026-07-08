@@ -159,6 +159,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // B. Testimonials (Overflow auto containers)
   const testimonialContainers = document.querySelectorAll('.flex.overflow-x-auto.hide-scrollbar');
   testimonialContainers.forEach(container => {
+    // Skip the testimonials carousel that has manual navigation buttons
+    if (container.id === 'testimonials-carousel') return;
+
     // Clone children to create a seamless loop
     const children = Array.from(container.children);
     children.forEach(child => {
