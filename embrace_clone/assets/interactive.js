@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const subdirPattern = /\/(?:adhd|autism|learning-disabilities|speech-therapy|occupational-therapy|child-psychology|teen-mental-health|adult-mental-health|parent-hub|schools-hub|corporate-wellness|locations)\//;
   const isSubdir = subdirPattern.test(window.location.pathname);
   const isLocalFile = window.location.protocol === 'file:';
-  const prefix = isLocalFile ? (isSubdir ? '../' : './') : '/';
+  const prefix = isSubdir ? '../' : './';
 
   // 1. Mobile Menu Toggle
   document.addEventListener('click', (e) => {
