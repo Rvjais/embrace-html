@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const text = el.innerText.trim().toLowerCase();
       if (text.includes('request session') || text.includes('book a consultation') || text.includes('book a session') || text.includes('book appointment')) {
         e.preventDefault();
-        window.location.href = prefix + 'appointment.html';
+        window.location.href = prefix + 'appointment' + (isLocalFile ? '.html' : '');
       }
     }
   });
@@ -237,6 +237,14 @@ document.addEventListener('DOMContentLoaded', () => {
           // Rewrite relative paths in loaded components to match current page depth
           html = html.replace(/"(\.\/)(assets\/|index\.html)/g, '"' + prefix + '$2');
           html = html.replace(/href="\.\//g, 'href="' + prefix);
+          
+          if (!isLocalFile) {
+            // Strip .html from all links to prevent 301/308 redirects that crash proxies like Ruttl
+            html = html.replace(/\.html"/g, '"');
+            html = html.replace(/href="\/index"/g, 'href="/"');
+            html = html.replace(/href="index"/g, 'href="/"');
+          }
+          
           placeholder.outerHTML = html;
         }
       } catch (err) {
@@ -254,4 +262,19 @@ document.addEventListener('DOMContentLoaded', () => {
   widgetScript.src = 'https://app.wacrs.com/install-widget/bundle.js?key=6a4151f9-3b56-4868-993a-34ddc5e31b35';
   document.body.appendChild(widgetScript);
 
+  // 9. Ruttl Compatibility (Remove .html to prevent proxy redirect crash)
+  if (!isLocalFile) {
+    const stripHtmlLinks = () => {
+      document.querySelectorAll('a').forEach(a => {
+        let href = a.getAttribute('href');
+        if (href && href.endsWith('.html') && !href.startsWith('http')) {
+          a.setAttribute('href', href.replace(/\.html$/, ''));
+        }
+      });
+    };
+    // Run initially and then observe DOM for dynamic additions
+    stripHtmlLinks();
+    const observer = new MutationObserver(stripHtmlLinks);
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
 });
