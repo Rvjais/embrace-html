@@ -1,10 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Determine page depth for relative path resolution
-  const subdirPattern = /\/(?:adhd|autism|learning-disabilities|speech-therapy|occupational-therapy|child-psychology|teen-mental-health|adult-mental-health|parent-hub|schools-hub|corporate-wellness|locations)\//;
-  const isSubdir = subdirPattern.test(window.location.pathname);
-  const isLocalFile = window.location.protocol === 'file:';
-  const prefix = isSubdir ? '../' : './';
-
   // 1. Mobile Menu Toggle
   document.addEventListener('click', (e) => {
     const menuBtn = e.target.closest('button[aria-label="Open menu"]');
@@ -26,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const text = el.innerText.trim().toLowerCase();
       if (text.includes('request session') || text.includes('book a consultation') || text.includes('book a session') || text.includes('book appointment')) {
         e.preventDefault();
-        window.location.href = prefix + 'appointment' + (isLocalFile ? '.html' : '');
+        window.location.href = '/appointment';
       }
     }
   });
@@ -106,14 +100,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 5. Wellbeing Spaces Carousel (Single image rotation)
   const wbImages = [
-    prefix + 'assets/carousel1-BUqaO1dK.jpg',
-    prefix + 'assets/carousel2-DTTdaTuf.jpg',
-    prefix + 'assets/carousel3-GFF7ZgxW.jpg',
-    prefix + 'assets/carousel4-kql07uS0.jpg',
-    prefix + 'assets/carousel5-5PBn5vWJ.jpg',
-    prefix + 'assets/carousel6-BRLlaZgG.jpg',
-    prefix + 'assets/carousel7-BPTj019V.jpg',
-    prefix + 'assets/carousel8-DtyaDwxk.jpg'
+    '/assets/carousel1-BUqaO1dK.jpg',
+    '/assets/carousel2-DTTdaTuf.jpg',
+    '/assets/carousel3-GFF7ZgxW.jpg',
+    '/assets/carousel4-kql07uS0.jpg',
+    '/assets/carousel5-5PBn5vWJ.jpg',
+    '/assets/carousel6-BRLlaZgG.jpg',
+    '/assets/carousel7-BPTj019V.jpg',
+    '/assets/carousel8-DtyaDwxk.jpg'
   ];
   
   const wbImgEl = document.querySelector('img[alt="carousel-1"]');
@@ -234,17 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const response = await fetch(componentPath);
         if (response.ok) {
           let html = await response.text();
-          // Rewrite relative paths in loaded components to match current page depth
-          html = html.replace(/"(\.\/)(assets\/|index\.html)/g, '"' + prefix + '$2');
-          html = html.replace(/href="\.\//g, 'href="' + prefix);
-          
-          if (!isLocalFile) {
-            // Strip .html from all links to prevent 301/308 redirects that crash proxies like Ruttl
-            html = html.replace(/\.html"/g, '"');
-            html = html.replace(/href="\/index"/g, 'href="/"');
-            html = html.replace(/href="index"/g, 'href="/"');
-          }
-          
+          // We don't need any prefix replacing because components now use absolute paths (href="/...")
           placeholder.outerHTML = html;
         }
       } catch (err) {
@@ -253,28 +237,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  loadComponent('header-placeholder', prefix + 'components/header.html?v=' + new Date().getTime());
-  loadComponent('footer-placeholder', prefix + 'components/footer.html?v=' + new Date().getTime());
+  // Use absolute paths for components since the whole site has been converted to absolute paths
+  loadComponent('header-placeholder', '/components/header.html?v=' + new Date().getTime());
+  loadComponent('footer-placeholder', '/components/footer.html?v=' + new Date().getTime());
 
   // 8. Global Widget Injection
   const widgetScript = document.createElement('script');
   widgetScript.defer = true;
   widgetScript.src = 'https://app.wacrs.com/install-widget/bundle.js?key=6a4151f9-3b56-4868-993a-34ddc5e31b35';
   document.body.appendChild(widgetScript);
-
-  // 9. Ruttl Compatibility (Remove .html to prevent proxy redirect crash)
-  if (!isLocalFile) {
-    const stripHtmlLinks = () => {
-      document.querySelectorAll('a').forEach(a => {
-        let href = a.getAttribute('href');
-        if (href && href.endsWith('.html') && !href.startsWith('http')) {
-          a.setAttribute('href', href.replace(/\.html$/, ''));
-        }
-      });
-    };
-    // Run initially and then observe DOM for dynamic additions
-    stripHtmlLinks();
-    const observer = new MutationObserver(stripHtmlLinks);
-    observer.observe(document.body, { childList: true, subtree: true });
-  }
 });
