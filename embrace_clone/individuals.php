@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    
+    <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Personalised therapy for individuals — anxiety, depression, OCD, trauma, ADHD &amp; more. Book confidential sessions with expert psychologists in Delhi."
+      name="description"
+    />
+    <meta content="index, follow" name="robots" />
+    <link href="https://embracelives.com/individuals" rel="canonical" />
+    <!-- Open Graph -->
+    <meta content="website" property="og:type" />
+    <meta content="https://embracelives.com/individuals" property="og:url" />
+    <meta content="Individual Therapy &amp; Counselling in Delhi | eMbrace Lives" property="og:title" />
+    <meta
+      content="Personalised therapy for individuals — anxiety, depression, OCD, trauma, ADHD &amp; more. Book confidential sessions with expert psychologists in Delhi."
+      property="og:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" property="og:image" />
+    <meta content="1200" property="og:image:width" />
+    <meta content="630" property="og:image:height" />
+    <meta content="eMbrace Lives" property="og:site_name" />
+    <meta content="en_IN" property="og:locale" />
+    <!-- Twitter Card -->
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="Individual Therapy &amp; Counselling in Delhi | eMbrace Lives" name="twitter:title" />
+    <meta
+      content="Personalised therapy for individuals — anxiety, depression, OCD, trauma, ADHD &amp; more. Book confidential sessions with expert psychologists in Delhi."
+      name="twitter:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "eMbrace Lives",
+        "alternateName": "eMbrace - SMD Wellness",
+        "url": "https://embracelives.com",
+        "logo": "https://embracelives.com/Logo.svg",
+        "description": "Leading psychology and mental health practice in Delhi offering evidence-based therapy, assessments, and neurodevelopmental care for children, adolescents, and adults.",
+        "telephone": "+919971576800",
+        "email": "info@embracelives.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Delhi",
+          "addressRegion": "Delhi",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "28.6139",
+          "longitude": "77.2090"
+        },
+        "priceRange": "$$",
+        "medicalSpecialty": ["Psychiatric", "ClinicalPsychology"],
+        "availableService": [
+          { "@type": "MedicalTherapy", "name": "Child Psychology" },
+          { "@type": "MedicalTherapy", "name": "Clinical Psychology" },
+          { "@type": "MedicalTherapy", "name": "Couples Therapy" },
+          { "@type": "MedicalTherapy", "name": "ADHD Assessment" },
+          { "@type": "MedicalTherapy", "name": "Autism Assessment" },
+          { "@type": "MedicalTherapy", "name": "CBT for Anxiety & Depression" }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/embracelives/",
+          "https://www.instagram.com/embracelives/",
+          "https://www.facebook.com/embracelives22/"
+        ]
+      }
+    </script>
+    <title>Individual Therapy &amp; Counselling in Delhi | eMbrace Lives</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
+
+    <link href="/assets/index-B-kGA3UA.css" rel="stylesheet" />
+    <style></style>
+  </head>
+  <body>
+    <div id="root">
+      <?php include __DIR__ . '/components/header.php'; ?>
+      <div
+        class="md:min-h-[calc(100vh-4.4rem)] overflow-hidden flex flex-col items-center justify-center bg-linear-to-b from-[#9A82F1BD] to-[#FFFFFF] px-4 md:px-8 lg:px-16 xl:px-30 py-6 md:py-6 relative"
+      >
+        <div class="flex flex-col items-center justify-center">
+          <h1 class="md:text-3xl text-lg font-bold text-center 2xl:text-5xl">eMbrace for Individuals</h1>
+          <p
+            class="2xl:mt-4 2xl:text-2xl font-medium text-sm md:text-base text-center text-[var(--text-gray)] italic mt-6 md:mt-0"
+          >
+            Personalized Assessments, Therapy &amp; Growth-Oriented Care
+          </p>
+        </div>
+        <div class="relative w-full flex flex-col items-center justify-center 2xl:mt-30 md:mt-14 -mt-6">
+          <div class="flex items-center justify-center w-full gap-2 md:gap-6 relative h-56 md:h-60">
+            <img
+              alt="carousel-img-0"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-30 md:scale-95 scale-170 -translate-x-1/2 -translate-y-1/2 shadow-2xl"
+              src="/assets/Hero1-B13kQdwT.png"
+              style="pointer-events: auto; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-1"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[10%] md:translate-x-[0%]"
+              src="/assets/Hero2-B1Wdq_gu.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-2"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 translate-x-[30%]"
+              src="/assets/Hero3-C49V_DRg.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-3"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 -translate-x-[130%]"
+              src="/assets/Hero2-CbQ4Vkfd.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-4"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[90%] md:-translate-x-[100%]"
+              src="/assets/Hero5-DGKC96dw.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            />
+          </div>
+          <div class="flex items-center justify-center 2xl:mt-30 md:mt-14 -mt-5 gap-4 relative z-20">
+            <button aria-label="Previous" class="cursor-pointer">
+              <img
+                alt="Previous"
+                class="rotate-180 w-6 h-6"
+                src="data:image/svg+xml,%3csvg%20width='60'%20height='60'%20viewBox='0%200%2060%2060'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M40.2473%2036.2435H14.0938V29.756H40.2473L30.2166%2019.0747L34.5245%2014.4873L51.9092%2032.9998L34.5245%2051.5123L30.2166%2046.9249L40.2473%2036.2435Z'%20fill='%23999999'/%3e%3c/svg%3e"
+              />
+            </button>
+            <div class="flex gap-2">
+              <span class="h-2 w-2 rounded-full bg-purple-500"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span>
+            </div>
+            <button aria-label="Next" class="cursor-pointer">
+              <img
+                alt="Next"
+                class="w-6 h-6"
+                src="data:image/svg+xml,%3csvg%20width='60'%20height='60'%20viewBox='0%200%2060%2060'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M40.2473%2036.2435H14.0938V29.756H40.2473L30.2166%2019.0747L34.5245%2014.4873L51.9092%2032.9998L34.5245%2051.5123L30.2166%2046.9249L40.2473%2036.2435Z'%20fill='%23999999'/%3e%3c/svg%3e"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col mt-4 items-center justify-center">
+          <span class="2xl:text-2xl font-medium text-[var(--text-gray)] md:text-sm mb-6 md:mb-2 italic text-center"
+            >Whether you're managing anxiety, building emotional resilience, or seeking support for neurodivergence,
+            eMbrace offers personalised expert-led care designed to fit your lifestyle and support your goals.<br />Tailored
+            support for self-awareness, mental well-being &amp; everyday functioning.</span
+          ><button
+            class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
+          >
+            Book a Session
+          </button>
+        </div>
+      </div>
+      <div
+        class="md:min-h-screen md:justify-around 2xl:justify-center overflow-hidden w-full p-2 relative flex flex-col md:p-12 gap-8"
+      >
+        <div class="h-14 w-14 hidden md:block bg-[#90A7E187] rounded-full absolute -right-[1%] top-[50%]"></div>
+        <div class="h-14 w-14 hidden md:block bg-[#FFCC0073] rounded-full absolute -left-[2.5%] top-[30%]"></div>
+        <div class="h-14 w-14 hidden md:block bg-[#FF8E0070] rounded-full absolute -bottom-[2%] left-[10%]"></div>
+        <div
+          class="md:min-h-fit md:justify-around 2xl:justify-center overflow-hidden w-full px-2 relative flex flex-col gap-4"
+        >
+          <div class="flex flex-col items-center justify-center gap-4">
+            <h1 class="md:text-3xl text-lg font-bold text-center 2xl:text-5xl">What We Offer</h1>
+            <p class="font-semibold 2xl:text-2xl text-sm md:text-base text-center text-[var(--text-gray)] italic mt-0">
+              Evidence-Based services personalized for you
+            </p>
+          </div>
+          <div class="2xl:px-12 flex md:flex-row w-[90%] flex-col items-stretch mx-auto h-auto gap-8 justify-center">
+            <div
+              class="2xl:gap-2 pb-2 2xl:py-10 md:border-[1.5px] border-[#90A7E1] md:w-[90%] w-full lg:w-[40%] justify-center items-center px-4 md:h-auto pt-6 md:pt-0 z-10 bg-[#FFFFFFDE] rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)]"
+            >
+              <img
+                alt=""
+                class="md:w-[80%] md:h-[60%] w-[90%] md:mb-0 mb-2"
+                src="/assets/Individuals1-B0t43PEj.svg"
+              /><span class="text-base 2xl:text-2xl 3xl:text-5xl font-bold text-center md:mb-4 mb-2"
+                ><span class="">Assessments</span></span
+              ><span class="font-semibold text-sm md:w-[80%] text-center md:mb-4 mb-2"
+                >Get clear answers with gold-standard evaluations</span
+              >
+              <div
+                class="rounded-2xl bg-[#9A82F11C] text-sm shadow-md/20 px-6 2xl:py-8 w-full h-auto md:h-35 justify-center flex flex-col md:mb-4 mb-2"
+              >
+                <li>Self-Discovery &amp; Personality Profiles</li>
+                <li>ADHD, Autism &amp; Neurodivergent Screening</li>
+                <li>Mood, Anxiety &amp; Diagnostic Reports (ICD-10/DSM-5 aligned)</li>
+              </div>
+              <span class="italic text-center text-sm md:w-[80%]"
+                >Know yourself better to choose the right care path.</span
+              >
+            </div>
+            <div
+              class="2xl:gap-2 pb-2 2xl:py-10 md:border-[1.5px] border-[#90A7E1] md:w-[90%] w-full lg:w-[40%] justify-center items-center px-4 md:h-auto pt-6 md:pt-0 z-10 bg-[#FFFFFFDE] rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)]"
+            >
+              <img
+                alt=""
+                class="md:w-[80%] md:h-[60%] w-[90%] md:mb-0 mb-2"
+                src="/assets/Individuals2-Dl2lw0um.svg"
+              /><span class="text-base 2xl:text-2xl 3xl:text-5xl font-bold text-center md:mb-4 mb-2"
+                ><span class="">Individual Therapy</span></span
+              ><span class="font-semibold text-sm md:w-[80%] text-center md:mb-4 mb-2"
+                >One-on-one therapy for a healthier mind and life</span
+              >
+              <div
+                class="rounded-2xl bg-[#9A82F11C] text-sm shadow-md/20 px-6 2xl:py-8 w-full h-auto md:h-35 justify-center flex flex-col md:mb-4 mb-2"
+              >
+                <li>Anxiety, Depression, Trauma, Self-Esteem</li>
+                <li>Adult ADHD, OCD, Emotional Regulation</li>
+                <li>Grief, Life Transitions &amp; Burnout</li>
+              </div>
+              <span class="italic text-center text-sm md:w-[80%]"
+                >Goal-based, structured therapy to support real-life change.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="md:min-h-fit 2xl: md:justify-around 2xl:justify-center overflow-hidden w-[90%] mx-auto px-2 relative flex flex-col gap-4"
+        >
+          <div class="2xl:px-12 flex md:flex-row w-full flex-col items-stretch h-auto gap-8 justify-center">
+            <div
+              class="2xl:gap-2 pb-2 2xl:py-10 md:border-[1.5px] border-[#90A7E1] md:w-[90%] w-full lg:w-[40%] justify-center items-center px-4 md:h-auto pt-6 md:pt-0 z-10 bg-[#FFFFFFDE] rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)]"
+            >
+              <img
+                alt=""
+                class="md:w-[80%] md:h-[60%] w-[90%] md:mb-0 mb-2"
+                src="/assets/Individuals3-BA03dIp1.svg"
+              /><span class="text-base 2xl:text-2xl 3xl:text-5xl font-bold text-center md:mb-4 mb-2"
+                ><span class="">Psychiatric Consults</span></span
+              ><span class="md:w-[80%] font-semibold text-sm text-center md:mb-4 mb-2"
+                >Expert medication management &amp; diagnosis</span
+              >
+              <div
+                class="rounded-2xl bg-[#9A82F11C] text-sm shadow-md/20 px-6 w-full h-auto md:h-35 justify-center flex flex-col md:mb-4 mb-2"
+              >
+                <li>Initial Evaluation</li>
+                <li>Ongoing Psychiatric Support</li>
+                <li>Collaborative Care with Therapists</li>
+              </div>
+              <span class="md:w-[80%] text-sm italic text-center"
+                >Medical support, when and if needed, with full transparency.</span
+              >
+            </div>
+            <div
+              class="2xl:gap-2 pb-2 2xl:py-10 md:border-[1.5px] border-[#90A7E1] md:w-[90%] w-full lg:w-[40%] justify-center items-center px-4 md:h-auto pt-6 md:pt-0 z-10 bg-[#FFFFFFDE] rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)]"
+            >
+              <img
+                alt=""
+                class="md:w-[80%] md:h-[60%] w-[90%] md:mb-0 mb-2"
+                src="/assets/Individuals4-B27Cwrx9.svg"
+              /><span class="text-base 2xl:text-2xl 3xl:text-5xl font-bold text-center md:mb-4 mb-2"
+                ><span class="">Support for Neurodivergence</span></span
+              ><span class="md:w-[80%] font-semibold text-sm text-center md:mb-4 mb-2"
+                >Empowering neurodiverse adults to thrive</span
+              >
+              <div
+                class="rounded-2xl bg-[#9A82F11C] text-sm shadow-md/20 px-6 w-full h-auto md:h-35 justify-center flex flex-col md:mb-4 mb-2"
+              >
+                <li>Executive Function Coaching</li>
+                <li>Sensory, Social &amp; Emotional Skills</li>
+                <li>Workplace &amp; Life Skills Training</li>
+              </div>
+              <span class="md:w-[80%] text-sm italic text-center"
+                >Strengths-based approach to ADHD, Autism &amp; more.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="hidden md:overflow-hidden md:min-h-fit overflow-visible md:flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-20 py-6 md:py-10 relative bg-gradient-to-b from-[#FAF4FF] to-[#F5FAFB]"
+      >
+        <div class="absolute h-14 w-14 hidden md:block rounded-full bg-[#BEEDB9] -bottom-[4%] left-[10%]"></div>
+        <img
+          alt=""
+          class="absolute hidden md:block h-14 w-14 right-[0] bottom-[10%]"
+          src="data:image/svg+xml,%3csvg%20width='126'%20height='128'%20viewBox='0%200%20126%20128'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M125.242%2064C125.242%2049.1933%20120.228%2034.8446%20111.055%2023.3988C101.882%2011.9531%2089.1172%204.11839%2074.9353%201.22974C60.7535%20-1.65891%2046.0322%200.57719%2033.2799%207.55704C20.5276%2014.5369%2010.5332%2025.8286%204.99972%2039.5083C-0.533772%2053.1879%20-1.26401%2068.409%202.93341%2082.5782C7.13084%2096.7474%2015.9962%20108.988%2028.019%20117.214C40.0418%20125.44%2054.4782%20129.143%2068.8682%20127.692C83.2583%20126.241%2096.7118%20119.725%20106.936%20109.255L62.7422%2064H125.242Z'%20fill='%23FFCC00'%20fill-opacity='0.45'/%3e%3c/svg%3e"
+        />
+        <div class="container mx-auto">
+          <div class="flex flex-col items-center justify-center w-full">
+            <h1 class="text-center text-2xl md:text-2xl lg:text-3xl font-bold">What Our Clients Say</h1>
+            <div class="flex flex-col md:flex-row gap-6 md:gap-10 mt-10">
+              <div
+                class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
+              >
+                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient1-A-Cz0pZt.svg" />
+                <div class="text-start">
+                  <p class="text-sm lg:text-base text-gray-600">
+                    "Therapy at eMbrace helped me understand myself better, manage stress, and improve my work-life
+                    balance."
+                  </p>
+                </div>
+              </div>
+              <div
+                class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
+              >
+                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient2-B-kI2dcu.png" />
+                <div class="text-start">
+                  <p class="text-sm lg:text-base text-gray-600">
+                    "I always struggled with focus &amp; organization. Getting an ADHD diagnosis as an adult was
+                    life-changing, and eMbrace supported me every step of the way."
+                  </p>
+                </div>
+              </div>
+              <div
+                class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
+              >
+                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient3-CQPVFc5b.svg" />
+                <div class="text-start">
+                  <p class="text-sm lg:text-base text-gray-600">
+                    "eMbrace has been so supportive towards my needs, I've benefitted a lot from taking help, the team
+                    is fantastic."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p
+              class="text-center items-center text-lg md:text-xl lg:text-2xl mt-6 md:w-2/3 w-full italic text-[#4562AD] font-medium"
+            >
+              Prioritize your well-being today.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:min-h-fit overflow-visible flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-20 py-6 md:py-10 relative bg-gradient-to-b from-[#ffffff] to-[#E6FFFD99]/80"
+      >
+        <div class="h-6 w-12 hidden md:block absolute bg-[#46CC8D6B] rounded-b-full top-[0%] right-[15%]"></div>
+        <h1 class="text-xl md:text-3xl font-bold text-center 2xl:text-5xl">See Wellbeing Spaces in Action</h1>
+        <p class="font-medium text-[var(--text-gray)] italic text-center 2xl:text-2xl 2xl:mt-4">
+          Personalized, empathetic spaces designed for comfort and growth
+        </p>
+        <div class="relative flex mt-6 items-center justify-center w-full mx-auto">
+          <img
+            alt="carousel-1"
+            class="md:w-[90%] 2xl:h-[50rem] h-[30rem] object-cover rounded-xl shadow"
+            src="/assets/carousel1-BUqaO1dK.jpg"
+          /><button
+            class="absolute top-1/2 left-16 2xl:left-25 -translate-y-1/2 z-10 p-3 md:p-4 bg-white/70 rounded-full shadow hover:bg-white"
+          >
+            <img
+              alt="Previous"
+              class="md:w-4 md:h-4 w-3 h-3"
+              src="data:image/svg+xml,%3csvg%20width='30'%20height='39'%20viewBox='0%200%2030%2039'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.694%2017.0118C-0.0713594%2018.2009%20-0.0713545%2020.7991%201.694%2021.9882L24.824%2037.568C26.8167%2038.9102%2029.5%2037.4824%2029.5%2035.0798L29.5%203.92019C29.5%201.51762%2026.8167%200.0897827%2024.824%201.432L1.694%2017.0118Z'%20fill='%23234394'/%3e%3c/svg%3e"
+            /></button
+          ><button
+            class="absolute top-1/2 right-16 2xl:right-25 -translate-y-1/2 z-10 p-3 md:p-4 bg-white/70 rounded-full shadow hover:bg-white"
+          >
+            <img
+              alt="Next"
+              class="rotate-180 md:w-4 md:h-4 w-3 h-3"
+              src="data:image/svg+xml,%3csvg%20width='30'%20height='39'%20viewBox='0%200%2030%2039'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.694%2017.0118C-0.0713594%2018.2009%20-0.0713545%2020.7991%201.694%2021.9882L24.824%2037.568C26.8167%2038.9102%2029.5%2037.4824%2029.5%2035.0798L29.5%203.92019C29.5%201.51762%2026.8167%200.0897827%2024.824%201.432L1.694%2017.0118Z'%20fill='%23234394'/%3e%3c/svg%3e"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="md:min-h-fit md:pb-20 pb-12 md:p-16 bg-gradient-to-b from-[#E6FFFD99]/80 to-[#FEF9FC] justify-center items-center flex p-6 font-sans relative overflow-hidden drop-shadow-xs"
+      >
+        <div class="h-14 w-14 hidden md:block bg-[#FFCC0066] rounded-full right-[18%] -bottom-[4%] absolute"></div>
+        <div class="h-14 w-14 hidden md:block bg-[#BE62796B] rounded-full -right-[2.25%] top-[15%] absolute"></div>
+        <div class="h-14 w-14 hidden md:block bg-[#90A7E19C] rounded-full -left-[2.25%] top-[40%] absolute"></div>
+        <div class="max-w-3xl 2xl:max-w-5xl mx-auto">
+          <div class="text-center mb-8">
+            <h1 class="text-2xl 2xl:text-5xl xl:text-3xl font-bold text-gray-900">Frequently asked questions</h1>
+          </div>
+          <div class="space-y-4 mb-12">
+            <div class="bg-white rounded-lg shadow-sm overflow-hidden 2xl:py-2">
+              <button
+                class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
+              >
+                <span class="2xl:text-3xl font-medium text-gray-800 md:text-base text-sm break-words"
+                  > How do I know if I need therapy or just a one-time consultation?</span
+                ><img
+                  alt="toggle"
+                  class="w-5 h-5 sm:w-4 sm:h-4 transition-transform duration-200 rotate-45"
+                  src="data:image/svg+xml,%3csvg%20width='46'%20height='48'%20viewBox='0%200%2046%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M43.125%2021H25.875V3C25.875%202.20435%2025.5721%201.44129%2025.0329%200.87868C24.4938%200.316071%2023.7625%200%2023%200C22.2375%200%2021.5062%200.316071%2020.9671%200.87868C20.4279%201.44129%2020.125%202.20435%2020.125%203V21H2.875C2.1125%2021%201.38124%2021.3161%200.842069%2021.8787C0.302901%2022.4413%200%2023.2044%200%2024C0%2024.7956%200.302901%2025.5587%200.842069%2026.1213C1.38124%2026.6839%202.1125%2027%202.875%2027H20.125V45C20.125%2045.7957%2020.4279%2046.5587%2020.9671%2047.1213C21.5062%2047.6839%2022.2375%2048%2023%2048C23.7625%2048%2024.4938%2047.6839%2025.0329%2047.1213C25.5721%2046.5587%2025.875%2045.7957%2025.875%2045V27H43.125C43.8875%2027%2044.6188%2026.6839%2045.1579%2026.1213C45.6971%2025.5587%2046%2024.7956%2046%2024C46%2023.2044%2045.6971%2022.4413%2045.1579%2021.8787C44.6188%2021.3161%2043.8875%2021%2043.125%2021Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
+                />
+              </button>
+              <div
+                class="transition-all duration-300 ease-in-out overflow-hidden px-4 sm:px-6 max-h-[1000px] py-2 opacity-100"
+                style="word-break: break-word"
+              >
+                <div class="2xl:text-2xl pb-4 text-sm sm:text-base break-words">
+                  <div class="space-y-3">
+                    <p class="text-[#234394] font-semibold">
+                       If you're experiencing stress, low mood, difficulty in relationships, or need clarity about your
+                      mental health, starting with a consultation can help. Our experts will guide you on whether
+                      therapy, assessment, or another service is the best next step.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-sm overflow-hidden 2xl:py-2">
+              <button
+                class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
+              >
+                <span class="2xl:text-3xl font-medium text-gray-800 md:text-base text-sm break-words"
+                  >Do you provide support for neurodivergent adults (like ADHD or Autism)?</span
+                ><img
+                  alt="toggle"
+                  class="w-5 h-5 sm:w-4 sm:h-4 transition-transform duration-200"
+                  src="data:image/svg+xml,%3csvg%20width='46'%20height='48'%20viewBox='0%200%2046%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M43.125%2021H25.875V3C25.875%202.20435%2025.5721%201.44129%2025.0329%200.87868C24.4938%200.316071%2023.7625%200%2023%200C22.2375%200%2021.5062%200.316071%2020.9671%200.87868C20.4279%201.44129%2020.125%202.20435%2020.125%203V21H2.875C2.1125%2021%201.38124%2021.3161%200.842069%2021.8787C0.302901%2022.4413%200%2023.2044%200%2024C0%2024.7956%200.302901%2025.5587%200.842069%2026.1213C1.38124%2026.6839%202.1125%2027%202.875%2027H20.125V45C20.125%2045.7957%2020.4279%2046.5587%2020.9671%2047.1213C21.5062%2047.6839%2022.2375%2048%2023%2048C23.7625%2048%2024.4938%2047.6839%2025.0329%2047.1213C25.5721%2046.5587%2025.875%2045.7957%2025.875%2045V27H43.125C43.8875%2027%2044.6188%2026.6839%2045.1579%2026.1213C45.6971%2025.5587%2046%2024.7956%2046%2024C46%2023.2044%2045.6971%2022.4413%2045.1579%2021.8787C44.6188%2021.3161%2043.8875%2021%2043.125%2021Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
+                />
+              </button>
+              <div
+                class="transition-all duration-300 ease-in-out overflow-hidden px-4 sm:px-6 max-h-0 opacity-0"
+                style="word-break: break-word"
+              >
+                <div class="2xl:text-2xl pb-4 text-sm sm:text-base break-words">
+                  <div class="space-y-3">
+                    <p class="text-[#234394] font-semibold">
+                       Yes. We offer gold-standard assessments and therapeutic interventions tailored to support
+                      neurodivergent adults, including those with ADHD, Autism, or learning differences.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-sm overflow-hidden 2xl:py-2">
+              <button
+                class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
+              >
+                <span class="2xl:text-3xl font-medium text-gray-800 md:text-base text-sm break-words"
+                  > Can I book sessions remotely or only in person?</span
+                ><img
+                  alt="toggle"
+                  class="w-5 h-5 sm:w-4 sm:h-4 transition-transform duration-200"
+                  src="data:image/svg+xml,%3csvg%20width='46'%20height='48'%20viewBox='0%200%2046%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M43.125%2021H25.875V3C25.875%202.20435%2025.5721%201.44129%2025.0329%200.87868C24.4938%200.316071%2023.7625%200%2023%200C22.2375%200%2021.5062%200.316071%2020.9671%200.87868C20.4279%201.44129%2020.125%202.20435%2020.125%203V21H2.875C2.1125%2021%201.38124%2021.3161%200.842069%2021.8787C0.302901%2022.4413%200%2023.2044%200%2024C0%2024.7956%200.302901%2025.5587%200.842069%2026.1213C1.38124%2026.6839%202.1125%2027%202.875%2027H20.125V45C20.125%2045.7957%2020.4279%2046.5587%2020.9671%2047.1213C21.5062%2047.6839%2022.2375%2048%2023%2048C23.7625%2048%2024.4938%2047.6839%2025.0329%2047.1213C25.5721%2046.5587%2025.875%2045.7957%2025.875%2045V27H43.125C43.8875%2027%2044.6188%2026.6839%2045.1579%2026.1213C45.6971%2025.5587%2046%2024.7956%2046%2024C46%2023.2044%2045.6971%2022.4413%2045.1579%2021.8787C44.6188%2021.3161%2043.8875%2021%2043.125%2021Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
+                />
+              </button>
+              <div
+                class="transition-all duration-300 ease-in-out overflow-hidden px-4 sm:px-6 max-h-0 opacity-0"
+                style="word-break: break-word"
+              >
+                <div class="2xl:text-2xl pb-4 text-sm sm:text-base break-words">
+                  <div class="space-y-3">
+                    <p class="text-[#234394] font-semibold">
+                       Both! We offer flexible in-person sessions at our centers and secure online therapy options so
+                      you can choose what works best for you.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-sm overflow-hidden 2xl:py-2">
+              <button
+                class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
+              >
+                <span class="2xl:text-3xl font-medium text-gray-800 md:text-base text-sm break-words"
+                  > What qualifications do your therapists have?</span
+                ><img
+                  alt="toggle"
+                  class="w-5 h-5 sm:w-4 sm:h-4 transition-transform duration-200"
+                  src="data:image/svg+xml,%3csvg%20width='46'%20height='48'%20viewBox='0%200%2046%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M43.125%2021H25.875V3C25.875%202.20435%2025.5721%201.44129%2025.0329%200.87868C24.4938%200.316071%2023.7625%200%2023%200C22.2375%200%2021.5062%200.316071%2020.9671%200.87868C20.4279%201.44129%2020.125%202.20435%2020.125%203V21H2.875C2.1125%2021%201.38124%2021.3161%200.842069%2021.8787C0.302901%2022.4413%200%2023.2044%200%2024C0%2024.7956%200.302901%2025.5587%200.842069%2026.1213C1.38124%2026.6839%202.1125%2027%202.875%2027H20.125V45C20.125%2045.7957%2020.4279%2046.5587%2020.9671%2047.1213C21.5062%2047.6839%2022.2375%2048%2023%2048C23.7625%2048%2024.4938%2047.6839%2025.0329%2047.1213C25.5721%2046.5587%2025.875%2045.7957%2025.875%2045V27H43.125C43.8875%2027%2044.6188%2026.6839%2045.1579%2026.1213C45.6971%2025.5587%2046%2024.7956%2046%2024C46%2023.2044%2045.6971%2022.4413%2045.1579%2021.8787C44.6188%2021.3161%2043.8875%2021%2043.125%2021Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
+                />
+              </button>
+              <div
+                class="transition-all duration-300 ease-in-out overflow-hidden px-4 sm:px-6 max-h-0 opacity-0"
+                style="word-break: break-word"
+              >
+                <div class="2xl:text-2xl pb-4 text-sm sm:text-base break-words">
+                  <div class="space-y-3">
+                    <p class="text-[#234394] font-semibold">
+                       All our therapists are certified clinical or counseling psychologists with advanced degrees and
+                      training in evidence-based therapeutic modalities.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="2xl:text-2xl xl:text-lg font-semibold text-gray-800 text-center">
+            Have more questions? Write to us at
+            <a class="text-[#234394]" href="mailto:enquiries@embracelives.com">enquiries@embracelives.com</a>
+          </p>
+        </div>
+      </div>
+      <?php include __DIR__ . '/components/footer.php'; ?>
+    </div>
+    
+    <script src="/assets/interactive.js"></script>
+  </body>
+</html>

@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    
+    <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Submit your partnership inquiry — schools, universities, corporates &amp; healthcare institutions. Collaborate with eMbrace for mental health services."
+      name="description"
+    />
+    <meta content="index, follow" name="robots" />
+    <link href="https://embracelives.com/partners" rel="canonical" />
+    <!-- Open Graph -->
+    <meta content="website" property="og:type" />
+    <meta content="https://embracelives.com/partners" property="og:url" />
+    <meta content="Partner With eMbrace | Business &amp; Institutional Partnerships" property="og:title" />
+    <meta
+      content="Submit your partnership inquiry — schools, universities, corporates &amp; healthcare institutions. Collaborate with eMbrace for mental health services."
+      property="og:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" property="og:image" />
+    <meta content="1200" property="og:image:width" />
+    <meta content="630" property="og:image:height" />
+    <meta content="eMbrace Lives" property="og:site_name" />
+    <meta content="en_IN" property="og:locale" />
+    <!-- Twitter Card -->
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="Partner With eMbrace | Business &amp; Institutional Partnerships" name="twitter:title" />
+    <meta
+      content="Submit your partnership inquiry — schools, universities, corporates &amp; healthcare institutions. Collaborate with eMbrace for mental health services."
+      name="twitter:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "eMbrace Lives",
+        "alternateName": "eMbrace - SMD Wellness",
+        "url": "https://embracelives.com",
+        "logo": "https://embracelives.com/Logo.svg",
+        "description": "Leading psychology and mental health practice in Delhi offering evidence-based therapy, assessments, and neurodevelopmental care for children, adolescents, and adults.",
+        "telephone": "+919971576800",
+        "email": "info@embracelives.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Delhi",
+          "addressRegion": "Delhi",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "28.6139",
+          "longitude": "77.2090"
+        },
+        "priceRange": "$$",
+        "medicalSpecialty": ["Psychiatric", "ClinicalPsychology"],
+        "availableService": [
+          { "@type": "MedicalTherapy", "name": "Child Psychology" },
+          { "@type": "MedicalTherapy", "name": "Clinical Psychology" },
+          { "@type": "MedicalTherapy", "name": "Couples Therapy" },
+          { "@type": "MedicalTherapy", "name": "ADHD Assessment" },
+          { "@type": "MedicalTherapy", "name": "Autism Assessment" },
+          { "@type": "MedicalTherapy", "name": "CBT for Anxiety & Depression" }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/embracelives/",
+          "https://www.instagram.com/embracelives/",
+          "https://www.facebook.com/embracelives22/"
+        ]
+      }
+    </script>
+    <title>Partner With eMbrace | Business &amp; Institutional Partnerships</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
+
+    <link href="/assets/index-B-kGA3UA.css" rel="stylesheet" />
+    <style></style>
+  </head>
+  <body>
+    <div id="root">
+      <?php include __DIR__ . '/components/header.php'; ?>
+      <div
+        class="flex flex-col items-center w-full bg-white pt-6 lg:pt-12 pb-10 lg:pb-20 text-center text-sm lg:text-base text-gray-800 relative overflow-hidden"
+      >
+        <img
+          alt="decoration"
+          class="absolute h-10 w-10 left-4 lg:top-[1%] lg:left-[30.5%] lg:w-12 lg:h-12 top-[0.4%] opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute h-10 w-10 left-1 lg:top-[0.75%] lg:left-[29.5%] lg:w-12 lg:h-12 top-[0.25%] opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute h-12 w-12 -left-2 top-[24.7%] lg:top-[34%] lg:-left-5 lg:w-13 lg:h-13 opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute h-12 w-12 left-3 top-[24.9%] lg:top-[34.4%] lg:left-0 lg:w-13 lg:h-13 opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute h-12 w-12 -right-2 top-[34.2%] lg:top-[48%] lg:-right-5 lg:w-13 lg:h-13 opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute h-12 w-12 right-3 top-[34%] lg:top-[48.4%] lg:right-0 lg:w-13 lg:h-13 opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute h-12 w-12 -right-2 top-[56.4%] lg:block lg:top-[54.2%] lg:right-[9.5%] md:hidden lg:w-13 lg:h-13 opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute h-12 w-12 right-3 top-[56.2%] lg:block lg:top-[54%] lg:right-[11.6%] lg:w-13 md:hidden lg:h-13 opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute hidden lg:block lg:top-[70%] lg:right-15 lg:w-13 lg:h-13 opacity-70 z-30"
+          src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute hidden lg:block lg:top-[70.4%] lg:right-10 lg:w-13 lg:h-13 opacity-70 z-30"
+          src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute hidden lg:block lg:top-[80%] lg:left-15 lg:w-13 lg:h-11 opacity-70 z-30"
+          src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute hidden lg:block lg:top-[80.4%] lg:left-10 lg:w-13 lg:h-11 opacity-70 z-30"
+          src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute h-12 w-12 -left-2 top-[8.7%] lg:top-[12.7%] lg:left-[12%] lg:w-14 lg:h-14 opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute h-13 w-13 -right-5 top-[16.5%] lg:top-[21%] lg:-right-5 lg:w-16 lg:h-16 opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute hidden lg:block lg:top-[40%] lg:left-[27%] lg:w-14 lg:h-14 opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute hidden lg:block lg:top-[44%] lg:-right-5 lg:w-14 lg:h-14 opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='120'%20height='120'%20viewBox='0%200%20120%20120'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='60'%20cy='60'%20r='60'%20fill='%23FFCC008A'%20fill-opacity='0.62'%20stroke-opacity='0.55'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute hidden lg:block lg:top-[46.9%] lg:-left-5 lg:w-14 lg:h-14 opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute h-16 w-16 -left-2 top-[51.3%] lg:top-[50%] z-30"
+          src="data:image/svg+xml,%3csvg%20width='120'%20height='120'%20viewBox='0%200%20120%20120'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='60'%20cy='60'%20r='60'%20fill='%23FFCC008A'%20fill-opacity='0.62'%20stroke-opacity='0.55'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute hidden lg:block lg:top-[54.8%] lg:left-[10%] lg:w-14 lg:h-14 opacity-70"
+          src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute h-13 w-13 -left-2 top-[58.45%] lg:top-[50%] lg:hidden"
+          src="data:image/svg+xml,%3csvg%20width='120'%20height='120'%20viewBox='0%200%20120%20120'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='60'%20cy='60'%20r='60'%20fill='%23FFAAF9'%20fill-opacity='0.62'%20stroke='%23BA57D6'%20stroke-opacity='0.55'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute h-15 w-15 lg:hidden top-[75%] -right-5 md:hidden lg:h-13 opacity-70 z-10"
+          src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute hidden lg:h-13 lg:w-13 right-16 lg:top-[94%] lg:block z-30"
+          src="data:image/svg+xml,%3csvg%20width='120'%20height='120'%20viewBox='0%200%20120%20120'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='60'%20cy='60'%20r='60'%20fill='%23FFAAF9'%20fill-opacity='0.62'%20stroke='%23BA57D6'%20stroke-opacity='0.55'/%3e%3c/svg%3e"
+        /><img
+          alt="decoration"
+          class="absolute hidden lg:h-13 lg:w-13 -left-5 lg:top-[98%] lg:block z-30"
+          src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        />
+        <div class="px-5 lg:px-10 text-center max-w-6xl mx-auto pt-5">
+          <h2 class="text-lg lg:text-3xl font-semibold mb-2 lg:mb-4">Partner with eMbrace</h2>
+          <p class="italic mb-2 lg:mb-4 text-[#000] mx-auto text-base lg:text-xl w-[80%] lg:w-full">
+            Building an Inclusive Future Together
+          </p>
+          <p class="mb-4 lg:mb-8 text-[13px] lg:text-base leading-relaxed max-w-4xl mx-auto">
+            At eMbrace, we believe in the power of collaboration to create
+            <span class="font-semibold text-[#234394]">inclusive, neurodivergent-friendly environments</span> across
+            schools, workplaces, and healthcare. Our expertise in
+            <span class="font-semibold text-[#234394]"
+              >mental health, developmental assessments, therapy, and training</span
+            >
+            allows us to work with organizations, startups, and institutions to make mental healthcare and
+            neurodiversity support more accessible.
+          </p>
+          <h3 class="font-bold text-base lg:text-2xl mb-1 lg:mb-2">Our Current Collaborations</h3>
+          <p class="text-[13px] lg:text-base max-w-3xl mx-auto">
+            We are proud to collaborate with leading organizations dedicated to
+            <span class="font-semibold text-[#234394]">inclusivity, mental health, and neurodevelopmental support</span
+            >.
+          </p>
+        </div>
+        <div class="w-full px-4 lg:px-8 mt-10 lg:mt-16">
+          <h4 class="text-base lg:text-2xl font-semibold text-center mb-2 lg:mb-4">
+            Our <span class="text-sm lg:text-2xl font-semibold text-[#403D3DBA]">Educational Institutes Partners</span>
+          </h4>
+          <hr class="border-t-[1.5px] border-[#2C532C5E] w-3/4 lg:w-1/6 mx-auto mb-4 lg:mb-8" />
+          <div
+            class="flex flex-col lg:flex-row lg:flex-wrap items-center justify-center gap-6 lg:gap-9 max-w-6xl mx-auto"
+          >
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img
+                alt="The British School"
+                class="h-18 lg:h-22 object-contain"
+                src="/assets/TheBritishSchool-CY5Q_erx.svg"
+              />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img
+                alt="Woodstock School"
+                class="h-18 lg:h-22 object-contain"
+                src="/assets/WoodStockSchool-B0AuoDPe.svg"
+              />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img
+                alt="The American School"
+                class="h-18 lg:h-22 object-contain"
+                src="/assets/TheAmericanSchool-1h11OWxV.svg"
+              />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img
+                alt="Ashoka University"
+                class="h-18 lg:h-22 object-contain"
+                src="/assets/AshokaUniversity-BtP9NfW9.svg"
+              />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img
+                alt="Little Pearls School"
+                class="h-18 lg:h-22 object-contain"
+                src="/assets/LittlePearlSchool-BYGCKHDr.svg"
+              />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img
+                alt="The Doon School"
+                class="h-18 lg:h-22 object-contain"
+                src="/assets/TheDoonSchool-CWT5vHM2.svg"
+              />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img alt="Lincoln School" class="h-18 lg:h-22 object-contain" src="/assets/LincolnSchool-CR6ruIOl.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-4 lg:px-8 mt-10 lg:mt-16">
+          <h4 class="text-base lg:text-2xl font-semibold text-center mb-2 lg:mb-4">
+            Our <span class="text-sm lg:text-2xl font-semibold text-[#403D3DBA]">Health-care Partners</span>
+          </h4>
+          <hr class="border-t-[1.5px] border-[#2C532C5E] w-3/4 lg:w-1/6 mx-auto mb-4 lg:mb-8" />
+          <div
+            class="flex flex-col lg:flex-row lg:flex-wrap items-center justify-center gap-6 lg:gap-9 max-w-6xl mx-auto"
+          >
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img
+                alt="Rainbow Children's Hospital"
+                class="h-18 lg:h-22 object-contain"
+                src="/assets/RainbowHospital-eTFLOxF0.svg"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-4 lg:px-8 mt-10 lg:mt-16">
+          <h4 class="text-base lg:text-2xl font-semibold text-center mb-2 lg:mb-4">
+            Our <span class="text-sm lg:text-2xl font-semibold text-[#403D3DBA]">Corporate Organizations Partners</span>
+          </h4>
+          <hr class="border-t-[1.5px] border-[#2C532C5E] w-3/4 lg:w-1/6 mx-auto mb-4 lg:mb-8" />
+          <div
+            class="flex flex-col lg:flex-row lg:flex-wrap items-center justify-center gap-6 lg:gap-9 max-w-6xl mx-auto"
+          >
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img alt="HSBC" class="h-18 lg:h-22 object-contain" src="/assets/HSBC-ByDIxuDt.svg" />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img alt="Instamojo" class="h-18 lg:h-22 object-contain" src="/assets/Instamojo-D31kuKFn.svg" />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img alt="Watchout Wearables" class="h-18 lg:h-22 object-contain" src="/assets/Watchout-DgS1Ruvu.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-4 lg:px-8 mt-10 lg:mt-16">
+          <h4 class="text-base lg:text-2xl font-semibold text-center mb-2 lg:mb-4">
+            Our <span class="text-sm lg:text-2xl font-semibold text-[#403D3DBA]">Community &amp; NGOs Partners</span>
+          </h4>
+          <hr class="border-t-[1.5px] border-[#2C532C5E] w-3/4 lg:w-1/6 mx-auto mb-4 lg:mb-8" />
+          <div
+            class="flex flex-col lg:flex-row lg:flex-wrap items-center justify-center gap-6 lg:gap-9 max-w-6xl mx-auto"
+          >
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img alt="Tamanna NGO" class="h-18 lg:h-22 object-contain" src="/assets/Tamanna-LTUboeDP.svg" />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img
+                alt="Teach for India"
+                class="h-18 lg:h-22 object-contain"
+                src="data:image/svg+xml,%3csvg%20width='170'%20height='51'%20viewBox='0%200%20170%2051'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3crect%20width='170'%20height='51'%20rx='10'%20fill='url(%23pattern0_1875_902)'/%3e%3cdefs%3e%3cpattern%20id='pattern0_1875_902'%20patternContentUnits='objectBoundingBox'%20width='1'%20height='1'%3e%3cuse%20xlink:href='%23image0_1875_902'%20transform='scale(0.00243902%200.00813008)'/%3e%3c/pattern%3e%3cimage%20id='image0_1875_902'%20width='410'%20height='123'%20preserveAspectRatio='none'%20xlink:href='data:image/png;base64,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'/%3e%3c/defs%3e%3c/svg%3e"
+              />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img alt="The Union" class="h-18 lg:h-22 object-contain" src="/assets/TheUnion-DgjMq1ep.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-4 lg:px-8 mt-10 lg:mt-16">
+          <h4 class="text-base lg:text-2xl font-semibold text-center mb-2 lg:mb-4">
+            Our <span class="text-sm lg:text-2xl font-semibold text-[#403D3DBA]">Strategic Partners</span>
+          </h4>
+          <hr class="border-t-[1.5px] border-[#2C532C5E] w-3/4 lg:w-1/6 mx-auto mb-4 lg:mb-8" />
+          <div
+            class="flex flex-col lg:flex-row lg:flex-wrap items-center justify-center gap-6 lg:gap-9 max-w-6xl mx-auto"
+          >
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img alt="Mynd Integrated" class="h-18 lg:h-22 object-contain" src="/assets/Mynd-aw1UC8kb.svg" />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img alt="Niraya" class="h-18 lg:h-22 object-contain" src="/assets/Niraya-CXfX-2z1.svg" />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img alt="Sova Health" class="h-18 lg:h-22 object-contain" src="/assets/Sova-CHyBN8bU.svg" />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img alt="Atypical Advantage" class="h-18 lg:h-22 object-contain" src="/assets/Atypical-BRrAIk4m.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-4 lg:px-8 mt-10 lg:mt-16">
+          <h4 class="text-base lg:text-2xl font-semibold text-center mb-2 lg:mb-4">
+            Our <span class="text-sm lg:text-2xl font-semibold text-[#403D3DBA]">International Embassies Partners</span>
+          </h4>
+          <hr class="border-t-[1.5px] border-[#2C532C5E] w-3/4 lg:w-1/6 mx-auto mb-4 lg:mb-8" />
+          <div
+            class="flex flex-col lg:flex-row lg:flex-wrap items-center justify-center gap-6 lg:gap-9 max-w-6xl mx-auto"
+          >
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img alt="US Embassy" class="h-18 lg:h-22 object-contain" src="/assets/UsEmbassy-DhfnQQB9.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-4 lg:px-8 mt-10 lg:mt-16">
+          <h4 class="text-base lg:text-2xl font-semibold text-center mb-2 lg:mb-4">
+            Our <span class="text-sm lg:text-2xl font-semibold text-[#403D3DBA]">Quality Partners</span>
+          </h4>
+          <hr class="border-t-[1.5px] border-[#2C532C5E] w-3/4 lg:w-1/6 mx-auto mb-4 lg:mb-8" />
+          <div
+            class="flex flex-col lg:flex-row lg:flex-wrap items-center justify-center gap-6 lg:gap-9 max-w-6xl mx-auto"
+          >
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img alt="ICAN" class="h-18 lg:h-22 object-contain" src="/assets/Ican-DTT1e9e1.svg" />
+            </div>
+            <div
+              class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
+            >
+              <img alt="Pearson" class="h-18 lg:h-22 object-contain" src="/assets/Pearson-DurR8ipN.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col items-center mt-10 lg:mt-20 bg-[#FFCC000D] pt-10 lg:pt-16 gap-4 lg:gap-6 w-full">
+          <h4 class="text-lg lg:text-2xl font-semibold">Product 10X Accelerator</h4>
+          <p class="text-[#234394] italic w-[85%] lg:w-[45%] text-sm lg:text-base">
+            Proud to be part of the global startup accelerator focused on scaling healthcare innovation
+          </p>
+          <img alt="10x" class="w-30 h-30 lg:w-40 lg:h-40 pb-5 lg:pb-8" src="/assets/10X-wHGmfXdK.svg" />
+        </div>
+        <div class="w-full lg:bg-[#93CFEF3D] bg-white px-4 lg:px-10 pt-5 pb-15 lg:py-20">
+          <div class="space-y-6 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-8 max-w-6xl mx-auto">
+            <div
+              class="bg-[#FFF8E0] rounded-4xl shadow-md p-4 lg:p-6 relative max-w-md mx-auto flex flex-col text-center"
+            >
+              <img
+                alt="quotes"
+                class="w-6 lg:w-8 absolute top-5 lg:top-6 left-7 lg:left-8"
+                src="data:image/svg+xml,%3csvg%20width='60'%20height='60'%20viewBox='0%200%2060%2060'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M20.625%2029.9999H11.25V38.5713C11.25%2043.299%2014.6132%2047.1427%2018.75%2047.1427H19.6874C20.057%2047.1417%2020.4232%2047.2242%2020.7648%2047.3854C21.1064%2047.5465%2021.4169%2047.7833%2021.6782%2048.0819C21.9395%2048.3806%2022.1467%2048.7354%2022.2877%2049.1258C22.4287%2049.5163%2022.5009%2049.9347%2022.5%2050.3571V56.7856C22.5009%2057.208%2022.4287%2057.6265%2022.2877%2058.0169C22.1467%2058.4074%2021.9395%2058.7621%2021.6782%2059.0608C21.4169%2059.3595%2021.1064%2059.5962%2020.7648%2059.7574C20.4232%2059.9186%2020.057%2060.001%2019.6874%2060H18.75C8.39064%2060%200%2050.4107%200%2038.5715V6.42856C0%202.87944%202.51952%200%205.625%200H20.625C23.7305%200%2026.25%202.87944%2026.25%206.42856V23.5714C26.25%2027.1205%2023.7305%2029.9999%2020.625%2029.9999ZM54.375%2029.9999H45V38.5713C45%2043.299%2048.3632%2047.1427%2052.5%2047.1427H53.4374C53.807%2047.1417%2054.1732%2047.2242%2054.5148%2047.3854C54.8564%2047.5465%2055.1668%2047.7833%2055.4282%2048.0819C55.6895%2048.3806%2055.8967%2048.7354%2056.0377%2049.1258C56.1787%2049.5163%2056.2509%2049.9347%2056.25%2050.3571V56.7856C56.2509%2057.208%2056.1787%2057.6265%2056.0377%2058.0169C55.8967%2058.4074%2055.6895%2058.7621%2055.4282%2059.0608C55.1668%2059.3595%2054.8564%2059.5962%2054.5148%2059.7574C54.1732%2059.9186%2053.807%2060.001%2053.4374%2060H52.5C42.1406%2060%2033.75%2050.4107%2033.75%2038.5715V6.42856C33.75%202.87944%2036.2695%200%2039.375%200H54.375C57.4805%200%2060%202.87944%2060%206.42856V23.5714C60%2027.1205%2057.4805%2029.9999%2054.375%2029.9999Z'%20fill='%234562AD'/%3e%3c/svg%3e"
+              />
+              <h4 class="text-lg lg:text-xl font-semibold mb-2 lg:mb-4 text-black pt-10 lg:pt-5">
+                What Our Partners Say:
+              </h4>
+              <p class="text-sm lg:text-base text-[#403D3D] mb-1 leading-relaxed pb-8 lg:pb-10">
+                <span class="italic"
+                  >"eMbrace's expertise in mental health training has been instrumental in equipping our managers to
+                  support their teams better." – Vrinda Sasidhar, VP, HSBC"Working with eMbrace has helped our employees
+                  feel more supported, and we've seen a positive impact on retention."</span
+                >
+                -<span class="font-medium text-[#234394] italic">Akash Gehani, Co-Founder, Instamojo</span>
+              </p>
+              <img
+                alt="quotes"
+                class="w-6 lg:w-8 rotate-180 absolute right-7 lg:right-8 bottom-5 lg:bottom-6"
+                src="data:image/svg+xml,%3csvg%20width='60'%20height='60'%20viewBox='0%200%2060%2060'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M20.625%2029.9999H11.25V38.5713C11.25%2043.299%2014.6132%2047.1427%2018.75%2047.1427H19.6874C20.057%2047.1417%2020.4232%2047.2242%2020.7648%2047.3854C21.1064%2047.5465%2021.4169%2047.7833%2021.6782%2048.0819C21.9395%2048.3806%2022.1467%2048.7354%2022.2877%2049.1258C22.4287%2049.5163%2022.5009%2049.9347%2022.5%2050.3571V56.7856C22.5009%2057.208%2022.4287%2057.6265%2022.2877%2058.0169C22.1467%2058.4074%2021.9395%2058.7621%2021.6782%2059.0608C21.4169%2059.3595%2021.1064%2059.5962%2020.7648%2059.7574C20.4232%2059.9186%2020.057%2060.001%2019.6874%2060H18.75C8.39064%2060%200%2050.4107%200%2038.5715V6.42856C0%202.87944%202.51952%200%205.625%200H20.625C23.7305%200%2026.25%202.87944%2026.25%206.42856V23.5714C26.25%2027.1205%2023.7305%2029.9999%2020.625%2029.9999ZM54.375%2029.9999H45V38.5713C45%2043.299%2048.3632%2047.1427%2052.5%2047.1427H53.4374C53.807%2047.1417%2054.1732%2047.2242%2054.5148%2047.3854C54.8564%2047.5465%2055.1668%2047.7833%2055.4282%2048.0819C55.6895%2048.3806%2055.8967%2048.7354%2056.0377%2049.1258C56.1787%2049.5163%2056.2509%2049.9347%2056.25%2050.3571V56.7856C56.2509%2057.208%2056.1787%2057.6265%2056.0377%2058.0169C55.8967%2058.4074%2055.6895%2058.7621%2055.4282%2059.0608C55.1668%2059.3595%2054.8564%2059.5962%2054.5148%2059.7574C54.1732%2059.9186%2053.807%2060.001%2053.4374%2060H52.5C42.1406%2060%2033.75%2050.4107%2033.75%2038.5715V6.42856C33.75%202.87944%2036.2695%200%2039.375%200H54.375C57.4805%200%2060%202.87944%2060%206.42856V23.5714C60%2027.1205%2057.4805%2029.9999%2054.375%2029.9999Z'%20fill='%234562AD'/%3e%3c/svg%3e"
+              />
+            </div>
+            <div
+              class="bg-[#FFF8E0] rounded-4xl shadow-md p-4 lg:p-6 relative max-w-md mx-auto flex flex-col text-center"
+            >
+              <img
+                alt="quotes"
+                class="w-6 lg:w-8 absolute top-5 lg:top-6 left-7 lg:left-8"
+                src="data:image/svg+xml,%3csvg%20width='60'%20height='60'%20viewBox='0%200%2060%2060'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M20.625%2029.9999H11.25V38.5713C11.25%2043.299%2014.6132%2047.1427%2018.75%2047.1427H19.6874C20.057%2047.1417%2020.4232%2047.2242%2020.7648%2047.3854C21.1064%2047.5465%2021.4169%2047.7833%2021.6782%2048.0819C21.9395%2048.3806%2022.1467%2048.7354%2022.2877%2049.1258C22.4287%2049.5163%2022.5009%2049.9347%2022.5%2050.3571V56.7856C22.5009%2057.208%2022.4287%2057.6265%2022.2877%2058.0169C22.1467%2058.4074%2021.9395%2058.7621%2021.6782%2059.0608C21.4169%2059.3595%2021.1064%2059.5962%2020.7648%2059.7574C20.4232%2059.9186%2020.057%2060.001%2019.6874%2060H18.75C8.39064%2060%200%2050.4107%200%2038.5715V6.42856C0%202.87944%202.51952%200%205.625%200H20.625C23.7305%200%2026.25%202.87944%2026.25%206.42856V23.5714C26.25%2027.1205%2023.7305%2029.9999%2020.625%2029.9999ZM54.375%2029.9999H45V38.5713C45%2043.299%2048.3632%2047.1427%2052.5%2047.1427H53.4374C53.807%2047.1417%2054.1732%2047.2242%2054.5148%2047.3854C54.8564%2047.5465%2055.1668%2047.7833%2055.4282%2048.0819C55.6895%2048.3806%2055.8967%2048.7354%2056.0377%2049.1258C56.1787%2049.5163%2056.2509%2049.9347%2056.25%2050.3571V56.7856C56.2509%2057.208%2056.1787%2057.6265%2056.0377%2058.0169C55.8967%2058.4074%2055.6895%2058.7621%2055.4282%2059.0608C55.1668%2059.3595%2054.8564%2059.5962%2054.5148%2059.7574C54.1732%2059.9186%2053.807%2060.001%2053.4374%2060H52.5C42.1406%2060%2033.75%2050.4107%2033.75%2038.5715V6.42856C33.75%202.87944%2036.2695%200%2039.375%200H54.375C57.4805%200%2060%202.87944%2060%206.42856V23.5714C60%2027.1205%2057.4805%2029.9999%2054.375%2029.9999Z'%20fill='%234562AD'/%3e%3c/svg%3e"
+              />
+              <h4 class="text-lg lg:text-xl font-semibold mb-2 lg:mb-4 text-black pt-10 lg:pt-5">
+                What Our Partners Say:
+              </h4>
+              <p class="text-sm lg:text-base text-[#403D3D] mb-1 leading-relaxed pb-8 lg:pb-10">
+                <span class="italic"
+                  >"eMbrace's expertise in mental health training has been instrumental in equipping our managers to
+                  support their teams better." – Vrinda Sasidhar, VP, HSBC"Working with eMbrace has helped our employees
+                  feel more supported, and we've seen a positive impact on retention."</span
+                >
+                -<span class="font-medium text-[#234394] italic">Vrinda Sasidhar, VP, HSBC</span>
+              </p>
+              <img
+                alt="quotes"
+                class="w-6 lg:w-8 rotate-180 absolute right-7 lg:right-8 bottom-5 lg:bottom-6"
+                src="data:image/svg+xml,%3csvg%20width='60'%20height='60'%20viewBox='0%200%2060%2060'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M20.625%2029.9999H11.25V38.5713C11.25%2043.299%2014.6132%2047.1427%2018.75%2047.1427H19.6874C20.057%2047.1417%2020.4232%2047.2242%2020.7648%2047.3854C21.1064%2047.5465%2021.4169%2047.7833%2021.6782%2048.0819C21.9395%2048.3806%2022.1467%2048.7354%2022.2877%2049.1258C22.4287%2049.5163%2022.5009%2049.9347%2022.5%2050.3571V56.7856C22.5009%2057.208%2022.4287%2057.6265%2022.2877%2058.0169C22.1467%2058.4074%2021.9395%2058.7621%2021.6782%2059.0608C21.4169%2059.3595%2021.1064%2059.5962%2020.7648%2059.7574C20.4232%2059.9186%2020.057%2060.001%2019.6874%2060H18.75C8.39064%2060%200%2050.4107%200%2038.5715V6.42856C0%202.87944%202.51952%200%205.625%200H20.625C23.7305%200%2026.25%202.87944%2026.25%206.42856V23.5714C26.25%2027.1205%2023.7305%2029.9999%2020.625%2029.9999ZM54.375%2029.9999H45V38.5713C45%2043.299%2048.3632%2047.1427%2052.5%2047.1427H53.4374C53.807%2047.1417%2054.1732%2047.2242%2054.5148%2047.3854C54.8564%2047.5465%2055.1668%2047.7833%2055.4282%2048.0819C55.6895%2048.3806%2055.8967%2048.7354%2056.0377%2049.1258C56.1787%2049.5163%2056.2509%2049.9347%2056.25%2050.3571V56.7856C56.2509%2057.208%2056.1787%2057.6265%2056.0377%2058.0169C55.8967%2058.4074%2055.6895%2058.7621%2055.4282%2059.0608C55.1668%2059.3595%2054.8564%2059.5962%2054.5148%2059.7574C54.1732%2059.9186%2053.807%2060.001%2053.4374%2060H52.5C42.1406%2060%2033.75%2050.4107%2033.75%2038.5715V6.42856C33.75%202.87944%2036.2695%200%2039.375%200H54.375C57.4805%200%2060%202.87944%2060%206.42856V23.5714C60%2027.1205%2057.4805%2029.9999%2054.375%2029.9999Z'%20fill='%234562AD'/%3e%3c/svg%3e"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#FFF5DC99] w-full px-2 lg:px-10 py-8 lg:py-16">
+          <h3 class="text-lg lg:text-2xl font-semibold text-[#1A1A1A] text-center mb-2 lg:mb-4">
+            Explore a Partnership with eMbrace
+          </h3>
+          <p class="text-sm lg:text-base text-gray-700 text-center mb-6 lg:mb-12 mx-auto max-w-3xl">
+            Creating tailored, high-impact mental health and developmental programs across sectors.
+          </p>
+          <div
+            class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-6 lg:gap-8 max-w-7xl mx-auto px-4 pb-5 lg:pb-8"
+          >
+            <a data-discover="true" href="/university"
+              ><div
+                class="bg-white rounded-4xl h-80 lg:min-h-[350px] lg:h-auto shadow-md border border-[#D8D8D8] p-4 lg:p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 relative z-20"
+              >
+                <img
+                  alt="Universities"
+                  class="w-35 h-35 lg:w-28 lg:h-28 mb-2 lg:mb-4 object-contain"
+                  src="/assets/Universities-CgQo8jq_.svg"
+                />
+                <h4 class="font-semibold text-[#234394] mb-1 lg:mb-3 text-lg lg:text-xl">Universities</h4>
+                <p class="text-gray-700 text-base lg:text-base font-light px-3 lg:px-0 leading-relaxed">
+                  End-to-end student mental health support, faculty sensitization &amp; campus inclusion initiatives.
+                </p>
+              </div></a
+            ><a data-discover="true" href="/schools"
+              ><div
+                class="bg-white rounded-4xl h-80 lg:min-h-[350px] lg:h-auto shadow-md border border-[#D8D8D8] p-4 lg:p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 relative z-20"
+              >
+                <img
+                  alt="Schools"
+                  class="w-35 h-35 lg:w-28 lg:h-28 mb-2 lg:mb-4 object-contain"
+                  src="/assets/Schools-Inxm2fCS.svg"
+                />
+                <h4 class="font-semibold text-[#234394] mb-1 lg:mb-3 text-lg lg:text-xl">Schools</h4>
+                <p class="text-gray-700 text-base lg:text-base font-light px-3 lg:px-0 leading-relaxed">
+                  Early screening, SEL integration, teacher training &amp; parent engagement for student well-being.
+                </p>
+              </div></a
+            ><a data-discover="true" href="/corporate"
+              ><div
+                class="bg-white rounded-4xl h-80 lg:min-h-[350px] lg:h-auto shadow-md border border-[#D8D8D8] p-4 lg:p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 relative z-20"
+              >
+                <img
+                  alt="Corporates"
+                  class="w-35 h-35 lg:w-28 lg:h-28 mb-2 lg:mb-4 object-contain"
+                  src="/assets/Corporates-utc2dCaZ.svg"
+                />
+                <h4 class="font-semibold text-[#234394] mb-1 lg:mb-3 text-lg lg:text-xl">Corporates</h4>
+                <p class="text-gray-700 text-base lg:text-base font-light px-3 lg:px-0 leading-relaxed">
+                  Evidence-based employee wellness programs, mental health training &amp; workplace inclusion.
+                </p>
+              </div></a
+            ><a data-discover="true" href="/hospitalAndHealthcare"
+              ><div
+                class="bg-white rounded-4xl h-80 lg:min-h-[350px] lg:h-auto shadow-md border border-[#D8D8D8] p-4 lg:p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 relative z-20"
+              >
+                <img
+                  alt="Healthcare"
+                  class="w-35 h-35 lg:w-28 lg:h-28 mb-2 lg:mb-4 object-contain"
+                  src="/assets/HealthCare-BAg-sBnb.svg"
+                />
+                <h4 class="font-semibold text-[#234394] mb-1 lg:mb-3 text-lg lg:text-xl">Healthcare</h4>
+                <p class="text-gray-700 text-base lg:text-base font-light px-3 lg:px-0 leading-relaxed">
+                  Collaborative care models, shared assessments &amp; research for scalable neurodevelopmental support
+                </p>
+              </div></a
+            >
+          </div>
+          <p class="font-semibold text-black text-base lg:text-lg mt-8 lg:mt-12 text-center hidden lg:block">
+            <span class="font-semibold text-[#234394]">Interested in collaborating? </span>Let's build something
+            impactful together!
+          </p>
+        </div>
+        <div
+          class="lg:bg-gradient-to-b from-[#93cfef3d] to-white bg-white w-full px-4 md:px-8 lg:px-16 xl:px-60 2xl:px-90 mb-6 md:mb-0 relative overflow-hidden h-fit md:min-h-screen py-3 2xl:py-20 flex flex-col"
+        >
+          <div
+            class="absolute w-5 h-5 lg:hidden top-12 2xl:w-14 2xl:h-14 rounded-full bg-[#C499F6] md:hidden 2xl:left-4"
+          ></div>
+          <div
+            class="absolute w-5 h-5 hidden lg:block top-16 md:w-12 md:h-12 2xl:w-14 2xl:h-14 rounded-full bg-[#FFCC0070] md:top-[10%] md:left-[5%] 2xl:left-4"
+          ></div>
+          <div class="flex flex-col mx-auto pt-2 lg:pt-10 pb-2 lg:pb-15">
+            <h1 class="text-xl md:text-3xl font-bold text-center">Partner With Us - Submit Your Inquiry</h1>
+            <p class="text-base md:text-lg italic font-normal text-center pt-2">
+              <span class="text-[var(--text-gray)]">Need help? Send us a message, and we'll get back to</span>
+              <span class="text-[#234394]">you within 24 hours!</span>
+            </p>
+          </div>
+          <div
+            class="bg-white rounded-bl-4xl rounded-tr-4xl lg:border border-gray-200 lg:shadow-sm p-6 md:p-8 lg:p-10 mx-auto max-w-4xl w-full"
+          >
+            <div class="flex flex-col md:mt-10 mt-10">
+              <h2 class="italic text-[var(--text-gray)] font-medium text-left">
+                Full Name<span class="text-[#F44336] font-semibold">*</span>
+              </h2>
+              <div class="flex flex-row gap-2 md:gap-6 mt-2">
+                <input
+                  class="w-[50%] h-12 bg-[#F3F4F6] rounded-xl p-4 focus:outline-none focus:ring-0 border-none"
+                  type="text"
+                /><input
+                  class="w-[50%] h-12 bg-[#F3F4F6] rounded-xl p-4 focus:outline-none focus:ring-0 border-none"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="flex flex-col mt-8">
+              <h2 class="italic text-[var(--text-gray)] font-medium text-left">
+                Organisation Name<span class="text-[#F44336] font-semibold">*</span>
+              </h2>
+              <input
+                class="mt-2 h-12 bg-[#F3F4F6] rounded-xl p-4 focus:outline-none focus:ring-0 border-none"
+                id=""
+                name=""
+                type="email"
+              />
+            </div>
+            <div class="flex flex-col mt-8">
+              <h2 class="italic text-[var(--text-gray)] font-medium text-left">
+                Email Address<span class="text-[#F44336] font-semibold">*</span>
+              </h2>
+              <input
+                class="mt-2 h-12 bg-[#F3F4F6] rounded-xl p-4 focus:outline-none focus:ring-0 border-none"
+                id=""
+                name=""
+                type="email"
+              />
+            </div>
+            <div class="flex flex-col mt-8">
+              <h2 class="italic text-[var(--text-gray)] font-medium text-left">
+                Designation<span class="text-[#F44336] font-semibold">*</span>
+              </h2>
+              <input
+                class="mt-2 h-12 bg-[#F3F4F6] rounded-xl p-4 focus:outline-none focus:ring-0 border-none"
+                id=""
+                name=""
+                type="email"
+              />
+            </div>
+            <div class="flex flex-col mt-8">
+              <h2 class="italic text-[var(--text-gray)] font-medium text-left">Phone Number (Optional)</h2>
+              <input
+                class="mt-2 h-12 bg-[#F3F4F6] rounded-xl p-4 focus:outline-none focus:ring-0 border-none"
+                id=""
+                name=""
+                placeholder="In case you prefer a call or WhatsApp response"
+                type="number"
+              />
+            </div>
+            <div class="flex flex-col mt-8">
+              <h2 class="italic text-[var(--text-gray)] font-medium text-left">Subject</h2>
+              <div class="relative w-full">
+                <select
+                  class="mt-2 h-12 bg-[#F3F4F6] rounded-xl p-3 focus:outline-none focus:ring-0 border-none text-[var(--text-gray)] pr-10 pl-4 text-sm appearance-none w-full"
+                  style="max-width: 100%"
+                >
+                  <option class="text-gray-400" value="">Choose the type of inquiry:</option>
+                  <option value="option1">Ask a proposal</option>
+                  <option value="option2">Book a demo</option>
+                  <option value="option3">Know more about services</option>
+                  <option value="option4">Other</option></select
+                ><span class="pointer-events-none absolute right-4 top-1/2 transform -translate-y-1/2 flex items-center"
+                  ><svg fill="none" height="16" viewbox="2 -1 15 14" width="22" xmlns="http://www.w3.org/2000/svg">
+                    <polygon fill="#B0B0B0" points="11,13 4,4 18,4"></polygon></svg
+                ></span>
+              </div>
+            </div>
+            <div class="flex flex-col mt-8">
+              <h2 class="italic text-[var(--text-gray)] font-medium text-left">Partnership</h2>
+              <div class="relative w-full">
+                <select
+                  class="mt-2 h-12 bg-[#F3F4F6] rounded-xl p-3 focus:outline-none focus:ring-0 border-none text-[var(--text-gray)] pr-10 pl-4 text-sm appearance-none w-full"
+                  style="max-width: 100%"
+                >
+                  <option class="text-gray-400" value="">Choose the type of partnership:</option>
+                  <option value="option1">University</option>
+                  <option value="option2">School</option>
+                  <option value="option3">Hospital</option>
+                  <option value="option4">Healthcare</option>
+                  <option value="option5">Corporate</option>
+                  <option value="option6">Other</option></select
+                ><span class="pointer-events-none absolute right-4 top-1/2 transform -translate-y-1/2 flex items-center"
+                  ><svg fill="none" height="16" viewbox="2 -1 15 14" width="22" xmlns="http://www.w3.org/2000/svg">
+                    <polygon fill="#B0B0B0" points="11,13 4,4 18,4"></polygon></svg
+                ></span>
+              </div>
+            </div>
+            <div class="flex flex-col mt-8">
+              <h2 class="italic text-[var(--text-gray)] font-medium text-left">
+                Your Message<span class="text-[#F44336] font-semibold">*</span>
+              </h2>
+              <textarea
+                class="mt-2 h-40 bg-[#F3F4F6] rounded-xl p-4 focus:outline-none focus:ring-0 border-none resize-none"
+                placeholder="Briefly describe your request or concern"
+                style="vertical-align: top"
+              ></textarea>
+            </div>
+            <div class="flex flex-col mt-8">
+              <h2 class="italic text-[var(--text-gray)] font-medium text-left">Preferred Response Method</h2>
+              <h4 class="italic text-[var(--text-gray)] text-xs lg:text-sm font-sm text-left">
+                How would you like us to contact you?
+              </h4>
+              <div class="flex flex-col gap-2 mt-2">
+                <label class="flex items-center gap-2 cursor-pointer"
+                  ><input class="peer sr-only" name="response-method" type="radio" value="email" /><span
+                    class="w-5 h-5 rounded border-0 bg-gray-200 peer-checked:bg-[var(--blue-fig)]/80 flex items-center justify-center transition-colors"
+                  ></span
+                  ><img
+                    alt="Gmail"
+                    class="w-6 h-6"
+                    src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20xmlns='http://www.w3.org/2000/svg'%20aria-label='Gmail'%20role='img'%20viewBox='0%200%20512%20512'%3e%3crect%20width='512'%20height='512'%20rx='15%25'%20fill='%23ffffff'/%3e%3cpath%20fill='%23f2f2f2'%20d='M120%20392V151.075h272V392'/%3e%3cpath%20fill-opacity='.05'%20d='M256%20285L120%20392l-4-212'/%3e%3cpath%20fill='%23d54c3f'%20d='M120%20392H97c-12%200-22-10-22-23V143h45z'/%3e%3cpath%20fill-opacity='.08'%20d='M317%20392h77V159H82'/%3e%3cpath%20fill='%23f2f2f2'%20d='M97%20121h318L256%20234'/%3e%3cpath%20fill='%23b63524'%20d='M392%20392h23c12%200%2022-10%2022-23V143h-45z'/%3e%3cpath%20fill='none'%20stroke='%23de5145'%20stroke-linecap='round'%20stroke-width='44'%20d='M97%20143l159%20115%20159-115'/%3e%3c/svg%3e"
+                  /><span class="text-[var(--blue-fig)] font-medium text-lg">Email</span></label
+                ><label class="flex items-center gap-2 cursor-pointer"
+                  ><input class="peer sr-only" name="response-method" type="radio" value="phone" /><span
+                    class="w-5 h-5 rounded border-0 bg-gray-200 peer-checked:bg-[var(--blue-fig)]/80 flex items-center justify-center transition-colors"
+                  ></span
+                  ><img alt="Phone" class="w-6 h-6" src="/assets/whatsapp-CJHvNXx4.svg" /><span
+                    class="text-[var(--blue-fig)] font-medium text-lg"
+                    >Phone Call</span
+                  ></label
+                ><label class="flex items-center gap-2 cursor-pointer"
+                  ><input class="peer sr-only" name="response-method" type="radio" value="whatsapp" /><span
+                    class="w-5 h-5 rounded border-0 bg-gray-200 peer-checked:bg-[var(--blue-fig)]/80 flex items-center justify-center transition-colors"
+                  ></span
+                  ><img
+                    alt="Whatsapp"
+                    class="w-6 h-6"
+                    src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width='800px'%20height='800px'%20viewBox='0%200%201024%201024'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdefs%3e%3cpath%20id='a'%20d='M1023.941%20765.153c0%205.606-.171%2017.766-.508%2027.159-.824%2022.982-2.646%2052.639-5.401%2066.151-4.141%2020.306-10.392%2039.472-18.542%2055.425-9.643%2018.871-21.943%2035.775-36.559%2050.364-14.584%2014.56-31.472%2026.812-50.315%2036.416-16.036%208.172-35.322%2014.426-55.744%2018.549-13.378%202.701-42.812%204.488-65.648%205.3-9.402.336-21.564.505-27.15.505l-504.226-.081c-5.607%200-17.765-.172-27.158-.509-22.983-.824-52.639-2.646-66.152-5.4-20.306-4.142-39.473-10.392-55.425-18.542-18.872-9.644-35.775-21.944-50.364-36.56-14.56-14.584-26.812-31.471-36.415-50.314-8.174-16.037-14.428-35.323-18.551-55.744-2.7-13.378-4.487-42.812-5.3-65.649-.334-9.401-.503-21.563-.503-27.148l.08-504.228c0-5.607.171-17.766.508-27.159.825-22.983%202.646-52.639%205.401-66.151%204.141-20.306%2010.391-39.473%2018.542-55.426C34.154%2093.24%2046.455%2076.336%2061.07%2061.747c14.584-14.559%2031.472-26.812%2050.315-36.416%2016.037-8.172%2035.324-14.426%2055.745-18.549%2013.377-2.701%2042.812-4.488%2065.648-5.3%209.402-.335%2021.565-.504%2027.149-.504l504.227.081c5.608%200%2017.766.171%2027.159.508%2022.983.825%2052.638%202.646%2066.152%205.401%2020.305%204.141%2039.472%2010.391%2055.425%2018.542%2018.871%209.643%2035.774%2021.944%2050.363%2036.559%2014.559%2014.584%2026.812%2031.471%2036.415%2050.315%208.174%2016.037%2014.428%2035.323%2018.551%2055.744%202.7%2013.378%204.486%2042.812%205.3%2065.649.335%209.402.504%2021.564.504%2027.15l-.082%20504.226z'/%3e%3c/defs%3e%3clinearGradient%20id='b'%20gradientUnits='userSpaceOnUse'%20x1='512.001'%20y1='.978'%20x2='512.001'%20y2='1025.023'%3e%3cstop%20offset='0'%20stop-color='%2361fd7d'/%3e%3cstop%20offset='1'%20stop-color='%232bb826'/%3e%3c/linearGradient%3e%3cuse%20xlink:href='%23a'%20overflow='visible'%20fill='url(%23b)'/%3e%3cg%3e%3cpath%20fill='%23FFF'%20d='M783.302%20243.246c-69.329-69.387-161.529-107.619-259.763-107.658-202.402%200-367.133%20164.668-367.214%20367.072-.026%2064.699%2016.883%20127.854%2049.017%20183.522l-52.096%20190.229%20194.665-51.047c53.636%2029.244%20114.022%2044.656%20175.482%2044.682h.151c202.382%200%20367.128-164.688%20367.21-367.094.039-98.087-38.121-190.319-107.452-259.706zM523.544%20808.047h-.125c-54.767-.021-108.483-14.729-155.344-42.529l-11.146-6.612-115.517%2030.293%2030.834-112.592-7.259-11.544c-30.552-48.579-46.688-104.729-46.664-162.379.066-168.229%20136.985-305.096%20305.339-305.096%2081.521.031%20158.154%2031.811%20215.779%2089.482s89.342%20134.332%2089.312%20215.859c-.066%20168.243-136.984%20305.118-305.209%20305.118zm167.415-228.515c-9.177-4.591-54.286-26.782-62.697-29.843-8.41-3.062-14.526-4.592-20.645%204.592-6.115%209.182-23.699%2029.843-29.053%2035.964-5.352%206.122-10.704%206.888-19.879%202.296-9.176-4.591-38.74-14.277-73.786-45.526-27.275-24.319-45.691-54.359-51.043-63.543-5.352-9.183-.569-14.146%204.024-18.72%204.127-4.109%209.175-10.713%2013.763-16.069%204.587-5.355%206.117-9.183%209.175-15.304%203.059-6.122%201.529-11.479-.765-16.07-2.293-4.591-20.644-49.739-28.29-68.104-7.447-17.886-15.013-15.466-20.645-15.747-5.346-.266-11.469-.322-17.585-.322s-16.057%202.295-24.467%2011.478-32.113%2031.374-32.113%2076.521c0%2045.147%2032.877%2088.764%2037.465%2094.885%204.588%206.122%2064.699%2098.771%20156.741%20138.502%2021.892%209.45%2038.982%2015.094%2052.308%2019.322%2021.98%206.979%2041.982%205.995%2057.793%203.634%2017.628-2.633%2054.284-22.189%2061.932-43.615%207.646-21.427%207.646-39.791%205.352-43.617-2.294-3.826-8.41-6.122-17.585-10.714z'/%3e%3c/g%3e%3c/svg%3e"
+                  /><span class="text-[var(--blue-fig)] font-medium text-lg">Whatsapp</span></label
+                >
+              </div>
+            </div>
+            <div class="flex flex-col mt-8">
+              <h2 class="italic text-[var(--text-gray)] font-medium text-left">Proposal Upload (Optional)</h2>
+              <div class="mt-2 flex flex-col bg-[#F3F4F6] rounded-xl h-40 justify-center">
+                <span class="text-[#403D3D5C] font-medium md:px-12 px-4 text-left md:text-base text-xs"
+                  >Upload any relevant documents (PDF, JPG, PNG – max 5MB)</span
+                >
+                <div class="flex flex-col items-center px-4 w-full mt-4">
+                  <input accept=".pdf,.jpg,.jpeg,.png" class="hidden" id="attachment-upload" type="file" /><label
+                    class="inline-block"
+                    for="attachment-upload"
+                    ><button
+                      class="mt-2 px-4 py-2 border-2 border-gray-300 text-[var(--text-gray)] rounded-lg font-medium flex items-center gap-2 pointer-events-none"
+                      type="button"
+                    >
+                      Upload<img
+                        alt="Upload"
+                        class="w-5 h-5"
+                        src="data:image/svg+xml,%3csvg%20width='49'%20height='45'%20viewBox='0%200%2049%2045'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16.4395%2012.8395L22.05%207.66319V29.2461C22.05%2029.843%2022.3081%2030.4154%2022.7676%2030.8375C23.2271%2031.2595%2023.8502%2031.4966%2024.5%2031.4966C25.1498%2031.4966%2025.7729%2031.2595%2026.2324%2030.8375C26.6919%2030.4154%2026.95%2029.843%2026.95%2029.2461V7.66319L32.5605%2012.8395C32.7883%2013.0504%2033.0592%2013.2179%2033.3578%2013.3321C33.6563%2013.4464%2033.9766%2013.5052%2034.3%2013.5052C34.6234%2013.5052%2034.9437%2013.4464%2035.2422%2013.3321C35.5408%2013.2179%2035.8117%2013.0504%2036.0395%2012.8395C36.2691%2012.6303%2036.4514%2012.3813%2036.5758%2012.1071C36.7002%2011.8328%2036.7642%2011.5387%2036.7642%2011.2416C36.7642%2010.9445%2036.7002%2010.6503%2036.5758%2010.3761C36.4514%2010.1018%2036.2691%209.8529%2036.0395%209.64368L26.2395%200.64144C26.0065%200.436548%2025.7317%200.275937%2025.431%200.168822C24.8345%20-0.0562742%2024.1655%20-0.0562742%2023.569%200.168822C23.2683%200.275937%2022.9935%200.436548%2022.7605%200.64144L12.9605%209.64368C12.7321%209.85352%2012.5509%2010.1026%2012.4272%2010.3768C12.3036%2010.651%2012.24%2010.9448%2012.24%2011.2416C12.24%2011.5383%2012.3036%2011.8322%2012.4272%2012.1064C12.5509%2012.3805%2012.7321%2012.6296%2012.9605%2012.8395C13.1889%2013.0493%2013.4601%2013.2158%2013.7586%2013.3293C14.0571%2013.4429%2014.3769%2013.5014%2014.7%2013.5014C15.0231%2013.5014%2015.3429%2013.4429%2015.6414%2013.3293C15.9399%2013.2158%2016.2111%2013.0493%2016.4395%2012.8395ZM46.55%2022.4944C45.9002%2022.4944%2045.2771%2022.7315%2044.8176%2023.1536C44.3581%2023.5756%2044.1%2024.1481%2044.1%2024.7449V38.2483C44.1%2038.8452%2043.8419%2039.4176%2043.3824%2039.8397C42.923%2040.2618%2042.2998%2040.4989%2041.65%2040.4989H7.35C6.70022%2040.4989%206.07705%2040.2618%205.61759%2039.8397C5.15812%2039.4176%204.9%2038.8452%204.9%2038.2483V24.7449C4.9%2024.1481%204.64188%2023.5756%204.18241%2023.1536C3.72295%2022.7315%203.09978%2022.4944%202.45%2022.4944C1.80022%2022.4944%201.17705%2022.7315%200.717588%2023.1536C0.258124%2023.5756%200%2024.1481%200%2024.7449V38.2483C0%2040.039%200.774373%2041.7563%202.15277%2043.0225C3.53116%2044.2887%205.40066%2045%207.35%2045H41.65C43.5993%2045%2045.4688%2044.2887%2046.8472%2043.0225C48.2256%2041.7563%2049%2040.039%2049%2038.2483V24.7449C49%2024.1481%2048.7419%2023.5756%2048.2824%2023.1536C47.8229%2022.7315%2047.1998%2022.4944%2046.55%2022.4944Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
+                      /></button
+                  ></label>
+                </div>
+              </div>
+            </div>
+            <button class="mt-12 rounded-xl bg-[#4562AD] mx-auto w-fit py-2 px-12 text-white">Submit</button>
+          </div>
+        </div>
+        <div
+          class="flex flex-col lg:flex-row lg:gap-60 items-center justify-center mt-10 gap-4 shadow-md rounded-4xl w-[90%] py-10 space-y-2 max-w-4xl"
+        >
+          <div>
+            <img
+              alt="phoneIcon"
+              class="w-15 h-15 mx-auto"
+              src="data:image/svg+xml,%3csvg%20width='120'%20height='122'%20viewBox='0%200%20120%20122'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M41.2498%207.72781C35.0431%20-1.23207%2022.6233%20-2.74376%2015.1148%205.32462L5.50338%2015.6527C2.22205%2019.1787%20-0.271864%2024.0767%200.0284318%2029.7872C0.636187%2041.3448%205.44422%2065.0003%2030.7536%2092.1971C57.8769%20121.343%2083.7492%20122.808%2094.9178%20121.683C99.4921%20121.222%20103.194%20118.732%20105.909%20115.815L114.608%20106.467C122.599%2097.8802%20120.271%2083.5102%20110.272%2077.6359L98.5736%2070.7634C91.8469%2066.8115%2083.5049%2067.944%2078.1542%2073.694L75.6521%2076.3827C75.4746%2076.4465%2074.9185%2076.5996%2073.8549%2076.4234C71.3902%2076.0146%2066.0707%2073.7934%2057.3013%2064.3702C48.5588%2054.9759%2046.4055%2049.1902%2045.9967%2046.3433C45.7996%2044.9698%2045.9999%2044.2462%2046.0792%2044.0189L46.0923%2043.9827L47.5919%2042.3715C53.5164%2036.0048%2053.9358%2026.0412%2048.9715%2018.8746L41.2498%207.72781ZM21.7746%2011.7811C24.9762%208.34081%2030.6124%208.61106%2033.7498%2013.1401L41.4714%2024.2869C44.0564%2028.0185%2043.66%2032.9834%2040.9318%2035.9151L39.1755%2037.8024L42.4311%2040.9586C39.1754%2037.8024%2039.167%2037.8115%2039.167%2037.8115L39.1583%2037.8209L39.1406%2037.8403L39.1032%2037.8817L39.0216%2037.9754C38.9643%2038.0426%2038.9014%2038.1196%2038.8341%2038.2064C38.6995%2038.3799%2038.5472%2038.5933%2038.3875%2038.8481C38.0671%2039.3591%2037.7197%2040.032%2037.4255%2040.8759C36.8272%2042.592%2036.5012%2044.8644%2036.9086%2047.7024C37.709%2053.2784%2041.2885%2060.7765%2050.6414%2070.8265C59.9662%2080.8471%2067.0095%2084.7865%2072.3828%2085.6771C75.1396%2086.134%2077.3716%2085.769%2079.0617%2085.0884C79.8878%2084.7559%2080.5417%2084.3652%2081.0322%2084.0102C81.2766%2083.8334%2081.4805%2083.6652%2081.6452%2083.5177C81.7273%2083.444%2081.8001%2083.3759%2081.8632%2083.3134L81.9508%2083.2252L81.9899%2083.1846L82.0077%2083.1652L82.0169%2083.1565C82.0169%2083.1565%2082.0249%2083.1471%2078.7972%2080.0177L82.0255%2083.1471L84.8141%2080.1502C87.1741%2077.614%2090.8519%2077.044%2093.9914%2078.8884L105.69%2085.7615C110.717%2088.714%20111.7%2095.9784%20107.948%20100.011L99.2496%20109.358C97.5405%20111.194%2095.7531%20112.178%2094.0152%20112.353C85.2281%20113.238%2062.3005%20112.483%2037.4134%2085.7402C13.678%2060.2352%209.69667%2038.7211%209.20043%2029.2847C9.0692%2026.7891%2010.1339%2024.2897%2012.1632%2022.1092L21.7746%2011.7811Z'%20fill='%230055D4'/%3e%3c/svg%3e"
+            />
+            <p class="text-xl font-semibold text-[#FA9205]">Call us at</p>
+            <a
+              class="text-lg text-[#234394] font-semibold hover:cursor-pointer"
+              href="https://wa.me/919971576800"
+              rel="noopener noreferrer"
+              target="_blank"
+              >+91 9971576800</a
+            >
+          </div>
+          <div>
+            <img
+              alt="emailIcon"
+              class="w-15 h-15 mx-auto"
+              src="data:image/svg+xml,%3csvg%20width='150'%20height='120'%20viewBox='0%200%20150%20120'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M148.256%2017.3319C147.645%2014.1813%20146.268%2011.2036%20144.259%208.7002C143.85%208.17461%20143.424%207.70703%20142.957%207.23272C139.382%203.56475%20134.41%201.46094%20129.314%201.46094H20.9539C15.8013%201.46094%2010.9553%203.51172%207.30843%207.23477C6.84687%207.70469%206.4189%208.17695%205.99523%208.71924C3.99458%2011.2121%202.62339%2014.1857%202.02722%2017.3407C1.77807%2018.5797%201.65234%2019.8635%201.65234%2021.1622V98.8391C1.65234%20101.541%202.19025%20104.173%203.2566%20106.675C4.17943%20108.896%205.5796%20111.002%207.30728%20112.765C7.74243%20113.207%208.17471%20113.615%208.63627%20114.012C12.0905%20116.932%2016.4644%20118.539%2020.9539%20118.539H129.314C133.832%20118.539%20138.202%20116.926%20141.647%20113.98C142.107%20113.6%20142.534%20113.2%20142.961%20112.765C144.631%20111.062%20145.958%20109.106%20146.912%20106.948L147.038%20106.641C148.085%20104.186%20148.616%20101.563%20148.616%2098.8394V21.1622C148.616%2019.8805%20148.495%2018.5882%20148.256%2017.3319ZM11.6479%2014.034C11.9208%2013.6262%2012.2693%2013.2075%2012.7139%2012.7502C14.921%2010.4987%2017.8479%209.25977%2020.9537%209.25977H129.313C132.446%209.25977%20135.374%2010.5008%20137.557%2012.7546C137.934%2013.1434%20138.294%2013.5749%20138.608%2014.0062L139.436%2015.1429L81.5982%2066.5929C79.8151%2068.1884%2077.5194%2069.0664%2075.1333%2069.0664C72.7707%2069.0664%2070.4769%2068.1904%2068.6726%2066.5949L10.8921%2015.1575L11.6479%2014.034ZM9.33205%2099.5249C9.30076%2099.3134%209.29359%2099.0784%209.29359%2098.8391V22.7706L54.1777%2062.7348L9.74653%20102.274L9.33205%2099.5249ZM135.096%20109.171C133.359%20110.195%20131.358%20110.737%20129.314%20110.737H20.9539C18.9082%20110.737%2016.9084%20110.195%2015.1724%20109.171L13.356%20108.097L59.2638%2067.2632L64.295%2071.7298C67.3129%2074.404%2071.1615%2075.8782%2075.1338%2075.8782C79.1208%2075.8782%2082.9757%2074.404%2085.9916%2071.7298L91.0208%2067.2611L136.913%20108.099L135.096%20109.171ZM140.973%2098.8391C140.973%2099.0743%20140.968%2099.3069%20140.939%2099.5141L140.542%20102.289L96.0914%2062.7561L140.973%2022.7899V98.8391Z'%20fill='%230055D4'%20stroke='white'%20stroke-width='1.5625'/%3e%3c/svg%3e"
+            />
+            <p class="text-xl font-semibold text-[#FA9205]">Email at</p>
+            <a
+              class="text-lg text-[#234394] font-semibold underline hover:cursor-pointer"
+              href="mailto:sam@embracelives.com"
+              >sam@embracelives.com</a
+            >
+          </div>
+        </div>
+        <p class="mt-10 text-[13px] leading-relaxed p-4 italic lg:text-lg lg:w-[60%]">
+          Let’s drive change together and make
+          <span class="ont-semibold text-[#234394]">mental health &amp; neurodivergence</span> support accessible,
+          inclusive and impactful!
+        </p>
+      </div>
+      <?php include __DIR__ . '/components/footer.php'; ?>
+    </div>
+    
+    <script src="/assets/interactive.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1091 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    
+    <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Multi-specialty support for children &amp; adolescents — therapy, assessments, speech therapy, occupational therapy &amp; neurodevelopmental care in Delhi."
+      name="description"
+    />
+    <meta content="index, follow" name="robots" />
+    <link href="https://embracelives.com/children_and_adolescents" rel="canonical" />
+    <!-- Open Graph -->
+    <meta content="website" property="og:type" />
+    <meta content="https://embracelives.com/children_and_adolescents" property="og:url" />
+    <meta content="Services for Children &amp; Adolescents | eMbrace Lives" property="og:title" />
+    <meta
+      content="Multi-specialty support for children &amp; adolescents — therapy, assessments, speech therapy, occupational therapy &amp; neurodevelopmental care in Delhi."
+      property="og:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" property="og:image" />
+    <meta content="1200" property="og:image:width" />
+    <meta content="630" property="og:image:height" />
+    <meta content="eMbrace Lives" property="og:site_name" />
+    <meta content="en_IN" property="og:locale" />
+    <!-- Twitter Card -->
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="Services for Children &amp; Adolescents | eMbrace Lives" name="twitter:title" />
+    <meta
+      content="Multi-specialty support for children &amp; adolescents — therapy, assessments, speech therapy, occupational therapy &amp; neurodevelopmental care in Delhi."
+      name="twitter:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "eMbrace Lives",
+        "alternateName": "eMbrace - SMD Wellness",
+        "url": "https://embracelives.com",
+        "logo": "https://embracelives.com/Logo.svg",
+        "description": "Leading psychology and mental health practice in Delhi offering evidence-based therapy, assessments, and neurodevelopmental care for children, adolescents, and adults.",
+        "telephone": "+919971576800",
+        "email": "info@embracelives.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Delhi",
+          "addressRegion": "Delhi",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "28.6139",
+          "longitude": "77.2090"
+        },
+        "priceRange": "$$",
+        "medicalSpecialty": ["Psychiatric", "ClinicalPsychology"],
+        "availableService": [
+          { "@type": "MedicalTherapy", "name": "Child Psychology" },
+          { "@type": "MedicalTherapy", "name": "Clinical Psychology" },
+          { "@type": "MedicalTherapy", "name": "Couples Therapy" },
+          { "@type": "MedicalTherapy", "name": "ADHD Assessment" },
+          { "@type": "MedicalTherapy", "name": "Autism Assessment" },
+          { "@type": "MedicalTherapy", "name": "CBT for Anxiety & Depression" }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/embracelives/",
+          "https://www.instagram.com/embracelives/",
+          "https://www.facebook.com/embracelives22/"
+        ]
+      }
+    </script>
+    <title>Services for Children &amp; Adolescents | eMbrace Lives</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
+
+    <link href="/assets/index-B-kGA3UA.css" rel="stylesheet" />
+    <style></style>
+  </head>
+  <body>
+    <div id="root">
+      <?php include __DIR__ . '/components/header.php'; ?>
+      <div
+        class="md:min-h-[calc(100vh-4.4rem)] overflow-hidden flex flex-col items-center justify-center bg-gradient-to-b from-[#FFF4D0] to-[#FFFFFF] px-4 md:px-8 lg:px-16 xl:px-30 py-6 relative"
+      >
+        <div class="flex flex-col items-center justify-center">
+          <h1 class="md:text-3xl text-lg font-bold text-center">eMbrace for Children &amp; Adolescents</h1>
+          <p class="font-semibold text-sm md:text-lg text-[var(--text-gray)] italic">Unlock Your Child’s Potential</p>
+        </div>
+        <div class="relative w-full flex flex-col items-center justify-center 2xl:mt-30 md:mt-14 -mt-6">
+          <div class="flex items-center justify-center w-full gap-2 md:gap-6 relative h-56 md:h-60">
+            <img
+              alt="carousel-img-0"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-30 md:scale-95 scale-170 -translate-x-1/2 -translate-y-1/2 shadow-2xl"
+              src="/assets/Hero1-DofYE2YX.png"
+              style="pointer-events: auto; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-1"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[10%] md:translate-x-[0%]"
+              src="/assets/Hero2-BYwvac1Z.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-2"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 translate-x-[30%]"
+              src="/assets/Hero3-DRPc5FAk.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-3"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 -translate-x-[130%]"
+              src="/assets/Hero1-Di6dlo5a.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-4"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[90%] md:-translate-x-[100%]"
+              src="/assets/Hero5-BtbVpVZp.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            />
+          </div>
+          <div class="flex items-center justify-center 2xl:mt-40 md:mt-14 -mt-5 gap-4 relative z-20">
+            <button aria-label="Previous" class="cursor-pointer">
+              <img
+                alt="Previous"
+                class="w-6 h-6"
+                src="data:image/svg+xml,%3csvg%20width='50'%20height='50'%20viewBox='0%200%2050%2050'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M16.917%2021.8752H43.7475V28.1252H16.917L27.2073%2038.4155L22.7878%2042.8349L4.95312%2025.0002L22.7878%207.16553L27.2073%2011.5849L16.917%2021.8752Z'%20fill='%23999999'/%3e%3c/svg%3e"
+              />
+            </button>
+            <div class="flex gap-2">
+              <span class="h-2 w-2 rounded-full bg-purple-500"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span>
+            </div>
+            <button aria-label="Next" class="cursor-pointer">
+              <img
+                alt="Next"
+                class="rotate-180 w-6 h-6"
+                src="data:image/svg+xml,%3csvg%20width='50'%20height='50'%20viewBox='0%200%2050%2050'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M16.917%2021.8752H43.7475V28.1252H16.917L27.2073%2038.4155L22.7878%2042.8349L4.95312%2025.0002L22.7878%207.16553L27.2073%2011.5849L16.917%2021.8752Z'%20fill='%23999999'/%3e%3c/svg%3e"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col 2xl:mt-12 mt-4 items-center justify-center">
+          <p class="font-medium text-sm md:text-base text-[var(--text-gray)] text-center italic">
+            Early Intervention &amp; Quality Support for Every Stage of Growth
+          </p>
+          <button
+            class="w-[70%] md:w-[50%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-2 2xl:mt-6 text-white font-medium cursor-pointer"
+          >
+            Book a Session
+          </button>
+        </div>
+      </div>
+      <div
+        class="md:min-h-screen overflow-hidden flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-30 py-6 md:py-10 relative"
+      >
+        <div class="w-14 h-14 hidden md:block bg-[#6DD0FC] rounded-full absolute top-4 -right-6"></div>
+        <div class="w-14 h-14 hidden md:block bg-[#FFCC006E]/80 rounded-full absolute top-[27%] ml-4 -z-10"></div>
+        <div
+          class="w-14 h-14 hidden md:block bg-[#90A7E178]/80 rounded-full absolute bottom-14 -left-8 ml-4 -z-10"
+        ></div>
+        <h1 class="text-xl md:text-2xl font-bold text-center mb-2">
+          Multi-Specialty Support for Holistic Child Development
+        </h1>
+        <p class="text-[var(--text-gray)] font-medium italic mb-6">
+          Early Intervention &amp; Quality Support for Every Stage of Growth
+        </p>
+        <div class="flex flex-col w-full max-w-6xl mx-auto items-center justify-center gap-10">
+          <div class="flex-1 w-full flex items-center justify-center">
+            <div class="hidden md:grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 w-full">
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-4 flex justify-center text-left flex-row"
+              >
+                <div class="w-[80%]">
+                  <h3 class="text-lg font-semibold mb-2">Developmental Psychology</h3>
+                  <p class="text-gray-600 text-sm">
+                    Supporting ADHD, Autism, Dyslexia &amp; other developmental conditions.
+                  </p>
+                </div>
+                <div class="w-[20%] justify-end flex">
+                  <img alt="" class="w-[90%]" src="/assets/developmentPsychology-DXm3_gc8.svg" />
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-4 flex justify-center text-left flex-row"
+              >
+                <div class="w-[80%]">
+                  <h3 class="text-lg font-semibold mb-2">Occupational Therapy</h3>
+                  <p class="text-gray-600 text-sm">
+                    Building motor skills, sensory integration, and functional independence.
+                  </p>
+                </div>
+                <div class="w-[20%] justify-end flex">
+                  <img alt="" class="w-[90%]" src="/assets/behaviorTherapt-DQyHqSoO.svg" />
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-4 flex justify-center text-left flex-row"
+              >
+                <div class="w-[80%]">
+                  <h3 class="text-lg font-semibold mb-2">Special Education</h3>
+                  <p class="text-gray-600 text-sm">Tailored learning plans for diverse learning needs.</p>
+                </div>
+                <div class="w-[20%] justify-end flex">
+                  <img alt="" class="w-[90%]" src="/assets/specialEducation-BUTLj0Ko.svg" />
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-4 flex justify-center text-left flex-row"
+              >
+                <div class="w-[80%]">
+                  <h3 class="text-lg font-semibold mb-2">Physiotherapy</h3>
+                  <p class="text-gray-600 text-sm">
+                     Supporting physical development, motor coordination, and rehabilitation challenges.
+                  </p>
+                </div>
+                <div class="w-[20%] justify-end flex">
+                  <img alt="" class="w-[90%]" src="/assets/physiotherapy-DUPd0OwH.svg" />
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-4 flex justify-center text-left flex-row"
+              >
+                <div class="w-[80%]">
+                  <h3 class="text-lg font-semibold mb-2">Behavior Therapy</h3>
+                  <p class="text-gray-600 text-sm">Structured programs to build self-regulation and social skills.</p>
+                </div>
+                <div class="w-[20%] justify-end flex">
+                  <img alt="" class="w-[90%]" src="/assets/occupationalTherapy-BjQOUevQ.svg" />
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-4 flex justify-center text-left flex-row"
+              >
+                <div class="w-[80%]">
+                  <h3 class="text-lg font-semibold mb-2">Speech &amp; Language Pathology</h3>
+                  <p class="text-gray-600 text-sm">
+                    Improving communication, speech clarity, and language development.
+                  </p>
+                </div>
+                <div class="w-[20%] justify-end flex">
+                  <img alt="" class="w-[90%]" src="/assets/speechAndLanguage-BsW3n376.svg" />
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-4 flex justify-center text-left flex-row"
+              >
+                <div class="w-[80%]">
+                  <h3 class="text-lg font-semibold mb-2">Early Intervention</h3>
+                  <p class="text-gray-600 text-sm">
+                    Timely screening and therapy to support developmental milestones during critical early years.
+                  </p>
+                </div>
+                <div class="w-[20%] justify-end flex">
+                  <img alt="" class="w-[90%]" src="/assets/earlyIntervention-s6QF48x4.svg" />
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-4 flex justify-center text-left flex-row"
+              >
+                <div class="w-[80%]">
+                  <h3 class="text-lg font-semibold mb-2">Expressive Arts</h3>
+                  <p class="text-gray-600 text-sm">
+                    Leveraging art, music, and movement for emotional expression &amp; sensory development.
+                  </p>
+                </div>
+                <div class="w-[20%] justify-end flex">
+                  <img alt="" class="w-[90%]" src="/assets/expressiveArts-DoGeG7O8.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="md:hidden flex flex-col gap-4 w-full">
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
+              >
+                <div class="w-full justify-center flex">
+                  <img alt="" class="w-[90%]" src="/assets/developmentalPsychologyMobile-D4VCYwK5.svg" />
+                </div>
+                <div class="w-full">
+                  <h3 class="text-lg font-semibold mb-2 mt-2">Developmental Psychology</h3>
+                  <p class="text-gray-600 text-sm">
+                    Supporting ADHD, Autism, Dyslexia &amp; other developmental conditions.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
+              >
+                <div class="w-full justify-center flex">
+                  <img alt="" class="w-[90%]" src="/assets/occupationalTherapyMobile-hjyLdyhC.svg" />
+                </div>
+                <div class="w-full">
+                  <h3 class="text-lg font-semibold mb-2 mt-2">Occupational Therapy</h3>
+                  <p class="text-gray-600 text-sm">
+                    Building motor skills, sensory integration, and functional independence.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
+              >
+                <div class="w-full justify-center flex">
+                  <img alt="" class="w-[90%]" src="/assets/specialEducationMobile-CxEqEIRt.svg" />
+                </div>
+                <div class="w-full">
+                  <h3 class="text-lg font-semibold mb-2 mt-2">Special Education</h3>
+                  <p class="text-gray-600 text-sm">Tailored learning plans for diverse learning needs.</p>
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
+              >
+                <div class="w-full justify-center flex">
+                  <img alt="" class="w-[90%]" src="/assets/physiotherapyMobile-B1QC8_YN.svg" />
+                </div>
+                <div class="w-full">
+                  <h3 class="text-lg font-semibold mb-2 mt-2">Physiotherapy</h3>
+                  <p class="text-gray-600 text-sm">
+                     Supporting physical development, motor coordination, and rehabilitation challenges.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
+              >
+                <div class="w-full justify-center flex">
+                  <img alt="" class="w-[90%]" src="/assets/behaviorTherapyMobile-CpFSsYep.svg" />
+                </div>
+                <div class="w-full">
+                  <h3 class="text-lg font-semibold mb-2 mt-2">Behavior Therapy</h3>
+                  <p class="text-gray-600 text-sm">Structured programs to build self-regulation and social skills.</p>
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
+              >
+                <div class="w-full justify-center flex">
+                  <img alt="" class="w-[90%]" src="/assets/speechLanguageMobile-DI_EEffe.svg" />
+                </div>
+                <div class="w-full">
+                  <h3 class="text-lg font-semibold mb-2 mt-2">Speech &amp; Language Pathology</h3>
+                  <p class="text-gray-600 text-sm">
+                    Improving communication, speech clarity, and language development.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
+              >
+                <div class="w-full justify-center flex">
+                  <img alt="" class="w-[90%]" src="/assets/earlyInterventionMobile-B7Bveluo.svg" />
+                </div>
+                <div class="w-full">
+                  <h3 class="text-lg font-semibold mb-2 mt-2">Early Intervention</h3>
+                  <p class="text-gray-600 text-sm">
+                    Timely screening and therapy to support developmental milestones during critical early years.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
+              >
+                <div class="w-full justify-center flex">
+                  <img alt="" class="w-[90%]" src="/assets/expressiveArtsMobile-C-nNnat_.svg" />
+                </div>
+                <div class="w-full">
+                  <h3 class="text-lg font-semibold mb-2 mt-2">Expressive Arts</h3>
+                  <p class="text-gray-600 text-sm">
+                    Leveraging art, music, and movement for emotional expression &amp; sensory development.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="md:min-h-screen overflow-hidden flex flex-col items-center py-6 md:py-10 relative">
+        <h1 class="text-xl text-center md:text-2xl font-bold mb-10">Comprehensive support for every child</h1>
+        <div class="hidden md:block w-14 h-14 bg-[#6DD0FC] rounded-full absolute left-[48%] top-1/3 z-[-10]"></div>
+        <div class="hidden md:block w-7 h-14 bg-[#FF8E0096] absolute right-0 top-1/3 z-[10] rounded-l-full"></div>
+        <div class="hidden md:block w-14 h-14 bg-[#FF8E0096] absolute left-[45%] top-4/5 z-[10] rounded-full"></div>
+        <div class="hidden md:block w-14 h-14 bg-[#FFCC008F] absolute -left-6 top-2/3 z-[10] rounded-full"></div>
+        <div class="hidden md:flex flex-row gap-2 w-full justify-center pb-6" style="align-items: flex-start">
+          <div class="flex flex-col items-center w-[13%] 2xl:w-[15%]">
+            <div class="w-full flex flex-row items-center justify-center">
+              <a
+                class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
+                data-discover="true"
+                href="/children"
+                style="background-color: rgb(190, 237, 185)"
+                >Children</a
+              >
+            </div>
+            <div class="flex flex-col items-center w-full">
+              <hr class="w-0.5 bg-gray-300 border-none md:h-[3rem] 2xl:h-[3rem]" />
+              <div class="w-5 h-5 rounded-full" style="background-color: rgb(190, 237, 185)"></div>
+            </div>
+            <div
+              class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
+            >
+              <img alt="Children" class="w-[90%] object-contain mb-2" src="/assets/Children-Bdo6pdy7.svg" />
+              <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3">
+                Early intervention, assessments, and therapy for developmental and emotional needs.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center w-[13%] 2xl:w-[15%]">
+            <div class="w-full flex flex-row items-center justify-center">
+              <a
+                class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
+                data-discover="true"
+                href="/adolescents"
+                style="background-color: rgba(243, 167, 162, 0.79)"
+                >Adolescents</a
+              >
+            </div>
+            <div class="flex flex-col items-center w-full">
+              <hr class="w-0.5 bg-gray-300 border-none md:h-[12rem] 2xl:h-[20rem]" />
+              <div class="w-5 h-5 rounded-full" style="background-color: rgba(243, 167, 162, 0.79)"></div>
+            </div>
+            <div
+              class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
+            >
+              <img alt="Adolescents" class="w-[90%] object-contain mb-2" src="/assets/Adolescents-Cc-LjoB3.svg" />
+              <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3">
+                Support for identity, anxiety, learning, and behavioral concerns during teen years.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center w-[13%] 2xl:w-[15%]">
+            <div class="w-full flex flex-row items-center justify-center">
+              <a
+                class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
+                data-discover="true"
+                href="/parent"
+                style="background-color: rgba(240, 203, 58, 0.79)"
+                >Parents</a
+              >
+            </div>
+            <div class="flex flex-col items-center w-full">
+              <hr class="w-0.5 bg-gray-300 border-none md:h-[3rem] 2xl:h-[3rem]" />
+              <div class="w-5 h-5 rounded-full" style="background-color: rgba(240, 203, 58, 0.79)"></div>
+            </div>
+            <div
+              class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
+            >
+              <img alt="Parents" class="w-[90%] object-contain mb-2" src="/assets/Parents-B7Ee4qos.svg" />
+              <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3">
+                Parent coaching, therapy, and training to build resilient, supported families.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center w-[13%] 2xl:w-[15%]">
+            <div class="w-full flex flex-row items-center justify-center">
+              <a
+                class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
+                data-discover="true"
+                href="/teacher"
+                style="background-color: rgb(165, 217, 242)"
+                >Teachers</a
+              >
+            </div>
+            <div class="flex flex-col items-center w-full">
+              <hr class="w-0.5 bg-gray-300 border-none md:h-[12rem] 2xl:h-[20rem]" />
+              <div class="w-5 h-5 rounded-full" style="background-color: rgb(165, 217, 242)"></div>
+            </div>
+            <div
+              class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
+            >
+              <img alt="Teachers" class="w-[90%] object-contain mb-2" src="/assets/Teachers-g9VI1gwF.svg" />
+              <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3">
+                Workshops, behavioral support, and classroom strategies for inclusive education.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center w-[13%] 2xl:w-[15%]">
+            <div class="w-full flex flex-row items-center justify-center">
+              <a
+                class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
+                data-discover="true"
+                href="/schools"
+                style="background-color: rgba(170, 170, 255, 0.79)"
+                >Schools</a
+              >
+            </div>
+            <div class="flex flex-col items-center w-full">
+              <hr class="w-0.5 bg-gray-300 border-none md:h-[3rem] 2xl:h-[3rem]" />
+              <div class="w-5 h-5 rounded-full" style="background-color: rgba(170, 170, 255, 0.79)"></div>
+            </div>
+            <div
+              class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
+            >
+              <img alt="Schools" class="w-[90%] object-contain mb-2" src="/assets/Schools-B4eLjp-Z.svg" />
+              <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3">
+                Screenings, SEL programs, educator training, and inclusive policy design.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center w-[13%] 2xl:w-[15%]">
+            <div class="w-full flex flex-row items-center justify-center">
+              <a
+                class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
+                data-discover="true"
+                href="/hospitalAndHealthcare"
+                style="background-color: rgba(243, 167, 162, 0.79)"
+                >Hospitals</a
+              >
+            </div>
+            <div class="flex flex-col items-center w-full">
+              <hr class="w-0.5 bg-gray-300 border-none md:h-[12rem] 2xl:h-[20rem]" />
+              <div class="w-5 h-5 rounded-full" style="background-color: rgba(243, 167, 162, 0.79)"></div>
+            </div>
+            <div
+              class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
+            >
+              <img alt="Hospitals" class="w-[90%] object-contain mb-2" src="/assets/Hospital-DyKfuRmN.svg" />
+              <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3">
+                Support for identity, anxiety, learning, and behavioral concerns during teen years.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="md:hidden flex flex-col gap-2 w-full justify-center pb-6 items-center">
+          <div class="mt-4 flex flex-col items-center w-[60%]">
+            <div class="w-full flex flex-row items-center justify-center">
+              <a
+                class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
+                data-discover="true"
+                href="/children"
+                style="background-color: rgb(190, 237, 185)"
+                >Children</a
+              >
+            </div>
+            <div class="flex flex-col items-center w-full">
+              <hr class="w-0.5 h-8 bg-gray-300 border-none" />
+              <div class="w-5 h-5 rounded-full" style="background-color: rgb(190, 237, 185)"></div>
+            </div>
+            <div
+              class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
+            >
+              <img alt="Children" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Children-Bdo6pdy7.svg" />
+              <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3 w-[70%]">
+                Early intervention, assessments, and therapy for developmental and emotional needs.
+              </p>
+            </div>
+          </div>
+          <div class="mt-4 flex flex-col items-center w-[60%]">
+            <div class="w-full flex flex-row items-center justify-center">
+              <a
+                class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
+                data-discover="true"
+                href="/adolescents"
+                style="background-color: rgba(243, 167, 162, 0.79)"
+                >Adolescents</a
+              >
+            </div>
+            <div class="flex flex-col items-center w-full">
+              <hr class="w-0.5 h-8 bg-gray-300 border-none" />
+              <div class="w-5 h-5 rounded-full" style="background-color: rgba(243, 167, 162, 0.79)"></div>
+            </div>
+            <div
+              class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
+            >
+              <img alt="Adolescents" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Adolescents-Cc-LjoB3.svg" />
+              <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3 w-[70%]">
+                Support for identity, anxiety, learning, and behavioral concerns during teen years.
+              </p>
+            </div>
+          </div>
+          <div class="mt-4 flex flex-col items-center w-[60%]">
+            <div class="w-full flex flex-row items-center justify-center">
+              <a
+                class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
+                data-discover="true"
+                href="/parent"
+                style="background-color: rgba(240, 203, 58, 0.79)"
+                >Parents</a
+              >
+            </div>
+            <div class="flex flex-col items-center w-full">
+              <hr class="w-0.5 h-8 bg-gray-300 border-none" />
+              <div class="w-5 h-5 rounded-full" style="background-color: rgba(240, 203, 58, 0.79)"></div>
+            </div>
+            <div
+              class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
+            >
+              <img alt="Parents" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Parents-B7Ee4qos.svg" />
+              <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3 w-[70%]">
+                Parent coaching, therapy, and training to build resilient, supported families.
+              </p>
+            </div>
+          </div>
+          <div class="mt-4 flex flex-col items-center w-[60%]">
+            <div class="w-full flex flex-row items-center justify-center">
+              <a
+                class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
+                data-discover="true"
+                href="/teacher"
+                style="background-color: rgb(165, 217, 242)"
+                >Teachers</a
+              >
+            </div>
+            <div class="flex flex-col items-center w-full">
+              <hr class="w-0.5 h-8 bg-gray-300 border-none" />
+              <div class="w-5 h-5 rounded-full" style="background-color: rgb(165, 217, 242)"></div>
+            </div>
+            <div
+              class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
+            >
+              <img alt="Teachers" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Teachers-g9VI1gwF.svg" />
+              <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3 w-[70%]">
+                Workshops, behavioral support, and classroom strategies for inclusive education.
+              </p>
+            </div>
+          </div>
+          <div class="mt-4 flex flex-col items-center w-[60%]">
+            <div class="w-full flex flex-row items-center justify-center">
+              <a
+                class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
+                data-discover="true"
+                href="/schools"
+                style="background-color: rgba(170, 170, 255, 0.79)"
+                >Schools</a
+              >
+            </div>
+            <div class="flex flex-col items-center w-full">
+              <hr class="w-0.5 h-8 bg-gray-300 border-none" />
+              <div class="w-5 h-5 rounded-full" style="background-color: rgba(170, 170, 255, 0.79)"></div>
+            </div>
+            <div
+              class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
+            >
+              <img alt="Schools" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Schools-B4eLjp-Z.svg" />
+              <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3 w-[70%]">
+                Screenings, SEL programs, educator training, and inclusive policy design.
+              </p>
+            </div>
+          </div>
+          <div class="mt-4 flex flex-col items-center w-[60%]">
+            <div class="w-full flex flex-row items-center justify-center">
+              <a
+                class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
+                data-discover="true"
+                href="/hospitalAndHealthcare"
+                style="background-color: rgba(243, 167, 162, 0.79)"
+                >Hospitals</a
+              >
+            </div>
+            <div class="flex flex-col items-center w-full">
+              <hr class="w-0.5 h-8 bg-gray-300 border-none" />
+              <div class="w-5 h-5 rounded-full" style="background-color: rgba(243, 167, 162, 0.79)"></div>
+            </div>
+            <div
+              class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
+            >
+              <img alt="Hospitals" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Hospital-DyKfuRmN.svg" />
+              <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3 w-[70%]">
+                Support for identity, anxiety, learning, and behavioral concerns during teen years.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:min-h-screen overflow-visible flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-30 py-6 md:py-10 relative bg-gradient-to-b from-[#ffcc0034] to-[#FFFFFF]"
+      >
+        <div class="hidden md:block w-14 h-14 bg-[#90A7E178] rounded-full absolute right-1/4 -top-6 z-[10]"></div>
+        <div class="hidden md:block w-7 h-14 bg-[#FF8E0078] absolute right-0 top-1/2 z-[10] rounded-l-full"></div>
+        <div class="hidden md:block w-14 h-7 bg-[#BEEDB9] absolute left-20 bottom-0 z-[10] rounded-t-full"></div>
+        <div class="hidden md:block w-7 h-14 bg-[#BE62795E] absolute left-0 bottom-2/3 z-[10] rounded-r-full"></div>
+        <h1 class="text-3xl font-bold">What to Expect?</h1>
+        <div class="hidden md:flex justify-center w-full py-[3rem]">
+          <div class="relative w-full max-w-4xl">
+            <div
+              class="absolute left-1/2 transform -translate-x-1/2 w-0.75 bg-[#7F7F7F] z-0 -mt-6 -mb-6 h-[calc(100%+3rem)]"
+            >
+              <div
+                class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3 h-3 bg-[#7F7F7F] rounded-full z-10"
+              ></div>
+              <div
+                class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-3 h-3 bg-[#7F7F7F] rounded-full z-10"
+              ></div>
+            </div>
+            <div class="flex items-start mb-0 2xl:mb-6 relative z-10">
+              <div class="w-1/2 pr-8 text-left">
+                <h3 class="w-[70%] lg:text-xl 2xl:text-2xl">
+                  <span
+                    ><span class="text-xl text-[var(--text-gray)] font-semibold">Initial Call –</span>
+                    <span class="text-lg text-[var-(--text-gray)]"
+                      >Speak with our care coordinator to understand your concern
+                    </span></span
+                  >
+                </h3>
+              </div>
+              <div class="w-0 relative flex flex-col items-center">
+                <div class="flex items-center justify-center w-6 h-6 bg-[#90A7E1] rounded-full">
+                  <div class="w-4 h-4 bg-[#4562AD] rounded-full z-10"></div>
+                </div>
+              </div>
+              <div class="w-1/2"></div>
+            </div>
+            <div class="flex items-start mb-0 2xl:mb-6 relative z-10">
+              <div class="w-1/2"></div>
+              <div class="w-0 relative flex flex-col items-center">
+                <div class="flex items-center justify-center w-6 h-6 bg-[#90A7E1] rounded-full">
+                  <div class="w-4 h-4 bg-[#4562AD] rounded-full z-10"></div>
+                </div>
+              </div>
+              <div class="w-1/2 pl-8 text-right flex justify-end">
+                <h3 class="w-[70%] lg:text-xl 2xl:text-2xl">
+                  <span
+                    ><span class="text-xl text-[var(--text-gray)] font-semibold">Consult with an expert –</span>
+                    <span class="text-lg text-[var-(--text-gray)]"
+                      >Book an in-depth consultation with a specialist.</span
+                    ></span
+                  >
+                </h3>
+              </div>
+            </div>
+            <div class="flex items-start mb-0 2xl:mb-6 relative z-10">
+              <div class="w-1/2 pr-8 text-left">
+                <h3 class="w-[70%] lg:text-xl 2xl:text-2xl">
+                  <span
+                    ><span class="text-xl text-[var(--text-gray)] font-semibold">Assessment –</span>
+                    <span class="text-lg text-[var-(--text-gray)]"
+                      >Receive structured evaluations (as needed).</span
+                    ></span
+                  >
+                </h3>
+              </div>
+              <div class="w-0 relative flex flex-col items-center">
+                <div class="flex items-center justify-center w-6 h-6 bg-[#90A7E1] rounded-full">
+                  <div class="w-4 h-4 bg-[#4562AD] rounded-full z-10"></div>
+                </div>
+              </div>
+              <div class="w-1/2"></div>
+            </div>
+            <div class="flex items-start mb-0 2xl:mb-6 relative z-10">
+              <div class="w-1/2"></div>
+              <div class="w-0 relative flex flex-col items-center">
+                <div class="flex items-center justify-center w-6 h-6 bg-[#90A7E1] rounded-full">
+                  <div class="w-4 h-4 bg-[#4562AD] rounded-full z-10"></div>
+                </div>
+              </div>
+              <div class="w-1/2 pl-8 text-right flex justify-end">
+                <h3 class="w-[70%] lg:text-xl 2xl:text-2xl">
+                  <span
+                    ><span class="text-xl text-[var(--text-gray)] font-semibold">Therapy Plan –</span>
+                    <span class="text-lg text-[var-(--text-gray)]"
+                      >A tailored plan designed with your goals in mind.</span
+                    ></span
+                  >
+                </h3>
+              </div>
+            </div>
+            <div class="flex items-start relative z-10">
+              <div class="w-1/2 pr-8 text-left">
+                <h3 class="w-[70%] lg:text-xl 2xl:text-2xl">
+                  <span
+                    ><span class="text-xl text-[var(--text-gray)] font-semibold">Progress Review –</span>
+                    <span class="text-lg text-[var-(--text-gray)]"
+                      >Ongoing monitoring and collaborative feedback.</span
+                    ></span
+                  >
+                </h3>
+              </div>
+              <div class="w-0 relative flex flex-col items-center">
+                <div class="flex items-center justify-center w-6 h-6 bg-[#90A7E1] rounded-full">
+                  <div class="w-4 h-4 bg-[#4562AD] rounded-full z-10"></div>
+                </div>
+              </div>
+              <div class="w-1/2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="block md:hidden px-6 py-12 mt-10 relative">
+          <div class="absolute top-0 h-full w-0.75 bg-[#7F7F7F]">
+            <div
+              class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-[#7F7F7F] rounded-full z-10"
+            ></div>
+            <div
+              class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-4 h-4 bg-[#7F7F7F] rounded-full z-10"
+            ></div>
+          </div>
+          <div class="flex items-start mb-10 relative z-10 right-2.5">
+            <div class="flex-shrink-0 w-6 h-6 bg-[#90A7E1] rounded-full flex items-center justify-center mr-6 mt-1">
+              <div class="w-3 h-3 bg-[#4562AD] rounded-full"></div>
+            </div>
+            <div>
+              <h3 class="text-md">
+                <span
+                  ><span class="text-xl text-[var(--text-gray)] font-semibold">Initial Call –</span>
+                  <span class="text-lg text-[var-(--text-gray)]"
+                    >Speak with our care coordinator to understand your concern
+                  </span></span
+                >
+              </h3>
+            </div>
+          </div>
+          <div class="flex items-start mb-10 relative z-10 right-2.5">
+            <div class="flex-shrink-0 w-6 h-6 bg-[#90A7E1] rounded-full flex items-center justify-center mr-6 mt-1">
+              <div class="w-3 h-3 bg-[#4562AD] rounded-full"></div>
+            </div>
+            <div>
+              <h3 class="text-md">
+                <span
+                  ><span class="text-xl text-[var(--text-gray)] font-semibold">Consult with an expert –</span>
+                  <span class="text-lg text-[var-(--text-gray)]"
+                    >Book an in-depth consultation with a specialist.</span
+                  ></span
+                >
+              </h3>
+            </div>
+          </div>
+          <div class="flex items-start mb-10 relative z-10 right-2.5">
+            <div class="flex-shrink-0 w-6 h-6 bg-[#90A7E1] rounded-full flex items-center justify-center mr-6 mt-1">
+              <div class="w-3 h-3 bg-[#4562AD] rounded-full"></div>
+            </div>
+            <div>
+              <h3 class="text-md">
+                <span
+                  ><span class="text-xl text-[var(--text-gray)] font-semibold">Assessment –</span>
+                  <span class="text-lg text-[var-(--text-gray)]"
+                    >Receive structured evaluations (as needed).</span
+                  ></span
+                >
+              </h3>
+            </div>
+          </div>
+          <div class="flex items-start relative mb-10 z-10 right-2.5">
+            <div class="flex-shrink-0 w-6 h-6 bg-[#90A7E1] rounded-full flex items-center justify-center mr-6 mt-1">
+              <div class="w-3 h-3 bg-[#4562AD] rounded-full"></div>
+            </div>
+            <div>
+              <h3 class="text-md">
+                <span
+                  ><span class="text-xl text-[var(--text-gray)] font-semibold">Therapy Plan –</span>
+                  <span class="text-lg text-[var-(--text-gray)]"
+                    >A tailored plan designed with your goals in mind.</span
+                  ></span
+                >
+              </h3>
+            </div>
+          </div>
+          <div class="flex items-start relative z-10 right-2.5">
+            <div class="flex-shrink-0 w-6 h-6 bg-[#90A7E1] rounded-full flex items-center justify-center mr-6 mt-1">
+              <div class="w-3 h-3 bg-[#4562AD] rounded-full"></div>
+            </div>
+            <div>
+              <h3 class="text-md">
+                <span
+                  ><span class="text-xl text-[var(--text-gray)] font-semibold">Progress Review –</span>
+                  <span class="text-lg text-[var-(--text-gray)]"
+                    >Ongoing monitoring and collaborative feedback.</span
+                  ></span
+                >
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:min-h-screen overflow-visible flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-20 py-6 md:py-10 relative bg-[#FFCC001F]"
+      >
+        <div class="container mx-auto">
+          <div class="flex flex-col items-center justify-center w-full">
+            <h1 class="text-center text-2xl md:text-2xl lg:text-3xl font-bold">What clients say</h1>
+            <p
+              class="text-center items-center text-lg md:text-xl lg:text-lg mt-3 md:w-2/3 w-full italic text-[#403D3D]"
+            >
+              Testimonials from families who’ve experienced the eMbrace impact
+            </p>
+            <div class="flex flex-col md:flex-row gap-6 md:gap-10 mt-10">
+              <div
+                class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
+              >
+                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient1-A-Cz0pZt.svg" />
+                <div class="text-start">
+                  <p class="text-sm lg:text-base text-gray-600">
+                    "My son loves coming to eMbrace. His confidence has grown so much!"
+                  </p>
+                </div>
+              </div>
+              <div
+                class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
+              >
+                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient2-B-kI2dcu.png" />
+                <div class="text-start">
+                  <p class="text-sm lg:text-base text-gray-600">
+                    "The therapists are kind, patient, and extremely skilled. Thank you!"
+                  </p>
+                </div>
+              </div>
+              <div
+                class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
+              >
+                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient3-CQPVFc5b.svg" />
+                <div class="text-start">
+                  <p class="text-sm lg:text-base text-gray-600">
+                    "Their assessments were so detailed, it really helped us understand our child."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:min-h-screen overflow-visible flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-20 py-6 md:py-10 relative bg-gradient-to-b from-[#ffcc0034] to-[#ffcc0034]/50"
+      >
+        <h1 class="text-xl md:text-3xl font-bold text-center">See Wellbeing Spaces in Action</h1>
+        <p class="font-medium text-[var(--text-gray)] italic text-center">
+          Testimonials from families who’ve experienced the eMbrace impact
+        </p>
+        <div class="relative flex mt-6 items-center justify-center w-full mx-auto">
+          <img
+            alt="carousel-1"
+            class="md:w-[90%] 2xl:h-[50rem] h-[30rem] object-cover rounded-xl shadow"
+            src="/assets/carousel1-BUqaO1dK.jpg"
+          /><button
+            class="absolute top-1/2 left-3 md:left-16 2xl:left-25 -translate-y-1/2 z-10 p-3 bg-white/70 rounded-full shadow hover:bg-white"
+          >
+            <img
+              alt="Previous"
+              class="md:w-6 md:h-6 w-3 h-3"
+              src="data:image/svg+xml,%3csvg%20width='30'%20height='39'%20viewBox='0%200%2030%2039'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.694%2017.0118C-0.0713594%2018.2009%20-0.0713545%2020.7991%201.694%2021.9882L24.824%2037.568C26.8167%2038.9102%2029.5%2037.4824%2029.5%2035.0798L29.5%203.92019C29.5%201.51762%2026.8167%200.0897827%2024.824%201.432L1.694%2017.0118Z'%20fill='%23234394'/%3e%3c/svg%3e"
+            /></button
+          ><button
+            class="absolute top-1/2 right-3 md:right-16 2xl:right-25 -translate-y-1/2 z-10 p-3 bg-white/70 rounded-full shadow hover:bg-white"
+          >
+            <img
+              alt="Next"
+              class="rotate-180 md:w-6 md:h-6 w-3 h-3"
+              src="data:image/svg+xml,%3csvg%20width='30'%20height='39'%20viewBox='0%200%2030%2039'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.694%2017.0118C-0.0713594%2018.2009%20-0.0713545%2020.7991%201.694%2021.9882L24.824%2037.568C26.8167%2038.9102%2029.5%2037.4824%2029.5%2035.0798L29.5%203.92019C29.5%201.51762%2026.8167%200.0897827%2024.824%201.432L1.694%2017.0118Z'%20fill='%23234394'/%3e%3c/svg%3e"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="md:min-h-screen overflow-visible flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-20 py-6 md:py-10 relative bg-gradient-to-b from-[#ffcc0034]/50 to-[#FFFFFF]"
+      >
+        <div class="hidden md:block w-7 h-14 bg-[#FF8E00] rounded-r-full absolute left-0 top-0 z-[10]"></div>
+        <div class="hidden md:block w-7 h-14 bg-[#90A7E178] absolute right-0 top-1/3 z-[10] rounded-l-full"></div>
+        <div class="hidden md:block w-14 h-14 bg-[#B9F1DA] absolute right-20 -bottom-6 z-[10] rounded-full"></div>
+        <div class="hidden md:block w-14 h-14 bg-[#EF917B69] absolute left-10 top-2/3 z-[10] rounded-full"></div>
+        <div class="hidden md:block w-14 h-7 bg-[#90A7E1] absolute left-25 bottom-0 z-[10] rounded-t-full"></div>
+        <h1 class="text-xl text-center md:text-3xl font-bold">Frequently asked questions</h1>
+        <div class="space-y-4 mb-12 mt-12">
+          <div class="md:w-[60%] mx-auto bg-white rounded-2xl shadow-md/10 overflow-hidden">
+            <button
+              class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
+            >
+              <span class="font-medium text-gray-800 md:text-base text-sm break-words"
+                >Do I need a diagnosis to start therapy? </span
+              ><img
+                alt="toggle"
+                class="w-5 h-5 sm:w-4 sm:h-4 transition-transform duration-200"
+                src="data:image/svg+xml,%3csvg%20width='46'%20height='48'%20viewBox='0%200%2046%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M43.125%2021H25.875V3C25.875%202.20435%2025.5721%201.44129%2025.0329%200.87868C24.4938%200.316071%2023.7625%200%2023%200C22.2375%200%2021.5062%200.316071%2020.9671%200.87868C20.4279%201.44129%2020.125%202.20435%2020.125%203V21H2.875C2.1125%2021%201.38124%2021.3161%200.842069%2021.8787C0.302901%2022.4413%200%2023.2044%200%2024C0%2024.7956%200.302901%2025.5587%200.842069%2026.1213C1.38124%2026.6839%202.1125%2027%202.875%2027H20.125V45C20.125%2045.7957%2020.4279%2046.5587%2020.9671%2047.1213C21.5062%2047.6839%2022.2375%2048%2023%2048C23.7625%2048%2024.4938%2047.6839%2025.0329%2047.1213C25.5721%2046.5587%2025.875%2045.7957%2025.875%2045V27H43.125C43.8875%2027%2044.6188%2026.6839%2045.1579%2026.1213C45.6971%2025.5587%2046%2024.7956%2046%2024C46%2023.2044%2045.6971%2022.4413%2045.1579%2021.8787C44.6188%2021.3161%2043.8875%2021%2043.125%2021Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
+              />
+            </button>
+            <div
+              class="transition-all duration-300 ease-in-out overflow-hidden px-4 sm:px-6 max-h-0 opacity-0"
+              style="word-break: break-word"
+            >
+              <div class="pb-4 text-sm sm:text-base break-words">
+                <div class="space-y-3">
+                  <p class="text-[#234394]">
+                    No. We support both diagnosed and undiagnosed concerns and guide you through the process.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-[60%] mx-auto bg-white rounded-2xl shadow-md/10 overflow-hidden">
+            <button
+              class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
+            >
+              <span class="font-medium text-gray-800 md:text-base text-sm break-words">
+                How early can I begin therapy for my child?</span
+              ><img
+                alt="toggle"
+                class="w-5 h-5 sm:w-4 sm:h-4 transition-transform duration-200"
+                src="data:image/svg+xml,%3csvg%20width='46'%20height='48'%20viewBox='0%200%2046%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M43.125%2021H25.875V3C25.875%202.20435%2025.5721%201.44129%2025.0329%200.87868C24.4938%200.316071%2023.7625%200%2023%200C22.2375%200%2021.5062%200.316071%2020.9671%200.87868C20.4279%201.44129%2020.125%202.20435%2020.125%203V21H2.875C2.1125%2021%201.38124%2021.3161%200.842069%2021.8787C0.302901%2022.4413%200%2023.2044%200%2024C0%2024.7956%200.302901%2025.5587%200.842069%2026.1213C1.38124%2026.6839%202.1125%2027%202.875%2027H20.125V45C20.125%2045.7957%2020.4279%2046.5587%2020.9671%2047.1213C21.5062%2047.6839%2022.2375%2048%2023%2048C23.7625%2048%2024.4938%2047.6839%2025.0329%2047.1213C25.5721%2046.5587%2025.875%2045.7957%2025.875%2045V27H43.125C43.8875%2027%2044.6188%2026.6839%2045.1579%2026.1213C45.6971%2025.5587%2046%2024.7956%2046%2024C46%2023.2044%2045.6971%2022.4413%2045.1579%2021.8787C44.6188%2021.3161%2043.8875%2021%2043.125%2021Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
+              />
+            </button>
+            <div
+              class="transition-all duration-300 ease-in-out overflow-hidden px-4 sm:px-6 max-h-0 opacity-0"
+              style="word-break: break-word"
+            >
+              <div class="pb-4 text-sm sm:text-base break-words">
+                <div class="space-y-3">
+                  <p class="text-[#234394]">
+                    Early intervention can start as early as 18 months. We offer age-appropriate support from toddlers
+                    to teens.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-[60%] mx-auto bg-white rounded-2xl shadow-md/10 overflow-hidden">
+            <button
+              class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
+            >
+              <span class="font-medium text-gray-800 md:text-base text-sm break-words"
+                >Are parents involved in sessions?</span
+              ><img
+                alt="toggle"
+                class="w-5 h-5 sm:w-4 sm:h-4 transition-transform duration-200"
+                src="data:image/svg+xml,%3csvg%20width='46'%20height='48'%20viewBox='0%200%2046%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M43.125%2021H25.875V3C25.875%202.20435%2025.5721%201.44129%2025.0329%200.87868C24.4938%200.316071%2023.7625%200%2023%200C22.2375%200%2021.5062%200.316071%2020.9671%200.87868C20.4279%201.44129%2020.125%202.20435%2020.125%203V21H2.875C2.1125%2021%201.38124%2021.3161%200.842069%2021.8787C0.302901%2022.4413%200%2023.2044%200%2024C0%2024.7956%200.302901%2025.5587%200.842069%2026.1213C1.38124%2026.6839%202.1125%2027%202.875%2027H20.125V45C20.125%2045.7957%2020.4279%2046.5587%2020.9671%2047.1213C21.5062%2047.6839%2022.2375%2048%2023%2048C23.7625%2048%2024.4938%2047.6839%2025.0329%2047.1213C25.5721%2046.5587%2025.875%2045.7957%2025.875%2045V27H43.125C43.8875%2027%2044.6188%2026.6839%2045.1579%2026.1213C45.6971%2025.5587%2046%2024.7956%2046%2024C46%2023.2044%2045.6971%2022.4413%2045.1579%2021.8787C44.6188%2021.3161%2043.8875%2021%2043.125%2021Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
+              />
+            </button>
+            <div
+              class="transition-all duration-300 ease-in-out overflow-hidden px-4 sm:px-6 max-h-0 opacity-0"
+              style="word-break: break-word"
+            >
+              <div class="pb-4 text-sm sm:text-base break-words">
+                <div class="space-y-3">
+                  <p class="text-[#234394]">
+                    Yes, parent involvement is crucial, especially for younger children. We also provide separate parent
+                    coaching.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-[60%] mx-auto bg-white rounded-2xl shadow-md/10 overflow-hidden">
+            <button
+              class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
+            >
+              <span class="font-medium text-gray-800 md:text-base text-sm break-words"
+                >What qualifications do your therapists have?</span
+              ><img
+                alt="toggle"
+                class="w-5 h-5 sm:w-4 sm:h-4 transition-transform duration-200"
+                src="data:image/svg+xml,%3csvg%20width='46'%20height='48'%20viewBox='0%200%2046%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M43.125%2021H25.875V3C25.875%202.20435%2025.5721%201.44129%2025.0329%200.87868C24.4938%200.316071%2023.7625%200%2023%200C22.2375%200%2021.5062%200.316071%2020.9671%200.87868C20.4279%201.44129%2020.125%202.20435%2020.125%203V21H2.875C2.1125%2021%201.38124%2021.3161%200.842069%2021.8787C0.302901%2022.4413%200%2023.2044%200%2024C0%2024.7956%200.302901%2025.5587%200.842069%2026.1213C1.38124%2026.6839%202.1125%2027%202.875%2027H20.125V45C20.125%2045.7957%2020.4279%2046.5587%2020.9671%2047.1213C21.5062%2047.6839%2022.2375%2048%2023%2048C23.7625%2048%2024.4938%2047.6839%2025.0329%2047.1213C25.5721%2046.5587%2025.875%2045.7957%2025.875%2045V27H43.125C43.8875%2027%2044.6188%2026.6839%2045.1579%2026.1213C45.6971%2025.5587%2046%2024.7956%2046%2024C46%2023.2044%2045.6971%2022.4413%2045.1579%2021.8787C44.6188%2021.3161%2043.8875%2021%2043.125%2021Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
+              />
+            </button>
+            <div
+              class="transition-all duration-300 ease-in-out overflow-hidden px-4 sm:px-6 max-h-0 opacity-0"
+              style="word-break: break-word"
+            >
+              <div class="pb-4 text-sm sm:text-base break-words">
+                <div class="space-y-3">
+                  <p class="text-[#234394]">
+                    All our experts are certified and trained in globally recognized protocols.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-[60%] mx-auto bg-white rounded-2xl shadow-md/10 overflow-hidden">
+            <button
+              class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
+            >
+              <span class="font-medium text-gray-800 md:text-base text-sm break-words">Can therapy happen online?</span
+              ><img
+                alt="toggle"
+                class="w-5 h-5 sm:w-4 sm:h-4 transition-transform duration-200"
+                src="data:image/svg+xml,%3csvg%20width='46'%20height='48'%20viewBox='0%200%2046%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M43.125%2021H25.875V3C25.875%202.20435%2025.5721%201.44129%2025.0329%200.87868C24.4938%200.316071%2023.7625%200%2023%200C22.2375%200%2021.5062%200.316071%2020.9671%200.87868C20.4279%201.44129%2020.125%202.20435%2020.125%203V21H2.875C2.1125%2021%201.38124%2021.3161%200.842069%2021.8787C0.302901%2022.4413%200%2023.2044%200%2024C0%2024.7956%200.302901%2025.5587%200.842069%2026.1213C1.38124%2026.6839%202.1125%2027%202.875%2027H20.125V45C20.125%2045.7957%2020.4279%2046.5587%2020.9671%2047.1213C21.5062%2047.6839%2022.2375%2048%2023%2048C23.7625%2048%2024.4938%2047.6839%2025.0329%2047.1213C25.5721%2046.5587%2025.875%2045.7957%2025.875%2045V27H43.125C43.8875%2027%2044.6188%2026.6839%2045.1579%2026.1213C45.6971%2025.5587%2046%2024.7956%2046%2024C46%2023.2044%2045.6971%2022.4413%2045.1579%2021.8787C44.6188%2021.3161%2043.8875%2021%2043.125%2021Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
+              />
+            </button>
+            <div
+              class="transition-all duration-300 ease-in-out overflow-hidden px-4 sm:px-6 max-h-0 opacity-0"
+              style="word-break: break-word"
+            >
+              <div class="pb-4 text-sm sm:text-base break-words">
+                <div class="space-y-3">
+                  <p class="text-[#234394]">
+                    Yes! We offer both online and in-center sessions, depending on your preference and need.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-base font-semibold italic text-[var(--text-gray)] text-center">
+          <span
+            >Still have questions? Write to us at
+            <span class="text-[var(--blue-fig)] cursor-pointer hover:underline">info@embracelives.com</span></span
+          >
+        </p>
+      </div>
+      <?php include __DIR__ . '/components/footer.php'; ?>
+    </div>
+    
+    <script src="/assets/interactive.js"></script>
+  </body>
+</html>

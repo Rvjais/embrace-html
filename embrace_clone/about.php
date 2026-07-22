@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    
+    <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Learn about eMbrace, Delhi's trusted psychology practice founded by Dr. Supriya Malik. Meet our leadership team of RCI-certified clinical psychologists."
+      name="description"
+    />
+    <meta content="index, follow" name="robots" />
+    <link href="https://embracelives.com/about.php" rel="canonical" />
+    <!-- Open Graph -->
+    <meta content="website" property="og:type" />
+    <meta content="https://embracelives.com/about.html" property="og:url" />
+    <meta content="About eMbrace | Our Story, Mission &amp; Leadership Team" property="og:title" />
+    <meta
+      content="Learn about eMbrace, Delhi's trusted psychology practice founded by Dr. Supriya Malik. Meet our leadership team of RCI-certified clinical psychologists."
+      property="og:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" property="og:image" />
+    <meta content="1200" property="og:image:width" />
+    <meta content="630" property="og:image:height" />
+    <meta content="eMbrace Lives" property="og:site_name" />
+    <meta content="en_IN" property="og:locale" />
+    <!-- Twitter Card -->
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="About eMbrace | Our Story, Mission &amp; Leadership Team" name="twitter:title" />
+    <meta
+      content="Learn about eMbrace, Delhi's trusted psychology practice founded by Dr. Supriya Malik. Meet our leadership team of RCI-certified clinical psychologists."
+      name="twitter:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "eMbrace Lives",
+        "alternateName": "eMbrace - SMD Wellness",
+        "url": "https://embracelives.com",
+        "logo": "https://embracelives.com/Logo.svg",
+        "description": "Leading psychology and mental health practice in Delhi offering evidence-based therapy, assessments, and neurodevelopmental care for children, adolescents, and adults.",
+        "telephone": "+919971576800",
+        "email": "info@embracelives.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Delhi",
+          "addressRegion": "Delhi",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "28.6139",
+          "longitude": "77.2090"
+        },
+        "priceRange": "$$",
+        "medicalSpecialty": ["Psychiatric", "ClinicalPsychology"],
+        "availableService": [
+          { "@type": "MedicalTherapy", "name": "Child Psychology" },
+          { "@type": "MedicalTherapy", "name": "Clinical Psychology" },
+          { "@type": "MedicalTherapy", "name": "Couples Therapy" },
+          { "@type": "MedicalTherapy", "name": "ADHD Assessment" },
+          { "@type": "MedicalTherapy", "name": "Autism Assessment" },
+          { "@type": "MedicalTherapy", "name": "CBT for Anxiety & Depression" }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/embracelives/",
+          "https://www.instagram.com/embracelives/",
+          "https://www.facebook.com/embracelives22/"
+        ]
+      }
+    </script>
+    <title>About eMbrace | Our Story, Mission &amp; Leadership Team</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
+
+    <link href="/assets/index-B-kGA3UA.css" rel="stylesheet" />
+    <style></style>
+  </head>
+  <body style="overflow: auto">
+    <div id="root">
+      <?php include __DIR__ . '/components/header.php'; ?>
+      <div
+        class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 bg-gradient-to-b from-[#E7F7FF] to-[#FFFFFF] mb-6 md:mb-0 relative overflow-hidden h-fit md:min-h-[calc(100vh-4.4rem)] items-center justify-center flex"
+      >
+        <div
+          class="w-[4rem] h-[4rem] md:w-[4rem] md:h-[4rem] bg-[#C499F6] rounded-full absolute -left-7 top-44 md:hidden"
+        ></div>
+        <div
+          class="w-[4rem] h-[4rem] md:w-[4rem] md:h-[4rem] bg-[#9DEECD] rounded-full absolute -right-6 top-72 md:hidden"
+        ></div>
+        <div class="flex flex-row gap-12 py-8 xl:py-15 2xl:py-40">
+          <div class="w-[40%] hidden md:block">
+            <img alt="Parents Playing with kids" class="" src="/assets/ParentsPlaying-Dk_2SuQj.svg" />
+          </div>
+          <div class="md:w-[60%]">
+            <h1
+              class="text-2xl md:text-3xl 2xl:text-5xl font-semibold md:font-medium text-[var(--blue-fig)] text-center md:text-start"
+            >
+              <span>About <br class="md:hidden" />eMbrace</span>
+            </h1>
+            <h1 class="mt-2 italic font-medium text-md md:text-start text-center md:text-xl 2xl:text-3xl">
+              Empowering Diverse Minds | Building a Neuro-Inclusive Future
+            </h1>
+            <div class="md:hidden flex justify-center">
+              <img alt="Parents Playing with kids" class="w-[70%] mt-10" src="/assets/ParentsPlaying-Dk_2SuQj.svg" />
+            </div>
+            <p class="mt-8 text-base md:w-full w-[90%] font-light text-center md:text-start mx-auto 2xl:text-lg">
+              <span
+                >At eMbrace, we are building a premier health and developmental care platform dedicated to providing
+                <span class="text-[var(--blue-fig)]">high-quality,evidence-based assessments</span> and
+                <span class="text-[var(--blue-fig)]">therapeutic interventions</span> for children, adolescents, adults,
+                and families.</span
+              >
+            </p>
+            <p class="mt-6 text-base md:w-full w-[90%] font-light text-center md:text-start mx-auto 2xl:text-lg">
+              <span
+                >With a strong focus on neurodivergence, we specialize in
+                <span class="text-[var(--blue-fig)]"
+                  >Autism, ADHD, Specific Learning Disabilities (SLD), Social Communication Difficulties, and Special
+                  Educational Needs (SEN)</span
+                >
+                while also supporting mental well-being across all populations</span
+              >
+            </p>
+            <p
+              class="mt-6 md:mt-2 text-base md:w-full w-[90%] font-light text-center md:text-start mx-auto 2xl:text-lg"
+            >
+              Comprehensive support for both neurodivergent and neurotypical individuals throughout their developmental
+              and mental health journeys.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 flex flex-col items-center py-6 md:py-8 2xl:py-10 justify-center relative md:pb-10 pb-6 overflow-hidden"
+      >
+        <div class="hidden md:block absolute w-8 h-8 bg-[#B9F1DA] rounded-full -top-[4%] right-[20%]"></div>
+        <div class="hidden md:block absolute w-8 h-8 bg-[#DC649D]/50 rounded-full -top-[5%] right-[19%]"></div>
+        <div class="hidden md:block absolute w-8 h-8 bg-[#B9F1DA] rounded-full -bottom-[4%] left-[18%]"></div>
+        <div class="hidden md:block absolute w-8 h-8 bg-[#DC649D]/50 rounded-full -bottom-[5%] left-[16%]"></div>
+        <div
+          class="w-[3rem] h-[3rem] md:w-[4rem] md:h-[4rem] bg-[#C499F6] rounded-full absolute left-0 md:left-6 -top-7 md:top-2"
+        ></div>
+        <div
+          class="w-full md:w-[60%] h-28 md:h-35 2xl:h-45 bg-[#FFF8E0] rounded-4xl relative flex flex-col items-center justify-center py-6 md:py-10 shadow-md"
+        >
+          <img
+            alt='"'
+            class="w-4 h-4 md:w-8 md:h-8 absolute top-4 left-6"
+            src="data:image/svg+xml,%3csvg%20width='71'%20height='57'%20viewBox='0%200%2071%2057'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M24.4062%2028.1296H13.3125V36.1667C13.3125%2040.5996%2017.2923%2044.2037%2022.1875%2044.2037H23.2968C23.7342%2044.2028%2024.1674%2044.2801%2024.5717%2044.4312C24.976%2044.5823%2025.3433%2044.8043%2025.6525%2045.0844C25.9618%2045.3644%2026.2069%2045.6971%2026.3738%2046.0631C26.5407%2046.4292%2026.626%2046.8216%2026.625%2047.2177V53.2454C26.626%2053.6415%2026.5407%2054.0339%2026.3738%2054.4C26.2069%2054.7661%2025.9618%2055.0987%2025.6525%2055.3787C25.3433%2055.6588%2024.976%2055.8808%2024.5717%2056.0319C24.1674%2056.183%2023.7342%2056.2603%2023.2968%2056.2594H22.1875C9.92892%2056.2594%200%2047.2679%200%2036.1668V6.02778C0%202.69993%202.98143%200%206.65625%200H24.4062C28.0811%200%2031.0625%202.69993%2031.0625%206.02778V22.1019C31.0625%2025.4297%2028.0811%2028.1296%2024.4062%2028.1296ZM64.3438%2028.1296H53.25V36.1667C53.25%2040.5996%2057.2298%2044.2037%2062.125%2044.2037H63.2343C63.6717%2044.2028%2064.1049%2044.2801%2064.5092%2044.4312C64.9135%2044.5823%2065.2808%2044.8043%2065.59%2045.0844C65.8993%2045.3644%2066.1444%2045.6971%2066.3113%2046.0631C66.4782%2046.4292%2066.5635%2046.8216%2066.5625%2047.2177V53.2454C66.5635%2053.6415%2066.4782%2054.0339%2066.3113%2054.4C66.1444%2054.7661%2065.8993%2055.0987%2065.59%2055.3787C65.2808%2055.6588%2064.9135%2055.8808%2064.5092%2056.0319C64.1049%2056.183%2063.6717%2056.2603%2063.2343%2056.2594H62.125C49.8664%2056.2594%2039.9375%2047.2679%2039.9375%2036.1668V6.02778C39.9375%202.69993%2042.9189%200%2046.5938%200H64.3438C68.0186%200%2071%202.69993%2071%206.02778V22.1019C71%2025.4297%2068.0186%2028.1296%2064.3438%2028.1296Z'%20fill='%234562AD'/%3e%3c/svg%3e"
+          />
+          <p class="text-xs md:text-xl 2xl:text-3xl font-semibold text-center">Our Story: The Vision Behind eMbrace</p>
+          <p class="text-center italic text-[10px] lg:text-sm 2xl:text-xl">
+            A mission rooted in inclusive quality care
+          </p>
+          <img
+            alt='"'
+            class="w-4 h-4 md:w-8 md:h-8 absolute bottom-4 right-6 rotate-180"
+            src="data:image/svg+xml,%3csvg%20width='71'%20height='57'%20viewBox='0%200%2071%2057'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M24.4062%2028.1296H13.3125V36.1667C13.3125%2040.5996%2017.2923%2044.2037%2022.1875%2044.2037H23.2968C23.7342%2044.2028%2024.1674%2044.2801%2024.5717%2044.4312C24.976%2044.5823%2025.3433%2044.8043%2025.6525%2045.0844C25.9618%2045.3644%2026.2069%2045.6971%2026.3738%2046.0631C26.5407%2046.4292%2026.626%2046.8216%2026.625%2047.2177V53.2454C26.626%2053.6415%2026.5407%2054.0339%2026.3738%2054.4C26.2069%2054.7661%2025.9618%2055.0987%2025.6525%2055.3787C25.3433%2055.6588%2024.976%2055.8808%2024.5717%2056.0319C24.1674%2056.183%2023.7342%2056.2603%2023.2968%2056.2594H22.1875C9.92892%2056.2594%200%2047.2679%200%2036.1668V6.02778C0%202.69993%202.98143%200%206.65625%200H24.4062C28.0811%200%2031.0625%202.69993%2031.0625%206.02778V22.1019C31.0625%2025.4297%2028.0811%2028.1296%2024.4062%2028.1296ZM64.3438%2028.1296H53.25V36.1667C53.25%2040.5996%2057.2298%2044.2037%2062.125%2044.2037H63.2343C63.6717%2044.2028%2064.1049%2044.2801%2064.5092%2044.4312C64.9135%2044.5823%2065.2808%2044.8043%2065.59%2045.0844C65.8993%2045.3644%2066.1444%2045.6971%2066.3113%2046.0631C66.4782%2046.4292%2066.5635%2046.8216%2066.5625%2047.2177V53.2454C66.5635%2053.6415%2066.4782%2054.0339%2066.3113%2054.4C66.1444%2054.7661%2065.8993%2055.0987%2065.59%2055.3787C65.2808%2055.6588%2064.9135%2055.8808%2064.5092%2056.0319C64.1049%2056.183%2063.6717%2056.2603%2063.2343%2056.2594H62.125C49.8664%2056.2594%2039.9375%2047.2679%2039.9375%2036.1668V6.02778C39.9375%202.69993%2042.9189%200%2046.5938%200H64.3438C68.0186%200%2071%202.69993%2071%206.02778V22.1019C71%2025.4297%2068.0186%2028.1296%2064.3438%2028.1296Z'%20fill='%234562AD'/%3e%3c/svg%3e"
+          />
+        </div>
+        <p
+          class="mt-8 text-center md:w-[60%] xl:w-[65%] 2xl:w-[60%] italic text-xs md:text-base 2xl:text-lg font-medium md:px-0 px-2"
+        >
+          <span
+            >eMbrace was founded on the principle that every individual deserves access to <br /><span
+              class="text-[var(--blue-fig)]"
+              >high-quality developmental and mental health care—irrespective</span
+            ><br />
+            of their background, challenges, or neurodivergent needs.</span
+          >
+        </p>
+        <div
+          class="w-[3rem] h-[3rem] md:w-[4rem] md:h-[4rem] bg-[#9DEECD] rounded-full absolute md:-right-5 -right-6 bottom-[15%] 2xl:bottom-0"
+        ></div>
+      </div>
+      <div
+        class="overflow-hidden e px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 flex flex-col items-center py-8 xl:py-15 justify-center relative bg-gradient-to-b from-[#FFF5DC99] to-[#FFF8E445]"
+      >
+        <div class="md:hidden absolute -left-3 top-25 w-8 h-8 bg-[#F2B81B91] rounded-full"></div>
+        <div
+          class="md:hidden absolute -left-2 top-31 w-0 h-0 border-l-[0.75rem] border-l-transparent border-r-[0.75rem] border-r-transparent border-t-[1.25rem] border-t-[#BEEDB9]/70 rotate-180"
+        ></div>
+        <div class="hidden md:block absolute left-0 top-4">
+          <div class="w-8 h-8 md:w-[4rem] md:h-[4rem] bg-[#F2B81B91] rounded-full -ml-2 md:ml-2 mt-25 md:mt-2"></div>
+          <div
+            class="left-[1%] absolute top-[32%] md:left-[35%] md:top-[85%] w-0 h-0 border-l-[0.75rem] md:border-l-[1.5rem] border-l-transparent border-r-[0.75rem] md:border-r-[1.5rem] border-r-transparent border-t-[1.25rem] md:border-t-[2.5rem] border-t-[#BEEDB9]/70 mx-auto -mt-1 md:-mt-2 rotate-180"
+          ></div>
+        </div>
+        <div class="hidden md:block absolute h-12 w-12 bg-[#B9F1DA]/50 rounded-full -bottom-[4%] left-[37%]"></div>
+        <div class="hidden md:block absolute -right-[1%] bottom-[35%]">
+          <div class="w-8 h-8 md:w-[4rem] md:h-[4rem] bg-[#90A7E16E] rounded-full -ml-2 md:ml-2 mt-25 md:mt-2"></div>
+          <div
+            class="left-[1%] absolute top-[32%] md:left-[35%] md:top-[85%] w-0 h-0 border-l-[0.75rem] md:border-l-[1.5rem] border-l-transparent border-r-[0.75rem] md:border-r-[1.5rem] border-r-transparent border-t-[1.25rem] md:border-t-[2.5rem] border-t-[#BEEDB9]/70 mx-auto -mt-1 md:-mt-2 rotate-180"
+          ></div>
+        </div>
+        <div
+          class="absolute w-10 h-10 rounded-tr-full bottom-133 bg-[#F8D75B] md:bottom-0 -right-5 md:-right-12 md:w-20 md:h-20"
+        ></div>
+        <img
+          alt="bubble"
+          class="absolute left-0 md:hidden h-12 w-12"
+          src="data:image/svg+xml,%3csvg%20width='50'%20height='80'%20viewBox='0%200%2050%2080'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='26.1005'%20cy='27.2656'%20rx='26.1005'%20ry='27.2656'%20transform='matrix(0.154383%20-0.988011%200.989983%200.141189%20-12.043%2051.5752)'%20fill='%23B9F1DA'/%3e%3cellipse%20opacity='0.5'%20cx='26.1005'%20cy='27.2656'%20rx='26.1005'%20ry='27.2656'%20transform='matrix(0.154383%20-0.988011%200.989983%200.141189%20-30%2072.3008)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+        /><img
+          alt="bubble"
+          class="absolute right-0 md:hidden h-12 w-12 bottom-10"
+          src="data:image/svg+xml,%3csvg%20width='66'%20height='80'%20viewBox='0%200%2066%2080'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='26.1005'%20cy='27.2656'%20rx='26.1005'%20ry='27.2656'%20transform='matrix(0.154383%20-0.988011%200.989983%200.141189%2017.957%2051.5752)'%20fill='%23B9F1DA'/%3e%3cellipse%20opacity='0.5'%20cx='26.1005'%20cy='27.2656'%20rx='26.1005'%20ry='27.2656'%20transform='matrix(0.154383%20-0.988011%200.989983%200.141189%200%2072.3008)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+        />
+        <h1 class="font-semibold text-2xl pt-8">Meet Our Leadership</h1>
+        <div class="flex md:flex-row flex-col gap-4 md:gap-30 mt-17 items-center justify-center w-full">
+          <div class="flex flex-col items-center cursor-pointer">
+            <div class="relative rounded-full overflow-hidden z-10">
+              <img
+                alt="Dr. Supriya Malik"
+                class="w-30 h-30 md:w-55 md:h-55 z-9 2xl:w-50 2xl:h-50 rounded-full object-cover"
+                src="/assets/Dr.Supriya-B7nTAuN9.svg"
+              />
+              <div
+                class="items-center justify-center flex absolute h-full inset-0 bg-black/70 opacity-0 hover:opacity-100 transition duration-300 rounded-full z-10"
+              >
+                <h1 class="text-xs md:text-sm text-white">View More</h1>
+              </div>
+            </div>
+            <h2 class="2xl:text-xl md:text-xl text-md font-semibold text-center mt-6">Dr. Supriya Malik</h2>
+            <p class="2xl:text-lg md:text-lg text-sm font-medium text-[var(--blue-fig)] text-center">
+              Founder &amp; CEO
+            </p>
+            <p class="2xl:text-md md:text-sm text-sm text-center font-medium mt-1">17+ years experience</p>
+          </div>
+          <div class="flex flex-col items-center cursor-pointer">
+            <div class="relative rounded-full overflow-hidden z-10">
+              <img
+                alt="Sam Das"
+                class="w-30 h-30 md:w-55 md:h-55 z-9 2xl:w-50 2xl:h-50 rounded-full object-cover"
+                src="/assets/SamDas-BTmOELLj.svg"
+              />
+              <div
+                class="items-center justify-center flex absolute h-full inset-0 bg-black/70 opacity-0 hover:opacity-100 transition duration-300 rounded-full z-10"
+              >
+                <h1 class="text-xs md:text-sm text-white">View More</h1>
+              </div>
+            </div>
+            <h2 class="2xl:text-xl md:text-xl text-md font-semibold text-center mt-6">Sam Das</h2>
+            <p class="2xl:text-lg md:text-lg text-sm font-medium text-[var(--blue-fig)] text-center">
+              Co-Founder &amp; CBO
+            </p>
+            <p class="2xl:text-md md:text-sm text-sm text-center font-medium mt-1">16+ years experience</p>
+          </div>
+          <div class="flex flex-col items-center cursor-pointer">
+            <div class="relative rounded-full overflow-hidden z-10">
+              <img
+                alt="Dr. Mahima Sahi"
+                class="w-30 h-30 md:w-55 md:h-55 z-9 2xl:w-50 2xl:h-50 rounded-full object-cover"
+                src="/assets/Dr.Mahima-BUfZN6Aa.svg"
+              />
+              <div
+                class="items-center justify-center flex absolute h-full inset-0 bg-black/70 opacity-0 hover:opacity-100 transition duration-300 rounded-full z-10"
+              >
+                <h1 class="text-xs md:text-sm text-white">View More</h1>
+              </div>
+            </div>
+            <h2 class="2xl:text-xl md:text-xl text-md font-semibold text-center mt-6">Dr. Mahima Sahi</h2>
+            <p class="2xl:text-lg md:text-lg text-sm font-medium text-[var(--blue-fig)] text-center">
+              Programme Director
+            </p>
+            <p class="2xl:text-md md:text-sm text-sm text-center font-medium mt-1">10+ years experience</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="overflow-hidden px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 flex md:flex-row flex-col items-center py-8 xl:py-26 justify-center relative gap-12 pb-12"
+      >
+        <img
+          alt=""
+          class="w-20 h-20 absolute left-[0%] top-[5%] z-0 hidden md:block"
+          src="data:image/svg+xml,%3csvg%20width='135'%20height='185'%20viewBox='0%200%20135%20185'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='66.6777'%20cy='68.2011'%20r='60'%20transform='rotate(-81.5095%2066.6777%2068.2011)'%20fill='%23B9F1DA'/%3e%3ccircle%20opacity='0.5'%20cx='27.2012'%20cy='115.895'%20r='60'%20transform='rotate(-81.5095%2027.2012%20115.895)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+        />
+        <div class="hidden md:block w-16 h-16 bg-[#FF8E0087]/50 absolute rounded-full -top-[3%] right-[25%]"></div>
+        <div class="md:block hidden w-16 h-16 bg-[#7AE6B9] rounded-full absolute -bottom-[5%] left-[30%]"></div>
+        <div class="md:hidden w-16 h-16 bg-[#FF8E0087]/50 rounded-full absolute -left-[9%] bottom-[36%]"></div>
+        <div class="md:hidden w-16 h-16 bg-[#FFCC007A]/50 rounded-full absolute -right-[9%] top-[20%]"></div>
+        <div class="md:w-1/2 z-10 md:mt-0 mt-12 flex flex-col justify-center items-center">
+          <p class="md:hidden font-semibold text-center text-lg md:mr-3">Our Vision</p>
+          <img
+            alt=""
+            class="md:hidden w-[45%] md:w-[40%] mx-auto md:ml-37 2xl:ml-60 translate-y-6 md:-translate-y-6"
+            src="/assets/Vision-fJWo-ySU.svg"
+          />
+          <div class="bg-[#FFF8E0] px-0 py-7 md:px-7 md:py-10 rounded-3xl shadow-lg flex justify-center items-center">
+            <p class="w-[80%] text-center text-sm md:text-lg font-medium">
+              A future where neurodivergence is embraced, mental health is prioritized, and every individual has access
+              to holistic developmental support.
+            </p>
+          </div>
+          <div class="flex flex-col justify-center items-center w-[45%] md:w-[40%]">
+            <img alt="" class="hidden md:block w-[45%] md:w-full -mt-8" src="/assets/Vision-fJWo-ySU.svg" />
+            <p class="hidden md:block font-semibold text-center text-lg pt-4">Our Vision</p>
+          </div>
+        </div>
+        <div class="md:w-1/2 z-10 md:mt-0 flex flex-col w-full justify-center items-center">
+          <div class="flex flex-col justify-center items-center w-[45%] md:w-[40%] -mb-8">
+            <p class="font-semibold text-center text-lg pb-4">Our Mission</p>
+            <img alt="" class="w-full md:w-full" src="/assets/Mission-CPElHvJm.svg" />
+          </div>
+          <div class="bg-[#FFF8E0] px-0 py-7 md:px-7 md:py-10 rounded-3xl shadow-lg flex justify-center items-center">
+            <p class="w-[80%] text-center text-sm md:text-lg font-medium">
+              Empowering diverse minds with accessible, high-quality, and evidence-based mental wellness every day.
+            </p>
+          </div>
+        </div>
+        <img
+          alt=""
+          class="w-20 h-20 absolute right-[0%] bottom-[0%] z-0 rotate-180 hidden md:block"
+          src="data:image/svg+xml,%3csvg%20width='135'%20height='185'%20viewBox='0%200%20135%20185'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='66.6777'%20cy='68.2011'%20r='60'%20transform='rotate(-81.5095%2066.6777%2068.2011)'%20fill='%23B9F1DA'/%3e%3ccircle%20opacity='0.5'%20cx='27.2012'%20cy='115.895'%20r='60'%20transform='rotate(-81.5095%2027.2012%20115.895)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+        />
+      </div>
+      <div
+        class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 flex flex-col py-8 xl:py-15 justify-center items-center relative gap-12 bg-gradient-to-b from-[#E7F7FF] to-[#E7F7FF]"
+      >
+        <div class="bg-[#FAC60073] rounded-full h-10 w-10 absolute hidden md:block bottom-24 -left-6"></div>
+        <h1 class="font-semibold text-xl md:text-3xl w-full text-center">Our Core Values</h1>
+        <div class="flex flex-col gap-4 md:gap-1 2xl:gap-0 w-full items-center">
+          <div class="flex gap-2 md:ml-25 w-full md:max-w-2xl 2xl:max-w-4xl justify-start text-left">
+            <img alt="Diamond pointer" class="w-12 h-12 2xl:w-15 2xl:h-15 mt-1" src="/assets/Diamond-DvvJwKvh.svg" />
+            <div class="flex items-center">
+              <span class="text-sm md:text-[1rem] 2xl:text-lg"
+                ><span
+                  ><span class="text-[var(--blue-fig)] font-semibold">People-First</span> - We prioritize the individual
+                  and their unique needs.</span
+                ></span
+              >
+            </div>
+          </div>
+          <div class="flex gap-2 md:ml-25 w-full md:max-w-2xl 2xl:max-w-4xl justify-start text-left">
+            <img alt="Diamond pointer" class="w-12 h-12 2xl:w-15 2xl:h-15 mt-1" src="/assets/Diamond-DvvJwKvh.svg" />
+            <div class="flex items-center">
+              <span class="text-sm md:text-[1rem] 2xl:text-lg"
+                ><span
+                  ><span class="text-[var(--blue-fig)] font-semibold"
+                    >Inclusivity - Neurodivergent or neurotypical,</span
+                  >
+                  everyone deserves care</span
+                ></span
+              >
+            </div>
+          </div>
+          <div class="flex gap-2 md:ml-25 w-full md:max-w-2xl 2xl:max-w-4xl justify-start text-left">
+            <img alt="Diamond pointer" class="w-12 h-12 2xl:w-15 2xl:h-15 mt-1" src="/assets/Diamond-DvvJwKvh.svg" />
+            <div class="flex items-center">
+              <span class="text-sm md:text-[1rem] 2xl:text-lg"
+                ><span
+                  ><span class="text-[var(--blue-fig)] font-semibold">Innovation</span> - We use cutting-edge
+                  assessments and evidence-based approaches.</span
+                ></span
+              >
+            </div>
+          </div>
+          <div class="flex gap-2 md:ml-25 w-full md:max-w-2xl 2xl:max-w-4xl justify-start text-left">
+            <img alt="Diamond pointer" class="w-12 h-12 2xl:w-15 2xl:h-15 mt-1" src="/assets/Diamond-DvvJwKvh.svg" />
+            <div class="flex items-center">
+              <span class="text-sm md:text-[1rem] 2xl:text-lg"
+                ><span
+                  ><span class="text-[var(--blue-fig)] font-semibold">Compassion</span> - We approach every individual
+                  with empathy and understanding, recognizing the unique challenges they face.</span
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="md:hidden absolute w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#90A7E1]/40 z-20 -bottom-4 right-12"
+        ></div>
+        <div
+          class="md:hidden absolute w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#B9F1DA]/80 z-10 -bottom-6 right-8"
+        ></div>
+        <img
+          alt="Parents Playing"
+          class="hidden md:block absolute left-[3%] top-[6%] max-w-xs md:w-40 lg:w-60 xl:w-80 h-auto object-contain pointer-events-none select-none"
+          src="/assets/ParentsPlaying-Dk_2SuQj.svg"
+        />
+        <div class="md:hidden absolute w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#90A7E1]/40 z-20 top-10.5 left-5"></div>
+        <div class="md:hidden absolute w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#B9F1DA]/80 z-10 top-12.5 left-9"></div>
+        <div
+          class="hidden md:block absolute w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#90A7E1]/40 z-20 bottom-[10%] right-[10%]"
+        ></div>
+        <div
+          class="hidden md:block absolute w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#B9F1DA]/80 z-10 bottom-[8%] right-[8.5%]"
+        ></div>
+        <div></div>
+      </div>
+      <div
+        class="md:z-10 w-full p-3 md:p-0 md:pb-17 flex flex-col items-center md:py-20 xl:pb-18 xl:py-0 bg-gradient-to-b from-[#E7F7FF] to-[#FFFFFF] relative"
+      >
+        <h1 class="text-xl md:text-3xl font-semibold">Our Approach</h1>
+        <p class="mt-4 text-center">A Neurodivergent &amp; Lifespan-Centered Approach</p>
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl mb-10">
+          <div class="flex flex-col items-center bg-white rounded-4xl shadow-lg/20 px-4 py-3 h-full">
+            <img
+              alt="Gold-Standard Assessments &amp; Diagnostics  "
+              class="w-60 h-60 mb-4 object-contain"
+              src="/assets/card1-B7REgjon.svg"
+            />
+            <h2 class="text-sm md:text-[1rem] text-[var(--blue-fig)] font-semibold mb-2 -mt-4 text-center">
+              Gold-Standard Assessments &amp; Diagnostics
+            </h2>
+            <p class="text-center text-sm w-[90%] md:w-[80%]">
+              We utilize ADOS-2,WISC-V, Conners-3, BASC-3 and other internationally recognized tools for accurate
+              evaluations.
+            </p>
+          </div>
+          <div class="flex flex-col items-center bg-white rounded-4xl shadow-lg/20 px-4 py-3 h-full">
+            <img
+              alt="End-to-End Care Model  "
+              class="w-60 h-60 mb-4 object-contain"
+              src="/assets/card2-C1zX8cAE.svg"
+            />
+            <h2 class="text-sm md:text-[1rem] text-[var(--blue-fig)] font-semibold mb-2 -mt-4 text-center">
+              End-to-End Care Model
+            </h2>
+            <p class="text-center text-sm w-[90%] md:w-[80%]">
+              From early screening to therapy, parental guidance, and workplace accommodations, we provide a one-stop
+              solution for neurodivergent and neurotypical individuals.
+            </p>
+          </div>
+          <div class="flex flex-col items-center bg-white rounded-4xl shadow-lg/20 px-4 py-3 h-full">
+            <img
+              alt="Evidence-Based &amp; Globally Aligned "
+              class="w-60 h-60 mb-4 object-contain"
+              src="/assets/card3-CzWuvM9s.svg"
+            />
+            <h2 class="text-sm md:text-[1rem] text-[var(--blue-fig)] font-semibold mb-2 -mt-4 text-center">
+              Evidence-Based &amp; Globally Aligned
+            </h2>
+            <p class="text-center text-sm w-[90%] md:w-[80%]">
+              Our interventions follow NICE UK guidelines, Pearson assessments, and I-CAN protocols, ensuring
+              research-backed, high-impact care.
+            </p>
+          </div>
+        </div>
+        <div class="hidden md:block w-14 h-14 rounded-full bg-[#90A7E1]/30 absolute -bottom-[4%] right-[10%]"></div>
+        <div class="hidden md:block w-14 h-14 rounded-full bg-[#B9F1DA]/80 absolute -bottom-[4%] right-[7%]"></div>
+        <div
+          class="md:hidden absolute w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#90A7E1]/80 z-1 -bottom-4 right-10"
+        ></div>
+      </div>
+      <div
+        class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 flex flex-col py-8 xl:py-10 justify-center items-center relative gap-5 md:gap-12 bg-gradient-to-b from-[#edfff7e1]/90 to-[#edfff785]"
+      >
+        <div class="md:hidden md:w-12 md:h-12 w-6 h8 rounded-full bg-[#90A7E1]/60 absolute -top-6 right-80"></div>
+        <h1 class="text-xl md:text-3xl font-semibold">Our Impact</h1>
+        <div class="flex md:flex-row flex-col gap-5 w-full justify-center items-stretch">
+          <div class="flex flex-col items-center px-2 md:w-48 min-w-0 mt-6 md:mt-0">
+            <img
+              alt="Therapy Hours Delivered"
+              class="w-40 h-40 2xl:w-40 2xl:h-40 object-contain md:mb-2"
+              src="/assets/Therapy-Cp9WTucd.svg"
+            />
+            <div class="text-lg 2xl:text-xl font-semibold text-[var(--blue-fig)] mb-1">25,000 +</div>
+            <div class="text-center text-md font-medium w-4/5 mb-2">Therapy Hours Delivered</div>
+          </div>
+          <div class="flex-col items-center hidden md:block">
+            <hr class="h-30 border-l-2 border-gray-300 mx-0" style="width: 0px" />
+          </div>
+          <div class="flex flex-col items-center px-2 md:w-48 min-w-0 mt-6 md:mt-0">
+            <img
+              alt="Development &amp; Psychiatric Assessments Conducted"
+              class="w-40 h-40 2xl:w-40 2xl:h-40 object-contain md:mb-2"
+              src="/assets/Development_Psychiatric-Djx0Tiut.svg"
+            />
+            <div class="text-lg 2xl:text-xl font-semibold text-[var(--blue-fig)] mb-1">200 +</div>
+            <div class="text-center text-md font-medium w-4/5 mb-2">
+              Development &amp; Psychiatric Assessments Conducted
+            </div>
+          </div>
+          <div class="flex-col items-center hidden md:block">
+            <hr class="h-30 border-l-2 border-gray-300 mx-0" style="width: 0px" />
+          </div>
+          <div class="flex flex-col items-center px-2 md:w-48 min-w-0 mt-6 md:mt-0">
+            <img
+              alt="Children &amp; Families Supported"
+              class="w-40 h-40 2xl:w-40 2xl:h-40 object-contain md:mb-2"
+              src="/assets/Children_Families-Bd_MGcf9.svg"
+            />
+            <div class="text-lg 2xl:text-xl font-semibold text-[var(--blue-fig)] mb-1">200 +</div>
+            <div class="text-center text-md font-medium w-4/5 mb-2">Children &amp; Families Supported</div>
+          </div>
+          <div class="flex-col items-center hidden md:block">
+            <hr class="h-30 border-l-2 border-gray-300 mx-0" style="width: 0px" />
+          </div>
+          <div class="flex flex-col items-center px-2 md:w-48 min-w-0 mt-6 md:mt-0">
+            <img
+              alt="Clients Received Neurodivergent &amp; Mental Health Support"
+              class="w-40 h-40 2xl:w-40 2xl:h-40 object-contain md:mb-2"
+              src="/assets/ClientsReceived-CmDKp9DM.svg"
+            />
+            <div class="text-lg 2xl:text-xl font-semibold text-[var(--blue-fig)] mb-1">600 +</div>
+            <div class="text-center text-md font-medium w-4/5 mb-2">
+              Clients Received Neurodivergent &amp; Mental Health Support
+            </div>
+          </div>
+        </div>
+        <div class="flex md:flex-row flex-col gap-5 md:-mt-0 -mt-5 w-full justify-center items-stretch">
+          <div class="flex flex-col items-center px-2 md:w-48 min-w-0 mt-6 md:mt-0">
+            <img
+              alt="Repeat Clients"
+              class="w-40 h-40 2xl:w-40 2xl:h-40 object-contain mb-2"
+              src="/assets/RepeatClients-B64tKuWE.svg"
+            />
+            <div class="text-lg 2xl:text-xl font-semibold text-[var(--blue-fig)] mb-1">86%</div>
+            <div class="text-center text-md font-medium w-4/5 mb-2">Repeat Clients</div>
+          </div>
+          <div class="flex-col items-center hidden md:block">
+            <hr class="h-30 border-l-2 border-gray-300 mx-0" style="width: 0px" />
+          </div>
+          <div class="flex flex-col items-center px-2 md:w-48 min-w-0 mt-6 md:mt-0">
+            <img
+              alt="Therapy Conversion Rate"
+              class="w-40 h-40 2xl:w-40 2xl:h-40 object-contain mb-2"
+              src="/assets/TherapyConversion-BCPfDDBc.svg"
+            />
+            <div class="text-lg 2xl:text-xl font-semibold text-[var(--blue-fig)] mb-1">79%</div>
+            <div class="text-center text-md font-medium w-4/5 mb-2">Therapy Conversion Rate</div>
+          </div>
+        </div>
+        <div
+          class="md:hidden absolute w-8 h-4 md:w-10 md:h-10 rounded-b-full bg-[#EDFFF799]/80 z-10 top-0 right-10"
+        ></div>
+      </div>
+      <div
+        class="overflow-hidden px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 flex flex-col py-8 xl:py-10 justify-center items-center relative"
+      >
+        <div class="absolute top-[12%] left-0">
+          <img
+            alt=""
+            class="w-1/3"
+            src="data:image/svg+xml,%3csvg%20width='135'%20height='185'%20viewBox='0%200%20135%20185'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='66.6777'%20cy='68.2011'%20r='60'%20transform='rotate(-81.5095%2066.6777%2068.2011)'%20fill='%23B9F1DA'/%3e%3ccircle%20opacity='0.5'%20cx='27.2012'%20cy='115.895'%20r='60'%20transform='rotate(-81.5095%2027.2012%20115.895)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
+          />
+        </div>
+        <div class="absolute -right-[1%] md:top-[40%] top-[150%] block -z-2">
+          <div class="w-8 h-8 md:w-[4rem] md:h-[4rem] bg-[#F2B81B91] rounded-full -ml-2 md:ml-2 mt-[25%] md:mt-2"></div>
+          <div
+            class="left-1 absolute top-[32%] md:left-6 md:top-[80%] w-0 h-0 border-l-[0.75rem] md:border-l-[1.5rem] border-l-transparent border-r-[0.75rem] md:border-r-[1.5rem] border-r-transparent border-t-[1.25rem] md:border-t-[2.5rem] border-t-[#BEEDB9]/70 mx-auto -mt-1 md:-mt-2 rotate-180"
+          ></div>
+        </div>
+        <h1 class="text-xl md:text-3xl font-semibold">Meet Our Team</h1>
+        <p class="mt-4 md:w-[70%] text-center text-xs font-medium md:text-[1rem]">
+          Our diverse team of licensed experts is committed to delivering personalized care through collaboration,
+          compassion, and innovation
+        </p>
+        <button class="bg-[var(--blue-fig)] py-2 px-8 rounded-full text-white mt-10 cursor-pointer">
+          Meet our team
+        </button>
+        <div
+          class="absolute md:right-[10%] md:bottom-[10%] bottom-[23%] right-[70%] -translate-y-1/2 flex flex-col items-center z-10"
+        >
+          <div class="w-8 h-8 rounded-full bg-[#90A7E1]/40 mb-[-20px] z-20"></div>
+          <div class="w-8 h-8 rounded-full bg-[#B9F1DA]/80 z-10 mr-12"></div>
+        </div>
+        <div class="absolute right-1 bottom-1/2 -translate-y-1/2 flex-col items-center z-10 md:hidden block">
+          <div class="w-8 h-8 rounded-full bg-[#B9F1DA]/80 z-20"></div>
+          <div class="w-8 h-8 rounded-full bg-[#90A7E1]/40 z-10 -translate-y-4 -translate-x-2"></div>
+        </div>
+        <div class="absolute -bottom-[3%] md:-bottom-[11%] left-[5%] -translate-y-1/2 flex flex-col items-center z-10">
+          <div class="w-12 h-12 rounded-full bg-[#B9F1DA]/40 mb-[-20px] z-20"></div>
+          <div class="w-12 h-12 rounded-full bg-[#DC649D]/50 z-10 mr-10"></div>
+        </div>
+      </div>
+      <div
+        class="overflow-hidden px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 flex flex-col py-12 xl:py-16 justify-center items-center relative bg-gradient-to-b from-[#E7F7FF] to-[#FFFFFF] z-15"
+      >
+        <div class="absolute md:top-12 top-2 right-0 z-0 overflow-hidden" style="width: 60px; height: 120px">
+          <svg fill="none" height="80" viewbox="0 0 70 120" width="80" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60" cy="60" fill="#D2ADFE" r="48"></circle>
+          </svg>
+        </div>
+        <h1 class="text-xl md:text-3xl font-semibold">Work with Us</h1>
+        <p class="text-xs md:text-sm md:w-[40%] mt-2 italic text-center">
+          We are always seeking young, enthusiastic, and credible professionals to join our mission.
+        </p>
+        <div class="flex md:flex-row flex-col gap-8 justify-center items-center mt-8">
+          <div class="flex flex-col items-center bg-white rounded-4xl shadow-lg p-4 w-48">
+            <img alt="Join Us" class="w-40 h-40 mb-4" src="/assets/JoinUs-BfUHuJmU.svg" /><button
+              class="translate-y-6 -mt-8 px-4 py-2 bg-[var(--blue-fig)] cursor-pointer text-white rounded-full text-xs w-fit"
+            >
+              Join Us
+            </button>
+          </div>
+          <div class="flex flex-col items-center bg-white rounded-4xl shadow-lg p-4 w-48">
+            <img alt="Work With Us" class="w-40 h-40 mb-4" src="/assets/WorkWithUs-VpUY4tm9.svg" /><button
+              class="translate-y-6 -mt-8 px-4 py-2 bg-[var(--blue-fig)] cursor-pointer text-white rounded-full text-xs w-fit"
+            >
+              Work With Us
+            </button>
+          </div>
+          <div class="flex flex-col items-center bg-white rounded-4xl shadow-lg p-4 w-48">
+            <img alt="Connect With Us" class="w-40 h-40 mb-4" src="/assets/Connect-CiMwqMoR.svg" /><button
+              class="translate-y-6 -mt-8 px-4 py-2 bg-[var(--blue-fig)] cursor-pointer text-white rounded-full text-xs w-fit"
+            >
+              Connect With Us
+            </button>
+          </div>
+        </div>
+        <div
+          class="absolute right-1 bottom-1/2 md:-bottom-[13%] md:right-[20%] -translate-y-1/2 flex-col items-center z-10 block"
+        >
+          <div class="w-8 h-8 rounded-full bg-[#B9F1DA]/80 z-20"></div>
+          <div class="w-8 h-8 rounded-full bg-[#90A7E1]/40 z-10 -translate-y-4 -translate-x-2"></div>
+        </div>
+        <div class="absolute w-8 h-16 bottom-[5%] left-[0%] bg-[#D2ADFE] rounded-r-full"></div>
+        <div class="absolute w-16 h-16 md:block hidden bg-[#FAC600] rounded-full -bottom-[7%] left-[20%]"></div>
+      </div>
+      <?php include __DIR__ . '/components/footer.php'; ?>
+    </div>
+    
+    <script src="/assets/interactive.js"></script>
+  </body>
+</html>

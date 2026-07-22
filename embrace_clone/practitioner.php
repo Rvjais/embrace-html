@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    
+    <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Meet our team of RCI-certified clinical psychologists, child psychologists, speech therapists &amp; occupational therapists. Find the right therapist for you."
+      name="description"
+    />
+    <meta content="index, follow" name="robots" />
+    <link href="https://embracelives.com/practitioner" rel="canonical" />
+    <!-- Open Graph -->
+    <meta content="website" property="og:type" />
+    <meta content="https://embracelives.com/practitioner" property="og:url" />
+    <meta content="Our Therapists &amp; Psychologists | eMbrace Lives" property="og:title" />
+    <meta
+      content="Meet our team of RCI-certified clinical psychologists, child psychologists, speech therapists &amp; occupational therapists. Find the right therapist for you."
+      property="og:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" property="og:image" />
+    <meta content="1200" property="og:image:width" />
+    <meta content="630" property="og:image:height" />
+    <meta content="eMbrace Lives" property="og:site_name" />
+    <meta content="en_IN" property="og:locale" />
+    <!-- Twitter Card -->
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="Our Therapists &amp; Psychologists | eMbrace Lives" name="twitter:title" />
+    <meta
+      content="Meet our team of RCI-certified clinical psychologists, child psychologists, speech therapists &amp; occupational therapists. Find the right therapist for you."
+      name="twitter:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "eMbrace Lives",
+        "alternateName": "eMbrace - SMD Wellness",
+        "url": "https://embracelives.com",
+        "logo": "https://embracelives.com/Logo.svg",
+        "description": "Leading psychology and mental health practice in Delhi offering evidence-based therapy, assessments, and neurodevelopmental care for children, adolescents, and adults.",
+        "telephone": "+919971576800",
+        "email": "info@embracelives.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Delhi",
+          "addressRegion": "Delhi",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "28.6139",
+          "longitude": "77.2090"
+        },
+        "priceRange": "$$",
+        "medicalSpecialty": ["Psychiatric", "ClinicalPsychology"],
+        "availableService": [
+          { "@type": "MedicalTherapy", "name": "Child Psychology" },
+          { "@type": "MedicalTherapy", "name": "Clinical Psychology" },
+          { "@type": "MedicalTherapy", "name": "Couples Therapy" },
+          { "@type": "MedicalTherapy", "name": "ADHD Assessment" },
+          { "@type": "MedicalTherapy", "name": "Autism Assessment" },
+          { "@type": "MedicalTherapy", "name": "CBT for Anxiety & Depression" }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/embracelives/",
+          "https://www.instagram.com/embracelives/",
+          "https://www.facebook.com/embracelives22/"
+        ]
+      }
+    </script>
+    <title>Our Therapists &amp; Psychologists | eMbrace Lives</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
+
+    <link href="/assets/index-B-kGA3UA.css" rel="stylesheet" />
+    <style></style>
+  </head>
+  <body>
+    <div id="root">
+      <?php include __DIR__ . '/components/header.php'; ?>
+      <!-- Hero Section -->
+      <main>
+        <section
+          class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 bg-gradient-to-b from-[#E7F7FF] to-[#FFFFFF] relative overflow-hidden py-16 md:py-24 flex flex-col items-center"
+        >
+          <div class="bg-[#7AE6B95E] h-14 w-14 rounded-full absolute hidden md:block top-[10%] -right-[2%]"></div>
+          <div class="bg-[#B9F1DA] h-12 w-12 rounded-full absolute hidden md:block top-[15%] left-[5%]"></div>
+          <div class="bg-[#FFCC004A] h-14 w-14 rounded-full absolute -bottom-[4%] left-[6%] md:left-[15%]"></div>
+          <div class="flex flex-col items-center justify-center max-w-4xl mx-auto text-center">
+            <h1 class="text-3xl md:text-4xl 2xl:text-5xl font-bold">Our Therapists &amp; Psychologists</h1>
+            <p
+              class="2xl:mt-4 2xl:text-2xl font-medium text-base md:text-lg text-center text-[var(--text-gray)] italic mt-4 md:mt-6"
+            >
+              Meet our team of
+              <span class="text-[#234394]"
+                >RCI-certified clinical psychologists, child psychologists, speech therapists &amp; occupational
+                therapists</span
+              >
+              — each bringing specialised expertise to support your mental health journey.
+            </p>
+          </div>
+        </section>
+
+        <!-- Specialties Section -->
+        <section class="px-4 md:px-8 lg:px-16 xl:px-24 py-12 md:py-16 relative">
+          <div class="bg-[#FFAAF99E] w-14 h-14 hidden md:block rounded-full absolute -right-[1.75%] top-[10%]"></div>
+          <div class="bg-[#AAAAFF61] w-14 h-14 hidden md:block absolute rounded-full bottom-0 left-[5%]"></div>
+          <div class="flex flex-col items-center justify-center max-w-5xl mx-auto">
+            <h2 class="md:text-3xl text-xl font-bold text-center 2xl:text-4xl">Areas of Expertise</h2>
+            <p
+              class="font-medium text-sm md:text-base text-center text-[var(--text-gray)] italic mt-4 md:mt-6 max-w-2xl"
+            >
+              Our therapists specialise across a wide range of conditions and age groups, ensuring you receive expert,
+              personalised care.
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 mt-10 w-full">
+              <div
+                class="bg-white border border-[#ADADAD] rounded-3xl shadow-md p-5 flex flex-col items-center text-center"
+              >
+                <div class="w-12 h-12 rounded-full bg-[#E7F7FF] flex items-center justify-center text-2xl mb-3">🧠</div>
+                <h3 class="text-sm md:text-base font-semibold text-[#234394]">Clinical Psychology</h3>
+                <p class="text-xs md:text-sm text-gray-600 mt-1">Anxiety, Depression, OCD, PTSD &amp; more</p>
+              </div>
+              <div
+                class="bg-white border border-[#ADADAD] rounded-3xl shadow-md p-5 flex flex-col items-center text-center"
+              >
+                <div class="w-12 h-12 rounded-full bg-[#FEF3F7] flex items-center justify-center text-2xl mb-3">👶</div>
+                <h3 class="text-sm md:text-base font-semibold text-[#234394]">Child Psychology</h3>
+                <p class="text-xs md:text-sm text-gray-600 mt-1">ADHD, Autism, Developmental Delays</p>
+              </div>
+              <div
+                class="bg-white border border-[#ADADAD] rounded-3xl shadow-md p-5 flex flex-col items-center text-center"
+              >
+                <div class="w-12 h-12 rounded-full bg-[#F1E6FF] flex items-center justify-center text-2xl mb-3">🗣️</div>
+                <h3 class="text-sm md:text-base font-semibold text-[#234394]">Speech Therapy</h3>
+                <p class="text-xs md:text-sm text-gray-600 mt-1">Speech clarity, language &amp; communication</p>
+              </div>
+              <div
+                class="bg-white border border-[#ADADAD] rounded-3xl shadow-md p-5 flex flex-col items-center text-center"
+              >
+                <div class="w-12 h-12 rounded-full bg-[#FFF8E0] flex items-center justify-center text-2xl mb-3">🤲</div>
+                <h3 class="text-sm md:text-base font-semibold text-[#234394]">Occupational Therapy</h3>
+                <p class="text-xs md:text-sm text-gray-600 mt-1">Motor, sensory &amp; daily living skills</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section
+          class="bg-gradient-to-b from-[#F1E6FF] to-[#FEF9FC] py-16 md:py-12 w-full flex overflow-hidden justify-center relative"
+        >
+          <div class="bg-[#D82D7E87] h-14 w-14 rounded-full absolute -top-[10%] right-[5%] md:right-[15%]"></div>
+          <div class="bg-[#FAC600] h-12 w-12 rounded-full absolute -bottom-[10%] left-[5%] md:left-[38%]"></div>
+          <div class="w-full md:w-[60%] flex flex-col items-center justify-center gap-4 md:gap-6 px-4">
+            <h2 class="text-xl md:text-2xl 2xl:text-3xl font-bold text-center">Find the Right Therapist for You</h2>
+            <p class="2xl:text-2xl font-medium text-base md:text-lg text-center text-[var(--text-gray)] italic">
+              Browse our <span class="text-[#234394]">full team of experts</span> and book a consultation today
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 mt-2">
+              <a
+                href="/userListing"
+                class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] text-white font-medium cursor-pointer text-center"
+                >Browse All Therapists</a
+              >
+              <a
+                href="/contact-us"
+                class="2xl:text-2xl px-8 py-2 rounded-full border-2 border-[var(--blue-fig)] text-[var(--blue-fig)] font-medium cursor-pointer text-center"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </section>
+      </main>
+      <?php include __DIR__ . '/components/footer.php'; ?>
+    </div>
+    
+    <script src="/assets/interactive.js"></script>
+  </body>
+</html>

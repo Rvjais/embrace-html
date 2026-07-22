@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    
+    <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Your appointment with eMbrace is confirmed. We look forward to supporting you on your mental health journey."
+      name="description"
+    />
+    <meta content="index, follow" name="robots" />
+    <link href="https://embracelives.com/appointment__confirmation.php" rel="canonical" />
+    <!-- Open Graph -->
+    <meta content="website" property="og:type" />
+    <meta content="https://embracelives.com/appointment__confirmation.html" property="og:url" />
+    <meta content="Appointment Confirmed | eMbrace Lives" property="og:title" />
+    <meta
+      content="Your appointment with eMbrace is confirmed. We look forward to supporting you on your mental health journey."
+      property="og:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" property="og:image" />
+    <meta content="1200" property="og:image:width" />
+    <meta content="630" property="og:image:height" />
+    <meta content="eMbrace Lives" property="og:site_name" />
+    <meta content="en_IN" property="og:locale" />
+    <!-- Twitter Card -->
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="Appointment Confirmed | eMbrace Lives" name="twitter:title" />
+    <meta
+      content="Your appointment with eMbrace is confirmed. We look forward to supporting you on your mental health journey."
+      name="twitter:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "eMbrace Lives",
+        "alternateName": "eMbrace - SMD Wellness",
+        "url": "https://embracelives.com",
+        "logo": "https://embracelives.com/Logo.svg",
+        "description": "Leading psychology and mental health practice in Delhi offering evidence-based therapy, assessments, and neurodevelopmental care for children, adolescents, and adults.",
+        "telephone": "+919971576800",
+        "email": "info@embracelives.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Delhi",
+          "addressRegion": "Delhi",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "28.6139",
+          "longitude": "77.2090"
+        },
+        "priceRange": "$$",
+        "medicalSpecialty": ["Psychiatric", "ClinicalPsychology"],
+        "availableService": [
+          { "@type": "MedicalTherapy", "name": "Child Psychology" },
+          { "@type": "MedicalTherapy", "name": "Clinical Psychology" },
+          { "@type": "MedicalTherapy", "name": "Couples Therapy" },
+          { "@type": "MedicalTherapy", "name": "ADHD Assessment" },
+          { "@type": "MedicalTherapy", "name": "Autism Assessment" },
+          { "@type": "MedicalTherapy", "name": "CBT for Anxiety & Depression" }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/embracelives/",
+          "https://www.instagram.com/embracelives/",
+          "https://www.facebook.com/embracelives22/"
+        ]
+      }
+    </script>
+    <title>Appointment Confirmed | eMbrace Lives</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
+
+    <link href="/assets/index-B-kGA3UA.css" rel="stylesheet" />
+    <style></style>
+  </head>
+  <body>
+    <div id="root">
+      <?php include __DIR__ . '/components/header.php'; ?>
+      <!-- Confirmation Section -->
+      <main>
+        <section
+          class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 bg-gradient-to-b from-[#E7F7FF] via-[#FFFFFF] to-[#F8F2FF] relative overflow-hidden py-16 md:py-24 flex flex-col items-center min-h-[60vh]"
+        >
+          <div class="bg-[#7AE6B95E] h-14 w-14 rounded-full absolute hidden md:block top-[10%] -right-[2%]"></div>
+          <div class="bg-[#B9F1DA] h-12 w-12 rounded-full absolute hidden md:block top-[20%] left-[5%]"></div>
+          <div class="bg-[#FFCC004A] h-14 w-14 rounded-full absolute -bottom-[4%] left-[6%] md:left-[15%]"></div>
+          <div class="flex flex-col items-center justify-center max-w-3xl mx-auto text-center">
+            <!-- Success Icon -->
+            <div
+              class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-[#BEF9E0] flex items-center justify-center text-4xl md:text-5xl mb-6"
+            >
+              ✓
+            </div>
+            <h1 class="text-3xl md:text-4xl 2xl:text-5xl font-bold text-[#234394]">Appointment Confirmed!</h1>
+            <p
+              class="2xl:mt-4 2xl:text-2xl font-medium text-base md:text-lg text-center text-[var(--text-gray)] italic mt-4 md:mt-6"
+            >
+              Thank you for choosing eMbrace. Your appointment has been successfully booked.
+            </p>
+          </div>
+
+          <!-- What's Next -->
+          <div class="max-w-2xl mx-auto mt-12 w-full">
+            <h2 class="text-xl md:text-2xl font-bold text-center mb-6">What Happens Next?</h2>
+            <div class="flex flex-col gap-4">
+              <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
+                <div
+                  class="w-10 h-10 rounded-full bg-[#E7F7FF] flex items-center justify-center text-lg font-bold text-[#234394] flex-shrink-0"
+                >
+                  📧
+                </div>
+                <div>
+                  <h3 class="font-semibold text-base text-gray-900">Confirmation Email</h3>
+                  <p class="text-sm text-gray-600 mt-1">
+                    You'll receive a confirmation email with your appointment details, therapist information, and
+                    session link (for online sessions).
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
+                <div
+                  class="w-10 h-10 rounded-full bg-[#FEF3F7] flex items-center justify-center text-lg font-bold text-[#234394] flex-shrink-0"
+                >
+                  📋
+                </div>
+                <div>
+                  <h3 class="font-semibold text-base text-gray-900">Pre-Session Preparation</h3>
+                  <p class="text-sm text-gray-600 mt-1">
+                    Our team may share a brief intake form to help your therapist prepare for your session and make the
+                    most of your time together.
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
+                <div
+                  class="w-10 h-10 rounded-full bg-[#F1E6FF] flex items-center justify-center text-lg font-bold text-[#234394] flex-shrink-0"
+                >
+                  🔔
+                </div>
+                <div>
+                  <h3 class="font-semibold text-base text-gray-900">Session Reminder</h3>
+                  <p class="text-sm text-gray-600 mt-1">
+                    You'll receive a reminder 24 hours before your appointment via WhatsApp or email.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 mt-10">
+            <a
+              href="/index"
+              class="px-8 py-2 rounded-full bg-[var(--blue-fig)] text-white font-medium cursor-pointer text-center"
+              >Back to Home</a
+            >
+            <a
+              href="/contact-us"
+              class="px-8 py-2 rounded-full border-2 border-[var(--blue-fig)] text-[var(--blue-fig)] font-medium cursor-pointer text-center"
+              >Contact Us</a
+            >
+          </div>
+
+          <!-- Help Note -->
+          <p class="text-sm text-gray-500 mt-8 text-center">
+            Need to reschedule or cancel? Contact us at
+            <a href="https://wa.me/919971576800" class="text-[#234394] font-medium">+91 9971576800</a> or
+            <a href="mailto:info@embracelives.com" class="text-[#234394] font-medium">info@embracelives.com</a>
+          </p>
+        </section>
+      </main>
+      <?php include __DIR__ . '/components/footer.php'; ?>
+    </div>
+    
+    <script src="/assets/interactive.js"></script>
+  </body>
+</html>

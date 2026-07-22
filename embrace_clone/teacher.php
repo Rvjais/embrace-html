@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    
+    <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Neurodiversity workshops, inclusive classroom strategies &amp; mental health training for teachers. Empower educators to support all learners effectively."
+      name="description"
+    />
+    <meta content="index, follow" name="robots" />
+    <link href="https://embracelives.com/teacher" rel="canonical" />
+    <!-- Open Graph -->
+    <meta content="website" property="og:type" />
+    <meta content="https://embracelives.com/teacher" property="og:url" />
+    <meta content="Teacher Support &amp; Neurodiversity Training | eMbrace Lives" property="og:title" />
+    <meta
+      content="Neurodiversity workshops, inclusive classroom strategies &amp; mental health training for teachers. Empower educators to support all learners effectively."
+      property="og:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" property="og:image" />
+    <meta content="1200" property="og:image:width" />
+    <meta content="630" property="og:image:height" />
+    <meta content="eMbrace Lives" property="og:site_name" />
+    <meta content="en_IN" property="og:locale" />
+    <!-- Twitter Card -->
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="Teacher Support &amp; Neurodiversity Training | eMbrace Lives" name="twitter:title" />
+    <meta
+      content="Neurodiversity workshops, inclusive classroom strategies &amp; mental health training for teachers. Empower educators to support all learners effectively."
+      name="twitter:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "eMbrace Lives",
+        "alternateName": "eMbrace - SMD Wellness",
+        "url": "https://embracelives.com",
+        "logo": "https://embracelives.com/Logo.svg",
+        "description": "Leading psychology and mental health practice in Delhi offering evidence-based therapy, assessments, and neurodevelopmental care for children, adolescents, and adults.",
+        "telephone": "+919971576800",
+        "email": "info@embracelives.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Delhi",
+          "addressRegion": "Delhi",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "28.6139",
+          "longitude": "77.2090"
+        },
+        "priceRange": "$$",
+        "medicalSpecialty": ["Psychiatric", "ClinicalPsychology"],
+        "availableService": [
+          { "@type": "MedicalTherapy", "name": "Child Psychology" },
+          { "@type": "MedicalTherapy", "name": "Clinical Psychology" },
+          { "@type": "MedicalTherapy", "name": "Couples Therapy" },
+          { "@type": "MedicalTherapy", "name": "ADHD Assessment" },
+          { "@type": "MedicalTherapy", "name": "Autism Assessment" },
+          { "@type": "MedicalTherapy", "name": "CBT for Anxiety & Depression" }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/embracelives/",
+          "https://www.instagram.com/embracelives/",
+          "https://www.facebook.com/embracelives22/"
+        ]
+      }
+    </script>
+    <title>Teacher Support &amp; Neurodiversity Training | eMbrace Lives</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
+
+    <link href="/assets/index-B-kGA3UA.css" rel="stylesheet" />
+    <style></style>
+  </head>
+  <body>
+    <div id="root">
+      <?php include __DIR__ . '/components/header.php'; ?>
+      <div
+        class="md:min-h-[calc(100vh-4.4rem)] overflow-hidden flex flex-col items-center justify-center bg-gradient-to-b from-[#D1FBFB] via-[#D1FBFB] to-[#FFFFFF] px-4 md:px-8 lg:px-16 xl:px-30 py-6 relative"
+      >
+        <div class="flex flex-col items-center justify-center">
+          <h1 class="md:text-3xl text-lg font-bold text-center">eMbrace for Teachers</h1>
+          <p class="font-semibold text-center text-sm md:text-lg text-[var(--text-gray)] italic">
+            Empowering Teachers with Tools to Support Every Learner
+          </p>
+        </div>
+        <div class="relative w-full flex flex-col items-center justify-center 2xl:mt-30 md:mt-14 -mt-6">
+          <div class="flex items-center justify-center w-full gap-2 md:gap-6 relative h-56 md:h-60">
+            <img
+              alt="carousel-img-0"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-30 md:scale-95 scale-170 -translate-x-1/2 -translate-y-1/2 shadow-2xl"
+              src="/assets/Hero1-CuGy1iJS.png"
+              style="pointer-events: auto; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-1"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[10%] md:translate-x-[0%]"
+              src="/assets/Hero2-Dr1q8Cnv.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-2"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 translate-x-[30%]"
+              src="/assets/Hero3-D1yQ4bqd.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-3"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 -translate-x-[130%]"
+              src="/assets/Hero4-DjhZo6Wg.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-4"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[90%] md:-translate-x-[100%]"
+              src="/assets/Hero5-BS8AaIva.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            />
+          </div>
+          <div class="flex items-center justify-center 2xl:mt-40 md:mt-14 -mt-5 gap-4 relative z-20">
+            <button aria-label="Previous" class="cursor-pointer">
+              <img
+                alt="Previous"
+                class="w-6 h-6"
+                src="data:image/svg+xml,%3csvg%20width='50'%20height='50'%20viewBox='0%200%2050%2050'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M16.917%2021.8752H43.7475V28.1252H16.917L27.2073%2038.4155L22.7878%2042.8349L4.95312%2025.0002L22.7878%207.16553L27.2073%2011.5849L16.917%2021.8752Z'%20fill='%23999999'/%3e%3c/svg%3e"
+              />
+            </button>
+            <div class="flex gap-2">
+              <span class="h-2 w-2 rounded-full bg-purple-500"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span>
+            </div>
+            <button aria-label="Next" class="cursor-pointer">
+              <img
+                alt="Next"
+                class="rotate-180 w-6 h-6"
+                src="data:image/svg+xml,%3csvg%20width='50'%20height='50'%20viewBox='0%200%2050%2050'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M16.917%2021.8752H43.7475V28.1252H16.917L27.2073%2038.4155L22.7878%2042.8349L4.95312%2025.0002L22.7878%207.16553L27.2073%2011.5849L16.917%2021.8752Z'%20fill='%23999999'/%3e%3c/svg%3e"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col 2xl:mt-12 mt-4 items-center justify-center">
+          <p class="font-medium text-base 2xl:text-lg text-[var(--text-gray)] text-center italic w-[90%]">
+            At eMbrace, we believe teachers are the cornerstone of inclusive education. Our specialized programs equip
+            educators with practical, evidence-based strategies to recognize and support neurodiverse learners—ensuring
+            every child feels seen, supported, and engaged.
+          </p>
+          <p class="font-medium text-base 2xl:text-lg text-[var(--text-gray)] text-center italic mt-2 w-[70%]">
+            Empower your team to create safe, structured, and inclusive classrooms.
+          </p>
+          <a
+            class="w-[70%] md:w-[20%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-8 2xl:mt-6 text-white font-medium cursor-pointer flex items-center justify-center text-center"
+            href="mailto:sam@embracelives.com"
+            >Request session</a
+          >
+        </div>
+        <img
+          alt=""
+          class="absolute right-0 bottom-1/3 w-18 hidden md:block"
+          src="data:image/svg+xml,%3csvg%20width='174'%20height='167'%20viewBox='0%200%20174%20167'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='57.6755'%20cy='60'%20rx='57.6755'%20ry='60'%20fill='%2390A7E1'/%3e%3cellipse%20cx='115.347'%20cy='107'%20rx='57.6755'%20ry='60'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        /><img
+          alt=""
+          class="absolute left-6 bottom-0 w-18 hidden md:block"
+          src="data:image/svg+xml,%3csvg%20width='174'%20height='167'%20viewBox='0%200%20174%20167'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='57.6755'%20cy='60'%20rx='57.6755'%20ry='60'%20fill='%2390A7E1'/%3e%3cellipse%20cx='115.347'%20cy='107'%20rx='57.6755'%20ry='60'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        />
+        <div class="w-14 h-14 bg-[#64A5DA8A] rounded-full absolute -bottom-8 right-20 hidden md:block"></div>
+      </div>
+      <div
+        class="md:min-h-fit overflow-hidden flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-30 py-6 relative"
+      >
+        <div class="w-14 h-14 bg-[#FFCC005C] rounded-full absolute right-60 top-0 hidden md:block"></div>
+        <div class="w-14 h-14 bg-[#64A5DA8A] rounded-full absolute -left-8 top-1/2 hidden md:block"></div>
+        <div class="w-14 h-14 bg-[#EF917B66] rounded-full absolute -right-8 top-1/2 hidden md:block"></div>
+        <h1 class="md:text-3xl text-lg font-bold text-center">Our Services</h1>
+        <p class="font-medium text-sm md:text-base text-[var(--text-gray)] italic text-center">
+          Tailored modules to support educators in real classrooms.
+        </p>
+        <div class="2xl:px-12 flex md:flex-row w-full flex-col items-stretch h-auto gap-8 justify-center mt-8">
+          <div
+            class="bg-[#FFFFFF] pb-6 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center gap-2 px-4 pt-6 z-10 rounded-3xl md:rounded-2xl flex flex-col shadow-[0px_7px_12px_0px_#00000070] md:shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
+          >
+            <img
+              alt="undefined illustration"
+              class="md:w-full 2xl:h-[70%] w-[90%] mb-2 md:mt-4"
+              src="/assets/OurServices1-Dj5j0itK.svg"
+            />
+            <div
+              class="bg-[#93CFEF36] shadow-sm/20 w-full h-full rounded-xl flex justify-center flex-col items-center p-4 gap-2 cursor-pointer"
+            >
+              <span
+                class="flex font-semibold text-[#403D3DC4] w-[90%] text-center text-base 2xl:text-sm pb-2 justify-center items-center gap-2"
+                >Building Inclusive Classrooms</span
+              >
+            </div>
+            <ul class="w-full flex flex-col gap-2 transition-all duration-300 opacity-0 max-h-0 overflow-hidden">
+              <div class="bg-[#93CFEF36] shadow-sm/20 w-full rounded-xl flex flex-col items-center p-4">
+                <h1 class="text-center font-medium mb-4 text-[var(--text-gray)] w-[90%]">
+                  Creating spaces where all students—neurotypical and neurodivergent—can thrive.
+                </h1>
+                <ul class="flex flex-col gap-4 w-[90%]">
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Introduction to neurodiversity &amp; inclusive teaching frameworks</span
+                    >
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Classroom accommodations &amp; differentiated instruction</span
+                    >
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Sensory-friendly strategies for structure &amp; engagement</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="w-[80%] italic font-semibold text-[var(--text-gray)] text-center text-sm mx-auto mt-2">
+                Make inclusion a daily classroom practice.
+              </div>
+            </ul>
+          </div>
+          <div
+            class="bg-[#FFFFFF] pb-6 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center gap-2 px-4 pt-6 z-10 rounded-3xl md:rounded-2xl flex flex-col shadow-[0px_7px_12px_0px_#00000070] md:shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
+          >
+            <img
+              alt="undefined illustration"
+              class="md:w-full 2xl:h-[70%] w-[90%] mb-2 md:mt-4"
+              src="/assets/OurServices2-B9odFDxb.svg"
+            />
+            <div
+              class="bg-[#93CFEF36] shadow-sm/20 w-full h-full rounded-xl flex justify-center flex-col items-center p-4 gap-2 cursor-pointer"
+            >
+              <span
+                class="flex font-semibold text-[#403D3DC4] w-[90%] text-center text-base 2xl:text-sm pb-2 justify-center items-center gap-2"
+                >Recognizing &amp; Supporting Neurodiverse Students</span
+              >
+            </div>
+            <ul class="w-full flex flex-col gap-2 transition-all duration-300 opacity-0 max-h-0 overflow-hidden">
+              <div class="bg-[#93CFEF36] shadow-sm/20 w-full rounded-xl flex flex-col items-center p-4">
+                <h1 class="text-center font-medium mb-4 text-[var(--text-gray)] w-[90%]">
+                  Equip teachers with early identification skills and responsive teaching techniques.
+                </h1>
+                <ul class="flex flex-col gap-4 w-[90%]">
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Spotting early signs of Autism, ADHD, SLD &amp; emotional difficulties</span
+                    >
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Behavior observation frameworks &amp; referral guidance</span
+                    >
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Techniques for engagement, regulation, and relationship-building</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="w-[80%] italic font-semibold text-[var(--text-gray)] text-center text-sm mx-auto mt-2">
+                Support students with compassion, clarity, and confidence.
+              </div>
+            </ul>
+          </div>
+          <div
+            class="bg-[#FFFFFF] pb-6 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center gap-2 px-4 pt-6 z-10 rounded-3xl md:rounded-2xl flex flex-col shadow-[0px_7px_12px_0px_#00000070] md:shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
+          >
+            <img
+              alt="undefined illustration"
+              class="md:w-full 2xl:h-[70%] w-[90%] mb-2 md:mt-4"
+              src="/assets/OurServices3-DLQFxMCD.svg"
+            />
+            <div
+              class="bg-[#93CFEF36] shadow-sm/20 w-full h-full rounded-xl flex justify-center flex-col items-center p-4 gap-2 cursor-pointer"
+            >
+              <span
+                class="flex font-semibold text-[#403D3DC4] w-[90%] text-center text-base 2xl:text-sm pb-2 justify-center items-center gap-2"
+                >Educator Training &amp; Workshops</span
+              >
+            </div>
+            <ul class="w-full flex flex-col gap-2 transition-all duration-300 opacity-0 max-h-0 overflow-hidden">
+              <div class="bg-[#93CFEF36] shadow-sm/20 w-full rounded-xl flex flex-col items-center p-4">
+                <h1 class="text-center font-medium mb-4 text-[var(--text-gray)] w-[90%]">
+                  Interactive and hands-on professional development.
+                </h1>
+                <ul class="flex flex-col gap-4 w-[90%]">
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Customized workshops for schools &amp; educator cohorts</span
+                    >
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Skill-building in SEL, behavior management, and inclusive pedagogy</span
+                    >
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]">Live and virtual delivery formats available</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-[80%] italic font-semibold text-[var(--text-gray)] text-center text-sm mx-auto mt-2">
+                Upskill your educators with flexible, high-impact learning modules.
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:min-h-fit overflow-hidden flex flex-col justify-center px-4 md:px-8 lg:px-16 xl:px-30 py-12 relative"
+      >
+        <div class="absolute h-14 w-14 bg-[#46CC8D91] top-[15%] -left-8 rounded-full hidden md:block"></div>
+        <div class="absolute h-14 w-14 bg-[#8C3AAA59] bottom-[40%] -right-8 rounded-full hidden md:block"></div>
+        <h1 class="md:text-3xl text-xl mb-8 font-bold md:text-start text-center">Embrace for</h1>
+        <div
+          class="gap-10 bg-white border-2 border-[#399349]/80 w-full shadow-[#399349] shadow-md/80 rounded-xl p-3 flex flex-row items-center mb-6"
+        >
+          <img alt="" class="w-15" src="/assets/EmbraceFor1-BTcU4aAd.svg" />
+          <h1 class="text-[var(--text-gray)] font-semibold text-sm md:text-lg">
+            Pre-primary, primary &amp; secondary school teachers
+          </h1>
+        </div>
+        <div
+          class="gap-10 bg-white border-2 border-[#399349]/80 w-full shadow-[#399349] shadow-md/80 rounded-xl p-3 flex flex-row items-center mb-6"
+        >
+          <img alt="" class="w-15" src="/assets/EmbraceFor2-Be5RPjOT.svg" />
+          <h1 class="text-[var(--text-gray)] font-semibold text-sm md:text-lg">
+            Special educators &amp; learning support staff
+          </h1>
+        </div>
+        <div
+          class="gap-10 bg-white border-2 border-[#399349]/80 w-full shadow-[#399349] shadow-md/80 rounded-xl p-3 flex flex-row items-center mb-6"
+        >
+          <img alt="" class="w-15" src="/assets/EmbraceFor1-BTcU4aAd.svg" />
+          <h1 class="text-[var(--text-gray)] font-semibold text-sm md:text-lg">
+            School counselors &amp; administrators
+          </h1>
+        </div>
+      </div>
+      <div
+        class="md:min-h-fit overflow-hidden flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-20 py-6 relative"
+      >
+        <div class="w-14 h-14 bg-[#FF8E00]/50 rounded-full absolute left-[30%] -bottom-9 hidden md:block"></div>
+        <h1 class="text-xl md:text-3xl font-bold text-center">See Wellbeing Spaces in Action</h1>
+        <p class="font-medium text-[var(--text-gray)] italic text-center">
+          Warm, sensory-friendly spaces designed to make teens feel safe and welcome.
+        </p>
+        <div class="relative flex mt-6 items-center justify-center w-full mx-auto">
+          <img
+            alt="carousel-1"
+            class="md:w-[90%] 2xl:h-[50rem] h-[30rem] object-cover rounded-xl shadow"
+            src="/assets/carousel1-BUqaO1dK.jpg"
+          /><button
+            class="absolute top-1/2 left-3 md:left-16 2xl:left-25 -translate-y-1/2 z-10 p-3 bg-white/70 rounded-full shadow hover:bg-white"
+          >
+            <img
+              alt="Previous"
+              class="md:w-6 md:h-6 w-3 h-3"
+              src="data:image/svg+xml,%3csvg%20width='30'%20height='39'%20viewBox='0%200%2030%2039'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.694%2017.0118C-0.0713594%2018.2009%20-0.0713545%2020.7991%201.694%2021.9882L24.824%2037.568C26.8167%2038.9102%2029.5%2037.4824%2029.5%2035.0798L29.5%203.92019C29.5%201.51762%2026.8167%200.0897827%2024.824%201.432L1.694%2017.0118Z'%20fill='%23234394'/%3e%3c/svg%3e"
+            /></button
+          ><button
+            class="absolute top-1/2 right-3 md:right-16 2xl:right-25 -translate-y-1/2 z-10 p-3 bg-white/70 rounded-full shadow hover:bg-white"
+          >
+            <img
+              alt="Next"
+              class="rotate-180 md:w-6 md:h-6 w-3 h-3"
+              src="data:image/svg+xml,%3csvg%20width='30'%20height='39'%20viewBox='0%200%2030%2039'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.694%2017.0118C-0.0713594%2018.2009%20-0.0713545%2020.7991%201.694%2021.9882L24.824%2037.568C26.8167%2038.9102%2029.5%2037.4824%2029.5%2035.0798L29.5%203.92019C29.5%201.51762%2026.8167%200.0897827%2024.824%201.432L1.694%2017.0118Z'%20fill='%23234394'/%3e%3c/svg%3e"
+            />
+          </button>
+        </div>
+        <h1 class="mt-12 font-semibold italic text-[var(--text-gray)] text-lg text-center">
+          Interested in bringing this to your school?
+        </h1>
+        <p class="mt-2 font-medium italic text-[var(--text-gray)] text-sm text-center">
+          Enquire About School Partnerships by writing to us at
+          <span class="text-[var(--blue-fig)] underline"
+            ><a href="mailto:enquiries@embracelives.com">enquiries@embracelives.com</a></span
+          >
+        </p>
+      </div>
+      <?php include __DIR__ . '/components/footer.php'; ?>
+    </div>
+    
+    <script src="/assets/interactive.js"></script>
+  </body>
+</html>

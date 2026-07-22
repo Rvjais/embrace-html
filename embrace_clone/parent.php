@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    
+    <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Expert parenting advice for raising children with ADHD, autism &amp; learning differences. Build stronger parent-child relationships with eMbrace."
+      name="description"
+    />
+    <meta content="index, follow" name="robots" />
+    <link href="https://embracelives.com/parent.php" rel="canonical" />
+    <!-- Open Graph -->
+    <meta content="website" property="og:type" />
+    <meta content="https://embracelives.com/parent.html" property="og:url" />
+    <meta content="Parenting Tips &amp; Guidance | eMbrace Lives" property="og:title" />
+    <meta
+      content="Expert parenting advice for raising children with ADHD, autism &amp; learning differences. Build stronger parent-child relationships with eMbrace."
+      property="og:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" property="og:image" />
+    <meta content="1200" property="og:image:width" />
+    <meta content="630" property="og:image:height" />
+    <meta content="eMbrace Lives" property="og:site_name" />
+    <meta content="en_IN" property="og:locale" />
+    <!-- Twitter Card -->
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta
+      content="Parenting Tips &amp; Guidance | eMbrace Lives"
+      name="twitter:title"
+    />
+    <meta
+      content="Expert parenting advice for raising children with ADHD, autism &amp; learning differences. Build stronger parent-child relationships with eMbrace."
+      name="twitter:description"
+    />
+    <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "eMbrace Lives",
+        "alternateName": "eMbrace - SMD Wellness",
+        "url": "https://embracelives.com",
+        "logo": "https://embracelives.com/Logo.svg",
+        "description": "Leading psychology and mental health practice in Delhi offering evidence-based therapy, assessments, and neurodevelopmental care for children, adolescents, and adults.",
+        "telephone": "+919971576800",
+        "email": "info@embracelives.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Delhi",
+          "addressRegion": "Delhi",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "28.6139",
+          "longitude": "77.2090"
+        },
+        "priceRange": "$$",
+        "medicalSpecialty": ["Psychiatric", "ClinicalPsychology"],
+        "availableService": [
+          { "@type": "MedicalTherapy", "name": "Child Psychology" },
+          { "@type": "MedicalTherapy", "name": "Clinical Psychology" },
+          { "@type": "MedicalTherapy", "name": "Couples Therapy" },
+          { "@type": "MedicalTherapy", "name": "ADHD Assessment" },
+          { "@type": "MedicalTherapy", "name": "Autism Assessment" },
+          { "@type": "MedicalTherapy", "name": "CBT for Anxiety & Depression" }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/embracelives/",
+          "https://www.instagram.com/embracelives/",
+          "https://www.facebook.com/embracelives22/"
+        ]
+      }
+    </script>
+    <title>Parenting Tips &amp; Guidance | eMbrace Lives</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
+
+    <link href="/assets/index-B-kGA3UA.css" rel="stylesheet" />
+    <style></style>
+  </head>
+  <body>
+    <div id="root">
+      <?php include __DIR__ . '/components/header.php'; ?>
+      <div
+        class="md:min-h-[calc(100vh-4.4rem)] overflow-hidden flex flex-col items-center justify-center bg-[#9CCBEB2B] px-4 md:px-8 lg:px-16 xl:px-30 py-6 relative"
+      >
+        <div class="flex flex-col items-center justify-center">
+          <h1 class="md:text-3xl text-lg font-bold text-center">eMbrace for Parents</h1>
+          <p class="text-center font-semibold text-sm md:text-lg text-[var(--text-gray)] italic">
+            Support for Parenting, Mental Well-Being &amp; Neurodivergence
+          </p>
+        </div>
+        <div class="relative w-full flex flex-col items-center justify-center 2xl:mt-30 md:mt-14 -mt-6">
+          <div class="flex items-center justify-center w-full gap-2 md:gap-6 relative h-56 md:h-60">
+            <img
+              alt="carousel-img-0"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-30 md:scale-95 scale-170 -translate-x-1/2 -translate-y-1/2 shadow-2xl"
+              src="/assets/Hero1-Di6dlo5a.png"
+              style="pointer-events: auto; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-1"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[10%] md:translate-x-[0%]"
+              src="/assets/Hero2-Can28qtb.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-2"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 translate-x-[30%]"
+              src="/assets/Hero3-9fbWtCLb.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-3"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 -translate-x-[130%]"
+              src="/assets/Hero3-9fbWtCLb.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            /><img
+              alt="carousel-img-4"
+              class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[90%] md:-translate-x-[100%]"
+              src="/assets/Hero5-Qasv4MHU.png"
+              style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
+            />
+          </div>
+          <div class="flex items-center justify-center 2xl:mt-40 md:mt-14 -mt-5 gap-4 relative z-20">
+            <button aria-label="Previous" class="cursor-pointer">
+              <img
+                alt="Previous"
+                class="w-6 h-6"
+                src="data:image/svg+xml,%3csvg%20width='50'%20height='50'%20viewBox='0%200%2050%2050'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M16.917%2021.8752H43.7475V28.1252H16.917L27.2073%2038.4155L22.7878%2042.8349L4.95312%2025.0002L22.7878%207.16553L27.2073%2011.5849L16.917%2021.8752Z'%20fill='%23999999'/%3e%3c/svg%3e"
+              />
+            </button>
+            <div class="flex gap-2">
+              <span class="h-2 w-2 rounded-full bg-purple-500"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span
+              ><span class="h-2 w-2 rounded-full bg-gray-300"></span>
+            </div>
+            <button aria-label="Next" class="cursor-pointer">
+              <img
+                alt="Next"
+                class="rotate-180 w-6 h-6"
+                src="data:image/svg+xml,%3csvg%20width='50'%20height='50'%20viewBox='0%200%2050%2050'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M16.917%2021.8752H43.7475V28.1252H16.917L27.2073%2038.4155L22.7878%2042.8349L4.95312%2025.0002L22.7878%207.16553L27.2073%2011.5849L16.917%2021.8752Z'%20fill='%23999999'/%3e%3c/svg%3e"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col 2xl:mt-12 mt-4 items-center justify-center">
+          <p class="font-medium text-sm md:text-base 2xl:text-lg text-[var(--text-gray)] text-center italic w-[90%]">
+            At eMbrace, we recognize that parenting is a deeply personal journey—filled with joy, but also complex
+            challenges, especially when supporting neurodivergent children. Our expert-led services are designed to
+            equip parents with the tools, strategies, and mental wellness support they need to build resilient families
+            and nurturing home environments.
+          </p>
+          <p
+            class="font-medium text-sm md:text-base 2xl:text-lg text-[var(--text-gray)] text-center italic mt-2 w-[70%]"
+          >
+            Feel seen, supported, and empowered in your parenting journey.
+          </p>
+          <button
+            class="w-[70%] md:w-[20%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-8 2xl:mt-6 text-white font-medium cursor-pointer flex items-center justify-center text-center"
+          >
+            Book a Session
+          </button>
+        </div>
+        <img
+          alt=""
+          class="absolute right-0 bottom-1/3 w-18 hidden md:block"
+          src="data:image/svg+xml,%3csvg%20width='174'%20height='167'%20viewBox='0%200%20174%20167'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='57.6755'%20cy='60'%20rx='57.6755'%20ry='60'%20fill='%2390A7E1'/%3e%3cellipse%20cx='115.347'%20cy='107'%20rx='57.6755'%20ry='60'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        /><img
+          alt=""
+          class="absolute left-6 bottom-0 w-18 hidden md:block"
+          src="data:image/svg+xml,%3csvg%20width='174'%20height='167'%20viewBox='0%200%20174%20167'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='57.6755'%20cy='60'%20rx='57.6755'%20ry='60'%20fill='%2390A7E1'/%3e%3cellipse%20cx='115.347'%20cy='107'%20rx='57.6755'%20ry='60'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        />
+        <div class="w-14 h-14 bg-[#F39F9A75] rounded-full absolute bottom-8 right-30 hidden md:block"></div>
+        <div class="w-14 h-14 bg-[#6DD0FC82] rounded-full absolute top-8 -left-8 hidden md:block"></div>
+      </div>
+      <div
+        class="md:min-h-fit overflow-hidden flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-30 py-6 relative"
+      >
+        <div class="w-14 h-14 bg-[#64A5DA8A] rounded-full absolute -bottom-8 left-1/3 hidden md:block"></div>
+        <div class="w-14 h-14 bg-[#EF917B66] rounded-full absolute -right-8 top-1/3 hidden md:block"></div>
+        <h1 class="md:text-3xl text-lg font-bold text-center">Our Services</h1>
+        <p class="font-medium text-sm md:text-base text-[var(--text-gray)] italic text-center">
+          Structured support build around you and your child.
+        </p>
+        <div class="2xl:px-12 flex md:flex-row w-full flex-col items-start h-auto gap-8 justify-center mt-8">
+          <div
+            class="bg-[#FFFFFF] pb-6 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center gap-2 px-4 pt-6 z-10 rounded-3xl md:rounded-2xl flex flex-col shadow-[0px_7px_12px_0px_#00000070] md:shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
+          >
+            <img
+              alt="undefined illustration"
+              class="md:w-full 2xl:h-[70%] w-[90%] mb-2 md:mt-4"
+              src="/assets/Service1-DRUPxZYX.svg"
+            />
+            <div
+              class="bg-[#93CFEF36] shadow-sm/20 w-full rounded-xl flex justify-center flex-col items-center p-4 gap-2 cursor-pointer"
+            >
+              <span
+                class="flex font-semibold text-[#403D3DC4] w-[90%] text-center text-base 2xl:text-sm pb-2 justify-center items-center gap-2"
+                >Mental Health &amp; Emotional Well-Being for Parents</span
+              >
+            </div>
+            <ul class="w-full flex flex-col gap-2 transition-all duration-300 opacity-0 max-h-0 overflow-hidden">
+              <div class="bg-[#93CFEF36] shadow-sm/20 w-full rounded-xl flex flex-col items-center p-4">
+                <h1 class="text-center font-medium mb-4 text-[var(--text-gray)] w-[90%]">
+                  Compassionate care for caregivers.
+                </h1>
+                <ul class="flex flex-col gap-4 w-[90%]">
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Support for parental stress, anxiety, and burnout</span
+                    >
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Practical tools for self-care and emotional regulation</span
+                    >
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Resilience coaching to balance caregiving and personal needs</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="w-[90%] italic text-center font-semibold text-[var(--text-gray)] text-sm mx-auto mt-2">
+                 When parents are cared for, families thrive.
+              </div>
+            </ul>
+          </div>
+          <div
+            class="bg-[#FFFFFF] pb-6 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center gap-2 px-4 pt-6 z-10 rounded-3xl md:rounded-2xl flex flex-col shadow-[0px_7px_12px_0px_#00000070] md:shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
+          >
+            <img
+              alt="undefined illustration"
+              class="md:w-full 2xl:h-[70%] w-[90%] mb-2 md:mt-4"
+              src="/assets/Service2-DoMsLl4i.svg"
+            />
+            <div
+              class="bg-[#93CFEF36] shadow-sm/20 w-full rounded-xl flex justify-center flex-col items-center p-4 gap-2 cursor-pointer"
+            >
+              <span
+                class="flex font-semibold text-[#403D3DC4] w-[90%] text-center text-base 2xl:text-sm pb-2 justify-center items-center gap-2"
+                >Parenting Coaching for Neurodivergent Children</span
+              >
+            </div>
+            <ul class="w-full flex flex-col gap-2 transition-all duration-300 opacity-0 max-h-0 overflow-hidden">
+              <div class="bg-[#93CFEF36] shadow-sm/20 w-full rounded-xl flex flex-col items-center p-4">
+                <h1 class="text-center font-medium mb-4 text-[var(--text-gray)] w-[90%]">
+                  Tailored guidance for families navigating Autism, ADHD, SLD, and more.
+                </h1>
+                <ul class="flex flex-col gap-4 w-[90%]">
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Understand your child’s needs through a neuro-affirmative lens</span
+                    >
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Learn behaviour, sensory, and communication strategies</span
+                    >
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]">Build stronger, more connected relationships</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-[90%] italic text-center font-semibold text-[var(--text-gray)] text-sm mx-auto mt-2">
+                Become your child’s strongest advocate with expert-led strategies.
+              </div>
+            </ul>
+          </div>
+          <div
+            class="bg-[#FFFFFF] pb-6 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center gap-2 px-4 pt-6 z-10 rounded-3xl md:rounded-2xl flex flex-col shadow-[0px_7px_12px_0px_#00000070] md:shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
+          >
+            <img
+              alt="undefined illustration"
+              class="md:w-full 2xl:h-[70%] w-[90%] mb-2 md:mt-4"
+              src="/assets/Service3-fWMP3woh.svg"
+            />
+            <div
+              class="bg-[#93CFEF36] shadow-sm/20 w-full rounded-xl flex justify-center flex-col items-center p-4 gap-2 cursor-pointer"
+            >
+              <span
+                class="flex font-semibold text-[#403D3DC4] w-[90%] text-center text-base 2xl:text-sm pb-2 justify-center items-center gap-2"
+                >Parent Training Programs &amp; Support Groups</span
+              >
+            </div>
+            <ul class="w-full flex flex-col gap-2 transition-all duration-300 opacity-0 max-h-0 overflow-hidden">
+              <div class="bg-[#93CFEF36] shadow-sm/20 w-full rounded-xl flex flex-col items-center p-4">
+                <h1 class="text-center font-medium mb-4 text-[var(--text-gray)] w-[90%]">
+                  Grow with a community, learn with a structure.
+                </h1>
+                <ul class="flex flex-col gap-4 w-[90%]">
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Group sessions and workshops on parenting skills</span
+                    >
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]"
+                      >Peer-led circles for shared experiences and emotional support</span
+                    >
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-lg text-[var(--text-gray)] -mt-1">•</span
+                    ><span class="text-sm text-[var(--text-gray)]">Psychoeducation modules for long-term impact</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-[90%] italic text-center font-semibold text-[var(--text-gray)] text-sm mx-auto mt-2">
+                You’re not alone—join a community that understands.
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative overflow-hidden flex items-center flex-col h-fit b px-4 md:px-8 lg:px-10 xl:px-18 md:min-fit py-12 bg-[#FBF7F9]"
+      >
+        <div class="w-14 h-14 rounded-full bg-[#FFCC005C] absolute hidden md:block -bottom-8 right-[10%]"></div>
+        <div class="h-14 w-14 rounded-full bg-[#BE62795E] absolute hidden md:block left-6 top-[10%]"></div>
+        <div class="h-14 w-14 rounded-full bg-[#FF8E0078] absolute hidden md:block -right-[2.75%] bottom-[40%]"></div>
+        <div class="h-14 w-14 rounded-full bg-[#BEEDB9] absolute hidden md:block -bottom-[5%] left-[10%]"></div>
+        <div class="container mx-auto">
+          <h1 class="text-2xl md:text-3xl font-bold 2xl:text-5xl text-center md:w-full w-[80%] mx-auto">
+            How It Works
+          </h1>
+          <p
+            class="text-md md:text-base 2xl:text-2xl font-medium text-center mx-auto italic mt-2 text-[#403D3D] lg:w-[50%] w-[80%]"
+          >
+            Simple 3-step process to start your support journey.
+          </p>
+          <div class="hidden md:flex justify-center w-full py-[3rem] 2xl:mt-16">
+            <div class="relative w-full max-w-4xl mt-6">
+              <div
+                class="absolute left-1/2 transform -translate-x-1/2 w-0.75 bg-[#7F7F7F] z-0 -mt-6 -mb-6 h-[calc(100%+3rem)]"
+              >
+                <div
+                  class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3 h-3 bg-[#7F7F7F] rounded-full z-10"
+                ></div>
+                <div
+                  class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-3 h-3 bg-[#7F7F7F] rounded-full z-10"
+                ></div>
+              </div>
+              <div class="flex items-start mb-12 relative z-10">
+                <div class="w-1/2 pr-8 text-left">
+                  <h3 class="lg:text-xl 2xl:text-2xl font-medium text-[var(--blue-fig)] w-[80%]">
+                    Book a Parent Consultation
+                  </h3>
+                </div>
+                <div class="w-0 relative flex flex-col items-center">
+                  <div class="flex items-center justify-center w-6 h-6 bg-[#90A7E1] rounded-full">
+                    <div class="w-4 h-4 bg-[#4562AD] rounded-full z-10"></div>
+                  </div>
+                </div>
+                <div class="w-1/2"></div>
+              </div>
+              <div class="flex items-start mb-12 relative z-10">
+                <div class="w-1/2"></div>
+                <div class="w-0 relative flex flex-col items-center">
+                  <div class="flex items-center justify-center w-6 h-6 bg-[#90A7E1] rounded-full">
+                    <div class="w-4 h-4 bg-[#4562AD] rounded-full z-10"></div>
+                  </div>
+                </div>
+                <div class="w-1/2 pl-8 text-right flex justify-end">
+                  <h3 class="lg:text-xl 2xl:text-2xl font-medium text-[var(--blue-fig)] w-[80%]">
+                    Start Your Program – Therapy, coaching, or group sessions
+                  </h3>
+                </div>
+              </div>
+              <div class="flex items-start mb-0 2xl:mb-6 relative z-10">
+                <div class="w-1/2 pr-8 text-left">
+                  <h3 class="lg:text-xl 2xl:text-2xl font-medium text-[var(--blue-fig)] w-[80%]">
+                    Get a Personalized Plan – Based on your goals, needs, and family context
+                  </h3>
+                </div>
+                <div class="w-0 relative flex flex-col items-center">
+                  <div class="flex items-center justify-center w-6 h-6 bg-[#90A7E1] rounded-full">
+                    <div class="w-4 h-4 bg-[#4562AD] rounded-full z-10"></div>
+                  </div>
+                </div>
+                <div class="w-1/2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="block md:hidden px-6 py-12 mt-10 relative">
+            <div class="absolute top-0 h-full w-0.75 bg-[#7F7F7F]">
+              <div
+                class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-[#7F7F7F] rounded-full z-10"
+              ></div>
+              <div
+                class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-4 h-4 bg-[#7F7F7F] rounded-full z-10"
+              ></div>
+            </div>
+            <div class="flex items-start mb-10 relative z-10 right-2.5">
+              <div class="flex-shrink-0 w-6 h-6 bg-[#90A7E1] rounded-full flex items-center justify-center mr-6 mt-1">
+                <div class="w-3 h-3 bg-[#4562AD] rounded-full"></div>
+              </div>
+              <div><h3 class="text-md font-medium text-[#4562AD]">Book a Parent Consultation</h3></div>
+            </div>
+            <div class="flex items-start mb-10 relative z-10 right-2.5">
+              <div class="flex-shrink-0 w-6 h-6 bg-[#90A7E1] rounded-full flex items-center justify-center mr-6 mt-1">
+                <div class="w-3 h-3 bg-[#4562AD] rounded-full"></div>
+              </div>
+              <div>
+                <h3 class="text-md font-medium text-[#4562AD]">
+                  Start Your Program – Therapy, coaching, or group sessions
+                </h3>
+              </div>
+            </div>
+            <div class="flex items-start mb-10 relative z-10 right-2.5">
+              <div class="flex-shrink-0 w-6 h-6 bg-[#90A7E1] rounded-full flex items-center justify-center mr-6 mt-1">
+                <div class="w-3 h-3 bg-[#4562AD] rounded-full"></div>
+              </div>
+              <div>
+                <h3 class="text-md font-medium text-[#4562AD]">
+                  Get a Personalized Plan – Based on your goals, needs, and family context
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:min-h-fit overflow-visible flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-20 py-6 md:py-15 relative bg-[#FAF4FF]"
+      >
+        <div class="container mx-auto">
+          <div class="flex flex-col items-center justify-center w-full">
+            <h1 class="text-center text-2xl md:text-2xl lg:text-3xl font-bold">Trusted by Parents</h1>
+            <p
+              class="text-center items-center text-lg md:text-xl lg:text-lg mt-3 md:w-2/3 w-full italic text-[#403D3D]"
+            >
+              Testimonials from families who’ve experienced the eMbrace impact
+            </p>
+            <div class="flex flex-col md:flex-row gap-6 md:gap-10 mt-10">
+              <div
+                class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
+              >
+                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient1-A-Cz0pZt.svg" />
+                <div class="text-start">
+                  <p class="text-sm lg:text-base text-gray-600">
+                    "My son loves coming to eMbrace. His confidence has grown so much!"
+                  </p>
+                </div>
+              </div>
+              <div
+                class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
+              >
+                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient2-B-kI2dcu.png" />
+                <div class="text-start">
+                  <p class="text-sm lg:text-base text-gray-600">
+                    "The therapists are kind, patient, and extremely skilled. Thank you!"
+                  </p>
+                </div>
+              </div>
+              <div
+                class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
+              >
+                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient3-CQPVFc5b.svg" />
+                <div class="text-start">
+                  <p class="text-sm lg:text-base text-gray-600">
+                    "Their assessments were so detailed, it really helped us understand our child."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:min-h-screen overflow-hidden flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-20 py-6 md:py-10 relative"
+      >
+        <img
+          alt=""
+          class="absolute top-1/2 -right-6 w-20"
+          src="data:image/svg+xml,%3csvg%20width='174'%20height='167'%20viewBox='0%200%20174%20167'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='57.6755'%20cy='60'%20rx='57.6755'%20ry='60'%20fill='%2390A7E1'/%3e%3cellipse%20cx='115.347'%20cy='107'%20rx='57.6755'%20ry='60'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
+        />
+        <div class="w-14 h-14 bg-[#46CC8D91]/80 rounded-full absolute top-1/2 -left-8"></div>
+        <h1 class="text-xl md:text-3xl font-bold text-center">Our Spaces</h1>
+        <p class="font-medium text-[var(--text-gray)] italic text-center">
+          Choose in-person or online – wherever you are, support is within reach.
+        </p>
+        <div class="relative flex mt-6 items-center justify-center w-full mx-auto">
+          <img
+            alt="carousel-1"
+            class="md:w-[90%] 2xl:h-[50rem] h-[30rem] object-cover rounded-xl shadow"
+            src="/assets/carousel1-BUqaO1dK.jpg"
+          /><button
+            class="absolute top-1/2 left-3 md:left-16 2xl:left-25 -translate-y-1/2 z-10 p-3 bg-white/70 rounded-full shadow hover:bg-white"
+          >
+            <img
+              alt="Previous"
+              class="md:w-6 md:h-6 w-3 h-3"
+              src="data:image/svg+xml,%3csvg%20width='30'%20height='39'%20viewBox='0%200%2030%2039'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.694%2017.0118C-0.0713594%2018.2009%20-0.0713545%2020.7991%201.694%2021.9882L24.824%2037.568C26.8167%2038.9102%2029.5%2037.4824%2029.5%2035.0798L29.5%203.92019C29.5%201.51762%2026.8167%200.0897827%2024.824%201.432L1.694%2017.0118Z'%20fill='%23234394'/%3e%3c/svg%3e"
+            /></button
+          ><button
+            class="absolute top-1/2 right-3 md:right-16 2xl:right-25 -translate-y-1/2 z-10 p-3 bg-white/70 rounded-full shadow hover:bg-white"
+          >
+            <img
+              alt="Next"
+              class="rotate-180 md:w-6 md:h-6 w-3 h-3"
+              src="data:image/svg+xml,%3csvg%20width='30'%20height='39'%20viewBox='0%200%2030%2039'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.694%2017.0118C-0.0713594%2018.2009%20-0.0713545%2020.7991%201.694%2021.9882L24.824%2037.568C26.8167%2038.9102%2029.5%2037.4824%2029.5%2035.0798L29.5%203.92019C29.5%201.51762%2026.8167%200.0897827%2024.824%201.432L1.694%2017.0118Z'%20fill='%23234394'/%3e%3c/svg%3e"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="md:min-h-fit overflow-hidden flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-20 py-6 md:py-10 relative bg-gradient-to-b from-[#E6FFFD99] to-[#FEF9FC]"
+      >
+        <div class="hidden md:block w-14 h-14 bg-[#90A7E1A1] absolute left-8 top-1/2 z-[10] rounded-full"></div>
+        <div class="hidden md:block w-14 h-14 bg-[#FF8E0078] absolute left-25 -bottom-8 z-[10] rounded-full"></div>
+        <div class="hidden md:block w-14 h-14 bg-[#8C3AAA59] absolute -right-6 top-[5%] z-[10] rounded-full"></div>
+        <h1 class="text-xl text-center md:text-3xl font-bold">Frequently asked questions</h1>
+        <div class="space-y-4 mb-12 mt-12">
+          <div class="md:w-[60%] mx-auto bg-white rounded-2xl shadow-md/10 overflow-hidden">
+            <button
+              class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
+            >
+              <span class="font-medium text-gray-800 md:text-base text-sm break-words"
+                >Do I need a diagnosis for my child before joining parenting support?</span
+              ><img
+                alt="toggle"
+                class="w-5 h-5 sm:w-4 sm:h-4 transition-transform duration-200"
+                src="data:image/svg+xml,%3csvg%20width='46'%20height='48'%20viewBox='0%200%2046%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M43.125%2021H25.875V3C25.875%202.20435%2025.5721%201.44129%2025.0329%200.87868C24.4938%200.316071%2023.7625%200%2023%200C22.2375%200%2021.5062%200.316071%2020.9671%200.87868C20.4279%201.44129%2020.125%202.20435%2020.125%203V21H2.875C2.1125%2021%201.38124%2021.3161%200.842069%2021.8787C0.302901%2022.4413%200%2023.2044%200%2024C0%2024.7956%200.302901%2025.5587%200.842069%2026.1213C1.38124%2026.6839%202.1125%2027%202.875%2027H20.125V45C20.125%2045.7957%2020.4279%2046.5587%2020.9671%2047.1213C21.5062%2047.6839%2022.2375%2048%2023%2048C23.7625%2048%2024.4938%2047.6839%2025.0329%2047.1213C25.5721%2046.5587%2025.875%2045.7957%2025.875%2045V27H43.125C43.8875%2027%2044.6188%2026.6839%2045.1579%2026.1213C45.6971%2025.5587%2046%2024.7956%2046%2024C46%2023.2044%2045.6971%2022.4413%2045.1579%2021.8787C44.6188%2021.3161%2043.8875%2021%2043.125%2021Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
+              />
+            </button>
+            <div
+              class="transition-all duration-300 ease-in-out overflow-hidden px-4 sm:px-6 max-h-0 opacity-0"
+              style="word-break: break-word"
+            >
+              <div class="pb-4 text-sm sm:text-base break-words">
+                <div class="space-y-3">
+                  <p class="text-[#234394] font-medium">
+                    No – we support all parents, whether you’re just exploring concerns or already have a diagnosis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-[60%] mx-auto bg-white rounded-2xl shadow-md/10 overflow-hidden">
+            <button
+              class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
+            >
+              <span class="font-medium text-gray-800 md:text-base text-sm break-words"
+                >Is this only for neurodivergent children?</span
+              ><img
+                alt="toggle"
+                class="w-5 h-5 sm:w-4 sm:h-4 transition-transform duration-200"
+                src="data:image/svg+xml,%3csvg%20width='46'%20height='48'%20viewBox='0%200%2046%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M43.125%2021H25.875V3C25.875%202.20435%2025.5721%201.44129%2025.0329%200.87868C24.4938%200.316071%2023.7625%200%2023%200C22.2375%200%2021.5062%200.316071%2020.9671%200.87868C20.4279%201.44129%2020.125%202.20435%2020.125%203V21H2.875C2.1125%2021%201.38124%2021.3161%200.842069%2021.8787C0.302901%2022.4413%200%2023.2044%200%2024C0%2024.7956%200.302901%2025.5587%200.842069%2026.1213C1.38124%2026.6839%202.1125%2027%202.875%2027H20.125V45C20.125%2045.7957%2020.4279%2046.5587%2020.9671%2047.1213C21.5062%2047.6839%2022.2375%2048%2023%2048C23.7625%2048%2024.4938%2047.6839%2025.0329%2047.1213C25.5721%2046.5587%2025.875%2045.7957%2025.875%2045V27H43.125C43.8875%2027%2044.6188%2026.6839%2045.1579%2026.1213C45.6971%2025.5587%2046%2024.7956%2046%2024C46%2023.2044%2045.6971%2022.4413%2045.1579%2021.8787C44.6188%2021.3161%2043.8875%2021%2043.125%2021Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
+              />
+            </button>
+            <div
+              class="transition-all duration-300 ease-in-out overflow-hidden px-4 sm:px-6 max-h-0 opacity-0"
+              style="word-break: break-word"
+            >
+              <div class="pb-4 text-sm sm:text-base break-words">
+                <div class="space-y-3">
+                  <p class="text-[#234394] font-medium">
+                    No – we work with families of both neurodivergent and neurotypical children facing parenting or
+                    behavioural challenges.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-[60%] mx-auto bg-white rounded-2xl shadow-md/10 overflow-hidden">
+            <button
+              class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
+            >
+              <span class="font-medium text-gray-800 md:text-base text-sm break-words"
+                >Can both parents attend sessions?</span
+              ><img
+                alt="toggle"
+                class="w-5 h-5 sm:w-4 sm:h-4 transition-transform duration-200"
+                src="data:image/svg+xml,%3csvg%20width='46'%20height='48'%20viewBox='0%200%2046%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M43.125%2021H25.875V3C25.875%202.20435%2025.5721%201.44129%2025.0329%200.87868C24.4938%200.316071%2023.7625%200%2023%200C22.2375%200%2021.5062%200.316071%2020.9671%200.87868C20.4279%201.44129%2020.125%202.20435%2020.125%203V21H2.875C2.1125%2021%201.38124%2021.3161%200.842069%2021.8787C0.302901%2022.4413%200%2023.2044%200%2024C0%2024.7956%200.302901%2025.5587%200.842069%2026.1213C1.38124%2026.6839%202.1125%2027%202.875%2027H20.125V45C20.125%2045.7957%2020.4279%2046.5587%2020.9671%2047.1213C21.5062%2047.6839%2022.2375%2048%2023%2048C23.7625%2048%2024.4938%2047.6839%2025.0329%2047.1213C25.5721%2046.5587%2025.875%2045.7957%2025.875%2045V27H43.125C43.8875%2027%2044.6188%2026.6839%2045.1579%2026.1213C45.6971%2025.5587%2046%2024.7956%2046%2024C46%2023.2044%2045.6971%2022.4413%2045.1579%2021.8787C44.6188%2021.3161%2043.8875%2021%2043.125%2021Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
+              />
+            </button>
+            <div
+              class="transition-all duration-300 ease-in-out overflow-hidden px-4 sm:px-6 max-h-0 opacity-0"
+              style="word-break: break-word"
+            >
+              <div class="pb-4 text-sm sm:text-base break-words">
+                <div class="space-y-3">
+                  <p class="text-[#234394] font-medium">
+                    Absolutely – we encourage co-parent involvement wherever possible.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-base font-semibold italic text-[var(--text-gray)] text-center">
+          <span
+            >Still have questions? Write to us at
+            <span class="text-[var(--blue-fig)] cursor-pointer hover:underline">info@embracelives.com</span></span
+          >
+        </p>
+      </div>
+      <?php include __DIR__ . '/components/footer.php'; ?>
+    </div>
+    
+    <script src="/assets/interactive.js"></script>
+  </body>
+</html>
