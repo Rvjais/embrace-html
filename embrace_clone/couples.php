@@ -153,11 +153,11 @@
             across dating, marriage, or long-term relationships.<br />Therapy that meets you where you are—whether
             you're dating, living together, married, or rebuilding trust.
           </p>
-          <button
-            class="w-[70%] md:w-[24.25%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-2 2xl:mt-6 text-white font-medium cursor-pointer"
+          <a href="/appointment.php"
+            class="inline-block w-[70%] md:w-[24.25%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-2 2xl:mt-6 text-white font-medium cursor-pointer"
           >
             Request Session
-          </button>
+          </a>
         </div>
       </div>
       <div
@@ -435,7 +435,7 @@
           </div>
           <div class="space-y-4 mb-12">
             <div class="bg-white rounded-lg shadow-sm overflow-hidden">
-              <button
+              <a href="/appointment.php"
                 class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
               >
                 <span class="font-medium text-gray-800 md:text-base text-sm break-words"
@@ -445,7 +445,7 @@
                   class="w-5 h-5 sm:w-4 sm:h-4 transition-transform duration-200 rotate-45"
                   src="data:image/svg+xml,%3csvg%20width='46'%20height='48'%20viewBox='0%200%2046%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M43.125%2021H25.875V3C25.875%202.20435%2025.5721%201.44129%2025.0329%200.87868C24.4938%200.316071%2023.7625%200%2023%200C22.2375%200%2021.5062%200.316071%2020.9671%200.87868C20.4279%201.44129%2020.125%202.20435%2020.125%203V21H2.875C2.1125%2021%201.38124%2021.3161%200.842069%2021.8787C0.302901%2022.4413%200%2023.2044%200%2024C0%2024.7956%200.302901%2025.5587%200.842069%2026.1213C1.38124%2026.6839%202.1125%2027%202.875%2027H20.125V45C20.125%2045.7957%2020.4279%2046.5587%2020.9671%2047.1213C21.5062%2047.6839%2022.2375%2048%2023%2048C23.7625%2048%2024.4938%2047.6839%2025.0329%2047.1213C25.5721%2046.5587%2025.875%2045.7957%2025.875%2045V27H43.125C43.8875%2027%2044.6188%2026.6839%2045.1579%2026.1213C45.6971%2025.5587%2046%2024.7956%2046%2024C46%2023.2044%2045.6971%2022.4413%2045.1579%2021.8787C44.6188%2021.3161%2043.8875%2021%2043.125%2021Z'%20fill='%23403D3D'/%3e%3c/svg%3e"
                 />
-              </button>
+              </a>
               <div
                 class="transition-all duration-300 ease-in-out overflow-hidden px-4 sm:px-6 max-h-[1000px] py-2 opacity-100"
                 style="word-break: break-word"

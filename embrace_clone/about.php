@@ -551,9 +551,9 @@
           Our diverse team of licensed experts is committed to delivering personalized care through collaboration,
           compassion, and innovation
         </p>
-        <button class="bg-[var(--blue-fig)] py-2 px-8 rounded-full text-white mt-10 cursor-pointer">
+        <a href="/userListing.php" class="inline-block bg-[var(--blue-fig)] py-2 px-8 rounded-full text-white mt-10 cursor-pointer">
           Meet our team
-        </button>
+        </a>
         <div
           class="absolute md:right-[10%] md:bottom-[10%] bottom-[23%] right-[70%] -translate-y-1/2 flex flex-col items-center z-10"
         >
@@ -583,25 +583,25 @@
         </p>
         <div class="flex md:flex-row flex-col gap-8 justify-center items-center mt-8">
           <div class="flex flex-col items-center bg-white rounded-4xl shadow-lg p-4 w-48">
-            <img alt="Join Us" class="w-40 h-40 mb-4" src="/assets/JoinUs-BfUHuJmU.svg" /><button
-              class="translate-y-6 -mt-8 px-4 py-2 bg-[var(--blue-fig)] cursor-pointer text-white rounded-full text-xs w-fit"
+            <img alt="Join Us" class="w-40 h-40 mb-4" src="/assets/JoinUs-BfUHuJmU.svg" /><a href="/careers.php"
+              class="inline-block translate-y-6 -mt-8 px-4 py-2 bg-[var(--blue-fig)] cursor-pointer text-white rounded-full text-xs w-fit"
             >
               Join Us
-            </button>
+            </a>
           </div>
           <div class="flex flex-col items-center bg-white rounded-4xl shadow-lg p-4 w-48">
-            <img alt="Work With Us" class="w-40 h-40 mb-4" src="/assets/WorkWithUs-VpUY4tm9.svg" /><button
-              class="translate-y-6 -mt-8 px-4 py-2 bg-[var(--blue-fig)] cursor-pointer text-white rounded-full text-xs w-fit"
+            <img alt="Work With Us" class="w-40 h-40 mb-4" src="/assets/WorkWithUs-VpUY4tm9.svg" /><a href="/partners.php"
+              class="inline-block translate-y-6 -mt-8 px-4 py-2 bg-[var(--blue-fig)] cursor-pointer text-white rounded-full text-xs w-fit"
             >
               Work With Us
-            </button>
+            </a>
           </div>
           <div class="flex flex-col items-center bg-white rounded-4xl shadow-lg p-4 w-48">
-            <img alt="Connect With Us" class="w-40 h-40 mb-4" src="/assets/Connect-CiMwqMoR.svg" /><button
-              class="translate-y-6 -mt-8 px-4 py-2 bg-[var(--blue-fig)] cursor-pointer text-white rounded-full text-xs w-fit"
+            <img alt="Connect With Us" class="w-40 h-40 mb-4" src="/assets/Connect-CiMwqMoR.svg" /><a href="/contact-us.php"
+              class="inline-block translate-y-6 -mt-8 px-4 py-2 bg-[var(--blue-fig)] cursor-pointer text-white rounded-full text-xs w-fit"
             >
               Connect With Us
-            </button>
+            </a>
           </div>
         </div>
         <div

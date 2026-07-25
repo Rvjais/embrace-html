@@ -69,17 +69,17 @@
           <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Sensory Integration Therapy</h1>
           <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto italic">Evidence-based therapy to help the brain organise and respond to sensory input effectively.</p>
           <div class="mt-8 flex justify-center">
-            <button class="bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
+            <a href="/appointment.php" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
               Book a Consultation
-            </button>
+            </a>
           </div>
         </div>
       </div>
       <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
         <div class="max-w-7xl mx-auto flex items-center gap-2">
-          <a class="hover:text-[#234394]" href="/index">Home</a>
+          <a class="hover:text-[#234394]" href="/index.php">Home</a>
           <span>/</span>
-          <a class="hover:text-[#234394]" href="/occupational-therapy">Occupational Therapy Hub</a>
+          <a class="hover:text-[#234394]" href="/occupational-therapy/occupational-therapy.php">Occupational Therapy Hub</a>
           <span>/</span>
           <span class="text-gray-800 font-medium">Sensory Integration Therapy</span>
         </div>
@@ -91,42 +91,42 @@
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #234394"></span>Sensory Processing</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy">Occupational Therapy Hub</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/sensory-processing-disorder">Sensory Processing Disorder</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/sensory-integration-therapy">Sensory Integration Therapy</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/sensory-seeking-behaviour">Sensory Seeking Behaviour</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/sensory-avoidance">Sensory Avoidance</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/sensory-regulation">Sensory Regulation</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/occupational-therapy.php">Occupational Therapy Hub</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/sensory-processing-disorder.php">Sensory Processing Disorder</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/occupational-therapy/sensory-integration-therapy.php">Sensory Integration Therapy</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/sensory-seeking-behaviour.php">Sensory Seeking Behaviour</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/sensory-avoidance.php">Sensory Avoidance</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/sensory-regulation.php">Sensory Regulation</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #C499F6"></span>Motor Skills</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/fine-motor-skills">Fine Motor Skills</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/gross-motor-skills">Gross Motor Skills</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/motor-planning">Motor Planning & Dyspraxia</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/handwriting-difficulties">Handwriting Difficulties</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/fine-motor-skills.php">Fine Motor Skills</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/gross-motor-skills.php">Gross Motor Skills</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/motor-planning.php">Motor Planning & Dyspraxia</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/handwriting-difficulties.php">Handwriting Difficulties</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #F2B81B"></span>Daily Living Skills</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/daily-living-skills">Daily Living Skills</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/self-care-training">Self-Care Training</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/daily-living-skills.php">Daily Living Skills</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/self-care-training.php">Self-Care Training</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #2EC4B6"></span>Assessment</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy-assessment">OT Assessment</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/occupational-therapy-assessment.php">OT Assessment</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #FF85A1"></span>Specialised OT</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/ot-for-autism">OT for Autism</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/ot-for-adhd">OT for ADHD</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/ot-for-learning-disabilities">OT for Learning Disabilities</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/ot-for-autism.php">OT for Autism</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/ot-for-adhd.php">OT for ADHD</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/occupational-therapy/ot-for-learning-disabilities.php">OT for Learning Disabilities</a></li>
     </ul>
   </div></div>
 <div class="w-full md:hidden mb-6 bg-[#F9FBFF] border border-[#E0E6F0] rounded-2xl p-4 shadow-sm">
@@ -139,42 +139,42 @@
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Sensory Processing</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy">Occupational Therapy Hub</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/sensory-processing-disorder">Sensory Processing Disorder</a></li>
-          <li><a class="block py-1 text-xs text-[#234394] font-bold" href="/sensory-integration-therapy">Sensory Integration Therapy</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/sensory-seeking-behaviour">Sensory Seeking Behaviour</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/sensory-avoidance">Sensory Avoidance</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/sensory-regulation">Sensory Regulation</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/occupational-therapy.php">Occupational Therapy Hub</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/sensory-processing-disorder.php">Sensory Processing Disorder</a></li>
+          <li><a class="block py-1 text-xs text-[#234394] font-bold" href="/occupational-therapy/sensory-integration-therapy.php">Sensory Integration Therapy</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/sensory-seeking-behaviour.php">Sensory Seeking Behaviour</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/sensory-avoidance.php">Sensory Avoidance</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/sensory-regulation.php">Sensory Regulation</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Motor Skills</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/fine-motor-skills">Fine Motor Skills</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/gross-motor-skills">Gross Motor Skills</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/motor-planning">Motor Planning</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/handwriting-difficulties">Handwriting Difficulties</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/fine-motor-skills.php">Fine Motor Skills</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/gross-motor-skills.php">Gross Motor Skills</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/motor-planning.php">Motor Planning</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/handwriting-difficulties.php">Handwriting Difficulties</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Daily Living Skills</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/daily-living-skills">Daily Living Skills</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/self-care-training">Self Care Training</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/daily-living-skills.php">Daily Living Skills</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/self-care-training.php">Self Care Training</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Assessment</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy-assessment">Occupational Therapy Assessment</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/occupational-therapy-assessment.php">Occupational Therapy Assessment</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Specialised OT</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/ot-for-autism">Ot For Autism</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/ot-for-adhd">Ot For Adhd</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/ot-for-learning-disabilities">Ot For Learning Disabilities</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/ot-for-autism.php">Ot For Autism</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/ot-for-adhd.php">Ot For Adhd</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/occupational-therapy/ot-for-learning-disabilities.php">Ot For Learning Disabilities</a></li>
         </ul>
       </div>    </div>
   </details>
@@ -243,9 +243,9 @@
             <div class="cta-card my-12">
               <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Speak with a Specialist</h3>
               <p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Get personalised guidance, professional assessment, and structured support at eMbrace Delhi.</p>
-              <button class="bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
+              <a href="/appointment.php" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
                 Schedule an Appointment
-              </button>
+              </a>
             </div>
           </div>
         </div>

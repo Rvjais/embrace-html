@@ -100,9 +100,41 @@
   transition: color 0.2s, transform 0.2s;
 }
 
+.glass-footer a[href*="appointment"] {
+  color: #ffffff !important;
+}
+
+.glass-footer a[href*="linkedin"] span,
+.glass-footer a[href*="linkedin"] span * {
+  background-color: #0077b5 !important;
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
+.glass-footer a[href*="instagram"] span,
+.glass-footer a[href*="instagram"] span * {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important;
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
+.glass-footer a[href*="facebook"] span,
+.glass-footer a[href*="facebook"] span * {
+  background-color: #1877f2 !important;
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
 .glass-footer a:hover {
   color: #1a3375;
   transform: translateY(-1px);
+}
+
+.glass-footer a[href*="appointment"]:hover,
+.glass-footer a[href*="linkedin"]:hover,
+.glass-footer a[href*="instagram"]:hover,
+.glass-footer a[href*="facebook"]:hover {
+  color: #ffffff !important;
 }
 
 .glass-footer h3 {

@@ -164,12 +164,12 @@
             </p>
             <div class="flex flex-col sm:flex-row gap-4 mt-2">
               <a
-                href="/userListing"
+                href="/userListing.php"
                 class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] text-white font-medium cursor-pointer text-center"
                 >Browse All Therapists</a
               >
               <a
-                href="/contact-us"
+                href="/contact-us.php"
                 class="2xl:text-2xl px-8 py-2 rounded-full border-2 border-[var(--blue-fig)] text-[var(--blue-fig)] font-medium cursor-pointer text-center"
                 >Contact Us</a
               >

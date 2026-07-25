@@ -489,7 +489,7 @@
                         </p>
                       </div>
                     </div>
-                    <button
+                    <a href="/appointment.php"
                       class="flex items-center gap-1.5 bg-[#F39F9A] text-white text-xs font-semibold px-5 py-2 rounded-full hover:bg-[#e88480] transition-colors shadow-sm shrink-0"
                     >
                       <svg
@@ -508,7 +508,7 @@
                         <line x1="3" x2="21" y1="10" y2="10"></line>
                         <path d="M9 16l2 2 4-4"></path></svg
                       >Book
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -606,7 +606,7 @@
                         </p>
                       </div>
                     </div>
-                    <button
+                    <a href="/appointment.php"
                       class="flex items-center gap-1.5 bg-[#F39F9A] text-white text-xs font-semibold px-5 py-2 rounded-full hover:bg-[#e88480] transition-colors shadow-sm shrink-0"
                     >
                       <svg
@@ -625,7 +625,7 @@
                         <line x1="3" x2="21" y1="10" y2="10"></line>
                         <path d="M9 16l2 2 4-4"></path></svg
                       >Book
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -745,7 +745,7 @@
                         </p>
                       </div>
                     </div>
-                    <button
+                    <a href="/appointment.php"
                       class="flex items-center gap-1.5 bg-[#F39F9A] text-white text-xs font-semibold px-5 py-2 rounded-full hover:bg-[#e88480] transition-colors shadow-sm shrink-0"
                     >
                       <svg
@@ -764,7 +764,7 @@
                         <line x1="3" x2="21" y1="10" y2="10"></line>
                         <path d="M9 16l2 2 4-4"></path></svg
                       >Book
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -883,7 +883,7 @@
                         </p>
                       </div>
                     </div>
-                    <button
+                    <a href="/appointment.php"
                       class="flex items-center gap-1.5 bg-[#F39F9A] text-white text-xs font-semibold px-5 py-2 rounded-full hover:bg-[#e88480] transition-colors shadow-sm shrink-0"
                     >
                       <svg
@@ -902,7 +902,7 @@
                         <line x1="3" x2="21" y1="10" y2="10"></line>
                         <path d="M9 16l2 2 4-4"></path></svg
                       >Book
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>

@@ -70,17 +70,17 @@
 <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Speech Therapy in Green Park</h1>
 <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto italic">Professional speech therapy services conveniently located in Green Park, Delhi.</p>
 <div class="mt-8 flex justify-center">
-<button class="bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
+<a href="/appointment.php" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
               Book a Consultation
-            </button>
+            </a>
 </div>
 </div>
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
 <div class="max-w-7xl mx-auto flex items-center gap-2">
-<a class="hover:text-[#234394]" href="/index">Home</a>
+<a class="hover:text-[#234394]" href="/index.php">Home</a>
 <span>/</span>
-<a class="hover:text-[#234394]" href="/speech-therapy/speech-therapy">Speech &amp; Language Hub</a>
+<a class="hover:text-[#234394]" href="/speech-therapy/speech-therapy.php">Speech &amp; Language Hub</a>
 <span>/</span>
 <span class="text-gray-800 font-medium">Speech Therapy In Green Park</span>
 </div>
@@ -91,38 +91,38 @@
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #234394"></span>Speech Disorders</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/speech-therapy/speech-therapy">Speech &amp; Language Therapy Hub</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-delay">Speech Delay</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-sound-disorders">Speech Sound Disorders</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/articulation-therapy">Articulation Therapy</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/stuttering-therapy">Stuttering Therapy</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/speech-therapy/speech-therapy.php">Speech &amp; Language Therapy Hub</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-delay.php">Speech Delay</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-sound-disorders.php">Speech Sound Disorders</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/articulation-therapy.php">Articulation Therapy</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/stuttering-therapy.php">Stuttering Therapy</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #C499F6"></span>Language Disorders</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/language-delay">Language Delay</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/expressive-language-disorder">Expressive Language Disorder</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/receptive-language-disorder">Receptive Language Disorder</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/pragmatic-language-disorder">Pragmatic Language Disorder</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/social-communication-disorder">Social Communication Disorder</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/communication-skills-training">Communication Skills Training</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/language-delay.php">Language Delay</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/expressive-language-disorder.php">Expressive Language Disorder</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/receptive-language-disorder.php">Receptive Language Disorder</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/pragmatic-language-disorder.php">Pragmatic Language Disorder</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/social-communication-disorder.php">Social Communication Disorder</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/communication-skills-training.php">Communication Skills Training</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #2EC4B6"></span>Assessment</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-assessment">Speech Assessment</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/language-assessment">Language Assessment</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-assessment.php">Speech Assessment</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/language-assessment.php">Language Assessment</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #F39F9A"></span>Specialised Therapy</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-therapy-for-autism">Speech Therapy for Autism</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-therapy-for-adhd">Speech Therapy for ADHD</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-therapy-for-children">Speech Therapy for Children</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-therapy-for-adults">Speech Therapy for Adults</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-therapy-for-autism.php">Speech Therapy for Autism</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-therapy-for-adhd.php">Speech Therapy for ADHD</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-therapy-for-children.php">Speech Therapy for Children</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/speech-therapy/speech-therapy-for-adults.php">Speech Therapy for Adults</a></li>
 </ul>
 </div></div><div class="w-full md:hidden mb-6 bg-[#F9FBFF] border border-[#E0E6F0] rounded-2xl p-4 shadow-sm">
 <details class="group">
@@ -134,38 +134,38 @@
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Speech Disorders</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-[#234394] font-bold" href="/speech-therapy/speech-therapy">Speech &amp; Language Therapy Hub</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-delay">Speech Delay</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-sound-disorders">Speech Sound Disorders</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/articulation-therapy">Articulation Therapy</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/stuttering-therapy">Stuttering Therapy</a></li>
+<li><a class="block py-1 text-xs text-[#234394] font-bold" href="/speech-therapy/speech-therapy.php">Speech &amp; Language Therapy Hub</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-delay.php">Speech Delay</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-sound-disorders.php">Speech Sound Disorders</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/articulation-therapy.php">Articulation Therapy</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/stuttering-therapy.php">Stuttering Therapy</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Language Disorders</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/language-delay">Language Delay</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/expressive-language-disorder">Expressive Language Disorder</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/receptive-language-disorder">Receptive Language Disorder</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/pragmatic-language-disorder">Pragmatic Language Disorder</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/social-communication-disorder">Social Communication Disorder</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/communication-skills-training">Communication Skills Training</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/language-delay.php">Language Delay</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/expressive-language-disorder.php">Expressive Language Disorder</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/receptive-language-disorder.php">Receptive Language Disorder</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/pragmatic-language-disorder.php">Pragmatic Language Disorder</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/social-communication-disorder.php">Social Communication Disorder</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/communication-skills-training.php">Communication Skills Training</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Assessment</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-assessment">Speech Assessment</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/language-assessment">Language Assessment</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-assessment.php">Speech Assessment</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/language-assessment.php">Language Assessment</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Specialised Therapy</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-therapy-for-autism">Speech Therapy For Autism</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-therapy-for-adhd">Speech Therapy For Adhd</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-therapy-for-children">Speech Therapy For Children</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-therapy-for-adults">Speech Therapy For Adults</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-therapy-for-autism.php">Speech Therapy For Autism</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-therapy-for-adhd.php">Speech Therapy For Adhd</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-therapy-for-children.php">Speech Therapy For Children</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/speech-therapy/speech-therapy-for-adults.php">Speech Therapy For Adults</a></li>
 </ul>
 </div> </div>
 </details>
@@ -241,9 +241,9 @@
 <div class="cta-card my-12">
 <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Green Park</h3>
 <p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your speech therapy consultation at our Green Park centre.</p>
-<button class="bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
+<a href="/appointment.php" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
                 Schedule an Appointment
-              </button>
+              </a>
 </div>
 </div>
 </div>

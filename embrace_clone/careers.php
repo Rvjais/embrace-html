@@ -96,11 +96,11 @@
             Join our mission in empowering
             <span class="text-[#234394]">diverse minds &amp; building a neuro-inclusive future!</span>
           </p>
-          <button
-            class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
+          <a href="/careers.php"
+            class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
           >
             <a href="mailto:enquiries@embracelives.com">Apply Now</a>
-          </button>
+          </a>
         </div>
       </div>
       <div
@@ -240,11 +240,11 @@
                   (Therapy, assessments, mental health interventions)
                 </p>
               </div>
-              <button
-                class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
+              <a href="/careers.php"
+                class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
-              </button>
+              </a>
             </div>
             <div
               class="bg-white border z-1 border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
@@ -258,11 +258,11 @@
                   (Developmental support, early intervention, therapy for children)
                 </p>
               </div>
-              <button
-                class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
+              <a href="/careers.php"
+                class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
-              </button>
+              </a>
             </div>
             <div
               class="bg-white border z-1 border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
@@ -276,11 +276,11 @@
                   (Developing motor, sensory, and daily living skills)
                 </p>
               </div>
-              <button
-                class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
+              <a href="/careers.php"
+                class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
-              </button>
+              </a>
             </div>
             <div
               class="bg-white border z-1 border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
@@ -294,11 +294,11 @@
                   (Speech clarity, language comprehension, and communication)
                 </p>
               </div>
-              <button
-                class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
+              <a href="/careers.php"
+                class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
-              </button>
+              </a>
             </div>
           </div>
           <h1 class="md:text-xl text-lg font-semibold text-center 2xl:text-3xl mt-6">Training &amp; Internships</h1>
@@ -319,11 +319,11 @@
                    (Evidence based practice for BA &amp; MA students, applications close by May 15)
                 </p>
               </div>
-              <button
-                class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
+              <a href="/careers.php"
+                class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
-              </button>
+              </a>
             </div>
             <div
               class="z-1 bg-white border border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
@@ -337,11 +337,11 @@
                   (Advanced mentorship for early-career psychologists looking to specialize)
                 </p>
               </div>
-              <button
-                class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
+              <a href="/careers.php"
+                class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
-              </button>
+              </a>
             </div>
             <div
               class="z-1 bg-white border border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
@@ -359,11 +359,11 @@
                   (Evidence based practice for BA &amp; MA students, applications close by November 15)
                 </p>
               </div>
-              <button
-                class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
+              <a href="/careers.php"
+                class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -483,11 +483,11 @@
             >
               Looking for a <span class="text-[#234394]">meaningful career in mental health? </span>Apply today
             </p>
-            <button
-              class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
+            <a href="/careers.php"
+              class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
             >
               <a href="mailto:enquiries@embracelives.com">Apply Now</a>
-            </button>
+            </a>
           </div>
         </div>
       </div>

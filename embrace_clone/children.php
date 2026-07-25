@@ -128,15 +128,15 @@
               compassion and clinical precision, from the very first session.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 mt-8 w-full sm:w-auto justify-center md:justify-start">
-              <button
-                class="px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3366] transition-colors cursor-pointer shadow-md"
+              <a href="/appointment.php"
+                class="inline-block px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3366] transition-colors cursor-pointer shadow-md"
               >
                 Book a Session</button
               ><button
                 class="px-8 py-3 rounded-full border-2 border-[#F39F9A] text-[#F39F9A] font-semibold hover:bg-[#F39F9A] hover:text-white transition-colors cursor-pointer"
               >
                 Download Our Service Guide
-              </button>
+              </a>
             </div>
           </div>
           <div class="flex-1 flex justify-center md:justify-end">
@@ -253,9 +253,9 @@
             </div>
           </div>
           <div class="text-center mt-10">
-            <button class="text-[#234394] font-semibold text-sm md:text-base hover:underline cursor-pointer">
+            <a href="/appointment.php" class="inline-block text-[#234394] font-semibold text-sm md:text-base hover:underline cursor-pointer">
               Not sure which applies to your child? Book a free screening call →
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -730,11 +730,11 @@
             </div>
           </div>
           <div class="text-center mt-10">
-            <button
-              class="px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3366] transition-colors cursor-pointer shadow-md"
+            <a href="/appointment.php"
+              class="inline-block px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3366] transition-colors cursor-pointer shadow-md"
             >
               Ready to start? Book your intake appointment today →
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -807,9 +807,9 @@
             </div>
           </div>
           <div class="text-center">
-            <button class="text-[#234394] font-semibold text-sm md:text-base hover:underline cursor-pointer">
+            <a href="/userListing.php" class="inline-block text-[#234394] font-semibold text-sm md:text-base hover:underline cursor-pointer">
               Meet the full team →
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -2174,9 +2174,9 @@
             </div>
           </div>
           <div class="text-center">
-            <button class="text-[#234394] font-semibold text-sm md:text-base hover:underline cursor-pointer">
+            <a href="/parent-hub/parents.php" class="inline-block text-[#234394] font-semibold text-sm md:text-base hover:underline cursor-pointer">
               Visit our Resource Centre →
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -2481,11 +2481,11 @@
             </div>
             <p class="mt-6 text-xs text-center text-[#403D3D]/60">
               Not sure if your child is on track?
-              <button
-                class="text-[#234394] underline hover:text-[#1a3366] focus-visible:ring-2 focus-visible:ring-[#234394] cursor-pointer"
+              <a href="/appointment.php"
+                class="inline-block text-[#234394] underline hover:text-[#1a3366] focus-visible:ring-2 focus-visible:ring-[#234394] cursor-pointer"
               >
                 Book a free developmental screening →
-              </button>
+              </a>
             </p>
           </div>
         </section>

@@ -69,17 +69,17 @@
           <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Child Counselling</h1>
           <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto italic">Therapeutic support for children facing emotional, behavioural, and social challenges.</p>
           <div class="mt-8 flex justify-center">
-            <button class="bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
+            <a href="/appointment.php" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
               Book a Consultation
-            </button>
+            </a>
           </div>
         </div>
       </div>
       <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
         <div class="max-w-7xl mx-auto flex items-center gap-2">
-          <a class="hover:text-[#234394]" href="/index">Home</a>
+          <a class="hover:text-[#234394]" href="/index.php">Home</a>
           <span>/</span>
-          <a class="hover:text-[#234394]" href="/child-psychologist">Child Psychology Hub</a>
+          <a class="hover:text-[#234394]" href="/child-psychology/child-psychologist.php">Child Psychology Hub</a>
           <span>/</span>
           <span class="text-gray-800 font-medium">Child Counselling</span>
         </div>
@@ -91,41 +91,41 @@
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #234394"></span>Therapy Services</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychologist">Child Psychology Hub</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/child-counselling">Child Counselling</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/play-therapy">Play Therapy</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/expressive-arts-therapy">Expressive Arts Therapy</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/social-skills-training">Social Skills Training</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/child-psychologist.php">Child Psychology Hub</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/child-psychology/child-counselling.php">Child Counselling</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/play-therapy.php">Play Therapy</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/expressive-arts-therapy.php">Expressive Arts Therapy</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/social-skills-training.php">Social Skills Training</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #C499F6"></span>Emotional & Behavioural</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-anxiety">Child Anxiety</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-depression">Child Depression</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-stress">Child Stress & Coping</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-behaviour-problems">Child Behaviour Problems</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/temper-tantrums">Temper Tantrums</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/emotional-regulation">Emotional Regulation</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/anger-management-for-children">Anger Management</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/child-anxiety.php">Child Anxiety</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/child-depression.php">Child Depression</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/child-stress.php">Child Stress & Coping</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/child-behaviour-problems.php">Child Behaviour Problems</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/temper-tantrums.php">Temper Tantrums</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/emotional-regulation.php">Emotional Regulation</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/anger-management-for-children.php">Anger Management</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #F39F9A"></span>Social & Peer Issues</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/peer-relationship-problems">Peer Relationship Problems</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/bullying-support">Bullying Support</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/school-refusal">School Refusal</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/academic-stress">Academic Stress</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/low-self-esteem">Low Self-Esteem</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/confidence-building">Confidence Building</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/peer-relationship-problems.php">Peer Relationship Problems</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/bullying-support.php">Bullying Support</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/school-refusal.php">School Refusal</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/academic-stress.php">Academic Stress</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/low-self-esteem.php">Low Self-Esteem</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/confidence-building.php">Confidence Building</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #FF85A1"></span>Trauma & Grief</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/grief-counselling-for-children">Grief Counselling</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/trauma-support-for-children">Trauma Support</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/grief-counselling-for-children.php">Grief Counselling</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/child-psychology/trauma-support-for-children.php">Trauma Support</a></li>
     </ul>
   </div></div>
 <div class="w-full md:hidden mb-6 bg-[#F9FBFF] border border-[#E0E6F0] rounded-2xl p-4 shadow-sm">
@@ -138,41 +138,41 @@
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Therapy Services</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychologist">Child Psychology Hub</a></li>
-          <li><a class="block py-1 text-xs text-[#234394] font-bold" href="/child-counselling">Child Counselling</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/play-therapy">Play Therapy</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/expressive-arts-therapy">Expressive Arts Therapy</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/social-skills-training">Social Skills Training</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/child-psychologist.php">Child Psychology Hub</a></li>
+          <li><a class="block py-1 text-xs text-[#234394] font-bold" href="/child-psychology/child-counselling.php">Child Counselling</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/play-therapy.php">Play Therapy</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/expressive-arts-therapy.php">Expressive Arts Therapy</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/social-skills-training.php">Social Skills Training</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Emotional & Behavioural</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/child-anxiety">Child Anxiety</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/child-depression">Child Depression</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/child-stress">Child Stress</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/child-behaviour-problems">Child Behaviour Problems</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/temper-tantrums">Temper Tantrums</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/emotional-regulation">Emotional Regulation</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/anger-management-for-children">Anger Management For Children</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/child-anxiety.php">Child Anxiety</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/child-depression.php">Child Depression</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/child-stress.php">Child Stress</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/child-behaviour-problems.php">Child Behaviour Problems</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/temper-tantrums.php">Temper Tantrums</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/emotional-regulation.php">Emotional Regulation</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/anger-management-for-children.php">Anger Management For Children</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Social & Peer Issues</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/peer-relationship-problems">Peer Relationship Problems</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/bullying-support">Bullying Support</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/school-refusal">School Refusal</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/academic-stress">Academic Stress</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/low-self-esteem">Low Self Esteem</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/confidence-building">Confidence Building</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/peer-relationship-problems.php">Peer Relationship Problems</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/bullying-support.php">Bullying Support</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/school-refusal.php">School Refusal</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/academic-stress.php">Academic Stress</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/low-self-esteem.php">Low Self Esteem</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/confidence-building.php">Confidence Building</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Trauma & Grief</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/grief-counselling-for-children">Grief Counselling For Children</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/trauma-support-for-children">Trauma Support For Children</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/grief-counselling-for-children.php">Grief Counselling For Children</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/child-psychology/trauma-support-for-children.php">Trauma Support For Children</a></li>
         </ul>
       </div>    </div>
   </details>
@@ -241,9 +241,9 @@
             <div class="cta-card my-12">
               <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Speak with a Specialist</h3>
               <p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Get personalised guidance, professional assessment, and structured support at eMbrace Delhi.</p>
-              <button class="bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
+              <a href="/appointment.php" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
                 Schedule an Appointment
-              </button>
+              </a>
             </div>
           </div>
         </div>

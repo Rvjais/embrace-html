@@ -233,7 +233,7 @@
                 <h2 class="text-sm font-medium w-[70%] text-[var(--text-gray)]">
                   C-7, Sector C, Pocket 5, Basement, Grand Vasant Kunj, New Delhi - 110070
                 </h2>
-                <button
+                <a href="https://maps.google.com/?q=eMbrace+Lives+Delhi" target="_blank" rel="noopener noreferrer"
                   class="text-sm underline text-[var(--blue-fig)] font-medium flex items-center gap-2 focus:outline-none hover:cursor-pointer mb-2"
                 >
                   Get Directions<img
@@ -241,7 +241,7 @@
                     class="inline w-4 h-4"
                     src="data:image/svg+xml,%3csvg%20width='41'%20height='42'%20viewBox='0%200%2041%2042'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M40.3246%2019.5215L21.9496%200.771484C21.1533%20-0.0410156%2019.8671%20-0.0410156%2019.0708%200.771484L0.69582%2019.5215C-0.10043%2020.334%20-0.10043%2021.6465%200.69582%2022.459L19.0708%2041.209C19.8671%2042.0215%2021.1533%2042.0215%2021.9496%2041.209L40.3246%2022.459C41.1208%2021.6673%2041.1208%2020.3548%2040.3246%2019.5215ZM24.5833%2026.209V21.0006H16.4167V25.1673C16.4167%2026.3131%2015.4979%2027.2506%2014.375%2027.2506C13.2521%2027.2506%2012.3333%2026.3131%2012.3333%2025.1673V18.9173C12.3333%2017.7715%2013.2521%2016.834%2014.375%2016.834H24.5833V11.6257L31.0146%2018.1881C31.4229%2018.6048%2031.4229%2019.2506%2031.0146%2019.6673L24.5833%2026.209Z'%20fill='%23234394'/%3e%3c/svg%3e"
                   />
-                </button>
+                </a>
               </div>
             </div>
             <div class="w-full flex flex-row gap-4">
@@ -254,7 +254,7 @@
                 <h2 class="text-sm font-medium w-[70%] text-[var(--text-gray)]">
                   710, Dlf City Court, Mehrauli-Gurgaon Rd, Nathupur, Sector 24, Gurugram, Haryana 122002
                 </h2>
-                <button
+                <a href="https://maps.google.com/?q=eMbrace+Lives+Delhi" target="_blank" rel="noopener noreferrer"
                   class="text-sm underline text-[var(--blue-fig)] font-medium flex items-center gap-2 focus:outline-none hover:cursor-pointer mb-2"
                 >
                   Get Directions<img
@@ -262,7 +262,7 @@
                     class="inline w-4 h-4"
                     src="data:image/svg+xml,%3csvg%20width='41'%20height='42'%20viewBox='0%200%2041%2042'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M40.3246%2019.5215L21.9496%200.771484C21.1533%20-0.0410156%2019.8671%20-0.0410156%2019.0708%200.771484L0.69582%2019.5215C-0.10043%2020.334%20-0.10043%2021.6465%200.69582%2022.459L19.0708%2041.209C19.8671%2042.0215%2021.1533%2042.0215%2021.9496%2041.209L40.3246%2022.459C41.1208%2021.6673%2041.1208%2020.3548%2040.3246%2019.5215ZM24.5833%2026.209V21.0006H16.4167V25.1673C16.4167%2026.3131%2015.4979%2027.2506%2014.375%2027.2506C13.2521%2027.2506%2012.3333%2026.3131%2012.3333%2025.1673V18.9173C12.3333%2017.7715%2013.2521%2016.834%2014.375%2016.834H24.5833V11.6257L31.0146%2018.1881C31.4229%2018.6048%2031.4229%2019.2506%2031.0146%2019.6673L24.5833%2026.209Z'%20fill='%23234394'/%3e%3c/svg%3e"
                   />
-                </button>
+                </a>
               </div>
             </div>
             <div class="w-full flex flex-row gap-4">
@@ -275,7 +275,7 @@
                 <h2 class="text-sm font-medium w-[70%] text-[var(--text-gray)]">
                   FC-29, Plot No.5, Geetanjali, Near Malviya Nagar Metro Station Gate No.1, Delhi
                 </h2>
-                <button
+                <a href="https://maps.google.com/?q=eMbrace+Lives+Delhi" target="_blank" rel="noopener noreferrer"
                   class="text-sm underline text-[var(--blue-fig)] font-medium flex items-center gap-2 focus:outline-none hover:cursor-pointer mb-2"
                 >
                   Get Directions<img
@@ -283,7 +283,7 @@
                     class="inline w-4 h-4"
                     src="data:image/svg+xml,%3csvg%20width='41'%20height='42'%20viewBox='0%200%2041%2042'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M40.3246%2019.5215L21.9496%200.771484C21.1533%20-0.0410156%2019.8671%20-0.0410156%2019.0708%200.771484L0.69582%2019.5215C-0.10043%2020.334%20-0.10043%2021.6465%200.69582%2022.459L19.0708%2041.209C19.8671%2042.0215%2021.1533%2042.0215%2021.9496%2041.209L40.3246%2022.459C41.1208%2021.6673%2041.1208%2020.3548%2040.3246%2019.5215ZM24.5833%2026.209V21.0006H16.4167V25.1673C16.4167%2026.3131%2015.4979%2027.2506%2014.375%2027.2506C13.2521%2027.2506%2012.3333%2026.3131%2012.3333%2025.1673V18.9173C12.3333%2017.7715%2013.2521%2016.834%2014.375%2016.834H24.5833V11.6257L31.0146%2018.1881C31.4229%2018.6048%2031.4229%2019.2506%2031.0146%2019.6673L24.5833%2026.209Z'%20fill='%23234394'/%3e%3c/svg%3e"
                   />
-                </button>
+                </a>
                 <div class="text-sm font-medium text-[var(--text-gray)] mt-1">
                   <span class="font-medium"
                     ><span class="text-[var(--blue-fig)] font-medium underline">Contact:</span> +91 99109 77626</span
@@ -310,11 +310,11 @@
         </div>
         <h2 class="font-semibold mx-auto md:mt-15 mt-10">Advance Booking Required for</h2>
         <h2 class="font-semibold mx-auto text-[var(--blue-fig)] mb-5">In-Person Visits</h2>
-        <button
-          class="w-[70%] md:w-[20%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-2 2xl:mt-6 text-white font-medium cursor-pointer"
+        <a href="/appointment.php"
+          class="inline-block w-[70%] md:w-[20%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-2 2xl:mt-6 text-white font-medium cursor-pointer"
         >
           Book a Session
-        </button>
+        </a>
       </div>
       <div
         class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 mb-6 md:mb-0 relative overflow-hidden h-fit md:min-h-screen py-10 flex flex-col items-center"
@@ -509,7 +509,7 @@
                   </div>
                   <p class="pt-2">
                     Alternatively, you can book via
-                    <a class="text-[#234394] font-bold underline" href="#">WhatsApp</a> or email at
+                    <a class="text-[#234394] font-bold underline" href="https://wa.me/919971576800">WhatsApp</a> or email at
                     <a class="text-[#234394] font-bold underline" href="mailto:info@embracelives.com"
                       >info@embracelives.com</a
                     >
@@ -584,7 +584,7 @@
                   </div>
                   <p class="pt-2">
                     Too see a full list of services, visit
-                    <a class="text-[#234394] font-bold" href="#">services page</a>
+                    <a class="text-[#234394] font-bold" href="/contact-us.php">services page</a>
                   </p>
                 </div>
               </div>

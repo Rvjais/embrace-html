@@ -69,17 +69,17 @@
           <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Parent Support & Counselling</h1>
           <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto italic">Supporting you in raising happy, resilient children.</p>
           <div class="mt-8 flex justify-center">
-            <button class="bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
+            <a href="/appointment.php" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
               Book a Consultation
-            </button>
+            </a>
           </div>
         </div>
       </div>
       <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
         <div class="max-w-7xl mx-auto flex items-center gap-2">
-          <a class="hover:text-[#234394]" href="/index">Home</a>
+          <a class="hover:text-[#234394]" href="/index.php">Home</a>
           <span>/</span>
-          <a class="hover:text-[#234394]" href="/parents">Parent Support Hub</a>
+          <a class="hover:text-[#234394]" href="/parent-hub/parents.php">Parent Support Hub</a>
           <span>/</span>
           <span class="text-gray-800 font-medium">Parent Support Hub</span>
         </div>
@@ -91,32 +91,32 @@
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #234394"></span>Parenting Challenges</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/parents">Parent Support & Resource Hub</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-counselling">Parent Counselling</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-burnout">Parent Burnout</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/caregiver-support">Caregiver Support</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/positive-parenting">Positive Parenting</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/new-parent-support">New Parent Support</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-support-groups">Parent Support Groups</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/parent-hub/parents.php">Parent Support & Resource Hub</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/parent-counselling.php">Parent Counselling</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/parent-burnout.php">Parent Burnout</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/caregiver-support.php">Caregiver Support</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/positive-parenting.php">Positive Parenting</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/new-parent-support.php">New Parent Support</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/parent-support-groups.php">Parent Support Groups</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #C499F6"></span>Neurodivergent Children</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/raising-a-child-with-autism">Raising a Child with Autism</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/raising-a-child-with-adhd">Raising a Child with ADHD</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/siblings-of-neurodivergent-children">Siblings of Neurodivergent Children</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/managing-meltdowns">Managing Meltdowns</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/behaviour-management-at-home">Behaviour Management at Home</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/raising-a-child-with-autism.php">Raising a Child with Autism</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/raising-a-child-with-adhd.php">Raising a Child with ADHD</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/siblings-of-neurodivergent-children.php">Siblings of Neurodivergent Children</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/managing-meltdowns.php">Managing Meltdowns</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/behaviour-management-at-home.php">Behaviour Management at Home</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #2EC4B6"></span>Education & Advocacy</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/school-communication">School Communication</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/iep-guide">IEP Guide</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/inclusive-school-guide">Inclusive School Guide</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/transition-planning-for-parents">Transition Planning for Parents</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/school-communication.php">School Communication</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/iep-guide.php">IEP Guide</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/inclusive-school-guide.php">Inclusive School Guide</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/parent-hub/transition-planning-for-parents.php">Transition Planning for Parents</a></li>
     </ul>
   </div></div>
 <div class="w-full md:hidden mb-6 bg-[#F9FBFF] border border-[#E0E6F0] rounded-2xl p-4 shadow-sm">
@@ -129,32 +129,32 @@
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Parenting Challenges</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-[#234394] font-bold" href="/parents">Parent Support & Resource Hub</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/parent-counselling">Parent Counselling</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/parent-burnout">Parent Burnout</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/caregiver-support">Caregiver Support</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/positive-parenting">Positive Parenting</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/new-parent-support">New Parent Support</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/parent-support-groups">Parent Support Groups</a></li>
+          <li><a class="block py-1 text-xs text-[#234394] font-bold" href="/parent-hub/parents.php">Parent Support & Resource Hub</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/parent-counselling.php">Parent Counselling</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/parent-burnout.php">Parent Burnout</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/caregiver-support.php">Caregiver Support</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/positive-parenting.php">Positive Parenting</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/new-parent-support.php">New Parent Support</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/parent-support-groups.php">Parent Support Groups</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Neurodivergent Children</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/raising-a-child-with-autism">Raising a Child with Autism</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/raising-a-child-with-adhd">Raising a Child with ADHD</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/siblings-of-neurodivergent-children">Siblings of Neurodivergent Children</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/managing-meltdowns">Managing Meltdowns</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/behaviour-management-at-home">Behaviour Management at Home</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/raising-a-child-with-autism.php">Raising a Child with Autism</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/raising-a-child-with-adhd.php">Raising a Child with ADHD</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/siblings-of-neurodivergent-children.php">Siblings of Neurodivergent Children</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/managing-meltdowns.php">Managing Meltdowns</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/behaviour-management-at-home.php">Behaviour Management at Home</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Education & Advocacy</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/school-communication">School Communication</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/iep-guide">IEP Guide</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/inclusive-school-guide">Inclusive School Guide</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/transition-planning-for-parents">Transition Planning for Parents</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/school-communication.php">School Communication</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/iep-guide.php">IEP Guide</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/inclusive-school-guide.php">Inclusive School Guide</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/parent-hub/transition-planning-for-parents.php">Transition Planning for Parents</a></li>
         </ul>
       </div>    </div>
   </details>
@@ -212,9 +212,9 @@
             <div class="cta-card my-12">
               <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Speak with a Specialist</h3>
               <p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Get personalised guidance, professional assessment, and structured support at eMbrace Delhi.</p>
-              <button class="bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
+              <a href="/appointment.php" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
                 Schedule an Appointment
-              </button>
+              </a>
             </div>
           </div>
         </div>

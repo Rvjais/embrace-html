@@ -354,14 +354,14 @@
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
                 <img
-                  alt="Podcast on Parenting Neurodivergent Children - Mynastories"
+                  alt="Podcast on Parenting Neurodivergent Children - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card2-hdAdLOv2.svg"
                 /><a
                   class="text-[14px] lg:text-[15px] font-bold text-black underline underline-offset-4 py-1 px-2"
                   href="https://open.spotify.com/episode/17rSM3bXKHidHndmCrDrWS"
                   rel="noopener noreferrer"
-                  >Podcast on Parenting Neurodivergent Children - Mynastories</a
+                  >Podcast on Parenting Neurodivergent Children - Myndstories</a
                 >
                 <p class="text-[13px] text-[#403D3D] leading-5 text-left [word-spacing:1em] px-5">
                   Dr. Supriya Malik shares insights on compassion-led parenting for neurodivergent children.
@@ -389,14 +389,14 @@
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
                 <img
-                  alt="Podcast: Creating Space for Neurodivergence - Mynastories"
+                  alt="Podcast: Creating Space for Neurodivergence - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card4-CDQebk9g.svg"
                 /><a
                   class="text-[14px] lg:text-[15px] font-bold text-black underline underline-offset-4 py-1 px-2"
                   href="https://open.spotify.com/episode/1a7NevvAv3s4CohTxMpiMB"
                   rel="noopener noreferrer"
-                  >Podcast: Creating Space for Neurodivergence - Mynastories</a
+                  >Podcast: Creating Space for Neurodivergence - Myndstories</a
                 >
                 <p class="text-[13px] text-[#403D3D] leading-5 text-left [word-spacing:1em] px-5">
                   Dr. Mahima Sahi on systemic barriers and inclusive carein neurodivergent issues.
@@ -531,14 +531,14 @@
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
                 <img
-                  alt="Podcast on Parenting Neurodivergent Children - Mynastories"
+                  alt="Podcast on Parenting Neurodivergent Children - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card2-hdAdLOv2.svg"
                 /><a
                   class="text-[14px] lg:text-[15px] font-bold text-black underline underline-offset-4 py-1 px-2"
                   href="https://open.spotify.com/episode/17rSM3bXKHidHndmCrDrWS"
                   rel="noopener noreferrer"
-                  >Podcast on Parenting Neurodivergent Children - Mynastories</a
+                  >Podcast on Parenting Neurodivergent Children - Myndstories</a
                 >
                 <p class="text-[13px] text-[#403D3D] leading-5 text-left [word-spacing:1em] px-5">
                   Dr. Supriya Malik shares insights on compassion-led parenting for neurodivergent children.
@@ -570,14 +570,14 @@
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
                 <img
-                  alt="Podcast: Creating Space for Neurodivergence - Mynastories"
+                  alt="Podcast: Creating Space for Neurodivergence - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card4-CDQebk9g.svg"
                 /><a
                   class="text-[14px] lg:text-[15px] font-bold text-black underline underline-offset-4 py-1 px-2"
                   href="https://open.spotify.com/episode/1a7NevvAv3s4CohTxMpiMB"
                   rel="noopener noreferrer"
-                  >Podcast: Creating Space for Neurodivergence - Mynastories</a
+                  >Podcast: Creating Space for Neurodivergence - Myndstories</a
                 >
                 <p class="text-[13px] text-[#403D3D] leading-5 text-left [word-spacing:1em] px-5">
                   Dr. Mahima Sahi on systemic barriers and inclusive carein neurodivergent issues.
@@ -718,14 +718,14 @@
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
                 <img
-                  alt="Caregivers &amp; Autism - Mynastories"
+                  alt="Caregivers &amp; Autism - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card1-D7K00Rlt.svg"
                 /><a
                   class="text-[14px] lg:text-[15px] font-bold text-black underline underline-offset-4 py-1 px-2"
                   href="https://myndstories.com/product/supporting-caregivers-of-individuals-with-autism/"
                   rel="noopener noreferrer"
-                  >Caregivers &amp; Autism - Mynastories</a
+                  >Caregivers &amp; Autism - Myndstories</a
                 >
                 <p class="text-[13px] text-[#403D3D] leading-5 text-left [word-spacing:1em] px-5">
                   Taranpreet Kaur leads session on supporting caregivers of individuals with autism.
@@ -735,14 +735,14 @@
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
                 <img
-                  alt="ADHD at Work - Mynastories"
+                  alt="ADHD at Work - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card1-D7K00Rlt.svg"
                 /><a
                   class="text-[14px] lg:text-[15px] font-bold text-black underline underline-offset-4 py-1 px-2"
                   href="https://myndstories.com/product/neurodivergence-series-part-1-harnessing-adhd-at-work/"
                   rel="noopener noreferrer"
-                  >ADHD at Work - Mynastories</a
+                  >ADHD at Work - Myndstories</a
                 >
                 <p class="text-[13px] text-[#403D3D] leading-5 text-left [word-spacing:1em] px-5">
                   Taranpreet Kaur leads Neurodivergence Series Part 1 with practical tips for workplace focus.
@@ -860,14 +860,14 @@
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
                 <img
-                  alt="Caregivers &amp; Autism - Mynastories"
+                  alt="Caregivers &amp; Autism - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card1-D7K00Rlt.svg"
                 /><a
                   class="text-[14px] lg:text-[15px] font-bold text-black underline underline-offset-4 py-1 px-2"
                   href="https://myndstories.com/product/supporting-caregivers-of-individuals-with-autism/"
                   rel="noopener noreferrer"
-                  >Caregivers &amp; Autism - Mynastories</a
+                  >Caregivers &amp; Autism - Myndstories</a
                 >
                 <p class="text-[13px] text-[#403D3D] leading-5 text-left [word-spacing:1em] px-5">
                   Taranpreet Kaur leads session on supporting caregivers of individuals with autism.
@@ -879,14 +879,14 @@
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
                 <img
-                  alt="ADHD at Work - Mynastories"
+                  alt="ADHD at Work - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card1-D7K00Rlt.svg"
                 /><a
                   class="text-[14px] lg:text-[15px] font-bold text-black underline underline-offset-4 py-1 px-2"
                   href="https://myndstories.com/product/neurodivergence-series-part-1-harnessing-adhd-at-work/"
                   rel="noopener noreferrer"
-                  >ADHD at Work - Mynastories</a
+                  >ADHD at Work - Myndstories</a
                 >
                 <p class="text-[13px] text-[#403D3D] leading-5 text-left [word-spacing:1em] px-5">
                   Taranpreet Kaur leads Neurodivergence Series Part 1 with practical tips for workplace focus.

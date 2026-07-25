@@ -142,9 +142,9 @@
               Connect with a dedicated child psychologist in Delhi for early intervention, assessments, and therapy —
               nurturing growth through expert, developmentally aligned care.
             </p>
-<button class="mt-auto text-black text-xs 2xl:text-lg font-medium px-9 py-1 rounded-full cursor-pointer bg-[#F2DC68]">
+<a href="/children_and_adolescents.php" class="inline-block mt-auto text-black text-xs 2xl:text-lg font-medium px-9 py-1 rounded-full cursor-pointer bg-[#F2DC68]">
               Child Services
-            </button>
+            </a>
 </div>
 <div class="bg-white shadow-[0_2px_8px_rgb(0,0,0,0)]/15 rounded-3xl p-6 lg:w-[20rem] 2xl:w-[30rem] flex flex-col items-center">
 <img alt="Adult" class="w-[13rem] h-[13rem] md:w-[14rem] md:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem] md:-mt-10 -mt-10" src="/assets/Adult-pmFSd-vs.svg"/>
@@ -153,9 +153,9 @@
               Confidential, evidence-based therapy and assessments by experienced clinical psychologists — designed to
               support your personal and professional well-being.
             </p>
-<button class="mt-auto text-black text-xs 2xl:text-lg font-medium px-9 py-1 rounded-full cursor-pointer bg-[#6BCAED]">
+<a href="/adult.php" class="inline-block mt-auto text-black text-xs 2xl:text-lg font-medium px-9 py-1 rounded-full cursor-pointer bg-[#6BCAED]">
               Adult Services
-            </button>
+            </a>
 </div>
 </div>
 </div>
@@ -189,9 +189,9 @@
               We partner with embassies, international schools, hospitals, and leading corporates — serving families
               across India and abroad through both online and in-person sessions.
             </p>
-<button class="mt-6 px-8 py-2.5 rounded-full bg-[#4562AD] text-white text-sm md:text-base font-semibold cursor-pointer hover:bg-[#3a5499] transition-colors">
+<a href="/about.php" class="inline-block mt-6 px-8 py-2.5 rounded-full bg-[#4562AD] text-white text-sm md:text-base font-semibold cursor-pointer hover:bg-[#3a5499] transition-colors">
               Learn More About Us
-            </button>
+            </a>
 </div>
 <div class="md:w-[45%] w-full grid grid-cols-2 gap-4">
 <div class="bg-white rounded-2xl p-5 shadow-md border border-gray-100 flex flex-col gap-2 hover:shadow-lg transition-shadow">
@@ -360,9 +360,9 @@
 <p class="md:text-lg text-md font-semibold mt-2 md:w-full w-[60%]">
               See our amazing spaces designed just for you!
             </p>
-<button class="mt-4 px-6 py-2 rounded-full bg-[var(--blue-fig)] text-white text-md font-semibold block md:hidden">
+<a href="/contact-us.php" class="mt-4 px-6 py-2 rounded-full bg-[var(--blue-fig)] text-white text-md font-semibold block md:hidden">
               Take a Tour
-            </button>
+            </a>
 </div>
 <p class="text-[var(--blue-fig)] text-lg font-semibold md:hidden text-start p-5">
             📍 <span class="font-bold">Find Us</span><br/>
@@ -370,9 +370,9 @@
           </p>
 </div>
 <div class="hidden md:flex flex-row items-center gap-4 2xl:mb-[4rem] mb-[2rem]">
-<button class="cursor-pointer px-8 py-1.5 rounded-full bg-[#4562AD] text-white text-lg font-semibold">
+<a href="/contact-us.php" class="inline-block cursor-pointer px-8 py-1.5 rounded-full bg-[#4562AD] text-white text-lg font-semibold">
             Take a Tour
-          </button>
+          </a>
 <p class="text-[var(--blue-fig)] text-md font-semibold">
             📍 Find Us <strong>Online</strong> or <strong>Offline</strong> – Visit Our Centers for Personalized Care.
           </p>
@@ -452,9 +452,9 @@
 </div>
 </div>
 <div class="flex justify-center mt-10">
-<button class="px-9 py-2.5 rounded-full bg-[#4562AD] text-white text-sm md:text-base font-semibold cursor-pointer hover:bg-[#3a5499] transition-colors">
+<a href="/userListing.php" class="inline-block px-9 py-2.5 rounded-full bg-[#4562AD] text-white text-sm md:text-base font-semibold cursor-pointer hover:bg-[#3a5499] transition-colors">
             Find the Right Psychologist for You
-          </button>
+          </a>
 </div>
 </div>
 </section>
@@ -586,9 +586,9 @@
 </div>
 </div>
 <div class="flex justify-center mb-30">
-<button class="px-9 cursor-pointer py-2 rounded-full bg-[#4562AD] text-white text-sm md:text-md 2xl:text-lg font-semibold md:mt-0 mt-10">
+<a href="/appointment.php" class="inline-block px-9 cursor-pointer py-2 rounded-full bg-[#4562AD] text-white text-sm md:text-md 2xl:text-lg font-semibold md:mt-0 mt-10">
             Start Your Journey
-          </button>
+          </a>
 </div>
 </div>
 </div>
@@ -901,10 +901,10 @@
 </div>
 </div>
 <div class="border rounded-2xl overflow-hidden transition-all duration-300 border-gray-200 bg-white">
-<button class="w-full flex items-center justify-between px-5 py-4 md:px-6 md:py-5 text-left cursor-pointer">
+<a href="/appointment.php" class="w-full flex items-center justify-between px-5 py-4 md:px-6 md:py-5 text-left cursor-pointer">
 <span class="font-semibold text-sm md:text-base 2xl:text-lg text-gray-900 pr-4">Are online therapy
                   sessions available?</span><span class="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white text-lg font-bold transition-transform duration-300 bg-[#93CFEF]">+</span>
-</button>
+</a>
 <div class="overflow-hidden transition-all duration-300 max-h-0 opacity-0">
 <p class="px-5 pb-5 md:px-6 md:pb-6 text-sm md:text-base text-[#403D3D] leading-relaxed">
                   Absolutely. We offer both online and in-person sessions across all our services. Our online therapy is
@@ -956,8 +956,8 @@
             depression — our expert team in Delhi is here to help. Book a free initial consultation today.
           </p>
 <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
-<button class="px-8 py-3 rounded-full bg-white text-[#4562AD] text-sm md:text-base font-bold cursor-pointer hover:bg-gray-100 transition-colors shadow-lg">
-              Book a Consultation</button><a class="px-8 py-3 rounded-full border-2 border-white text-white text-sm md:text-base font-bold hover:bg-white/10 transition-colors" href="https://wa.me/919971576800" rel="noopener noreferrer" target="_blank">Chat on WhatsApp</a>
+<a href="/appointment.php" class="inline-block px-8 py-3 rounded-full bg-white text-[#4562AD] text-sm md:text-base font-bold cursor-pointer hover:bg-gray-100 transition-colors shadow-lg">
+              Book a Consultation</a><a class="px-8 py-3 rounded-full border-2 border-white text-white text-sm md:text-base font-bold hover:bg-white/10 transition-colors" href="https://wa.me/919971576800" rel="noopener noreferrer" target="_blank">Chat on WhatsApp</a>
 </div>
 </div>
 </section>
@@ -975,19 +975,19 @@
             and neurodivergence
           </p>
 <div class="w-full flex flex-col md:flex-row items-center justify-center mt-6 2xl:mt-12 px-16 pb-6">
-<a class="min-w-[280px] md:min-w-[350px] w-[90%] md:w-[30%] min-h-[300px] md:min-h-[350px] flex-shrink-0 snap-center mx-5 flex flex-col items-center text-center p-6" data-discover="true" href="/media">
+<a class="min-w-[280px] md:min-w-[350px] w-[90%] md:w-[30%] min-h-[300px] md:min-h-[350px] flex-shrink-0 snap-center mx-5 flex flex-col items-center text-center p-6" data-discover="true" href="/media.php">
 <h3 class="lg:text-2xl font-bold mb-2">In the Press</h3>
 <img alt="In the Press" class="w-full object-contain rounded-4xl shadow-lg/25" src="/assets/Press-DdP2XViH.svg"/>
 <p class="lg:text-md text-[#403D3D] font-medium mt-6 w-[90%] md:w-[60%]">
                 Featured for our innovative care model and impact-driven programs.
               </p>
-</a><a class="min-w-[280px] md:min-w-[350px] w-[90%] md:w-[30%] min-h-[300px] md:min-h-[350px] flex-shrink-0 snap-center mx-5 flex flex-col items-center text-center p-6" data-discover="true" href="/media">
+</a><a class="min-w-[280px] md:min-w-[350px] w-[90%] md:w-[30%] min-h-[300px] md:min-h-[350px] flex-shrink-0 snap-center mx-5 flex flex-col items-center text-center p-6" data-discover="true" href="/media.php">
 <h3 class="lg:text-2xl font-bold mb-2">Podcasts &amp; Panels</h3>
 <img alt="Podcasts &amp; Panels" class="w-full object-contain rounded-4xl shadow-lg/25" src="/assets/Podcast-BDb_lj6q.svg"/>
 <p class="lg:text-md text-[#403D3D] font-medium mt-6 w-[90%] md:w-[60%]">
                 Our experts speak on neurodiversity, therapy, and workplace well-being.
               </p>
-</a><a class="min-w-[280px] md:min-w-[350px] w-[90%] md:w-[30%] min-h-[300px] md:min-h-[350px] flex-shrink-0 snap-center mx-5 flex flex-col items-center text-center p-6" data-discover="true" href="/media">
+</a><a class="min-w-[280px] md:min-w-[350px] w-[90%] md:w-[30%] min-h-[300px] md:min-h-[350px] flex-shrink-0 snap-center mx-5 flex flex-col items-center text-center p-6" data-discover="true" href="/media.php">
 <h3 class="lg:text-2xl font-bold mb-2">Collaborations</h3>
 <img alt="Collaborations" class="w-full object-contain rounded-4xl shadow-lg/25" src="/assets/Collaborations-BvJpR7-l.svg"/>
 <p class="lg:text-md text-[#403D3D] font-medium mt-6 w-[90%] md:w-[60%]">

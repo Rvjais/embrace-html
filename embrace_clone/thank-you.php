@@ -30,7 +30,7 @@
           <p class="text-lg md:text-xl text-gray-700 mb-10 font-medium leading-relaxed">
             Your appointment request has been successfully submitted. Our team will review your details and get back to you shortly to confirm your booking.
           </p>
-          <a href="/index" class="inline-block bg-[var(--blue-fig)] text-white font-semibold text-lg px-10 py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-md">
+          <a href="/index.php" class="inline-block bg-[var(--blue-fig)] text-white font-semibold text-lg px-10 py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-md">
             Return to Homepage
           </a>
         </div>

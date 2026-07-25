@@ -156,11 +156,11 @@
             >Partner with eMbrace to deliver structured, end-to-end neurodevelopmental and mental health support for all
             age groups—from NICU to adult psychiatry.<br />We embed expert-led assessments, therapy, and parent/family
             support directly into hospital ecosystems—ensuring continuity, quality, and global standards of care.</span
-          ><button
-            class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
+          ><a href="/appointment.php"
+            class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
           >
             <a href="mailto:sam@embracelives.com">Schedule Demo</a>
-          </button>
+          </a>
         </div>
       </div>
       <div

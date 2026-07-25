@@ -152,11 +152,11 @@
             >Whether you're managing anxiety, building emotional resilience, or seeking support for neurodivergence,
             eMbrace offers personalised expert-led care designed to fit your lifestyle and support your goals.<br />Tailored
             support for self-awareness, mental well-being &amp; everyday functioning.</span
-          ><button
-            class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
+          ><a href="/appointment.php"
+            class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
           >
             Book a Session
-          </button>
+          </a>
         </div>
       </div>
       <div

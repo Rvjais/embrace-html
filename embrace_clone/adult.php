@@ -150,11 +150,11 @@
             ><p class="font-semibold inline text-[#234394]">Feel heard. Heal better.</p>
             Access professional support for anxiety, relationships, trauma, and more—with care that’s expert-led and
             tailored to you.</span
-          ><button
-            class="px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
+          ><a href="/appointment.php"
+            class="inline-block px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
           >
             Book a Session
-          </button>
+          </a>
         </div>
       </div>
       <div
@@ -297,11 +297,11 @@
                   Therapy for anxiety, depression, trauma, ADHD, and personal growth.
                 </p>
               </div>
-              <button
-                class="md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
+              <a href="/appointment.php"
+                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
               >
                 Book a Session
-              </button>
+              </a>
             </div>
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[25%] h-auto"
@@ -315,11 +315,11 @@
                   Relationship therapy for communication issues, trust repair &amp; emotional bonding.
                 </p>
               </div>
-              <button
-                class="md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
+              <a href="/appointment.php"
+                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
               >
                 Request Consult
-              </button>
+              </a>
             </div>
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[25%] h-auto"
@@ -333,11 +333,11 @@
                   Mental health programs, student counseling &amp; faculty training for academic environments.
                 </p>
               </div>
-              <button
-                class="md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
+              <a href="/appointment.php"
+                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
               >
                 Book Demo
-              </button>
+              </a>
             </div>
           </div>
           <div class="flex flex-wrap justify-center gap-6 md:gap-10 w-full mt-8 md:mt-2">
@@ -353,11 +353,11 @@
                   Workplace well-being, leadership coaching &amp; inclusive mental health programs.
                 </p>
               </div>
-              <button
-                class="md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
+              <a href="/appointment.php"
+                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
               >
                 Book Demo
-              </button>
+              </a>
             </div>
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[25%] h-auto"
@@ -371,11 +371,11 @@
                   Integrated therapy, psychiatric support &amp; neurodivergent assessments in clinical settings.
                 </p>
               </div>
-              <button
-                class="md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
+              <a href="/appointment.php"
+                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
               >
                 Book Demo
-              </button>
+              </a>
             </div>
           </div>
         </div>

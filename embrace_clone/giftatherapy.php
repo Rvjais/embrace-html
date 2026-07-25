@@ -226,11 +226,11 @@
               <p class="text-[#403D3D] text-sm font-medium italic 2xl:text-base">
                 Empower yourself &amp; others with mental well-being
               </p>
-              <button
+              <a href="/appointment.php"
                 class="cursor-pointer 2xl:text-2xl bg-[#234394] flex justify-center items-center text-white rounded-full h-10 w-fit md:px-8 px-10 py-6 font-semibold p-4"
               >
                 <p>Start Gifting</p>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -277,11 +277,11 @@
         <p class="w-full md:w-fit md:not-italic italic 2xl:text-lg">
           A small act of kindness can make a world of difference.
         </p>
-        <button
-          class="bg-[#234394] 2xl:text-2xl text-white rounded-full w-fit px-20 md:px-8 py-4 md:py-2 font-semibold cursor-pointer"
+        <a href="/appointment.php"
+          class="inline-block bg-[#234394] 2xl:text-2xl text-white rounded-full w-fit px-20 md:px-8 py-4 md:py-2 font-semibold cursor-pointer"
         >
           Gift Now
-        </button>
+        </a>
         <div
           class="h-14 w-14 absolute bg-[#c2cfef] rounded-full -right-[6%] -bottom-[2%] md:left-[10%] md:-bottom-[7%]"
         ></div>

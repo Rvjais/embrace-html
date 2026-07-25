@@ -157,12 +157,12 @@
           <!-- Action Buttons -->
           <div class="flex flex-col sm:flex-row gap-4 mt-10">
             <a
-              href="/index"
+              href="/index.php"
               class="px-8 py-2 rounded-full bg-[var(--blue-fig)] text-white font-medium cursor-pointer text-center"
               >Back to Home</a
             >
             <a
-              href="/contact-us"
+              href="/contact-us.php"
               class="px-8 py-2 rounded-full border-2 border-[var(--blue-fig)] text-[var(--blue-fig)] font-medium cursor-pointer text-center"
               >Contact Us</a
             >
