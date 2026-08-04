@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en-IN">
+<html lang="en-IN" class="overflow-x-hidden">
 <head>
 <meta charset="utf-8"/>
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
@@ -97,7 +97,7 @@
   </style>
 </head>
 <body class="overflow-x-hidden">
-<div id="root">
+<div id="root" class="overflow-x-hidden">
 <?php include __DIR__ . '/components/header.php'; ?>
 <style>
       @keyframes slideGradient {
