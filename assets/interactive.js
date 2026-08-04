@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('click', (e) => {
     const menuBtn = e.target.closest('button[aria-label="Open menu"]');
     if (menuBtn) {
-      const menu = document.querySelector('.md\\:hidden.hidden.absolute.top-full');
+      const menu = document.querySelector('.md\\:hidden.absolute.top-full.glass-dropdown');
       if (menu) {
         menu.classList.toggle('hidden');
       }
