@@ -1,4 +1,0 @@
-[build]
-  publish = "embrace_clone"
-  # Only redirect if the file doesn't exist natively.
-  # Note: Netlify handles clean URLs automatically for HTML files.
