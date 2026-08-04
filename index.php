@@ -96,7 +96,7 @@
     }
   </style>
 </head>
-<body>
+<body class="overflow-x-hidden">
 <div id="root">
 <?php include __DIR__ . '/components/header.php'; ?>
 <style>
