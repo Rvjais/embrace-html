@@ -1,13 +1,9 @@
 {
-  "builds": [
-    {
-      "src": "api/index.php",
-      "use": "vercel-php@0.9.0",
-      "config": {
-        "includeFiles": ["**/*.php"]
-      }
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.6.1"
     }
-  ],
+  },
   "routes": [
     { "src": "/(.*\\.php)$", "dest": "/api/index.php" },
     { "handle": "filesystem" },
