@@ -92,9 +92,9 @@
         <div
           class="w-[4rem] h-[4rem] md:w-[4rem] md:h-[4rem] bg-[#9DEECD] rounded-full absolute -right-6 top-72 md:hidden"
         ></div>
-        <div class="flex flex-row gap-12 py-8 xl:py-15 2xl:py-40">
-          <div class="w-[40%] hidden md:block">
-            <img alt="Parents Playing with kids" class="" src="/assets/ParentsPlaying-Dk_2SuQj.svg" />
+        <div class="flex flex-row items-center gap-12 py-8 xl:py-15 2xl:py-40">
+          <div class="w-[40%] hidden md:block rounded-2xl overflow-hidden shadow-lg aspect-[4/3]">
+            <img alt="Dr. Supriya Malik - eMbrace Founder" class="w-full h-full object-cover rounded-2xl" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2026-03-27-14-55-34.jpg" />
           </div>
           <div class="md:w-[60%]">
             <h1
@@ -105,8 +105,10 @@
             <h1 class="mt-2 italic font-medium text-md md:text-start text-center md:text-xl 2xl:text-3xl">
               Empowering Diverse Minds | Building a Neuro-Inclusive Future
             </h1>
-            <div class="md:hidden flex justify-center">
-              <img alt="Parents Playing with kids" class="w-[70%] mt-10" src="/assets/ParentsPlaying-Dk_2SuQj.svg" />
+            <div class="md:hidden flex justify-center mt-8">
+              <div class="rounded-2xl overflow-hidden shadow-lg w-[80%] aspect-[4/3]">
+                <img alt="Dr. Supriya Malik - eMbrace" class="w-full h-full object-cover" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2026-03-27-14-55-34.jpg" />
+              </div>
             </div>
             <p class="mt-8 text-base md:w-full w-[90%] font-light text-center md:text-start mx-auto 2xl:text-lg">
               <span
@@ -217,7 +219,7 @@
               <img
                 alt="Dr. Supriya Malik"
                 class="w-30 h-30 md:w-55 md:h-55 z-9 2xl:w-50 2xl:h-50 rounded-full object-cover"
-                src="/assets/Dr.Supriya-B7nTAuN9.svg"
+                src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-03-21-12-02-00%207.jpg"
               />
               <div
                 class="items-center justify-center flex absolute h-full inset-0 bg-black/70 opacity-0 hover:opacity-100 transition duration-300 rounded-full z-10"

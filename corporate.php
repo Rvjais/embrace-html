@@ -337,6 +337,42 @@
           Empower every employee with discreet, evidence-based care.
         </p>
       </div>
+      <!-- Real Workshop Photos Section -->
+      <div class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 py-14 flex flex-col items-center bg-gradient-to-b from-[#F0F9FF] to-[#FFFFFF]">
+        <h1 class="md:text-3xl text-xl font-bold text-center">Our Work in Action</h1>
+        <p class="md:text-lg text-base text-[var(--text-gray)] italic font-medium mt-2 text-center">
+          Real sessions. Real impact. Trusted by leading organisations.
+        </p>
+        <div class="mt-10 grid grid-cols-2 md:grid-cols-3 gap-4 w-full">
+          <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
+            <img alt="HSBC Corporate Workshop - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/HSBC%20Workshop.jpeg" />
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
+            <img alt="HSBC Workshop Photo - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/HSBC%20Workshop%20photo%201%20HSBC.jpeg" />
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
+            <img alt="Instamojo Workshop - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/INSTAMOJO%20Workshop%20.jpeg" />
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
+            <img alt="Lady Shri Ram College Workshop - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/Workshop%20photo%20Lady%20Shri%20Ram%20College.jpeg" />
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
+            <img alt="Artemis Hospital Workshop - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/Artemis%20Workshop.jpeg" />
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-md aspect-video bg-gradient-to-br from-[#234394] to-[#5B8CFF] flex flex-col items-center justify-center px-4 text-center">
+            <p class="text-white font-bold text-lg md:text-xl">50+</p>
+            <p class="text-white/80 text-sm mt-1">Corporate & institutional workshops delivered</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap justify-center gap-4 mt-8">
+          <span class="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium shadow-sm">🏦 HSBC</span>
+          <span class="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium shadow-sm">💳 Instamojo</span>
+          <span class="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium shadow-sm">🎓 Lady Shri Ram College</span>
+          <span class="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium shadow-sm">🏥 Artemis Hospital</span>
+          <span class="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium shadow-sm">🏢 Amazon</span>
+          <span class="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium shadow-sm">🌍 The Union (USAID)</span>
+        </div>
+      </div>
       <div
         class="md:min-h-screen overflow-hidden flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-30 2xl:px-[25rem] relative"
       >

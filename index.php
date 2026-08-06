@@ -592,6 +592,38 @@
 </div>
 </div>
 </div>
+
+<!-- Gallery Highlights Section -->
+<div class="relative overflow-hidden flex items-center justify-center flex-col bg-gradient-to-b from-[#FEF9FC] to-[#FBF7F9] w-full py-16 md:py-24">
+  <div class="absolute hidden md:block h-20 w-20 rounded-full bg-[#F5A962]/30 right-[5%] top-[10%]"></div>
+  <div class="absolute hidden md:block h-16 w-16 rounded-full bg-[#7AE6B9]/40 left-[10%] bottom-[15%]"></div>
+  <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-30 text-center">
+    <h2 class="text-2xl md:text-3xl 2xl:text-4xl font-bold">Moments & Memories</h2>
+    <p class="text-md md:text-xl 2xl:text-2xl italic mt-3 lg:w-[70%] text-[var(--blue-fig)] font-semibold mx-auto mb-10 md:mb-16">
+      Glimpses from our clinics and community events
+    </p>
+    
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 w-full max-w-6xl mx-auto z-10 relative">
+      <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 group">
+        <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/IMG-20250324-WA0088.jpg" alt="eMbrace Moments" class="w-full h-48 md:h-64 object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 group">
+        <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-03-11-20-14-38.jpg" alt="eMbrace Moments" class="w-full h-48 md:h-64 object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 group">
+        <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-04-03-12-06-08.jpg" alt="eMbrace Moments" class="w-full h-48 md:h-64 object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 group">
+        <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-05-20-16-48-47.jpg" alt="eMbrace Moments" class="w-full h-48 md:h-64 object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+      </div>
+    </div>
+    
+    <a href="/gallery.php" class="inline-block mt-12 px-9 py-2.5 rounded-full bg-[#4562AD] text-white text-sm md:text-base font-semibold cursor-pointer hover:bg-[#3a5499] transition-colors shadow-md">
+      View Full Gallery
+    </a>
+  </div>
+</div>
+
 <!-- Video Testimonials Section -->
 <div class="relative overflow-hidden flex items-center justify-center flex-col bg-gradient-to-b from-[#FBF7F9] to-[#F1E6FF] w-full py-16 md:py-24">
 <!-- Background blobs matching the theme -->

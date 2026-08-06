@@ -167,6 +167,12 @@
           <a
             class="nav-link px-3 py-2 rounded-lg hover:text-[#234394] transition-all duration-200 cursor-pointer"
             data-discover="true"
+            href="/gallery.php"
+            >Gallery</a
+          >
+          <a
+            class="nav-link px-3 py-2 rounded-lg hover:text-[#234394] transition-all duration-200 cursor-pointer"
+            data-discover="true"
             href="/media.php"
             >Media &amp; News</a
           >
@@ -244,7 +250,8 @@
               </div>
             </details>
           </div>
-          <a class="hover:text-[#234394] cursor-pointer py-1" data-discover="true" href="/media.php">Media &amp; News</a
+          <a class="hover:text-[#234394] cursor-pointer py-1" data-discover="true" href="/gallery.php">Gallery</a
+          ><a class="hover:text-[#234394] cursor-pointer py-1" data-discover="true" href="/media.php">Media &amp; News</a
           ><a href="/appointment.php" class="glass-btn px-5 py-2.5 rounded-full mt-2 w-full text-center font-medium block">Book a Consultation</a>
         </div>
       </nav>

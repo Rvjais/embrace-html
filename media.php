@@ -1019,6 +1019,49 @@
             ><span class="h-2.5 w-2.5 rounded-full cursor-pointer transition-all duration-300 bg-[#767676]"></span>
           </div>
         </div>
+        <!-- Real Event Photo Gallery -->
+        <div class="mt-8 pb-4">
+          <h5 class="text-md lg:text-lg font-bold mb-2 text-center py-4">eMbrace in Action</h5>
+          <p class="text-center text-sm text-[#403D3D] italic mb-6">Behind the scenes — real workshops, real moments, real impact.</p>
+          <div class="columns-2 md:columns-3 lg:columns-4 gap-4 px-4">
+            <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
+              <img alt="eMbrace Workshop - Dr. Supriya" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2026-03-27-14-56-26.jpg" />
+            </div>
+            <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
+              <img alt="eMbrace Event - Dr. Supriya" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2026-03-27-14-55-34.jpg" />
+            </div>
+            <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
+              <img alt="Bangalore - The Rising Event" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Bangalore%20The%20Rising/IMG_1537.jpg" />
+            </div>
+            <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
+              <img alt="eMbrace Workshop Session" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-06-03-14-40-06.jpg" />
+            </div>
+            <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
+              <img alt="Bangalore - The Rising Event" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Bangalore%20The%20Rising/IMG_1534.jpg" />
+            </div>
+            <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
+              <img alt="eMbrace Team Workshop" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-09-11-23-16-05.jpg" />
+            </div>
+            <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
+              <img alt="Bangalore - The Rising Event" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Bangalore%20The%20Rising/IMG_1527.jpg" />
+            </div>
+            <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
+              <img alt="eMbrace Event Photo" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2026-02-18-09-44-21.jpg" />
+            </div>
+            <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
+              <img alt="eMbrace Workshop" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-10-06-20-23-03.jpg" />
+            </div>
+            <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
+              <img alt="Bangalore - The Rising Event" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Bangalore%20The%20Rising/IMG_1530.jpg" />
+            </div>
+            <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
+              <img alt="eMbrace Panel Discussion" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-03-21-12-02-00.jpg" />
+            </div>
+            <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
+              <img alt="eMbrace Workshop Photo" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-04-03-12-06-22.jpg" />
+            </div>
+          </div>
+        </div>
         <p class="text-xs text-center font-semibold text-[#403D3D] px-6 pb-5 lg:py-10 lg:text-sm italic">
           For any media collaborations or partnerships, please write to us at
           <a class="font-semibold text-[#234394] italic underline" href="mailto:enquiries@embracelives.com"

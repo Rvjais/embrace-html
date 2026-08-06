@@ -213,6 +213,19 @@
           <span class="italic font-bold text-[var(--blue-fig)]">24 Hours</span>
         </h2>
       </div>
+      <style>
+        .centre-slider { position: relative; width: 100%; overflow: hidden; border-radius: 1rem; aspect-ratio: 4/3; }
+        .centre-slider .slides { display: flex; transition: transform 0.6s ease; height: 100%; }
+        .centre-slider .slide { min-width: 100%; height: 100%; }
+        .centre-slider .slide img { width: 100%; height: 100%; object-fit: cover; }
+        .centre-slider .slider-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.85); border: none; border-radius: 50%; width: 2rem; height: 2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: background 0.2s; }
+        .centre-slider .slider-btn:hover { background: white; }
+        .centre-slider .prev { left: 0.5rem; }
+        .centre-slider .next { right: 0.5rem; }
+        .centre-slider .dots { position: absolute; bottom: 0.5rem; left: 50%; transform: translateX(-50%); display: flex; gap: 0.35rem; }
+        .centre-slider .dot { width: 0.45rem; height: 0.45rem; border-radius: 50%; background: rgba(255,255,255,0.6); cursor: pointer; transition: background 0.3s; }
+        .centre-slider .dot.active { background: white; }
+      </style>
       <div
         class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 bg-gradient-to-b from-[#E7F7FF] to-[#FFFFFF] mb-6 md:mb-0 relative overflow-hidden h-fit md:min-h-screen py-10 flex flex-col items-center"
       >
@@ -221,91 +234,124 @@
           We offer both <span class="text-[var(--blue-fig)]">online and offline</span> sessions. If you’d like to visit,
           here’s where you can find us
         </h2>
-        <div class="flex md:flex-row flex-col gap-6 mt-10 w-full">
-          <div class="md:w-[60%] flex flex-col space-y-4">
-            <div class="w-full flex flex-row gap-4">
-              <div class="w-[50%] hidden md:flex items-end justify-end">
-                <img alt="" class="w-[80%]" src="/assets/DelhiCenter-BxE2XKxU.svg" />
+        <!-- 3 Locations Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-10 w-full xl:px-8">
+          
+          <!-- VK -->
+          <div class="flex flex-col items-center md:items-start space-y-3">
+            <div class="centre-slider w-full h-[16rem] md:h-[18rem] rounded-2xl overflow-hidden shadow-sm" id="slider-vk">
+              <div class="slides">
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/679aab4d-ae8d-41fe-8e58-d7edd6bb0438.jpg" /></div>
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/21a4eec5-5263-4992-a120-9a460e5a6bd0.jpg" /></div>
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/6389e31c-ce1b-4576-a5e6-dd86f3b69e8b.jpg" /></div>
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/a02d7ea3-a77a-4ab8-b6dd-64452589d589.jpg" /></div>
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/c795ee9c-4024-4cb3-88d5-65adb9fb57ef.jpg" /></div>
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2896.jpg" /></div>
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2897.jpg" /></div>
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2898.jpg" /></div>
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/9ae5e881-b7f3-43b5-b0a6-6d535f575500.jpg" /></div>
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2899.jpg" /></div>
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2900.jpg" /></div>
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2901.jpg" /></div>
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/a192d3e0-b514-4510-a48e-1c564cc45a9d.jpg" /></div>
+                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/ce57b366-cb31-4b7e-ac99-1561304a0df4.jpg" /></div>
               </div>
-              <div class="md:w-[50%] flex flex-col space-y-2 items-center md:items-start justify-center">
-                <img alt="" class="w-[80%] md:hidden block" src="/assets/DelhiCenter-BxE2XKxU.svg" />
-                <h2 class="font-bold text-xl mt-2">Vasant Kunj Center</h2>
-                <h2 class="text-sm font-medium w-[70%] text-[var(--text-gray)]">
-                  C-7, Sector C, Pocket 5, Basement, Grand Vasant Kunj, New Delhi - 110070
-                </h2>
-                <a href="https://maps.google.com/?q=eMbrace+Lives+Delhi" target="_blank" rel="noopener noreferrer"
-                  class="text-sm underline text-[var(--blue-fig)] font-medium flex items-center gap-2 focus:outline-none hover:cursor-pointer mb-2"
-                >
-                  Get Directions<img
-                    alt="Get Direction"
-                    class="inline w-4 h-4"
-                    src="data:image/svg+xml,%3csvg%20width='41'%20height='42'%20viewBox='0%200%2041%2042'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M40.3246%2019.5215L21.9496%200.771484C21.1533%20-0.0410156%2019.8671%20-0.0410156%2019.0708%200.771484L0.69582%2019.5215C-0.10043%2020.334%20-0.10043%2021.6465%200.69582%2022.459L19.0708%2041.209C19.8671%2042.0215%2021.1533%2042.0215%2021.9496%2041.209L40.3246%2022.459C41.1208%2021.6673%2041.1208%2020.3548%2040.3246%2019.5215ZM24.5833%2026.209V21.0006H16.4167V25.1673C16.4167%2026.3131%2015.4979%2027.2506%2014.375%2027.2506C13.2521%2027.2506%2012.3333%2026.3131%2012.3333%2025.1673V18.9173C12.3333%2017.7715%2013.2521%2016.834%2014.375%2016.834H24.5833V11.6257L31.0146%2018.1881C31.4229%2018.6048%2031.4229%2019.2506%2031.0146%2019.6673L24.5833%2026.209Z'%20fill='%23234394'/%3e%3c/svg%3e"
-                  />
-                </a>
-              </div>
+              <button class="slider-btn prev" onclick="slideMove('slider-vk',-1)" aria-label="Previous">&#8592;</button>
+              <button class="slider-btn next" onclick="slideMove('slider-vk',1)" aria-label="Next">&#8594;</button>
+              <div class="dots" id="dots-slider-vk"></div>
             </div>
-            <div class="w-full flex flex-row gap-4">
-              <div class="w-[50%] hidden md:flex items-end justify-end">
-                <img alt="" class="w-[80%]" src="/assets/GurgraonCenter-BdTgGgXu.svg" />
+            <h2 class="font-bold text-xl mt-2 text-center md:text-left">Vasant Kunj Center</h2>
+            <h2 class="text-sm font-medium text-center md:text-left text-[var(--text-gray)] h-auto lg:h-[3rem]">
+              C-7, Sector C, Pocket 5, Basement, Grand Vasant Kunj, New Delhi - 110070
+            </h2>
+            <a href="https://maps.google.com/?q=eMbrace+Lives+Delhi" target="_blank" rel="noopener noreferrer"
+              class="text-sm underline text-[var(--blue-fig)] font-medium flex items-center justify-center md:justify-start gap-2 focus:outline-none hover:cursor-pointer mt-1"
+            >
+              Get Directions<img alt="Get Direction" class="inline w-4 h-4" src="data:image/svg+xml,%3csvg%20width='41'%20height='42'%20viewBox='0%200%41%2042'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M40.3246%2019.5215L21.9496%200.771484C21.1533%20-0.0410156%2019.8671%20-0.0410156%2019.0708%200.771484L0.69582%2019.5215C-0.10043%2020.334%20-0.10043%2021.6465%200.69582%2022.459L19.0708%2041.209C19.8671%2042.0215%2021.1533%2042.0215%2021.9496%2041.209L40.3246%2022.459C41.1208%2021.6673%2041.1208%2020.3548%2040.3246%2019.5215ZM24.5833%2026.209V21.0006H16.4167V25.1673C16.4167%2026.3131%2015.4979%2027.2506%2014.375%2027.2506C13.2521%2027.2506%2012.3333%2026.3131%2012.3333%2025.1673V18.9173C12.3333%2017.7715%2013.2521%2016.834%2014.375%2016.834H24.5833V11.6257L31.0146%2018.1881C31.4229%2018.6048%2031.4229%2019.2506%2031.0146%2019.6673L24.5833%2026.209Z'%20fill='%23234394'/%3e%3c/svg%3e" />
+            </a>
+          </div>
+
+          <!-- GGN -->
+          <div class="flex flex-col items-center md:items-start space-y-3">
+            <div class="centre-slider w-full h-[16rem] md:h-[18rem] rounded-2xl overflow-hidden shadow-sm" id="slider-ggn">
+              <div class="slides">
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn1.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn4.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn7.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn9.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn11.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn13.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn14.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn8.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn10.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn12.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn15.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn16.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn2.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn3.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn5.jpg" /></div>
+                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn6.jpg" /></div>
               </div>
-              <div class="md:w-[50%] flex flex-col space-y-2 items-center md:items-start justify-center">
-                <img alt="" class="w-[80%] md:hidden block" src="/assets/GurgraonCenter-BdTgGgXu.svg" />
-                <h2 class="font-bold text-xl mt-2">Gurgaon Center</h2>
-                <h2 class="text-sm font-medium w-[70%] text-[var(--text-gray)]">
-                  710, Dlf City Court, Mehrauli-Gurgaon Rd, Nathupur, Sector 24, Gurugram, Haryana 122002
-                </h2>
-                <a href="https://maps.google.com/?q=eMbrace+Lives+Delhi" target="_blank" rel="noopener noreferrer"
-                  class="text-sm underline text-[var(--blue-fig)] font-medium flex items-center gap-2 focus:outline-none hover:cursor-pointer mb-2"
-                >
-                  Get Directions<img
-                    alt="Get Direction"
-                    class="inline w-4 h-4"
-                    src="data:image/svg+xml,%3csvg%20width='41'%20height='42'%20viewBox='0%200%2041%2042'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M40.3246%2019.5215L21.9496%200.771484C21.1533%20-0.0410156%2019.8671%20-0.0410156%2019.0708%200.771484L0.69582%2019.5215C-0.10043%2020.334%20-0.10043%2021.6465%200.69582%2022.459L19.0708%2041.209C19.8671%2042.0215%2021.1533%2042.0215%2021.9496%2041.209L40.3246%2022.459C41.1208%2021.6673%2041.1208%2020.3548%2040.3246%2019.5215ZM24.5833%2026.209V21.0006H16.4167V25.1673C16.4167%2026.3131%2015.4979%2027.2506%2014.375%2027.2506C13.2521%2027.2506%2012.3333%2026.3131%2012.3333%2025.1673V18.9173C12.3333%2017.7715%2013.2521%2016.834%2014.375%2016.834H24.5833V11.6257L31.0146%2018.1881C31.4229%2018.6048%2031.4229%2019.2506%2031.0146%2019.6673L24.5833%2026.209Z'%20fill='%23234394'/%3e%3c/svg%3e"
-                  />
-                </a>
-              </div>
+              <button class="slider-btn prev" onclick="slideMove('slider-ggn',-1)" aria-label="Previous">&#8592;</button>
+              <button class="slider-btn next" onclick="slideMove('slider-ggn',1)" aria-label="Next">&#8594;</button>
+              <div class="dots" id="dots-slider-ggn"></div>
             </div>
-            <div class="w-full flex flex-row gap-4">
-              <div class="w-[50%] hidden md:flex items-end justify-end">
-                <img alt="" class="w-[80%]" src="/assets/RainbowCenter-Ba7F1LHk.svg" />
-              </div>
-              <div class="md:w-[50%] flex flex-col space-y-2 items-center md:items-start justify-center">
-                <img alt="" class="w-[80%] md:hidden block" src="/assets/RainbowCenter-Ba7F1LHk.svg" />
-                <h2 class="font-bold text-xl mt-2">Rainbow Center</h2>
-                <h2 class="text-sm font-medium w-[70%] text-[var(--text-gray)]">
-                  FC-29, Plot No.5, Geetanjali, Near Malviya Nagar Metro Station Gate No.1, Delhi
-                </h2>
-                <a href="https://maps.google.com/?q=eMbrace+Lives+Delhi" target="_blank" rel="noopener noreferrer"
-                  class="text-sm underline text-[var(--blue-fig)] font-medium flex items-center gap-2 focus:outline-none hover:cursor-pointer mb-2"
-                >
-                  Get Directions<img
-                    alt="Get Direction"
-                    class="inline w-4 h-4"
-                    src="data:image/svg+xml,%3csvg%20width='41'%20height='42'%20viewBox='0%200%2041%2042'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M40.3246%2019.5215L21.9496%200.771484C21.1533%20-0.0410156%2019.8671%20-0.0410156%2019.0708%200.771484L0.69582%2019.5215C-0.10043%2020.334%20-0.10043%2021.6465%200.69582%2022.459L19.0708%2041.209C19.8671%2042.0215%2021.1533%2042.0215%2021.9496%2041.209L40.3246%2022.459C41.1208%2021.6673%2041.1208%2020.3548%2040.3246%2019.5215ZM24.5833%2026.209V21.0006H16.4167V25.1673C16.4167%2026.3131%2015.4979%2027.2506%2014.375%2027.2506C13.2521%2027.2506%2012.3333%2026.3131%2012.3333%2025.1673V18.9173C12.3333%2017.7715%2013.2521%2016.834%2014.375%2016.834H24.5833V11.6257L31.0146%2018.1881C31.4229%2018.6048%2031.4229%2019.2506%2031.0146%2019.6673L24.5833%2026.209Z'%20fill='%23234394'/%3e%3c/svg%3e"
-                  />
-                </a>
-                <div class="text-sm font-medium text-[var(--text-gray)] mt-1">
-                  <span class="font-medium"
-                    ><span class="text-[var(--blue-fig)] font-medium underline">Contact:</span> +91 99109 77626</span
-                  >
-                </div>
-              </div>
+            <h2 class="font-bold text-xl mt-2 text-center md:text-left">Gurgaon Center</h2>
+            <h2 class="text-sm font-medium text-center md:text-left text-[var(--text-gray)] h-auto lg:h-[3rem]">
+              710, Dlf City Court, Mehrauli-Gurgaon Rd, Nathupur, Sector 24, Gurugram, Haryana 122002
+            </h2>
+            <a href="https://maps.google.com/?q=eMbrace+Lives+Delhi" target="_blank" rel="noopener noreferrer"
+              class="text-sm underline text-[var(--blue-fig)] font-medium flex items-center justify-center md:justify-start gap-2 focus:outline-none hover:cursor-pointer mt-1"
+            >
+              Get Directions<img alt="Get Direction" class="inline w-4 h-4" src="data:image/svg+xml,%3csvg%20width='41'%20height='42'%20viewBox='0%200%41%2042'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M40.3246%2019.5215L21.9496%200.771484C21.1533%20-0.0410156%2019.8671%20-0.0410156%2019.0708%200.771484L0.69582%2019.5215C-0.10043%2020.334%20-0.10043%2021.6465%200.69582%2022.459L19.0708%2041.209C19.8671%2042.0215%2021.1533%2042.0215%2021.9496%2041.209L40.3246%2022.459C41.1208%2021.6673%2041.1208%2020.3548%2040.3246%2019.5215ZM24.5833%2026.209V21.0006H16.4167V25.1673C16.4167%2026.3131%2015.4979%2027.2506%2014.375%2027.2506C13.2521%2027.2506%2012.3333%2026.3131%2012.3333%2025.1673V18.9173C12.3333%2017.7715%2013.2521%2016.834%2014.375%2016.834H24.5833V11.6257L31.0146%2018.1881C31.4229%2018.6048%2031.4229%2019.2506%2031.0146%2019.6673L24.5833%2026.209Z'%20fill='%23234394'/%3e%3c/svg%3e" />
+            </a>
+            <div class="text-sm font-medium text-center md:text-left text-[var(--text-gray)] w-full mt-1">
+              <span class="font-medium"><span class="text-[var(--blue-fig)] font-medium underline">Contact:</span> +91 99109 77626</span>
             </div>
           </div>
-          <div class="md:w-[40%]">
-            <div
-              class="md:w-[80%] md:h-full h-[40rem] rounded-tr-4xl rounded-bl-4xl shadow-[0_8px_12px_rgb(0,0,0,0)]/60 overflow-hidden flex items-center justify-center bg-white"
-            >
-              <iframe
-                height="100%"
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4312.839236813662!2d77.14356617549737!3d28.53858947571611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDMyJzE4LjkiTiA3N8KwMDgnNDYuMSJF!5e0!3m2!1sen!2sin!4v1748606883661!5m2!1sen!2sin"
-                style="border: 0px"
-                title="Google Map"
-                width="100%"
-              ></iframe>
+
+          <!-- Rainbow -->
+          <div class="flex flex-col items-center md:items-start space-y-3">
+            <div class="centre-slider w-full h-[16rem] md:h-[18rem] rounded-2xl overflow-hidden shadow-sm" id="slider-rainbow">
+              <div class="slides">
+                <div class="slide"><img alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5371.jpg" /></div>
+                <div class="slide"><img alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5372.jpg" /></div>
+                <div class="slide"><img alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5373.jpg" /></div>
+                <div class="slide"><img alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5374.jpg" /></div>
+                <div class="slide"><img alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5375.jpg" /></div>
+                <div class="slide"><img alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5376.jpg" /></div>
+              </div>
+              <button class="slider-btn prev" onclick="slideMove('slider-rainbow',-1)" aria-label="Previous">&#8592;</button>
+              <button class="slider-btn next" onclick="slideMove('slider-rainbow',1)" aria-label="Next">&#8594;</button>
+              <div class="dots" id="dots-slider-rainbow"></div>
             </div>
+            <h2 class="font-bold text-xl mt-2 text-center md:text-left">Rainbow Center</h2>
+            <h2 class="text-sm font-medium text-center md:text-left text-[var(--text-gray)] h-auto lg:h-[3rem]">
+              FC-29, Plot No.5, Geetanjali, Near Malviya Nagar Metro Station Gate No.1, Delhi
+            </h2>
+            <a href="https://maps.google.com/?q=eMbrace+Lives+Delhi" target="_blank" rel="noopener noreferrer"
+              class="text-sm underline text-[var(--blue-fig)] font-medium flex items-center justify-center md:justify-start gap-2 focus:outline-none hover:cursor-pointer mt-1"
+            >
+              Get Directions<img alt="Get Direction" class="inline w-4 h-4" src="data:image/svg+xml,%3csvg%20width='41'%20height='42'%20viewBox='0%200%41%2042'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M40.3246%2019.5215L21.9496%200.771484C21.1533%20-0.0410156%2019.8671%20-0.0410156%2019.0708%200.771484L0.69582%2019.5215C-0.10043%2020.334%20-0.10043%2021.6465%200.69582%2022.459L19.0708%2041.209C19.8671%2042.0215%2021.1533%2042.0215%2021.9496%2041.209L40.3246%2022.459C41.1208%2021.6673%2041.1208%2020.3548%2040.3246%2019.5215ZM24.5833%2026.209V21.0006H16.4167V25.1673C16.4167%2026.3131%2015.4979%2027.2506%2014.375%2027.2506C13.2521%2027.2506%2012.3333%2026.3131%2012.3333%2025.1673V18.9173C12.3333%2017.7715%2013.2521%2016.834%2014.375%2016.834H24.5833V11.6257L31.0146%2018.1881C31.4229%2018.6048%2031.4229%2019.2506%2031.0146%2019.6673L24.5833%2026.209Z'%20fill='%23234394'/%3e%3c/svg%3e" />
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Full Width Map -->
+        <div class="w-full mt-10 md:mt-16 xl:px-8 px-4">
+          <div class="w-full h-[25rem] md:h-[30rem] rounded-3xl shadow-[0_8px_16px_rgb(0,0,0,0.1)] overflow-hidden bg-white border border-gray-100 relative">
+            <iframe
+              height="100%"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4312.839236813662!2d77.14356617549737!3d28.53858947571611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDMyJzE4LjkiTiA3N8KwMDgnNDYuMSJF!5e0!3m2!1sen!2sin!4v1748606883661!5m2!1sen!2sin"
+              style="border: 0px; width: 100%; height: 100%;"
+              title="Google Map"
+              width="100%"
+            ></iframe>
+            <!-- Optional subtle overlay to prevent scrolling interference on mobile -->
+            <div class="absolute inset-0 pointer-events-none rounded-3xl" style="box-shadow: inset 0 0 20px rgba(0,0,0,0.05);"></div>
           </div>
         </div>
         <h2 class="font-semibold mx-auto md:mt-15 mt-10">Advance Booking Required for</h2>
@@ -789,5 +835,43 @@
     </div>
     
     <script src="/assets/interactive.js"></script>
+    <script>
+      (function() {
+        var sliderState = {};
+        function initSlider(id) {
+          var el = document.getElementById(id);
+          if (!el) return;
+          var slides = el.querySelectorAll('.slide');
+          var dotsContainer = document.getElementById('dots-' + id);
+          sliderState[id] = { index: 0, total: slides.length, timer: null };
+          // build dots
+          slides.forEach(function(_, i) {
+            var d = document.createElement('span');
+            d.className = 'dot' + (i === 0 ? ' active' : '');
+            d.onclick = function() { goTo(id, i); };
+            dotsContainer.appendChild(d);
+          });
+          autoPlay(id);
+        }
+        function goTo(id, idx) {
+          var el = document.getElementById(id);
+          if (!el) return;
+          var s = sliderState[id];
+          s.index = (idx + s.total) % s.total;
+          el.querySelector('.slides').style.transform = 'translateX(-' + (s.index * 100) + '%)';
+          el.querySelectorAll('.dot').forEach(function(d, i) { d.classList.toggle('active', i === s.index); });
+        }
+        function autoPlay(id) {
+          var s = sliderState[id];
+          if (s.timer) clearInterval(s.timer);
+          s.timer = setInterval(function() { goTo(id, s.index + 1); }, 4000);
+        }
+        window.slideMove = function(id, dir) {
+          goTo(id, sliderState[id].index + dir);
+          autoPlay(id);
+        };
+        ['slider-vk','slider-ggn','slider-rainbow'].forEach(initSlider);
+      })();
+    </script>
   </body>
 </html>
