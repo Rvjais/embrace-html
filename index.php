@@ -1311,6 +1311,90 @@
 </div>
 </div>
 </section>
+<!-- Our Approach Section -->
+<section class="relative overflow-hidden bg-white px-4 md:px-8 lg:px-16 xl:px-30 py-16 md:py-24">
+  <div class="container mx-auto max-w-6xl">
+    <div class="text-center mb-12 md:mb-16">
+      <h2 class="text-2xl md:text-3xl 2xl:text-4xl font-bold">Our Approach to Care</h2>
+      <p class="text-md md:text-lg text-gray-600 mt-4 mx-auto md:w-2/3">We believe in a holistic, evidence-based approach that places you at the center of your healing journey.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+      <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-3xl">
+        <div class="w-16 h-16 rounded-full bg-[#E7F7FF] flex items-center justify-center text-[#4562AD] mb-6">
+          <i class="ph-fill ph-heartbeat text-3xl"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-3">Compassionate Care</h3>
+        <p class="text-gray-600">Every individual is unique. We provide a safe, judgment-free environment where you can freely express yourself.</p>
+      </div>
+      <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-3xl">
+        <div class="w-16 h-16 rounded-full bg-[#FEF3F7] flex items-center justify-center text-[#DC649D] mb-6">
+          <i class="ph-fill ph-certificate text-3xl"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-3">Evidence-Based Methods</h3>
+        <p class="text-gray-600">Our interventions are rooted in the latest scientific research, ensuring that you receive the most effective treatments available.</p>
+      </div>
+      <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-3xl">
+        <div class="w-16 h-16 rounded-full bg-[#E8FFF3] flex items-center justify-center text-[#7AE6B9] mb-6">
+          <i class="ph-fill ph-users text-3xl"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-3">Continuous Support</h3>
+        <p class="text-gray-600">Healing takes time. We stand by you throughout your journey, adjusting our approach as you grow and evolve.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="bg-[#F8F9FA] px-4 md:px-8 lg:px-16 xl:px-30 py-16 md:py-24">
+  <div class="container mx-auto max-w-4xl">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl md:text-3xl 2xl:text-4xl font-bold">Frequently Asked Questions</h2>
+      <p class="text-md md:text-lg text-gray-600 mt-4">Everything you need to know before your first visit.</p>
+    </div>
+    <div class="space-y-4">
+      <details class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 group">
+        <summary class="font-semibold text-lg cursor-pointer flex justify-between items-center text-gray-800">
+          What happens during the first consultation?
+          <span class="transition group-open:rotate-180">
+             <i class="ph ph-caret-down"></i>
+          </span>
+        </summary>
+        <p class="text-gray-600 mt-4 leading-relaxed">During your first visit, our therapist will gently guide you through a conversation to understand your concerns, history, and goals. It is a no-pressure environment designed solely for us to learn how best to support you.</p>
+      </details>
+      <details class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 group">
+        <summary class="font-semibold text-lg cursor-pointer flex justify-between items-center text-gray-800">
+          Do you offer online therapy sessions?
+          <span class="transition group-open:rotate-180">
+             <i class="ph ph-caret-down"></i>
+          </span>
+        </summary>
+        <p class="text-gray-600 mt-4 leading-relaxed">Yes, we offer secure, confidential online therapy sessions for clients who prefer to connect from the comfort of their homes or are located outside Delhi.</p>
+      </details>
+      <details class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 group">
+        <summary class="font-semibold text-lg cursor-pointer flex justify-between items-center text-gray-800">
+          How long does a typical therapy session last?
+          <span class="transition group-open:rotate-180">
+             <i class="ph ph-caret-down"></i>
+          </span>
+        </summary>
+        <p class="text-gray-600 mt-4 leading-relaxed">A standard therapy session lasts for about 45 to 50 minutes. However, assessment sessions may take longer depending on the requirements.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Banner -->
+<section class="relative overflow-hidden bg-[#234394] px-4 md:px-8 py-16 md:py-20 text-center">
+  <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white to-transparent"></div>
+  <div class="container mx-auto max-w-4xl relative z-10">
+    <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Ready to prioritize your mental wellbeing?</h2>
+    <p class="text-lg md:text-xl text-blue-100 mb-10 mx-auto max-w-2xl">Take the first step towards a healthier, happier you. Our experts are here to guide you.</p>
+    <a href="/appointment.php" class="inline-block px-10 py-4 rounded-full bg-[#F2DC68] text-[#234394] text-lg font-bold hover:bg-[#ffe142] transition-colors shadow-xl hover:shadow-2xl hover:-translate-y-1 transform">
+      Book a Consultation Today
+    </a>
+  </div>
+</section>
+
 <?php include __DIR__ . '/components/footer.php'; ?>
 </div>
 <script>
