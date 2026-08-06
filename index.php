@@ -65,10 +65,15 @@
     </script>
 <title>eMbrace Lives | Best Psychologist in Delhi – Clinical &amp; Child Psychology</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet"/>
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<script src="https://unpkg.com/@phosphor-icons/web"></script>
 <link href="/assets/index-B-kGA3UA.css" rel="stylesheet"/>
-<style></style>
+<style>
+  body, h1, h2, h3, h4, h5, h6, p, a, span, div, button, input {
+    font-family: 'Outfit', sans-serif;
+  }
+</style>
 <style>
     .line-clamp-5 {
       display: -webkit-box;
@@ -195,28 +200,28 @@
 </div>
 <div class="md:w-[45%] w-full grid grid-cols-2 gap-4">
 <div class="bg-white rounded-2xl p-5 shadow-md border border-gray-100 flex flex-col gap-2 hover:shadow-lg transition-shadow">
-<span class="text-2xl">🧠</span>
+<i class="ph-fill ph-brain text-4xl text-[#4562AD]"></i>
 <h3 class="font-semibold text-sm md:text-base text-gray-900">Neurodevelopmental Expertise</h3>
 <p class="text-xs md:text-sm text-[#403D3D] leading-relaxed">
                 ADHD, Autism, Learning Disabilities — assessed and treated by specialists.
               </p>
 </div>
 <div class="bg-white rounded-2xl p-5 shadow-md border border-gray-100 flex flex-col gap-2 hover:shadow-lg transition-shadow">
-<span class="text-2xl">🌍</span>
+<i class="ph-fill ph-globe-hemisphere-west text-4xl text-[#DC649D]"></i>
 <h3 class="font-semibold text-sm md:text-base text-gray-900">Global Standards</h3>
 <p class="text-xs md:text-sm text-[#403D3D] leading-relaxed">
                 NICE protocols, Pearson-accredited tools, and I-CAN approved programs.
               </p>
 </div>
 <div class="bg-white rounded-2xl p-5 shadow-md border border-gray-100 flex flex-col gap-2 hover:shadow-lg transition-shadow">
-<span class="text-2xl">👨‍👩‍👧‍👦</span>
+<i class="ph-fill ph-users-three text-4xl text-[#7AE6B9]"></i>
 <h3 class="font-semibold text-sm md:text-base text-gray-900">Lifespan Care</h3>
 <p class="text-xs md:text-sm text-[#403D3D] leading-relaxed">
                 From toddlers to adults — therapy and assessments for every age group.
               </p>
 </div>
 <div class="bg-white rounded-2xl p-5 shadow-md border border-gray-100 flex flex-col gap-2 hover:shadow-lg transition-shadow">
-<span class="text-2xl">🏥</span>
+<i class="ph-fill ph-hospital text-4xl text-[#EC936A]"></i>
 <h3 class="font-semibold text-sm md:text-base text-gray-900">Online &amp; In-Person</h3>
 <p class="text-xs md:text-sm text-[#403D3D] leading-relaxed">
                 Accessible care from our Delhi centres or from the comfort of your home.
@@ -310,8 +315,8 @@
 <p class="md:text-sm text-md text-center italic mt-2 lg:w-[55%]">
         Expert-led therapy, assessments, and workshops in a safe, welcoming space.
       </p>
-<p class="md:text-base 2xl:text-xl text-sm text-center mt-4 text-[var(--blue-fig)] font-semibold">
-        🌿 Why choose our wellbeing spaces?
+<p class="md:text-base 2xl:text-xl text-sm text-center mt-4 text-[var(--blue-fig)] font-semibold flex items-center justify-center gap-2">
+        <i class="ph-fill ph-leaf text-2xl"></i> Why choose our wellbeing spaces?
       </p>
 <div class="flex md:flex-row flex-col w-full gap-4 mt-4 justify-center">
 <div class="md:w-[25%] w-full md:h-auto bg-white rounded-4xl p-8 md:p-2 space-y-1 flex flex-col items-start md:items-center">
@@ -365,7 +370,7 @@
             </a>
 </div>
 <p class="text-[var(--blue-fig)] text-lg font-semibold md:hidden text-start p-5">
-            📍 <span class="font-bold">Find Us</span><br/>
+            <i class="ph-fill ph-map-pin align-middle text-2xl mr-1"></i> <span class="font-bold">Find Us</span><br/>
 <strong>Online</strong> or <strong>Offline</strong> – <br/>Visit Our Centers for Personalized Care.
           </p>
 </div>
@@ -373,8 +378,8 @@
 <a href="/contact-us.php" class="inline-block cursor-pointer px-8 py-1.5 rounded-full bg-[#4562AD] text-white text-lg font-semibold">
             Take a Tour
           </a>
-<p class="text-[var(--blue-fig)] text-md font-semibold">
-            📍 Find Us <strong>Online</strong> or <strong>Offline</strong> – Visit Our Centers for Personalized Care.
+<p class="text-[var(--blue-fig)] text-md font-semibold flex items-center gap-2">
+            <i class="ph-fill ph-map-pin text-2xl"></i> Find Us <strong>Online</strong> or <strong>Offline</strong> – Visit Our Centers for Personalized Care.
           </p>
 </div>
 </div>
