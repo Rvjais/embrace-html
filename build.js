@@ -26,10 +26,12 @@ function copyDir(src, dst) {
 }
 
 console.log("Copying static assets...");
-copyDir(path.join(__dirname, 'assets'), path.join(outDir, 'assets'));
-copyDir(path.join(__dirname, '_external'), path.join(outDir, '_external'));
-if (fs.existsSync(path.join(__dirname, 'media'))) {
-    copyDir(path.join(__dirname, 'media'), path.join(outDir, 'media'));
+const staticFolders = ['assets', '_external', 'media', 'embrace-media', 'practitioner-images', 'videos'];
+
+for (const folder of staticFolders) {
+    if (fs.existsSync(path.join(__dirname, folder))) {
+        copyDir(path.join(__dirname, folder), path.join(outDir, folder));
+    }
 }
 
 ['Favicon.png', 'og-image.png', 'Logo.svg', 'robots.txt', 'sitemap.xml'].forEach(file => {
