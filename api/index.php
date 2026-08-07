@@ -3,6 +3,9 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+// Force Vercel to render as HTML instead of downloading
+header('Content-Type: text/html; charset=utf-8');
+
 try {
     // Get the requested URI
     $uri = $_SERVER['REQUEST_URI'] ?? '/';
