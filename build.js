@@ -3,6 +3,9 @@ const path = require('path');
 
 console.log("Starting static build via Node.js...");
 
+// Regenerate sitemap.xml first so the copy step below ships a current one.
+require('./generate-sitemap.js');
+
 const outDir = path.join(__dirname, 'dist');
 if (!fs.existsSync(outDir)) {
     fs.mkdirSync(outDir, { recursive: true });

@@ -1,0 +1,1352 @@
+{
+  "autism/ados-2-assessment.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-and-adhd.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-and-anxiety.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-and-emotional-regulation.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-and-feeding.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-and-learning-disabilities.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-and-sleep.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-assessment.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-behaviour-therapy.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-diagnostic-evaluation.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-faq.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-in-adolescents.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-in-adults.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-in-boys.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-in-girls.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-in-preschoolers.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-in-school-age-children.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-in-toddlers.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-inclusive-education.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-occupational-therapy.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-parent-training.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-resources.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-school-support.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-screening.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-sensory-needs.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-social-skills.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-spectrum-disorder.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-speech-therapy.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-support-groups.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-symptoms.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-testing.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-therapy.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-transition-to-adulthood.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-treatment.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism-workplace-support.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/autism.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/high-functioning-autism.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/late-autism-diagnosis.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/level-1-autism.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/level-2-autism.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/level-3-autism.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/restricted-repetitive-behaviours.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/signs-of-autism.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/social-communication-deficits.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  },
+  "autism/what-is-autism.php": {
+    "mainEntity": {
+      "@type": "MedicalCondition",
+      "name": "Autism Spectrum Disorder",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Speech & Language Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Occupational Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Sensory Integration Therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Social Skills Training"
+        }
+      ]
+    },
+    "aspect": [
+      "Definition",
+      "Symptoms",
+      "Diagnosis",
+      "Therapy & Support"
+    ]
+  }
+}
