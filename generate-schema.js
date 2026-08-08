@@ -395,7 +395,9 @@ function buildGraph(rel, html) {
 /* ------------------------------------------------------------------ writing */
 
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const MARKER_RE = new RegExp(esc(START) + '[\\s\\S]*?' + esc(END));
+// Consume the block's own indentation and trailing newline too, otherwise each run
+// leaves an orphaned blank line behind and every file grows by a line per run.
+const MARKER_RE = new RegExp('[ \\t]*' + esc(START) + '[\\s\\S]*?' + esc(END) + '[ \\t]*\\r?\\n?');
 // Legacy hand-written blocks, replaced by the generated graph.
 const LEGACY_RE = /[ \t]*<script[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>\s*/gi;
 
@@ -418,6 +420,8 @@ for (const rel of walk(ROOT).sort()) {
   const block = `${START}\n<script type="application/ld+json">\n${json}\n</script>\n${END}\n`;
 
   if (!/<\/head>/i.test(html)) { stats.noHead.push(rel); continue; }
+  // Collapse any blank lines left by earlier runs so spacing stays stable.
+  html = html.replace(/(?:[ \t]*\r?\n){2,}([ \t]*<\/head>)/i, '\n$1');
   html = html.replace(/([ \t]*)<\/head>/i, (m, indent) =>
     block.split('\n').map(l => (l ? indent + l : l)).join('\n') + `${indent}</head>`);
 

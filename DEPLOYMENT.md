@@ -142,22 +142,33 @@ area or service is a one-line edit to the `AREAS` / `SERVICES` arrays in that sc
 
 ## 4. Outstanding items that need someone with server access
 
-These are real production defects found during QA that **cannot be fixed from this repo**:
+Two of the four production defects found during QA are now fixed in the repo. The remaining
+two **cannot be fixed from here** — they need someone with server access.
+
+**Fixed in this repo:**
+
+- ~~`Client review Samia.mov` served as `video/quicktime`~~ — the file was always an MP4
+  container (`ftypmp42`) wearing the wrong extension, so Chrome refused to play it. Renamed
+  to `.mp4` via `git mv` and the single reference in `index.php` updated. Now serves as
+  `video/mp4`.
+- ~~`og-image.png` missing~~ — all 374 pages referenced it and it 404'd, so every WhatsApp,
+  LinkedIn and Facebook share had no preview thumbnail. A 1200×630 PNG now exists at the site
+  root, built from the real logo and the site's own hero palette. It matches the
+  `og:image:width` / `og:image:height` already declared on every page, and `build.js` already
+  copies it. Replace it with something from a designer whenever you like — the filename and
+  dimensions are what matter.
+
+**Still blocked on server access:**
 
 1. **`embrace-media/` was never uploaded.** Every image in the homepage "Moments & Memories"
    strip and the whole `/gallery` page 404s on production. The files are all present in the
    repo — the folder just needs deploying alongside the PHP.
-2. **`Client review Samia.mov` is served as `Content-Type: video/quicktime`.** Chrome refuses
-   to play that MIME, so the first video testimonial shows a black player. The file is
-   actually an MP4 container (its header reads `ftypmp42`) — renaming it to `.mp4` and
-   updating the single reference in `index.php` fixes it, or set the MIME server-side.
-3. **`og-image.png` does not exist.** All **374** pages set
-   `<meta property="og:image" content="https://embracelives.com/og-image.png">`, and that URL
-   404s on production. Every share of any eMbrace page on WhatsApp, LinkedIn or Facebook
-   therefore has no preview thumbnail. This needs a designed 1200×630 image dropped at the
-   site root — it is a design asset, not something to fake with a random clinic photo, so it
-   was deliberately left for you. (`Logo.svg` at the root 404s too; the schema now points at
-   the real `/assets/Logo-DrHvIBUF.svg` instead.)
+2. **The nginx config in §1.** Nothing else in this release reaches users until it is applied,
+   and applying it is more urgent than before: all 374 canonicals and all 373 sitemap URLs now
+   point at clean URLs which, on the current config, serve raw PHP source.
+
+(`Logo.svg` at the root also 404s; rather than adding a file, the schema now points at the
+real `/assets/Logo-DrHvIBUF.svg`.)
 
 ## 5. The footer is a redesign that had never been deployed
 
