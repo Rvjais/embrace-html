@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Conversion / confirmation pages — no search value
+Disallow: /thank-you
+Disallow: /appointment__confirmation
+
+# Internals
+Disallow: /api/
+Disallow: /components/
+Disallow: /assets_backup/
+Disallow: /practitioner-images_backup/
+
+Sitemap: https://embracelives.com/sitemap.xml

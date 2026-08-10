@@ -20,6 +20,14 @@
          Proper fix: rebuild Tailwind with gallery.php in the content glob, then
          drop this script. -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // The purged stylesheet above already ships Tailwind's Preflight reset.
+      // Leaving the CDN's own copy enabled re-injects it after that stylesheet
+      // and wins the cascade, re-normalizing shared elements (nav, svg, button)
+      // and making the shared header render larger than on other pages. Disable
+      // it here so the CDN only adds the missing arbitrary-value utilities.
+      tailwind.config = { corePlugins: { preflight: false } };
+    </script>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
     <link
@@ -44,7 +52,54 @@
         break-inside: avoid;
         margin-bottom: 1.5rem;
       }
-      
+
+      /* Gallery filter tabs
+         Sticky below the fixed site header (.glass-nav) so the tabs stay
+         reachable while scrolling a gallery panel — no more scrolling all
+         the way back up to switch tabs. --gallery-nav-h is set by JS below
+         to the header's real height; the fallback covers the brief moment
+         before that script runs. */
+      .gallery-tabs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin-bottom: 3rem;
+        position: sticky;
+        top: var(--gallery-nav-h, 76px);
+        z-index: 40;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        padding: 1rem 1rem 1.25rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+      }
+      .gallery-tab-btn {
+        padding: 0.75rem 1.75rem;
+        border-radius: 9999px;
+        font-weight: 700;
+        font-size: 1rem;
+        border: 2px solid #234394;
+        color: #234394;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      .gallery-tab-btn:hover {
+        background: rgba(35, 67, 148, 0.08);
+      }
+      .gallery-tab-btn.active-tab {
+        background: #234394;
+        color: #fff;
+        box-shadow: 0 4px 14px rgba(35, 67, 148, 0.25);
+      }
+      .gallery-panel {
+        display: none;
+      }
+      .gallery-panel.active-panel {
+        display: block;
+      }
+
       /* Lightbox styles */
       #lightbox {
         display: none;
@@ -374,7 +429,7 @@
   <body class="font-['DM_Sans'] antialiased text-[#403D3D]">
     <?php include __DIR__ . '/components/header.php'; ?>
 
-    <div class="relative w-full h-[300px] md:h-[400px] bg-[#E8F8F2] flex items-center justify-center overflow-hidden">
+    <div class="relative w-full py-14 md:py-20 bg-[#E8F8F2] flex items-center justify-center overflow-hidden">
         <div class="text-center z-10">
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-[#234394]">Our Gallery</h1>
             <p class="mt-4 text-lg md:text-xl text-[#403D3D] max-w-2xl mx-auto px-4">Moments from our clinics, corporate workshops, and events.</p>
@@ -385,12 +440,52 @@
     </div>
 
     <div class="max-w-[95%] mx-auto py-12 md:py-20">
-      
+
+      <div class="gallery-tabs" role="tablist" aria-label="Gallery categories">
+        <button class="gallery-tab-btn active-tab" data-gallery="supriya" type="button">Dr. Supriya</button>
+        <button class="gallery-tab-btn" data-gallery="vk" type="button">VK Center</button>
+        <button class="gallery-tab-btn" data-gallery="gurgaon" type="button">Gurgaon Centre</button>
+      </div>
+      <script>
+        // Delegated on document + queried fresh at click-time (not captured once
+        // at parse-time), so this works regardless of where this tag sits relative
+        // to the panels in the DOM, and can't be broken by any other script on the
+        // page failing or loading slowly (Tailwind CDN, header/footer includes,
+        // lightbox code, etc). Same delegation pattern as /assets/interactive.js.
+        (function () {
+          document.addEventListener('click', function (e) {
+            var btn = e.target.closest('.gallery-tab-btn');
+            if (!btn) return;
+            var tab = btn.dataset.gallery;
+            document.querySelectorAll('.gallery-panel').forEach(function (panel) {
+              panel.classList.toggle('active-panel', panel.dataset.gallery === tab);
+            });
+            document.querySelectorAll('.gallery-tab-btn').forEach(function (b) {
+              b.classList.toggle('active-tab', b.dataset.gallery === tab);
+            });
+          });
+
+          // Pin the sticky tab bar right below the fixed header, whatever
+          // its real height turns out to be (fonts/logo can shift it a
+          // little), instead of hardcoding a pixel value that could drift.
+          var nav = document.querySelector('.glass-nav');
+          function setNavHeight() {
+            if (nav) {
+              document.documentElement.style.setProperty('--gallery-nav-h', nav.offsetHeight + 'px');
+            }
+          }
+          setNavHeight();
+          window.addEventListener('resize', setNavHeight);
+          window.addEventListener('load', setNavHeight);
+        })();
+      </script>
+
+      <div class="gallery-panel active-panel" data-gallery="supriya">
       <div class="text-center mb-10">
         <h2 class="text-2xl md:text-3xl font-bold text-[#234394]">Dr. Supriya & Team in Action</h2>
         <div class="w-16 h-1 bg-[#F5A962] mx-auto mt-4 rounded-full"></div>
       </div>
-      
+
       <div class="masonry">
 
         <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/IMG-20250324-WA0088.jpg')">
@@ -417,14 +512,8 @@
         <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-05-20-16-33-41%202.jpg')">
           <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-05-20-16-33-41%202.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
         </div>
-        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-05-20-16-33-41.jpg')">
-          <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-05-20-16-33-41.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
-        </div>
         <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-05-20-16-48-47.jpg')">
           <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-05-20-16-48-47.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
-        </div>
-        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-05-20-16-49-02.jpg')">
-          <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-05-20-16-49-02.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
         </div>
         <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-05-20-16-49-16.jpg')">
           <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-05-20-16-49-16.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
@@ -437,18 +526,6 @@
         </div>
         <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-02-18-18-31-58%2011.jpg')">
           <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-02-18-18-31-58%2011.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
-        </div>
-        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-02-18-18-31-58%202.jpg')">
-          <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-02-18-18-31-58%202.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
-        </div>
-        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-02-18-18-31-58%203.jpg')">
-          <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-02-18-18-31-58%203.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
-        </div>
-        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-02-18-18-31-58%204.jpg')">
-          <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-02-18-18-31-58%204.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
-        </div>
-        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-02-18-18-31-58%205.jpg')">
-          <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-02-18-18-31-58%205.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
         </div>
         <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-02-18-18-31-58%206.jpg')">
           <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-02-18-18-31-58%206.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
@@ -504,23 +581,8 @@
         <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-06-03-14-40-06%202.jpg')">
           <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-06-03-14-40-06%202.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
         </div>
-        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-08-02-13-38-17.jpg')">
-          <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-08-02-13-38-17.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
-        </div>
-        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-08-02-13-38-18%202.jpg')">
-          <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-08-02-13-38-18%202.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
-        </div>
-        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-08-02-13-38-18%203.jpg')">
-          <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-08-02-13-38-18%203.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
-        </div>
         <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-08-02-13-38-18.jpg')">
           <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-08-02-13-38-18.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
-        </div>
-        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-08-02-13-38-19%202.jpg')">
-          <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-08-02-13-38-19%202.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
-        </div>
-        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-08-02-13-38-19.jpg')">
-          <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-08-02-13-38-19.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
         </div>
         <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-09-02-19-37-50%202.jpg')">
           <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-09-02-19-37-50%202.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
@@ -589,20 +651,118 @@
           <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Bangalore%20The%20Rising/IMG_1539.jpg" loading="lazy" alt="eMbrace Event" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
         </div>
       </div>
+      </div>
 
-      <div class="text-center mb-10 mt-20">
-        <h2 class="text-2xl md:text-3xl font-bold text-[#234394]">Therapy Spaces</h2>
+      <div class="gallery-panel" data-gallery="vk">
+      <div class="text-center mb-10">
+        <h2 class="text-2xl md:text-3xl font-bold text-[#234394]">VK Center</h2>
         <div class="w-16 h-1 bg-[#F5A962] mx-auto mt-4 rounded-full"></div>
       </div>
-      
+
       <div class="masonry">
 
-        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Client%20pictures-20260806T082433Z-1-001/Client%20pictures/IMG_2641.jpg')">
-          <img src="/embrace-media/Client%20pictures-20260806T082433Z-1-001/Client%20pictures/IMG_2641.jpg" loading="lazy" alt="eMbrace Therapy Space" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/21a4eec5-5263-4992-a120-9a460e5a6bd0.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/21a4eec5-5263-4992-a120-9a460e5a6bd0.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
         </div>
-        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Client%20pictures-20260806T082433Z-1-001/Client%20pictures/IMG_2642.jpg')">
-          <img src="/embrace-media/Client%20pictures-20260806T082433Z-1-001/Client%20pictures/IMG_2642.jpg" loading="lazy" alt="eMbrace Therapy Space" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/6389e31c-ce1b-4576-a5e6-dd86f3b69e8b.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/6389e31c-ce1b-4576-a5e6-dd86f3b69e8b.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
         </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/679aab4d-ae8d-41fe-8e58-d7edd6bb0438.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/679aab4d-ae8d-41fe-8e58-d7edd6bb0438.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/9ae5e881-b7f3-43b5-b0a6-6d535f575500.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/9ae5e881-b7f3-43b5-b0a6-6d535f575500.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2896.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2896.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2897.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2897.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2898.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2898.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2899.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2899.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2900.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2900.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2901.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2901.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/a02d7ea3-a77a-4ab8-b6dd-64452589d589.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/a02d7ea3-a77a-4ab8-b6dd-64452589d589.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/a192d3e0-b514-4510-a48e-1c564cc45a9d.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/a192d3e0-b514-4510-a48e-1c564cc45a9d.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/c795ee9c-4024-4cb3-88d5-65adb9fb57ef.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/c795ee9c-4024-4cb3-88d5-65adb9fb57ef.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/ce57b366-cb31-4b7e-ac99-1561304a0df4.jpg')">
+          <img src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/ce57b366-cb31-4b7e-ac99-1561304a0df4.jpg" loading="lazy" alt="eMbrace VK Center" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+      </div>
+      </div>
+
+      <div class="gallery-panel" data-gallery="gurgaon">
+      <div class="text-center mb-10">
+        <h2 class="text-2xl md:text-3xl font-bold text-[#234394]">Gurgaon Centre</h2>
+        <div class="w-16 h-1 bg-[#F5A962] mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <div class="masonry">
+
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn1.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn1.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn2.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn2.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn3.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn3.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn4.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn4.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn5.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn5.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn6.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn6.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn7.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn7.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn8.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn8.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn9.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn9.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn10.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn10.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn11.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn11.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn12.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn12.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn13.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn13.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn14.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn14.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn15.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn15.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+        <div class="masonry-item rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer" onclick="openLightbox('/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn16.jpg')">
+          <img src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn16.jpg" loading="lazy" alt="eMbrace Gurgaon Centre" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-xl" />
+        </div>
+      </div>
       </div>
 
     </div>
