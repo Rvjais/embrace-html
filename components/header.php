@@ -134,6 +134,28 @@
         </div>
       </div>
     </div>
+    <div class="relative group">
+      <a class="nav-link px-3 py-2 rounded-lg hover:text-[#234394] transition-all duration-200 cursor-pointer flex items-center gap-1 font-semibold text-[#234394]"
+        data-discover="true" href="/resources/index.php">Free Tools<svg
+          class="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor"
+          stroke-width="2" viewbox="0 0 24 24">
+          <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg></a>
+      <div
+        class="absolute right-0 top-full pt-4 w-72 opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto pointer-events-none transition-all duration-300 z-50">
+        <div class="glass-dropdown rounded-2xl py-3">
+          <a class="block px-5 py-2.5 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2"
+            data-discover="true" href="/resources/child-milestone-checker.php">Child Milestone Checker (0–12)</a><a
+            class="block px-5 py-2.5 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2"
+            data-discover="true" href="/resources/adhd-autism-screener.php">ADHD &amp; Autism Screener</a><a
+            class="block px-5 py-2.5 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2"
+            data-discover="true" href="/resources/adult-stress-check.php">Adult Stress &amp; Burnout Check</a>
+          <div class="h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent mx-3 my-1"></div>
+          <a class="block px-5 py-2.5 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2"
+            data-discover="true" href="/resources/index.php">All free tools</a>
+        </div>
+      </div>
+    </div>
     <a class="nav-link px-3 py-2 rounded-lg hover:text-[#234394] transition-all duration-200 cursor-pointer"
       data-discover="true" href="/gallery.php">Gallery</a>
     <a class="nav-link px-3 py-2 rounded-lg hover:text-[#234394] transition-all duration-200 cursor-pointer"
@@ -244,6 +266,25 @@
             data-discover="true" href="/hospitalAndHealthcare.php">Healthcare &amp; Hospitals</a><a
             class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
             href="/corporate-wellness/corporates.php">Corporate Wellness Hub</a>
+        </div>
+      </details>
+    </div>
+    <div class="">
+      <details class="group">
+        <summary class="hover:text-[#234394] cursor-pointer flex items-center gap-2 py-1 text-[#234394]">Free Tools <svg
+            class="w-3 h-3 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor"
+            stroke-width="2" viewbox="0 0 24 24">
+            <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg></summary>
+        <div class="flex flex-col ml-4 mt-2 gap-0.5 border-l-2 border-[#234394]/20 pl-3">
+          <a class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
+            href="/resources/child-milestone-checker.php">Child Milestone Checker</a><a
+            class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
+            href="/resources/adhd-autism-screener.php">ADHD &amp; Autism Screener</a><a
+            class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
+            href="/resources/adult-stress-check.php">Adult Stress &amp; Burnout Check</a><a
+            class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
+            href="/resources/index.php">All Free Tools</a>
         </div>
       </details>
     </div>

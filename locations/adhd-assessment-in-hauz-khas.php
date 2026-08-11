@@ -440,6 +440,7 @@
 }
 </script>
 <!-- SCHEMA:END -->
+<link href="/assets/lead-magnets.css" rel="stylesheet"/>
 </head>
 <body style="overflow: auto">
 <div id="root">
@@ -749,8 +750,10 @@
 </div>
 </div>
 <!-- LOCATION-LINKS:END -->
+    <?php include __DIR__ . '/../components/lead-magnet-band-neuro.php'; ?>
     <?php include __DIR__ . '/../components/footer.php'; ?>
   </div>
   <script src="/assets/interactive.js"></script>
-</div></body>
+</div><script src="/assets/lead-magnets.js"></script>
+</body>
 </html>

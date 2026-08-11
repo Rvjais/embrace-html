@@ -409,7 +409,8 @@
   }
   </script>
   <!-- SCHEMA:END -->
-  </head>
+  <link href="/assets/lead-magnets.css" rel="stylesheet"/>
+</head>
   <body style="overflow: auto">
     <div id="root">
       <?php include __DIR__ . '/../components/header.php'; ?>
@@ -628,8 +629,10 @@
 </div>
 </div>
 <!-- LOCATION-LINKS:END -->
+    <?php include __DIR__ . '/../components/lead-magnet-band-child.php'; ?>
     <?php include __DIR__ . '/../components/footer.php'; ?>
   </div>
   <script src="/assets/interactive.js"></script>
-  </body>
+  <script src="/assets/lead-magnets.js"></script>
+</body>
 </html>

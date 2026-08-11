@@ -5,6 +5,9 @@ Allow: /
 Disallow: /thank-you
 Disallow: /appointment__confirmation
 
+# Gated lead-magnet deliverables — reachable only after the form
+Disallow: /resources/guides/
+
 # Internals
 Disallow: /api/
 Disallow: /components/

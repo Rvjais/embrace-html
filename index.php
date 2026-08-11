@@ -30,6 +30,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 <link href="/assets/index-B-kGA3UA.css" rel="stylesheet"/>
+<link href="/assets/lead-magnets.css" rel="stylesheet"/>
 <style>
   body, h1, h2, h3, h4, h5, h6, p, a, span, div, button, input {
     font-family: 'Outfit', sans-serif;
@@ -491,6 +492,22 @@
 </div>
 </div>
 </div>
+</div>
+<!-- Free tools strip — first-touch entry to the lead-magnet funnel -->
+<div style="background:linear-gradient(90deg,#234394,#3d5cb0);padding:.9rem 1rem">
+  <div style="max-width:76rem;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.75rem 1.25rem;text-align:center">
+    <p style="margin:0;color:#fff;font-size:.95rem;font-weight:600">
+      <span style="color:#F2DC68">Free &amp; instant:</span> not sure whether to book? Try a 3-minute check first.
+    </p>
+    <div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center">
+      <a href="/resources/child-milestone-checker.php" data-lm-cta="child-milestone-checker" data-lm-placement="home_strip"
+         style="background:#F2DC68;color:#234394;font-size:.82rem;font-weight:700;padding:.45rem 1rem;border-radius:999px;text-decoration:none">Child milestones</a>
+      <a href="/resources/adhd-autism-screener.php" data-lm-cta="adhd-autism-screener" data-lm-placement="home_strip"
+         style="background:rgba(255,255,255,.14);color:#fff;font-size:.82rem;font-weight:700;padding:.45rem 1rem;border-radius:999px;text-decoration:none;border:1px solid rgba(255,255,255,.35)">ADHD &amp; autism signs</a>
+      <a href="/resources/adult-stress-check.php" data-lm-cta="adult-stress-check" data-lm-placement="home_strip"
+         style="background:rgba(255,255,255,.14);color:#fff;font-size:.82rem;font-weight:700;padding:.45rem 1rem;border-radius:999px;text-decoration:none;border:1px solid rgba(255,255,255,.35)">Adult stress check</a>
+    </div>
+  </div>
 </div>
 <section class="relative overflow-hidden bg-gradient-to-b from-[#FFFFFF] to-[#F8F2FF] px-4 md:px-8 lg:px-16 xl:px-30 py-16 md:py-24">
 <div class="absolute hidden md:block h-14 w-14 rounded-full bg-[#B9F1DA]/70 -left-[1%] top-[15%]"></div>
@@ -1696,6 +1713,91 @@
   </div>
 </section>
 
+<!-- Free Tools / Lead Magnets -->
+<section class="lm-section" id="free-tools">
+  <div class="lm-blob lm-blob--a"></div>
+  <div class="lm-blob lm-blob--b"></div>
+  <div class="lm-blob lm-blob--c"></div>
+  <div class="lm-wrap">
+    <div class="lm-center">
+      <span class="lm-eyebrow"><i class="ph-fill ph-gift"></i> Free &amp; instant &middot; no sign-up to see results</span>
+      <h2 class="lm-h2">Start with a free 3-minute check</h2>
+      <p class="lm-sub">
+        Most families arrive here unsure whether their worry is worth an appointment. These three screeners
+        are built by the same clinicians who run our assessments — you get a domain-by-domain result on
+        screen straight away, and a written report plus a full guide by email if you want one.
+      </p>
+    </div>
+
+    <div class="lm-grid">
+      <div class="lm-card">
+        <div class="lm-card__icon lm-card__icon--child"><i class="ph-fill ph-baby"></i></div>
+        <span class="lm-card__tag">Parents &middot; 0–12 years</span>
+        <h3 class="lm-card__title">Is my child on track?</h3>
+        <p class="lm-card__desc">
+          Milestone checker across speech, motor, social, play and behaviour, with a different question set
+          for every age band.
+        </p>
+        <ul class="lm-card__list">
+          <li>Domain-by-domain snapshot, not one vague score</li>
+          <li>Free milestone guide for ages 0–12</li>
+          <li>Tells you plainly when nothing is wrong</li>
+        </ul>
+        <div class="lm-card__foot">
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/child-milestone-checker.php"
+             data-lm-cta="child-milestone-checker" data-lm-placement="home_section">Check my child's milestones</a>
+          <p class="lm-card__meta">2 minutes &middot; 8 questions</p>
+        </div>
+      </div>
+
+      <div class="lm-card">
+        <div class="lm-card__icon lm-card__icon--neuro"><i class="ph-fill ph-brain"></i></div>
+        <span class="lm-card__tag">Parents &middot; 2–18 years</span>
+        <h3 class="lm-card__title">ADHD &amp; autism early signs</h3>
+        <p class="lm-card__desc">
+          Four behaviour clusters profiled separately and weighted by real-life impact — with a straight
+          answer on whether an assessment is warranted.
+        </p>
+        <ul class="lm-card__list">
+          <li>Attention, impulsivity, social communication, sensory</li>
+          <li>Free assessment guide + school letter template</li>
+          <li>Explains what ADOS-2, Conners and WISC-V measure</li>
+        </ul>
+        <div class="lm-card__foot">
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/adhd-autism-screener.php"
+             data-lm-cta="adhd-autism-screener" data-lm-placement="home_section">Screen for early signs</a>
+          <p class="lm-card__meta">3 minutes &middot; 17 questions</p>
+        </div>
+      </div>
+
+      <div class="lm-card">
+        <div class="lm-card__icon lm-card__icon--adult"><i class="ph-fill ph-heartbeat"></i></div>
+        <span class="lm-card__tag">Adults &middot; 18+</span>
+        <h3 class="lm-card__title">Stress, anxiety &amp; burnout</h3>
+        <p class="lm-card__desc">
+          Four separate scores, because burnout and anxiety look identical from the outside and respond to
+          completely different things.
+        </p>
+        <ul class="lm-card__list">
+          <li>Worry, mood, body and sleep, burnout</li>
+          <li>Free 7-Day Reset Plan with a track for each</li>
+          <li>Private — nothing sent unless you ask for it</li>
+        </ul>
+        <div class="lm-card__foot">
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/adult-stress-check.php"
+             data-lm-cta="adult-stress-check" data-lm-placement="home_section">Check my stress levels</a>
+          <p class="lm-card__meta">3 minutes &middot; 17 questions</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="lm-sub lm-center" style="margin-top:2rem;font-size:.88rem;color:#7d8294">
+      These are educational screening tools, not diagnoses. Only a qualified clinician can diagnose, after a
+      full assessment. <a href="/resources/index.php" style="color:#234394;font-weight:600">See all free tools &rarr;</a>
+    </p>
+  </div>
+</section>
+
 <!-- CTA Banner -->
 <section class="relative overflow-hidden bg-[#234394] px-4 md:px-8 py-16 md:py-20 text-center">
   <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white to-transparent"></div>
@@ -1754,6 +1856,9 @@
       })();
     </script>
 <script src="/assets/interactive.js"></script>
+<?php include __DIR__ . '/components/lead-magnet-popup.php'; ?>
+<script src="/assets/lead-magnets.js"></script>
+<script>EmbraceLM.popup({ id: 'lm-popup' });</script>
 <div class="hidden fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 bg-black/60 backdrop-blur-sm" id="review-modal-0" style="margin: 0;">
 <div class="bg-white rounded-3xl shadow-2xl p-6 sm:p-8 max-w-2xl w-full max-h-[90vh] flex flex-col relative overflow-hidden transform transition-all text-left" onclick="event.stopPropagation()">
 <!-- Close button -->
