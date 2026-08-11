@@ -60,6 +60,23 @@
   }
   LM.track = track;
 
+  /**
+   * The PHP host serves pages as /page.php; the static build (build.js + Vercel
+   * cleanUrls) serves /page and has no .php file at all. Links written in markup
+   * are rewritten at build time, but links this script generates are not — so
+   * strip the extension at runtime whenever the current page is itself running
+   * without one. Covers guide links, booking CTAs and anything a page config
+   * puts into an action string.
+   */
+  function fixLinks(root) {
+    if (/\.php$/.test(window.location.pathname)) return;
+    var links = root.querySelectorAll ? root.querySelectorAll('a[href$=".php"]') : [];
+    Array.prototype.forEach.call(links, function (a) {
+      a.setAttribute('href', a.getAttribute('href').replace(/\.php$/, ''));
+    });
+  }
+  LM.fixLinks = fixLinks;
+
   function whatsappHref(message) {
     return 'https://wa.me/' + LM.PHONE.replace(/[^0-9]/g, '') +
       '?text=' + encodeURIComponent(message);
@@ -223,6 +240,7 @@
     });
     this.body.appendChild(retake);
 
+    fixLinks(this.body);
     this.shell.scrollIntoView({ behavior: 'smooth', block: 'start' });
     track('lead_magnet_complete', {
       magnet_id: this.cfg.id, magnet_name: this.cfg.name,
@@ -426,6 +444,7 @@
       '</div>';
 
     wrap.parentNode.replaceChild(box, wrap);
+    fixLinks(box);
     box.scrollIntoView({ behavior: 'smooth', block: 'center' });
     store('embrace_lm_' + cfg.id, 'done');
   };
