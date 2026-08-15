@@ -232,7 +232,28 @@ const SERVICE_NAMES = {
   'learning-disability-assessment': 'Learning Disability Assessment',
   'speech-therapy': 'Speech Therapy', 'occupational-therapy': 'Occupational Therapy',
   'special-education': 'Special Education',
+  // Added with the child development service pages.
+  'developmental-delay-treatment': 'Developmental Delay Treatment',
+  'intellectual-disability-treatment': 'Intellectual Disability Treatment',
+  'down-syndrome-treatment': 'Down Syndrome Treatment',
+  'oral-motor-therapy': 'Oral Motor Delay Treatment',
+  'aba-therapy': 'ABA Therapy',
+  'physiotherapy': 'Physiotherapy',
+  'pediatric-neurologist': 'Pediatric Neurology',
+  'developmental-pediatrician': 'Developmental Paediatrics',
+  'child-development-centre': 'Child Development Centre',
 };
+
+/**
+ * Gurgaon is in Haryana and Noida is in Uttar Pradesh, so the old blanket
+ * "<area>, Delhi NCR, India" was wrong for both, and redundant for Delhi itself.
+ */
+function areaServedName(area) {
+  if (area === 'Gurgaon' || area === 'Gurugram') return 'Gurgaon, Haryana, India';
+  if (area === 'Noida') return 'Noida, Uttar Pradesh, India';
+  if (area === 'Delhi') return 'Delhi, India';
+  return `${area}, Delhi, India`;
+}
 
 function parseLocation(rel) {
   if (!rel.startsWith('locations/') || rel === 'locations/index.php') return null;
@@ -375,7 +396,7 @@ function buildGraph(rel, html) {
       name: `${loc.service} in ${loc.area}`,
       serviceType: loc.service,
       provider: { '@id': ORG_ID },
-      areaServed: { '@type': 'Place', name: `${loc.area}, Delhi NCR, India` },
+      areaServed: { '@type': 'Place', name: areaServedName(loc.area) },
       availableChannel: {
         '@type': 'ServiceChannel',
         serviceUrl: url,

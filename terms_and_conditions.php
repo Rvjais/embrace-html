@@ -6,7 +6,7 @@
     <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
-      content="Read the eMbrace terms &amp; conditions governing use of our mental health services, platform, bookings &amp; therapy sessions."
+      content="Read the eMbrace terms &amp; conditions governing use of our mental health services, platform, bookings &amp; therapy sessions. Applies to all eMbrace services."
       name="description"
     />
     <meta content="index, follow" name="robots" />
@@ -14,9 +14,9 @@
     <!-- Open Graph -->
     <meta content="website" property="og:type" />
     <meta content="https://embracelives.com/terms_and_conditions" property="og:url" />
-    <meta content="Terms &amp; Conditions | eMbrace Lives – SMD Wellness" property="og:title" />
+    <meta content="Terms &amp; Conditions | eMbrace Child Psychology, Delhi NCR" property="og:title" />
     <meta
-      content="Read the eMbrace terms &amp; conditions governing use of our mental health services, platform, bookings &amp; therapy sessions."
+      content="Read the eMbrace terms &amp; conditions governing use of our mental health services, platform, bookings &amp; therapy sessions. Applies to all eMbrace services."
       property="og:description"
     />
     <meta content="https://embracelives.com/og-image.png" property="og:image" />
@@ -26,14 +26,14 @@
     <meta content="en_IN" property="og:locale" />
     <!-- Twitter Card -->
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="Terms &amp; Conditions | eMbrace Lives – SMD Wellness" name="twitter:title" />
+    <meta content="Terms &amp; Conditions | eMbrace Child Psychology, Delhi NCR" name="twitter:title" />
     <meta
-      content="Read the eMbrace terms &amp; conditions governing use of our mental health services, platform, bookings &amp; therapy sessions."
+      content="Read the eMbrace terms &amp; conditions governing use of our mental health services, platform, bookings &amp; therapy sessions. Applies to all eMbrace services."
       name="twitter:description"
     />
     <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
     <!-- JSON-LD Structured Data -->
-<title>Terms &amp; Conditions | eMbrace Lives – SMD Wellness</title>
+<title>Terms &amp; Conditions | eMbrace Child Psychology, Delhi NCR</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
@@ -316,7 +316,7 @@
         "@type": "WebPage",
         "@id": "https://embracelives.com/terms_and_conditions#webpage",
         "url": "https://embracelives.com/terms_and_conditions",
-        "name": "Terms & Conditions | eMbrace Lives – SMD Wellness",
+        "name": "Terms & Conditions | eMbrace Child Psychology, Delhi NCR",
         "isPartOf": {
           "@id": "https://embracelives.com/#website"
         },
@@ -324,7 +324,7 @@
           "@id": "https://embracelives.com/#organization"
         },
         "inLanguage": "en-IN",
-        "description": "Read the eMbrace terms & conditions governing use of our mental health services, platform, bookings & therapy sessions."
+        "description": "Read the eMbrace terms & conditions governing use of our mental health services, platform, bookings & therapy sessions. Applies to all eMbrace services."
       }
     ]
   }
@@ -338,7 +338,7 @@
         class="md:min-h-fit overflow-hidden flex flex-col items-center px-4 md:px-8 lg:px-16 xl:px-30 py-6 md:py-6 relative"
       >
         <div class="mb-8 w-full max-w-4xl flex flex-col items-center">
-          <h2 class="text-3xl font-bold mb-10 text-center">Terms &amp; Conditions</h2>
+          <h1 class="text-3xl font-bold mb-10 text-center">Terms &amp; Conditions</h1>
           <div class="text-sm text-[var(--text-gray)] leading-relaxed mb-15 font-medium text-justify">
             <span
               >These terms and conditions (“Terms of Use” or “Terms of Service” or “Terms”) are a computer-generated

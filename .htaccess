@@ -13,3 +13,31 @@
 </IfModule>
 
 DirectoryIndex index.php index.html
+
+# ---------------------------------------------------------------------------
+# Compression and caching.
+#
+# NOTE: embracelives.com is currently served by nginx, which ignores .htaccess
+# entirely. These blocks only take effect on Apache. The equivalent nginx
+# configuration is in PERFORMANCE.md and has to be applied on the server.
+# ---------------------------------------------------------------------------
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml
+    AddOutputFilterByType DEFLATE application/javascript application/json
+    AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    # Asset filenames are content-hashed, so a long life is safe.
+    ExpiresByType image/png "access plus 30 days"
+    ExpiresByType image/jpeg "access plus 30 days"
+    ExpiresByType image/svg+xml "access plus 30 days"
+    ExpiresByType image/webp "access plus 30 days"
+    ExpiresByType text/css "access plus 30 days"
+    ExpiresByType application/javascript "access plus 30 days"
+    ExpiresByType video/mp4 "access plus 1 year"
+    # HTML must stay fresh so content edits appear immediately.
+    ExpiresByType text/html "access plus 0 seconds"
+</IfModule>

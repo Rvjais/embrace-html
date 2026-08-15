@@ -61,29 +61,32 @@ function getPhpFiles(dir, fileList = []) {
 const phpFiles = getPhpFiles(__dirname);
 console.log(`Found ${phpFiles.length} PHP files to compile...`);
 
-// Load components
-const headerHtml = fs.existsSync(path.join(__dirname, 'components', 'header.php')) 
-    ? fs.readFileSync(path.join(__dirname, 'components', 'header.php'), 'utf8') : '';
-const footerHtml = fs.existsSync(path.join(__dirname, 'components', 'footer.php')) 
-    ? fs.readFileSync(path.join(__dirname, 'components', 'footer.php'), 'utf8') : '';
-const mobileHeaderHtml = fs.existsSync(path.join(__dirname, 'components', 'mobile-header.php')) 
-    ? fs.readFileSync(path.join(__dirname, 'components', 'mobile-header.php'), 'utf8') : '';
+// Load components once, keyed by name, so any component can be included from
+// any depth: <?php include __DIR__ . '/../components/<name>.php'; ?>
+const componentCache = new Map();
+function component(name) {
+    if (!componentCache.has(name)) {
+        const file = path.join(__dirname, 'components', `${name}.php`);
+        componentCache.set(name, fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '');
+    }
+    return componentCache.get(name);
+}
+
+// Matches the include no matter how many '/..' segments precede /components.
+const INCLUDE_RE = /<\?php\s+include\s+__DIR__\s*\.\s*'(?:\/\.\.)*\/components\/([A-Za-z0-9_-]+)\.php';\s*\?>/g;
 
 for (const file of phpFiles) {
     if (file === __filename || file.endsWith('build.php')) continue;
     
     let content = fs.readFileSync(file, 'utf8');
     
-    // Replace standard includes
-    content = content.replace(/<\?php\s+include\s+__DIR__\s*\.\s*'\/components\/header\.php';\s*\?>/g, headerHtml);
-    content = content.replace(/<\?php\s+include\s+__DIR__\s*\.\s*'\/components\/footer\.php';\s*\?>/g, footerHtml);
-    content = content.replace(/<\?php\s+include\s+__DIR__\s*\.\s*'\/components\/mobile-header\.php';\s*\?>/g, mobileHeaderHtml);
-    
-    // Replace subfolder includes (../components)
-    content = content.replace(/<\?php\s+include\s+__DIR__\s*\.\s*'\/..\/components\/header\.php';\s*\?>/g, headerHtml);
-    content = content.replace(/<\?php\s+include\s+__DIR__\s*\.\s*'\/..\/components\/footer\.php';\s*\?>/g, footerHtml);
-    content = content.replace(/<\?php\s+include\s+__DIR__\s*\.\s*'\/..\/components\/mobile-header\.php';\s*\?>/g, mobileHeaderHtml);
-    
+    // Inline every component include, at any directory depth
+    content = content.replace(INCLUDE_RE, (match, name) => component(name));
+
+    // The footer's copyright year is the one bit of real PHP in the templates;
+    // without this it shipped to dist as a literal "<?php echo date('Y'); ?>".
+    content = content.replace(/<\?php\s+echo\s+date\('Y'\);\s*\?>/g, String(new Date().getFullYear()));
+
     // Clean URLs
     content = content.replace(/href="([^"]+)\.php"/g, 'href="$1"');
     content = content.replace(/href="([^"]+)\.php\?([^"]+)"/g, 'href="$1?$2"');

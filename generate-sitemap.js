@@ -17,8 +17,15 @@ const BASE = 'https://embracelives.com';
 // Directories that never contain indexable pages.
 const SKIP_DIRS = new Set(['node_modules', 'dist', '.git', 'api', 'components', '_external', 'assets', 'assets_backup', 'practitioner-images', 'practitioner-images_backup', 'embrace-media', 'videos', '__pycache__']);
 
-// Pages that resolve but must stay out of search results.
-const SKIP_FILES = new Set(['build.php', 'thank-you.php', 'appointment__confirmation.php']);
+// Pages that resolve but must stay out of search results. The lead-magnet guides
+// are gated deliverables — they carry noindex and must not be crawlable, or the
+// email step is pointless.
+const SKIP_FILES = new Set([
+  'build.php', 'thank-you.php', 'appointment__confirmation.php',
+  'resources/guides/child-milestone-guide.php',
+  'resources/guides/adhd-autism-next-steps.php',
+  'resources/guides/7-day-reset-plan.php',
+]);
 
 // Higher priority for the entry points that should be crawled most often.
 const HUB_PAGES = new Set([
@@ -29,7 +36,9 @@ const HUB_PAGES = new Set([
   'learning-disabilities/learning-disabilities.php',
   'child-psychology/child-psychologist.php', 'parent-hub/parents.php',
   'schools-hub/schools.php', 'corporate-wellness/corporate-wellness.php',
-  'locations/index.php',
+  'locations/index.php', 'resources/index.php',
+  'resources/child-milestone-checker.php', 'resources/adhd-autism-screener.php',
+  'resources/adult-stress-check.php',
 ]);
 
 function collect(dir, out = []) {

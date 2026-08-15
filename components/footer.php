@@ -232,7 +232,7 @@
     <!-- Brand & About -->
     <div>
       <a href="/index.php" class="inline-block mb-6">
-        <img alt="eMbrace Logo" class="h-12 w-auto brightness-0 invert" src="/assets/Logo-DrHvIBUF.svg" />
+        <img decoding="async" width="152" height="99" alt="eMbrace Logo" class="h-12 w-auto brightness-0 invert" src="/assets/Logo-DrHvIBUF.svg" />
       </a>
       <p class="text-sm text-gray-400 leading-relaxed mb-6">
         Delhi's trusted psychologists — empowering neurodivergent minds with evidence-based care and compassionate support.
@@ -260,6 +260,12 @@
         <li><a href="/partners.php" class="hover:text-[#F2DC68] transition-colors">Partnerships</a></li>
         <li><a href="/giftatherapy.php" class="hover:text-[#F2DC68] transition-colors">Gift a Therapy</a></li>
         <li><a href="/autism/autism.php" class="hover:text-[#F2DC68] transition-colors">Autism Info Hub</a></li>
+        <li><a href="/child-development-centre/child-development-centre.php" class="hover:text-[#F2DC68] transition-colors">Child Development Centre</a></li>
+        <li><a href="/developmental-delay/developmental-delay-treatment.php" class="hover:text-[#F2DC68] transition-colors">Developmental Delay</a></li>
+        <li><a href="/pediatric-neurology/pediatric-neurologist.php" class="hover:text-[#F2DC68] transition-colors">Pediatric Neurologist</a></li>
+        <li><a href="/developmental-pediatrics/developmental-pediatrician.php" class="hover:text-[#F2DC68] transition-colors">Developmental Pediatrician</a></li>
+        <li><a href="/physiotherapy/physiotherapy.php" class="hover:text-[#F2DC68] transition-colors">Physiotherapy</a></li>
+        <li><a href="/aba-therapy/aba-therapy.php" class="hover:text-[#F2DC68] transition-colors">ABA Therapy</a></li>
       </ul>
     </div>
 
@@ -267,6 +273,7 @@
     <div>
       <h3 class="font-bold text-lg mb-6 text-white">Quick Links</h3>
       <ul class="space-y-4 text-sm text-gray-400">
+        <li><a href="/resources/index.php" class="hover:text-[#F2DC68] transition-colors font-semibold text-[#F2DC68]">Free Tools &amp; Screeners</a></li>
         <li><a href="/about.php" class="hover:text-[#F2DC68] transition-colors">About Us</a></li>
         <li><a href="/careers.php" class="hover:text-[#F2DC68] transition-colors">Careers</a></li>
         <li><a href="/contact-us.php" class="hover:text-[#F2DC68] transition-colors">Contact Us</a></li>

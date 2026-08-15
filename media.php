@@ -6,7 +6,7 @@
     <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
-      content="eMbrace in the news — media features, press coverage &amp; mental health awareness campaigns. See how we're shaping the conversation on neurodiversity."
+      content="eMbrace in the news — media features, press coverage &amp; mental health awareness campaigns. See how we're shaping the conversation on neurodiversity. Delhi NCR."
       name="description"
     />
     <meta content="index, follow" name="robots" />
@@ -14,9 +14,9 @@
     <!-- Open Graph -->
     <meta content="website" property="og:type" />
     <meta content="https://embracelives.com/media" property="og:url" />
-    <meta content="Media &amp; News | eMbrace Lives in the Press" property="og:title" />
+    <meta content="Media &amp; News | A Guide from eMbrace Psychologists | eMbrace" property="og:title" />
     <meta
-      content="eMbrace in the news — media features, press coverage &amp; mental health awareness campaigns. See how we're shaping the conversation on neurodiversity."
+      content="eMbrace in the news — media features, press coverage &amp; mental health awareness campaigns. See how we're shaping the conversation on neurodiversity. Delhi NCR."
       property="og:description"
     />
     <meta content="https://embracelives.com/og-image.png" property="og:image" />
@@ -26,14 +26,14 @@
     <meta content="en_IN" property="og:locale" />
     <!-- Twitter Card -->
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="Media &amp; News | eMbrace Lives in the Press" name="twitter:title" />
+    <meta content="Media &amp; News | A Guide from eMbrace Psychologists | eMbrace" name="twitter:title" />
     <meta
-      content="eMbrace in the news — media features, press coverage &amp; mental health awareness campaigns. See how we're shaping the conversation on neurodiversity."
+      content="eMbrace in the news — media features, press coverage &amp; mental health awareness campaigns. See how we're shaping the conversation on neurodiversity. Delhi NCR."
       name="twitter:description"
     />
     <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
     <!-- JSON-LD Structured Data -->
-<title>Media &amp; News | eMbrace Lives in the Press</title>
+<title>Media &amp; News | A Guide from eMbrace Psychologists | eMbrace</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
@@ -316,7 +316,7 @@
         "@type": "CollectionPage",
         "@id": "https://embracelives.com/media#webpage",
         "url": "https://embracelives.com/media",
-        "name": "Media & News | eMbrace Lives in the Press",
+        "name": "Media & News | A Guide from eMbrace Psychologists | eMbrace",
         "isPartOf": {
           "@id": "https://embracelives.com/#website"
         },
@@ -324,7 +324,7 @@
           "@id": "https://embracelives.com/#organization"
         },
         "inLanguage": "en-IN",
-        "description": "eMbrace in the news — media features, press coverage & mental health awareness campaigns. See how we're shaping the conversation on neurodiversity."
+        "description": "eMbrace in the news — media features, press coverage & mental health awareness campaigns. See how we're shaping the conversation on neurodiversity. Delhi NCR."
       }
     ]
   }
@@ -373,7 +373,7 @@
           }
         </style>
         <div class="bg-[linear-gradient(to_bottom,_#6DD0FC45,_#FFFFFF)] px-4 py-6 text-center pt-15 lg:pb-10">
-          <h4 class="text-black text-lg lg:text-2xl font-bold">Media Spotlight: eMbrace in the News</h4>
+          <h1 class="text-black text-lg lg:text-2xl font-bold">Media Spotlight: eMbrace in the News</h1>
           <p class="text-sm italic pt-1 lg:pt-2">Our voice across platforms.</p>
           <p class="text-xs text-[#403D3D] pt-2 px-5 italic lg:w-[38%] mx-auto">
             Explore how eMbrace is shaping the conversation on mental health, neurodiversity, and inclusion across
@@ -387,7 +387,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img decoding="async" width="403" height="403"
                   alt="Unfair Weather Warriors – The New Sunday Express Magazine"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card1-ImXgbZGy.svg"
@@ -405,7 +405,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img fetchpriority="high" decoding="async" width="400" height="400"
                   alt='Awarded "Organization that Promotes Diversity &amp; Inclusion"'
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card2-pu-EdSuv.svg"
@@ -423,7 +423,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img decoding="async" width="500" height="200"
                   alt="AI &amp; Mental Health"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card3-Bn-JCufN.svg"
@@ -441,7 +441,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="308" height="411"
                   alt='"Key to Good Mental Health is Awareness" – Article by Dr. Supriya in Zoom Magazine'
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card4-1qB_pyj0.svg"
@@ -458,7 +458,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="630" height="305"
                   alt='Awarded "BW 40 under 40" – Healthcare Category, 2022'
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card5-BzY2vcQL.svg"
@@ -479,7 +479,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="403" height="403"
                   alt="Unfair Weather Warriors – The New Sunday Express Magazine"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card1-ImXgbZGy.svg"
@@ -499,7 +499,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="400" height="400"
                   alt='Awarded "Organization that Promotes Diversity &amp; Inclusion"'
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card2-pu-EdSuv.svg"
@@ -519,7 +519,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="500" height="200"
                   alt="AI &amp; Mental Health"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card3-Bn-JCufN.svg"
@@ -539,7 +539,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="308" height="411"
                   alt='"Key to Good Mental Health is Awareness" – Article by Dr. Supriya in Zoom Magazine'
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card4-1qB_pyj0.svg"
@@ -558,7 +558,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="630" height="305"
                   alt='Awarded "BW 40 under 40" – Healthcare Category, 2022'
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card5-BzY2vcQL.svg"
@@ -587,7 +587,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="223" height="215"
                   alt="Making sense of ADHD across culture gender &amp; lived experiences"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/Mynd-aw1UC8kb.svg"
@@ -604,7 +604,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="608" height="351"
                   alt="Podcast on Parenting Neurodivergent Children - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card2-hdAdLOv2.svg"
@@ -621,7 +621,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="385" height="382"
                   alt="Rising 2023 Women in Tech"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card3-4U-ZnHuw.svg"
@@ -639,7 +639,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="369" height="369"
                   alt="Podcast: Creating Space for Neurodivergence - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card4-CDQebk9g.svg"
@@ -656,7 +656,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="616" height="348"
                   alt="Doctube Webisode 8 – Indian Menopause Society"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card5-8d5JpuLO.svg"
@@ -673,7 +673,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="357" height="357"
                   alt="Radio Masti Singapore – MastiAVI Exclusive Interview"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card6-BRB1C9eu.svg"
@@ -690,7 +690,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="626" height="374"
                   alt="Workshop at AIIMS - hosted by Indian Academy of Neurology"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card7-Cq5PwFTF.svg"
@@ -707,7 +707,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="420" height="338"
                   alt="Webinar: Psychological Effects of Environmental &amp; Women's Health"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card8-OX_YWUJV.svg"
@@ -724,7 +724,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="582" height="338"
                   alt="UpTodd Podcast &amp; Blog Feature"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card9-JxtDqZsB.svg"
@@ -741,7 +741,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="564" height="346"
                   alt="Artemis Online Counselling Connect - Fortis Mental Health Department"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card10-2U7QtOA_.svg"
@@ -762,7 +762,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="223" height="215"
                   alt="Making sense of ADHD across culture gender &amp; lived experiences"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/Mynd-aw1UC8kb.svg"
@@ -781,7 +781,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="608" height="351"
                   alt="Podcast on Parenting Neurodivergent Children - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card2-hdAdLOv2.svg"
@@ -800,7 +800,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="385" height="382"
                   alt="Rising 2023 Women in Tech"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card3-4U-ZnHuw.svg"
@@ -820,7 +820,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="369" height="369"
                   alt="Podcast: Creating Space for Neurodivergence - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card4-CDQebk9g.svg"
@@ -839,7 +839,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="616" height="348"
                   alt="Doctube Webisode 8 – Indian Menopause Society"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card5-8d5JpuLO.svg"
@@ -858,7 +858,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="357" height="357"
                   alt="Radio Masti Singapore – MastiAVI Exclusive Interview"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card6-BRB1C9eu.svg"
@@ -877,7 +877,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="626" height="374"
                   alt="Workshop at AIIMS - hosted by Indian Academy of Neurology"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card7-Cq5PwFTF.svg"
@@ -896,7 +896,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="420" height="338"
                   alt="Webinar: Psychological Effects of Environmental &amp; Women's Health"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card8-OX_YWUJV.svg"
@@ -915,7 +915,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="582" height="338"
                   alt="UpTodd Podcast &amp; Blog Feature"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card9-JxtDqZsB.svg"
@@ -934,7 +934,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="564" height="346"
                   alt="Artemis Online Counselling Connect - Fortis Mental Health Department"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card10-2U7QtOA_.svg"
@@ -968,7 +968,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="618" height="345"
                   alt="Caregivers &amp; Autism - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card1-D7K00Rlt.svg"
@@ -985,7 +985,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="618" height="345"
                   alt="ADHD at Work - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card1-D7K00Rlt.svg"
@@ -1002,7 +1002,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="638" height="372"
                   alt="Autism at Work @ Amazon - in"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card3-CGK_QcDd.svg"
@@ -1020,7 +1020,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="643" height="349"
                   alt="Workplace Wellbeing with The Union (USAID)"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card4-B3pHMjIT.svg"
@@ -1037,7 +1037,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="590" height="334"
                   alt="Neurodiversity at Work - Workshop with Ashoka University"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card5-DgPC6hsC.svg"
@@ -1054,7 +1054,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="458" height="458"
                   alt="Neurodiversity at Work - Workshops with Allianz"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card6-CyRvqOla.svg"
@@ -1071,7 +1071,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="479" height="221"
                   alt="Neurodiversity at Work - Workshops with RMZ"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card7-CxaZ9P9X.svg"
@@ -1088,7 +1088,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="1280" height="961"
                   alt="Digital Wellbeing &amp; Cybersafety Workshop- The Doon School"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card8-DMqRkChg.jpeg"
@@ -1110,7 +1110,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="618" height="345"
                   alt="Caregivers &amp; Autism - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card1-D7K00Rlt.svg"
@@ -1129,7 +1129,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="618" height="345"
                   alt="ADHD at Work - Myndstories"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card1-D7K00Rlt.svg"
@@ -1148,7 +1148,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="638" height="372"
                   alt="Autism at Work @ Amazon - in"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card3-CGK_QcDd.svg"
@@ -1168,7 +1168,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="643" height="349"
                   alt="Workplace Wellbeing with The Union (USAID)"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card4-B3pHMjIT.svg"
@@ -1187,7 +1187,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="590" height="334"
                   alt="Neurodiversity at Work - Workshop with Ashoka University"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card5-DgPC6hsC.svg"
@@ -1206,7 +1206,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="458" height="458"
                   alt="Neurodiversity at Work - Workshops with Allianz"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card6-CyRvqOla.svg"
@@ -1225,7 +1225,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="479" height="221"
                   alt="Neurodiversity at Work - Workshops with RMZ"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card7-CxaZ9P9X.svg"
@@ -1244,7 +1244,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md p-4 flex flex-col items-center text-center space-y-2 w-[90%] h-70 lg:h-80 flex-shrink-0"
               >
-                <img
+                <img loading="lazy" decoding="async" width="1280" height="961"
                   alt="Digital Wellbeing &amp; Cybersafety Workshop- The Doon School"
                   class="w-20 h-20 lg:w-40 lg:h-25 object-contain"
                   src="/assets/card8-DMqRkChg.jpeg"
@@ -1276,40 +1276,40 @@
           <p class="text-center text-sm text-[#403D3D] italic mb-6">Behind the scenes — real workshops, real moments, real impact.</p>
           <div class="columns-2 md:columns-3 lg:columns-4 gap-4 px-4">
             <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
-              <img alt="eMbrace Workshop - Dr. Supriya" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2026-03-27-14-56-26.jpg" />
+              <img decoding="async" width="1200" height="1600" alt="eMbrace Workshop - Dr. Supriya" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2026-03-27-14-56-26.jpg" />
             </div>
             <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
-              <img alt="eMbrace Event - Dr. Supriya" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2026-03-27-14-55-34.jpg" />
+              <img decoding="async" width="1200" height="1600" alt="eMbrace Event - Dr. Supriya" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2026-03-27-14-55-34.jpg" />
             </div>
             <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
-              <img alt="Bangalore - The Rising Event" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Bangalore%20The%20Rising/IMG_1537.jpg" />
+              <img decoding="async" width="1440" height="1920" alt="Bangalore - The Rising Event" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Bangalore%20The%20Rising/IMG_1537.jpg" />
             </div>
             <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
-              <img alt="eMbrace Workshop Session" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-06-03-14-40-06.jpg" />
+              <img decoding="async" width="1200" height="1600" alt="eMbrace Workshop Session" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-06-03-14-40-06.jpg" />
             </div>
             <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
-              <img alt="Bangalore - The Rising Event" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Bangalore%20The%20Rising/IMG_1534.jpg" />
+              <img decoding="async" width="1440" height="1920" alt="Bangalore - The Rising Event" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Bangalore%20The%20Rising/IMG_1534.jpg" />
             </div>
             <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
-              <img alt="eMbrace Team Workshop" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-09-11-23-16-05.jpg" />
+              <img decoding="async" width="1200" height="1600" alt="eMbrace Team Workshop" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-09-11-23-16-05.jpg" />
             </div>
             <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
-              <img alt="Bangalore - The Rising Event" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Bangalore%20The%20Rising/IMG_1527.jpg" />
+              <img decoding="async" width="1920" height="1440" alt="Bangalore - The Rising Event" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Bangalore%20The%20Rising/IMG_1527.jpg" />
             </div>
             <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
-              <img alt="eMbrace Event Photo" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2026-02-18-09-44-21.jpg" />
+              <img decoding="async" width="1440" height="1920" alt="eMbrace Event Photo" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2026-02-18-09-44-21.jpg" />
             </div>
             <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
-              <img alt="eMbrace Workshop" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-10-06-20-23-03.jpg" />
+              <img decoding="async" width="1600" height="1200" alt="eMbrace Workshop" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-10-06-20-23-03.jpg" />
             </div>
             <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
-              <img alt="Bangalore - The Rising Event" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Bangalore%20The%20Rising/IMG_1530.jpg" />
+              <img decoding="async" width="1440" height="1920" alt="Bangalore - The Rising Event" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Bangalore%20The%20Rising/IMG_1530.jpg" />
             </div>
             <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
-              <img alt="eMbrace Panel Discussion" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-03-21-12-02-00.jpg" />
+              <img decoding="async" width="1600" height="1200" alt="eMbrace Panel Discussion" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-03-21-12-02-00.jpg" />
             </div>
             <div class="rounded-2xl overflow-hidden break-inside-avoid shadow-sm mb-4">
-              <img alt="eMbrace Workshop Photo" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-04-03-12-06-22.jpg" />
+              <img decoding="async" width="1200" height="1600" alt="eMbrace Workshop Photo" class="w-full h-auto block object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-04-03-12-06-22.jpg" />
             </div>
           </div>
         </div>

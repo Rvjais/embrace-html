@@ -6,7 +6,7 @@
     <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
-      content="Join eMbrace — Delhi's leading psychology practice. We're hiring clinical psychologists, child therapists, counsellors &amp; special educators."
+      content="Join eMbrace — Delhi's leading psychology practice. We're hiring clinical psychologists, child therapists, counsellors &amp; special educators. Get in touch."
       name="description"
     />
     <meta content="index, follow" name="robots" />
@@ -14,9 +14,9 @@
     <!-- Open Graph -->
     <meta content="website" property="og:type" />
     <meta content="https://embracelives.com/careers" property="og:url" />
-    <meta content="Careers in Psychology | eMbrace Lives" property="og:title" />
+    <meta content="Careers in Psychology | eMbrace Child Psychology, Delhi NCR" property="og:title" />
     <meta
-      content="Join eMbrace — Delhi's leading psychology practice. We're hiring clinical psychologists, child therapists, counsellors &amp; special educators."
+      content="Join eMbrace — Delhi's leading psychology practice. We're hiring clinical psychologists, child therapists, counsellors &amp; special educators. Get in touch."
       property="og:description"
     />
     <meta content="https://embracelives.com/og-image.png" property="og:image" />
@@ -26,14 +26,14 @@
     <meta content="en_IN" property="og:locale" />
     <!-- Twitter Card -->
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="Careers in Psychology | eMbrace Lives" name="twitter:title" />
+    <meta content="Careers in Psychology | eMbrace Child Psychology, Delhi NCR" name="twitter:title" />
     <meta
-      content="Join eMbrace — Delhi's leading psychology practice. We're hiring clinical psychologists, child therapists, counsellors &amp; special educators."
+      content="Join eMbrace — Delhi's leading psychology practice. We're hiring clinical psychologists, child therapists, counsellors &amp; special educators. Get in touch."
       name="twitter:description"
     />
     <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
     <!-- JSON-LD Structured Data -->
-<title>Careers in Psychology | eMbrace Lives</title>
+<title>Careers in Psychology | eMbrace Child Psychology, Delhi NCR</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
@@ -316,7 +316,7 @@
         "@type": "WebPage",
         "@id": "https://embracelives.com/careers#webpage",
         "url": "https://embracelives.com/careers",
-        "name": "Careers in Psychology | eMbrace Lives",
+        "name": "Careers in Psychology | eMbrace Child Psychology, Delhi NCR",
         "isPartOf": {
           "@id": "https://embracelives.com/#website"
         },
@@ -324,7 +324,7 @@
           "@id": "https://embracelives.com/#organization"
         },
         "inLanguage": "en-IN",
-        "description": "Join eMbrace — Delhi's leading psychology practice. We're hiring clinical psychologists, child therapists, counsellors & special educators."
+        "description": "Join eMbrace — Delhi's leading psychology practice. We're hiring clinical psychologists, child therapists, counsellors & special educators. Get in touch."
       }
     ]
   }
@@ -338,7 +338,7 @@
         class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 bg-gradient-to-b from-[#FFE9E7] to-[#FFFFFF] mb-6 md:mb-0 relative overflow-hidden h-fit md:min-h-fit md:py-0 py-6 2xl:py-10 flex flex-col items-center md:flex-row md:gap-8"
       >
         <div class="bg-[#FF00484A] h-12 w-12 rounded-full absolute -bottom-[3.5%] left-[5%] md:left-[40%]"></div>
-        <div class="md:w-[40%] w-full flex"><img alt="" class="" src="/assets/CareersHero-DQRuZDUV.svg" /></div>
+        <div class="md:w-[40%] w-full flex"><img decoding="async" width="826" height="821" alt="" class="" src="/assets/CareersHero-DQRuZDUV.svg" /></div>
         <div class="w-full md:w-[60%] flex flex-col items-center justify-center gap-2 md:gap-6">
           <h1 class="text-3xl font-bold">Careers</h1>
           <p
@@ -363,7 +363,7 @@
           class="h-14 w-14 bg-[#FFCC004A] rounded-full absolute -bottom-[4%] md:bottom-[-3%] left-[6%] md:left-[15%] z-10"
         ></div>
         <div class="flex flex-col items-center justify-center">
-          <h1 class="md:text-3xl text-lg font-bold text-center 2xl:text-5xl">Why Work With Us?</h1>
+          <h2 class="md:text-3xl text-lg font-bold text-center 2xl:text-5xl">Why Work With Us?</h2>
           <ul
             class="2xl:mt-4 2xl:text-2xl font-medium text-sm md:text-base flex flex-col gap-2 md:text-center text-[var(--text-gray)] italic mt-6 md:mt-6"
           >
@@ -406,27 +406,27 @@
         </div>
         <div class="relative w-full flex flex-col items-center justify-center 2xl:mt-30 md:mt-20 -mt-6">
           <div class="flex items-center justify-center w-full gap-2 md:gap-6 relative h-56 md:h-60">
-            <img
+            <img fetchpriority="high" decoding="async" width="600" height="400"
               alt="carousel-img-0"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-30 md:scale-95 scale-170 -translate-x-1/2 -translate-y-1/2 shadow-2xl"
               src="/assets/Hero1-C-qSiXdK.png"
               style="pointer-events: auto; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img decoding="async" width="600" height="400"
               alt="carousel-img-1"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[10%] md:translate-x-[0%]"
               src="/assets/Hero2-BRdQKI21.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-2"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 translate-x-[30%]"
               src="/assets/Hero3-H9DUJDHD.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-3"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 -translate-x-[130%]"
               src="/assets/Hero4-edEK0Oiq.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-4"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[90%] md:-translate-x-[100%]"
               src="/assets/Hero5-BBP1R88F.png"
@@ -468,7 +468,7 @@
         <div class="bg-[#FFAAF99E] w-14 h-14 md:hidden block absolute rounded-full -left-[3%] top-[43%]"></div>
         <div class="bg-[#AAAAFF61] w-16 h-16 md:hidden block absolute rounded-full -right-[4%] bottom-[0%]"></div>
         <div class="flex flex-col items-center justify-center">
-          <h1 class="md:text-3xl text-lg font-bold text-center 2xl:text-5xl">Open Positions</h1>
+          <h2 class="md:text-3xl text-lg font-bold text-center 2xl:text-5xl">Open Positions</h2>
           <p
             class="2xl:mt-4 2xl:text-2xl font-medium text-sm md:text-base md:text-center text-[var(--text-gray)] italic mt-6 md:mt-6"
           >
@@ -477,12 +477,12 @@
           </p>
         </div>
         <div class="flex flex-col items-center w-full md:gap-8 mt-6 md:mt-10">
-          <h1 class="md:text-xl text-lg font-semibold text-center 2xl:text-3xl">Clinical Roles</h1>
+          <h2 class="md:text-xl text-lg font-semibold text-center 2xl:text-3xl">Clinical Roles</h2>
           <div class="flex flex-wrap justify-center gap-6 md:gap-10 w-full mt-10 md:mt-2">
             <div
               class="bg-white border z-1 border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img alt="Clinical Psychologist" class="w-[90%] md:w-[100%]" src="/assets/Clinic1-CskZc0Os.svg" />
+              <img loading="lazy" decoding="async" width="381" height="284" alt="Clinical Psychologist" class="w-[90%] md:w-[100%]" src="/assets/Clinic1-CskZc0Os.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm underline text-center font-semibold mb-2 md:mb-1 text-[#234394]">
                   Clinical Psychologist
@@ -500,7 +500,7 @@
             <div
               class="bg-white border z-1 border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img alt="Child Psychologist" class="w-[90%] md:w-[100%]" src="/assets/Clinic2-D04TXOit.svg" />
+              <img loading="lazy" decoding="async" width="381" height="272" alt="Child Psychologist" class="w-[90%] md:w-[100%]" src="/assets/Clinic2-D04TXOit.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm underline text-center font-semibold mb-2 md:mb-1 text-[#234394]">
                   Child Psychologist
@@ -518,7 +518,7 @@
             <div
               class="bg-white border z-1 border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img alt="Occupational Therapist" class="w-[90%] md:w-[100%]" src="/assets/Clinic3-Rilx_xXh.svg" />
+              <img loading="lazy" decoding="async" width="393" height="274" alt="Occupational Therapist" class="w-[90%] md:w-[100%]" src="/assets/Clinic3-Rilx_xXh.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm underline text-center font-semibold mb-2 md:mb-1 text-[#234394]">
                   Occupational Therapist
@@ -536,7 +536,7 @@
             <div
               class="bg-white border z-1 border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img alt="Speech Therapist" class="w-[90%] md:w-[100%]" src="/assets/Clinic4-Cj1kjIbJ.svg" />
+              <img loading="lazy" decoding="async" width="392" height="283" alt="Speech Therapist" class="w-[90%] md:w-[100%]" src="/assets/Clinic4-Cj1kjIbJ.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm underline text-center font-semibold mb-2 md:mb-1 text-[#234394]">
                   Speech Therapist
@@ -552,12 +552,12 @@
               </a>
             </div>
           </div>
-          <h1 class="md:text-xl text-lg font-semibold text-center 2xl:text-3xl mt-6">Training &amp; Internships</h1>
+          <h2 class="md:text-xl text-lg font-semibold text-center 2xl:text-3xl mt-6">Training &amp; Internships</h2>
           <div class="flex flex-wrap justify-center gap-6 md:gap-10 w-full mt-8 md:mt-2">
             <div
               class="z-1 bg-white border border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img
+              <img loading="lazy" decoding="async" width="381" height="284"
                 alt="Summer Internship (June- July)"
                 class="w-[90%] md:w-[100%]"
                 src="/assets/Training1-1gxyFliw.svg"
@@ -579,7 +579,7 @@
             <div
               class="z-1 bg-white border border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img alt="Fellow (Learn &amp; Train)" class="w-[90%] md:w-[100%]" src="/assets/Training2-DoUacN-4.svg" />
+              <img loading="lazy" decoding="async" width="381" height="286" alt="Fellow (Learn &amp; Train)" class="w-[90%] md:w-[100%]" src="/assets/Training2-DoUacN-4.svg" />
               <div class="text-start">
                 <h2 class="text-base font-semibold lg:text-sm underline text-center mb-2 md:mb-1 text-[#234394]">
                   Fellow (Learn &amp; Train)
@@ -597,7 +597,7 @@
             <div
               class="z-1 bg-white border border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img
+              <img loading="lazy" decoding="async" width="381" height="284"
                 alt="Winter Internship (December)"
                 class="w-[90%] md:w-[100%]"
                 src="/assets/Training1-1gxyFliw.svg"
@@ -622,9 +622,9 @@
       <div
         class="md:min-h-fit overflow-hidden flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 xl:px-20 py-6 md:py-10 relative"
       >
-        <h1 class="text-xl md:text-3xl font-bold text-center">Life at eMbrace</h1>
+        <h2 class="text-xl md:text-3xl font-bold text-center">Life at eMbrace</h2>
         <div class="relative flex mt-6 items-center justify-center w-full mx-auto">
-          <img
+          <img loading="lazy" decoding="async" width="1200" height="1600"
             alt="carousel-1"
             class="md:w-[90%] 2xl:h-[50rem] h-[30rem] object-cover rounded-xl shadow"
             src="/assets/carousel1-BUqaO1dK.jpg"
@@ -659,7 +659,7 @@
           <div class="absolute md:h-12 md:w-12 h-6 w-6 rounded-full bg-[#7AE6B95E] md:right-[1%] md:bottom-[9%]"></div>
           <div class="absolute md:h-12 md:w-12 h-6 w-6 rounded-full bg-[#FFCC005E] md:right-[2%] md:bottom-[6%]"></div>
           <div class="absolute h-15 w-15 rounded-full bg-[#4562AD9E] -bottom-[3%] md:-bottom-[4.5%] left-[10%]"></div>
-          <h1 class="text-2xl md:text-3xl 2xl:text-4xl font-bold text-center mt-10 md:mt-0">Testimonials</h1>
+          <h2 class="text-2xl md:text-3xl 2xl:text-4xl font-bold text-center mt-10 md:mt-0">Testimonials</h2>
           <div class="w-full relative md:mt-15 2xl:mt-24">
             <div
               class="flex justify-center md:gap-4 gap-8 md:flex-row flex-col overflow-x-hidden md:px-8 pb-6 pt-3 w-full"
@@ -671,7 +671,7 @@
                 <div class="flex flex-row items-start space-x-4">
                   <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                   <div class="flex flex-col">
-                    <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h1>
+                    <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h2>
                     <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">VP, HSBC</p>
                   </div>
                 </div>
@@ -689,7 +689,7 @@
                 <div class="flex flex-row items-start space-x-4">
                   <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                   <div class="flex flex-col">
-                    <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Anshul Tripathi</h1>
+                    <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Anshul Tripathi</h2>
                     <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">MD, cology</p>
                   </div>
                 </div>
@@ -707,7 +707,7 @@
                 <div class="flex flex-row items-start space-x-4">
                   <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                   <div class="flex flex-col">
-                    <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h1>
+                    <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h2>
                     <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">
                       Unit Chief for Bhutan, U.S. Embassy
                     </p>

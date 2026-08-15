@@ -11,7 +11,7 @@
 <!-- Open Graph -->
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/" property="og:url"/>
-<meta content="eMbrace Lives | Best Psychologist in Delhi – Clinical &amp; Child Psychology" property="og:title"/>
+<meta content="Best Child Psychologist in Delhi NCR | eMbrace Lives" property="og:title"/>
 <meta content="eMbrace – Delhi's trusted psychology practice. Evidence-based therapy for anxiety, depression, ADHD, autism &amp; more. Consult top clinical &amp; child psychologists." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="1200" property="og:image:width"/>
@@ -20,16 +20,18 @@
 <meta content="en_IN" property="og:locale"/>
 <!-- Twitter Card -->
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="eMbrace Lives | Best Psychologist in Delhi – Clinical &amp; Child Psychology" name="twitter:title"/>
+<meta content="Best Child Psychologist in Delhi NCR | eMbrace Lives" name="twitter:title"/>
 <meta content="eMbrace – Delhi's trusted psychology practice. Evidence-based therapy for anxiety, depression, ADHD, autism &amp; more. Consult top clinical &amp; child psychologists." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
 <!-- JSON-LD Structured Data -->
-<title>eMbrace Lives | Best Psychologist in Delhi – Clinical &amp; Child Psychology</title>
+<title>Best Child Psychologist in Delhi NCR | eMbrace Lives</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-<script src="https://unpkg.com/@phosphor-icons/web"></script>
+<link href="https://unpkg.com" rel="preconnect" crossorigin />
+<script src="https://unpkg.com/@phosphor-icons/web" defer></script>
 <link href="/assets/index-B-kGA3UA.css" rel="stylesheet"/>
+<link href="/assets/lead-magnets.css" rel="stylesheet"/>
 <style>
   body, h1, h2, h3, h4, h5, h6, p, a, span, div, button, input {
     font-family: 'Outfit', sans-serif;
@@ -337,7 +339,7 @@
       "@type": "WebPage",
       "@id": "https://embracelives.com/#webpage",
       "url": "https://embracelives.com/",
-      "name": "eMbrace Lives | Best Psychologist in Delhi – Clinical & Child Psychology",
+      "name": "Best Child Psychologist in Delhi NCR | eMbrace Lives",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -351,7 +353,7 @@
       "@type": "FAQPage",
       "@id": "https://embracelives.com/#faq",
       "url": "https://embracelives.com/",
-      "name": "eMbrace Lives | Best Psychologist in Delhi – Clinical & Child Psychology — Frequently Asked Questions",
+      "name": "Best Child Psychologist in Delhi NCR | eMbrace Lives — Frequently Asked Questions",
       "isPartOf": {
         "@id": "https://embracelives.com/#webpage"
       },
@@ -468,7 +470,7 @@
         </p>
 <div class="flex flex-col md:flex-row gap-10 mt-4">
 <div class="bg-white shadow-[0_2px_8px_rgb(0,0,0,0)]/15 rounded-3xl p-6 lg:w-[20rem] 2xl:w-[30rem] flex flex-col items-center">
-<img alt="Child &amp; Adolescent" class="w-[13rem] h-[13rem] md:w-[14rem] md:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem] md:-mt-10 -mt-10" src="/assets/Child-B5wmfdHC.svg"/>
+<img decoding="async" width="407" height="305" alt="Child &amp; Adolescent" class="w-[13rem] h-[13rem] md:w-[14rem] md:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem] md:-mt-10 -mt-10" src="/assets/Child-B5wmfdHC.svg"/>
 <h3 class="text-lg 2xl:text-2xl font-bold mb-2 lg:-mt-8 -mt-2">Child &amp; Adolescent</h3>
 <p class="text-[#403D3D] text-xs 2xl:text-lg text-center italic mb-4">
               Connect with a dedicated child psychologist in Delhi for early intervention, assessments, and therapy —
@@ -479,7 +481,7 @@
             </a>
 </div>
 <div class="bg-white shadow-[0_2px_8px_rgb(0,0,0,0)]/15 rounded-3xl p-6 lg:w-[20rem] 2xl:w-[30rem] flex flex-col items-center">
-<img alt="Adult" class="w-[13rem] h-[13rem] md:w-[14rem] md:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem] md:-mt-10 -mt-10" src="/assets/Adult-pmFSd-vs.svg"/>
+<img fetchpriority="high" decoding="async" width="407" height="307" alt="Adult" class="w-[13rem] h-[13rem] md:w-[14rem] md:h-[14rem] 2xl:w-[20rem] 2xl:h-[20rem] md:-mt-10 -mt-10" src="/assets/Adult-pmFSd-vs.svg"/>
 <h3 class="text-lg 2xl:text-2xl font-bold mb-2 lg:-mt-8 -mt-2">Adult</h3>
 <p class="text-[#403D3D] text-xs 2xl:text-lg text-center italic mb-4">
               Confidential, evidence-based therapy and assessments by experienced clinical psychologists — designed to
@@ -491,6 +493,22 @@
 </div>
 </div>
 </div>
+</div>
+<!-- Free tools strip — first-touch entry to the lead-magnet funnel -->
+<div style="background:linear-gradient(90deg,#234394,#3d5cb0);padding:.9rem 1rem">
+  <div style="max-width:76rem;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.75rem 1.25rem;text-align:center">
+    <p style="margin:0;color:#fff;font-size:.95rem;font-weight:600">
+      <span style="color:#F2DC68">Free &amp; instant:</span> not sure whether to book? Try a 3-minute check first.
+    </p>
+    <div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center">
+      <a href="/resources/child-milestone-checker.php" data-lm-cta="child-milestone-checker" data-lm-placement="home_strip"
+         style="background:#F2DC68;color:#234394;font-size:.82rem;font-weight:700;padding:.45rem 1rem;border-radius:999px;text-decoration:none">Child milestones</a>
+      <a href="/resources/adhd-autism-screener.php" data-lm-cta="adhd-autism-screener" data-lm-placement="home_strip"
+         style="background:rgba(255,255,255,.14);color:#fff;font-size:.82rem;font-weight:700;padding:.45rem 1rem;border-radius:999px;text-decoration:none;border:1px solid rgba(255,255,255,.35)">ADHD &amp; autism signs</a>
+      <a href="/resources/adult-stress-check.php" data-lm-cta="adult-stress-check" data-lm-placement="home_strip"
+         style="background:rgba(255,255,255,.14);color:#fff;font-size:.82rem;font-weight:700;padding:.45rem 1rem;border-radius:999px;text-decoration:none;border:1px solid rgba(255,255,255,.35)">Adult stress check</a>
+    </div>
+  </div>
 </div>
 <section class="relative overflow-hidden bg-gradient-to-b from-[#FFFFFF] to-[#F8F2FF] px-4 md:px-8 lg:px-16 xl:px-30 py-16 md:py-24">
 <div class="absolute hidden md:block h-14 w-14 rounded-full bg-[#B9F1DA]/70 -left-[1%] top-[15%]"></div>
@@ -571,14 +589,14 @@
           </p>
 <div class="flex flex-col md:flex-row gap-6 md:gap-10 mt-10">
 <div class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto">
-<img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/whyEmbrace1-DW5MNxO-.svg"/>
+<img decoding="async" width="548" height="354" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/whyEmbrace1-DW5MNxO-.svg"/>
 <div class="text-start">
 <h2 class="text-md lg:text-lg font-semibold mb-2">Standardized &amp; Evidence-Based Care</h2>
 <p class="text-sm lg:text-md text-gray-600">NICE Protocols, Pearson Accredited, I-CAN Approved</p>
 </div>
 </div>
 <div class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto">
-<img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/whyEmbrace2-0IEKABAK.svg"/>
+<img loading="lazy" decoding="async" width="548" height="354" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/whyEmbrace2-0IEKABAK.svg"/>
 <div class="text-start">
 <h2 class="text-md lg:text-lg font-semibold mb-2">Highly Qualified Therapists</h2>
 <p class="text-sm lg:text-md text-gray-600">
@@ -587,7 +605,7 @@
 </div>
 </div>
 <div class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto">
-<img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/whyEmbrace3-DcdTsaaw.svg"/>
+<img loading="lazy" decoding="async" width="549" height="354" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/whyEmbrace3-DcdTsaaw.svg"/>
 <div class="text-start">
 <h2 class="text-md lg:text-lg font-semibold mb-2">Lifespan Care Model</h2>
 <p class="text-sm lg:text-md text-gray-600">
@@ -686,7 +704,7 @@
 </div>
 <div class="flex flex-col gap-4 mt-4 md:mt-2 justify-center">
 <div class="relative w-full">
-<img alt="Child Image" class="md:w-[100rem] md:h-[10rem] 2xl:h-[30rem] object-cover h-[40rem] rounded-4xl brightness-75" src="/assets/wellBeingChild-UCyF3uBq.svg"/>
+<img loading="lazy" decoding="async" width="2301" height="1059" alt="Child Image" class="md:w-[100rem] md:h-[10rem] 2xl:h-[30rem] object-cover h-[40rem] rounded-4xl brightness-75" src="/assets/wellBeingChild-UCyF3uBq.svg"/>
 <div class="absolute text-white left-5 md:left-[2rem] top-5 md:top-auto md:bottom-8">
 <h3 class="md:text-3xl text-2xl font-bold">Come Visit Our Spaces!</h3>
 <p class="md:text-lg text-md font-semibold mt-2 md:w-full w-[60%]">
@@ -937,16 +955,16 @@
     
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 w-full max-w-6xl mx-auto z-10 relative">
       <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 group">
-        <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/IMG-20250324-WA0088.jpg" alt="eMbrace Moments" class="w-full h-48 md:h-64 object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+        <img decoding="async" width="768" height="1024" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/IMG-20250324-WA0088.jpg" alt="eMbrace Moments" class="w-full h-48 md:h-64 object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
       </div>
       <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 group">
-        <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-03-11-20-14-38.jpg" alt="eMbrace Moments" class="w-full h-48 md:h-64 object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+        <img decoding="async" width="1560" height="1040" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-03-11-20-14-38.jpg" alt="eMbrace Moments" class="w-full h-48 md:h-64 object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
       </div>
       <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 group">
-        <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-04-03-12-06-08.jpg" alt="eMbrace Moments" class="w-full h-48 md:h-64 object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+        <img decoding="async" width="1600" height="900" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2025-04-03-12-06-08.jpg" alt="eMbrace Moments" class="w-full h-48 md:h-64 object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
       </div>
       <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 group">
-        <img src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-05-20-16-48-47.jpg" alt="eMbrace Moments" class="w-full h-48 md:h-64 object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+        <img decoding="async" width="960" height="1280" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2023-05-20-16-48-47.jpg" alt="eMbrace Moments" class="w-full h-48 md:h-64 object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
       </div>
     </div>
     
@@ -1023,7 +1041,7 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 M</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Mr. Andrew">Mr. Andrew</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Mr. Andrew">Mr. Andrew</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="Unit Chief for Bhutan, U.S. Embassy">Unit Chief for Bhutan, U.S. Embassy</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★★</div>
 </div>
@@ -1047,7 +1065,7 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 M</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Ms. Sara">Ms. Sara</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Ms. Sara">Ms. Sara</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="eMbrace Client">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★★</div>
@@ -1074,8 +1092,8 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 M</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Mr. Vidyanand Chaudhary">Mr. Vidyanand
-                  Chaudhary</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Mr. Vidyanand Chaudhary">Mr. Vidyanand
+                  Chaudhary</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="eMbrace Client">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★★</div>
@@ -1105,7 +1123,7 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 R</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Raji Siva">Raji Siva</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Raji Siva">Raji Siva</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="Head of Learning Support, Woodstock School, Mussoorie">Head of Learning Support, Woodstock
                   School, Mussoorie</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★★</div>
@@ -1134,8 +1152,8 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 M</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Ms. Priyanka Sundaram">Ms. Priyanka
-                  Sundaram</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Ms. Priyanka Sundaram">Ms. Priyanka
+                  Sundaram</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="eMbrace Client">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★☆</div>
@@ -1159,7 +1177,7 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 M</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Ms. Tarini Lamba">Ms. Tarini Lamba</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Ms. Tarini Lamba">Ms. Tarini Lamba</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="eMbrace Client">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★★</div>
@@ -1184,7 +1202,7 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 M</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Maami Aba Ahoma">Maami Aba Ahoma</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Maami Aba Ahoma">Maami Aba Ahoma</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="Ghana">Ghana</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★★</div>
 </div>
@@ -1366,19 +1384,19 @@
 <div class="w-full flex flex-col md:flex-row items-center justify-center mt-6 2xl:mt-12 px-16 pb-6">
 <a class="min-w-[280px] md:min-w-[350px] w-[90%] md:w-[30%] min-h-[300px] md:min-h-[350px] flex-shrink-0 snap-center mx-5 flex flex-col items-center text-center p-6" data-discover="true" href="/media.php">
 <h3 class="lg:text-2xl font-bold mb-2">In the Press</h3>
-<img alt="In the Press" class="w-full object-contain rounded-4xl shadow-lg/25" src="/assets/Press-DdP2XViH.svg"/>
+<img loading="lazy" decoding="async" width="837" height="580" alt="In the Press" class="w-full object-contain rounded-4xl shadow-lg/25" src="/assets/Press-DdP2XViH.svg"/>
 <p class="lg:text-md text-[#403D3D] font-medium mt-6 w-[90%] md:w-[60%]">
                 Featured for our innovative care model and impact-driven programs.
               </p>
 </a><a class="min-w-[280px] md:min-w-[350px] w-[90%] md:w-[30%] min-h-[300px] md:min-h-[350px] flex-shrink-0 snap-center mx-5 flex flex-col items-center text-center p-6" data-discover="true" href="/media.php">
 <h3 class="lg:text-2xl font-bold mb-2">Podcasts &amp; Panels</h3>
-<img alt="Podcasts &amp; Panels" class="w-full object-contain rounded-4xl shadow-lg/25" src="/assets/Podcast-BDb_lj6q.svg"/>
+<img loading="lazy" decoding="async" width="623" height="431" alt="Podcasts &amp; Panels" class="w-full object-contain rounded-4xl shadow-lg/25" src="/assets/Podcast-BDb_lj6q.svg"/>
 <p class="lg:text-md text-[#403D3D] font-medium mt-6 w-[90%] md:w-[60%]">
                 Our experts speak on neurodiversity, therapy, and workplace well-being.
               </p>
 </a><a class="min-w-[280px] md:min-w-[350px] w-[90%] md:w-[30%] min-h-[300px] md:min-h-[350px] flex-shrink-0 snap-center mx-5 flex flex-col items-center text-center p-6" data-discover="true" href="/media.php">
 <h3 class="lg:text-2xl font-bold mb-2">Collaborations</h3>
-<img alt="Collaborations" class="w-full object-contain rounded-4xl shadow-lg/25" src="/assets/Collaborations-BvJpR7-l.svg"/>
+<img loading="lazy" decoding="async" width="837" height="580" alt="Collaborations" class="w-full object-contain rounded-4xl shadow-lg/25" src="/assets/Collaborations-BvJpR7-l.svg"/>
 <p class="lg:text-md text-[#403D3D] font-medium mt-6 w-[90%] md:w-[60%]">
                 Partnering with schools, hospitals &amp; corporates for community mental health.
               </p>
@@ -1399,102 +1417,102 @@
 <div class="slick-track" style="width: 8320px; opacity: 1; transform: translate3d(-1280px, 0px, 0px)">
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="-8" style="width: 160px" tabindex="-1">
 <div>
-<img alt="US Embassy" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/US%20Embassy-BdlrCw6Q.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="225" height="225" alt="US Embassy" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/US%20Embassy-BdlrCw6Q.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="-7" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Woodstock School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Woodstock-BudpeYVW.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="316" height="316" alt="Woodstock School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Woodstock-BudpeYVW.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="-6" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Ashoka University" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Ashoka_univ-DQShIgZ6.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="175" height="73" alt="Ashoka University" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Ashoka_univ-DQShIgZ6.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="-5" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Doon School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Doon_school-Cmh7Ph83.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="128" height="115" alt="Doon School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Doon_school-Cmh7Ph83.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="-4" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Lincoln School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Lincoln_school-DhCY10jO.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="136" height="136" alt="Lincoln School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Lincoln_school-DhCY10jO.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="-3" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Rainbow Hospital" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Rainbow_hospital-Bx1uSClw.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="150" height="135" alt="Rainbow Hospital" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Rainbow_hospital-Bx1uSClw.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="-2" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Watchout Wearables" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Watchout_wearables-DxsqX1OE.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="149" height="149" alt="Watchout Wearables" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Watchout_wearables-DxsqX1OE.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="-1" style="width: 160px" tabindex="-1">
 <div>
-<img alt="10X" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/10X-wHGmfXdK.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="246" height="203" alt="10X" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/10X-wHGmfXdK.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="false" class="slick-slide slick-active" data-index="0" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="American Embassy School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/American%20Embassy%20School-BNUZ41r2.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="476" height="512" alt="American Embassy School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/American%20Embassy%20School-BNUZ41r2.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="false" class="slick-slide slick-active slick-current" data-index="1" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="Atypical Advantage" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Atypical%20Advantage-CpD--ePE.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="999" height="335" alt="Atypical Advantage" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Atypical%20Advantage-CpD--ePE.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="false" class="slick-slide slick-active" data-index="2" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="British School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/British%20school-DN-kpZ1N.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="251" height="201" alt="British School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/British%20school-DN-kpZ1N.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="false" class="slick-slide slick-active" data-index="3" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="HSBC" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/HSBC-BIcFlFG1.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="3840" height="2160" alt="HSBC" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/HSBC-BIcFlFG1.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="false" class="slick-slide slick-active" data-index="4" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="I-CAN" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-colorburn" loading="lazy" src="/assets/I-can-DEJgRwCu.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="341" height="100" alt="I-CAN" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-colorburn" loading="lazy" src="/assets/I-can-DEJgRwCu.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="false" class="slick-slide slick-active" data-index="5" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="Instamojo" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Instamojo-BfXnODJw.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="427" height="118" alt="Instamojo" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Instamojo-BfXnODJw.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="false" class="slick-slide slick-active" data-index="6" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="Little Pearls" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Little%20pearls-DvEXgRx3.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="206" height="244" alt="Little Pearls" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Little%20pearls-DvEXgRx3.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="false" class="slick-slide slick-active" data-index="7" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="MyndStories" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/MyndStories-Dg0PrTL5.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="1080" height="1080" alt="MyndStories" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/MyndStories-Dg0PrTL5.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="8" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="Niraya" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Niraya-ByD0yK9b.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="225" height="225" alt="Niraya" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Niraya-ByD0yK9b.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="9" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="Pearson" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Pearson-BdJwdvnY.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="410" height="123" alt="Pearson" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Pearson-BdJwdvnY.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="10" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="SOVA" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/SOVA-CBeolcjM.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="381" height="132" alt="SOVA" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/SOVA-CBeolcjM.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="11" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="Tamana" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Tamana--kgfRiES.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="300" height="300" alt="Tamana" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Tamana--kgfRiES.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="12" style="outline: none; width: 160px" tabindex="-1">
@@ -1504,107 +1522,107 @@
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="13" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="The Union" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-colorburn" loading="lazy" src="/assets/The%20Union-DHkqBC5e.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="600" height="600" alt="The Union" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-colorburn" loading="lazy" src="/assets/The%20Union-DHkqBC5e.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="14" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="US Embassy" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/US%20Embassy-BdlrCw6Q.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="225" height="225" alt="US Embassy" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/US%20Embassy-BdlrCw6Q.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="15" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="Woodstock School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Woodstock-BudpeYVW.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="316" height="316" alt="Woodstock School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Woodstock-BudpeYVW.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="16" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="Ashoka University" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Ashoka_univ-DQShIgZ6.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="175" height="73" alt="Ashoka University" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Ashoka_univ-DQShIgZ6.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="17" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="Doon School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Doon_school-Cmh7Ph83.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="128" height="115" alt="Doon School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Doon_school-Cmh7Ph83.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="18" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="Lincoln School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Lincoln_school-DhCY10jO.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="136" height="136" alt="Lincoln School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Lincoln_school-DhCY10jO.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="19" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="Rainbow Hospital" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Rainbow_hospital-Bx1uSClw.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="150" height="135" alt="Rainbow Hospital" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Rainbow_hospital-Bx1uSClw.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="20" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="Watchout Wearables" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Watchout_wearables-DxsqX1OE.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="149" height="149" alt="Watchout Wearables" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Watchout_wearables-DxsqX1OE.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide" data-index="21" style="outline: none; width: 160px" tabindex="-1">
 <div>
-<img alt="10X" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/10X-wHGmfXdK.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="246" height="203" alt="10X" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/10X-wHGmfXdK.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="22" style="width: 160px" tabindex="-1">
 <div>
-<img alt="American Embassy School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/American%20Embassy%20School-BNUZ41r2.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="476" height="512" alt="American Embassy School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/American%20Embassy%20School-BNUZ41r2.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="23" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Atypical Advantage" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Atypical%20Advantage-CpD--ePE.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="999" height="335" alt="Atypical Advantage" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Atypical%20Advantage-CpD--ePE.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="24" style="width: 160px" tabindex="-1">
 <div>
-<img alt="British School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/British%20school-DN-kpZ1N.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="251" height="201" alt="British School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/British%20school-DN-kpZ1N.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="25" style="width: 160px" tabindex="-1">
 <div>
-<img alt="HSBC" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/HSBC-BIcFlFG1.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="3840" height="2160" alt="HSBC" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/HSBC-BIcFlFG1.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="26" style="width: 160px" tabindex="-1">
 <div>
-<img alt="I-CAN" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-colorburn" loading="lazy" src="/assets/I-can-DEJgRwCu.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="341" height="100" alt="I-CAN" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-colorburn" loading="lazy" src="/assets/I-can-DEJgRwCu.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="27" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Instamojo" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Instamojo-BfXnODJw.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="427" height="118" alt="Instamojo" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Instamojo-BfXnODJw.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="28" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Little Pearls" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Little%20pearls-DvEXgRx3.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="206" height="244" alt="Little Pearls" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Little%20pearls-DvEXgRx3.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="29" style="width: 160px" tabindex="-1">
 <div>
-<img alt="MyndStories" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/MyndStories-Dg0PrTL5.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="1080" height="1080" alt="MyndStories" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/MyndStories-Dg0PrTL5.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="30" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Niraya" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Niraya-ByD0yK9b.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="225" height="225" alt="Niraya" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Niraya-ByD0yK9b.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="31" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Pearson" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Pearson-BdJwdvnY.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="410" height="123" alt="Pearson" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Pearson-BdJwdvnY.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="32" style="width: 160px" tabindex="-1">
 <div>
-<img alt="SOVA" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/SOVA-CBeolcjM.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="381" height="132" alt="SOVA" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/SOVA-CBeolcjM.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="33" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Tamana" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Tamana--kgfRiES.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="300" height="300" alt="Tamana" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/Tamana--kgfRiES.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="34" style="width: 160px" tabindex="-1">
@@ -1614,47 +1632,47 @@
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="35" style="width: 160px" tabindex="-1">
 <div>
-<img alt="The Union" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-colorburn" loading="lazy" src="/assets/The%20Union-DHkqBC5e.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="600" height="600" alt="The Union" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-colorburn" loading="lazy" src="/assets/The%20Union-DHkqBC5e.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="36" style="width: 160px" tabindex="-1">
 <div>
-<img alt="US Embassy" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/US%20Embassy-BdlrCw6Q.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="225" height="225" alt="US Embassy" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply" loading="lazy" src="/assets/US%20Embassy-BdlrCw6Q.jpg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="37" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Woodstock School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Woodstock-BudpeYVW.png" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="316" height="316" alt="Woodstock School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Woodstock-BudpeYVW.png" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="38" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Ashoka University" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Ashoka_univ-DQShIgZ6.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="175" height="73" alt="Ashoka University" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Ashoka_univ-DQShIgZ6.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="39" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Doon School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Doon_school-Cmh7Ph83.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="128" height="115" alt="Doon School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Doon_school-Cmh7Ph83.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="40" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Lincoln School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Lincoln_school-DhCY10jO.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="136" height="136" alt="Lincoln School" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Lincoln_school-DhCY10jO.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="41" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Rainbow Hospital" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Rainbow_hospital-Bx1uSClw.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="150" height="135" alt="Rainbow Hospital" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Rainbow_hospital-Bx1uSClw.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="42" style="width: 160px" tabindex="-1">
 <div>
-<img alt="Watchout Wearables" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Watchout_wearables-DxsqX1OE.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="149" height="149" alt="Watchout Wearables" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/Watchout_wearables-DxsqX1OE.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 <div aria-hidden="true" class="slick-slide slick-cloned" data-index="43" style="width: 160px" tabindex="-1">
 <div>
-<img alt="10X" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/10X-wHGmfXdK.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
+<img decoding="async" width="246" height="203" alt="10X" class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn" loading="lazy" src="/assets/10X-wHGmfXdK.svg" style="width: 100%; display: inline-block" tabindex="-1"/>
 </div>
 </div>
 </div>
@@ -1693,6 +1711,91 @@
         <p class="text-gray-600">Healing takes time. We stand by you throughout your journey, adjusting our approach as you grow and evolve.</p>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- Free Tools / Lead Magnets -->
+<section class="lm-section" id="free-tools">
+  <div class="lm-blob lm-blob--a"></div>
+  <div class="lm-blob lm-blob--b"></div>
+  <div class="lm-blob lm-blob--c"></div>
+  <div class="lm-wrap">
+    <div class="lm-center">
+      <span class="lm-eyebrow"><i class="ph-fill ph-gift"></i> Free &amp; instant &middot; no sign-up to see results</span>
+      <h2 class="lm-h2">Start with a free 3-minute check</h2>
+      <p class="lm-sub">
+        Most families arrive here unsure whether their worry is worth an appointment. These three screeners
+        are built by the same clinicians who run our assessments — you get a domain-by-domain result on
+        screen straight away, and a written report plus a full guide by email if you want one.
+      </p>
+    </div>
+
+    <div class="lm-grid">
+      <div class="lm-card">
+        <div class="lm-card__icon lm-card__icon--child"><i class="ph-fill ph-baby"></i></div>
+        <span class="lm-card__tag">Parents &middot; 0–12 years</span>
+        <h3 class="lm-card__title">Is my child on track?</h3>
+        <p class="lm-card__desc">
+          Milestone checker across speech, motor, social, play and behaviour, with a different question set
+          for every age band.
+        </p>
+        <ul class="lm-card__list">
+          <li>Domain-by-domain snapshot, not one vague score</li>
+          <li>Free milestone guide for ages 0–12</li>
+          <li>Tells you plainly when nothing is wrong</li>
+        </ul>
+        <div class="lm-card__foot">
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/child-milestone-checker.php"
+             data-lm-cta="child-milestone-checker" data-lm-placement="home_section">Check my child's milestones</a>
+          <p class="lm-card__meta">2 minutes &middot; 8 questions</p>
+        </div>
+      </div>
+
+      <div class="lm-card">
+        <div class="lm-card__icon lm-card__icon--neuro"><i class="ph-fill ph-brain"></i></div>
+        <span class="lm-card__tag">Parents &middot; 2–18 years</span>
+        <h3 class="lm-card__title">ADHD &amp; autism early signs</h3>
+        <p class="lm-card__desc">
+          Four behaviour clusters profiled separately and weighted by real-life impact — with a straight
+          answer on whether an assessment is warranted.
+        </p>
+        <ul class="lm-card__list">
+          <li>Attention, impulsivity, social communication, sensory</li>
+          <li>Free assessment guide + school letter template</li>
+          <li>Explains what ADOS-2, Conners and WISC-V measure</li>
+        </ul>
+        <div class="lm-card__foot">
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/adhd-autism-screener.php"
+             data-lm-cta="adhd-autism-screener" data-lm-placement="home_section">Screen for early signs</a>
+          <p class="lm-card__meta">3 minutes &middot; 17 questions</p>
+        </div>
+      </div>
+
+      <div class="lm-card">
+        <div class="lm-card__icon lm-card__icon--adult"><i class="ph-fill ph-heartbeat"></i></div>
+        <span class="lm-card__tag">Adults &middot; 18+</span>
+        <h3 class="lm-card__title">Stress, anxiety &amp; burnout</h3>
+        <p class="lm-card__desc">
+          Four separate scores, because burnout and anxiety look identical from the outside and respond to
+          completely different things.
+        </p>
+        <ul class="lm-card__list">
+          <li>Worry, mood, body and sleep, burnout</li>
+          <li>Free 7-Day Reset Plan with a track for each</li>
+          <li>Private — nothing sent unless you ask for it</li>
+        </ul>
+        <div class="lm-card__foot">
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/adult-stress-check.php"
+             data-lm-cta="adult-stress-check" data-lm-placement="home_section">Check my stress levels</a>
+          <p class="lm-card__meta">3 minutes &middot; 17 questions</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="lm-sub lm-center" style="margin-top:2rem;font-size:.88rem;color:#7d8294">
+      These are educational screening tools, not diagnoses. Only a qualified clinician can diagnose, after a
+      full assessment. <a href="/resources/index.php" style="color:#234394;font-weight:600">See all free tools &rarr;</a>
+    </p>
   </div>
 </section>
 
@@ -1754,6 +1857,9 @@
       })();
     </script>
 <script src="/assets/interactive.js"></script>
+<?php include __DIR__ . '/components/lead-magnet-popup.php'; ?>
+<script src="/assets/lead-magnets.js"></script>
+<script>EmbraceLM.popup({ id: 'lm-popup' });</script>
 <div class="hidden fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 bg-black/60 backdrop-blur-sm" id="review-modal-0" style="margin: 0;">
 <div class="bg-white rounded-3xl shadow-2xl p-6 sm:p-8 max-w-2xl w-full max-h-[90vh] flex flex-col relative overflow-hidden transform transition-all text-left" onclick="event.stopPropagation()">
 <!-- Close button -->
@@ -1764,7 +1870,7 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">M</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Mr. Andrew</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Mr. Andrew</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">Unit Chief for Bhutan, U.S. Embassy</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
 </div>
@@ -1785,7 +1891,7 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">M</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Ms. Sara</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Ms. Sara</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
@@ -1809,8 +1915,8 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">M</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Mr. Vidyanand
-                  Chaudhary</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Mr. Vidyanand
+                  Chaudhary</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
@@ -1837,7 +1943,7 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">R</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Raji Siva</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Raji Siva</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">Head of Learning Support, Woodstock
                   School, Mussoorie</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
@@ -1863,8 +1969,8 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">M</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Ms. Priyanka
-                  Sundaram</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Ms. Priyanka
+                  Sundaram</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
@@ -1885,7 +1991,7 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">M</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Ms. Tarini Lamba</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Ms. Tarini Lamba</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
@@ -1907,7 +2013,7 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">M</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Maami Aba Ahoma</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Maami Aba Ahoma</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">Ghana</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
 </div>

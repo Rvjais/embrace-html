@@ -14,7 +14,7 @@
     <!-- Open Graph -->
     <meta content="website" property="og:type" />
     <meta content="https://embracelives.com/practitioner" property="og:url" />
-    <meta content="Our Therapists &amp; Psychologists | eMbrace Lives" property="og:title" />
+    <meta content="Our Therapists &amp; Psychologists | eMbrace Psychologists Delhi" property="og:title" />
     <meta
       content="Meet our team of RCI-certified clinical psychologists, child psychologists, speech therapists &amp; occupational therapists. Find the right therapist for you."
       property="og:description"
@@ -26,14 +26,14 @@
     <meta content="en_IN" property="og:locale" />
     <!-- Twitter Card -->
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="Our Therapists &amp; Psychologists | eMbrace Lives" name="twitter:title" />
+    <meta content="Our Therapists &amp; Psychologists | eMbrace Psychologists Delhi" name="twitter:title" />
     <meta
       content="Meet our team of RCI-certified clinical psychologists, child psychologists, speech therapists &amp; occupational therapists. Find the right therapist for you."
       name="twitter:description"
     />
     <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
     <!-- JSON-LD Structured Data -->
-<title>Our Therapists &amp; Psychologists | eMbrace Lives</title>
+<title>Our Therapists &amp; Psychologists | eMbrace Psychologists Delhi</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
@@ -316,7 +316,7 @@
         "@type": "CollectionPage",
         "@id": "https://embracelives.com/practitioner#webpage",
         "url": "https://embracelives.com/practitioner",
-        "name": "Our Therapists & Psychologists | eMbrace Lives",
+        "name": "Our Therapists & Psychologists | eMbrace Psychologists Delhi",
         "isPartOf": {
           "@id": "https://embracelives.com/#website"
         },
