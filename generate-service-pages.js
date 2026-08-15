@@ -165,11 +165,27 @@ function head({ title, desc, url, extraStyle }) {
   .key-points-card { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #e2e8f0; border-radius: 1.5rem; padding: 2rem; }
   .key-points-card ul { margin-bottom: 0 !important; }
   .key-points-card ul li { padding-left: 2.25rem !important; margin-bottom: 1rem !important; }
-  .faq-item { border-bottom: 1px solid #e2e8f0; transition: background 0.2s; }
-  .faq-item:hover { background: #f8fafc; }
-  .faq-item button { padding: 1.25rem 1rem; border-radius: 0.75rem; }
+  /* Accordion. Everything it needs is defined here, so it does not depend on
+     utilities surviving the Tailwind purge. */
+  .faq-item { border-bottom: 1px solid #e2e8f0; }
+  .faq-btn { display: flex; width: 100%; align-items: center; justify-content: space-between;
+             gap: 1rem; text-align: left; padding: 1.25rem 1rem; background: none; border: 0;
+             cursor: pointer; font: inherit; border-radius: 0.75rem; transition: background 0.2s; }
+  .faq-btn:hover { background: #f8fafc; }
+  .faq-btn:focus-visible { outline: 2px solid #234394; outline-offset: 2px; }
+  .faq-q { font-weight: 600; font-size: 1rem; color: #234394; }
+  @media (min-width: 768px) { .faq-q { font-size: 1.125rem; } }
   .faq-icon { width: 1.25rem; height: 1.25rem; flex: none; transition: transform 0.25s ease; }
-  .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+  /* Toggled with the hidden attribute rather than an animated max-height.
+     A max-height transition depends on a height guess and proved unreliable
+     here; display none/block cannot silently fail. */
+  .faq-panel[hidden] { display: none; }
+  .faq-panel { animation: faq-open 0.2s ease; }
+  .faq-panel p { margin: 0; padding: 0 1rem 1.25rem; color: #475569; line-height: 1.7;
+                 font-size: 0.95rem; }
+  @keyframes faq-open { from { opacity: 0; transform: translateY(-4px); }
+                        to { opacity: 1; transform: none; } }
+  .faq-item.is-open .faq-icon { transform: rotate(45deg); }
   .side-menu a { display: block; padding: 0.5rem 0.75rem; border-radius: 0.5rem; color: #475569; font-size: 0.9rem; transition: all 0.2s; }
   .side-menu a:hover { background: rgba(35,67,148,0.08); color: #234394; }
   .side-menu a.is-current { background: #234394; color: #fff; font-weight: 600; }
@@ -226,13 +242,27 @@ function sidebar(svc, services, currentSlug) {
 </aside>`;
 }
 
+/**
+ * Self-contained accordion.
+ *
+ * The site's shared handler in assets/interactive.js drives these by swapping
+ * Tailwind utilities (max-h-0 against max-h-[1000px]). That is fragile here:
+ * max-h-[1000px] is an arbitrary value that the purged bundle does not contain,
+ * so the open state depends on a class with no rule behind it. These pages use
+ * their own class and their own CSS instead, with the toggle bound by a small
+ * script at the bottom of the page.
+ *
+ * The markup deliberately avoids `transition-all` on the panel, which is the
+ * hook interactive.js keys on, so the shared handler stays inert here and the
+ * two cannot fight over the same element.
+ */
 function faqBlock(faqs) {
   const items = faqs.map(f => `<div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">${enc(f.q)}</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">${enc(f.q)}</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">${enc(f.a)}</p></div>
+  <div class="faq-panel" hidden><p>${enc(f.a)}</p></div>
 </div>`).join('\n');
   return `<h2 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h2>
 <div class="space-y-2 mb-10">
@@ -253,7 +283,22 @@ function ctaBlock(name) {
 
 function scripts() {
   return `<script src="/assets/interactive.js"></script>
-<script src="/assets/lead-magnets.js"></script>`;
+<script src="/assets/lead-magnets.js"></script>
+<script>
+(function () {
+  // Accordion toggle. Delegated, so it works no matter when the DOM settles.
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest && e.target.closest('.faq-btn');
+    if (!btn) return;
+    var item = btn.closest('.faq-item');
+    if (!item) return;
+    var panel = item.querySelector('.faq-panel');
+    var open = item.classList.toggle('is-open');
+    if (panel) panel.hidden = !open;
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>`;
 }
 
 /* ------------------------------------------------------------- page builders */

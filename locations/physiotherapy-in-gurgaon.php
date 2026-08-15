@@ -42,11 +42,27 @@
   .key-points-card { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #e2e8f0; border-radius: 1.5rem; padding: 2rem; }
   .key-points-card ul { margin-bottom: 0 !important; }
   .key-points-card ul li { padding-left: 2.25rem !important; margin-bottom: 1rem !important; }
-  .faq-item { border-bottom: 1px solid #e2e8f0; transition: background 0.2s; }
-  .faq-item:hover { background: #f8fafc; }
-  .faq-item button { padding: 1.25rem 1rem; border-radius: 0.75rem; }
+  /* Accordion. Everything it needs is defined here, so it does not depend on
+     utilities surviving the Tailwind purge. */
+  .faq-item { border-bottom: 1px solid #e2e8f0; }
+  .faq-btn { display: flex; width: 100%; align-items: center; justify-content: space-between;
+             gap: 1rem; text-align: left; padding: 1.25rem 1rem; background: none; border: 0;
+             cursor: pointer; font: inherit; border-radius: 0.75rem; transition: background 0.2s; }
+  .faq-btn:hover { background: #f8fafc; }
+  .faq-btn:focus-visible { outline: 2px solid #234394; outline-offset: 2px; }
+  .faq-q { font-weight: 600; font-size: 1rem; color: #234394; }
+  @media (min-width: 768px) { .faq-q { font-size: 1.125rem; } }
   .faq-icon { width: 1.25rem; height: 1.25rem; flex: none; transition: transform 0.25s ease; }
-  .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+  /* Toggled with the hidden attribute rather than an animated max-height.
+     A max-height transition depends on a height guess and proved unreliable
+     here; display none/block cannot silently fail. */
+  .faq-panel[hidden] { display: none; }
+  .faq-panel { animation: faq-open 0.2s ease; }
+  .faq-panel p { margin: 0; padding: 0 1rem 1.25rem; color: #475569; line-height: 1.7;
+                 font-size: 0.95rem; }
+  @keyframes faq-open { from { opacity: 0; transform: translateY(-4px); }
+                        to { opacity: 1; transform: none; } }
+  .faq-item.is-open .faq-icon { transform: rotate(45deg); }
   .side-menu a { display: block; padding: 0.5rem 0.75rem; border-radius: 0.5rem; color: #475569; font-size: 0.9rem; transition: all 0.2s; }
   .side-menu a:hover { background: rgba(35,67,148,0.08); color: #234394; }
   .side-menu a.is-current { background: #234394; color: #fff; font-weight: 600; }
@@ -507,39 +523,39 @@
 <h2 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h2>
 <div class="space-y-2 mb-10">
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">Do you offer physiotherapy in Gurgaon?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">Do you offer physiotherapy in Gurgaon?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">Yes. Families in Gurgaon are seen at our Gurugram centre, and online where that suits the work. Start with a free 15-minute intake call.</p></div>
+  <div class="faq-panel" hidden><p>Yes. Families in Gurgaon are seen at our Gurugram centre, and online where that suits the work. Start with a free 15-minute intake call.</p></div>
 </div>
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">How quickly can we be seen in Gurgaon?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">How quickly can we be seen in Gurgaon?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">The intake call is usually arranged within a few working days. Appointment timing depends on the service and the clinician needed, and we will tell you honestly on the call.</p></div>
+  <div class="faq-panel" hidden><p>The intake call is usually arranged within a few working days. Appointment timing depends on the service and the clinician needed, and we will tell you honestly on the call.</p></div>
 </div>
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">Can we be seen outside school hours?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">Can we be seen outside school hours?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">We offer later slots and Saturday appointments where availability allows. Tell the intake team what you need and they will work around school.</p></div>
+  <div class="faq-panel" hidden><p>We offer later slots and Saturday appointments where availability allows. Tell the intake team what you need and they will work around school.</p></div>
 </div>
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">What is the difference between physiotherapy and occupational therapy?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">What is the difference between physiotherapy and occupational therapy?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">Physiotherapy focuses on gross motor skills, strength, tone and mobility. Occupational therapy focuses on fine motor skills, sensory processing and daily living tasks. Many children benefit from both.</p></div>
+  <div class="faq-panel" hidden><p>Physiotherapy focuses on gross motor skills, strength, tone and mobility. Occupational therapy focuses on fine motor skills, sensory processing and daily living tasks. Many children benefit from both.</p></div>
 </div>
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">My child walks on their toes. Does that need treatment?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">My child walks on their toes. Does that need treatment?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">Sometimes. Occasional toe walking in young children is common, but persistent toe walking, tight calf muscles or a one-sided pattern is worth assessing properly.</p></div>
+  <div class="faq-panel" hidden><p>Sometimes. Occasional toe walking in young children is common, but persistent toe walking, tight calf muscles or a one-sided pattern is worth assessing properly.</p></div>
 </div>
 </div>
 
@@ -568,5 +584,20 @@
 </div>
 <script src="/assets/interactive.js"></script>
 <script src="/assets/lead-magnets.js"></script>
+<script>
+(function () {
+  // Accordion toggle. Delegated, so it works no matter when the DOM settles.
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest && e.target.closest('.faq-btn');
+    if (!btn) return;
+    var item = btn.closest('.faq-item');
+    if (!item) return;
+    var panel = item.querySelector('.faq-panel');
+    var open = item.classList.toggle('is-open');
+    if (panel) panel.hidden = !open;
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
 </body>
 </html>
