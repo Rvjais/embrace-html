@@ -550,7 +550,7 @@
                 </p>
               </div>
               <a href="/appointment.php"
-                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
+                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer text-center"
               >
                 Book a Session
               </a>
@@ -568,7 +568,7 @@
                 </p>
               </div>
               <a href="/appointment.php"
-                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
+                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer text-center"
               >
                 Request Consult
               </a>
@@ -586,7 +586,7 @@
                 </p>
               </div>
               <a href="/appointment.php"
-                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
+                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer text-center"
               >
                 Book Demo
               </a>
@@ -606,7 +606,7 @@
                 </p>
               </div>
               <a href="/appointment.php"
-                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
+                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer text-center"
               >
                 Book Demo
               </a>
@@ -624,7 +624,7 @@
                 </p>
               </div>
               <a href="/appointment.php"
-                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer"
+                class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer text-center"
               >
                 Book Demo
               </a>

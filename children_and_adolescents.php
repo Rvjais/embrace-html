@@ -400,7 +400,7 @@
             Early Intervention &amp; Quality Support for Every Stage of Growth
           </p>
           <a href="/appointment.php"
-            class="inline-block w-[70%] md:w-[50%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-2 2xl:mt-6 text-white font-medium cursor-pointer"
+            class="inline-block w-[70%] md:w-[50%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-2 2xl:mt-6 text-white font-medium cursor-pointer text-center"
           >
             Book a Session
           </a>

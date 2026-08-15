@@ -406,7 +406,7 @@
             you're dating, living together, married, or rebuilding trust.
           </p>
           <a href="/appointment.php"
-            class="inline-block w-[70%] md:w-[24.25%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-2 2xl:mt-6 text-white font-medium cursor-pointer"
+            class="inline-block w-[70%] md:w-[24.25%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-2 2xl:mt-6 text-white font-medium cursor-pointer text-center"
           >
             Request Session
           </a>
