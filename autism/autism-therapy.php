@@ -674,25 +674,25 @@
 <ul class="space-y-4 mb-8 key-points-list">
               
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Sensory-Motor Therapy:</strong> Enhancing physical coordination, balance, and motor planning skills.</span>
         </li>
         
 
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Communication Building:</strong> Expanding speech clarity, vocabulary, and alternative communication tools.</span>
         </li>
         
 
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Self-Regulation:</strong> Learning strategies to identify sensory overload and manage emotional responses.</span>
         </li>
         
 
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Social Peer Interaction:</strong> Structured groups to practice connection and build peer relationships.</span>
         </li>
         

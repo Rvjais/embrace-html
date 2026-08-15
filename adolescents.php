@@ -346,27 +346,27 @@
         </div>
         <div class="relative w-full flex flex-col items-center justify-center 2xl:mt-30 md:mt-14 -mt-6">
           <div class="flex items-center justify-center w-full gap-2 md:gap-6 relative h-56 md:h-60">
-            <img
+            <img decoding="async" width="600" height="400"
               alt="carousel-img-0"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-30 md:scale-95 scale-170 -translate-x-1/2 -translate-y-1/2 shadow-2xl"
               src="/assets/Hero1-B-ajiMbY.png"
               style="pointer-events: auto; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img fetchpriority="high" decoding="async" width="600" height="400"
               alt="carousel-img-1"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[10%] md:translate-x-[0%]"
               src="/assets/Hero2-CZSbv1Ty.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img decoding="async" width="600" height="400"
               alt="carousel-img-2"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 translate-x-[30%]"
               src="/assets/Hero3-BLDY-4Ve.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-3"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 -translate-x-[130%]"
               src="/assets/Hero4-mSTuGqTP.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-4"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[90%] md:-translate-x-[100%]"
               src="/assets/Hero2-BYwvac1Z.png"
@@ -459,7 +459,7 @@
             <div
               class="bg-[#FFFFFF] pb-6 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center gap-2 px-4 pt-6 z-10 rounded-3xl md:rounded-2xl flex flex-col shadow-[0px_7px_12px_0px_#00000070] md:shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
             >
-              <img
+              <img loading="lazy" decoding="async" width="998" height="667"
                 alt="Essential Screenings illustration"
                 class="md:w-[95%] 2xl:h-[70%] w-[90%] mb-2 md:mt-4"
                 src="/assets/Service1-QMda4RQE.svg"
@@ -487,7 +487,7 @@
                 class="w-full flex flex-col gap-2 transition-all items-center justify-around duration-300 bg-[#BC70C22E] rounded-2xl px-2 opacity-0 max-h-0 overflow-hidden"
               >
                 <li class="flex items-start gap-2">
-                  <img alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
+                  <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
                     class="text-sm 2xl:text-base text-[#403D3DC4] font-bold"
                     >Risk Evaluations -<span class="font-medium">
                       Evaluate high risk in teenagers for mental health concerns using standardized assessment
@@ -496,7 +496,7 @@
                   >
                 </li>
                 <li class="flex items-start gap-2">
-                  <img alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
+                  <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
                     class="text-sm 2xl:text-base text-[#403D3DC4] font-bold"
                     >ADHD &amp; Learning Disability Assessments -<span class="font-medium">
                       Focused evaluations for attention, executive functioning, and academic challenges.</span
@@ -504,7 +504,7 @@
                   >
                 </li>
                 <li class="flex items-start gap-2">
-                  <img alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
+                  <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
                     class="text-sm 2xl:text-base text-[#403D3DC4] font-bold"
                     >WISC (Wechsler Intelligence Scale for Children) -<span class="font-medium">
                       Measures IQ and cognitive strengths.</span
@@ -512,7 +512,7 @@
                   >
                 </li>
                 <li class="flex items-start gap-2">
-                  <img alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
+                  <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
                     class="text-sm 2xl:text-base text-[#403D3DC4] font-bold"
                     >WRAT (Wide Range Achievement Test) -<span class="font-medium">
                       Evaluates academic skills including reading, math, and spelling.</span
@@ -524,7 +524,7 @@
             <div
               class="bg-[#FFFFFF] pb-6 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center gap-2 px-4 pt-6 z-10 rounded-3xl md:rounded-2xl flex flex-col shadow-[0px_7px_12px_0px_#00000070] md:shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
             >
-              <img
+              <img loading="lazy" decoding="async" width="998" height="665"
                 alt="Comprehensive Cognitive &amp; Learning Psychometric Assessments illustration"
                 class="md:w-[95%] 2xl:h-[70%] w-[90%] mb-2 md:mt-4"
                 src="/assets/Service2-Dqmq_0TO.svg"
@@ -552,7 +552,7 @@
                 class="w-full flex flex-col gap-2 transition-all items-center justify-around duration-300 bg-[#BC70C22E] rounded-2xl px-2 opacity-0 max-h-0 overflow-hidden"
               >
                 <li class="flex items-start gap-2">
-                  <img alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
+                  <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
                     class="text-sm 2xl:text-base text-[#403D3DC4] font-bold"
                     >WIAT (Wechsler Individual Achievement Test) -<span class="font-medium">
                       In-depth academic proficiency testing.</span
@@ -560,7 +560,7 @@
                   >
                 </li>
                 <li class="flex items-start gap-2">
-                  <img alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
+                  <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
                     class="text-sm 2xl:text-base text-[#403D3DC4] font-bold"
                     >GORT (Gray Oral Reading Test) -<span class="font-medium">
                       Assesses fluency and reading comprehension.</span
@@ -568,7 +568,7 @@
                   >
                 </li>
                 <li class="flex items-start gap-2">
-                  <img alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
+                  <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-6 h-6" src="/assets/Diamond-dGu0kMrR.svg" /><span
                     class="text-sm 2xl:text-base text-[#403D3DC4] font-bold"
                     >CBRS / Connors / BASC -<span class="font-medium">
                       Behavioral rating scales used to evaluate emotional, behavioral, and social functioning.</span
@@ -593,7 +593,7 @@
             <div
               class="bg-white border-2 border-gray-200 rounded-4xl p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
             >
-              <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-2" src="/assets/Therapy1-DgnquvMg.svg" />
+              <img loading="lazy" decoding="async" width="400" height="200" alt="Why Embrace 2" class="w-[90%] md:w-full mb-2" src="/assets/Therapy1-DgnquvMg.svg" />
               <div class="text-start">
                 <h2 class="text-base italic font-semibold mb-2 text-center text-[var(--blue-fig)]">
                   Individual Therapy
@@ -606,7 +606,7 @@
             <div
               class="bg-white border-2 border-gray-200 rounded-4xl p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
             >
-              <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-2" src="/assets/Therapy2-Bl6c5u_s.svg" />
+              <img loading="lazy" decoding="async" width="400" height="200" alt="Why Embrace 2" class="w-[90%] md:w-full mb-2" src="/assets/Therapy2-Bl6c5u_s.svg" />
               <div class="text-start">
                 <h2 class="text-base italic font-semibold mb-2 text-center text-[var(--blue-fig)]">Family Therapy</h2>
                 <p class="text-sm text-center">
@@ -617,7 +617,7 @@
             <div
               class="bg-white border-2 border-gray-200 rounded-4xl p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
             >
-              <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-2" src="/assets/Therapy3-CVhirgQ3.svg" />
+              <img loading="lazy" decoding="async" width="400" height="200" alt="Why Embrace 2" class="w-[90%] md:w-full mb-2" src="/assets/Therapy3-CVhirgQ3.svg" />
               <div class="text-start">
                 <h2 class="text-base italic font-semibold mb-2 text-center text-[var(--blue-fig)]">Group Therapy</h2>
                 <p class="text-sm text-center">
@@ -628,7 +628,7 @@
             <div
               class="bg-white border-2 border-gray-200 rounded-4xl p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
             >
-              <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-2" src="/assets/Therapy4-DkgC4fh3.svg" />
+              <img loading="lazy" decoding="async" width="400" height="200" alt="Why Embrace 2" class="w-[90%] md:w-full mb-2" src="/assets/Therapy4-DkgC4fh3.svg" />
               <div class="text-start">
                 <h2 class="text-base italic font-semibold mb-2 text-center text-[var(--blue-fig)]">Parent Support</h2>
                 <p class="text-sm text-center">
@@ -649,13 +649,13 @@
               <div
                 class="border-[2px] border-[#399349] shadow-[0px_2px_4px_0px_#36A729] items-center flex md:gap-8 gap-4 w-full md:w-[40%] rounded-2xl pl-4 px-8 py-4"
               >
-                <img alt="" class="h-10 w-10" src="/assets/Psy1-DeFgA123.svg" />
+                <img loading="lazy" decoding="async" width="100" height="100" alt="" class="h-10 w-10" src="/assets/Psy1-DeFgA123.svg" />
                 <p class="font-semibold text-sm md:text-base">Diagnostic Clarification</p>
               </div>
               <div
                 class="border-[2px] border-[#399349] shadow-[0px_2px_4px_0px_#36A729] items-center flex md:gap-8 gap-4 w-full md:w-[40%] rounded-2xl pl-4 px-8 py-4"
               >
-                <img alt="" class="h-10 w-10" src="/assets/Psy2-C9DvQadH.svg" />
+                <img loading="lazy" decoding="async" width="100" height="100" alt="" class="h-10 w-10" src="/assets/Psy2-C9DvQadH.svg" />
                 <p class="font-semibold text-sm md:text-base">Medication Management</p>
               </div>
             </div>
@@ -663,7 +663,7 @@
               <div
                 class="border-[2px] border-[#399349] shadow-[0px_2px_4px_0px_#36A729] items-center flex md:gap-8 gap-4 w-full md:w-[40%] rounded-2xl pl-4 px-8 py-4"
               >
-                <img alt="" class="h-10 w-10" src="/assets/Psy3-BjjPD7tO.svg" />
+                <img loading="lazy" decoding="async" width="100" height="100" alt="" class="h-10 w-10" src="/assets/Psy3-BjjPD7tO.svg" />
                 <p class="font-semibold">Collaborative Care Plans</p>
               </div>
             </div>
@@ -690,7 +690,7 @@
           <div
             class="lg:w-80 xl:w-90 w-70 bg-white py-10 p-4 rounded-xl min-h-fit flex flex-col items-center md:m-4 gap-6 custom-shadow"
           >
-            <img alt="img1" class="w-50 lg:w-80 xl:w-70" src="/assets/Gift_test-1-Bw1nidTz.svg" />
+            <img loading="lazy" decoding="async" width="580" height="317" alt="img1" class="w-50 lg:w-80 xl:w-70" src="/assets/Gift_test-1-Bw1nidTz.svg" />
             <p class="w-50 font-normal text-sm md:text-center text-start">
               “Therapy helped my child open up emotionally and feel more in control of her feelings.”
             </p>
@@ -698,7 +698,7 @@
           <div
             class="lg:w-80 xl:w-90 w-70 bg-white py-10 p-4 rounded-xl min-h-fit flex flex-col items-center md:m-4 gap-6 custom-shadow"
           >
-            <img alt="img2" class="w-50 lg:w-80 xl:w-70" src="/assets/Gift_test-2-wR21sUIx.svg" />
+            <img loading="lazy" decoding="async" width="547" height="317" alt="img2" class="w-50 lg:w-80 xl:w-70" src="/assets/Gift_test-2-wR21sUIx.svg" />
             <p class="w-50 font-normal text-sm md:text-center text-start">
               “We finally understood the root of his school challenges after the assessment.”
             </p>
@@ -706,7 +706,7 @@
           <div
             class="lg:w-80 xl:w-90 w-70 bg-white py-10 p-4 rounded-xl min-h-fit flex flex-col items-center md:m-4 gap-6 custom-shadow"
           >
-            <img alt="img3" class="w-50 lg:w-80 xl:w-70" src="/assets/Gift_test-3-CCKZ9D9K.svg" />
+            <img loading="lazy" decoding="async" width="520" height="317" alt="img3" class="w-50 lg:w-80 xl:w-70" src="/assets/Gift_test-3-CCKZ9D9K.svg" />
             <p class="w-50 font-normal text-sm md:text-center text-start">
               “The care team made us feel supported every step of the way.”
             </p>
@@ -722,7 +722,7 @@
           Personalized, empathetic spaces designed for comfort and growth
         </p>
         <div class="relative flex mt-6 items-center justify-center w-full mx-auto">
-          <img
+          <img loading="lazy" decoding="async" width="1200" height="1600"
             alt="carousel-1"
             class="md:w-[90%] 2xl:h-[50rem] h-[30rem] object-cover rounded-xl shadow"
             src="/assets/carousel1-BUqaO1dK.jpg"

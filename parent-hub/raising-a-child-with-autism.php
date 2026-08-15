@@ -510,19 +510,19 @@
                         <div class="key-points-card">
 <ul class="space-y-4 mb-8 key-points-list">
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Understanding Autism:</strong> Autism is a neurodevelopmental condition characterised by differences in social communication, sensory processing, and behavioural patterns.</span>
         </li>
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Strengths-Based View:</strong> Autistic children have unique strengths including attention to detail, honesty, deep interests, pattern recognition, and visual thinking.</span>
         </li>
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Support Needs:</strong> Support varies widely — some children need speech therapy, OT, and social support while others need primarily environmental accommodations.</span>
         </li>
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Parent Role:</strong> Parents are the most important advocates and supporters — understanding your child's needs is the foundation of effective support.</span>
         </li>
             </ul>

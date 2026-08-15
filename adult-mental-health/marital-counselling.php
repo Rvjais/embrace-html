@@ -524,19 +524,19 @@
                         <div class="key-points-card">
 <ul class="space-y-4 mb-8 key-points-list">
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Marriage as System:</strong> Every marriage develops patterns of interaction, communication, and conflict resolution that can be identified and improved.</span>
         </li>
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Common Challenges:</strong> Financial stress, parenting differences, in-law relationships, intimacy issues, and life stage transitions challenge marriages.</span>
         </li>
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Investment in Health:</strong> Regular 'check-ups' for your marriage — even when things are going well — strengthen the relationship.</span>
         </li>
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Crisis Support:</strong> Infidelity, separation threats, and major disagreements benefit from structured therapeutic intervention.</span>
         </li>
             </ul>

@@ -511,19 +511,19 @@
                         <div class="key-points-card">
 <ul class="space-y-4 mb-8 key-points-list">
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Whole-School Approach:</strong> Effective school mental health programs involve students, teachers, parents, and leadership in creating a supportive environment.</span>
         </li>
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Early Identification:</strong> School-based screening and early intervention programs identify concerns before they become crises.</span>
         </li>
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Teacher Training:</strong> Equipping teachers with mental health literacy and classroom management skills benefits all students.</span>
         </li>
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Evidence-Based Programs:</strong> School mental health programs should be grounded in research and adapted to the Indian school context.</span>
         </li>
             </ul>

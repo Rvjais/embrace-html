@@ -349,27 +349,27 @@
         </div>
         <div class="relative w-full flex flex-col items-center justify-center 2xl:mt-30 md:mt-14 -mt-6">
           <div class="flex items-center justify-center w-full gap-2 md:gap-6 relative h-56 md:h-60">
-            <img
+            <img decoding="async" width="600" height="400"
               alt="carousel-img-0"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-30 md:scale-95 scale-170 -translate-x-1/2 -translate-y-1/2 shadow-2xl"
               src="/assets/Hero1-Di6dlo5a.png"
               style="pointer-events: auto; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img fetchpriority="high" decoding="async" width="600" height="400"
               alt="carousel-img-1"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[10%] md:translate-x-[0%]"
               src="/assets/Hero2-Can28qtb.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img decoding="async" width="600" height="400"
               alt="carousel-img-2"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 translate-x-[30%]"
               src="/assets/Hero3-9fbWtCLb.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-3"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 -translate-x-[130%]"
               src="/assets/Hero3-9fbWtCLb.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-4"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[90%] md:-translate-x-[100%]"
               src="/assets/Hero5-Qasv4MHU.png"
@@ -443,7 +443,7 @@
           <div
             class="bg-[#FFFFFF] pb-6 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center gap-2 px-4 pt-6 z-10 rounded-3xl md:rounded-2xl flex flex-col shadow-[0px_7px_12px_0px_#00000070] md:shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
           >
-            <img
+            <img loading="lazy" decoding="async" width="671" height="400"
               alt="undefined illustration"
               class="md:w-full 2xl:h-[70%] w-[90%] mb-2 md:mt-4"
               src="/assets/Service1-DRUPxZYX.svg"
@@ -490,7 +490,7 @@
           <div
             class="bg-[#FFFFFF] pb-6 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center gap-2 px-4 pt-6 z-10 rounded-3xl md:rounded-2xl flex flex-col shadow-[0px_7px_12px_0px_#00000070] md:shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
           >
-            <img
+            <img loading="lazy" decoding="async" width="674" height="400"
               alt="undefined illustration"
               class="md:w-full 2xl:h-[70%] w-[90%] mb-2 md:mt-4"
               src="/assets/Service2-DoMsLl4i.svg"
@@ -535,7 +535,7 @@
           <div
             class="bg-[#FFFFFF] pb-6 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center gap-2 px-4 pt-6 z-10 rounded-3xl md:rounded-2xl flex flex-col shadow-[0px_7px_12px_0px_#00000070] md:shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
           >
-            <img
+            <img loading="lazy" decoding="async" width="674" height="400"
               alt="undefined illustration"
               class="md:w-full 2xl:h-[70%] w-[90%] mb-2 md:mt-4"
               src="/assets/Service3-fWMP3woh.svg"
@@ -701,7 +701,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
               >
-                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient1-A-Cz0pZt.svg" />
+                <img loading="lazy" decoding="async" width="580" height="318" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient1-A-Cz0pZt.svg" />
                 <div class="text-start">
                   <p class="text-sm lg:text-base text-gray-600">
                     "My son loves coming to eMbrace. His confidence has grown so much!"
@@ -711,7 +711,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
               >
-                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient2-B-kI2dcu.png" />
+                <img loading="lazy" decoding="async" width="547" height="318" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient2-B-kI2dcu.png" />
                 <div class="text-start">
                   <p class="text-sm lg:text-base text-gray-600">
                     "The therapists are kind, patient, and extremely skilled. Thank you!"
@@ -721,7 +721,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
               >
-                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient3-CQPVFc5b.svg" />
+                <img loading="lazy" decoding="async" width="520" height="318" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient3-CQPVFc5b.svg" />
                 <div class="text-start">
                   <p class="text-sm lg:text-base text-gray-600">
                     "Their assessments were so detailed, it really helped us understand our child."
@@ -746,7 +746,7 @@
           Choose in-person or online – wherever you are, support is within reach.
         </p>
         <div class="relative flex mt-6 items-center justify-center w-full mx-auto">
-          <img
+          <img loading="lazy" decoding="async" width="1200" height="1600"
             alt="carousel-1"
             class="md:w-[90%] 2xl:h-[50rem] h-[30rem] object-cover rounded-xl shadow"
             src="/assets/carousel1-BUqaO1dK.jpg"

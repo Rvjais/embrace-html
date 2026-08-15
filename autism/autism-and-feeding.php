@@ -674,25 +674,25 @@
 <ul class="space-y-4 mb-8 key-points-list">
               
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Sensory Properties:</strong> Reacting strongly to specific textures (mushy, crunchy) or strong food smells.</span>
         </li>
         
 
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Anxiety & Food Refusal:</strong> Feeling anxious about new foods, which can cause gagging or food refusal.</span>
         </li>
         
 
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Brand Specifics:</strong> Needing foods to look and taste exactly the same, leading to a preference for specific brands.</span>
         </li>
         
 
         <li class="flex items-start gap-3">
-          <img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
+          <img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
           <span class="text-sm md:text-base text-gray-700"><strong>Oral Motor Skills:</strong> Coordination differences that make chewing or swallowing certain foods tiring.</span>
         </li>
         

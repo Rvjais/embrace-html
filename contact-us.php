@@ -357,12 +357,12 @@
                 >
               </p>
             </div>
-            <img alt="" class="w-[90%] mx-auto md:hidden block" src="/assets/ContactUs-Csn1-Qhu.svg" />
+            <img decoding="async" width="823" height="812" alt="" class="w-[90%] mx-auto md:hidden block" src="/assets/ContactUs-Csn1-Qhu.svg" />
             <div class="md:mt-10 mt-4 flex flex-row gap-4">
-              <div><img alt="" class="w-6 2xl:w-12 hidden md:block" src="/assets/whatsapp-CJHvNXx4.svg" /></div>
+              <div><img fetchpriority="high" decoding="async" width="56" height="56" alt="" class="w-6 2xl:w-12 hidden md:block" src="/assets/whatsapp-CJHvNXx4.svg" /></div>
               <div>
                 <div class="flex flex-row gap-2 w-[90%] md:w-full justify-center md:justify-start">
-                  <img alt="" class="w-6 md:hidden block" src="/assets/whatsapp-CJHvNXx4.svg" />
+                  <img decoding="async" width="56" height="56" alt="" class="w-6 md:hidden block" src="/assets/whatsapp-CJHvNXx4.svg" />
                   <h2 class="text-base text-center md:text-start md:text-xl 2xl:text-3xl font-semibold">
                     Get in Touch Quickly
                   </h2>
@@ -374,7 +374,7 @@
             </div>
           </div>
           <div class="w-[40%] flex flex-col justify-center">
-            <img alt="" class="w-[70%] -mt-10 2xl:-mt-20 hidden md:block" src="/assets/ContactUs-Csn1-Qhu.svg" />
+            <img loading="lazy" decoding="async" width="823" height="812" alt="" class="w-[70%] -mt-10 2xl:-mt-20 hidden md:block" src="/assets/ContactUs-Csn1-Qhu.svg" />
           </div>
         </div>
         <div class="w-full gap-6 flex md:flex-row flex-col">
@@ -495,20 +495,20 @@
           <div class="flex flex-col items-center md:items-start space-y-3">
             <div class="centre-slider w-full h-[16rem] md:h-[18rem] rounded-2xl overflow-hidden shadow-sm" id="slider-vk">
               <div class="slides">
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/679aab4d-ae8d-41fe-8e58-d7edd6bb0438.jpg" /></div>
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/21a4eec5-5263-4992-a120-9a460e5a6bd0.jpg" /></div>
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/6389e31c-ce1b-4576-a5e6-dd86f3b69e8b.jpg" /></div>
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/a02d7ea3-a77a-4ab8-b6dd-64452589d589.jpg" /></div>
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/c795ee9c-4024-4cb3-88d5-65adb9fb57ef.jpg" /></div>
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2896.jpg" /></div>
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2897.jpg" /></div>
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2898.jpg" /></div>
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/9ae5e881-b7f3-43b5-b0a6-6d535f575500.jpg" /></div>
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2899.jpg" /></div>
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2900.jpg" /></div>
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2901.jpg" /></div>
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/a192d3e0-b514-4510-a48e-1c564cc45a9d.jpg" /></div>
-                <div class="slide"><img alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/ce57b366-cb31-4b7e-ac99-1561304a0df4.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/679aab4d-ae8d-41fe-8e58-d7edd6bb0438.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/21a4eec5-5263-4992-a120-9a460e5a6bd0.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/6389e31c-ce1b-4576-a5e6-dd86f3b69e8b.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/a02d7ea3-a77a-4ab8-b6dd-64452589d589.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/c795ee9c-4024-4cb3-88d5-65adb9fb57ef.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2896.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2897.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2898.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/9ae5e881-b7f3-43b5-b0a6-6d535f575500.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2899.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2900.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/IMG_2901.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/a192d3e0-b514-4510-a48e-1c564cc45a9d.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="VK Centre" loading="lazy" src="/embrace-media/VK%20Center-20260806T082448Z-1-001/VK%20Center/ce57b366-cb31-4b7e-ac99-1561304a0df4.jpg" /></div>
               </div>
               <button class="slider-btn prev" onclick="slideMove('slider-vk',-1)" aria-label="Previous">&#8592;</button>
               <button class="slider-btn next" onclick="slideMove('slider-vk',1)" aria-label="Next">&#8594;</button>
@@ -529,22 +529,22 @@
           <div class="flex flex-col items-center md:items-start space-y-3">
             <div class="centre-slider w-full h-[16rem] md:h-[18rem] rounded-2xl overflow-hidden shadow-sm" id="slider-ggn">
               <div class="slides">
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn1.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn4.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn7.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn9.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn11.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn13.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn14.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn8.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn10.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn12.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn15.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn16.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn2.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn3.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn5.jpg" /></div>
-                <div class="slide"><img alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn6.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1920" height="1080" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn1.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1920" height="1080" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn4.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1080" height="1920" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn7.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1920" height="1080" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn9.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1920" height="1080" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn11.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1080" height="1920" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn13.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1080" height="1920" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn14.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1080" height="1920" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn8.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1920" height="1080" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn10.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1920" height="1080" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn12.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1080" height="1920" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn15.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1080" height="1920" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn16.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1920" height="1080" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn2.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1920" height="1080" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn3.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1080" height="1920" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn5.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1080" height="1920" alt="Gurgaon Centre" loading="lazy" src="/embrace-media/Gurgaon%20Centre-20260806T082441Z-1-001/Gurgaon%20Centre/Ggn6.jpg" /></div>
               </div>
               <button class="slider-btn prev" onclick="slideMove('slider-ggn',-1)" aria-label="Previous">&#8592;</button>
               <button class="slider-btn next" onclick="slideMove('slider-ggn',1)" aria-label="Next">&#8594;</button>
@@ -568,12 +568,12 @@
           <div class="flex flex-col items-center md:items-start space-y-3">
             <div class="centre-slider w-full h-[16rem] md:h-[18rem] rounded-2xl overflow-hidden shadow-sm" id="slider-rainbow">
               <div class="slides">
-                <div class="slide"><img alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5371.jpg" /></div>
-                <div class="slide"><img alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5372.jpg" /></div>
-                <div class="slide"><img alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5373.jpg" /></div>
-                <div class="slide"><img alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5374.jpg" /></div>
-                <div class="slide"><img alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5375.jpg" /></div>
-                <div class="slide"><img alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5376.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1920" height="1920" alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5371.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1920" height="1920" alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5372.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5373.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5374.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5375.jpg" /></div>
+                <div class="slide"><img decoding="async" width="1440" height="1920" alt="Rainbow Centre" loading="lazy" src="/embrace-media/eMbrace%20%40Rainbow-20260806T082445Z-1-001/eMbrace%20%40Rainbow/IMG_5376.jpg" /></div>
               </div>
               <button class="slider-btn prev" onclick="slideMove('slider-rainbow',-1)" aria-label="Previous">&#8592;</button>
               <button class="slider-btn next" onclick="slideMove('slider-rainbow',1)" aria-label="Next">&#8594;</button>
@@ -635,7 +635,7 @@
               <h3 class="md:text-base text-sm text-center font-semibold text-[var(--blue-fig)] mx-auto">
                 Therapy &amp; Booking Assistance
               </h3>
-              <img alt="" class="md:w-[40%] mt-4 mx-auto" src="/assets/TherapyAndBooking-W07t2HLB.svg" />
+              <img loading="lazy" decoding="async" width="558" height="386" alt="" class="md:w-[40%] mt-4 mx-auto" src="/assets/TherapyAndBooking-W07t2HLB.svg" />
               <p class="text-[var(--blue-fig)] font-medium text-xs mt-4 w-[90%]">
                 Need help booking a session or have question about ongoing therapy?
               </p>
@@ -661,7 +661,7 @@
               <h3 class="md:text-base text-sm font-semibold text-[var(--blue-fig)] mx-auto">
                 Media &amp; Press Inquiries
               </h3>
-              <img alt="" class="md:w-[40%] mt-4 mx-auto" src="/assets/Media-B5L1JSSZ.svg" />
+              <img loading="lazy" decoding="async" width="520" height="331" alt="" class="md:w-[40%] mt-4 mx-auto" src="/assets/Media-B5L1JSSZ.svg" />
               <p class="text-[var(--blue-fig)] font-medium text-xs mt-4 w-[90%]">
                 For interviews, collaborations, or expert insights from our psychologists, reach out to:
               </p>
@@ -691,7 +691,7 @@
               <h3 class="md:text-base text-sm font-semibold text-[var(--blue-fig)] mx-auto">
                 Technical Support &amp; Website Issues
               </h3>
-              <img alt="" class="md:w-[40%] mt-4 mx-auto" src="/assets/TechnicalSupport-BZD3Ttly.svg" />
+              <img loading="lazy" decoding="async" width="520" height="309" alt="" class="md:w-[40%] mt-4 mx-auto" src="/assets/TechnicalSupport-BZD3Ttly.svg" />
               <p class="text-[var(--blue-fig)] font-medium text-xs mt-4 w-[90%]">
                 Having trouble with your account, login, or payments?
               </p>
@@ -713,7 +713,7 @@
               class="md:w-[80%] rounded-tr-4xl rounded-bl-4xl border bg-white border-gray-300 px-10 py-4 md:py-2 2xl:py-6 flex flex-col justify-center md:mt-0 -mt-4"
             >
               <h3 class="text-base font-semibold text-[var(--blue-fig)] mx-auto">Partnerships</h3>
-              <img alt="" class="md:w-[40%] mt-4 mx-auto" src="/assets/Partnership-BAj9Nit_.svg" />
+              <img loading="lazy" decoding="async" width="730" height="439" alt="" class="md:w-[40%] mt-4 mx-auto" src="/assets/Partnership-BAj9Nit_.svg" />
               <p class="text-[var(--blue-fig)] font-medium text-xs mt-4 w-[90%]">
                 Want to integrate mental health programs into your organization?
               </p>

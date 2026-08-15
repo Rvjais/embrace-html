@@ -371,7 +371,7 @@
           </div>
           <div class="flex-1 flex justify-center md:justify-end">
             <div class="w-full max-w-md md:max-w-lg rounded-2xl overflow-hidden shadow-xl">
-              <img
+              <img decoding="async" width="600" height="400"
                 alt="Child receiving therapy at eMbrace clinic, Delhi NCR"
                 class="w-full h-64 md:h-80 lg:h-96 object-cover"
                 src="/assets/Hero1-2aXrpVyI.png"
@@ -554,7 +554,7 @@
           </p>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             <div class="bg-white rounded-2xl shadow-[0px_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
-              <img
+              <img fetchpriority="high" decoding="async" width="998" height="500"
                 alt="Assessments illustration"
                 class="w-full h-40 object-cover"
                 src="/assets/Service1-BJXk2tUH.svg"
@@ -566,7 +566,7 @@
                 </p>
                 <ul class="space-y-2">
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Ages &amp; Stages Questionnaire </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -575,7 +575,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]"
                         >ADOS (Autism Diagnostic Observation Schedule) </span
@@ -583,7 +583,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Parent Interview </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -592,7 +592,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Mullen Scales of Early Learning </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -601,14 +601,14 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">CARS (Childhood Autism Rating Scale) </span
                       ><span class="text-xs text-[#403D3D] font-normal">Behavior-based autism screening.</span>
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]"
                         >WISC (Wechsler Intelligence Scale for Children) </span
@@ -618,7 +618,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">WIAT (Wechsler Individual Achievement Test) </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -627,7 +627,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">ADHD &amp; LD Screening </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -639,7 +639,7 @@
               </div>
             </div>
             <div class="bg-white rounded-2xl shadow-[0px_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
-              <img
+              <img loading="lazy" decoding="async" width="998" height="500"
                 alt="Therapy &amp; Interventions illustration"
                 class="w-full h-40 object-cover"
                 src="/assets/Service2-CmmxGp_A.svg"
@@ -651,7 +651,7 @@
                 </p>
                 <ul class="space-y-2">
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Occupational Therapy </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -660,7 +660,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Speech &amp; Language Therapy </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -669,7 +669,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Behavior Therapy </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -678,7 +678,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Expressive Arts Therapy </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -687,7 +687,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Physiotherapy </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -696,7 +696,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Special Education Support </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -705,7 +705,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Early Intervention Programs </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -717,7 +717,7 @@
               </div>
             </div>
             <div class="bg-white rounded-2xl shadow-[0px_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
-              <img
+              <img loading="lazy" decoding="async" width="998" height="500"
                 alt="Parent &amp; Family Support illustration"
                 class="w-full h-40 object-cover"
                 src="/assets/Service2-CmmxGp_A.svg"
@@ -732,7 +732,7 @@
                 </p>
                 <ul class="space-y-2">
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Parent Coaching </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -741,7 +741,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">School Liaison </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -750,7 +750,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Home Program Design </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -759,7 +759,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Sibling Support </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -768,7 +768,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Family Therapy Sessions </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -777,7 +777,7 @@
                     </div>
                   </li>
                   <li class="flex items-start gap-2">
-                    <img alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
+                    <img loading="lazy" decoding="async" width="100" height="100" alt="" class="w-4 h-4 flex-shrink-0 mt-0.5" src="/assets/Diamond-dGu0kMrR.svg" />
                     <div>
                       <span class="text-xs font-bold text-[#403D3D]">Resource Navigation </span
                       ><span class="text-xs text-[#403D3D] font-normal"
@@ -1436,7 +1436,7 @@
             Calm, sensory-friendly spaces designed so every child feels safe, comfortable, and ready to grow.
           </p>
           <div class="relative flex items-center justify-center mx-auto">
-            <img
+            <img loading="lazy" decoding="async" width="1200" height="1600"
               alt="Therapy space photo 1 of 8"
               class="w-full max-w-2xl h-64 md:h-80 lg:h-96 object-cover rounded-xl shadow-lg mx-auto"
               src="/assets/carousel1-BUqaO1dK.jpg"
@@ -1523,7 +1523,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="600" height="600"
                         alt="The Union"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-colorburn"
                         loading="lazy"
@@ -1541,7 +1541,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="225" height="225"
                         alt="US Embassy"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -1559,7 +1559,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="316" height="316"
                         alt="Woodstock School"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -1577,7 +1577,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="175" height="73"
                         alt="Ashoka University"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -1595,7 +1595,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="128" height="115"
                         alt="Doon School"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -1613,7 +1613,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="136" height="136"
                         alt="Lincoln School"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -1631,7 +1631,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="150" height="135"
                         alt="Rainbow Hospital"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -1649,7 +1649,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="476" height="512"
                         alt="American Embassy School"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -1667,7 +1667,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="999" height="335"
                         alt="Atypical Advantage"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -1685,7 +1685,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="251" height="201"
                         alt="British School"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -1703,7 +1703,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="3840" height="2160"
                         alt="HSBC"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -1721,7 +1721,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="341" height="100"
                         alt="I-CAN"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-colorburn"
                         loading="lazy"
@@ -1739,7 +1739,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="427" height="118"
                         alt="Instamojo"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -1757,7 +1757,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="206" height="244"
                         alt="Little Pearls"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -1775,7 +1775,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="1080" height="1080"
                         alt="MyndStories"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -1793,7 +1793,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="225" height="225"
                         alt="Niraya"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -1811,7 +1811,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="410" height="123"
                         alt="Pearson"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -1829,7 +1829,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="381" height="132"
                         alt="SOVA"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -1847,7 +1847,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="300" height="300"
                         alt="Tamana"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -1883,7 +1883,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="600" height="600"
                         alt="The Union"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-colorburn"
                         loading="lazy"
@@ -1901,7 +1901,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="225" height="225"
                         alt="US Embassy"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -1919,7 +1919,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="316" height="316"
                         alt="Woodstock School"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -1937,7 +1937,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="175" height="73"
                         alt="Ashoka University"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -1955,7 +1955,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="128" height="115"
                         alt="Doon School"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -1973,7 +1973,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="136" height="136"
                         alt="Lincoln School"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -1991,7 +1991,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="150" height="135"
                         alt="Rainbow Hospital"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -2009,7 +2009,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="476" height="512"
                         alt="American Embassy School"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -2027,7 +2027,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="999" height="335"
                         alt="Atypical Advantage"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -2045,7 +2045,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="251" height="201"
                         alt="British School"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -2063,7 +2063,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="3840" height="2160"
                         alt="HSBC"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -2081,7 +2081,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="341" height="100"
                         alt="I-CAN"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-colorburn"
                         loading="lazy"
@@ -2099,7 +2099,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="427" height="118"
                         alt="Instamojo"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -2117,7 +2117,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="206" height="244"
                         alt="Little Pearls"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -2135,7 +2135,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="1080" height="1080"
                         alt="MyndStories"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -2153,7 +2153,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="225" height="225"
                         alt="Niraya"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -2171,7 +2171,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="410" height="123"
                         alt="Pearson"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -2189,7 +2189,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="381" height="132"
                         alt="SOVA"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -2207,7 +2207,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="300" height="300"
                         alt="Tamana"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -2243,7 +2243,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="600" height="600"
                         alt="The Union"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-colorburn"
                         loading="lazy"
@@ -2261,7 +2261,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="225" height="225"
                         alt="US Embassy"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-multiply"
                         loading="lazy"
@@ -2279,7 +2279,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="316" height="316"
                         alt="Woodstock School"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -2297,7 +2297,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="175" height="73"
                         alt="Ashoka University"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -2315,7 +2315,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="128" height="115"
                         alt="Doon School"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -2333,7 +2333,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="136" height="136"
                         alt="Lincoln School"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -2351,7 +2351,7 @@
                     tabindex="-1"
                   >
                     <div>
-                      <img
+                      <img decoding="async" width="150" height="135"
                         alt="Rainbow Hospital"
                         class="object-contain px-5 w-20 h-20 md:w-25 md:h-25 mix-blend-color-burn"
                         loading="lazy"
@@ -2737,7 +2737,7 @@
                     <span
                       class="text-xs font-bold absolute -top-1 -right-1 bg-[#234394] text-white rounded-full w-5 h-5 flex items-center justify-center"
                       >01</span
-                    ><img alt="" class="w-10 h-10" src="[object Object],[object Object]" />
+                    >
                   </div>
                 </div>
                 <div class="flex-1">
@@ -2756,7 +2756,7 @@
                     <span
                       class="text-xs font-bold absolute -top-1 -right-1 bg-[#234394] text-white rounded-full w-5 h-5 flex items-center justify-center"
                       >02</span
-                    ><img alt="" class="w-10 h-10" src="[object Object],[object Object]" />
+                    >
                   </div>
                 </div>
                 <div class="flex-1">
@@ -2775,7 +2775,7 @@
                     <span
                       class="text-xs font-bold absolute -top-1 -right-1 bg-[#234394] text-white rounded-full w-5 h-5 flex items-center justify-center"
                       >03</span
-                    ><img alt="" class="w-10 h-10" src="[object Object],[object Object]" />
+                    >
                   </div>
                 </div>
                 <div class="flex-1">
@@ -2794,7 +2794,7 @@
                     <span
                       class="text-xs font-bold absolute -top-1 -right-1 bg-[#234394] text-white rounded-full w-5 h-5 flex items-center justify-center"
                       >04</span
-                    ><img alt="" class="w-10 h-10" src="[object Object],[object Object]" />
+                    >
                   </div>
                 </div>
                 <div class="flex-1">

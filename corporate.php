@@ -346,27 +346,27 @@
         </div>
         <div class="relative w-full flex flex-col items-center justify-center 2xl:mt-30 md:mt-14 -mt-6">
           <div class="flex items-center justify-center w-full gap-2 md:gap-6 relative h-56 md:h-60">
-            <img
+            <img decoding="async" width="600" height="400"
               alt="carousel-img-0"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-30 md:scale-95 scale-170 -translate-x-1/2 -translate-y-1/2 shadow-2xl"
               src="/assets/Hero1-BMlbSaLi.png"
               style="pointer-events: auto; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img fetchpriority="high" decoding="async" width="600" height="400"
               alt="carousel-img-1"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[10%] md:translate-x-[0%]"
               src="/assets/Hero2-CbQ4Vkfd.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img decoding="async" width="600" height="400"
               alt="carousel-img-2"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 translate-x-[30%]"
               src="/assets/Hero3-ALpijOpG.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-3"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 -translate-x-[130%]"
               src="/assets/Hero4-DRtRiEGj.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-4"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[90%] md:-translate-x-[100%]"
               src="/assets/Hero5-DUvhq4h_.png"
@@ -432,7 +432,7 @@
         <h2 class="md:text-3xl 2xl:text-4xl text-lg font-bold text-center">Why Corporates Choose eMbrace</h2>
         <div class="w-full flex flex-col gap-6 items-center mt-12">
           <div class="md:w-[80%] 2xl:w-[65%] bg-white rounded-2xl py-2 px-4 shadow-sm/20 flex flex-row gap-4">
-            <div class="w-fit"><img alt="" class="w-12 2xl:w-18" src="/assets/Card1-CwIVRNcF.svg" /></div>
+            <div class="w-fit"><img loading="lazy" decoding="async" width="80" height="80" alt="" class="w-12 2xl:w-18" src="/assets/Card1-CwIVRNcF.svg" /></div>
             <div class="w-full flex flex-col">
               <h2 class="text-left text-[var(--text-gray)] text-sm md:text-lg 2xl:text-2xl font-semibold">
                 Neurodiversity &amp; Inclusion
@@ -443,7 +443,7 @@
             </div>
           </div>
           <div class="md:w-[80%] 2xl:w-[65%] bg-white rounded-2xl py-2 px-4 shadow-sm/20 flex flex-row gap-4">
-            <div class="w-fit"><img alt="" class="w-12 2xl:w-18" src="/assets/Card2-px5EWGr_.svg" /></div>
+            <div class="w-fit"><img loading="lazy" decoding="async" width="80" height="80" alt="" class="w-12 2xl:w-18" src="/assets/Card2-px5EWGr_.svg" /></div>
             <div class="w-full flex flex-col">
               <h2 class="text-left text-[var(--text-gray)] text-sm md:text-lg 2xl:text-2xl font-semibold">
                 Confidential EAP &amp; Assessments
@@ -454,7 +454,7 @@
             </div>
           </div>
           <div class="md:w-[80%] 2xl:w-[65%] bg-white rounded-2xl py-2 px-4 shadow-sm/20 flex flex-row gap-4">
-            <div class="w-fit"><img alt="" class="w-12 2xl:w-18" src="/assets/Card3-CpKIplDb.svg" /></div>
+            <div class="w-fit"><img loading="lazy" decoding="async" width="80" height="80" alt="" class="w-12 2xl:w-18" src="/assets/Card3-CpKIplDb.svg" /></div>
             <div class="w-full flex flex-col">
               <h2 class="text-left text-[var(--text-gray)] text-sm md:text-lg 2xl:text-2xl font-semibold">
                 Manager &amp; HR Training
@@ -465,7 +465,7 @@
             </div>
           </div>
           <div class="md:w-[80%] 2xl:w-[65%] bg-white rounded-2xl py-2 px-4 shadow-sm/20 flex flex-row gap-4">
-            <div class="w-fit"><img alt="" class="w-12 2xl:w-18" src="/assets/Card4-6Rtd8vSm.svg" /></div>
+            <div class="w-fit"><img loading="lazy" decoding="async" width="80" height="80" alt="" class="w-12 2xl:w-18" src="/assets/Card4-6Rtd8vSm.svg" /></div>
             <div class="w-full flex flex-col">
               <h2 class="text-left text-[var(--text-gray)] text-sm md:text-lg 2xl:text-2xl font-semibold">
                 Culture of Well-Being
@@ -489,7 +489,7 @@
             <div
               class="bg-white rounded-xl shadow-sm/20 p-3 md:p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
             >
-              <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/Workplace1-VFK2Xpwn.svg" />
+              <img loading="lazy" decoding="async" width="648" height="401" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/Workplace1-VFK2Xpwn.svg" />
               <div class="text-start">
                 <h2 class="text-md lg:text-lg 2xl:text-xl font-semibold mb-2 text-center w-[80%] mx-auto">
                   Neurodiversity &amp; Inclusion Workshops
@@ -504,7 +504,7 @@
             <div
               class="bg-white rounded-xl shadow-sm/20 p-3 md:p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
             >
-              <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/Workplace2-DJvja1rY.svg" />
+              <img loading="lazy" decoding="async" width="644" height="403" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/Workplace2-DJvja1rY.svg" />
               <div class="text-start">
                 <h2 class="text-md lg:text-lg 2xl:text-xl font-semibold mb-2 text-center w-[80%] mx-auto">
                   Workplace Awareness &amp; Training
@@ -519,7 +519,7 @@
             <div
               class="bg-white rounded-xl shadow-sm/20 p-3 md:p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
             >
-              <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/Workplace3-Cwevr10M.svg" />
+              <img loading="lazy" decoding="async" width="664" height="403" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/Workplace3-Cwevr10M.svg" />
               <div class="text-start">
                 <h2 class="text-md lg:text-lg 2xl:text-xl font-semibold mb-2 text-center w-[80%] mx-auto">
                   Work-Life Balance &amp; Burnout Prevention
@@ -541,7 +541,7 @@
             <div
               class="bg-white rounded-xl shadow-sm/20 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
             >
-              <img alt="Why Embrace 2" class="w-[100%] md:w-full mb-4" src="/assets/Employee1-hEWJsXnS.svg" />
+              <img loading="lazy" decoding="async" width="682" height="381" alt="Why Embrace 2" class="w-[100%] md:w-full mb-4" src="/assets/Employee1-hEWJsXnS.svg" />
               <div class="text-start">
                 <h2 class="text-md mx-auto lg:text-lg 2xl:text-xl font-semibold mb-2 text-center w-[60%] 2xl:w-[70%]">
                   Confidential Therapy Sessions
@@ -556,7 +556,7 @@
             <div
               class="bg-white rounded-xl shadow-sm/20 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
             >
-              <img alt="Why Embrace 2" class="w-[100%] md:w-full mb-4" src="/assets/Employee2-BgjQZlWH.svg" />
+              <img loading="lazy" decoding="async" width="658" height="357" alt="Why Embrace 2" class="w-[100%] md:w-full mb-4" src="/assets/Employee2-BgjQZlWH.svg" />
               <div class="text-start">
                 <h2 class="text-md mx-auto lg:text-lg 2xl:text-xl font-semibold mb-2 text-center w-[60%] 2xl:w-[70%]">
                   Workplace Assessments
@@ -571,7 +571,7 @@
             <div
               class="bg-white rounded-xl shadow-sm/20 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
             >
-              <img alt="Why Embrace 2" class="w-[100%] md:w-full mb-4" src="/assets/Employee3-CqsNKr7i.svg" />
+              <img loading="lazy" decoding="async" width="658" height="357" alt="Why Embrace 2" class="w-[100%] md:w-full mb-4" src="/assets/Employee3-CqsNKr7i.svg" />
               <div class="text-start">
                 <h2 class="text-md mx-auto lg:text-lg 2xl:text-xl font-semibold mb-2 text-center w-[60%] 2xl:w-[70%]">
                   Monthly Mental Health Insights
@@ -597,19 +597,19 @@
         </p>
         <div class="mt-10 grid grid-cols-2 md:grid-cols-3 gap-4 w-full">
           <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
-            <img alt="HSBC Corporate Workshop - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/HSBC%20Workshop.jpeg" />
+            <img decoding="async" width="1600" height="1200" alt="HSBC Corporate Workshop - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/HSBC%20Workshop.jpeg" />
           </div>
           <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
-            <img alt="HSBC Workshop Photo - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/HSBC%20Workshop%20photo%201%20HSBC.jpeg" />
+            <img decoding="async" width="1280" height="960" alt="HSBC Workshop Photo - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/HSBC%20Workshop%20photo%201%20HSBC.jpeg" />
           </div>
           <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
-            <img alt="Instamojo Workshop - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/INSTAMOJO%20Workshop%20.jpeg" />
+            <img decoding="async" width="1280" height="960" alt="Instamojo Workshop - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/INSTAMOJO%20Workshop%20.jpeg" />
           </div>
           <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
-            <img alt="Lady Shri Ram College Workshop - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/Workshop%20photo%20Lady%20Shri%20Ram%20College.jpeg" />
+            <img decoding="async" width="1280" height="960" alt="Lady Shri Ram College Workshop - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/Workshop%20photo%20Lady%20Shri%20Ram%20College.jpeg" />
           </div>
           <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
-            <img alt="Artemis Hospital Workshop - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/Artemis%20Workshop.jpeg" />
+            <img decoding="async" width="1280" height="843" alt="Artemis Hospital Workshop - eMbrace" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/Corporate%20Workshops/Artemis%20Workshop.jpeg" />
           </div>
           <div class="rounded-2xl overflow-hidden shadow-md aspect-video bg-gradient-to-br from-[#234394] to-[#5B8CFF] flex flex-col items-center justify-center px-4 text-center">
             <p class="text-white font-bold text-lg md:text-xl">50+</p>
@@ -640,7 +640,7 @@
               <p class="text-gray-600 text-xs md:text-sm">We share insights, not identities.</p>
             </div>
             <div class="w-[40%] md:w-[20%] justify-end flex">
-              <img alt="" class="w-[90%]" src="/assets/ZeroData-DhE4yI-J.svg" />
+              <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/ZeroData-DhE4yI-J.svg" />
             </div>
           </div>
           <div
@@ -651,7 +651,7 @@
               <p class="text-gray-600 text-xs md:text-sm">Therapy is one click away.</p>
             </div>
             <div class="w-[40%] md:w-[20%] justify-end flex">
-              <img alt="" class="w-[90%]" src="/assets/EasyEmployee-lg7wFvdK.svg" />
+              <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/EasyEmployee-lg7wFvdK.svg" />
             </div>
           </div>
           <div
@@ -664,7 +664,7 @@
               </p>
             </div>
             <div class="w-[40%] md:w-[20%] justify-end flex">
-              <img alt="" class="w-[90%]" src="/assets/ImpactTraining-DVog4EhH.svg" />
+              <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/ImpactTraining-DVog4EhH.svg" />
             </div>
           </div>
           <div
@@ -675,7 +675,7 @@
               <p class="text-gray-600 text-xs md:text-sm">From the top down, we foster mental health advocacy.</p>
             </div>
             <div class="w-[40%] md:w-[20%] justify-end flex">
-              <img alt="" class="w-[90%]" src="/assets/CultureShift-B3rRBoZC.svg" />
+              <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/CultureShift-B3rRBoZC.svg" />
             </div>
           </div>
         </div>
@@ -689,7 +689,7 @@
             <div
               class="shadow-[0px_10px_24.5px_0px_#76C1D6D6] bg-[linear-gradient(180deg,_rgba(0,0,0,0)_0%,_rgba(0,0,0,0.09)_100%)] rounded-full flex justify-center items-center w-40 h-40 md:w-25 md:h-25 2xl:w-50 2xl:h-50"
             >
-              <img
+              <img loading="lazy" decoding="async" width="200" height="200"
                 alt="Trusted 1"
                 class="md:w-15 md:h-auto w-25 h-25 2xl:w-35 2xl:h-35 object-contain"
                 src="/assets/Logo1-hmv2St2T.svg"
@@ -698,7 +698,7 @@
             <div
               class="shadow-[0px_10px_24.5px_0px_#76C1D6D6] bg-[linear-gradient(180deg,_rgba(0,0,0,0)_0%,_rgba(0,0,0,0.09)_100%)] rounded-full flex justify-center items-center w-40 h-40 md:w-25 md:h-25 2xl:w-50 2xl:h-50"
             >
-              <img
+              <img loading="lazy" decoding="async" width="271" height="139"
                 alt="Trusted 2"
                 class="md:w-15 md:h-auto w-25 h-25 2xl:w-35 2xl:h-35 object-contain"
                 src="/assets/Logo2-3WUAY156.svg"
@@ -707,7 +707,7 @@
             <div
               class="shadow-[0px_10px_24.5px_0px_#76C1D6D6] bg-[linear-gradient(180deg,_rgba(0,0,0,0)_0%,_rgba(0,0,0,0.09)_100%)] rounded-full flex justify-center items-center w-40 h-40 md:w-25 md:h-25 2xl:w-50 2xl:h-50"
             >
-              <img
+              <img loading="lazy" decoding="async" width="245" height="120"
                 alt="Trusted 3"
                 class="md:w-15 md:h-auto w-25 h-25 2xl:w-35 2xl:h-35 object-contain"
                 src="/assets/Logo3-CJENMxWj.svg"
@@ -716,7 +716,7 @@
             <div
               class="shadow-[0px_10px_24.5px_0px_#76C1D6D6] bg-[linear-gradient(180deg,_rgba(0,0,0,0)_0%,_rgba(0,0,0,0.09)_100%)] rounded-full flex justify-center items-center w-40 h-40 md:w-25 md:h-25 2xl:w-50 2xl:h-50"
             >
-              <img
+              <img loading="lazy" decoding="async" width="298" height="288"
                 alt="Trusted 4"
                 class="md:w-15 md:h-auto w-25 h-25 2xl:w-35 2xl:h-35 object-contain"
                 src="/assets/Logo4-BPKpTPx1.svg"
@@ -725,7 +725,7 @@
             <div
               class="shadow-[0px_10px_24.5px_0px_#76C1D6D6] bg-[linear-gradient(180deg,_rgba(0,0,0,0)_0%,_rgba(0,0,0,0.09)_100%)] rounded-full flex justify-center items-center w-40 h-40 md:w-25 md:h-25 2xl:w-50 2xl:h-50"
             >
-              <img
+              <img loading="lazy" decoding="async" width="225" height="225"
                 alt="Trusted 5"
                 class="md:w-15 md:h-auto w-25 h-25 2xl:w-35 2xl:h-35 object-contain"
                 src="/assets/Logo5-CGYlCCi-.svg"
@@ -734,7 +734,7 @@
             <div
               class="shadow-[0px_10px_24.5px_0px_#76C1D6D6] bg-[linear-gradient(180deg,_rgba(0,0,0,0)_0%,_rgba(0,0,0,0.09)_100%)] rounded-full flex justify-center items-center w-40 h-40 md:w-25 md:h-25 2xl:w-50 2xl:h-50"
             >
-              <img
+              <img loading="lazy" decoding="async" width="280" height="97"
                 alt="Trusted 6"
                 class="md:w-15 md:h-auto w-25 h-25 2xl:w-35 2xl:h-35 object-contain"
                 src="/assets/Logo6-Bb74QE-G.svg"
@@ -910,7 +910,7 @@
           Personalized, empathetic spaces designed for comfort and growth
         </p>
         <div class="relative flex mt-6 items-center justify-center w-full mx-auto">
-          <img
+          <img loading="lazy" decoding="async" width="1200" height="1600"
             alt="carousel-1"
             class="md:w-[90%] 2xl:h-[50rem] h-[30rem] object-cover rounded-xl shadow"
             src="/assets/carousel1-BUqaO1dK.jpg"

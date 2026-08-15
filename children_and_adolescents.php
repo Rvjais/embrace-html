@@ -344,27 +344,27 @@
         </div>
         <div class="relative w-full flex flex-col items-center justify-center 2xl:mt-30 md:mt-14 -mt-6">
           <div class="flex items-center justify-center w-full gap-2 md:gap-6 relative h-56 md:h-60">
-            <img
+            <img decoding="async" width="600" height="400"
               alt="carousel-img-0"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-30 md:scale-95 scale-170 -translate-x-1/2 -translate-y-1/2 shadow-2xl"
               src="/assets/Hero1-DofYE2YX.png"
               style="pointer-events: auto; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img fetchpriority="high" decoding="async" width="600" height="400"
               alt="carousel-img-1"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[10%] md:translate-x-[0%]"
               src="/assets/Hero2-BYwvac1Z.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img decoding="async" width="600" height="400"
               alt="carousel-img-2"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 translate-x-[30%]"
               src="/assets/Hero3-DRPc5FAk.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-3"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 -translate-x-[130%]"
               src="/assets/Hero1-Di6dlo5a.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-4"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[90%] md:-translate-x-[100%]"
               src="/assets/Hero5-BtbVpVZp.png"
@@ -433,7 +433,7 @@
                   </p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img alt="" class="w-[90%]" src="/assets/developmentPsychology-DXm3_gc8.svg" />
+                  <img loading="lazy" decoding="async" width="209" height="209" alt="" class="w-[90%]" src="/assets/developmentPsychology-DXm3_gc8.svg" />
                 </div>
               </div>
               <div
@@ -446,7 +446,7 @@
                   </p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img alt="" class="w-[90%]" src="/assets/behaviorTherapt-DQyHqSoO.svg" />
+                  <img loading="lazy" decoding="async" width="201" height="200" alt="" class="w-[90%]" src="/assets/behaviorTherapt-DQyHqSoO.svg" />
                 </div>
               </div>
               <div
@@ -457,7 +457,7 @@
                   <p class="text-gray-600 text-sm">Tailored learning plans for diverse learning needs.</p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img alt="" class="w-[90%]" src="/assets/specialEducation-BUTLj0Ko.svg" />
+                  <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/specialEducation-BUTLj0Ko.svg" />
                 </div>
               </div>
               <div
@@ -470,7 +470,7 @@
                   </p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img alt="" class="w-[90%]" src="/assets/physiotherapy-DUPd0OwH.svg" />
+                  <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/physiotherapy-DUPd0OwH.svg" />
                 </div>
               </div>
               <div
@@ -481,7 +481,7 @@
                   <p class="text-gray-600 text-sm">Structured programs to build self-regulation and social skills.</p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img alt="" class="w-[90%]" src="/assets/occupationalTherapy-BjQOUevQ.svg" />
+                  <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/occupationalTherapy-BjQOUevQ.svg" />
                 </div>
               </div>
               <div
@@ -494,7 +494,7 @@
                   </p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img alt="" class="w-[90%]" src="/assets/speechAndLanguage-BsW3n376.svg" />
+                  <img loading="lazy" decoding="async" width="201" height="201" alt="" class="w-[90%]" src="/assets/speechAndLanguage-BsW3n376.svg" />
                 </div>
               </div>
               <div
@@ -507,7 +507,7 @@
                   </p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img alt="" class="w-[90%]" src="/assets/earlyIntervention-s6QF48x4.svg" />
+                  <img loading="lazy" decoding="async" width="201" height="201" alt="" class="w-[90%]" src="/assets/earlyIntervention-s6QF48x4.svg" />
                 </div>
               </div>
               <div
@@ -520,7 +520,7 @@
                   </p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img alt="" class="w-[90%]" src="/assets/expressiveArts-DoGeG7O8.svg" />
+                  <img loading="lazy" decoding="async" width="201" height="201" alt="" class="w-[90%]" src="/assets/expressiveArts-DoGeG7O8.svg" />
                 </div>
               </div>
             </div>
@@ -529,7 +529,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img alt="" class="w-[90%]" src="/assets/developmentalPsychologyMobile-D4VCYwK5.svg" />
+                  <img loading="lazy" decoding="async" width="414" height="208" alt="" class="w-[90%]" src="/assets/developmentalPsychologyMobile-D4VCYwK5.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Developmental Psychology</h3>
@@ -542,7 +542,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img alt="" class="w-[90%]" src="/assets/occupationalTherapyMobile-hjyLdyhC.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/occupationalTherapyMobile-hjyLdyhC.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Occupational Therapy</h3>
@@ -555,7 +555,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img alt="" class="w-[90%]" src="/assets/specialEducationMobile-CxEqEIRt.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/specialEducationMobile-CxEqEIRt.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Special Education</h3>
@@ -566,7 +566,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img alt="" class="w-[90%]" src="/assets/physiotherapyMobile-B1QC8_YN.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/physiotherapyMobile-B1QC8_YN.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Physiotherapy</h3>
@@ -579,7 +579,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img alt="" class="w-[90%]" src="/assets/behaviorTherapyMobile-CpFSsYep.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/behaviorTherapyMobile-CpFSsYep.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Behavior Therapy</h3>
@@ -590,7 +590,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img alt="" class="w-[90%]" src="/assets/speechLanguageMobile-DI_EEffe.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/speechLanguageMobile-DI_EEffe.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Speech &amp; Language Pathology</h3>
@@ -603,7 +603,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img alt="" class="w-[90%]" src="/assets/earlyInterventionMobile-B7Bveluo.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/earlyInterventionMobile-B7Bveluo.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Early Intervention</h3>
@@ -616,7 +616,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img alt="" class="w-[90%]" src="/assets/expressiveArtsMobile-C-nNnat_.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/expressiveArtsMobile-C-nNnat_.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Expressive Arts</h3>
@@ -653,7 +653,7 @@
             <div
               class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
             >
-              <img alt="Children" class="w-[90%] object-contain mb-2" src="/assets/Children-Bdo6pdy7.svg" />
+              <img loading="lazy" decoding="async" width="299" height="373" alt="Children" class="w-[90%] object-contain mb-2" src="/assets/Children-Bdo6pdy7.svg" />
               <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3">
                 Early intervention, assessments, and therapy for developmental and emotional needs.
               </p>
@@ -676,7 +676,7 @@
             <div
               class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
             >
-              <img alt="Adolescents" class="w-[90%] object-contain mb-2" src="/assets/Adolescents-Cc-LjoB3.svg" />
+              <img loading="lazy" decoding="async" width="299" height="373" alt="Adolescents" class="w-[90%] object-contain mb-2" src="/assets/Adolescents-Cc-LjoB3.svg" />
               <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3">
                 Support for identity, anxiety, learning, and behavioral concerns during teen years.
               </p>
@@ -699,7 +699,7 @@
             <div
               class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
             >
-              <img alt="Parents" class="w-[90%] object-contain mb-2" src="/assets/Parents-B7Ee4qos.svg" />
+              <img loading="lazy" decoding="async" width="299" height="373" alt="Parents" class="w-[90%] object-contain mb-2" src="/assets/Parents-B7Ee4qos.svg" />
               <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3">
                 Parent coaching, therapy, and training to build resilient, supported families.
               </p>
@@ -722,7 +722,7 @@
             <div
               class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
             >
-              <img alt="Teachers" class="w-[90%] object-contain mb-2" src="/assets/Teachers-g9VI1gwF.svg" />
+              <img loading="lazy" decoding="async" width="299" height="373" alt="Teachers" class="w-[90%] object-contain mb-2" src="/assets/Teachers-g9VI1gwF.svg" />
               <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3">
                 Workshops, behavioral support, and classroom strategies for inclusive education.
               </p>
@@ -745,7 +745,7 @@
             <div
               class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
             >
-              <img alt="Schools" class="w-[90%] object-contain mb-2" src="/assets/Schools-B4eLjp-Z.svg" />
+              <img loading="lazy" decoding="async" width="299" height="373" alt="Schools" class="w-[90%] object-contain mb-2" src="/assets/Schools-B4eLjp-Z.svg" />
               <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3">
                 Screenings, SEL programs, educator training, and inclusive policy design.
               </p>
@@ -768,7 +768,7 @@
             <div
               class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
             >
-              <img alt="Hospitals" class="w-[90%] object-contain mb-2" src="/assets/Hospital-DyKfuRmN.svg" />
+              <img loading="lazy" decoding="async" width="299" height="372" alt="Hospitals" class="w-[90%] object-contain mb-2" src="/assets/Hospital-DyKfuRmN.svg" />
               <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3">
                 Support for identity, anxiety, learning, and behavioral concerns during teen years.
               </p>
@@ -793,7 +793,7 @@
             <div
               class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
             >
-              <img alt="Children" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Children-Bdo6pdy7.svg" />
+              <img loading="lazy" decoding="async" width="299" height="373" alt="Children" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Children-Bdo6pdy7.svg" />
               <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3 w-[70%]">
                 Early intervention, assessments, and therapy for developmental and emotional needs.
               </p>
@@ -816,7 +816,7 @@
             <div
               class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
             >
-              <img alt="Adolescents" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Adolescents-Cc-LjoB3.svg" />
+              <img loading="lazy" decoding="async" width="299" height="373" alt="Adolescents" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Adolescents-Cc-LjoB3.svg" />
               <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3 w-[70%]">
                 Support for identity, anxiety, learning, and behavioral concerns during teen years.
               </p>
@@ -839,7 +839,7 @@
             <div
               class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
             >
-              <img alt="Parents" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Parents-B7Ee4qos.svg" />
+              <img loading="lazy" decoding="async" width="299" height="373" alt="Parents" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Parents-B7Ee4qos.svg" />
               <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3 w-[70%]">
                 Parent coaching, therapy, and training to build resilient, supported families.
               </p>
@@ -862,7 +862,7 @@
             <div
               class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
             >
-              <img alt="Teachers" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Teachers-g9VI1gwF.svg" />
+              <img loading="lazy" decoding="async" width="299" height="373" alt="Teachers" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Teachers-g9VI1gwF.svg" />
               <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3 w-[70%]">
                 Workshops, behavioral support, and classroom strategies for inclusive education.
               </p>
@@ -885,7 +885,7 @@
             <div
               class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
             >
-              <img alt="Schools" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Schools-B4eLjp-Z.svg" />
+              <img loading="lazy" decoding="async" width="299" height="373" alt="Schools" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Schools-B4eLjp-Z.svg" />
               <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3 w-[70%]">
                 Screenings, SEL programs, educator training, and inclusive policy design.
               </p>
@@ -908,7 +908,7 @@
             <div
               class="bg-white rounded-2xl border-2 border-[#00000040]/40 flex flex-col items-center p-3 h-full min-h-[220px]"
             >
-              <img alt="Hospitals" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Hospital-DyKfuRmN.svg" />
+              <img loading="lazy" decoding="async" width="299" height="372" alt="Hospitals" class="w-[80%] object-contain mb-2 mt-4" src="/assets/Hospital-DyKfuRmN.svg" />
               <p class="text-center text-[]var(--text-gray) text-xs font-medium mt-3 w-[70%]">
                 Support for identity, anxiety, learning, and behavioral concerns during teen years.
               </p>
@@ -1129,7 +1129,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
               >
-                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient1-A-Cz0pZt.svg" />
+                <img loading="lazy" decoding="async" width="580" height="318" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient1-A-Cz0pZt.svg" />
                 <div class="text-start">
                   <p class="text-sm lg:text-base text-gray-600">
                     "My son loves coming to eMbrace. His confidence has grown so much!"
@@ -1139,7 +1139,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
               >
-                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient2-B-kI2dcu.png" />
+                <img loading="lazy" decoding="async" width="547" height="318" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient2-B-kI2dcu.png" />
                 <div class="text-start">
                   <p class="text-sm lg:text-base text-gray-600">
                     "The therapists are kind, patient, and extremely skilled. Thank you!"
@@ -1149,7 +1149,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
               >
-                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient3-CQPVFc5b.svg" />
+                <img loading="lazy" decoding="async" width="520" height="318" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient3-CQPVFc5b.svg" />
                 <div class="text-start">
                   <p class="text-sm lg:text-base text-gray-600">
                     "Their assessments were so detailed, it really helped us understand our child."
@@ -1168,7 +1168,7 @@
           Testimonials from families who’ve experienced the eMbrace impact
         </p>
         <div class="relative flex mt-6 items-center justify-center w-full mx-auto">
-          <img
+          <img loading="lazy" decoding="async" width="1200" height="1600"
             alt="carousel-1"
             class="md:w-[90%] 2xl:h-[50rem] h-[30rem] object-cover rounded-xl shadow"
             src="/assets/carousel1-BUqaO1dK.jpg"

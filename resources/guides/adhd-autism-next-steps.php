@@ -316,7 +316,7 @@
 <article class="lm-guide">
 
   <div class="lm-guide__brand">
-    <img src="/assets/Logo-DrHvIBUF.svg" alt="eMbrace"/>
+    <img decoding="async" width="152" height="99" src="/assets/Logo-DrHvIBUF.svg" alt="eMbrace"/>
     <span>eMbrace &middot; Psychology &amp; neurodevelopmental care &middot; Delhi NCR</span>
   </div>
 

@@ -348,27 +348,27 @@
         </div>
         <div class="relative w-full flex flex-col items-center justify-center 2xl:mt-30 md:mt-14 -mt-6">
           <div class="flex items-center justify-center w-full gap-2 md:gap-6 relative h-56 md:h-60">
-            <img
+            <img decoding="async" width="600" height="400"
               alt="carousel-img-0"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-30 md:scale-95 scale-170 -translate-x-1/2 -translate-y-1/2 shadow-2xl"
               src="/assets/Hero1-B13kQdwT.png"
               style="pointer-events: auto; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img fetchpriority="high" decoding="async" width="600" height="400"
               alt="carousel-img-1"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[10%] md:translate-x-[0%]"
               src="/assets/Hero2-B1Wdq_gu.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img decoding="async" width="600" height="400"
               alt="carousel-img-2"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 translate-x-[30%]"
               src="/assets/Hero3-C49V_DRg.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-3"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 -translate-x-[130%]"
               src="/assets/Hero2-CbQ4Vkfd.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-4"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[90%] md:-translate-x-[100%]"
               src="/assets/Hero5-DGKC96dw.png"
@@ -430,7 +430,7 @@
             <div
               class="2xl:gap-2 pb-2 2xl:py-10 md:border-[1.5px] border-[#90A7E1] md:w-[90%] w-full lg:w-[40%] justify-center items-center px-4 md:h-auto pt-6 md:pt-0 z-10 bg-[#FFFFFFDE] rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)]"
             >
-              <img
+              <img loading="lazy" decoding="async" width="835" height="551"
                 alt=""
                 class="md:w-[80%] md:h-[60%] w-[90%] md:mb-0 mb-2"
                 src="/assets/Individuals1-B0t43PEj.svg"
@@ -453,7 +453,7 @@
             <div
               class="2xl:gap-2 pb-2 2xl:py-10 md:border-[1.5px] border-[#90A7E1] md:w-[90%] w-full lg:w-[40%] justify-center items-center px-4 md:h-auto pt-6 md:pt-0 z-10 bg-[#FFFFFFDE] rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)]"
             >
-              <img
+              <img loading="lazy" decoding="async" width="835" height="551"
                 alt=""
                 class="md:w-[80%] md:h-[60%] w-[90%] md:mb-0 mb-2"
                 src="/assets/Individuals2-Dl2lw0um.svg"
@@ -482,7 +482,7 @@
             <div
               class="2xl:gap-2 pb-2 2xl:py-10 md:border-[1.5px] border-[#90A7E1] md:w-[90%] w-full lg:w-[40%] justify-center items-center px-4 md:h-auto pt-6 md:pt-0 z-10 bg-[#FFFFFFDE] rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)]"
             >
-              <img
+              <img loading="lazy" decoding="async" width="835" height="551"
                 alt=""
                 class="md:w-[80%] md:h-[60%] w-[90%] md:mb-0 mb-2"
                 src="/assets/Individuals3-BA03dIp1.svg"
@@ -505,7 +505,7 @@
             <div
               class="2xl:gap-2 pb-2 2xl:py-10 md:border-[1.5px] border-[#90A7E1] md:w-[90%] w-full lg:w-[40%] justify-center items-center px-4 md:h-auto pt-6 md:pt-0 z-10 bg-[#FFFFFFDE] rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)]"
             >
-              <img
+              <img loading="lazy" decoding="async" width="835" height="551"
                 alt=""
                 class="md:w-[80%] md:h-[60%] w-[90%] md:mb-0 mb-2"
                 src="/assets/Individuals4-B27Cwrx9.svg"
@@ -544,7 +544,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
               >
-                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient1-A-Cz0pZt.svg" />
+                <img loading="lazy" decoding="async" width="580" height="318" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient1-A-Cz0pZt.svg" />
                 <div class="text-start">
                   <p class="text-sm lg:text-base text-gray-600">
                     "Therapy at eMbrace helped me understand myself better, manage stress, and improve my work-life
@@ -555,7 +555,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
               >
-                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient2-B-kI2dcu.png" />
+                <img loading="lazy" decoding="async" width="547" height="318" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient2-B-kI2dcu.png" />
                 <div class="text-start">
                   <p class="text-sm lg:text-base text-gray-600">
                     "I always struggled with focus &amp; organization. Getting an ADHD diagnosis as an adult was
@@ -566,7 +566,7 @@
               <div
                 class="bg-white rounded-2xl shadow-md/40 p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
               >
-                <img alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient3-CQPVFc5b.svg" />
+                <img loading="lazy" decoding="async" width="520" height="318" alt="Why Embrace 2" class="w-[90%] md:w-full mb-4" src="/assets/WhatClient3-CQPVFc5b.svg" />
                 <div class="text-start">
                   <p class="text-sm lg:text-base text-gray-600">
                     "eMbrace has been so supportive towards my needs, I've benefitted a lot from taking help, the team
@@ -592,7 +592,7 @@
           Personalized, empathetic spaces designed for comfort and growth
         </p>
         <div class="relative flex mt-6 items-center justify-center w-full mx-auto">
-          <img
+          <img loading="lazy" decoding="async" width="1200" height="1600"
             alt="carousel-1"
             class="md:w-[90%] 2xl:h-[50rem] h-[30rem] object-cover rounded-xl shadow"
             src="/assets/carousel1-BUqaO1dK.jpg"

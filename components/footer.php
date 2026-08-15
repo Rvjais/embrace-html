@@ -232,7 +232,7 @@
     <!-- Brand & About -->
     <div>
       <a href="/index.php" class="inline-block mb-6">
-        <img alt="eMbrace Logo" class="h-12 w-auto brightness-0 invert" src="/assets/Logo-DrHvIBUF.svg" />
+        <img decoding="async" width="152" height="99" alt="eMbrace Logo" class="h-12 w-auto brightness-0 invert" src="/assets/Logo-DrHvIBUF.svg" />
       </a>
       <p class="text-sm text-gray-400 leading-relaxed mb-6">
         Delhi's trusted psychologists — empowering neurodivergent minds with evidence-based care and compassionate support.

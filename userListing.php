@@ -632,7 +632,7 @@
                   <div
                     class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border-3 border-[#FFE1DF] shadow-sm bg-[#FFE1DF]"
                   >
-                    <img
+                    <img decoding="async" width="1254" height="1254"
                       alt="Dhriti Dharana"
                       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       src="/practitioner-images/Dhriti-Dharana.jpeg"
@@ -772,7 +772,7 @@
                   <div
                     class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border-3 border-[#FFE1DF] shadow-sm bg-[#FFE1DF]"
                   >
-                    <img
+                    <img fetchpriority="high" decoding="async" width="867" height="999"
                       alt="Aarti"
                       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       src="/practitioner-images/Aarti.jpeg"
@@ -889,7 +889,7 @@
                   <div
                     class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border-3 border-[#FFE1DF] shadow-sm bg-[#FFE1DF]"
                   >
-                    <img
+                    <img decoding="async" width="906" height="981"
                       alt="Mannat Kaur Arora"
                       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       src="/practitioner-images/Mannat-Kaur-Arora.jpeg"
@@ -1028,7 +1028,7 @@
                   <div
                     class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border-3 border-[#FFE1DF] shadow-sm bg-[#FFE1DF]"
                   >
-                    <img
+                    <img loading="lazy" decoding="async" width="1000" height="977"
                       alt="Upasna"
                       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       src="/practitioner-images/Upasna.jpeg"
@@ -2423,7 +2423,7 @@
               <div
                 class="absolute -top-9 lg:-top-12 bg-[#FFE1DF] opacity-80 rounded-full w-20 h-20 lg:w-30 lg:h-30 flex items-center justify-center"
               >
-                <img alt="Gmail Icon" class="w-9 h-9 lg:w-16 lg:h-16" src="/assets/gmailcon-CJqf1ewx.svg" />
+                <img loading="lazy" decoding="async" width="80" height="80" alt="Gmail Icon" class="w-9 h-9 lg:w-16 lg:h-16" src="/assets/gmailcon-CJqf1ewx.svg" />
               </div>
               <div class="text-center mt-2">
                 <p class="text-[#FF7A00] font-semibold text-sm lg:text-base">Send us your query at</p>

@@ -22,7 +22,8 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-<script src="https://unpkg.com/@phosphor-icons/web"></script>
+<link href="https://unpkg.com" rel="preconnect" crossorigin />
+<script src="https://unpkg.com/@phosphor-icons/web" defer></script>
 <link href="/assets/index-B-kGA3UA.css" rel="stylesheet"/>
 <link href="/assets/lead-magnets.css" rel="stylesheet"/>
 <style>

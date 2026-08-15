@@ -464,7 +464,7 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img
+              <img decoding="async" width="172" height="166"
                 alt="The British School"
                 class="h-18 lg:h-22 object-contain"
                 src="/assets/TheBritishSchool-CY5Q_erx.svg"
@@ -473,7 +473,7 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img
+              <img fetchpriority="high" decoding="async" width="175" height="176"
                 alt="Woodstock School"
                 class="h-18 lg:h-22 object-contain"
                 src="/assets/WoodStockSchool-B0AuoDPe.svg"
@@ -482,7 +482,7 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img
+              <img decoding="async" width="175" height="190"
                 alt="The American School"
                 class="h-18 lg:h-22 object-contain"
                 src="/assets/TheAmericanSchool-1h11OWxV.svg"
@@ -491,7 +491,7 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img
+              <img loading="lazy" decoding="async" width="175" height="73"
                 alt="Ashoka University"
                 class="h-18 lg:h-22 object-contain"
                 src="/assets/AshokaUniversity-BtP9NfW9.svg"
@@ -500,7 +500,7 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img
+              <img loading="lazy" decoding="async" width="175" height="176"
                 alt="Little Pearls School"
                 class="h-18 lg:h-22 object-contain"
                 src="/assets/LittlePearlSchool-BYGCKHDr.svg"
@@ -509,7 +509,7 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img
+              <img loading="lazy" decoding="async" width="128" height="115"
                 alt="The Doon School"
                 class="h-18 lg:h-22 object-contain"
                 src="/assets/TheDoonSchool-CWT5vHM2.svg"
@@ -518,7 +518,7 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img alt="Lincoln School" class="h-18 lg:h-22 object-contain" src="/assets/LincolnSchool-CR6ruIOl.svg" />
+              <img loading="lazy" decoding="async" width="136" height="136" alt="Lincoln School" class="h-18 lg:h-22 object-contain" src="/assets/LincolnSchool-CR6ruIOl.svg" />
             </div>
           </div>
         </div>
@@ -533,7 +533,7 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img
+              <img loading="lazy" decoding="async" width="150" height="135"
                 alt="Rainbow Children's Hospital"
                 class="h-18 lg:h-22 object-contain"
                 src="/assets/RainbowHospital-eTFLOxF0.svg"
@@ -552,17 +552,17 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img alt="HSBC" class="h-18 lg:h-22 object-contain" src="/assets/HSBC-ByDIxuDt.svg" />
+              <img loading="lazy" decoding="async" width="190" height="97" alt="HSBC" class="h-18 lg:h-22 object-contain" src="/assets/HSBC-ByDIxuDt.svg" />
             </div>
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img alt="Instamojo" class="h-18 lg:h-22 object-contain" src="/assets/Instamojo-D31kuKFn.svg" />
+              <img loading="lazy" decoding="async" width="191" height="93" alt="Instamojo" class="h-18 lg:h-22 object-contain" src="/assets/Instamojo-D31kuKFn.svg" />
             </div>
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img alt="Watchout Wearables" class="h-18 lg:h-22 object-contain" src="/assets/Watchout-DgS1Ruvu.svg" />
+              <img loading="lazy" decoding="async" width="149" height="149" alt="Watchout Wearables" class="h-18 lg:h-22 object-contain" src="/assets/Watchout-DgS1Ruvu.svg" />
             </div>
           </div>
         </div>
@@ -577,7 +577,7 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img alt="Tamanna NGO" class="h-18 lg:h-22 object-contain" src="/assets/Tamanna-LTUboeDP.svg" />
+              <img loading="lazy" decoding="async" width="150" height="150" alt="Tamanna NGO" class="h-18 lg:h-22 object-contain" src="/assets/Tamanna-LTUboeDP.svg" />
             </div>
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
@@ -591,7 +591,7 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img alt="The Union" class="h-18 lg:h-22 object-contain" src="/assets/TheUnion-DgjMq1ep.svg" />
+              <img loading="lazy" decoding="async" width="150" height="150" alt="The Union" class="h-18 lg:h-22 object-contain" src="/assets/TheUnion-DgjMq1ep.svg" />
             </div>
           </div>
         </div>
@@ -606,22 +606,22 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img alt="Mynd Integrated" class="h-18 lg:h-22 object-contain" src="/assets/Mynd-aw1UC8kb.svg" />
+              <img loading="lazy" decoding="async" width="223" height="215" alt="Mynd Integrated" class="h-18 lg:h-22 object-contain" src="/assets/Mynd-aw1UC8kb.svg" />
             </div>
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img alt="Niraya" class="h-18 lg:h-22 object-contain" src="/assets/Niraya-CXfX-2z1.svg" />
+              <img loading="lazy" decoding="async" width="180" height="180" alt="Niraya" class="h-18 lg:h-22 object-contain" src="/assets/Niraya-CXfX-2z1.svg" />
             </div>
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img alt="Sova Health" class="h-18 lg:h-22 object-contain" src="/assets/Sova-CHyBN8bU.svg" />
+              <img loading="lazy" decoding="async" width="171" height="59" alt="Sova Health" class="h-18 lg:h-22 object-contain" src="/assets/Sova-CHyBN8bU.svg" />
             </div>
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img alt="Atypical Advantage" class="h-18 lg:h-22 object-contain" src="/assets/Atypical-BRrAIk4m.svg" />
+              <img loading="lazy" decoding="async" width="165" height="55" alt="Atypical Advantage" class="h-18 lg:h-22 object-contain" src="/assets/Atypical-BRrAIk4m.svg" />
             </div>
           </div>
         </div>
@@ -636,7 +636,7 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img alt="US Embassy" class="h-18 lg:h-22 object-contain" src="/assets/UsEmbassy-DhfnQQB9.svg" />
+              <img loading="lazy" decoding="async" width="175" height="175" alt="US Embassy" class="h-18 lg:h-22 object-contain" src="/assets/UsEmbassy-DhfnQQB9.svg" />
             </div>
           </div>
         </div>
@@ -651,12 +651,12 @@
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img alt="ICAN" class="h-18 lg:h-22 object-contain" src="/assets/Ican-DTT1e9e1.svg" />
+              <img loading="lazy" decoding="async" width="151" height="44" alt="ICAN" class="h-18 lg:h-22 object-contain" src="/assets/Ican-DTT1e9e1.svg" />
             </div>
             <div
               class="flex items-center justify-center w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-white shadow-lg shadow-[#76C1D6D6] hover:shadow-xl transition-shadow duration-300"
             >
-              <img alt="Pearson" class="h-18 lg:h-22 object-contain" src="/assets/Pearson-DurR8ipN.svg" />
+              <img loading="lazy" decoding="async" width="190" height="99" alt="Pearson" class="h-18 lg:h-22 object-contain" src="/assets/Pearson-DurR8ipN.svg" />
             </div>
           </div>
         </div>
@@ -665,7 +665,7 @@
           <p class="text-[#234394] italic w-[85%] lg:w-[45%] text-sm lg:text-base">
             Proud to be part of the global startup accelerator focused on scaling healthcare innovation
           </p>
-          <img alt="10x" class="w-30 h-30 lg:w-40 lg:h-40 pb-5 lg:pb-8" src="/assets/10X-wHGmfXdK.svg" />
+          <img loading="lazy" decoding="async" width="246" height="203" alt="10x" class="w-30 h-30 lg:w-40 lg:h-40 pb-5 lg:pb-8" src="/assets/10X-wHGmfXdK.svg" />
         </div>
         <div class="w-full lg:bg-[#93CFEF3D] bg-white px-4 lg:px-10 pt-5 pb-15 lg:py-20">
           <div class="space-y-6 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-8 max-w-6xl mx-auto">
@@ -735,7 +735,7 @@
               ><div
                 class="bg-white rounded-4xl h-80 lg:min-h-[350px] lg:h-auto shadow-md border border-[#D8D8D8] p-4 lg:p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 relative z-20"
               >
-                <img
+                <img loading="lazy" decoding="async" width="320" height="274"
                   alt="Universities"
                   class="w-35 h-35 lg:w-28 lg:h-28 mb-2 lg:mb-4 object-contain"
                   src="/assets/Universities-CgQo8jq_.svg"
@@ -749,7 +749,7 @@
               ><div
                 class="bg-white rounded-4xl h-80 lg:min-h-[350px] lg:h-auto shadow-md border border-[#D8D8D8] p-4 lg:p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 relative z-20"
               >
-                <img
+                <img loading="lazy" decoding="async" width="320" height="274"
                   alt="Schools"
                   class="w-35 h-35 lg:w-28 lg:h-28 mb-2 lg:mb-4 object-contain"
                   src="/assets/Schools-Inxm2fCS.svg"
@@ -763,7 +763,7 @@
               ><div
                 class="bg-white rounded-4xl h-80 lg:min-h-[350px] lg:h-auto shadow-md border border-[#D8D8D8] p-4 lg:p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 relative z-20"
               >
-                <img
+                <img loading="lazy" decoding="async" width="320" height="274"
                   alt="Corporates"
                   class="w-35 h-35 lg:w-28 lg:h-28 mb-2 lg:mb-4 object-contain"
                   src="/assets/Corporates-utc2dCaZ.svg"
@@ -777,7 +777,7 @@
               ><div
                 class="bg-white rounded-4xl h-80 lg:min-h-[350px] lg:h-auto shadow-md border border-[#D8D8D8] p-4 lg:p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 relative z-20"
               >
-                <img
+                <img loading="lazy" decoding="async" width="320" height="274"
                   alt="Healthcare"
                   class="w-35 h-35 lg:w-28 lg:h-28 mb-2 lg:mb-4 object-contain"
                   src="/assets/HealthCare-BAg-sBnb.svg"
@@ -937,7 +937,7 @@
                   ><input class="peer sr-only" name="response-method" type="radio" value="phone" /><span
                     class="w-5 h-5 rounded border-0 bg-gray-200 peer-checked:bg-[var(--blue-fig)]/80 flex items-center justify-center transition-colors"
                   ></span
-                  ><img alt="Phone" class="w-6 h-6" src="/assets/whatsapp-CJHvNXx4.svg" /><span
+                  ><img loading="lazy" decoding="async" width="56" height="56" alt="Phone" class="w-6 h-6" src="/assets/whatsapp-CJHvNXx4.svg" /><span
                     class="text-[var(--blue-fig)] font-medium text-lg"
                     >Phone Call</span
                   ></label

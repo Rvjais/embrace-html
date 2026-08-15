@@ -352,27 +352,27 @@
         </div>
         <div class="relative w-full flex flex-col items-center justify-center 2xl:mt-30 md:mt-14 -mt-6">
           <div class="flex items-center justify-center w-full gap-2 md:gap-6 relative h-56 md:h-60">
-            <img
+            <img decoding="async" width="600" height="400"
               alt="carousel-img-0"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-30 md:scale-95 scale-170 -translate-x-1/2 -translate-y-1/2 shadow-2xl"
               src="/assets/Hero1-C_FCHlz4.png"
               style="pointer-events: auto; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img fetchpriority="high" decoding="async" width="600" height="400"
               alt="carousel-img-1"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[10%] md:translate-x-[0%]"
               src="/assets/Hero2-CQGK8kOz.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img decoding="async" width="600" height="400"
               alt="carousel-img-2"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 translate-x-[30%]"
               src="/assets/Hero3-DwJSHj0U.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-3"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 -translate-x-[130%]"
               src="/assets/Hero4-DlQQ99u6.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-4"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[90%] md:-translate-x-[100%]"
               src="/assets/Hero5-DVv9xjVi.png"
@@ -422,7 +422,7 @@
         <div class="h-12 w-12 absolute hidden md:block bg-[#6A56CF4A] rounded-full -bottom-[4%] right-[15%]"></div>
         <div class="flex w-full h-full md:flex-row flex-col justify-center gap-6 md:gap-0">
           <div class="flex justify-center items-center flex-col w-[20]%">
-            <img
+            <img loading="lazy" decoding="async" width="424" height="424"
               alt=""
               class="w-50 h-50 lg:w-52 lg:h-52 md:h-32 md:w-32 rounded-full overflow-hidden md:z-10 -z-10"
               src="/assets/Why1-DpKY9-Qj.svg"
@@ -441,7 +441,7 @@
             </div>
           </div>
           <div class="flex justify-center items-center flex-col w-[20]%">
-            <img
+            <img loading="lazy" decoding="async" width="424" height="424"
               alt=""
               class="w-50 h-50 lg:w-52 lg:h-52 md:h-32 md:w-32 rounded-full overflow-hidden md:z-10 -z-10"
               src="/assets/Why2-DLujFsG6.svg"
@@ -460,7 +460,7 @@
             </div>
           </div>
           <div class="flex justify-center items-center flex-col w-[20]%">
-            <img
+            <img loading="lazy" decoding="async" width="424" height="424"
               alt=""
               class="w-50 h-50 lg:w-52 lg:h-52 md:h-32 md:w-32 rounded-full overflow-hidden md:z-10 -z-10"
               src="/assets/Why3-CpOWiVhc.svg"
@@ -479,7 +479,7 @@
             </div>
           </div>
           <div class="flex justify-center items-center flex-col w-[20]%">
-            <img
+            <img loading="lazy" decoding="async" width="424" height="424"
               alt=""
               class="w-50 h-50 lg:w-52 lg:h-52 md:h-32 md:w-32 rounded-full overflow-hidden md:z-10 -z-10"
               src="/assets/Why4-ZdN5MNvJ.svg"
@@ -512,7 +512,7 @@
           <div
             class="shadow-[0px_2px_4.2px_0px_#000000DB] md:shadow-[0px_3px_8.2px_0px_#00000040] md:p-4 md:py-8 p-6 bg-white rounded-2xl md:w-[99%] lg:w-[70%] 2xl:w-[80%] flex flex-col md:flex-row gap-4 items-stretch"
           >
-            <img alt="" class="md:h-78 md:w-1/3 w-full" src="/assets/Program1-DdBzzioK.svg" />
+            <img loading="lazy" decoding="async" width="579" height="659" alt="" class="md:h-78 md:w-1/3 w-full" src="/assets/Program1-DdBzzioK.svg" />
             <div class="flex flex-col w-full gap-4 items-center">
               <div
                 class="font-semibold flex justify-between text-lg rounded-2xl 2xl:pl-20 bg-[#F3A7A240] border-3 border-[#F3A7A2FC] w-[95%] px-3 py-2 md:p-6"
@@ -556,7 +556,7 @@
           <div
             class="shadow-[0px_2px_4.2px_0px_#000000DB] md:shadow-[0px_3px_8.2px_0px_#00000040] md:p-4 md:py-8 p-6 bg-white rounded-2xl md:w-[99%] lg:w-[70%] 2xl:w-[80%] flex flex-col md:flex-row gap-4 items-stretch"
           >
-            <img alt="" class="md:h-78 md:w-1/3 w-full" src="/assets/Program2-aNJWik7x.svg" />
+            <img loading="lazy" decoding="async" width="603" height="699" alt="" class="md:h-78 md:w-1/3 w-full" src="/assets/Program2-aNJWik7x.svg" />
             <div class="flex flex-col w-full gap-4 items-center">
               <div
                 class="font-semibold flex justify-between text-lg rounded-2xl 2xl:pl-20 bg-[#F3A7A240] border-3 border-[#F3A7A2FC] w-[95%] px-3 py-2 md:p-6"
@@ -600,7 +600,7 @@
           <div
             class="shadow-[0px_2px_4.2px_0px_#000000DB] md:shadow-[0px_3px_8.2px_0px_#00000040] md:p-4 md:py-8 p-6 bg-white rounded-2xl md:w-[99%] lg:w-[70%] 2xl:w-[80%] flex flex-col md:flex-row gap-4 items-stretch"
           >
-            <img alt="" class="md:h-78 md:w-1/3 w-full" src="/assets/Program3-CwpuI0zi.svg" />
+            <img loading="lazy" decoding="async" width="603" height="699" alt="" class="md:h-78 md:w-1/3 w-full" src="/assets/Program3-CwpuI0zi.svg" />
             <div class="flex flex-col w-full gap-4 items-center">
               <div
                 class="font-semibold flex justify-between text-lg rounded-2xl 2xl:pl-20 bg-[#F3A7A240] border-3 border-[#F3A7A2FC] w-[95%] px-3 py-2 md:p-6"
@@ -653,7 +653,7 @@
               <div
                 class="shadow-[0px_10px_24.5px_0px_#76C1D6D6] bg-[linear-gradient(180deg,_rgba(0,0,0,0)_0%,_rgba(0,0,0,0.09)_100%)] rounded-full flex justify-center items-center w-40 h-40 md:w-30 md:h-30 2xl:w-50 2xl:h-50"
               >
-                <img
+                <img loading="lazy" decoding="async" width="253" height="114"
                   alt="Trusted 1"
                   class="md:w-20 md:h-auto w-25 h-25 2xl:w-35 2xl:h-35 object-contain"
                   src="/assets/Trusted1-pFsry9SW.svg"
@@ -662,7 +662,7 @@
               <div
                 class="shadow-[0px_10px_24.5px_0px_#76C1D6D6] bg-[linear-gradient(180deg,_rgba(0,0,0,0)_0%,_rgba(0,0,0,0.09)_100%)] rounded-full flex justify-center items-center w-40 h-40 md:w-30 md:h-30 2xl:w-50 2xl:h-50"
               >
-                <img
+                <img loading="lazy" decoding="async" width="280" height="97"
                   alt="Trusted 2"
                   class="md:w-20 md:h-auto w-25 h-25 2xl:w-35 2xl:h-35 object-contain"
                   src="/assets/Trusted2-D1VVZppX.svg"
@@ -671,7 +671,7 @@
               <div
                 class="shadow-[0px_10px_24.5px_0px_#76C1D6D6] bg-[linear-gradient(180deg,_rgba(0,0,0,0)_0%,_rgba(0,0,0,0.09)_100%)] rounded-full flex justify-center items-center w-40 h-40 md:w-30 md:h-30 2xl:w-50 2xl:h-50"
               >
-                <img
+                <img loading="lazy" decoding="async" width="206" height="185"
                   alt="Trusted 3"
                   class="md:w-20 md:h-auto w-25 h-25 2xl:w-35 2xl:h-35 object-contain"
                   src="/assets/Trusted3-DyS5sbUZ.svg"
@@ -680,7 +680,7 @@
               <div
                 class="shadow-[0px_10px_24.5px_0px_#76C1D6D6] bg-[linear-gradient(180deg,_rgba(0,0,0,0)_0%,_rgba(0,0,0,0.09)_100%)] rounded-full flex justify-center items-center w-40 h-40 md:w-30 md:h-30 2xl:w-50 2xl:h-50"
               >
-                <img
+                <img loading="lazy" decoding="async" width="246" height="72"
                   alt="Trusted 4"
                   class="md:w-20 md:h-auto w-25 h-25 2xl:w-35 2xl:h-35 object-contain"
                   src="/assets/Trusted4-DIFroved.svg"
@@ -851,7 +851,7 @@
           Personalized, empathetic spaces designed for comfort and growth
         </p>
         <div class="relative flex mt-6 items-center justify-center w-full mx-auto">
-          <img
+          <img loading="lazy" decoding="async" width="1200" height="1600"
             alt="carousel-1"
             class="md:w-[90%] 2xl:h-[50rem] h-[30rem] object-cover rounded-xl shadow"
             src="/assets/carousel1-BUqaO1dK.jpg"

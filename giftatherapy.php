@@ -337,7 +337,7 @@
       <div
         class="w-full h-fit bg-gradient-to-b from-[#FCEEF3] to-[#F8F2FF] items-center flex flex-col p-6 gap-4 relative overflow-hidden justify-center md:min-h-[calc(100vh-4.4rem)]"
       >
-        <img
+        <img decoding="async" width="399" height="406"
           alt="Child"
           class="h-48 w-48 2xl:h-80 2xl:w-80 drop-shadow-[#FFAAE5CC]"
           src="/assets/giftChild-B09OJNFN.svg"
@@ -456,7 +456,7 @@
           <div
             class="md:hidden absolute z-0 w-60 h-60 rounded-4xl bg-[rgba(254,126,149,0.2)] flex justify-center items-center top-15 left-1/2 -translate-x-1/2 -translate-y-1/4"
           >
-            <img alt="child" class="h-52 w-52" src="/assets/ChildGift-DYcvGKrU.svg" />
+            <img fetchpriority="high" decoding="async" width="691" height="672" alt="child" class="h-52 w-52" src="/assets/ChildGift-DYcvGKrU.svg" />
           </div>
           <div
             class="relative h-70 2xl:h-110 2xl:w-180 md:h-90 md:w-130 bg-white rounded-4xl mt-25 ml-0 md:ml-40 border border-[#cc6f6f] z-10"
@@ -465,7 +465,7 @@
             <div
               class="hidden md:flex w-70 h-70 2xl:h-90 2xl:w-90 rounded-4xl absolute bg-[rgba(254,126,149,0.2)] justify-center md:z-1 items-center top-[12.5%] -left-[25%] 2xl:top-[9%]"
             >
-              <img alt="child" class="h-60 w-60 2xl:h-80 2xl:w-80" src="/assets/ChildGift-DYcvGKrU.svg" />
+              <img decoding="async" width="691" height="672" alt="child" class="h-60 w-60 2xl:h-80 2xl:w-80" src="/assets/ChildGift-DYcvGKrU.svg" />
             </div>
             <div
               class="flex flex-col gap-2 md:gap-6 text-center justify-center md:mt-0 mt-5 items-center p-4 md:p-10 md:ml-32 2xl:mt-10"
@@ -501,7 +501,7 @@
           <div
             class="gap-4 min-w-fit 2xl:p-8 w-70 p-4 rounded-xl min-h-fit flex flex-col items-center md:m-4 custom-shadow"
           >
-            <img alt="img1" class="w-50 2xl:w-90" src="/assets/Gift_test-1-Bw1nidTz.svg" />
+            <img loading="lazy" decoding="async" width="580" height="317" alt="img1" class="w-50 2xl:w-90" src="/assets/Gift_test-1-Bw1nidTz.svg" />
             <p class="w-50 2xl:w-80 font-normal text-sm md:text-center text-start 2xl:text-lg">
               When my friend gifted me a therapy session, I didn’t realize how much I needed it. It changed my
               perspective and gave me the support I was looking for
@@ -510,7 +510,7 @@
           <div
             class="gap-4 min-w-fit 2xl:p-8 w-70 p-4 rounded-xl min-h-fit flex flex-col items-center md:m-4 custom-shadow"
           >
-            <img alt="img2" class="w-50 2xl:w-90" src="/assets/Gift_test-2-wR21sUIx.svg" />
+            <img loading="lazy" decoding="async" width="547" height="317" alt="img2" class="w-50 2xl:w-90" src="/assets/Gift_test-2-wR21sUIx.svg" />
             <p class="w-50 2xl:w-80 font-normal text-sm md:text-center text-start 2xl:text-lg">
               I had always wanted to try therapy, but I never took the first step. My sister’s gift helped me begin my
               journey to self-care.
@@ -519,7 +519,7 @@
           <div
             class="gap-4 min-w-fit 2xl:p-8 w-70 p-4 rounded-xl min-h-fit flex flex-col items-center md:m-4 custom-shadow"
           >
-            <img alt="img3" class="w-50 2xl:w-90" src="/assets/Gift_test-3-CCKZ9D9K.svg" />
+            <img loading="lazy" decoding="async" width="520" height="317" alt="img3" class="w-50 2xl:w-90" src="/assets/Gift_test-3-CCKZ9D9K.svg" />
             <p class="w-50 2xl:w-80 font-normal text-sm md:text-center text-start 2xl:text-lg">
               “The care team made us feel supported every step of the way.”
             </p>
@@ -559,7 +559,7 @@
             class="h-fit md:p-8 w-fit md:px-16 mx-auto border border-black/20 rounded-tr-4xl rounded-bl-4xl bg-white"
           >
             <div class="flex md:items-center justify-start py-4 px-2 md:px-0 md:py-0 2xl:py-1">
-              <img
+              <img loading="lazy" decoding="async" width="60" height="60"
                 alt="Confidential &amp; Expert-Led Therapy"
                 class="md:w-8 md:h-12 2xl:w-10 2xl:h-10 w-6 h-6 mr-2 md:mr-4"
                 src="/assets/mental-health-BYLQbdxr.svg"
@@ -573,7 +573,7 @@
               </div>
             </div>
             <div class="flex md:items-center justify-start py-4 px-2 md:px-0 md:py-0 2xl:py-1">
-              <img
+              <img loading="lazy" decoding="async" width="60" height="60"
                 alt="Flexible &amp; Hassle-Free Booking"
                 class="md:w-8 md:h-12 2xl:w-10 2xl:h-10 w-6 h-6 mr-2 md:mr-4"
                 src="/assets/calender-DGuQCWFM.svg"
@@ -587,7 +587,7 @@
               </div>
             </div>
             <div class="flex md:items-center justify-start py-4 px-2 md:px-0 md:py-0 2xl:py-1">
-              <img
+              <img loading="lazy" decoding="async" width="60" height="60"
                 alt="A Gift That Lasts"
                 class="md:w-8 md:h-12 2xl:w-10 2xl:h-10 w-6 h-6 mr-2 md:mr-4"
                 src="/assets/gift-Ds8pa8Mm.svg"

@@ -1222,14 +1222,14 @@
           </div>
         </div>
         <div class="absolute hidden md:block right-5 mt-10">
-          <img alt="Speech therapist practising oral motor exercises with a young child" class="w-65 h-48" src="/assets/image-gt1pF_Zw.png" />
+          <img decoding="async" width="604" height="473" alt="Speech therapist practising oral motor exercises with a young child" class="w-65 h-48" src="/assets/image-gt1pF_Zw.png" />
         </div>
         <div class="max-w-3xl mx-auto md:py-20 py-10 relative md:mt-10 mt-6 px-2 sm:px-4">
-          <img
+          <img fetchpriority="high" decoding="async" width="855" height="795"
             alt="img"
             class="hidden md:block absolute z-0 md:h-70 h-35 md:-left-55 -left-6 md:bottom-65 bottom-32"
             src="/assets/ParentsPlaying-Dk_2SuQj.svg"
-          /><img alt="img" class="md:hidden z-0 h-40 flex mx-auto mb-6" src="/assets/ParentsPlaying-Dk_2SuQj.svg" />
+          /><img decoding="async" width="855" height="795" alt="img" class="md:hidden z-0 h-40 flex mx-auto mb-6" src="/assets/ParentsPlaying-Dk_2SuQj.svg" />
           <div class="text-center mb-6">
             <h2 class="text-2 xl font-semibold italic text-[#234394]">Got more questions?</h2>
           </div>
@@ -1291,7 +1291,7 @@
           <div class="text-center text-[#403D3D] font-medium italic mb-4 mt-4 md:mt-0">
             <p>We're here to support you!</p>
           </div>
-          <div class="md:hidden flex mt-10"><img alt="Speech therapist practising oral motor exercises with a young child" class="w-45 mx-auto" src="/assets/image-gt1pF_Zw.png" /></div>
+          <div class="md:hidden flex mt-10"><img loading="lazy" decoding="async" width="604" height="473" alt="Speech therapist practising oral motor exercises with a young child" class="w-45 mx-auto" src="/assets/image-gt1pF_Zw.png" /></div>
         </div>
         <img
           alt="img"

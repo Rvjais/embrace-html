@@ -338,7 +338,7 @@
         class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 bg-gradient-to-b from-[#FFE9E7] to-[#FFFFFF] mb-6 md:mb-0 relative overflow-hidden h-fit md:min-h-fit md:py-0 py-6 2xl:py-10 flex flex-col items-center md:flex-row md:gap-8"
       >
         <div class="bg-[#FF00484A] h-12 w-12 rounded-full absolute -bottom-[3.5%] left-[5%] md:left-[40%]"></div>
-        <div class="md:w-[40%] w-full flex"><img alt="" class="" src="/assets/CareersHero-DQRuZDUV.svg" /></div>
+        <div class="md:w-[40%] w-full flex"><img decoding="async" width="826" height="821" alt="" class="" src="/assets/CareersHero-DQRuZDUV.svg" /></div>
         <div class="w-full md:w-[60%] flex flex-col items-center justify-center gap-2 md:gap-6">
           <h1 class="text-3xl font-bold">Careers</h1>
           <p
@@ -406,27 +406,27 @@
         </div>
         <div class="relative w-full flex flex-col items-center justify-center 2xl:mt-30 md:mt-20 -mt-6">
           <div class="flex items-center justify-center w-full gap-2 md:gap-6 relative h-56 md:h-60">
-            <img
+            <img fetchpriority="high" decoding="async" width="600" height="400"
               alt="carousel-img-0"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-30 md:scale-95 scale-170 -translate-x-1/2 -translate-y-1/2 shadow-2xl"
               src="/assets/Hero1-C-qSiXdK.png"
               style="pointer-events: auto; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img decoding="async" width="600" height="400"
               alt="carousel-img-1"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[10%] md:translate-x-[0%]"
               src="/assets/Hero2-BRdQKI21.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-2"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 translate-x-[30%]"
               src="/assets/Hero3-H9DUJDHD.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-3"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 -translate-x-[130%]"
               src="/assets/Hero4-edEK0Oiq.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-4"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[90%] md:-translate-x-[100%]"
               src="/assets/Hero5-BBP1R88F.png"
@@ -482,7 +482,7 @@
             <div
               class="bg-white border z-1 border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img alt="Clinical Psychologist" class="w-[90%] md:w-[100%]" src="/assets/Clinic1-CskZc0Os.svg" />
+              <img loading="lazy" decoding="async" width="381" height="284" alt="Clinical Psychologist" class="w-[90%] md:w-[100%]" src="/assets/Clinic1-CskZc0Os.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm underline text-center font-semibold mb-2 md:mb-1 text-[#234394]">
                   Clinical Psychologist
@@ -500,7 +500,7 @@
             <div
               class="bg-white border z-1 border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img alt="Child Psychologist" class="w-[90%] md:w-[100%]" src="/assets/Clinic2-D04TXOit.svg" />
+              <img loading="lazy" decoding="async" width="381" height="272" alt="Child Psychologist" class="w-[90%] md:w-[100%]" src="/assets/Clinic2-D04TXOit.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm underline text-center font-semibold mb-2 md:mb-1 text-[#234394]">
                   Child Psychologist
@@ -518,7 +518,7 @@
             <div
               class="bg-white border z-1 border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img alt="Occupational Therapist" class="w-[90%] md:w-[100%]" src="/assets/Clinic3-Rilx_xXh.svg" />
+              <img loading="lazy" decoding="async" width="393" height="274" alt="Occupational Therapist" class="w-[90%] md:w-[100%]" src="/assets/Clinic3-Rilx_xXh.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm underline text-center font-semibold mb-2 md:mb-1 text-[#234394]">
                   Occupational Therapist
@@ -536,7 +536,7 @@
             <div
               class="bg-white border z-1 border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img alt="Speech Therapist" class="w-[90%] md:w-[100%]" src="/assets/Clinic4-Cj1kjIbJ.svg" />
+              <img loading="lazy" decoding="async" width="392" height="283" alt="Speech Therapist" class="w-[90%] md:w-[100%]" src="/assets/Clinic4-Cj1kjIbJ.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm underline text-center font-semibold mb-2 md:mb-1 text-[#234394]">
                   Speech Therapist
@@ -557,7 +557,7 @@
             <div
               class="z-1 bg-white border border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img
+              <img loading="lazy" decoding="async" width="381" height="284"
                 alt="Summer Internship (June- July)"
                 class="w-[90%] md:w-[100%]"
                 src="/assets/Training1-1gxyFliw.svg"
@@ -579,7 +579,7 @@
             <div
               class="z-1 bg-white border border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img alt="Fellow (Learn &amp; Train)" class="w-[90%] md:w-[100%]" src="/assets/Training2-DoUacN-4.svg" />
+              <img loading="lazy" decoding="async" width="381" height="286" alt="Fellow (Learn &amp; Train)" class="w-[90%] md:w-[100%]" src="/assets/Training2-DoUacN-4.svg" />
               <div class="text-start">
                 <h2 class="text-base font-semibold lg:text-sm underline text-center mb-2 md:mb-1 text-[#234394]">
                   Fellow (Learn &amp; Train)
@@ -597,7 +597,7 @@
             <div
               class="z-1 bg-white border border-[#ADADAD] rounded-4xl shadow-md/40 md:shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[20%] h-auto"
             >
-              <img
+              <img loading="lazy" decoding="async" width="381" height="284"
                 alt="Winter Internship (December)"
                 class="w-[90%] md:w-[100%]"
                 src="/assets/Training1-1gxyFliw.svg"
@@ -624,7 +624,7 @@
       >
         <h2 class="text-xl md:text-3xl font-bold text-center">Life at eMbrace</h2>
         <div class="relative flex mt-6 items-center justify-center w-full mx-auto">
-          <img
+          <img loading="lazy" decoding="async" width="1200" height="1600"
             alt="carousel-1"
             class="md:w-[90%] 2xl:h-[50rem] h-[30rem] object-cover rounded-xl shadow"
             src="/assets/carousel1-BUqaO1dK.jpg"

@@ -657,19 +657,19 @@
 <div class="key-points-card">
 <ul class="space-y-4 mb-8 key-points-list">
 <li class="flex items-start gap-3">
-<img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
 <span class="text-sm md:text-base text-gray-700"><strong>Expert Professionals:</strong> Our autism therapy team in Hauz Khas consists of qualified, experienced professionals dedicated to providing exceptional care.</span>
 </li>
 <li class="flex items-start gap-3">
-<img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
 <span class="text-sm md:text-base text-gray-700"><strong>Convenient Location:</strong> Our Malviya Nagar centre is easily accessible with flexible appointment scheduling to suit your busy lifestyle.</span>
 </li>
 <li class="flex items-start gap-3">
-<img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
 <span class="text-sm md:text-base text-gray-700"><strong>Personalised Care:</strong> Every autism therapy plan is tailored to your unique needs, goals, and circumstances.</span>
 </li>
 <li class="flex items-start gap-3">
-<img alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
 <span class="text-sm md:text-base text-gray-700"><strong>Comprehensive Support:</strong> From initial assessment to ongoing care, we provide complete autism therapy support for you and your family.</span>
 </li>
 </ul>

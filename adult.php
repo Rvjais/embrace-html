@@ -346,27 +346,27 @@
         </div>
         <div class="relative w-full flex flex-col items-center justify-center 2xl:mt-30 md:mt-14 -mt-6">
           <div class="flex items-center justify-center w-full gap-2 md:gap-6 relative h-56 md:h-60">
-            <img
+            <img decoding="async" width="600" height="400"
               alt="carousel-img-0"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-30 md:scale-95 scale-170 -translate-x-1/2 -translate-y-1/2 shadow-2xl"
               src="/assets/Hero1-Bq7c0xuG.png"
               style="pointer-events: auto; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img fetchpriority="high" decoding="async" width="600" height="400"
               alt="carousel-img-1"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[10%] md:translate-x-[0%]"
               src="/assets/Hero2-BawGL0k-.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img decoding="async" width="600" height="400"
               alt="carousel-img-2"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 translate-x-[30%]"
               src="/assets/Hero3-CMTicLW7.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-3"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-10 md:scale-50 scale-100 -translate-x-1/2 -translate-y-1/2 -translate-x-[130%]"
               src="/assets/Hero4-uliy-nVF.png"
               style="pointer-events: none; transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1)"
-            /><img
+            /><img loading="lazy" decoding="async" width="600" height="400"
               alt="carousel-img-4"
               class="rounded-xl object-cover w-[40%] absolute left-1/2 top-1/2 transition-all duration-700 ease-in-out z-20 md:scale-75 scale-150 -translate-x-1/2 -translate-y-1/2 -translate-x-[90%] md:-translate-x-[100%]"
               src="/assets/Hero5-CO4J9vzF.png"
@@ -426,7 +426,7 @@
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 flex flex-col items-center w-full md:w-[20%] h-auto"
             >
-              <img alt="Clinical Psychology" class="w-[90%] md:w-[80%] mb-4" src="/assets/multi1-Cvtbqheg.svg" />
+              <img loading="lazy" decoding="async" width="398" height="218" alt="Clinical Psychology" class="w-[90%] md:w-[80%] mb-4" src="/assets/multi1-Cvtbqheg.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm italic text-center font-semibold mb-2 text-[#234394]">
                   Clinical Psychology
@@ -439,7 +439,7 @@
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 flex flex-col items-center w-full md:w-[20%] h-auto"
             >
-              <img alt="Counseling Psychology" class="w-[90%] md:w-[80%] mb-4" src="/assets/multi2-2HPF1Cum.svg" />
+              <img loading="lazy" decoding="async" width="398" height="218" alt="Counseling Psychology" class="w-[90%] md:w-[80%] mb-4" src="/assets/multi2-2HPF1Cum.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm italic text-center font-semibold mb-2 text-[#234394]">
                   Counseling Psychology
@@ -452,7 +452,7 @@
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 flex flex-col items-center w-full md:w-[20%] h-auto"
             >
-              <img alt="Couples Therapy" class="w-[90%] md:w-[80%] mb-4" src="/assets/multi3-CYvBjmYw.svg" />
+              <img loading="lazy" decoding="async" width="398" height="218" alt="Couples Therapy" class="w-[90%] md:w-[80%] mb-4" src="/assets/multi3-CYvBjmYw.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm italic text-center font-semibold mb-2 text-[#234394]">
                   Couples Therapy
@@ -465,7 +465,7 @@
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 flex flex-col items-center w-full md:w-[20%] h-auto"
             >
-              <img alt="Workplace Well-Being" class="w-[90%] md:w-[80%] mb-4" src="/assets/multi4-C-RruF6J.svg" />
+              <img loading="lazy" decoding="async" width="398" height="218" alt="Workplace Well-Being" class="w-[90%] md:w-[80%] mb-4" src="/assets/multi4-C-RruF6J.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm italic text-center font-semibold mb-2 text-[#234394]">
                   Workplace Well-Being
@@ -480,7 +480,7 @@
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 flex flex-col items-center w-full md:w-[20%] h-auto"
             >
-              <img alt="Expressive Arts Therapy" class="w-[90%] md:w-[80%] mb-4" src="/assets/multi5-CL3Rnzms.svg" />
+              <img loading="lazy" decoding="async" width="398" height="218" alt="Expressive Arts Therapy" class="w-[90%] md:w-[80%] mb-4" src="/assets/multi5-CL3Rnzms.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm italic font-semibold text-center mb-2 text-[#234394]">
                   Expressive Arts Therapy
@@ -493,7 +493,7 @@
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 flex flex-col items-center w-full md:w-[20%] h-auto"
             >
-              <img
+              <img loading="lazy" decoding="async" width="398" height="218"
                 alt="Gaming &amp; Screen Addiction"
                 class="w-[90%] md:w-[80%] mb-4"
                 src="/assets/multi6-Cw9owQsa.svg"
@@ -510,7 +510,7 @@
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 flex flex-col items-center w-full md:w-[20%] h-auto"
             >
-              <img alt="Trauma-Focused Therapy" class="w-[90%] md:w-[80%] mb-4" src="/assets/multi7-By7D5pbK.svg" />
+              <img loading="lazy" decoding="async" width="398" height="218" alt="Trauma-Focused Therapy" class="w-[90%] md:w-[80%] mb-4" src="/assets/multi7-By7D5pbK.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm italic font-semibold text-center mb-2 text-[#234394]">
                   Trauma-Focused Therapy
@@ -540,7 +540,7 @@
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[25%] h-auto"
             >
-              <img alt="Individuals" class="w-[90%] md:w-[100%]" src="/assets/support1-Bw7kIR_I.svg" />
+              <img loading="lazy" decoding="async" width="605" height="280" alt="Individuals" class="w-[90%] md:w-[100%]" src="/assets/support1-Bw7kIR_I.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm underline text-center font-semibold mb-2 md:mb-1 text-[#234394]">
                   Individuals
@@ -558,7 +558,7 @@
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[25%] h-auto"
             >
-              <img alt="Couples" class="w-[90%] md:w-[100%]" src="/assets/support2-DpDAVfoh.svg" />
+              <img loading="lazy" decoding="async" width="605" height="280" alt="Couples" class="w-[90%] md:w-[100%]" src="/assets/support2-DpDAVfoh.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm underline text-center font-semibold mb-2 md:mb-1 text-[#234394]">
                   Couples
@@ -576,7 +576,7 @@
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[25%] h-auto"
             >
-              <img alt="Universities" class="w-[90%] md:w-[100%]" src="/assets/support3-gK_4c9jF.svg" />
+              <img loading="lazy" decoding="async" width="605" height="280" alt="Universities" class="w-[90%] md:w-[100%]" src="/assets/support3-gK_4c9jF.svg" />
               <div class="text-start">
                 <h2 class="text-base lg:text-sm underline text-center font-semibold mb-2 md:mb-1 text-[#234394]">
                   Universities
@@ -596,7 +596,7 @@
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[25%] h-auto"
             >
-              <img alt="Corporates" class="w-[90%] md:w-[100%]" src="/assets/support4-CklguSon.svg" />
+              <img loading="lazy" decoding="async" width="605" height="280" alt="Corporates" class="w-[90%] md:w-[100%]" src="/assets/support4-CklguSon.svg" />
               <div class="text-start">
                 <h2 class="text-base font-semibold lg:text-sm underline text-center mb-2 md:mb-1 text-[#234394]">
                   Corporates
@@ -614,7 +614,7 @@
             <div
               class="bg-white border border-[#ADADAD] rounded-4xl shadow-xl p-6 md:p-4 flex flex-col items-center w-[90%] md:w-[25%] h-auto"
             >
-              <img alt="Hospitals &amp; Healthcare" class="w-[90%] md:w-[100%]" src="/assets/support5-C6FJfcFE.svg" />
+              <img loading="lazy" decoding="async" width="605" height="280" alt="Hospitals &amp; Healthcare" class="w-[90%] md:w-[100%]" src="/assets/support5-C6FJfcFE.svg" />
               <div class="text-start">
                 <h2 class="text-base font-semibold lg:text-sm underline text-center mb-2 md:mb-1 text-[#234394]">
                   Hospitals &amp; Healthcare
@@ -770,7 +770,7 @@
           <div
             class="lg:w-80 xl:w-90 w-70 bg-white py-10 p-4 rounded-xl md:h-84 min-h-fit flex flex-col items-center md:m-4 gap-6 custom-shadow"
           >
-            <img alt="img1" class="w-50 lg:w-80 xl:w-70" src="/assets/Gift_test-1-Bw1nidTz.svg" />
+            <img loading="lazy" decoding="async" width="580" height="317" alt="img1" class="w-50 lg:w-80 xl:w-70" src="/assets/Gift_test-1-Bw1nidTz.svg" />
             <p class="w-50 font-normal text-sm md:text-center text-start">
                “eMbrace helped me get through the hardest time of my life with so much empathy.”
             </p>
@@ -778,7 +778,7 @@
           <div
             class="lg:w-80 xl:w-90 w-70 bg-white py-10 p-4 rounded-xl md:h-84 min-h-fit flex flex-col items-center md:m-4 gap-6 custom-shadow"
           >
-            <img alt="img2" class="w-50 lg:w-80 xl:w-70" src="/assets/Gift_test-2-wR21sUIx.svg" />
+            <img loading="lazy" decoding="async" width="547" height="317" alt="img2" class="w-50 lg:w-80 xl:w-70" src="/assets/Gift_test-2-wR21sUIx.svg" />
             <p class="w-50 font-normal text-sm md:text-center text-start">
               “Convenient, professional, and deeplyeffective.”
             </p>
@@ -786,7 +786,7 @@
           <div
             class="lg:w-80 xl:w-90 w-70 bg-white py-10 p-4 rounded-xl md:h-84 min-h-fit flex flex-col items-center md:m-4 gap-6 custom-shadow"
           >
-            <img alt="img3" class="w-50 lg:w-80 xl:w-70" src="/assets/Gift_test-3-CCKZ9D9K.svg" />
+            <img loading="lazy" decoding="async" width="520" height="317" alt="img3" class="w-50 lg:w-80 xl:w-70" src="/assets/Gift_test-3-CCKZ9D9K.svg" />
             <p class="w-50 font-normal text-sm md:text-center text-start">
               “The care team made us feel supported every step of the way.”
             </p>
@@ -802,7 +802,7 @@
           Personalized, empathetic spaces designed for comfort and growth
         </p>
         <div class="relative flex mt-6 items-center justify-center w-full mx-auto">
-          <img
+          <img loading="lazy" decoding="async" width="1200" height="1600"
             alt="carousel-1"
             class="md:w-[90%] 2xl:h-[50rem] h-[30rem] object-cover rounded-xl shadow"
             src="/assets/carousel1-BUqaO1dK.jpg"
