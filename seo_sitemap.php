@@ -337,221 +337,221 @@
         <div class="cluster">
           <h2>Core Pages <span>(18 pages)</span></h2>
           <div class="url-grid">
-            <a href="/index.php">/</a>
-            <a href="/about.php">/about-us</a>
-            <a href="/careers.php">/careers</a>
-            <a href="/contact-us.php">/contact-us</a>
-            <a href="/faq.php">/faq</a>
-            <a href="/appointment.php">/appointment</a>
-            <a href="/appointment__confirmation.php">/appointment/confirmation</a>
-            <a href="/bookingandCancellation.php">/bookingandCancellation</a>
-            <a href="/privacypolicy.php">/privacypolicy</a>
-            <a href="/terms_and_conditions.php">/terms_and_conditions</a>
-            <a href="/giftatherapy.php">/giftatherapy</a>
-            <a href="/media.php">/media</a>
-            <a href="/practitioner.php">/our-team</a>
-            <a href="/userListing.php">/userListing</a>
+            <a href="/">/</a>
+            <a href="/about">/about-us</a>
+            <a href="/careers">/careers</a>
+            <a href="/contact-us">/contact-us</a>
+            <a href="/faq">/faq</a>
+            <a href="/appointment">/appointment</a>
+            <a href="/appointment__confirmation">/appointment/confirmation</a>
+            <a href="/bookingandCancellation">/bookingandCancellation</a>
+            <a href="/privacypolicy">/privacypolicy</a>
+            <a href="/terms_and_conditions">/terms_and_conditions</a>
+            <a href="/giftatherapy">/giftatherapy</a>
+            <a href="/media">/media</a>
+            <a href="/practitioner">/our-team</a>
+            <a href="/userListing">/userListing</a>
           </div>
         </div>
 
         <div class="cluster">
           <h2>Autism Cluster <span>(45 pages) ✅ Done</span></h2>
           <div class="url-grid">
-            <a href="/autism/autism.php">/autism</a>
-            <a href="/autism/what-is-autism.php">/what-is-autism</a>
-            <a href="/autism/autism-spectrum-disorder.php">/autism-spectrum-disorder</a>
-            <a href="/autism/signs-of-autism.php">/signs-of-autism</a>
-            <a href="/autism/autism-symptoms.php">/autism-symptoms</a>
-            <a href="/autism/social-communication-deficits.php">/social-communication-deficits</a>
-            <a href="/autism/restricted-repetitive-behaviours.php">/restricted-repetitive-behaviours</a>
-            <a href="/autism/autism-in-toddlers.php">/autism-in-toddlers</a>
-            <a href="/autism/autism-in-preschoolers.php">/autism-in-preschoolers</a>
-            <a href="/autism/autism-in-school-age-children.php">/autism-in-school-age-children</a>
-            <a href="/autism/autism-in-adolescents.php">/autism-in-adolescents</a>
-            <a href="/autism/autism-in-adults.php">/autism-in-adults</a>
-            <a href="/autism/autism-in-girls.php">/autism-in-girls</a>
-            <a href="/autism/autism-in-boys.php">/autism-in-boys</a>
-            <a href="/autism/late-autism-diagnosis.php">/late-autism-diagnosis</a>
-            <a href="/autism/high-functioning-autism.php">/high-functioning-autism</a>
-            <a href="/autism/level-1-autism.php">/level-1-autism</a>
-            <a href="/autism/level-2-autism.php">/level-2-autism</a>
-            <a href="/autism/level-3-autism.php">/level-3-autism</a>
-            <a href="/autism/autism-screening.php">/autism-screening</a>
-            <a href="/autism/autism-testing.php">/autism-testing</a>
-            <a href="/autism/autism-assessment.php">/autism-assessment</a>
-            <a href="/autism/ados-2-assessment.php">/ados-2-assessment</a>
-            <a href="/autism/autism-diagnostic-evaluation.php">/autism-diagnostic-evaluation</a>
-            <a href="/autism/autism-treatment.php">/autism-treatment</a>
-            <a href="/autism/autism-therapy.php">/autism-therapy</a>
-            <a href="/autism/autism-behaviour-therapy.php">/autism-behaviour-therapy</a>
-            <a href="/autism/autism-occupational-therapy.php">/autism-occupational-therapy</a>
-            <a href="/autism/autism-speech-therapy.php">/autism-speech-therapy</a>
-            <a href="/autism/autism-social-skills.php">/autism-social-skills</a>
-            <a href="/autism/autism-parent-training.php">/autism-parent-training</a>
-            <a href="/autism/autism-sensory-needs.php">/autism-sensory-needs</a>
-            <a href="/autism/autism-school-support.php">/autism-school-support</a>
-            <a href="/autism/autism-inclusive-education.php">/autism-inclusive-education</a>
-            <a href="/autism/autism-transition-to-adulthood.php">/autism-transition-to-adulthood</a>
-            <a href="/autism/autism-workplace-support.php">/autism-workplace-support</a>
-            <a href="/autism/autism-and-anxiety.php">/autism-and-anxiety</a>
-            <a href="/autism/autism-and-adhd.php">/autism-and-adhd</a>
-            <a href="/autism/autism-and-learning-disabilities.php">/autism-and-learning-disabilities</a>
-            <a href="/autism/autism-and-sleep.php">/autism-and-sleep</a>
-            <a href="/autism/autism-and-feeding.php">/autism-and-feeding</a>
-            <a href="/autism/autism-and-emotional-regulation.php">/autism-and-emotional-regulation</a>
-            <a href="/autism/autism-faq.php">/autism-faq</a>
-            <a href="/autism/autism-resources.php">/autism-resources</a>
-            <a href="/autism/autism-support-groups.php">/autism-support-groups</a>
+            <a href="/autism/autism">/autism</a>
+            <a href="/autism/what-is-autism">/what-is-autism</a>
+            <a href="/autism/autism-spectrum-disorder">/autism-spectrum-disorder</a>
+            <a href="/autism/signs-of-autism">/signs-of-autism</a>
+            <a href="/autism/autism-symptoms">/autism-symptoms</a>
+            <a href="/autism/social-communication-deficits">/social-communication-deficits</a>
+            <a href="/autism/restricted-repetitive-behaviours">/restricted-repetitive-behaviours</a>
+            <a href="/autism/autism-in-toddlers">/autism-in-toddlers</a>
+            <a href="/autism/autism-in-preschoolers">/autism-in-preschoolers</a>
+            <a href="/autism/autism-in-school-age-children">/autism-in-school-age-children</a>
+            <a href="/autism/autism-in-adolescents">/autism-in-adolescents</a>
+            <a href="/autism/autism-in-adults">/autism-in-adults</a>
+            <a href="/autism/autism-in-girls">/autism-in-girls</a>
+            <a href="/autism/autism-in-boys">/autism-in-boys</a>
+            <a href="/autism/late-autism-diagnosis">/late-autism-diagnosis</a>
+            <a href="/autism/high-functioning-autism">/high-functioning-autism</a>
+            <a href="/autism/level-1-autism">/level-1-autism</a>
+            <a href="/autism/level-2-autism">/level-2-autism</a>
+            <a href="/autism/level-3-autism">/level-3-autism</a>
+            <a href="/autism/autism-screening">/autism-screening</a>
+            <a href="/autism/autism-testing">/autism-testing</a>
+            <a href="/autism/autism-assessment">/autism-assessment</a>
+            <a href="/autism/ados-2-assessment">/ados-2-assessment</a>
+            <a href="/autism/autism-diagnostic-evaluation">/autism-diagnostic-evaluation</a>
+            <a href="/autism/autism-treatment">/autism-treatment</a>
+            <a href="/autism/autism-therapy">/autism-therapy</a>
+            <a href="/autism/autism-behaviour-therapy">/autism-behaviour-therapy</a>
+            <a href="/autism/autism-occupational-therapy">/autism-occupational-therapy</a>
+            <a href="/autism/autism-speech-therapy">/autism-speech-therapy</a>
+            <a href="/autism/autism-social-skills">/autism-social-skills</a>
+            <a href="/autism/autism-parent-training">/autism-parent-training</a>
+            <a href="/autism/autism-sensory-needs">/autism-sensory-needs</a>
+            <a href="/autism/autism-school-support">/autism-school-support</a>
+            <a href="/autism/autism-inclusive-education">/autism-inclusive-education</a>
+            <a href="/autism/autism-transition-to-adulthood">/autism-transition-to-adulthood</a>
+            <a href="/autism/autism-workplace-support">/autism-workplace-support</a>
+            <a href="/autism/autism-and-anxiety">/autism-and-anxiety</a>
+            <a href="/autism/autism-and-adhd">/autism-and-adhd</a>
+            <a href="/autism/autism-and-learning-disabilities">/autism-and-learning-disabilities</a>
+            <a href="/autism/autism-and-sleep">/autism-and-sleep</a>
+            <a href="/autism/autism-and-feeding">/autism-and-feeding</a>
+            <a href="/autism/autism-and-emotional-regulation">/autism-and-emotional-regulation</a>
+            <a href="/autism/autism-faq">/autism-faq</a>
+            <a href="/autism/autism-resources">/autism-resources</a>
+            <a href="/autism/autism-support-groups">/autism-support-groups</a>
           </div>
         </div>
 
         <div class="cluster">
           <h2>ADHD Cluster <span>(35 pages)</span></h2>
           <div class="url-grid">
-            <a href="/adhd/adhd.php">/adhd</a>
-            <a href="/adhd/what-is-adhd.php">/what-is-adhd</a>
-            <a href="/adhd/adhd-symptoms.php">/adhd-symptoms</a>
-            <a href="/adhd/adhd-in-children.php">/adhd-in-children</a>
-            <a href="/adhd/adhd-in-teens.php">/adhd-in-teens</a>
-            <a href="/adhd/adult-adhd.php">/adult-adhd</a>
-            <a href="/adhd/adhd-in-women.php">/adhd-in-women</a>
-            <a href="/adhd/adhd-in-men.php">/adhd-in-men</a>
-            <a href="/adhd/adhd-screening.php">/adhd-screening</a>
-            <a href="/adhd/adhd-assessment.php">/adhd-assessment</a>
-            <a href="/adhd/conners-3-assessment.php">/conners-3-assessment</a>
-            <a href="/adhd/adhd-testing.php">/adhd-testing</a>
-            <a href="/adhd/adhd-treatment.php">/adhd-treatment</a>
-            <a href="/adhd/adhd-counselling.php">/adhd-counselling</a>
-            <a href="/adhd/adhd-coaching.php">/adhd-coaching</a>
-            <a href="/adhd/executive-function-coaching.php">/executive-function-coaching</a>
-            <a href="/adhd/adhd-faq.php">/adhd-faq</a>
-            <a href="/adhd/adhd-resources.php">/adhd-resources</a>
-            <a href="/adhd/adhd-at-work.php">/adhd-at-work</a>
-            <a href="/adhd/adhd-and-anxiety.php">/adhd-and-anxiety</a>
-            <a href="/adhd/adhd-and-autism.php">/adhd-and-autism</a>
-            <a href="/adhd/adhd-and-depression.php">/adhd-and-depression</a>
-            <a href="/adhd/attention-difficulties.php">/attention-difficulties</a>
-            <a href="/adhd/focus-and-concentration.php">/focus-and-concentration</a>
-            <a href="/adhd/impulse-control.php">/impulse-control</a>
-            <a href="/adhd/hyperactivity.php">/hyperactivity</a>
-            <a href="/adhd/adhd-parent-support.php">/adhd-parent-support</a>
-            <a href="/adhd/adhd-teacher-support.php">/adhd-teacher-support</a>
-            <a href="/adhd/adhd-classroom-accommodations.php">/adhd-classroom-accommodations</a>
-            <a href="/adhd/adhd-workplace-accommodations.php">/adhd-workplace-accommodations</a>
-            <a href="/adhd/adhd-time-management.php">/adhd-time-management</a>
-            <a href="/adhd/adhd-study-skills.php">/adhd-study-skills</a>
-            <a href="/adhd/adhd-organization-skills.php">/adhd-organization-skills</a>
-            <a href="/adhd/adhd-and-school.php">/adhd-and-school</a>
-            <a href="/adhd/adhd-and-college.php">/adhd-and-college</a>
+            <a href="/adhd/adhd">/adhd</a>
+            <a href="/adhd/what-is-adhd">/what-is-adhd</a>
+            <a href="/adhd/adhd-symptoms">/adhd-symptoms</a>
+            <a href="/adhd/adhd-in-children">/adhd-in-children</a>
+            <a href="/adhd/adhd-in-teens">/adhd-in-teens</a>
+            <a href="/adhd/adult-adhd">/adult-adhd</a>
+            <a href="/adhd/adhd-in-women">/adhd-in-women</a>
+            <a href="/adhd/adhd-in-men">/adhd-in-men</a>
+            <a href="/adhd/adhd-screening">/adhd-screening</a>
+            <a href="/adhd/adhd-assessment">/adhd-assessment</a>
+            <a href="/adhd/conners-3-assessment">/conners-3-assessment</a>
+            <a href="/adhd/adhd-testing">/adhd-testing</a>
+            <a href="/adhd/adhd-treatment">/adhd-treatment</a>
+            <a href="/adhd/adhd-counselling">/adhd-counselling</a>
+            <a href="/adhd/adhd-coaching">/adhd-coaching</a>
+            <a href="/adhd/executive-function-coaching">/executive-function-coaching</a>
+            <a href="/adhd/adhd-faq">/adhd-faq</a>
+            <a href="/adhd/adhd-resources">/adhd-resources</a>
+            <a href="/adhd/adhd-at-work">/adhd-at-work</a>
+            <a href="/adhd/adhd-and-anxiety">/adhd-and-anxiety</a>
+            <a href="/adhd/adhd-and-autism">/adhd-and-autism</a>
+            <a href="/adhd/adhd-and-depression">/adhd-and-depression</a>
+            <a href="/adhd/attention-difficulties">/attention-difficulties</a>
+            <a href="/adhd/focus-and-concentration">/focus-and-concentration</a>
+            <a href="/adhd/impulse-control">/impulse-control</a>
+            <a href="/adhd/hyperactivity">/hyperactivity</a>
+            <a href="/adhd/adhd-parent-support">/adhd-parent-support</a>
+            <a href="/adhd/adhd-teacher-support">/adhd-teacher-support</a>
+            <a href="/adhd/adhd-classroom-accommodations">/adhd-classroom-accommodations</a>
+            <a href="/adhd/adhd-workplace-accommodations">/adhd-workplace-accommodations</a>
+            <a href="/adhd/adhd-time-management">/adhd-time-management</a>
+            <a href="/adhd/adhd-study-skills">/adhd-study-skills</a>
+            <a href="/adhd/adhd-organization-skills">/adhd-organization-skills</a>
+            <a href="/adhd/adhd-and-school">/adhd-and-school</a>
+            <a href="/adhd/adhd-and-college">/adhd-and-college</a>
           </div>
         </div>
 
         <div class="cluster">
           <h2>Learning Disabilities Cluster <span>(26 pages)</span></h2>
           <div class="url-grid">
-            <a href="/learning-disabilities/specific-learning-disability.php">/specific-learning-disability</a>
-            <a href="/learning-disabilities/learning-disabilities.php">/learning-disabilities</a>
-            <a href="/learning-disabilities/dyslexia.php">/dyslexia</a>
-            <a href="/learning-disabilities/dysgraphia.php">/dysgraphia</a>
-            <a href="/learning-disabilities/dyscalculia.php">/dyscalculia</a>
-            <a href="/learning-disabilities/reading-disorder.php">/reading-disorder</a>
-            <a href="/learning-disabilities/writing-disorder.php">/writing-disorder</a>
-            <a href="/learning-disabilities/math-learning-disorder.php">/math-learning-disorder</a>
-            <a href="/learning-disabilities/learning-difficulties.php">/learning-difficulties</a>
-            <a href="/learning-disabilities/school-performance-problems.php">/school-performance-problems</a>
-            <a href="/learning-disabilities/learning-disability-assessment.php">/learning-disability-assessment</a>
-            <a href="/learning-disabilities/psychoeducational-assessment.php">/psychoeducational-assessment</a>
-            <a href="/learning-disabilities/school-readiness-assessment.php">/school-readiness-assessment</a>
-            <a href="/learning-disabilities/wisc-v-testing.php">/wisc-v-testing</a>
-            <a href="/learning-disabilities/academic-intervention.php">/academic-intervention</a>
-            <a href="/learning-disabilities/special-education-support.php">/special-education-support</a>
-            <a href="/learning-disabilities/inclusive-education.php">/inclusive-education</a>
-            <a href="/learning-disabilities/iep-support.php">/iep-support</a>
-            <a href="/learning-disabilities/school-accommodations.php">/school-accommodations</a>
-            <a href="/learning-disabilities/exam-accommodations.php">/exam-accommodations</a>
-            <a href="/learning-disabilities/learning-disability-support.php">/learning-disability-support</a>
-            <a href="/learning-disabilities/dyslexia-therapy.php">/dyslexia-therapy</a>
-            <a href="/learning-disabilities/reading-intervention.php">/reading-intervention</a>
-            <a href="/learning-disabilities/writing-intervention.php">/writing-intervention</a>
-            <a href="/learning-disabilities/study-skills-training.php">/study-skills-training</a>
-            <a href="/learning-disabilities/executive-function-training.php">/executive-function-training</a>
+            <a href="/learning-disabilities/specific-learning-disability">/specific-learning-disability</a>
+            <a href="/learning-disabilities/learning-disabilities">/learning-disabilities</a>
+            <a href="/learning-disabilities/dyslexia">/dyslexia</a>
+            <a href="/learning-disabilities/dysgraphia">/dysgraphia</a>
+            <a href="/learning-disabilities/dyscalculia">/dyscalculia</a>
+            <a href="/learning-disabilities/reading-disorder">/reading-disorder</a>
+            <a href="/learning-disabilities/writing-disorder">/writing-disorder</a>
+            <a href="/learning-disabilities/math-learning-disorder">/math-learning-disorder</a>
+            <a href="/learning-disabilities/learning-difficulties">/learning-difficulties</a>
+            <a href="/learning-disabilities/school-performance-problems">/school-performance-problems</a>
+            <a href="/learning-disabilities/learning-disability-assessment">/learning-disability-assessment</a>
+            <a href="/learning-disabilities/psychoeducational-assessment">/psychoeducational-assessment</a>
+            <a href="/learning-disabilities/school-readiness-assessment">/school-readiness-assessment</a>
+            <a href="/learning-disabilities/wisc-v-testing">/wisc-v-testing</a>
+            <a href="/learning-disabilities/academic-intervention">/academic-intervention</a>
+            <a href="/learning-disabilities/special-education-support">/special-education-support</a>
+            <a href="/learning-disabilities/inclusive-education">/inclusive-education</a>
+            <a href="/learning-disabilities/iep-support">/iep-support</a>
+            <a href="/learning-disabilities/school-accommodations">/school-accommodations</a>
+            <a href="/learning-disabilities/exam-accommodations">/exam-accommodations</a>
+            <a href="/learning-disabilities/learning-disability-support">/learning-disability-support</a>
+            <a href="/learning-disabilities/dyslexia-therapy">/dyslexia-therapy</a>
+            <a href="/learning-disabilities/reading-intervention">/reading-intervention</a>
+            <a href="/learning-disabilities/writing-intervention">/writing-intervention</a>
+            <a href="/learning-disabilities/study-skills-training">/study-skills-training</a>
+            <a href="/learning-disabilities/executive-function-training">/executive-function-training</a>
           </div>
         </div>
 
         <div class="cluster">
           <h2>Speech & Communication Cluster <span>(17 pages)</span></h2>
           <div class="url-grid">
-            <a href="/speech-therapy/speech-therapy.php">/speech-therapy</a>
-            <a href="/speech-therapy/speech-delay.php">/speech-delay</a>
-            <a href="/speech-therapy/language-delay.php">/language-delay</a>
-            <a href="/speech-therapy/expressive-language-disorder.php">/expressive-language-disorder</a>
-            <a href="/speech-therapy/receptive-language-disorder.php">/receptive-language-disorder</a>
-            <a href="/speech-therapy/speech-sound-disorders.php">/speech-sound-disorders</a>
-            <a href="/speech-therapy/articulation-therapy.php">/articulation-therapy</a>
-            <a href="/speech-therapy/stuttering-therapy.php">/stuttering-therapy</a>
-            <a href="/speech-therapy/pragmatic-language-disorder.php">/pragmatic-language-disorder</a>
-            <a href="/speech-therapy/communication-skills-training.php">/communication-skills-training</a>
-            <a href="/speech-therapy/speech-assessment.php">/speech-assessment</a>
-            <a href="/speech-therapy/language-assessment.php">/language-assessment</a>
-            <a href="/speech-therapy/speech-therapy-for-autism.php">/speech-therapy-for-autism</a>
-            <a href="/speech-therapy/speech-therapy-for-adhd.php">/speech-therapy-for-adhd</a>
-            <a href="/speech-therapy/speech-therapy-for-children.php">/speech-therapy-for-children</a>
-            <a href="/speech-therapy/speech-therapy-for-adults.php">/speech-therapy-for-adults</a>
-            <a href="/speech-therapy/social-communication-disorder.php">/social-communication-disorder</a>
+            <a href="/speech-therapy/speech-therapy">/speech-therapy</a>
+            <a href="/speech-therapy/speech-delay">/speech-delay</a>
+            <a href="/speech-therapy/language-delay">/language-delay</a>
+            <a href="/speech-therapy/expressive-language-disorder">/expressive-language-disorder</a>
+            <a href="/speech-therapy/receptive-language-disorder">/receptive-language-disorder</a>
+            <a href="/speech-therapy/speech-sound-disorders">/speech-sound-disorders</a>
+            <a href="/speech-therapy/articulation-therapy">/articulation-therapy</a>
+            <a href="/speech-therapy/stuttering-therapy">/stuttering-therapy</a>
+            <a href="/speech-therapy/pragmatic-language-disorder">/pragmatic-language-disorder</a>
+            <a href="/speech-therapy/communication-skills-training">/communication-skills-training</a>
+            <a href="/speech-therapy/speech-assessment">/speech-assessment</a>
+            <a href="/speech-therapy/language-assessment">/language-assessment</a>
+            <a href="/speech-therapy/speech-therapy-for-autism">/speech-therapy-for-autism</a>
+            <a href="/speech-therapy/speech-therapy-for-adhd">/speech-therapy-for-adhd</a>
+            <a href="/speech-therapy/speech-therapy-for-children">/speech-therapy-for-children</a>
+            <a href="/speech-therapy/speech-therapy-for-adults">/speech-therapy-for-adults</a>
+            <a href="/speech-therapy/social-communication-disorder">/social-communication-disorder</a>
           </div>
         </div>
 
         <div class="cluster">
           <h2>Occupational Therapy Cluster <span>(16 pages)</span></h2>
           <div class="url-grid">
-            <a href="/occupational-therapy/occupational-therapy.php">/occupational-therapy</a>
-            <a href="/occupational-therapy/sensory-processing-disorder.php">/sensory-processing-disorder</a>
-            <a href="/occupational-therapy/sensory-integration-therapy.php">/sensory-integration-therapy</a>
-            <a href="/occupational-therapy/fine-motor-skills.php">/fine-motor-skills</a>
-            <a href="/occupational-therapy/gross-motor-skills.php">/gross-motor-skills</a>
-            <a href="/occupational-therapy/handwriting-difficulties.php">/handwriting-difficulties</a>
-            <a href="/occupational-therapy/daily-living-skills.php">/daily-living-skills</a>
-            <a href="/occupational-therapy/self-care-training.php">/self-care-training</a>
-            <a href="/occupational-therapy/motor-planning.php">/motor-planning</a>
-            <a href="/occupational-therapy/sensory-seeking-behaviour.php">/sensory-seeking-behaviour</a>
-            <a href="/occupational-therapy/sensory-avoidance.php">/sensory-avoidance</a>
-            <a href="/occupational-therapy/sensory-regulation.php">/sensory-regulation</a>
-            <a href="/occupational-therapy/occupational-therapy-assessment.php">/occupational-therapy-assessment</a>
-            <a href="/occupational-therapy/ot-for-autism.php">/ot-for-autism</a>
-            <a href="/occupational-therapy/ot-for-adhd.php">/ot-for-adhd</a>
-            <a href="/occupational-therapy/ot-for-learning-disabilities.php">/ot-for-learning-disabilities</a>
+            <a href="/occupational-therapy/occupational-therapy">/occupational-therapy</a>
+            <a href="/occupational-therapy/sensory-processing-disorder">/sensory-processing-disorder</a>
+            <a href="/occupational-therapy/sensory-integration-therapy">/sensory-integration-therapy</a>
+            <a href="/occupational-therapy/fine-motor-skills">/fine-motor-skills</a>
+            <a href="/occupational-therapy/gross-motor-skills">/gross-motor-skills</a>
+            <a href="/occupational-therapy/handwriting-difficulties">/handwriting-difficulties</a>
+            <a href="/occupational-therapy/daily-living-skills">/daily-living-skills</a>
+            <a href="/occupational-therapy/self-care-training">/self-care-training</a>
+            <a href="/occupational-therapy/motor-planning">/motor-planning</a>
+            <a href="/occupational-therapy/sensory-seeking-behaviour">/sensory-seeking-behaviour</a>
+            <a href="/occupational-therapy/sensory-avoidance">/sensory-avoidance</a>
+            <a href="/occupational-therapy/sensory-regulation">/sensory-regulation</a>
+            <a href="/occupational-therapy/occupational-therapy-assessment">/occupational-therapy-assessment</a>
+            <a href="/occupational-therapy/ot-for-autism">/ot-for-autism</a>
+            <a href="/occupational-therapy/ot-for-adhd">/ot-for-adhd</a>
+            <a href="/occupational-therapy/ot-for-learning-disabilities">/ot-for-learning-disabilities</a>
           </div>
         </div>
 
         <div class="cluster">
           <h2>Child Psychology Cluster <span>(20 pages)</span></h2>
           <div class="url-grid">
-            <a href="/child-psychology/child-psychologist.php">/child-psychologist</a>
-            <a href="/child-psychology/child-counselling.php">/child-counselling</a>
-            <a href="/child-psychology/child-anxiety.php">/child-anxiety</a>
-            <a href="/child-psychology/child-depression.php">/child-depression</a>
-            <a href="/child-psychology/child-stress.php">/child-stress</a>
-            <a href="/child-psychology/child-behaviour-problems.php">/child-behaviour-problems</a>
-            <a href="/child-psychology/temper-tantrums.php">/temper-tantrums</a>
-            <a href="/child-psychology/emotional-regulation.php">/emotional-regulation</a>
-            <a href="/child-psychology/anger-management-for-children.php">/anger-management-for-children</a>
-            <a href="/child-psychology/social-skills-training.php">/social-skills-training</a>
-            <a href="/child-psychology/peer-relationship-problems.php">/peer-relationship-problems</a>
-            <a href="/child-psychology/bullying-support.php">/bullying-support</a>
-            <a href="/child-psychology/school-refusal.php">/school-refusal</a>
-            <a href="/child-psychology/academic-stress.php">/academic-stress</a>
-            <a href="/child-psychology/low-self-esteem.php">/low-self-esteem</a>
-            <a href="/child-psychology/confidence-building.php">/confidence-building</a>
-            <a href="/child-psychology/grief-counselling-for-children.php">/grief-counselling-for-children</a>
-            <a href="/child-psychology/trauma-support-for-children.php">/trauma-support-for-children</a>
-            <a href="/child-psychology/play-therapy.php">/play-therapy</a>
-            <a href="/child-psychology/expressive-arts-therapy.php">/expressive-arts-therapy</a>
+            <a href="/child-psychology/child-psychologist">/child-psychologist</a>
+            <a href="/child-psychology/child-counselling">/child-counselling</a>
+            <a href="/child-psychology/child-anxiety">/child-anxiety</a>
+            <a href="/child-psychology/child-depression">/child-depression</a>
+            <a href="/child-psychology/child-stress">/child-stress</a>
+            <a href="/child-psychology/child-behaviour-problems">/child-behaviour-problems</a>
+            <a href="/child-psychology/temper-tantrums">/temper-tantrums</a>
+            <a href="/child-psychology/emotional-regulation">/emotional-regulation</a>
+            <a href="/child-psychology/anger-management-for-children">/anger-management-for-children</a>
+            <a href="/child-psychology/social-skills-training">/social-skills-training</a>
+            <a href="/child-psychology/peer-relationship-problems">/peer-relationship-problems</a>
+            <a href="/child-psychology/bullying-support">/bullying-support</a>
+            <a href="/child-psychology/school-refusal">/school-refusal</a>
+            <a href="/child-psychology/academic-stress">/academic-stress</a>
+            <a href="/child-psychology/low-self-esteem">/low-self-esteem</a>
+            <a href="/child-psychology/confidence-building">/confidence-building</a>
+            <a href="/child-psychology/grief-counselling-for-children">/grief-counselling-for-children</a>
+            <a href="/child-psychology/trauma-support-for-children">/trauma-support-for-children</a>
+            <a href="/child-psychology/play-therapy">/play-therapy</a>
+            <a href="/child-psychology/expressive-arts-therapy">/expressive-arts-therapy</a>
           </div>
         </div>
 
 <!-- LOCATIONS-SEOMAP:START (generated by generate-locations-nav.js — do not edit by hand) -->
         <div class="cluster">
-          <h2>Locations &ndash; Delhi <span>(11 pages)</span></h2>
+          <h2>Locations &ndash; Delhi <span>(20 pages)</span></h2>
           <div class="url-grid">
             <a href="/locations">/locations</a>
             <a href="/locations/child-psychologist-in-delhi">/child-psychologist-in-delhi</a>
@@ -565,6 +565,15 @@
             <a href="/locations/speech-therapy-in-delhi">/speech-therapy-in-delhi</a>
             <a href="/locations/occupational-therapy-in-delhi">/occupational-therapy-in-delhi</a>
             <a href="/locations/special-education-in-delhi">/special-education-in-delhi</a>
+            <a href="/locations/developmental-delay-treatment-in-delhi">/developmental-delay-treatment-in-delhi</a>
+            <a href="/locations/intellectual-disability-treatment-in-delhi">/intellectual-disability-treatment-in-delhi</a>
+            <a href="/locations/down-syndrome-treatment-in-delhi">/down-syndrome-treatment-in-delhi</a>
+            <a href="/locations/oral-motor-therapy-in-delhi">/oral-motor-therapy-in-delhi</a>
+            <a href="/locations/aba-therapy-in-delhi">/aba-therapy-in-delhi</a>
+            <a href="/locations/physiotherapy-in-delhi">/physiotherapy-in-delhi</a>
+            <a href="/locations/pediatric-neurologist-in-delhi">/pediatric-neurologist-in-delhi</a>
+            <a href="/locations/developmental-pediatrician-in-delhi">/developmental-pediatrician-in-delhi</a>
+            <a href="/locations/child-development-centre-in-delhi">/child-development-centre-in-delhi</a>
           </div>
         </div>
         <div class="cluster">
@@ -687,7 +696,7 @@
           </div>
         </div>
         <div class="cluster">
-          <h2>Locations &ndash; Gurgaon <span>(11 pages)</span></h2>
+          <h2>Locations &ndash; Gurgaon <span>(20 pages)</span></h2>
           <div class="url-grid">
             <a href="/locations">/locations</a>
             <a href="/locations/child-psychologist-in-gurgaon">/child-psychologist-in-gurgaon</a>
@@ -701,6 +710,15 @@
             <a href="/locations/speech-therapy-in-gurgaon">/speech-therapy-in-gurgaon</a>
             <a href="/locations/occupational-therapy-in-gurgaon">/occupational-therapy-in-gurgaon</a>
             <a href="/locations/special-education-in-gurgaon">/special-education-in-gurgaon</a>
+            <a href="/locations/developmental-delay-treatment-in-gurgaon">/developmental-delay-treatment-in-gurgaon</a>
+            <a href="/locations/intellectual-disability-treatment-in-gurgaon">/intellectual-disability-treatment-in-gurgaon</a>
+            <a href="/locations/down-syndrome-treatment-in-gurgaon">/down-syndrome-treatment-in-gurgaon</a>
+            <a href="/locations/oral-motor-therapy-in-gurgaon">/oral-motor-therapy-in-gurgaon</a>
+            <a href="/locations/aba-therapy-in-gurgaon">/aba-therapy-in-gurgaon</a>
+            <a href="/locations/physiotherapy-in-gurgaon">/physiotherapy-in-gurgaon</a>
+            <a href="/locations/pediatric-neurologist-in-gurgaon">/pediatric-neurologist-in-gurgaon</a>
+            <a href="/locations/developmental-pediatrician-in-gurgaon">/developmental-pediatrician-in-gurgaon</a>
+            <a href="/locations/child-development-centre-in-gurgaon">/child-development-centre-in-gurgaon</a>
           </div>
         </div>
         <div class="cluster">

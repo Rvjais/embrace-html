@@ -401,9 +401,9 @@
     <div class="lm-actions" style="margin-top:1.75rem">
       <h4>Three ways people start</h4>
       <ol>
-        <li><strong>Individual therapy.</strong> Structured, goal-led sessions for anxiety, depression, stress, grief, trauma or relationship difficulty. <a href="/individuals.php" style="color:#234394;font-weight:600">Individual therapy &rarr;</a></li>
-        <li><strong>Couples work.</strong> When the pressure is showing up in the relationship rather than in you alone. <a href="/couples.php" style="color:#234394;font-weight:600">Couples therapy &rarr;</a></li>
-        <li><strong>Through your employer.</strong> If your organisation runs an EAP or wellness programme with us, sessions may already be covered. <a href="/corporate.php" style="color:#234394;font-weight:600">Corporate wellness &rarr;</a></li>
+        <li><strong>Individual therapy.</strong> Structured, goal-led sessions for anxiety, depression, stress, grief, trauma or relationship difficulty. <a href="/individuals" style="color:#234394;font-weight:600">Individual therapy &rarr;</a></li>
+        <li><strong>Couples work.</strong> When the pressure is showing up in the relationship rather than in you alone. <a href="/couples" style="color:#234394;font-weight:600">Couples therapy &rarr;</a></li>
+        <li><strong>Through your employer.</strong> If your organisation runs an EAP or wellness programme with us, sessions may already be covered. <a href="/corporate" style="color:#234394;font-weight:600">Corporate wellness &rarr;</a></li>
       </ol>
     </div>
   </div>
@@ -517,7 +517,7 @@
     professional: 'Protect one hard boundary in your calendar this week — a genuine lunch break, or a fixed logoff time — and treat it as an appointment you cannot move.',
     founder: 'Separate the two things running you down: the workload and the uncertainty. They need different responses, and founders usually treat both as "just push harder".',
     student: 'Sleep debt looks exactly like anxiety at your stage. Fix the sleep window for two weeks before you conclude anything about your mental health.',
-    caregiver: 'Caregiver depletion is real and under-recognised. Our <a href="/parent-hub/caregiver-support.php" style="color:#234394;font-weight:600">caregiver support</a> resources were written for exactly this.',
+    caregiver: 'Caregiver depletion is real and under-recognised. Our <a href="/parent-hub/caregiver-support" style="color:#234394;font-weight:600">caregiver support</a> resources were written for exactly this.',
     other: 'Pick the single domain that scored highest and work only on that for two weeks. Broad self-improvement plans fail; narrow ones do not.',
   };
 
@@ -654,7 +654,7 @@
     },
 
     guide: {
-      url: '/resources/guides/7-day-reset-plan.php',
+      url: '/resources/guides/7-day-reset-plan',
       title: 'the 7-Day Reset Plan',
     },
   });

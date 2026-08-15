@@ -441,7 +441,7 @@
       </details>
       <details style="background:#fff;border:1px solid #e6e8f0;border-radius:1rem;padding:1.1rem 1.35rem">
         <summary style="cursor:pointer;font-weight:700;color:#16203c">Is my information private?</summary>
-        <p style="margin:.8rem 0 0;color:#55596b;line-height:1.7">Your answers stay in your browser until you ask for the report. If you do, your details go only to eMbrace's clinical intake team and are handled under our <a href="/privacypolicy.php" style="color:#234394;font-weight:600">privacy policy</a>. We never sell or share your data.</p>
+        <p style="margin:.8rem 0 0;color:#55596b;line-height:1.7">Your answers stay in your browser until you ask for the report. If you do, your details go only to eMbrace's clinical intake team and are handled under our <a href="/privacypolicy" style="color:#234394;font-weight:600">privacy policy</a>. We never sell or share your data.</p>
       </details>
     </div>
   </div>
@@ -657,7 +657,7 @@
     },
 
     guide: {
-      url: '/resources/guides/child-milestone-guide.php',
+      url: '/resources/guides/child-milestone-guide',
       title: 'the Milestone Guide',
     },
   });

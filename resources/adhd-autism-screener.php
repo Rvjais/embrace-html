@@ -656,7 +656,7 @@
     },
 
     guide: {
-      url: '/resources/guides/adhd-autism-next-steps.php',
+      url: '/resources/guides/adhd-autism-next-steps',
       title: 'the Assessment Guide',
     },
   });

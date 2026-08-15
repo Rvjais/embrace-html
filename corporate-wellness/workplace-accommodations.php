@@ -414,7 +414,7 @@
           <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Workplace Accommodations</h1>
           <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto italic">Reasonable accommodations for a diverse workforce.</p>
           <div class="mt-8 flex justify-center">
-            <a href="/appointment.php" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
+            <a href="/appointment" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
               Book a Consultation
             </a>
           </div>
@@ -422,9 +422,9 @@
       </div>
       <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
         <div class="max-w-7xl mx-auto flex items-center gap-2">
-          <a class="hover:text-[#234394]" href="/index.php">Home</a>
+          <a class="hover:text-[#234394]" href="/">Home</a>
           <span>/</span>
-          <a class="hover:text-[#234394]" href="/corporate-wellness/corporates.php">Corporate Wellness Hub</a>
+          <a class="hover:text-[#234394]" href="/corporate-wellness/corporates">Corporate Wellness Hub</a>
           <span>/</span>
           <span class="text-gray-800 font-medium">Workplace Accommodations</span>
         </div>
@@ -436,30 +436,30 @@
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #234394"></span>Workplace Mental Health</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/corporates.php">Corporate Wellness Hub</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/corporate-wellness.php">Corporate Wellness Programs</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/employee-mental-health.php">Employee Mental Health</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/employee-assistance-programs.php">Employee Assistance Programs</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/workplace-stress.php">Workplace Stress</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/workplace-anxiety.php">Workplace Anxiety</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/burnout-prevention.php">Burnout Prevention</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/corporates">Corporate Wellness Hub</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/corporate-wellness">Corporate Wellness Programs</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/employee-mental-health">Employee Mental Health</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/employee-assistance-programs">Employee Assistance Programs</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/workplace-stress">Workplace Stress</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/workplace-anxiety">Workplace Anxiety</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/burnout-prevention">Burnout Prevention</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #C499F6"></span>Neurodiversity & Inclusion</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/neurodiversity-at-work.php">Neurodiversity at Work</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/inclusive-hiring.php">Inclusive Hiring</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/workplace-adhd-support.php">Workplace ADHD Support</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/workplace-autism-support.php">Workplace Autism Support</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/corporate-wellness/workplace-accommodations.php">Workplace Accommodations</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/neurodiversity-at-work">Neurodiversity at Work</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/inclusive-hiring">Inclusive Hiring</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/workplace-adhd-support">Workplace ADHD Support</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/workplace-autism-support">Workplace Autism Support</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/corporate-wellness/workplace-accommodations">Workplace Accommodations</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #2EC4B6"></span>Leadership & Training</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/leadership-wellbeing.php">Leadership Wellbeing</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/manager-training.php">Manager Training</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/corporate-wellness/leadership-wellbeing">Leadership Wellbeing</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/manager-training">Manager Training</a></li>
     </ul>
   </div></div>
 <div class="w-full md:hidden mb-6 bg-[#F9FBFF] border border-[#E0E6F0] rounded-2xl p-4 shadow-sm">
@@ -472,30 +472,30 @@
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Workplace Mental Health</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/corporates.php">Corporate Wellness Hub</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/corporate-wellness.php">Corporate Wellness Programs</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/employee-mental-health.php">Employee Mental Health</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/employee-assistance-programs.php">Employee Assistance Programs</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/workplace-stress.php">Workplace Stress</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/workplace-anxiety.php">Workplace Anxiety</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/burnout-prevention.php">Burnout Prevention</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/corporates">Corporate Wellness Hub</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/corporate-wellness">Corporate Wellness Programs</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/employee-mental-health">Employee Mental Health</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/employee-assistance-programs">Employee Assistance Programs</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/workplace-stress">Workplace Stress</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/workplace-anxiety">Workplace Anxiety</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/burnout-prevention">Burnout Prevention</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Neurodiversity & Inclusion</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/neurodiversity-at-work.php">Neurodiversity at Work</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/inclusive-hiring.php">Inclusive Hiring</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/workplace-adhd-support.php">Workplace ADHD Support</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/workplace-autism-support.php">Workplace Autism Support</a></li>
-          <li><a class="block py-1 text-xs text-[#234394] font-bold" href="/corporate-wellness/workplace-accommodations.php">Workplace Accommodations</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/neurodiversity-at-work">Neurodiversity at Work</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/inclusive-hiring">Inclusive Hiring</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/workplace-adhd-support">Workplace ADHD Support</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/workplace-autism-support">Workplace Autism Support</a></li>
+          <li><a class="block py-1 text-xs text-[#234394] font-bold" href="/corporate-wellness/workplace-accommodations">Workplace Accommodations</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Leadership & Training</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/leadership-wellbeing.php">Leadership Wellbeing</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/manager-training.php">Manager Training</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/corporate-wellness/leadership-wellbeing">Leadership Wellbeing</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/manager-training">Manager Training</a></li>
         </ul>
       </div>    </div>
   </details>
@@ -553,7 +553,7 @@
             <div class="cta-card my-12">
               <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Speak with a Specialist</h3>
               <p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Get personalised guidance, professional assessment, and structured support at eMbrace Delhi.</p>
-              <a href="/appointment.php" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
+              <a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
                 Schedule an Appointment
               </a>
             </div>

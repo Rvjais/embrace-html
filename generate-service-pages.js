@@ -36,12 +36,12 @@ const CSS = '/assets/index-B-kGA3UA.css';
 
 /** Where related links point. New services resolve from the content model. */
 const EXISTING_LINKS = {
-  'speech-therapy': ['/speech-therapy/speech-therapy.php', 'Speech &amp; Language Therapy'],
-  'occupational-therapy': ['/occupational-therapy/occupational-therapy.php', 'Occupational Therapy'],
-  'autism': ['/autism/autism.php', 'Autism Hub'],
-  'adhd': ['/adhd/adhd.php', 'ADHD Hub'],
-  'learning-disabilities': ['/learning-disabilities/learning-disabilities.php', 'Learning Disabilities'],
-  'special-education': ['/learning-disabilities/special-education-support.php', 'Special Education Support'],
+  'speech-therapy': ['/speech-therapy/speech-therapy', 'Speech &amp; Language Therapy'],
+  'occupational-therapy': ['/occupational-therapy/occupational-therapy', 'Occupational Therapy'],
+  'autism': ['/autism/autism', 'Autism Hub'],
+  'adhd': ['/adhd/adhd', 'ADHD Hub'],
+  'learning-disabilities': ['/learning-disabilities/learning-disabilities', 'Learning Disabilities'],
+  'special-education': ['/learning-disabilities/special-education-support', 'Special Education Support'],
 };
 
 /** Ranked longest first; the fitter walks down until a title lands in range. */
@@ -111,10 +111,27 @@ function suffixesFor(svc) {
   return (svc.medical || svc.noRci) ? TITLE_SUFFIXES.filter(s => !/RCI/.test(s)) : TITLE_SUFFIXES;
 }
 
+/**
+ * Component includes are the one place a real path is still needed: PHP
+ * resolves them on disk, so they keep the .php extension and must reflect how
+ * deep the page sits. Hub pages are at the root, location pages one level down.
+ */
+function withIncludes(html, prefix) {
+  return html
+    .replace(/\{\{HEADER\}\}/g, `<?php include __DIR__ . '${prefix}/components/header.php'; ?>`)
+    .replace(/\{\{FOOTER\}\}/g,
+      `<?php include __DIR__ . '${prefix}/components/lead-magnet-band-child.php'; ?>
+` +
+      `<?php include __DIR__ . '${prefix}/components/footer.php'; ?>`);
+}
+
+/** Hub pages sit at the site root, one URL segment, no extension. */
+const hubUrl = svc => `/${svc.slug}`;
+
 function linkFor(key, services) {
   if (EXISTING_LINKS[key]) return EXISTING_LINKS[key];
   const svc = services.find(s => s.slug === key);
-  if (svc) return [`/${svc.folder}/${svc.slug}.php`, enc(svc.hubName)];
+  if (svc) return [hubUrl(svc), enc(svc.hubName)];
   return null;
 }
 
@@ -165,11 +182,27 @@ function head({ title, desc, url, extraStyle }) {
   .key-points-card { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #e2e8f0; border-radius: 1.5rem; padding: 2rem; }
   .key-points-card ul { margin-bottom: 0 !important; }
   .key-points-card ul li { padding-left: 2.25rem !important; margin-bottom: 1rem !important; }
-  .faq-item { border-bottom: 1px solid #e2e8f0; transition: background 0.2s; }
-  .faq-item:hover { background: #f8fafc; }
-  .faq-item button { padding: 1.25rem 1rem; border-radius: 0.75rem; }
+  /* Accordion. Everything it needs is defined here, so it does not depend on
+     utilities surviving the Tailwind purge. */
+  .faq-item { border-bottom: 1px solid #e2e8f0; }
+  .faq-btn { display: flex; width: 100%; align-items: center; justify-content: space-between;
+             gap: 1rem; text-align: left; padding: 1.25rem 1rem; background: none; border: 0;
+             cursor: pointer; font: inherit; border-radius: 0.75rem; transition: background 0.2s; }
+  .faq-btn:hover { background: #f8fafc; }
+  .faq-btn:focus-visible { outline: 2px solid #234394; outline-offset: 2px; }
+  .faq-q { font-weight: 600; font-size: 1rem; color: #234394; }
+  @media (min-width: 768px) { .faq-q { font-size: 1.125rem; } }
   .faq-icon { width: 1.25rem; height: 1.25rem; flex: none; transition: transform 0.25s ease; }
-  .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+  /* Toggled with the hidden attribute rather than an animated max-height.
+     A max-height transition depends on a height guess and proved unreliable
+     here; display none/block cannot silently fail. */
+  .faq-panel[hidden] { display: none; }
+  .faq-panel { animation: faq-open 0.2s ease; }
+  .faq-panel p { margin: 0; padding: 0 1rem 1.25rem; color: #475569; line-height: 1.7;
+                 font-size: 0.95rem; }
+  @keyframes faq-open { from { opacity: 0; transform: translateY(-4px); }
+                        to { opacity: 1; transform: none; } }
+  .faq-item.is-open .faq-icon { transform: rotate(45deg); }
   .side-menu a { display: block; padding: 0.5rem 0.75rem; border-radius: 0.5rem; color: #475569; font-size: 0.9rem; transition: all 0.2s; }
   .side-menu a:hover { background: rgba(35,67,148,0.08); color: #234394; }
   .side-menu a.is-current { background: #234394; color: #fff; font-weight: 600; }
@@ -184,7 +217,7 @@ function hero(h1, lede, eyebrow) {
     <span class="inline-block bg-[#234394] text-white text-xs font-bold tracking-wider uppercase px-4 py-1.5 rounded-full mb-5">${enc(eyebrow)}</span>
     <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">${enc(h1)}</h1>
     <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto">${enc(lede)}</p>
-    <a href="/appointment.php" class="inline-block mt-8 px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free 15-minute call</a>
+    <a href="/appointment" class="inline-block mt-8 px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free 15-minute call</a>
   </div>
 </div>`;
 }
@@ -204,7 +237,7 @@ function breadcrumbs(trail) {
 
 function sidebar(svc, services, currentSlug) {
   const links = services.map(s =>
-    `<a class="${s.slug === currentSlug ? 'is-current' : ''}" href="/${s.folder}/${s.slug}.php">${enc(s.hubName)}</a>`
+    `<a class="${s.slug === currentSlug ? 'is-current' : ''}" href="/${s.folder}/${s.slug}">${enc(s.hubName)}</a>`
   ).join('\n      ');
   // Only outward links here. Sibling services are already listed above, and
   // showing them twice in one sidebar just looks like a bug.
@@ -226,13 +259,27 @@ function sidebar(svc, services, currentSlug) {
 </aside>`;
 }
 
+/**
+ * Self-contained accordion.
+ *
+ * The site's shared handler in assets/interactive.js drives these by swapping
+ * Tailwind utilities (max-h-0 against max-h-[1000px]). That is fragile here:
+ * max-h-[1000px] is an arbitrary value that the purged bundle does not contain,
+ * so the open state depends on a class with no rule behind it. These pages use
+ * their own class and their own CSS instead, with the toggle bound by a small
+ * script at the bottom of the page.
+ *
+ * The markup deliberately avoids `transition-all` on the panel, which is the
+ * hook interactive.js keys on, so the shared handler stays inert here and the
+ * two cannot fight over the same element.
+ */
 function faqBlock(faqs) {
   const items = faqs.map(f => `<div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">${enc(f.q)}</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">${enc(f.q)}</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">${enc(f.a)}</p></div>
+  <div class="faq-panel" hidden><p>${enc(f.a)}</p></div>
 </div>`).join('\n');
   return `<h2 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h2>
 <div class="space-y-2 mb-10">
@@ -245,7 +292,7 @@ function ctaBlock(name) {
   <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Not sure whether you need this yet?</h2>
   <p class="text-gray-600 mb-6">Start with a free 15-minute intake call. A clinician will tell you honestly whether ${enc(name)} is the right next step, or whether something else is. There is no obligation and no waiting list to join.</p>
   <div class="flex flex-wrap gap-3">
-    <a href="/appointment.php" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
+    <a href="/appointment" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
     <a href="https://wa.me/919971576800" target="_blank" rel="noopener" class="inline-block px-7 py-3 rounded-full bg-white border border-[#c7d2fe] text-[#234394] font-semibold hover:bg-[#f8faff] transition-colors">WhatsApp ${PHONE_DISPLAY}</a>
   </div>
 </div>`;
@@ -253,13 +300,28 @@ function ctaBlock(name) {
 
 function scripts() {
   return `<script src="/assets/interactive.js"></script>
-<script src="/assets/lead-magnets.js"></script>`;
+<script src="/assets/lead-magnets.js"></script>
+<script>
+(function () {
+  // Accordion toggle. Delegated, so it works no matter when the DOM settles.
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest && e.target.closest('.faq-btn');
+    if (!btn) return;
+    var item = btn.closest('.faq-item');
+    if (!item) return;
+    var panel = item.querySelector('.faq-panel');
+    var open = item.classList.toggle('is-open');
+    if (panel) panel.hidden = !open;
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>`;
 }
 
 /* ------------------------------------------------------------- page builders */
 
 function hubPage(svc, services, problems) {
-  const url = `/${svc.folder}/${svc.slug}`;
+  const url = hubUrl(svc);
   const title = fit(
     suffixesFor(svc).map(s => `${svc.keyword}${s}`),
     TITLE_MIN, TITLE_MAX, `${svc.slug} hub title`, problems);
@@ -289,19 +351,19 @@ ${svc.keyPoints.map(k => `    <li>${enc(k)}</li>`).join('\n')}
   const cities = `<h2>Where we offer ${enc(svc.shortName)}</h2>
 <p>eMbrace runs three centres across Delhi NCR, plus online sessions for families elsewhere in India and abroad. For locality-specific details, including addresses, travel and what happens at a first visit:</p>
 <ul>
-  <li><a href="/locations/${svc.slug}-in-delhi.php" class="text-[#234394] font-semibold">${enc(svc.keyword)} in Delhi</a></li>
-  <li><a href="/locations/${svc.slug}-in-gurgaon.php" class="text-[#234394] font-semibold">${enc(svc.keyword)} in Gurgaon</a></li>
-  <li><a href="/locations/index.php" class="text-[#234394] font-semibold">All eMbrace locations across Delhi NCR</a></li>
+  <li><a href="/locations/${svc.slug}-in-delhi" class="text-[#234394] font-semibold">${enc(svc.keyword)} in Delhi</a></li>
+  <li><a href="/locations/${svc.slug}-in-gurgaon" class="text-[#234394] font-semibold">${enc(svc.keyword)} in Gurgaon</a></li>
+  <li><a href="/locations" class="text-[#234394] font-semibold">All eMbrace locations across Delhi NCR</a></li>
 </ul>`;
 
   return `${head({ title, desc, url })}
 <body class="overflow-x-hidden">
 <div id="root" class="overflow-x-hidden">
-<?php include __DIR__ . '/../components/header.php'; ?>
+{{HEADER}}
 ${hero(svc.hubName, svc.lede, 'Child Development')}
 ${breadcrumbs([
     { label: 'Home', href: '/index.php' },
-    { label: 'Child Development Centre', href: '/child-development-centre/child-development-centre.php' },
+    { label: 'Child Development Centre', href: '/child-development-centre' },
     { label: svc.breadcrumb },
   ])}
 <div class="px-4 md:px-8 lg:px-16 py-12 bg-white">
@@ -316,8 +378,7 @@ ${ctaBlock(svc.shortName)}
     </div>
   </div>
 </div>
-<?php include __DIR__ . '/../components/lead-magnet-band-child.php'; ?>
-<?php include __DIR__ . '/../components/footer.php'; ?>
+{{FOOTER}}
 </div>
 ${scripts()}
 </body>
@@ -343,7 +404,7 @@ function cityPage(svc, cityKey, services, problems) {
     DESC_MIN, DESC_MAX, `${svc.slug}-${cityKey} desc`, problems);
 
   const nearbyLinks = city.nearby
-    .map(slug => `<li><a href="/locations/child-psychologist-in-${slug}.php" class="text-[#234394]">Child psychology in ${slug.split('-').map(w => w[0].toUpperCase() + w.slice(1)).join(' ')}</a></li>`)
+    .map(slug => `<li><a href="/locations/child-psychologist-in-${slug}" class="text-[#234394]">Child psychology in ${slug.split('-').map(w => w[0].toUpperCase() + w.slice(1)).join(' ')}</a></li>`)
     .join('\n');
 
   const lede = `${svc.keyword} for families in ${city.name}, delivered by the same multidisciplinary team that runs our assessments. This page covers where you will be seen, how to get there and what happens first.`;
@@ -351,11 +412,11 @@ function cityPage(svc, cityKey, services, problems) {
   return `${head({ title, desc, url })}
 <body class="overflow-x-hidden">
 <div id="root" class="overflow-x-hidden">
-<?php include __DIR__ . '/../components/header.php'; ?>
+{{HEADER}}
 ${hero(kw, lede, 'Location Services')}
 ${breadcrumbs([
     { label: 'Home', href: '/index.php' },
-    { label: svc.breadcrumb, href: `/${svc.folder}/${svc.slug}.php` },
+    { label: svc.breadcrumb, href: hubUrl(svc) },
     { label: `In ${city.name}` },
   ])}
 <div class="px-4 md:px-8 lg:px-16 py-12 bg-white">
@@ -373,7 +434,7 @@ ${sidebar(svc, services, svc.slug)}
 ${svc.keyPoints.map(k => `    <li>${enc(k)}</li>`).join('\n')}
   </ul>
 </div>
-<p>For the full clinical picture, including what the difficulty is, the signs worth acting on and how treatment is planned, read our <a href="/${svc.folder}/${svc.slug}.php" class="text-[#234394] font-semibold">${enc(svc.hubName)} guide</a>.</p>
+<p>For the full clinical picture, including what the difficulty is, the signs worth acting on and how treatment is planned, read our <a href="${hubUrl(svc)}" class="text-[#234394] font-semibold">${enc(svc.hubName)} guide</a>.</p>
 
 <h2>How to start</h2>
 <ul>
@@ -403,15 +464,14 @@ ${faqBlock([
 <h2>Other eMbrace services near you</h2>
 <ul>
 ${nearbyLinks}
-  <li><a href="/locations/index.php" class="text-[#234394]">View all eMbrace locations</a></li>
+  <li><a href="/locations" class="text-[#234394]">View all eMbrace locations</a></li>
 </ul>
 
 ${ctaBlock(svc.shortName)}
     </div>
   </div>
 </div>
-<?php include __DIR__ . '/../components/lead-magnet-band-child.php'; ?>
-<?php include __DIR__ . '/../components/footer.php'; ?>
+{{FOOTER}}
 </div>
 ${scripts()}
 </body>
@@ -433,9 +493,9 @@ function write(rel, contents) {
 }
 
 for (const svc of SERVICES) {
-  write(`${svc.folder}/${svc.slug}.php`, hubPage(svc, SERVICES, problems));
-  write(`locations/${svc.slug}-in-delhi.php`, cityPage(svc, 'delhi', SERVICES, problems));
-  write(`locations/${svc.slug}-in-gurgaon.php`, cityPage(svc, 'gurgaon', SERVICES, problems));
+  write(`${svc.slug}.php`, withIncludes(hubPage(svc, SERVICES, problems), ''));
+  write(`locations/${svc.slug}-in-delhi.php`, withIncludes(cityPage(svc, 'delhi', SERVICES, problems), '/..'));
+  write(`locations/${svc.slug}-in-gurgaon.php`, withIncludes(cityPage(svc, 'gurgaon', SERVICES, problems), '/..'));
 }
 
 console.log(`\n${DRY ? '[dry run] ' : ''}${written} pages for ${SERVICES.length} services.`);

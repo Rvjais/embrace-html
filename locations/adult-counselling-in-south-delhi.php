@@ -453,7 +453,7 @@
 <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Adult Counselling in South Delhi</h1>
 <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto italic">Professional adult counselling for adults across South Delhi, at our Malviya Nagar and Vasant Kunj centres.</p>
 <div class="mt-8 flex justify-center">
-<a href="/appointment.php" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
+<a href="/appointment" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
               Book a Consultation
             </a>
 </div>
@@ -461,9 +461,9 @@
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
 <div class="max-w-7xl mx-auto flex items-center gap-2">
-<a class="hover:text-[#234394]" href="/index.php">Home</a>
+<a class="hover:text-[#234394]" href="/">Home</a>
 <span>/</span>
-<a class="hover:text-[#234394]" href="/adult-mental-health/adult-counselling.php">Adult Mental Health Hub</a>
+<a class="hover:text-[#234394]" href="/adult-mental-health/adult-counselling">Adult Mental Health Hub</a>
 <span>/</span>
 <span class="text-gray-800 font-medium">Adult Counselling In South Delhi</span>
 </div>
@@ -474,39 +474,39 @@
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #234394"></span>Common Concerns</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/adult-mental-health/adult-counselling.php">Adult Counselling &amp; Support Hub</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/adult-anxiety.php">Adult Anxiety</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/adult-depression.php">Adult Depression</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/stress-management.php">Stress Management</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/life-transitions.php">Life Transitions</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/burnout-counselling.php">Burnout Counselling</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/adult-mental-health/adult-counselling">Adult Counselling &amp; Support Hub</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/adult-anxiety">Adult Anxiety</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/adult-depression">Adult Depression</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/stress-management">Stress Management</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/life-transitions">Life Transitions</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/burnout-counselling">Burnout Counselling</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #C499F6"></span>Relationships</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/premarital-counselling.php">Premarital Counselling</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/relationship-counselling.php">Relationship Counselling</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/couples-therapy.php">Couples Therapy</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/marital-counselling.php">Marital Counselling</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/premarital-counselling">Premarital Counselling</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/relationship-counselling">Relationship Counselling</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/couples-therapy">Couples Therapy</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/marital-counselling">Marital Counselling</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #2EC4B6"></span>Therapy &amp; Support</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/grief-counselling.php">Grief Counselling</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/trauma-therapy.php">Trauma Therapy</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/mindfulness-therapy.php">Mindfulness Therapy</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/self-esteem-counselling.php">Self-Esteem Counselling</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/workplace-stress.php">Workplace Stress</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/grief-counselling">Grief Counselling</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/trauma-therapy">Trauma Therapy</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/mindfulness-therapy">Mindfulness Therapy</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/self-esteem-counselling">Self-Esteem Counselling</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/workplace-stress">Workplace Stress</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #F2B81B"></span>Neurodivergent Adults</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/adult-autism-support.php">Adult Autism Support</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/adult-adhd-support.php">Adult ADHD Support</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/executive-function-coaching-for-adults.php">Executive Function Coaching for Adults</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/adult-autism-support">Adult Autism Support</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/adult-adhd-support">Adult ADHD Support</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adult-mental-health/executive-function-coaching-for-adults">Executive Function Coaching for Adults</a></li>
 </ul>
 </div></div><div class="w-full md:hidden mb-6 bg-[#F9FBFF] border border-[#E0E6F0] rounded-2xl p-4 shadow-sm">
 <details class="group">
@@ -518,39 +518,39 @@
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Common Concerns</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-[#234394] font-bold" href="/adult-mental-health/adult-counselling.php">Adult Counselling &amp; Support Hub</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/adult-anxiety.php">Adult Anxiety</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/adult-depression.php">Adult Depression</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/stress-management.php">Stress Management</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/life-transitions.php">Life Transitions</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/burnout-counselling.php">Burnout Counselling</a></li>
+<li><a class="block py-1 text-xs text-[#234394] font-bold" href="/adult-mental-health/adult-counselling">Adult Counselling &amp; Support Hub</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/adult-anxiety">Adult Anxiety</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/adult-depression">Adult Depression</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/stress-management">Stress Management</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/life-transitions">Life Transitions</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/burnout-counselling">Burnout Counselling</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Relationships</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/premarital-counselling.php">Premarital Counselling</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/relationship-counselling.php">Relationship Counselling</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/couples-therapy.php">Couples Therapy</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/marital-counselling.php">Marital Counselling</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/premarital-counselling">Premarital Counselling</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/relationship-counselling">Relationship Counselling</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/couples-therapy">Couples Therapy</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/marital-counselling">Marital Counselling</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Therapy &amp; Support</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/grief-counselling.php">Grief Counselling</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/trauma-therapy.php">Trauma Therapy</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/mindfulness-therapy.php">Mindfulness Therapy</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/self-esteem-counselling.php">Self-Esteem Counselling</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/workplace-stress.php">Workplace Stress</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/grief-counselling">Grief Counselling</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/trauma-therapy">Trauma Therapy</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/mindfulness-therapy">Mindfulness Therapy</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/self-esteem-counselling">Self-Esteem Counselling</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/workplace-stress">Workplace Stress</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Neurodivergent Adults</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/adult-autism-support.php">Adult Autism Support</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/adult-adhd-support.php">Adult ADHD Support</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/executive-function-coaching-for-adults.php">Executive Function Coaching for Adults</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/adult-autism-support">Adult Autism Support</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/adult-adhd-support">Adult ADHD Support</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adult-mental-health/executive-function-coaching-for-adults">Executive Function Coaching for Adults</a></li>
 </ul>
 </div> </div>
 </details>
@@ -626,7 +626,7 @@
 <div class="cta-card my-12">
 <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in South Delhi</h3>
 <p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your adult counselling consultation at our Malviya Nagar centre.</p>
-<a href="/appointment.php" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
                 Schedule an Appointment
               </a>
 </div>
@@ -654,6 +654,15 @@
         <li><a href="/locations/speech-therapy-in-south-delhi">Speech Therapy in South Delhi</a></li>
         <li><a href="/locations/occupational-therapy-in-south-delhi">Occupational Therapy in South Delhi</a></li>
         <li><a href="/locations/special-education-in-south-delhi">Special Education in South Delhi</a></li>
+        null
+        null
+        null
+        null
+        null
+        null
+        null
+        null
+        null
       </ul>
     </div>
     <div class="emb-nearby__group">

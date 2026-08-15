@@ -309,7 +309,7 @@
   <p>Your free guide — yours to keep, print and share.</p>
   <div style="display:flex;gap:.6rem;flex-wrap:wrap">
     <button class="lm-btn lm-btn--gold" style="padding:.5rem 1.1rem;font-size:.85rem" onclick="window.print()">Save as PDF / Print</button>
-    <a class="lm-btn lm-btn--ghost" style="padding:.5rem 1.1rem;font-size:.85rem" href="/appointment.php">Book a consultation</a>
+    <a class="lm-btn lm-btn--ghost" style="padding:.5rem 1.1rem;font-size:.85rem" href="/appointment">Book a consultation</a>
   </div>
 </div>
 
@@ -493,9 +493,9 @@
   </div>
 
   <div class="lm-noprint" style="margin-top:2.5rem;display:flex;flex-wrap:wrap;gap:.75rem">
-    <a class="lm-btn lm-btn--primary" href="/appointment.php">Book a free 15-minute call</a>
-    <a class="lm-btn lm-btn--ghost" href="/resources/adhd-autism-screener.php">Try the ADHD &amp; autism screener</a>
-    <a class="lm-btn lm-btn--ghost" href="/parent-hub/parents.php">Visit the Parent Hub</a>
+    <a class="lm-btn lm-btn--primary" href="/appointment">Book a free 15-minute call</a>
+    <a class="lm-btn lm-btn--ghost" href="/resources/adhd-autism-screener">Try the ADHD &amp; autism screener</a>
+    <a class="lm-btn lm-btn--ghost" href="/parent-hub/parents">Visit the Parent Hub</a>
   </div>
 
 </article>

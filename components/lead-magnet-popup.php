@@ -9,9 +9,9 @@
       away, and no sign-up needed to see them.
     </p>
     <div style="display:grid;gap:.6rem">
-      <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/child-milestone-checker.php"
+      <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/child-milestone-checker"
          data-lm-cta="child-milestone-checker" data-lm-placement="popup">Check my child's milestones</a>
-      <a class="lm-btn lm-btn--ghost lm-btn--wide" href="/resources/adult-stress-check.php"
+      <a class="lm-btn lm-btn--ghost lm-btn--wide" href="/resources/adult-stress-check"
          data-lm-cta="adult-stress-check" data-lm-placement="popup">Check my own stress levels</a>
     </div>
     <button class="lm-link lm-pop__dismiss" type="button" data-lm-close>No thanks, keep browsing</button>

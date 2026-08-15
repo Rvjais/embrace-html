@@ -397,7 +397,7 @@
 <div class="emb-areas">
 <div class="emb-area">
 <h3 class="emb-area__name">Delhi</h3>
-<p class="emb-area__count">11 services available</p>
+<p class="emb-area__count">20 services available</p>
 <ul class="emb-area__links">
   <li><a href="/locations/child-psychologist-in-delhi">Child Psychologist in Delhi</a></li>
   <li><a href="/locations/child-counselling-in-delhi">Child Counselling in Delhi</a></li>
@@ -410,6 +410,15 @@
   <li><a href="/locations/speech-therapy-in-delhi">Speech Therapy in Delhi</a></li>
   <li><a href="/locations/occupational-therapy-in-delhi">Occupational Therapy in Delhi</a></li>
   <li><a href="/locations/special-education-in-delhi">Special Education in Delhi</a></li>
+  <li><a href="/locations/developmental-delay-treatment-in-delhi">Developmental Delay Treatment in Delhi</a></li>
+  <li><a href="/locations/intellectual-disability-treatment-in-delhi">Intellectual Disability Treatment in Delhi</a></li>
+  <li><a href="/locations/down-syndrome-treatment-in-delhi">Down Syndrome Treatment in Delhi</a></li>
+  <li><a href="/locations/oral-motor-therapy-in-delhi">Oral Motor Delay Treatment in Delhi</a></li>
+  <li><a href="/locations/aba-therapy-in-delhi">ABA Therapy in Delhi</a></li>
+  <li><a href="/locations/physiotherapy-in-delhi">Physiotherapy in Delhi</a></li>
+  <li><a href="/locations/pediatric-neurologist-in-delhi">Pediatric Neurologist in Delhi</a></li>
+  <li><a href="/locations/developmental-pediatrician-in-delhi">Developmental Pediatrician in Delhi</a></li>
+  <li><a href="/locations/child-development-centre-in-delhi">Child Development Centre in Delhi</a></li>
 </ul>
 </div>
 <div class="emb-area">
@@ -533,7 +542,7 @@
 </div>
 <div class="emb-area">
 <h3 class="emb-area__name">Gurgaon</h3>
-<p class="emb-area__count">11 services available</p>
+<p class="emb-area__count">20 services available</p>
 <ul class="emb-area__links">
   <li><a href="/locations/child-psychologist-in-gurgaon">Child Psychologist in Gurgaon</a></li>
   <li><a href="/locations/child-counselling-in-gurgaon">Child Counselling in Gurgaon</a></li>
@@ -546,6 +555,15 @@
   <li><a href="/locations/speech-therapy-in-gurgaon">Speech Therapy in Gurgaon</a></li>
   <li><a href="/locations/occupational-therapy-in-gurgaon">Occupational Therapy in Gurgaon</a></li>
   <li><a href="/locations/special-education-in-gurgaon">Special Education in Gurgaon</a></li>
+  <li><a href="/locations/developmental-delay-treatment-in-gurgaon">Developmental Delay Treatment in Gurgaon</a></li>
+  <li><a href="/locations/intellectual-disability-treatment-in-gurgaon">Intellectual Disability Treatment in Gurgaon</a></li>
+  <li><a href="/locations/down-syndrome-treatment-in-gurgaon">Down Syndrome Treatment in Gurgaon</a></li>
+  <li><a href="/locations/oral-motor-therapy-in-gurgaon">Oral Motor Delay Treatment in Gurgaon</a></li>
+  <li><a href="/locations/aba-therapy-in-gurgaon">ABA Therapy in Gurgaon</a></li>
+  <li><a href="/locations/physiotherapy-in-gurgaon">Physiotherapy in Gurgaon</a></li>
+  <li><a href="/locations/pediatric-neurologist-in-gurgaon">Pediatric Neurologist in Gurgaon</a></li>
+  <li><a href="/locations/developmental-pediatrician-in-gurgaon">Developmental Pediatrician in Gurgaon</a></li>
+  <li><a href="/locations/child-development-centre-in-gurgaon">Child Development Centre in Gurgaon</a></li>
 </ul>
 </div>
 <div class="emb-area">

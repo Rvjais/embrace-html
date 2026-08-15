@@ -39,6 +39,12 @@ const HUB_PAGES = new Set([
   'locations/index.php', 'resources/index.php',
   'resources/child-milestone-checker.php', 'resources/adhd-autism-screener.php',
   'resources/adult-stress-check.php',
+  // Child development services. These are the canonical target for each service
+  // keyword; the Delhi and Gurgaon pages under locations/ point back to them.
+  'developmental-delay-treatment.php', 'intellectual-disability-treatment.php',
+  'down-syndrome-treatment.php', 'oral-motor-therapy.php', 'aba-therapy.php',
+  'physiotherapy.php', 'pediatric-neurologist.php', 'developmental-pediatrician.php',
+  'child-development-centre.php',
 ]);
 
 function collect(dir, out = []) {

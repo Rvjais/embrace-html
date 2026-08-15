@@ -453,7 +453,7 @@
 <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">ADHD Assessment in Saket</h1>
 <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto italic">Professional ADHD assessment and treatment for families in Saket, at our Malviya Nagar centre just minutes away.</p>
 <div class="mt-8 flex justify-center">
-<a href="/appointment.php" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
+<a href="/appointment" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
               Book a Consultation
             </a>
 </div>
@@ -461,9 +461,9 @@
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
 <div class="max-w-7xl mx-auto flex items-center gap-2">
-<a class="hover:text-[#234394]" href="/index.php">Home</a>
+<a class="hover:text-[#234394]" href="/">Home</a>
 <span>/</span>
-<a class="hover:text-[#234394]" href="/adhd/adhd.php">ADHD Hub</a>
+<a class="hover:text-[#234394]" href="/adhd/adhd">ADHD Hub</a>
 <span>/</span>
 <span class="text-gray-800 font-medium">Adhd Assessment In Saket</span>
 </div>
@@ -474,76 +474,76 @@
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #234394"></span>Core Concepts</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd.php">ADHD Support &amp; Resource Hub</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/adhd/what-is-adhd.php">What is ADHD?</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-symptoms.php">ADHD Symptoms &amp; Characteristics</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/attention-difficulties.php">Attention Difficulties</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/focus-and-concentration.php">Focus &amp; Concentration</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/impulse-control.php">Impulse Control</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/hyperactivity.php">Hyperactivity</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd">ADHD Support &amp; Resource Hub</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/adhd/what-is-adhd">What is ADHD?</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-symptoms">ADHD Symptoms &amp; Characteristics</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/attention-difficulties">Attention Difficulties</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/focus-and-concentration">Focus &amp; Concentration</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/impulse-control">Impulse Control</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/hyperactivity">Hyperactivity</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #C499F6"></span>Life Stages</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-in-children.php">ADHD in Children</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-in-teens.php">ADHD in Teens &amp; Adolescents</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adult-adhd.php">Adult ADHD</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-in-women.php">ADHD in Women &amp; Girls</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-in-men.php">ADHD in Men</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-in-children">ADHD in Children</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-in-teens">ADHD in Teens &amp; Adolescents</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adult-adhd">Adult ADHD</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-in-women">ADHD in Women &amp; Girls</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-in-men">ADHD in Men</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #2EC4B6"></span>Screening &amp; Diagnosis</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-screening.php">ADHD Screening</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-assessment.php">Comprehensive ADHD Assessment</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/conners-3-assessment.php">Conners 3 Assessment</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-testing.php">ADHD Testing &amp; Evaluation</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-screening">ADHD Screening</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-assessment">Comprehensive ADHD Assessment</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/conners-3-assessment">Conners 3 Assessment</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-testing">ADHD Testing &amp; Evaluation</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #C499F6"></span>Treatment &amp; Support</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-treatment.php">ADHD Treatment &amp; Management</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-counselling.php">ADHD Counselling</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-coaching.php">ADHD Coaching</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/executive-function-coaching.php">Executive Function Coaching</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-parent-support.php">ADHD Parent Support &amp; Training</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-teacher-support.php">ADHD Teacher Support</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-classroom-accommodations.php">Classroom Accommodations</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-workplace-accommodations.php">Workplace Accommodations</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-treatment">ADHD Treatment &amp; Management</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-counselling">ADHD Counselling</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-coaching">ADHD Coaching</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/executive-function-coaching">Executive Function Coaching</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-parent-support">ADHD Parent Support &amp; Training</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-teacher-support">ADHD Teacher Support</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-classroom-accommodations">Classroom Accommodations</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-workplace-accommodations">Workplace Accommodations</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #F2B81B"></span>Skills &amp; Strategies</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-time-management.php">Time Management</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-study-skills.php">Study Skills</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-organization-skills.php">Organisation Skills</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-time-management">Time Management</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-study-skills">Study Skills</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-organization-skills">Organisation Skills</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #FF85A1"></span>Co-occurring Conditions</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-and-anxiety.php">ADHD and Anxiety</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-and-autism.php">ADHD and Autism (AuDHD)</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-and-depression.php">ADHD and Depression</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-and-anxiety">ADHD and Anxiety</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-and-autism">ADHD and Autism (AuDHD)</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-and-depression">ADHD and Depression</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #5499C7"></span>Life Contexts</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-at-work.php">ADHD at Work</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-and-school.php">ADHD and School</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-and-college.php">ADHD and College</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-at-work">ADHD at Work</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-and-school">ADHD and School</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-and-college">ADHD and College</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #5499C7"></span>FAQs &amp; Resources</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-faq.php">ADHD FAQs</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-resources.php">ADHD Resources</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-faq">ADHD FAQs</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/adhd/adhd-resources">ADHD Resources</a></li>
 </ul>
 </div></div><div class="w-full md:hidden mb-6 bg-[#F9FBFF] border border-[#E0E6F0] rounded-2xl p-4 shadow-sm">
 <details class="group">
@@ -555,76 +555,76 @@
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Core Concepts</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd.php">ADHD Support &amp; Resource Hub</a></li>
-<li><a class="block py-1 text-xs text-[#234394] font-bold" href="/adhd/what-is-adhd.php">What is ADHD?</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-symptoms.php">ADHD Symptoms &amp; Characteristics</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/attention-difficulties.php">Attention Difficulties</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/focus-and-concentration.php">Focus And Concentration</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/impulse-control.php">Impulse Control</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/hyperactivity.php">Hyperactivity</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd">ADHD Support &amp; Resource Hub</a></li>
+<li><a class="block py-1 text-xs text-[#234394] font-bold" href="/adhd/what-is-adhd">What is ADHD?</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-symptoms">ADHD Symptoms &amp; Characteristics</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/attention-difficulties">Attention Difficulties</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/focus-and-concentration">Focus And Concentration</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/impulse-control">Impulse Control</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/hyperactivity">Hyperactivity</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Life Stages</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-in-children.php">Adhd In Children</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-in-teens.php">Adhd In Teens</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adult-adhd.php">Adult Adhd</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-in-women.php">Adhd In Women</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-in-men.php">Adhd In Men</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-in-children">Adhd In Children</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-in-teens">Adhd In Teens</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adult-adhd">Adult Adhd</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-in-women">Adhd In Women</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-in-men">Adhd In Men</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Screening &amp; Diagnosis</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-screening.php">Adhd Screening</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-assessment.php">Adhd Assessment</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/conners-3-assessment.php">Conners 3 Assessment</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-testing.php">Adhd Testing</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-screening">Adhd Screening</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-assessment">Adhd Assessment</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/conners-3-assessment">Conners 3 Assessment</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-testing">Adhd Testing</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Treatment &amp; Support</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-treatment.php">Adhd Treatment</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-counselling.php">Adhd Counselling</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-coaching.php">Adhd Coaching</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/executive-function-coaching.php">Executive Function Coaching</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-parent-support.php">Adhd Parent Support</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-teacher-support.php">Adhd Teacher Support</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-classroom-accommodations.php">Adhd Classroom Accommodations</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-workplace-accommodations.php">Adhd Workplace Accommodations</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-treatment">Adhd Treatment</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-counselling">Adhd Counselling</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-coaching">Adhd Coaching</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/executive-function-coaching">Executive Function Coaching</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-parent-support">Adhd Parent Support</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-teacher-support">Adhd Teacher Support</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-classroom-accommodations">Adhd Classroom Accommodations</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-workplace-accommodations">Adhd Workplace Accommodations</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Skills &amp; Strategies</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-time-management.php">Adhd Time Management</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-study-skills.php">Adhd Study Skills</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-organization-skills.php">Adhd Organization Skills</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-time-management">Adhd Time Management</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-study-skills">Adhd Study Skills</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-organization-skills">Adhd Organization Skills</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Co-occurring Conditions</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-and-anxiety.php">Adhd And Anxiety</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-and-autism.php">Adhd And Autism</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-and-depression.php">Adhd And Depression</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-and-anxiety">Adhd And Anxiety</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-and-autism">Adhd And Autism</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-and-depression">Adhd And Depression</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Life Contexts</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-at-work.php">Adhd At Work</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-and-school.php">Adhd And School</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-and-college.php">Adhd And College</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-at-work">Adhd At Work</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-and-school">Adhd And School</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-and-college">Adhd And College</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">FAQs &amp; Resources</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-faq.php">Adhd Faq</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-resources.php">Adhd Resources</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-faq">Adhd Faq</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/adhd/adhd-resources">Adhd Resources</a></li>
 </ul>
 </div> </div>
 </details>
@@ -700,7 +700,7 @@
 <div class="cta-card my-12">
 <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Saket</h3>
 <p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your ADHD assessment consultation at our Malviya Nagar centre.</p>
-<a href="/appointment.php" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
                 Schedule an Appointment
               </a>
 </div>
@@ -728,6 +728,15 @@
         <li><a href="/locations/speech-therapy-in-saket">Speech Therapy in Saket</a></li>
         <li><a href="/locations/occupational-therapy-in-saket">Occupational Therapy in Saket</a></li>
         <li><a href="/locations/special-education-in-saket">Special Education in Saket</a></li>
+        null
+        null
+        null
+        null
+        null
+        null
+        null
+        null
+        null
       </ul>
     </div>
     <div class="emb-nearby__group">

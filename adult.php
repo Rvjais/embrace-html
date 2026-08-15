@@ -402,7 +402,7 @@
             ><p class="font-semibold inline text-[#234394]">Feel heard. Heal better.</p>
             Access professional support for anxiety, relationships, trauma, and more—with care that’s expert-led and
             tailored to you.</span
-          ><a href="/appointment.php"
+          ><a href="/appointment"
             class="inline-block px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
           >
             Book a Session
@@ -549,7 +549,7 @@
                   Therapy for anxiety, depression, trauma, ADHD, and personal growth.
                 </p>
               </div>
-              <a href="/appointment.php"
+              <a href="/appointment"
                 class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer text-center"
               >
                 Book a Session
@@ -567,7 +567,7 @@
                   Relationship therapy for communication issues, trust repair &amp; emotional bonding.
                 </p>
               </div>
-              <a href="/appointment.php"
+              <a href="/appointment"
                 class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer text-center"
               >
                 Request Consult
@@ -585,7 +585,7 @@
                   Mental health programs, student counseling &amp; faculty training for academic environments.
                 </p>
               </div>
-              <a href="/appointment.php"
+              <a href="/appointment"
                 class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer text-center"
               >
                 Book Demo
@@ -605,7 +605,7 @@
                   Workplace well-being, leadership coaching &amp; inclusive mental health programs.
                 </p>
               </div>
-              <a href="/appointment.php"
+              <a href="/appointment"
                 class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer text-center"
               >
                 Book Demo
@@ -623,7 +623,7 @@
                   Integrated therapy, psychiatric support &amp; neurodivergent assessments in clinical settings.
                 </p>
               </div>
-              <a href="/appointment.php"
+              <a href="/appointment"
                 class="inline-block md:px-4 md:py-2 w-[85%] md:w-fit py-2 md:text-sm font-semibold text-white mt-4 md:mt-2 bg-[#234394] rounded-full cursor-pointer text-center"
               >
                 Book Demo

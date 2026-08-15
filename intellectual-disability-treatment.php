@@ -6,10 +6,10 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="Intellectual Disability Treatment at eMbrace across Delhi NCR: cognitive and adaptive assessment, life skills and school reports. Book a free intake call today." name="description"/>
 <meta content="index, follow" name="robots"/>
-<link href="https://embracelives.com/intellectual-disability/intellectual-disability-treatment" rel="canonical"/>
+<link href="https://embracelives.com/intellectual-disability-treatment" rel="canonical"/>
 <!-- Open Graph -->
 <meta content="website" property="og:type"/>
-<meta content="https://embracelives.com/intellectual-disability/intellectual-disability-treatment" property="og:url"/>
+<meta content="https://embracelives.com/intellectual-disability-treatment" property="og:url"/>
 <meta content="Intellectual Disability Treatment | RCI-Certified | eMbrace" property="og:title"/>
 <meta content="Intellectual Disability Treatment at eMbrace across Delhi NCR: cognitive and adaptive assessment, life skills and school reports. Book a free intake call today." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
@@ -42,11 +42,27 @@
   .key-points-card { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #e2e8f0; border-radius: 1.5rem; padding: 2rem; }
   .key-points-card ul { margin-bottom: 0 !important; }
   .key-points-card ul li { padding-left: 2.25rem !important; margin-bottom: 1rem !important; }
-  .faq-item { border-bottom: 1px solid #e2e8f0; transition: background 0.2s; }
-  .faq-item:hover { background: #f8fafc; }
-  .faq-item button { padding: 1.25rem 1rem; border-radius: 0.75rem; }
+  /* Accordion. Everything it needs is defined here, so it does not depend on
+     utilities surviving the Tailwind purge. */
+  .faq-item { border-bottom: 1px solid #e2e8f0; }
+  .faq-btn { display: flex; width: 100%; align-items: center; justify-content: space-between;
+             gap: 1rem; text-align: left; padding: 1.25rem 1rem; background: none; border: 0;
+             cursor: pointer; font: inherit; border-radius: 0.75rem; transition: background 0.2s; }
+  .faq-btn:hover { background: #f8fafc; }
+  .faq-btn:focus-visible { outline: 2px solid #234394; outline-offset: 2px; }
+  .faq-q { font-weight: 600; font-size: 1rem; color: #234394; }
+  @media (min-width: 768px) { .faq-q { font-size: 1.125rem; } }
   .faq-icon { width: 1.25rem; height: 1.25rem; flex: none; transition: transform 0.25s ease; }
-  .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+  /* Toggled with the hidden attribute rather than an animated max-height.
+     A max-height transition depends on a height guess and proved unreliable
+     here; display none/block cannot silently fail. */
+  .faq-panel[hidden] { display: none; }
+  .faq-panel { animation: faq-open 0.2s ease; }
+  .faq-panel p { margin: 0; padding: 0 1rem 1.25rem; color: #475569; line-height: 1.7;
+                 font-size: 0.95rem; }
+  @keyframes faq-open { from { opacity: 0; transform: translateY(-4px); }
+                        to { opacity: 1; transform: none; } }
+  .faq-item.is-open .faq-icon { transform: rotate(45deg); }
   .side-menu a { display: block; padding: 0.5rem 0.75rem; border-radius: 0.5rem; color: #475569; font-size: 0.9rem; transition: all 0.2s; }
   .side-menu a:hover { background: rgba(35,67,148,0.08); color: #234394; }
   .side-menu a.is-current { background: #234394; color: #fff; font-weight: 600; }
@@ -326,7 +342,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://embracelives.com/intellectual-disability/intellectual-disability-treatment#breadcrumb",
+      "@id": "https://embracelives.com/intellectual-disability-treatment#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -338,14 +354,14 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Child Development Centre",
-          "item": "https://embracelives.com/child-development-centre/child-development-centre"
+          "item": "https://embracelives.com/child-development-centre"
         }
       ]
     },
     {
       "@type": "WebPage",
-      "@id": "https://embracelives.com/intellectual-disability/intellectual-disability-treatment#webpage",
-      "url": "https://embracelives.com/intellectual-disability/intellectual-disability-treatment",
+      "@id": "https://embracelives.com/intellectual-disability-treatment#webpage",
+      "url": "https://embracelives.com/intellectual-disability-treatment",
       "name": "Intellectual Disability Treatment | RCI-Certified | eMbrace",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
@@ -356,16 +372,16 @@
       "inLanguage": "en-IN",
       "description": "Intellectual Disability Treatment at eMbrace across Delhi NCR: cognitive and adaptive assessment, life skills and school reports. Book a free intake call today.",
       "breadcrumb": {
-        "@id": "https://embracelives.com/intellectual-disability/intellectual-disability-treatment#breadcrumb"
+        "@id": "https://embracelives.com/intellectual-disability-treatment#breadcrumb"
       }
     },
     {
       "@type": "FAQPage",
-      "@id": "https://embracelives.com/intellectual-disability/intellectual-disability-treatment#faq",
-      "url": "https://embracelives.com/intellectual-disability/intellectual-disability-treatment",
+      "@id": "https://embracelives.com/intellectual-disability-treatment#faq",
+      "url": "https://embracelives.com/intellectual-disability-treatment",
       "name": "Intellectual Disability Treatment | RCI-Certified | eMbrace — Frequently Asked Questions",
       "isPartOf": {
-        "@id": "https://embracelives.com/intellectual-disability/intellectual-disability-treatment#webpage"
+        "@id": "https://embracelives.com/intellectual-disability-treatment#webpage"
       },
       "inLanguage": "en-IN",
       "mainEntity": [
@@ -418,19 +434,19 @@
 </head>
 <body class="overflow-x-hidden">
 <div id="root" class="overflow-x-hidden">
-<?php include __DIR__ . '/../components/header.php'; ?>
+<?php include __DIR__ . '/components/header.php'; ?>
 <div class="px-4 md:px-8 lg:px-16 py-14 md:py-20 bg-gradient-to-b from-[#E7F7FF] to-[#FFFFFF] text-center">
   <div class="max-w-4xl mx-auto">
     <span class="inline-block bg-[#234394] text-white text-xs font-bold tracking-wider uppercase px-4 py-1.5 rounded-full mb-5">Child Development</span>
     <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Intellectual Disability Treatment</h1>
     <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto">Intellectual disability affects two things together: intellectual functioning, meaning reasoning, learning and problem solving, and adaptive functioning, meaning the practical and social skills daily life runs on. Support is about building independence in both, at whatever pace suits the person.</p>
-    <a href="/appointment.php" class="inline-block mt-8 px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free 15-minute call</a>
+    <a href="/appointment" class="inline-block mt-8 px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free 15-minute call</a>
   </div>
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
   <div class="max-w-7xl mx-auto flex items-center gap-2 flex-wrap">
-      <a href="/index.php">Home</a><span class="text-gray-300">/</span>
-      <a href="/child-development-centre/child-development-centre.php">Child Development Centre</a><span class="text-gray-300">/</span>
+      <a href="/">Home</a><span class="text-gray-300">/</span>
+      <a href="/child-development-centre">Child Development Centre</a><span class="text-gray-300">/</span>
       <span class="text-gray-700 font-medium">Intellectual Disability</span>
   </div>
 </div>
@@ -440,21 +456,21 @@
   <div class="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm md:sticky md:top-24 side-menu">
     <h2 class="text-lg font-bold text-[#234394] mb-4 border-b pb-3">Child Development Services</h2>
     <div class="space-y-1">
-      <a class="" href="/developmental-delay/developmental-delay-treatment.php">Developmental Delay Treatment</a>
-      <a class="is-current" href="/intellectual-disability/intellectual-disability-treatment.php">Intellectual Disability Treatment</a>
-      <a class="" href="/down-syndrome/down-syndrome-treatment.php">Down Syndrome Treatment &amp; Therapy</a>
-      <a class="" href="/oral-motor-therapy/oral-motor-therapy.php">Oral Motor Delay Treatment</a>
-      <a class="" href="/aba-therapy/aba-therapy.php">ABA Therapy</a>
-      <a class="" href="/physiotherapy/physiotherapy.php">Physiotherapy Clinic</a>
-      <a class="" href="/pediatric-neurology/pediatric-neurologist.php">Pediatric Neurologist</a>
-      <a class="" href="/developmental-pediatrics/developmental-pediatrician.php">Developmental Pediatrician</a>
-      <a class="" href="/child-development-centre/child-development-centre.php">Child Development Centre</a>
+      <a class="" href="/developmental-delay-treatment">Developmental Delay Treatment</a>
+      <a class="is-current" href="/intellectual-disability-treatment">Intellectual Disability Treatment</a>
+      <a class="" href="/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
+      <a class="" href="/oral-motor-therapy">Oral Motor Delay Treatment</a>
+      <a class="" href="/aba-therapy">ABA Therapy</a>
+      <a class="" href="/physiotherapy">Physiotherapy Clinic</a>
+      <a class="" href="/pediatric-neurologist">Pediatric Neurologist</a>
+      <a class="" href="/developmental-pediatrician">Developmental Pediatrician</a>
+      <a class="" href="/child-development-centre">Child Development Centre</a>
     </div>
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mt-6 mb-2">Related</h3>
     <div class="space-y-1">
-      <a href="/learning-disabilities/learning-disabilities.php">Learning Disabilities</a>
-      <a href="/learning-disabilities/special-education-support.php">Special Education Support</a>
-      <a href="/occupational-therapy/occupational-therapy.php">Occupational Therapy</a>
+      <a href="/learning-disabilities/learning-disabilities">Learning Disabilities</a>
+      <a href="/learning-disabilities/special-education-support">Special Education Support</a>
+      <a href="/occupational-therapy/occupational-therapy">Occupational Therapy</a>
     </div>
   </div>
 </aside>
@@ -496,63 +512,78 @@
 <h2>Where we offer intellectual disability support</h2>
 <p>eMbrace runs three centres across Delhi NCR, plus online sessions for families elsewhere in India and abroad. For locality-specific details, including addresses, travel and what happens at a first visit:</p>
 <ul>
-  <li><a href="/locations/intellectual-disability-treatment-in-delhi.php" class="text-[#234394] font-semibold">Intellectual Disability Treatment in Delhi</a></li>
-  <li><a href="/locations/intellectual-disability-treatment-in-gurgaon.php" class="text-[#234394] font-semibold">Intellectual Disability Treatment in Gurgaon</a></li>
-  <li><a href="/locations/index.php" class="text-[#234394] font-semibold">All eMbrace locations across Delhi NCR</a></li>
+  <li><a href="/locations/intellectual-disability-treatment-in-delhi" class="text-[#234394] font-semibold">Intellectual Disability Treatment in Delhi</a></li>
+  <li><a href="/locations/intellectual-disability-treatment-in-gurgaon" class="text-[#234394] font-semibold">Intellectual Disability Treatment in Gurgaon</a></li>
+  <li><a href="/locations" class="text-[#234394] font-semibold">All eMbrace locations across Delhi NCR</a></li>
 </ul>
 <h2 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h2>
 <div class="space-y-2 mb-10">
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">Can intellectual disability be cured?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">Can intellectual disability be cured?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">No, and any provider promising otherwise is not being honest with you. What changes substantially is independence, communication and quality of life, through systematic skill teaching and the right support.</p></div>
+  <div class="faq-panel" hidden><p>No, and any provider promising otherwise is not being honest with you. What changes substantially is independence, communication and quality of life, through systematic skill teaching and the right support.</p></div>
 </div>
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">What is the difference between intellectual disability and learning disability?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">What is the difference between intellectual disability and learning disability?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">In India, learning disability usually means a specific difficulty such as dyslexia alongside typical overall ability. Intellectual disability affects general intellectual and adaptive functioning together, across most areas of life.</p></div>
+  <div class="faq-panel" hidden><p>In India, learning disability usually means a specific difficulty such as dyslexia alongside typical overall ability. Intellectual disability affects general intellectual and adaptive functioning together, across most areas of life.</p></div>
 </div>
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">What age can an assessment be done?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">What age can an assessment be done?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">Formal cognitive assessment is generally reliable from around five or six. Younger children are assessed developmentally instead, which gives a working baseline and a therapy plan without a premature label.</p></div>
+  <div class="faq-panel" hidden><p>Formal cognitive assessment is generally reliable from around five or six. Younger children are assessed developmentally instead, which gives a working baseline and a therapy plan without a premature label.</p></div>
 </div>
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">Will the report help with a UDID card?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">Will the report help with a UDID card?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">A clinical psychology assessment report is one part of that application. Our reports are written in the format the process expects, and we will explain what else you will need.</p></div>
+  <div class="faq-panel" hidden><p>A clinical psychology assessment report is one part of that application. Our reports are written in the format the process expects, and we will explain what else you will need.</p></div>
 </div>
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">Can my child attend a mainstream school?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">Can my child attend a mainstream school?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">Many children can, with the right accommodations in place and a school that will implement them. The assessment sets out exactly what those accommodations should be.</p></div>
+  <div class="faq-panel" hidden><p>Many children can, with the right accommodations in place and a school that will implement them. The assessment sets out exactly what those accommodations should be.</p></div>
 </div>
 </div>
 <div class="pathway-card mt-12 rounded-3xl p-8 bg-gradient-to-br from-[#eef2ff] to-[#e0e7ff] border border-[#c7d2fe]">
   <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Not sure whether you need this yet?</h2>
   <p class="text-gray-600 mb-6">Start with a free 15-minute intake call. A clinician will tell you honestly whether intellectual disability support is the right next step, or whether something else is. There is no obligation and no waiting list to join.</p>
   <div class="flex flex-wrap gap-3">
-    <a href="/appointment.php" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
+    <a href="/appointment" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
     <a href="https://wa.me/919971576800" target="_blank" rel="noopener" class="inline-block px-7 py-3 rounded-full bg-white border border-[#c7d2fe] text-[#234394] font-semibold hover:bg-[#f8faff] transition-colors">WhatsApp +91 99715 76800</a>
   </div>
 </div>
     </div>
   </div>
 </div>
-<?php include __DIR__ . '/../components/lead-magnet-band-child.php'; ?>
-<?php include __DIR__ . '/../components/footer.php'; ?>
+<?php include __DIR__ . '/components/lead-magnet-band-child.php'; ?>
+<?php include __DIR__ . '/components/footer.php'; ?>
 </div>
 <script src="/assets/interactive.js"></script>
 <script src="/assets/lead-magnets.js"></script>
+<script>
+(function () {
+  // Accordion toggle. Delegated, so it works no matter when the DOM settles.
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest && e.target.closest('.faq-btn');
+    if (!btn) return;
+    var item = btn.closest('.faq-item');
+    if (!item) return;
+    var panel = item.querySelector('.faq-panel');
+    var open = item.classList.toggle('is-open');
+    if (panel) panel.hidden = !open;
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
 </body>
 </html>

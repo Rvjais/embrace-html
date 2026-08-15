@@ -10,8 +10,8 @@
       </p>
     </div>
     <div class="lm-cta__btns">
-      <a class="lm-btn lm-btn--primary" href="/appointment.php" data-lm-cta="book" data-lm-placement="resource_footer">Book a consultation</a>
-      <a class="lm-btn lm-btn--ghost" href="/resources/index.php" data-lm-cta="hub" data-lm-placement="resource_footer">See all free tools</a>
+      <a class="lm-btn lm-btn--primary" href="/appointment" data-lm-cta="book" data-lm-placement="resource_footer">Book a consultation</a>
+      <a class="lm-btn lm-btn--ghost" href="/resources" data-lm-cta="hub" data-lm-placement="resource_footer">See all free tools</a>
     </div>
   </div>
 </section>

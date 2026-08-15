@@ -309,7 +309,7 @@
   <p>Your free guide — yours to keep, print and share.</p>
   <div style="display:flex;gap:.6rem;flex-wrap:wrap">
     <button class="lm-btn lm-btn--gold" style="padding:.5rem 1.1rem;font-size:.85rem" onclick="window.print()">Save as PDF / Print</button>
-    <a class="lm-btn lm-btn--ghost" style="padding:.5rem 1.1rem;font-size:.85rem" href="/appointment.php">Book a consultation</a>
+    <a class="lm-btn lm-btn--ghost" style="padding:.5rem 1.1rem;font-size:.85rem" href="/appointment">Book a consultation</a>
   </div>
 </div>
 
@@ -459,8 +459,8 @@ Warm regards,
     the intake call is free — including when the honest answer is that you do not need us yet.
   </p>
   <ul>
-    <li><strong>Free 15-minute intake call</strong> — <a href="/appointment.php">book here</a> or WhatsApp +91 99715 76800.</li>
-    <li><strong>Further reading</strong> — <a href="/adhd/adhd.php">ADHD hub</a> &nbsp;·&nbsp; <a href="/autism/autism.php">Autism hub</a> &nbsp;·&nbsp; <a href="/learning-disabilities/learning-disabilities.php">Learning disabilities</a>.</li>
+    <li><strong>Free 15-minute intake call</strong> — <a href="/appointment">book here</a> or WhatsApp +91 99715 76800.</li>
+    <li><strong>Further reading</strong> — <a href="/adhd/adhd">ADHD hub</a> &nbsp;·&nbsp; <a href="/autism/autism">Autism hub</a> &nbsp;·&nbsp; <a href="/learning-disabilities/learning-disabilities">Learning disabilities</a>.</li>
   </ul>
 
   <div class="lm-guide__foot">
@@ -472,9 +472,9 @@ Warm regards,
   </div>
 
   <div class="lm-noprint" style="margin-top:2.5rem;display:flex;flex-wrap:wrap;gap:.75rem">
-    <a class="lm-btn lm-btn--primary" href="/appointment.php">Book a free 15-minute call</a>
-    <a class="lm-btn lm-btn--ghost" href="/resources/child-milestone-checker.php">Try the milestone checker</a>
-    <a class="lm-btn lm-btn--ghost" href="/schools-hub/schools.php">For schools</a>
+    <a class="lm-btn lm-btn--primary" href="/appointment">Book a free 15-minute call</a>
+    <a class="lm-btn lm-btn--ghost" href="/resources/child-milestone-checker">Try the milestone checker</a>
+    <a class="lm-btn lm-btn--ghost" href="/schools-hub/schools">For schools</a>
   </div>
 
 </article>

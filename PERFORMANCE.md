@@ -169,6 +169,31 @@ location ~* \.html?$ {
 }
 ```
 
+### Redirect the .php form to the clean URL
+
+Internal links are now all extensionless, and canonical tags always were. But
+both forms still return 200: `/about` and `/about.php` are the same page at two
+URLs, which is duplicate content that canonical only papers over.
+
+A permanent redirect closes it properly, and consolidates any link equity that
+older `.php` URLs have picked up:
+
+```nginx
+# /about.php -> /about, once, permanently.
+location ~ ^(/.+)\.php$ {
+    return 301 $1$is_args$args;
+}
+
+# Serve the clean URL from the PHP file behind it.
+location / {
+    try_files $uri $uri.php $uri/ =404;
+}
+```
+
+Order matters: the redirect block must come before the `try_files` block, or
+nginx will serve the `.php` URL rather than redirecting it. Test on staging
+first, since a mistake here takes the whole site down rather than one page.
+
 ---
 
 ## 4. Known issue: the Tailwind CDN on gallery.php

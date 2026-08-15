@@ -44,6 +44,17 @@ const SERVICES = [
   ['speech-therapy', 'Speech Therapy'],
   ['occupational-therapy', 'Occupational Therapy'],
   ['special-education', 'Special Education'],
+  // Child development services. Only Delhi and Gurgaon have pages so far; the
+  // existing-slug check below skips the localities that do not.
+  ['developmental-delay-treatment', 'Developmental Delay Treatment'],
+  ['intellectual-disability-treatment', 'Intellectual Disability Treatment'],
+  ['down-syndrome-treatment', 'Down Syndrome Treatment'],
+  ['oral-motor-therapy', 'Oral Motor Delay Treatment'],
+  ['aba-therapy', 'ABA Therapy'],
+  ['physiotherapy', 'Physiotherapy'],
+  ['pediatric-neurologist', 'Pediatric Neurologist'],
+  ['developmental-pediatrician', 'Developmental Pediatrician'],
+  ['child-development-centre', 'Child Development Centre'],
 ];
 
 /** Slugs that actually exist on disk, so we never emit a link to a missing page. */

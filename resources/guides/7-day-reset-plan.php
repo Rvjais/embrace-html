@@ -309,7 +309,7 @@
   <p>Your free plan — yours to keep, print and share.</p>
   <div style="display:flex;gap:.6rem;flex-wrap:wrap">
     <button class="lm-btn lm-btn--gold" style="padding:.5rem 1.1rem;font-size:.85rem" onclick="window.print()">Save as PDF / Print</button>
-    <a class="lm-btn lm-btn--ghost" style="padding:.5rem 1.1rem;font-size:.85rem" href="/appointment.php">Book a session</a>
+    <a class="lm-btn lm-btn--ghost" style="padding:.5rem 1.1rem;font-size:.85rem" href="/appointment">Book a session</a>
   </div>
 </div>
 
@@ -414,8 +414,8 @@
     typically six to twelve sessions, weekly to start and then spaced out, with fees quoted upfront.
   </p>
   <ul>
-    <li><strong>Free 15-minute call</strong> — <a href="/appointment.php">book here</a> or WhatsApp +91 99715 76800.</li>
-    <li><strong>Further reading</strong> — <a href="/individuals.php">Individual therapy</a> &nbsp;·&nbsp; <a href="/couples.php">Couples therapy</a> &nbsp;·&nbsp; <a href="/corporate.php">Corporate wellness</a>.</li>
+    <li><strong>Free 15-minute call</strong> — <a href="/appointment">book here</a> or WhatsApp +91 99715 76800.</li>
+    <li><strong>Further reading</strong> — <a href="/individuals">Individual therapy</a> &nbsp;·&nbsp; <a href="/couples">Couples therapy</a> &nbsp;·&nbsp; <a href="/corporate">Corporate wellness</a>.</li>
   </ul>
 
   <div class="lm-guide__foot">
@@ -426,9 +426,9 @@
   </div>
 
   <div class="lm-noprint" style="margin-top:2.5rem;display:flex;flex-wrap:wrap;gap:.75rem">
-    <a class="lm-btn lm-btn--primary" href="/appointment.php">Book a free 15-minute call</a>
-    <a class="lm-btn lm-btn--ghost" href="/resources/adult-stress-check.php">Re-take the self-check</a>
-    <a class="lm-btn lm-btn--ghost" href="/adult-mental-health/adult-counselling.php">Adult mental health hub</a>
+    <a class="lm-btn lm-btn--primary" href="/appointment">Book a free 15-minute call</a>
+    <a class="lm-btn lm-btn--ghost" href="/resources/adult-stress-check">Re-take the self-check</a>
+    <a class="lm-btn lm-btn--ghost" href="/adult-mental-health/adult-counselling">Adult mental health hub</a>
   </div>
 
 </article>

@@ -42,11 +42,27 @@
   .key-points-card { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #e2e8f0; border-radius: 1.5rem; padding: 2rem; }
   .key-points-card ul { margin-bottom: 0 !important; }
   .key-points-card ul li { padding-left: 2.25rem !important; margin-bottom: 1rem !important; }
-  .faq-item { border-bottom: 1px solid #e2e8f0; transition: background 0.2s; }
-  .faq-item:hover { background: #f8fafc; }
-  .faq-item button { padding: 1.25rem 1rem; border-radius: 0.75rem; }
+  /* Accordion. Everything it needs is defined here, so it does not depend on
+     utilities surviving the Tailwind purge. */
+  .faq-item { border-bottom: 1px solid #e2e8f0; }
+  .faq-btn { display: flex; width: 100%; align-items: center; justify-content: space-between;
+             gap: 1rem; text-align: left; padding: 1.25rem 1rem; background: none; border: 0;
+             cursor: pointer; font: inherit; border-radius: 0.75rem; transition: background 0.2s; }
+  .faq-btn:hover { background: #f8fafc; }
+  .faq-btn:focus-visible { outline: 2px solid #234394; outline-offset: 2px; }
+  .faq-q { font-weight: 600; font-size: 1rem; color: #234394; }
+  @media (min-width: 768px) { .faq-q { font-size: 1.125rem; } }
   .faq-icon { width: 1.25rem; height: 1.25rem; flex: none; transition: transform 0.25s ease; }
-  .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+  /* Toggled with the hidden attribute rather than an animated max-height.
+     A max-height transition depends on a height guess and proved unreliable
+     here; display none/block cannot silently fail. */
+  .faq-panel[hidden] { display: none; }
+  .faq-panel { animation: faq-open 0.2s ease; }
+  .faq-panel p { margin: 0; padding: 0 1rem 1.25rem; color: #475569; line-height: 1.7;
+                 font-size: 0.95rem; }
+  @keyframes faq-open { from { opacity: 0; transform: translateY(-4px); }
+                        to { opacity: 1; transform: none; } }
+  .faq-item.is-open .faq-icon { transform: rotate(45deg); }
   .side-menu a { display: block; padding: 0.5rem 0.75rem; border-radius: 0.5rem; color: #475569; font-size: 0.9rem; transition: all 0.2s; }
   .side-menu a:hover { background: rgba(35,67,148,0.08); color: #234394; }
   .side-menu a.is-current { background: #234394; color: #fff; font-weight: 600; }
@@ -338,7 +354,7 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Developmental Delay",
-          "item": "https://embracelives.com/developmental-delay/developmental-delay-treatment"
+          "item": "https://embracelives.com/developmental-delay-treatment"
         }
       ]
     },
@@ -446,13 +462,13 @@
     <span class="inline-block bg-[#234394] text-white text-xs font-bold tracking-wider uppercase px-4 py-1.5 rounded-full mb-5">Location Services</span>
     <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Developmental Delay Treatment in Delhi</h1>
     <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto">Developmental Delay Treatment for families in Delhi, delivered by the same multidisciplinary team that runs our assessments. This page covers where you will be seen, how to get there and what happens first.</p>
-    <a href="/appointment.php" class="inline-block mt-8 px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free 15-minute call</a>
+    <a href="/appointment" class="inline-block mt-8 px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free 15-minute call</a>
   </div>
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
   <div class="max-w-7xl mx-auto flex items-center gap-2 flex-wrap">
-      <a href="/index.php">Home</a><span class="text-gray-300">/</span>
-      <a href="/developmental-delay/developmental-delay-treatment.php">Developmental Delay</a><span class="text-gray-300">/</span>
+      <a href="/">Home</a><span class="text-gray-300">/</span>
+      <a href="/developmental-delay-treatment">Developmental Delay</a><span class="text-gray-300">/</span>
       <span class="text-gray-700 font-medium">In Delhi</span>
   </div>
 </div>
@@ -462,21 +478,21 @@
   <div class="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm md:sticky md:top-24 side-menu">
     <h2 class="text-lg font-bold text-[#234394] mb-4 border-b pb-3">Child Development Services</h2>
     <div class="space-y-1">
-      <a class="is-current" href="/developmental-delay/developmental-delay-treatment.php">Developmental Delay Treatment</a>
-      <a class="" href="/intellectual-disability/intellectual-disability-treatment.php">Intellectual Disability Treatment</a>
-      <a class="" href="/down-syndrome/down-syndrome-treatment.php">Down Syndrome Treatment &amp; Therapy</a>
-      <a class="" href="/oral-motor-therapy/oral-motor-therapy.php">Oral Motor Delay Treatment</a>
-      <a class="" href="/aba-therapy/aba-therapy.php">ABA Therapy</a>
-      <a class="" href="/physiotherapy/physiotherapy.php">Physiotherapy Clinic</a>
-      <a class="" href="/pediatric-neurology/pediatric-neurologist.php">Pediatric Neurologist</a>
-      <a class="" href="/developmental-pediatrics/developmental-pediatrician.php">Developmental Pediatrician</a>
-      <a class="" href="/child-development-centre/child-development-centre.php">Child Development Centre</a>
+      <a class="is-current" href="/developmental-delay-treatment">Developmental Delay Treatment</a>
+      <a class="" href="/intellectual-disability-treatment">Intellectual Disability Treatment</a>
+      <a class="" href="/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
+      <a class="" href="/oral-motor-therapy">Oral Motor Delay Treatment</a>
+      <a class="" href="/aba-therapy">ABA Therapy</a>
+      <a class="" href="/physiotherapy">Physiotherapy Clinic</a>
+      <a class="" href="/pediatric-neurologist">Pediatric Neurologist</a>
+      <a class="" href="/developmental-pediatrician">Developmental Pediatrician</a>
+      <a class="" href="/child-development-centre">Child Development Centre</a>
     </div>
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mt-6 mb-2">Related</h3>
     <div class="space-y-1">
-      <a href="/speech-therapy/speech-therapy.php">Speech &amp; Language Therapy</a>
-      <a href="/occupational-therapy/occupational-therapy.php">Occupational Therapy</a>
-      <a href="/autism/autism.php">Autism Hub</a>
+      <a href="/speech-therapy/speech-therapy">Speech &amp; Language Therapy</a>
+      <a href="/occupational-therapy/occupational-therapy">Occupational Therapy</a>
+      <a href="/autism/autism">Autism Hub</a>
     </div>
   </div>
 </aside>
@@ -495,7 +511,7 @@
     <li>Parent coaching built into the plan from the first session</li>
   </ul>
 </div>
-<p>For the full clinical picture, including what the difficulty is, the signs worth acting on and how treatment is planned, read our <a href="/developmental-delay/developmental-delay-treatment.php" class="text-[#234394] font-semibold">Developmental Delay Treatment guide</a>.</p>
+<p>For the full clinical picture, including what the difficulty is, the signs worth acting on and how treatment is planned, read our <a href="/developmental-delay-treatment" class="text-[#234394] font-semibold">Developmental Delay Treatment guide</a>.</p>
 
 <h2>How to start</h2>
 <ul>
@@ -509,59 +525,59 @@
 <h2 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h2>
 <div class="space-y-2 mb-10">
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">Do you offer developmental delay treatment in Delhi?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">Do you offer developmental delay treatment in Delhi?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">Yes. Families in Delhi are seen at our Vasant Kunj and Malviya Nagar centres, and online where that suits the work. Start with a free 15-minute intake call.</p></div>
+  <div class="faq-panel" hidden><p>Yes. Families in Delhi are seen at our Vasant Kunj and Malviya Nagar centres, and online where that suits the work. Start with a free 15-minute intake call.</p></div>
 </div>
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">How quickly can we be seen in Delhi?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">How quickly can we be seen in Delhi?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">The intake call is usually arranged within a few working days. Appointment timing depends on the service and the clinician needed, and we will tell you honestly on the call.</p></div>
+  <div class="faq-panel" hidden><p>The intake call is usually arranged within a few working days. Appointment timing depends on the service and the clinician needed, and we will tell you honestly on the call.</p></div>
 </div>
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">Can we be seen outside school hours?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">Can we be seen outside school hours?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">We offer later slots and Saturday appointments where availability allows. Tell the intake team what you need and they will work around school.</p></div>
+  <div class="faq-panel" hidden><p>We offer later slots and Saturday appointments where availability allows. Tell the intake team what you need and they will work around school.</p></div>
 </div>
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">Will my child grow out of a developmental delay?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">Will my child grow out of a developmental delay?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">Some children do catch up without help, particularly with mild speech delays. Others do not, and there is no reliable way to tell which is which without an assessment. Waiting costs more than checking.</p></div>
+  <div class="faq-panel" hidden><p>Some children do catch up without help, particularly with mild speech delays. Others do not, and there is no reliable way to tell which is which without an assessment. Waiting costs more than checking.</p></div>
 </div>
 <div class="faq-item">
-  <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-    <span class="font-semibold text-[#1e293b] pr-4">What is the difference between developmental delay and autism?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  <button type="button" class="faq-btn" aria-expanded="false">
+    <span class="faq-q">What is the difference between developmental delay and autism?</span>
+    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-answer"><p class="px-4 pb-5 text-gray-600 leading-relaxed">Delay describes timing: skills arriving later than expected. Autism describes a pattern in social communication, interests and sensory response. A child can have either, both, or a delay from an entirely different cause.</p></div>
+  <div class="faq-panel" hidden><p>Delay describes timing: skills arriving later than expected. Autism describes a pattern in social communication, interests and sensory response. A child can have either, both, or a delay from an entirely different cause.</p></div>
 </div>
 </div>
 
 <h2>Other eMbrace services near you</h2>
 <ul>
-<li><a href="/locations/child-psychologist-in-saket.php" class="text-[#234394]">Child psychology in Saket</a></li>
-<li><a href="/locations/child-psychologist-in-hauz-khas.php" class="text-[#234394]">Child psychology in Hauz Khas</a></li>
-<li><a href="/locations/child-psychologist-in-green-park.php" class="text-[#234394]">Child psychology in Green Park</a></li>
-<li><a href="/locations/child-psychologist-in-greater-kailash.php" class="text-[#234394]">Child psychology in Greater Kailash</a></li>
-<li><a href="/locations/child-psychologist-in-defence-colony.php" class="text-[#234394]">Child psychology in Defence Colony</a></li>
-<li><a href="/locations/child-psychologist-in-south-delhi.php" class="text-[#234394]">Child psychology in South Delhi</a></li>
-<li><a href="/locations/child-psychologist-in-vasant-kunj.php" class="text-[#234394]">Child psychology in Vasant Kunj</a></li>
-  <li><a href="/locations/index.php" class="text-[#234394]">View all eMbrace locations</a></li>
+<li><a href="/locations/child-psychologist-in-saket" class="text-[#234394]">Child psychology in Saket</a></li>
+<li><a href="/locations/child-psychologist-in-hauz-khas" class="text-[#234394]">Child psychology in Hauz Khas</a></li>
+<li><a href="/locations/child-psychologist-in-green-park" class="text-[#234394]">Child psychology in Green Park</a></li>
+<li><a href="/locations/child-psychologist-in-greater-kailash" class="text-[#234394]">Child psychology in Greater Kailash</a></li>
+<li><a href="/locations/child-psychologist-in-defence-colony" class="text-[#234394]">Child psychology in Defence Colony</a></li>
+<li><a href="/locations/child-psychologist-in-south-delhi" class="text-[#234394]">Child psychology in South Delhi</a></li>
+<li><a href="/locations/child-psychologist-in-vasant-kunj" class="text-[#234394]">Child psychology in Vasant Kunj</a></li>
+  <li><a href="/locations" class="text-[#234394]">View all eMbrace locations</a></li>
 </ul>
 
 <div class="pathway-card mt-12 rounded-3xl p-8 bg-gradient-to-br from-[#eef2ff] to-[#e0e7ff] border border-[#c7d2fe]">
   <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Not sure whether you need this yet?</h2>
   <p class="text-gray-600 mb-6">Start with a free 15-minute intake call. A clinician will tell you honestly whether developmental delay treatment is the right next step, or whether something else is. There is no obligation and no waiting list to join.</p>
   <div class="flex flex-wrap gap-3">
-    <a href="/appointment.php" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
+    <a href="/appointment" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
     <a href="https://wa.me/919971576800" target="_blank" rel="noopener" class="inline-block px-7 py-3 rounded-full bg-white border border-[#c7d2fe] text-[#234394] font-semibold hover:bg-[#f8faff] transition-colors">WhatsApp +91 99715 76800</a>
   </div>
 </div>
@@ -569,9 +585,75 @@
   </div>
 </div>
 <?php include __DIR__ . '/../components/lead-magnet-band-child.php'; ?>
+<!-- LOCATION-LINKS:START (generated by generate-location-links.js — do not edit by hand) -->
+<div class="px-6 md:px-16 bg-white">
+<div class="max-w-7xl mx-auto">
+<section class="emb-nearby" aria-labelledby="emb-nearby-title">
+  <h2 class="emb-nearby__title" id="emb-nearby-title">More eMbrace services near you</h2>
+  <p class="emb-nearby__sub">Explore the other assessments and therapies we offer in Delhi, or find developmental delay treatment at another eMbrace location.</p>
+  <div class="emb-nearby__cols emb-nearby__cols--two">
+    <div class="emb-nearby__group">
+      <h4>Other services in Delhi</h4>
+      <ul class="emb-nearby__list">
+        <li><a href="/locations/child-psychologist-in-delhi">Child Psychologist in Delhi</a></li>
+        <li><a href="/locations/child-counselling-in-delhi">Child Counselling in Delhi</a></li>
+        <li><a href="/locations/teen-counselling-in-delhi">Teen Counselling in Delhi</a></li>
+        <li><a href="/locations/adult-counselling-in-delhi">Adult Counselling in Delhi</a></li>
+        <li><a href="/locations/autism-assessment-in-delhi">Autism Assessment in Delhi</a></li>
+        <li><a href="/locations/autism-therapy-in-delhi">Autism Therapy in Delhi</a></li>
+        <li><a href="/locations/adhd-assessment-in-delhi">ADHD Assessment in Delhi</a></li>
+        <li><a href="/locations/learning-disability-assessment-in-delhi">Learning Disability Assessment in Delhi</a></li>
+        <li><a href="/locations/speech-therapy-in-delhi">Speech Therapy in Delhi</a></li>
+        <li><a href="/locations/occupational-therapy-in-delhi">Occupational Therapy in Delhi</a></li>
+        <li><a href="/locations/special-education-in-delhi">Special Education in Delhi</a></li>
+        <li><a href="/locations/intellectual-disability-treatment-in-delhi">Intellectual Disability Treatment in Delhi</a></li>
+        <li><a href="/locations/down-syndrome-treatment-in-delhi">Down Syndrome Treatment in Delhi</a></li>
+        <li><a href="/locations/oral-motor-therapy-in-delhi">Oral Motor Delay Treatment in Delhi</a></li>
+        <li><a href="/locations/aba-therapy-in-delhi">ABA Therapy in Delhi</a></li>
+        <li><a href="/locations/physiotherapy-in-delhi">Physiotherapy in Delhi</a></li>
+        <li><a href="/locations/pediatric-neurologist-in-delhi">Pediatric Neurologist in Delhi</a></li>
+        <li><a href="/locations/developmental-pediatrician-in-delhi">Developmental Pediatrician in Delhi</a></li>
+        <li><a href="/locations/child-development-centre-in-delhi">Child Development Centre in Delhi</a></li>
+      </ul>
+    </div>
+    <div class="emb-nearby__group">
+      <h4>Developmental Delay Treatment in other areas</h4>
+      <ul class="emb-nearby__list">
+        null
+        null
+        null
+        null
+        null
+        null
+        null
+        <li><a href="/locations/developmental-delay-treatment-in-gurgaon">Developmental Delay Treatment in Gurgaon</a></li>
+        null
+      </ul>
+    </div>
+  </div>
+  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
+</section>
+</div>
+</div>
+<!-- LOCATION-LINKS:END -->
 <?php include __DIR__ . '/../components/footer.php'; ?>
 </div>
 <script src="/assets/interactive.js"></script>
 <script src="/assets/lead-magnets.js"></script>
+<script>
+(function () {
+  // Accordion toggle. Delegated, so it works no matter when the DOM settles.
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest && e.target.closest('.faq-btn');
+    if (!btn) return;
+    var item = btn.closest('.faq-item');
+    if (!item) return;
+    var panel = item.querySelector('.faq-panel');
+    var open = item.classList.toggle('is-open');
+    if (panel) panel.hidden = !open;
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
 </body>
 </html>

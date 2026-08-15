@@ -77,6 +77,15 @@
           <li><a href="/locations/speech-therapy-in-delhi">Speech Therapy in Delhi</a></li>
           <li><a href="/locations/occupational-therapy-in-delhi">Occupational Therapy in Delhi</a></li>
           <li><a href="/locations/special-education-in-delhi">Special Education in Delhi</a></li>
+          <li><a href="/locations/developmental-delay-treatment-in-delhi">Developmental Delay Treatment in Delhi</a></li>
+          <li><a href="/locations/intellectual-disability-treatment-in-delhi">Intellectual Disability Treatment in Delhi</a></li>
+          <li><a href="/locations/down-syndrome-treatment-in-delhi">Down Syndrome Treatment in Delhi</a></li>
+          <li><a href="/locations/oral-motor-therapy-in-delhi">Oral Motor Delay Treatment in Delhi</a></li>
+          <li><a href="/locations/aba-therapy-in-delhi">ABA Therapy in Delhi</a></li>
+          <li><a href="/locations/physiotherapy-in-delhi">Physiotherapy in Delhi</a></li>
+          <li><a href="/locations/pediatric-neurologist-in-delhi">Pediatric Neurologist in Delhi</a></li>
+          <li><a href="/locations/developmental-pediatrician-in-delhi">Developmental Pediatrician in Delhi</a></li>
+          <li><a href="/locations/child-development-centre-in-delhi">Child Development Centre in Delhi</a></li>
         </ul>
       </details>
       <details class="emb-locnav__item">
@@ -205,6 +214,15 @@
           <li><a href="/locations/speech-therapy-in-gurgaon">Speech Therapy in Gurgaon</a></li>
           <li><a href="/locations/occupational-therapy-in-gurgaon">Occupational Therapy in Gurgaon</a></li>
           <li><a href="/locations/special-education-in-gurgaon">Special Education in Gurgaon</a></li>
+          <li><a href="/locations/developmental-delay-treatment-in-gurgaon">Developmental Delay Treatment in Gurgaon</a></li>
+          <li><a href="/locations/intellectual-disability-treatment-in-gurgaon">Intellectual Disability Treatment in Gurgaon</a></li>
+          <li><a href="/locations/down-syndrome-treatment-in-gurgaon">Down Syndrome Treatment in Gurgaon</a></li>
+          <li><a href="/locations/oral-motor-therapy-in-gurgaon">Oral Motor Delay Treatment in Gurgaon</a></li>
+          <li><a href="/locations/aba-therapy-in-gurgaon">ABA Therapy in Gurgaon</a></li>
+          <li><a href="/locations/physiotherapy-in-gurgaon">Physiotherapy in Gurgaon</a></li>
+          <li><a href="/locations/pediatric-neurologist-in-gurgaon">Pediatric Neurologist in Gurgaon</a></li>
+          <li><a href="/locations/developmental-pediatrician-in-gurgaon">Developmental Pediatrician in Gurgaon</a></li>
+          <li><a href="/locations/child-development-centre-in-gurgaon">Child Development Centre in Gurgaon</a></li>
         </ul>
       </details>
       <details class="emb-locnav__item">
@@ -231,7 +249,7 @@
   <div class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 relative z-10">
     <!-- Brand & About -->
     <div>
-      <a href="/index.php" class="inline-block mb-6">
+      <a href="/" class="inline-block mb-6">
         <img decoding="async" width="152" height="99" alt="eMbrace Logo" class="h-12 w-auto brightness-0 invert" src="/assets/Logo-DrHvIBUF.svg" />
       </a>
       <p class="text-sm text-gray-400 leading-relaxed mb-6">
@@ -255,17 +273,20 @@
     <div>
       <h3 class="font-bold text-lg mb-6 text-white">Services</h3>
       <ul class="space-y-4 text-sm text-gray-400">
-        <li><a href="/children_and_adolescents.php" class="hover:text-[#F2DC68] transition-colors">Child &amp; Adolescent</a></li>
-        <li><a href="/adult.php" class="hover:text-[#F2DC68] transition-colors">Adult Services</a></li>
-        <li><a href="/partners.php" class="hover:text-[#F2DC68] transition-colors">Partnerships</a></li>
-        <li><a href="/giftatherapy.php" class="hover:text-[#F2DC68] transition-colors">Gift a Therapy</a></li>
-        <li><a href="/autism/autism.php" class="hover:text-[#F2DC68] transition-colors">Autism Info Hub</a></li>
-        <li><a href="/child-development-centre/child-development-centre.php" class="hover:text-[#F2DC68] transition-colors">Child Development Centre</a></li>
-        <li><a href="/developmental-delay/developmental-delay-treatment.php" class="hover:text-[#F2DC68] transition-colors">Developmental Delay</a></li>
-        <li><a href="/pediatric-neurology/pediatric-neurologist.php" class="hover:text-[#F2DC68] transition-colors">Pediatric Neurologist</a></li>
-        <li><a href="/developmental-pediatrics/developmental-pediatrician.php" class="hover:text-[#F2DC68] transition-colors">Developmental Pediatrician</a></li>
-        <li><a href="/physiotherapy/physiotherapy.php" class="hover:text-[#F2DC68] transition-colors">Physiotherapy</a></li>
-        <li><a href="/aba-therapy/aba-therapy.php" class="hover:text-[#F2DC68] transition-colors">ABA Therapy</a></li>
+        <li><a href="/children_and_adolescents" class="hover:text-[#F2DC68] transition-colors">Child &amp; Adolescent</a></li>
+        <li><a href="/adult" class="hover:text-[#F2DC68] transition-colors">Adult Services</a></li>
+        <li><a href="/partners" class="hover:text-[#F2DC68] transition-colors">Partnerships</a></li>
+        <li><a href="/giftatherapy" class="hover:text-[#F2DC68] transition-colors">Gift a Therapy</a></li>
+        <li><a href="/autism/autism" class="hover:text-[#F2DC68] transition-colors">Autism Info Hub</a></li>
+        <li><a href="/child-development-centre" class="hover:text-[#F2DC68] transition-colors">Child Development Centre</a></li>
+        <li><a href="/developmental-delay-treatment" class="hover:text-[#F2DC68] transition-colors">Developmental Delay</a></li>
+        <li><a href="/intellectual-disability-treatment" class="hover:text-[#F2DC68] transition-colors">Intellectual Disability</a></li>
+        <li><a href="/down-syndrome-treatment" class="hover:text-[#F2DC68] transition-colors">Down Syndrome</a></li>
+        <li><a href="/oral-motor-therapy" class="hover:text-[#F2DC68] transition-colors">Oral Motor &amp; Feeding</a></li>
+        <li><a href="/pediatric-neurologist" class="hover:text-[#F2DC68] transition-colors">Pediatric Neurologist</a></li>
+        <li><a href="/developmental-pediatrician" class="hover:text-[#F2DC68] transition-colors">Developmental Pediatrician</a></li>
+        <li><a href="/physiotherapy" class="hover:text-[#F2DC68] transition-colors">Physiotherapy</a></li>
+        <li><a href="/aba-therapy" class="hover:text-[#F2DC68] transition-colors">ABA Therapy</a></li>
       </ul>
     </div>
 
@@ -273,12 +294,12 @@
     <div>
       <h3 class="font-bold text-lg mb-6 text-white">Quick Links</h3>
       <ul class="space-y-4 text-sm text-gray-400">
-        <li><a href="/resources/index.php" class="hover:text-[#F2DC68] transition-colors font-semibold text-[#F2DC68]">Free Tools &amp; Screeners</a></li>
-        <li><a href="/about.php" class="hover:text-[#F2DC68] transition-colors">About Us</a></li>
-        <li><a href="/careers.php" class="hover:text-[#F2DC68] transition-colors">Careers</a></li>
-        <li><a href="/contact-us.php" class="hover:text-[#F2DC68] transition-colors">Contact Us</a></li>
-        <li><a href="/faq.php" class="hover:text-[#F2DC68] transition-colors">FAQs</a></li>
-        <li><a href="/privacypolicy.php" class="hover:text-[#F2DC68] transition-colors">Privacy Policy</a></li>
+        <li><a href="/resources" class="hover:text-[#F2DC68] transition-colors font-semibold text-[#F2DC68]">Free Tools &amp; Screeners</a></li>
+        <li><a href="/about" class="hover:text-[#F2DC68] transition-colors">About Us</a></li>
+        <li><a href="/careers" class="hover:text-[#F2DC68] transition-colors">Careers</a></li>
+        <li><a href="/contact-us" class="hover:text-[#F2DC68] transition-colors">Contact Us</a></li>
+        <li><a href="/faq" class="hover:text-[#F2DC68] transition-colors">FAQs</a></li>
+        <li><a href="/privacypolicy" class="hover:text-[#F2DC68] transition-colors">Privacy Policy</a></li>
       </ul>
     </div>
 
