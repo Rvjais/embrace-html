@@ -6,7 +6,7 @@
     <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
-      content="Read the eMbrace privacy policy. Learn how SMD Wellness collects, uses &amp; protects your personal data when using our therapy services &amp; platform."
+      content="Read the eMbrace privacy policy. Learn how SMD Wellness collects, uses &amp; protects your personal data when using our therapy services &amp; platform. Delhi NCR."
       name="description"
     />
     <meta content="index, follow" name="robots" />
@@ -14,9 +14,9 @@
     <!-- Open Graph -->
     <meta content="website" property="og:type" />
     <meta content="https://embracelives.com/privacypolicy" property="og:url" />
-    <meta content="Privacy Policy | eMbrace Lives – SMD Wellness" property="og:title" />
+    <meta content="Privacy Policy | A Guide from eMbrace | eMbrace Delhi NCR" property="og:title" />
     <meta
-      content="Read the eMbrace privacy policy. Learn how SMD Wellness collects, uses &amp; protects your personal data when using our therapy services &amp; platform."
+      content="Read the eMbrace privacy policy. Learn how SMD Wellness collects, uses &amp; protects your personal data when using our therapy services &amp; platform. Delhi NCR."
       property="og:description"
     />
     <meta content="https://embracelives.com/og-image.png" property="og:image" />
@@ -26,14 +26,14 @@
     <meta content="en_IN" property="og:locale" />
     <!-- Twitter Card -->
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="Privacy Policy | eMbrace Lives – SMD Wellness" name="twitter:title" />
+    <meta content="Privacy Policy | A Guide from eMbrace | eMbrace Delhi NCR" name="twitter:title" />
     <meta
-      content="Read the eMbrace privacy policy. Learn how SMD Wellness collects, uses &amp; protects your personal data when using our therapy services &amp; platform."
+      content="Read the eMbrace privacy policy. Learn how SMD Wellness collects, uses &amp; protects your personal data when using our therapy services &amp; platform. Delhi NCR."
       name="twitter:description"
     />
     <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
     <!-- JSON-LD Structured Data -->
-<title>Privacy Policy | eMbrace Lives – SMD Wellness</title>
+<title>Privacy Policy | A Guide from eMbrace | eMbrace Delhi NCR</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
@@ -316,7 +316,7 @@
         "@type": "WebPage",
         "@id": "https://embracelives.com/privacypolicy#webpage",
         "url": "https://embracelives.com/privacypolicy",
-        "name": "Privacy Policy | eMbrace Lives – SMD Wellness",
+        "name": "Privacy Policy | A Guide from eMbrace | eMbrace Delhi NCR",
         "isPartOf": {
           "@id": "https://embracelives.com/#website"
         },
@@ -324,7 +324,7 @@
           "@id": "https://embracelives.com/#organization"
         },
         "inLanguage": "en-IN",
-        "description": "Read the eMbrace privacy policy. Learn how SMD Wellness collects, uses & protects your personal data when using our therapy services & platform."
+        "description": "Read the eMbrace privacy policy. Learn how SMD Wellness collects, uses & protects your personal data when using our therapy services & platform. Delhi NCR."
       }
     ]
   }
@@ -338,7 +338,7 @@
         class="md:min-h-fit overflow-hidden flex flex-col items-center px-4 md:px-8 lg:px-16 xl:px-30 py-6 md:py-6 relative"
       >
         <div class="mb-8 w-full max-w-4xl flex flex-col items-center">
-          <h2 class="text-3xl font-bold mb-10 text-center">Privacy Policy</h2>
+          <h1 class="text-3xl font-bold mb-10 text-center">Privacy Policy</h1>
           <div class="text-sm text-[var(--text-gray)] leading-relaxed mb-15 font-medium text-justify">
             <span
               >SMD Wellness Private Limited (“SMD Wellness” or “eMbrace Lives” or “we” or “us” or “our”), respects every

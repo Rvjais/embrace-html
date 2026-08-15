@@ -2,12 +2,27 @@
 <html lang="en-IN">
   <head>
     <meta charset="utf-8" />
-    <title>Gallery | eMbrace Lives</title>
+    <title>Gallery | A Guide from eMbrace Psychologists | eMbrace Lives</title>
     <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Explore the eMbrace Gallery featuring moments from our clinics, corporate workshops, and events." name="description" />
+    <meta content="Explore the eMbrace Gallery featuring moments from our clinics, corporate workshops, and events. Get in touch with the eMbrace team in Delhi NCR today." name="description" />
     <meta content="index, follow" name="robots" />
     <link href="https://embracelives.com/gallery" rel="canonical" />
+    <!-- Open Graph -->
+    <meta content="website" property="og:type" />
+    <meta content="https://embracelives.com/gallery" property="og:url" />
+    <meta content="Gallery | A Guide from eMbrace Psychologists | eMbrace Lives" property="og:title" />
+    <meta content="Explore the eMbrace Gallery featuring moments from our clinics, corporate workshops, and events. Get in touch with the eMbrace team in Delhi NCR today." property="og:description" />
+    <meta content="https://embracelives.com/og-image.png" property="og:image" />
+    <meta content="1200" property="og:image:width" />
+    <meta content="630" property="og:image:height" />
+    <meta content="eMbrace Lives" property="og:site_name" />
+    <meta content="en_IN" property="og:locale" />
+    <!-- Twitter Card -->
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="Gallery | A Guide from eMbrace Psychologists | eMbrace Lives" name="twitter:title" />
+    <meta content="Explore the eMbrace Gallery featuring moments from our clinics, corporate workshops, and events. Get in touch with the eMbrace team in Delhi NCR today." name="twitter:description" />
+    <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
     <!-- Site stylesheet. Required for the shared header/footer — .glass-nav (the
          header's translucent background) is defined only here, so without it the
          fixed header renders fully transparent and overlaps the page content.
@@ -411,7 +426,7 @@
         "@type": "CollectionPage",
         "@id": "https://embracelives.com/gallery#webpage",
         "url": "https://embracelives.com/gallery",
-        "name": "Gallery | eMbrace Lives",
+        "name": "Gallery | A Guide from eMbrace Psychologists | eMbrace Lives",
         "isPartOf": {
           "@id": "https://embracelives.com/#website"
         },
@@ -419,7 +434,7 @@
           "@id": "https://embracelives.com/#organization"
         },
         "inLanguage": "en-IN",
-        "description": "Explore the eMbrace Gallery featuring moments from our clinics, corporate workshops, and events."
+        "description": "Explore the eMbrace Gallery featuring moments from our clinics, corporate workshops, and events. Get in touch with the eMbrace team in Delhi NCR today."
       }
     ]
   }

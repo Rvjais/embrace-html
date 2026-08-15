@@ -4,21 +4,21 @@
 <meta charset="utf-8"/>
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Free 2-minute child development milestone checker for ages 0–12. Check speech, motor, social and learning milestones against clinical guidance, and get a personalised parent report from eMbrace's child psychologists in Delhi." name="description"/>
+<meta content="Free 2-minute milestone checker for ages 0-12, covering speech, motor, social and learning skills. Instant domain-by-domain result and a free parent guide." name="description"/>
 <meta content="index, follow" name="robots"/>
 <link href="https://embracelives.com/resources/child-milestone-checker" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/resources/child-milestone-checker" property="og:url"/>
-<meta content="Free Child Development Milestone Checker (0–12 Years) | eMbrace" property="og:title"/>
-<meta content="Is my child on track? Answer 8 quick questions and see a domain-by-domain milestone snapshot, plus a free parent guide from Delhi's child psychology team." property="og:description"/>
+<meta content="Free Child Milestone Checker (0-12) | eMbrace Delhi" property="og:title"/>
+<meta content="Free 2-minute milestone checker for ages 0-12, covering speech, motor, social and learning skills. Instant domain-by-domain result and a free parent guide." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Free Child Development Milestone Checker (0–12 Years) | eMbrace" name="twitter:title"/>
-<meta content="Answer 8 quick questions and see a domain-by-domain milestone snapshot, plus a free parent guide." name="twitter:description"/>
+<meta content="Free Child Milestone Checker (0-12) | eMbrace Delhi" name="twitter:title"/>
+<meta content="Free 2-minute milestone checker for ages 0-12, covering speech, motor, social and learning skills. Instant domain-by-domain result and a free parent guide." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Free Child Development Milestone Checker (0–12 Years) | eMbrace Delhi</title>
+<title>Free Child Milestone Checker (0-12) | eMbrace Delhi</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -304,7 +304,7 @@
       "@type": "WebPage",
       "@id": "https://embracelives.com/resources/child-milestone-checker#webpage",
       "url": "https://embracelives.com/resources/child-milestone-checker",
-      "name": "Free Child Development Milestone Checker (0–12 Years) | eMbrace Delhi",
+      "name": "Free Child Milestone Checker (0-12) | eMbrace Delhi",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -312,7 +312,7 @@
         "@id": "https://embracelives.com/#organization"
       },
       "inLanguage": "en-IN",
-      "description": "Free 2-minute child development milestone checker for ages 0–12. Check speech, motor, social and learning milestones against clinical guidance, and get a personalised parent report from eMbrace's child psychologists in Delhi."
+      "description": "Free 2-minute milestone checker for ages 0-12, covering speech, motor, social and learning skills. Instant domain-by-domain result and a free parent guide."
     }
   ]
 }

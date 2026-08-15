@@ -260,6 +260,12 @@
         <li><a href="/partners.php" class="hover:text-[#F2DC68] transition-colors">Partnerships</a></li>
         <li><a href="/giftatherapy.php" class="hover:text-[#F2DC68] transition-colors">Gift a Therapy</a></li>
         <li><a href="/autism/autism.php" class="hover:text-[#F2DC68] transition-colors">Autism Info Hub</a></li>
+        <li><a href="/child-development-centre/child-development-centre.php" class="hover:text-[#F2DC68] transition-colors">Child Development Centre</a></li>
+        <li><a href="/developmental-delay/developmental-delay-treatment.php" class="hover:text-[#F2DC68] transition-colors">Developmental Delay</a></li>
+        <li><a href="/pediatric-neurology/pediatric-neurologist.php" class="hover:text-[#F2DC68] transition-colors">Pediatric Neurologist</a></li>
+        <li><a href="/developmental-pediatrics/developmental-pediatrician.php" class="hover:text-[#F2DC68] transition-colors">Developmental Pediatrician</a></li>
+        <li><a href="/physiotherapy/physiotherapy.php" class="hover:text-[#F2DC68] transition-colors">Physiotherapy</a></li>
+        <li><a href="/aba-therapy/aba-therapy.php" class="hover:text-[#F2DC68] transition-colors">ABA Therapy</a></li>
       </ul>
     </div>
 

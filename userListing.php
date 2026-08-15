@@ -14,7 +14,7 @@
     <!-- Open Graph -->
     <meta content="website" property="og:type" />
     <meta content="https://embracelives.com/userListing" property="og:url" />
-    <meta content="Find a Therapist – Our Expert Team | eMbrace Lives" property="og:title" />
+    <meta content="Find a Therapist – Our Expert Team | eMbrace Delhi NCR" property="og:title" />
     <meta
       content="Browse our team of expert therapists. Filter by specialty, condition treated, age group &amp; location. Find the right psychologist or therapist for your needs."
       property="og:description"
@@ -26,14 +26,14 @@
     <meta content="en_IN" property="og:locale" />
     <!-- Twitter Card -->
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="Find a Therapist – Our Expert Team | eMbrace Lives" name="twitter:title" />
+    <meta content="Find a Therapist – Our Expert Team | eMbrace Delhi NCR" name="twitter:title" />
     <meta
       content="Browse our team of expert therapists. Filter by specialty, condition treated, age group &amp; location. Find the right psychologist or therapist for your needs."
       name="twitter:description"
     />
     <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
     <!-- JSON-LD Structured Data -->
-<title>Find a Therapist – Our Expert Team | eMbrace Lives</title>
+<title>Find a Therapist – Our Expert Team | eMbrace Delhi NCR</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
@@ -316,7 +316,7 @@
         "@type": "CollectionPage",
         "@id": "https://embracelives.com/userListing#webpage",
         "url": "https://embracelives.com/userListing",
-        "name": "Find a Therapist – Our Expert Team | eMbrace Lives",
+        "name": "Find a Therapist – Our Expert Team | eMbrace Delhi NCR",
         "isPartOf": {
           "@id": "https://embracelives.com/#website"
         },
@@ -1191,7 +1191,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">VP, HSBC</p>
                       </div>
                     </div>
@@ -1211,7 +1211,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">
                           Unit Chief for Bhutan, U.S. Embassy
                         </p>
@@ -1232,7 +1232,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1251,7 +1251,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1270,7 +1270,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1288,7 +1288,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1307,7 +1307,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1326,7 +1326,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">VP, HSBC</p>
                       </div>
                     </div>
@@ -1346,7 +1346,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">
                           Unit Chief for Bhutan, U.S. Embassy
                         </p>
@@ -1367,7 +1367,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1386,7 +1386,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1405,7 +1405,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1423,7 +1423,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1442,7 +1442,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1461,7 +1461,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">VP, HSBC</p>
                       </div>
                     </div>
@@ -1481,7 +1481,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">
                           Unit Chief for Bhutan, U.S. Embassy
                         </p>
@@ -1502,7 +1502,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1521,7 +1521,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1540,7 +1540,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1558,7 +1558,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1577,7 +1577,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1596,7 +1596,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">VP, HSBC</p>
                       </div>
                     </div>
@@ -1616,7 +1616,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">
                           Unit Chief for Bhutan, U.S. Embassy
                         </p>
@@ -1637,7 +1637,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1656,7 +1656,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1675,7 +1675,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1693,7 +1693,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1712,7 +1712,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1731,7 +1731,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">VP, HSBC</p>
                       </div>
                     </div>
@@ -1751,7 +1751,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">
                           Unit Chief for Bhutan, U.S. Embassy
                         </p>
@@ -1772,7 +1772,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1791,7 +1791,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1810,7 +1810,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1828,7 +1828,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1847,7 +1847,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1866,7 +1866,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">VP, HSBC</p>
                       </div>
                     </div>
@@ -1886,7 +1886,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">
                           Unit Chief for Bhutan, U.S. Embassy
                         </p>
@@ -1907,7 +1907,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1926,7 +1926,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1945,7 +1945,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1963,7 +1963,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -1982,7 +1982,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2001,7 +2001,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">VP, HSBC</p>
                       </div>
                     </div>
@@ -2021,7 +2021,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">
                           Unit Chief for Bhutan, U.S. Embassy
                         </p>
@@ -2042,7 +2042,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2061,7 +2061,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2080,7 +2080,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2098,7 +2098,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2117,7 +2117,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2136,7 +2136,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">VP, HSBC</p>
                       </div>
                     </div>
@@ -2156,7 +2156,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">
                           Unit Chief for Bhutan, U.S. Embassy
                         </p>
@@ -2177,7 +2177,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2196,7 +2196,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2215,7 +2215,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2233,7 +2233,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2252,7 +2252,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2271,7 +2271,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Vrinda Sasidhar</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">VP, HSBC</p>
                       </div>
                     </div>
@@ -2291,7 +2291,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Mr. Andrew</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">
                           Unit Chief for Bhutan, U.S. Embassy
                         </p>
@@ -2312,7 +2312,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Priyanaka Sundaram</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2331,7 +2331,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Tarini Lamba</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2350,7 +2350,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Prachi</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2368,7 +2368,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Gayatri</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>
@@ -2387,7 +2387,7 @@
                     <div class="flex flex-row items-start space-x-4">
                       <div class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-[#FEE5EC] flex-shrink-0"></div>
                       <div class="flex flex-col">
-                        <h1 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h1>
+                        <h2 class="text-md md:text-xl 2xl:text-2xl font-bold">Nandita</h2>
                         <p class="text-sm md:text-base 2xl:text-base font-semibold text-[#403D3D]">Embrace Client</p>
                       </div>
                     </div>

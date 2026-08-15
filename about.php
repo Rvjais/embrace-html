@@ -14,7 +14,7 @@
     <!-- Open Graph -->
     <meta content="website" property="og:type" />
     <meta content="https://embracelives.com/about" property="og:url" />
-    <meta content="About eMbrace | Our Story, Mission &amp; Leadership Team" property="og:title" />
+    <meta content="About eMbrace | Our Story, Mission &amp; Leadership | eMbrace" property="og:title" />
     <meta
       content="Learn about eMbrace, Delhi's trusted psychology practice founded by Dr. Supriya Malik. Meet our leadership team of RCI-certified clinical psychologists."
       property="og:description"
@@ -26,14 +26,14 @@
     <meta content="en_IN" property="og:locale" />
     <!-- Twitter Card -->
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="About eMbrace | Our Story, Mission &amp; Leadership Team" name="twitter:title" />
+    <meta content="About eMbrace | Our Story, Mission &amp; Leadership | eMbrace" name="twitter:title" />
     <meta
       content="Learn about eMbrace, Delhi's trusted psychology practice founded by Dr. Supriya Malik. Meet our leadership team of RCI-certified clinical psychologists."
       name="twitter:description"
     />
     <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
     <!-- JSON-LD Structured Data -->
-<title>About eMbrace | Our Story, Mission &amp; Leadership Team</title>
+<title>About eMbrace | Our Story, Mission &amp; Leadership | eMbrace</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
@@ -316,7 +316,7 @@
         "@type": "AboutPage",
         "@id": "https://embracelives.com/about#webpage",
         "url": "https://embracelives.com/about",
-        "name": "About eMbrace | Our Story, Mission & Leadership Team",
+        "name": "About eMbrace | Our Story, Mission & Leadership | eMbrace",
         "isPartOf": {
           "@id": "https://embracelives.com/#website"
         },
@@ -353,9 +353,9 @@
             >
               <span>About <br class="md:hidden" />eMbrace</span>
             </h1>
-            <h1 class="mt-2 italic font-medium text-md md:text-start text-center md:text-xl 2xl:text-3xl">
+            <h2 class="mt-2 italic font-medium text-md md:text-start text-center md:text-xl 2xl:text-3xl">
               Empowering Diverse Minds | Building a Neuro-Inclusive Future
-            </h1>
+            </h2>
             <div class="md:hidden flex justify-center mt-8">
               <div class="rounded-2xl overflow-hidden shadow-lg w-[80%]" style="aspect-ratio: 16 / 9;">
                 <img alt="Dr. Supriya Malik - eMbrace" class="w-full h-full object-cover" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/PHOTO-2026-03-27-14-55-34.jpg" />
@@ -463,7 +463,7 @@
           class="absolute right-0 md:hidden h-12 w-12 bottom-10"
           src="data:image/svg+xml,%3csvg%20width='66'%20height='80'%20viewBox='0%200%2066%2080'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='26.1005'%20cy='27.2656'%20rx='26.1005'%20ry='27.2656'%20transform='matrix(0.154383%20-0.988011%200.989983%200.141189%2017.957%2051.5752)'%20fill='%23B9F1DA'/%3e%3cellipse%20opacity='0.5'%20cx='26.1005'%20cy='27.2656'%20rx='26.1005'%20ry='27.2656'%20transform='matrix(0.154383%20-0.988011%200.989983%200.141189%200%2072.3008)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
         />
-        <h1 class="font-semibold text-2xl pt-8">Meet Our Leadership</h1>
+        <h2 class="font-semibold text-2xl pt-8">Meet Our Leadership</h2>
         <div class="flex md:flex-row flex-col gap-4 md:gap-30 mt-17 items-center justify-center w-full">
           <div class="flex flex-col items-center cursor-pointer">
             <div class="relative rounded-full overflow-hidden z-10">
@@ -475,7 +475,7 @@
               <div
                 class="items-center justify-center flex absolute h-full inset-0 bg-black/70 opacity-0 hover:opacity-100 transition duration-300 rounded-full z-10"
               >
-                <h1 class="text-xs md:text-sm text-white">View More</h1>
+                <div class="text-xs md:text-sm text-white">View More</div>
               </div>
             </div>
             <h2 class="2xl:text-xl md:text-xl text-md font-semibold text-center mt-6">Dr. Supriya Malik</h2>
@@ -494,7 +494,7 @@
               <div
                 class="items-center justify-center flex absolute h-full inset-0 bg-black/70 opacity-0 hover:opacity-100 transition duration-300 rounded-full z-10"
               >
-                <h1 class="text-xs md:text-sm text-white">View More</h1>
+                <div class="text-xs md:text-sm text-white">View More</div>
               </div>
             </div>
             <h2 class="2xl:text-xl md:text-xl text-md font-semibold text-center mt-6">Sam Das</h2>
@@ -513,7 +513,7 @@
               <div
                 class="items-center justify-center flex absolute h-full inset-0 bg-black/70 opacity-0 hover:opacity-100 transition duration-300 rounded-full z-10"
               >
-                <h1 class="text-xs md:text-sm text-white">View More</h1>
+                <div class="text-xs md:text-sm text-white">View More</div>
               </div>
             </div>
             <h2 class="2xl:text-xl md:text-xl text-md font-semibold text-center mt-6">Dr. Mahima Sahi</h2>
@@ -575,7 +575,7 @@
         class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 flex flex-col py-8 xl:py-15 justify-center items-center relative gap-12 bg-gradient-to-b from-[#E7F7FF] to-[#E7F7FF]"
       >
         <div class="bg-[#FAC60073] rounded-full h-10 w-10 absolute hidden md:block bottom-24 -left-6"></div>
-        <h1 class="font-semibold text-xl md:text-3xl w-full text-center">Our Core Values</h1>
+        <h2 class="font-semibold text-xl md:text-3xl w-full text-center">Our Core Values</h2>
         <div class="flex flex-col gap-4 md:gap-1 2xl:gap-0 w-full items-center">
           <div class="flex gap-2 md:ml-25 w-full md:max-w-2xl 2xl:max-w-4xl justify-start text-left">
             <img alt="Diamond pointer" class="w-12 h-12 2xl:w-15 2xl:h-15 mt-1" src="/assets/Diamond-DvvJwKvh.svg" />
@@ -648,7 +648,7 @@
       <div
         class="md:z-10 w-full p-3 md:p-0 md:pb-17 flex flex-col items-center md:py-20 xl:pb-18 xl:py-0 bg-gradient-to-b from-[#E7F7FF] to-[#FFFFFF] relative"
       >
-        <h1 class="text-xl md:text-3xl font-semibold">Our Approach</h1>
+        <h2 class="text-xl md:text-3xl font-semibold">Our Approach</h2>
         <p class="mt-4 text-center">A Neurodivergent &amp; Lifespan-Centered Approach</p>
         <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl mb-10">
           <div class="flex flex-col items-center bg-white rounded-4xl shadow-lg/20 px-4 py-3 h-full">
@@ -704,7 +704,7 @@
         class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 flex flex-col py-8 xl:py-10 justify-center items-center relative gap-5 md:gap-12 bg-gradient-to-b from-[#edfff7e1]/90 to-[#edfff785]"
       >
         <div class="md:hidden md:w-12 md:h-12 w-6 h8 rounded-full bg-[#90A7E1]/60 absolute -top-6 right-80"></div>
-        <h1 class="text-xl md:text-3xl font-semibold">Our Impact</h1>
+        <h2 class="text-xl md:text-3xl font-semibold">Our Impact</h2>
         <div class="flex md:flex-row flex-col gap-5 w-full justify-center items-stretch">
           <div class="flex flex-col items-center px-2 md:w-48 min-w-0 mt-6 md:mt-0">
             <img
@@ -799,7 +799,7 @@
             class="left-1 absolute top-[32%] md:left-6 md:top-[80%] w-0 h-0 border-l-[0.75rem] md:border-l-[1.5rem] border-l-transparent border-r-[0.75rem] md:border-r-[1.5rem] border-r-transparent border-t-[1.25rem] md:border-t-[2.5rem] border-t-[#BEEDB9]/70 mx-auto -mt-1 md:-mt-2 rotate-180"
           ></div>
         </div>
-        <h1 class="text-xl md:text-3xl font-semibold">Meet Our Team</h1>
+        <h2 class="text-xl md:text-3xl font-semibold">Meet Our Team</h2>
         <p class="mt-4 md:w-[70%] text-center text-xs font-medium md:text-[1rem]">
           Our diverse team of licensed experts is committed to delivering personalized care through collaboration,
           compassion, and innovation
@@ -830,7 +830,7 @@
             <circle cx="60" cy="60" fill="#D2ADFE" r="48"></circle>
           </svg>
         </div>
-        <h1 class="text-xl md:text-3xl font-semibold">Work with Us</h1>
+        <h2 class="text-xl md:text-3xl font-semibold">Work with Us</h2>
         <p class="text-xs md:text-sm md:w-[40%] mt-2 italic text-center">
           We are always seeking young, enthusiastic, and credible professionals to join our mission.
         </p>

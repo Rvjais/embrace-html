@@ -6,7 +6,7 @@
     <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
-      content="eMbrace in the news — media features, press coverage &amp; mental health awareness campaigns. See how we're shaping the conversation on neurodiversity."
+      content="eMbrace in the news — media features, press coverage &amp; mental health awareness campaigns. See how we're shaping the conversation on neurodiversity. Delhi NCR."
       name="description"
     />
     <meta content="index, follow" name="robots" />
@@ -14,9 +14,9 @@
     <!-- Open Graph -->
     <meta content="website" property="og:type" />
     <meta content="https://embracelives.com/media" property="og:url" />
-    <meta content="Media &amp; News | eMbrace Lives in the Press" property="og:title" />
+    <meta content="Media &amp; News | A Guide from eMbrace Psychologists | eMbrace" property="og:title" />
     <meta
-      content="eMbrace in the news — media features, press coverage &amp; mental health awareness campaigns. See how we're shaping the conversation on neurodiversity."
+      content="eMbrace in the news — media features, press coverage &amp; mental health awareness campaigns. See how we're shaping the conversation on neurodiversity. Delhi NCR."
       property="og:description"
     />
     <meta content="https://embracelives.com/og-image.png" property="og:image" />
@@ -26,14 +26,14 @@
     <meta content="en_IN" property="og:locale" />
     <!-- Twitter Card -->
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="Media &amp; News | eMbrace Lives in the Press" name="twitter:title" />
+    <meta content="Media &amp; News | A Guide from eMbrace Psychologists | eMbrace" name="twitter:title" />
     <meta
-      content="eMbrace in the news — media features, press coverage &amp; mental health awareness campaigns. See how we're shaping the conversation on neurodiversity."
+      content="eMbrace in the news — media features, press coverage &amp; mental health awareness campaigns. See how we're shaping the conversation on neurodiversity. Delhi NCR."
       name="twitter:description"
     />
     <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
     <!-- JSON-LD Structured Data -->
-<title>Media &amp; News | eMbrace Lives in the Press</title>
+<title>Media &amp; News | A Guide from eMbrace Psychologists | eMbrace</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
@@ -316,7 +316,7 @@
         "@type": "CollectionPage",
         "@id": "https://embracelives.com/media#webpage",
         "url": "https://embracelives.com/media",
-        "name": "Media & News | eMbrace Lives in the Press",
+        "name": "Media & News | A Guide from eMbrace Psychologists | eMbrace",
         "isPartOf": {
           "@id": "https://embracelives.com/#website"
         },
@@ -324,7 +324,7 @@
           "@id": "https://embracelives.com/#organization"
         },
         "inLanguage": "en-IN",
-        "description": "eMbrace in the news — media features, press coverage & mental health awareness campaigns. See how we're shaping the conversation on neurodiversity."
+        "description": "eMbrace in the news — media features, press coverage & mental health awareness campaigns. See how we're shaping the conversation on neurodiversity. Delhi NCR."
       }
     ]
   }
@@ -373,7 +373,7 @@
           }
         </style>
         <div class="bg-[linear-gradient(to_bottom,_#6DD0FC45,_#FFFFFF)] px-4 py-6 text-center pt-15 lg:pb-10">
-          <h4 class="text-black text-lg lg:text-2xl font-bold">Media Spotlight: eMbrace in the News</h4>
+          <h1 class="text-black text-lg lg:text-2xl font-bold">Media Spotlight: eMbrace in the News</h1>
           <p class="text-sm italic pt-1 lg:pt-2">Our voice across platforms.</p>
           <p class="text-xs text-[#403D3D] pt-2 px-5 italic lg:w-[38%] mx-auto">
             Explore how eMbrace is shaping the conversation on mental health, neurodiversity, and inclusion across

@@ -6,7 +6,7 @@
     <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
-      content="Understand eMbrace booking, cancellation &amp; refund policies for therapy sessions. Learn about rescheduling, payment terms &amp; session guidelines."
+      content="Understand eMbrace booking, cancellation &amp; refund policies for therapy sessions. Learn about rescheduling, payment terms &amp; session guidelines. Delhi NCR."
       name="description"
     />
     <meta content="index, follow" name="robots" />
@@ -14,9 +14,9 @@
     <!-- Open Graph -->
     <meta content="website" property="og:type" />
     <meta content="https://embracelives.com/bookingandCancellation" property="og:url" />
-    <meta content="Booking &amp; Cancellation Policy | eMbrace Lives" property="og:title" />
+    <meta content="Booking &amp; Cancellation Policy | RCI-Certified Team | eMbrace" property="og:title" />
     <meta
-      content="Understand eMbrace booking, cancellation &amp; refund policies for therapy sessions. Learn about rescheduling, payment terms &amp; session guidelines."
+      content="Understand eMbrace booking, cancellation &amp; refund policies for therapy sessions. Learn about rescheduling, payment terms &amp; session guidelines. Delhi NCR."
       property="og:description"
     />
     <meta content="https://embracelives.com/og-image.png" property="og:image" />
@@ -26,14 +26,14 @@
     <meta content="en_IN" property="og:locale" />
     <!-- Twitter Card -->
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="Booking &amp; Cancellation Policy | eMbrace Lives" name="twitter:title" />
+    <meta content="Booking &amp; Cancellation Policy | RCI-Certified Team | eMbrace" name="twitter:title" />
     <meta
-      content="Understand eMbrace booking, cancellation &amp; refund policies for therapy sessions. Learn about rescheduling, payment terms &amp; session guidelines."
+      content="Understand eMbrace booking, cancellation &amp; refund policies for therapy sessions. Learn about rescheduling, payment terms &amp; session guidelines. Delhi NCR."
       name="twitter:description"
     />
     <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
     <!-- JSON-LD Structured Data -->
-<title>Booking &amp; Cancellation Policy | eMbrace Lives</title>
+<title>Booking &amp; Cancellation Policy | RCI-Certified Team | eMbrace</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
@@ -316,7 +316,7 @@
         "@type": "WebPage",
         "@id": "https://embracelives.com/bookingandCancellation#webpage",
         "url": "https://embracelives.com/bookingandCancellation",
-        "name": "Booking & Cancellation Policy | eMbrace Lives",
+        "name": "Booking & Cancellation Policy | RCI-Certified Team | eMbrace",
         "isPartOf": {
           "@id": "https://embracelives.com/#website"
         },
@@ -324,7 +324,7 @@
           "@id": "https://embracelives.com/#organization"
         },
         "inLanguage": "en-IN",
-        "description": "Understand eMbrace booking, cancellation & refund policies for therapy sessions. Learn about rescheduling, payment terms & session guidelines."
+        "description": "Understand eMbrace booking, cancellation & refund policies for therapy sessions. Learn about rescheduling, payment terms & session guidelines. Delhi NCR."
       }
     ]
   }
@@ -335,9 +335,9 @@
     <div id="root">
       <?php include __DIR__ . '/components/header.php'; ?>
       <div class="flex flex-col items-center justify-center bg-white px-4 py-6 max-w-6xl mx-auto">
-        <h4 class="text-lg text-black mx-auto py-2 font-bold text-center lg:text-2xl">
+        <h1 class="text-lg text-black mx-auto py-2 font-bold text-center lg:text-2xl">
           Booking &amp; Cancellation of Services
-        </h4>
+        </h1>
         <p class="text-sm text-[#403D3D] text-left [word-spacing:0.4em] pt-2">
           Users can book therapy sessions using their registered Account. Users can opt for different therapy packages
           depending on their needs and requirements. All payments are to be made in advance. Every therapy session is

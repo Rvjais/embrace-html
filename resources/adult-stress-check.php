@@ -3,22 +3,22 @@
 <head>
 <meta charset="utf-8"/>
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
-<meta content="Free 3-minute stress, anxiety and burnout self-check for adults. Get four separate scores — worry, mood, body and sleep, and burnout — plus a 7-day reset plan from eMbrace's clinical psychologists in Delhi." name="description"/>
+<meta content="Free 3-minute self-check giving four separate scores: worry, mood, body and sleep, and burnout. Private, instant, and paired with a free 7-Day Reset Plan." name="description"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="index, follow" name="robots"/>
 <link href="https://embracelives.com/resources/adult-stress-check" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/resources/adult-stress-check" property="og:url"/>
-<meta content="Free Stress, Anxiety &amp; Burnout Self-Check for Adults | eMbrace Delhi" property="og:title"/>
-<meta content="17 questions, four scores, and a 7-day reset plan. Private, free, and no sign-up needed to see your result." property="og:description"/>
+<meta content="Free Stress, Anxiety &amp; Burnout Self-Check | eMbrace" property="og:title"/>
+<meta content="Free 3-minute self-check giving four separate scores: worry, mood, body and sleep, and burnout. Private, instant, and paired with a free 7-Day Reset Plan." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Free Stress, Anxiety &amp; Burnout Self-Check for Adults | eMbrace Delhi" name="twitter:title"/>
-<meta content="17 questions, four scores, and a 7-day reset plan. Private and free." name="twitter:description"/>
+<meta content="Free Stress, Anxiety &amp; Burnout Self-Check | eMbrace" name="twitter:title"/>
+<meta content="Free 3-minute self-check giving four separate scores: worry, mood, body and sleep, and burnout. Private, instant, and paired with a free 7-Day Reset Plan." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Free Stress, Anxiety &amp; Burnout Self-Check for Adults | eMbrace Delhi</title>
+<title>Free Stress, Anxiety &amp; Burnout Self-Check | eMbrace</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -304,7 +304,7 @@
       "@type": "WebPage",
       "@id": "https://embracelives.com/resources/adult-stress-check#webpage",
       "url": "https://embracelives.com/resources/adult-stress-check",
-      "name": "Free Stress, Anxiety & Burnout Self-Check for Adults | eMbrace Delhi",
+      "name": "Free Stress, Anxiety & Burnout Self-Check | eMbrace",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -312,7 +312,7 @@
         "@id": "https://embracelives.com/#organization"
       },
       "inLanguage": "en-IN",
-      "description": "Free 3-minute stress, anxiety and burnout self-check for adults. Get four separate scores — worry, mood, body and sleep, and burnout — plus a 7-day reset plan from eMbrace's clinical psychologists in Delhi."
+      "description": "Free 3-minute self-check giving four separate scores: worry, mood, body and sleep, and burnout. Private, instant, and paired with a free 7-Day Reset Plan."
     }
   ]
 }

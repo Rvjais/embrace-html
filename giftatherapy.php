@@ -14,7 +14,7 @@
     <!-- Open Graph -->
     <meta content="website" property="og:type" />
     <meta content="https://embracelives.com/giftatherapy" property="og:url" />
-    <meta content="Gift a Therapy Session | eMbrace Lives" property="og:title" />
+    <meta content="Gift a Therapy Session | eMbrace Child Psychology, Delhi NCR" property="og:title" />
     <meta
       content="Give the gift of mental well-being. Purchase therapy gift vouchers from eMbrace — a thoughtful, meaningful gift for loved ones in Delhi &amp; across India."
       property="og:description"
@@ -26,14 +26,14 @@
     <meta content="en_IN" property="og:locale" />
     <!-- Twitter Card -->
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="Gift a Therapy Session | eMbrace Lives" name="twitter:title" />
+    <meta content="Gift a Therapy Session | eMbrace Child Psychology, Delhi NCR" name="twitter:title" />
     <meta
       content="Give the gift of mental well-being. Purchase therapy gift vouchers from eMbrace — a thoughtful, meaningful gift for loved ones in Delhi &amp; across India."
       name="twitter:description"
     />
     <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
     <!-- JSON-LD Structured Data -->
-<title>Gift a Therapy Session | eMbrace Lives</title>
+<title>Gift a Therapy Session | eMbrace Child Psychology, Delhi NCR</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
@@ -316,7 +316,7 @@
         "@type": "WebPage",
         "@id": "https://embracelives.com/giftatherapy#webpage",
         "url": "https://embracelives.com/giftatherapy",
-        "name": "Gift a Therapy Session | eMbrace Lives",
+        "name": "Gift a Therapy Session | eMbrace Child Psychology, Delhi NCR",
         "isPartOf": {
           "@id": "https://embracelives.com/#website"
         },

@@ -4,21 +4,21 @@
 <meta charset="utf-8"/>
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Free 3-minute ADHD and autism early-signs screener for parents. Profiles attention, impulsivity, social communication and sensory patterns, then explains exactly what an assessment in Delhi involves. Built by eMbrace's RCI-certified clinical psychologists." name="description"/>
+<meta content="Free 3-minute ADHD and autism early-signs screener for parents. Four behaviour clusters profiled, plus a straight answer on whether an assessment is worth it." name="description"/>
 <meta content="index, follow" name="robots"/>
 <link href="https://embracelives.com/resources/adhd-autism-screener" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/resources/adhd-autism-screener" property="og:url"/>
-<meta content="Free ADHD &amp; Autism Early-Signs Screener for Parents | eMbrace Delhi" property="og:title"/>
-<meta content="17 questions, four behaviour profiles, and a clear answer on whether an assessment is worth booking. Free, private, no sign-up to see your result." property="og:description"/>
+<meta content="Free ADHD &amp; Autism Screener for Parents | eMbrace Delhi" property="og:title"/>
+<meta content="Free 3-minute ADHD and autism early-signs screener for parents. Four behaviour clusters profiled, plus a straight answer on whether an assessment is worth it." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Free ADHD &amp; Autism Early-Signs Screener for Parents | eMbrace Delhi" name="twitter:title"/>
-<meta content="17 questions, four behaviour profiles, and a clear answer on whether an assessment is worth booking." name="twitter:description"/>
+<meta content="Free ADHD &amp; Autism Screener for Parents | eMbrace Delhi" name="twitter:title"/>
+<meta content="Free 3-minute ADHD and autism early-signs screener for parents. Four behaviour clusters profiled, plus a straight answer on whether an assessment is worth it." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Free ADHD &amp; Autism Early-Signs Screener for Parents | eMbrace Delhi</title>
+<title>Free ADHD &amp; Autism Screener for Parents | eMbrace Delhi</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -304,7 +304,7 @@
       "@type": "WebPage",
       "@id": "https://embracelives.com/resources/adhd-autism-screener#webpage",
       "url": "https://embracelives.com/resources/adhd-autism-screener",
-      "name": "Free ADHD & Autism Early-Signs Screener for Parents | eMbrace Delhi",
+      "name": "Free ADHD & Autism Screener for Parents | eMbrace Delhi",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -312,7 +312,7 @@
         "@id": "https://embracelives.com/#organization"
       },
       "inLanguage": "en-IN",
-      "description": "Free 3-minute ADHD and autism early-signs screener for parents. Profiles attention, impulsivity, social communication and sensory patterns, then explains exactly what an assessment in Delhi involves. Built by eMbrace's RCI-certified clinical psychologists."
+      "description": "Free 3-minute ADHD and autism early-signs screener for parents. Four behaviour clusters profiled, plus a straight answer on whether an assessment is worth it."
     }
   ]
 }

@@ -4,19 +4,19 @@
 <meta charset="utf-8"/>
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Free mental health tools from eMbrace's clinical psychologists in Delhi — a child development milestone checker, an ADHD and autism early-signs screener, and an adult stress, anxiety and burnout self-check. Instant results, no sign-up." name="description"/>
+<meta content="Three free clinician-built screeners: child milestones, ADHD and autism early signs, and adult stress and burnout. Instant results, no sign-up needed." name="description"/>
 <meta content="index, follow" name="robots"/>
 <link href="https://embracelives.com/resources" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/resources" property="og:url"/>
 <meta content="Free Mental Health Tools &amp; Screeners | eMbrace Delhi" property="og:title"/>
-<meta content="Three free clinician-built tools: child milestone checker, ADHD &amp; autism screener, and an adult stress and burnout self-check. Results in 3 minutes." property="og:description"/>
+<meta content="Three free clinician-built screeners: child milestones, ADHD and autism early signs, and adult stress and burnout. Instant results, no sign-up needed." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="Free Mental Health Tools &amp; Screeners | eMbrace Delhi" name="twitter:title"/>
-<meta content="Three free clinician-built tools with instant results and no sign-up." name="twitter:description"/>
+<meta content="Three free clinician-built screeners: child milestones, ADHD and autism early signs, and adult stress and burnout. Instant results, no sign-up needed." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
 <title>Free Mental Health Tools &amp; Screeners | eMbrace Delhi</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
@@ -312,7 +312,7 @@
         "@id": "https://embracelives.com/#organization"
       },
       "inLanguage": "en-IN",
-      "description": "Free mental health tools from eMbrace's clinical psychologists in Delhi — a child development milestone checker, an ADHD and autism early-signs screener, and an adult stress, anxiety and burnout self-check. Instant results, no sign-up."
+      "description": "Three free clinician-built screeners: child milestones, ADHD and autism early signs, and adult stress and burnout. Instant results, no sign-up needed."
     }
   ]
 }

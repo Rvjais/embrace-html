@@ -64,6 +64,41 @@
     </div>
     <div class="relative group">
       <a class="nav-link px-3 py-2 rounded-lg hover:text-[#234394] transition-all duration-200 cursor-pointer flex items-center gap-1"
+        data-discover="true" href="/child-development-centre/child-development-centre.php">Child Development<svg
+          class="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor"
+          stroke-width="2" viewbox="0 0 24 24">
+          <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg></a>
+      <div
+        class="absolute left-0 top-full pt-4 w-72 opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto pointer-events-none transition-all duration-300 z-50">
+        <div class="glass-dropdown rounded-2xl py-3">
+          <a class="block px-5 py-2.5 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2 font-semibold"
+            data-discover="true" href="/child-development-centre/child-development-centre.php">Child Development Centre</a>
+          <div class="h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent mx-3 my-1"></div>
+          <a class="block px-5 py-2 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2"
+            data-discover="true" href="/developmental-delay/developmental-delay-treatment.php">Developmental Delay</a><a
+            class="block px-5 py-2 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2"
+            data-discover="true" href="/intellectual-disability/intellectual-disability-treatment.php">Intellectual Disability</a><a
+            class="block px-5 py-2 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2"
+            data-discover="true" href="/down-syndrome/down-syndrome-treatment.php">Down Syndrome</a><a
+            class="block px-5 py-2 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2"
+            data-discover="true" href="/oral-motor-therapy/oral-motor-therapy.php">Oral Motor &amp; Feeding</a><a
+            class="block px-5 py-2 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2"
+            data-discover="true" href="/aba-therapy/aba-therapy.php">ABA Therapy</a><a
+            class="block px-5 py-2 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2"
+            data-discover="true" href="/physiotherapy/physiotherapy.php">Physiotherapy</a>
+          <div class="h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent mx-3 my-1"></div>
+          <a class="block px-5 py-2.5 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2 text-xs font-semibold tracking-wide text-[#234394]/60 uppercase"
+            data-discover="true">Medical Specialists</a><a
+            class="block px-5 py-2 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2"
+            data-discover="true" href="/pediatric-neurology/pediatric-neurologist.php">Pediatric Neurologist</a><a
+            class="block px-5 py-2 hover:bg-[#234394]/10 text-[#403D3D] hover:text-[#234394] transition-all duration-200 rounded-lg mx-2"
+            data-discover="true" href="/developmental-pediatrics/developmental-pediatrician.php">Developmental Pediatrician</a>
+        </div>
+      </div>
+    </div>
+    <div class="relative group">
+      <a class="nav-link px-3 py-2 rounded-lg hover:text-[#234394] transition-all duration-200 cursor-pointer flex items-center gap-1"
         data-discover="true" href="/adult.php">For Adults<svg
           class="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor"
           stroke-width="2" viewbox="0 0 24 24">
@@ -204,6 +239,35 @@
             href="/child-psychology/child-counselling.php">Child Psychology Hub</a><a
             class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
             href="/teen-mental-health/teen-counselling.php">Teen Mental Health Hub</a>
+        </div>
+      </details>
+    </div>
+    <div class="">
+      <details class="group">
+        <summary class="hover:text-[#234394] cursor-pointer flex items-center gap-2 py-1">Child Development <svg
+            class="w-3 h-3 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor"
+            stroke-width="2" viewbox="0 0 24 24">
+            <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg></summary>
+        <div class="flex flex-col ml-4 mt-2 gap-0.5 border-l-2 border-[#234394]/20 pl-3">
+          <a class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
+            href="/child-development-centre/child-development-centre.php">Child Development Centre</a><a
+            class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
+            href="/developmental-delay/developmental-delay-treatment.php">Developmental Delay</a><a
+            class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
+            href="/intellectual-disability/intellectual-disability-treatment.php">Intellectual Disability</a><a
+            class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
+            href="/down-syndrome/down-syndrome-treatment.php">Down Syndrome</a><a
+            class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
+            href="/oral-motor-therapy/oral-motor-therapy.php">Oral Motor &amp; Feeding</a><a
+            class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
+            href="/aba-therapy/aba-therapy.php">ABA Therapy</a><a
+            class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
+            href="/physiotherapy/physiotherapy.php">Physiotherapy</a><a
+            class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
+            href="/pediatric-neurology/pediatric-neurologist.php">Pediatric Neurologist</a><a
+            class="hover:text-[#234394] py-1 hover:translate-x-1 transition-all" data-discover="true"
+            href="/developmental-pediatrics/developmental-pediatrician.php">Developmental Pediatrician</a>
         </div>
       </details>
     </div>

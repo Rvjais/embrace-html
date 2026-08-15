@@ -11,7 +11,7 @@
 <!-- Open Graph -->
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/" property="og:url"/>
-<meta content="eMbrace Lives | Best Psychologist in Delhi – Clinical &amp; Child Psychology" property="og:title"/>
+<meta content="Best Child Psychologist in Delhi NCR | eMbrace Lives" property="og:title"/>
 <meta content="eMbrace – Delhi's trusted psychology practice. Evidence-based therapy for anxiety, depression, ADHD, autism &amp; more. Consult top clinical &amp; child psychologists." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="1200" property="og:image:width"/>
@@ -20,11 +20,11 @@
 <meta content="en_IN" property="og:locale"/>
 <!-- Twitter Card -->
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="eMbrace Lives | Best Psychologist in Delhi – Clinical &amp; Child Psychology" name="twitter:title"/>
+<meta content="Best Child Psychologist in Delhi NCR | eMbrace Lives" name="twitter:title"/>
 <meta content="eMbrace – Delhi's trusted psychology practice. Evidence-based therapy for anxiety, depression, ADHD, autism &amp; more. Consult top clinical &amp; child psychologists." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
 <!-- JSON-LD Structured Data -->
-<title>eMbrace Lives | Best Psychologist in Delhi – Clinical &amp; Child Psychology</title>
+<title>Best Child Psychologist in Delhi NCR | eMbrace Lives</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -338,7 +338,7 @@
       "@type": "WebPage",
       "@id": "https://embracelives.com/#webpage",
       "url": "https://embracelives.com/",
-      "name": "eMbrace Lives | Best Psychologist in Delhi – Clinical & Child Psychology",
+      "name": "Best Child Psychologist in Delhi NCR | eMbrace Lives",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -352,7 +352,7 @@
       "@type": "FAQPage",
       "@id": "https://embracelives.com/#faq",
       "url": "https://embracelives.com/",
-      "name": "eMbrace Lives | Best Psychologist in Delhi – Clinical & Child Psychology — Frequently Asked Questions",
+      "name": "Best Child Psychologist in Delhi NCR | eMbrace Lives — Frequently Asked Questions",
       "isPartOf": {
         "@id": "https://embracelives.com/#webpage"
       },
@@ -1040,7 +1040,7 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 M</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Mr. Andrew">Mr. Andrew</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Mr. Andrew">Mr. Andrew</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="Unit Chief for Bhutan, U.S. Embassy">Unit Chief for Bhutan, U.S. Embassy</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★★</div>
 </div>
@@ -1064,7 +1064,7 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 M</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Ms. Sara">Ms. Sara</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Ms. Sara">Ms. Sara</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="eMbrace Client">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★★</div>
@@ -1091,8 +1091,8 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 M</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Mr. Vidyanand Chaudhary">Mr. Vidyanand
-                  Chaudhary</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Mr. Vidyanand Chaudhary">Mr. Vidyanand
+                  Chaudhary</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="eMbrace Client">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★★</div>
@@ -1122,7 +1122,7 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 R</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Raji Siva">Raji Siva</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Raji Siva">Raji Siva</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="Head of Learning Support, Woodstock School, Mussoorie">Head of Learning Support, Woodstock
                   School, Mussoorie</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★★</div>
@@ -1151,8 +1151,8 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 M</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Ms. Priyanka Sundaram">Ms. Priyanka
-                  Sundaram</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Ms. Priyanka Sundaram">Ms. Priyanka
+                  Sundaram</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="eMbrace Client">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★☆</div>
@@ -1176,7 +1176,7 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 M</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Ms. Tarini Lamba">Ms. Tarini Lamba</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Ms. Tarini Lamba">Ms. Tarini Lamba</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="eMbrace Client">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★★</div>
@@ -1201,7 +1201,7 @@
 <div class="w-12 h-12 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-xl">
                 M</div>
 <div class="flex flex-col">
-<h1 class="text-md md:text-lg font-bold line-clamp-1" title="Maami Aba Ahoma">Maami Aba Ahoma</h1>
+<h2 class="text-md md:text-lg font-bold line-clamp-1" title="Maami Aba Ahoma">Maami Aba Ahoma</h2>
 <p class="text-xs md:text-sm font-semibold text-[#403D3D] line-clamp-1" title="Ghana">Ghana</p>
 <div class="flex text-yellow-400 mt-1 text-sm">★★★★★</div>
 </div>
@@ -1869,7 +1869,7 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">M</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Mr. Andrew</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Mr. Andrew</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">Unit Chief for Bhutan, U.S. Embassy</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
 </div>
@@ -1890,7 +1890,7 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">M</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Ms. Sara</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Ms. Sara</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
@@ -1914,8 +1914,8 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">M</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Mr. Vidyanand
-                  Chaudhary</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Mr. Vidyanand
+                  Chaudhary</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
@@ -1942,7 +1942,7 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">R</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Raji Siva</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Raji Siva</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">Head of Learning Support, Woodstock
                   School, Mussoorie</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
@@ -1968,8 +1968,8 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">M</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Ms. Priyanka
-                  Sundaram</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Ms. Priyanka
+                  Sundaram</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
@@ -1990,7 +1990,7 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">M</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Ms. Tarini Lamba</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Ms. Tarini Lamba</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">eMbrace
                   Client</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
@@ -2012,7 +2012,7 @@
 <div class="flex flex-row items-center space-x-4 mb-6 pb-6 border-b border-gray-100 flex-shrink-0">
 <div class="w-16 h-16 rounded-full bg-[#FEE5EC] flex-shrink-0 flex items-center justify-center font-bold text-[#dc649c] text-2xl">M</div>
 <div class="flex flex-col">
-<h1 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Maami Aba Ahoma</h1>
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 line-clamp-1">Maami Aba Ahoma</h2>
 <p class="text-sm sm:text-base font-medium text-gray-500 line-clamp-1">Ghana</p>
 <div class="flex text-yellow-400 mt-2 text-lg">★★★★★</div>
 </div>

@@ -14,7 +14,7 @@
     <!-- Open Graph -->
     <meta content="website" property="og:type" />
     <meta content="https://embracelives.com/appointment" property="og:url" />
-    <meta content="Book an Appointment | eMbrace Lives" property="og:title" />
+    <meta content="Book an Appointment | eMbrace Child Psychology, Delhi NCR" property="og:title" />
     <meta
       content="Schedule your therapy session with eMbrace. Book online or in-person appointments with our clinical psychologists, child therapists &amp; counsellors in Delhi."
       property="og:description"
@@ -26,14 +26,14 @@
     <meta content="en_IN" property="og:locale" />
     <!-- Twitter Card -->
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="Book an Appointment | eMbrace Lives" name="twitter:title" />
+    <meta content="Book an Appointment | eMbrace Child Psychology, Delhi NCR" name="twitter:title" />
     <meta
       content="Schedule your therapy session with eMbrace. Book online or in-person appointments with our clinical psychologists, child therapists &amp; counsellors in Delhi."
       name="twitter:description"
     />
     <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
     <!-- JSON-LD Structured Data -->
-<title>Book an Appointment | eMbrace Lives</title>
+<title>Book an Appointment | eMbrace Child Psychology, Delhi NCR</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
@@ -612,7 +612,7 @@
         "@type": "WebPage",
         "@id": "https://embracelives.com/appointment#webpage",
         "url": "https://embracelives.com/appointment",
-        "name": "Book an Appointment | eMbrace Lives",
+        "name": "Book an Appointment | eMbrace Child Psychology, Delhi NCR",
         "isPartOf": {
           "@id": "https://embracelives.com/#website"
         },
@@ -647,7 +647,7 @@
              <div id="page-content-new" class="transition-opacity duration-300">
                 
                 <div class="form-header">
-                  <h2 class="form-title">Schedule Your Consultation</h2>
+                  <h1 class="form-title">Schedule Your Consultation</h1>
                   <p class="form-subtitle">Please fill out the form below. Our intake coordinators will review your details and align you with the right specialist.</p>
                 </div>
 
@@ -698,7 +698,6 @@
                           <option value="vasant_kunj">eMbrace Vasant Kunj</option>
                           <option value="dlf_gurgaon">eMbrace DLF City Court, Gurgaon</option>
                           <option value="rainbow_hospital">eMbrace Rainbow Children's Hospital</option>
-                          <option value="makkar_hospital">eMbrace Makkar Hospital</option>
                         </select>
                       </div>
 
