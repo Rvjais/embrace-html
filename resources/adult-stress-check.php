@@ -654,7 +654,7 @@
     },
 
     guide: {
-      url: '/resources/guides/7-day-reset-plan.php',
+      url: '/resources/guides/7-day-reset-plan',
       title: 'the 7-Day Reset Plan',
     },
   });

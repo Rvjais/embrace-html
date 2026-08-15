@@ -657,7 +657,7 @@
     },
 
     guide: {
-      url: '/resources/guides/child-milestone-guide.php',
+      url: '/resources/guides/child-milestone-guide',
       title: 'the Milestone Guide',
     },
   });

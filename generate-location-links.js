@@ -43,6 +43,16 @@ const SERVICES = [
   ['speech-therapy', 'Speech Therapy', 'speech and language therapy'],
   ['occupational-therapy', 'Occupational Therapy', 'occupational therapy'],
   ['special-education', 'Special Education', 'special education support'],
+  // Child development services, Delhi and Gurgaon only for now.
+  ['developmental-delay-treatment', 'Developmental Delay Treatment', 'developmental delay treatment'],
+  ['intellectual-disability-treatment', 'Intellectual Disability Treatment', 'intellectual disability support'],
+  ['down-syndrome-treatment', 'Down Syndrome Treatment', 'Down syndrome therapy'],
+  ['oral-motor-therapy', 'Oral Motor Delay Treatment', 'oral motor and feeding therapy'],
+  ['aba-therapy', 'ABA Therapy', 'ABA therapy'],
+  ['physiotherapy', 'Physiotherapy', 'physiotherapy'],
+  ['pediatric-neurologist', 'Pediatric Neurologist', 'paediatric neurology'],
+  ['developmental-pediatrician', 'Developmental Pediatrician', 'developmental paediatrics'],
+  ['child-development-centre', 'Child Development Centre', 'child development services'],
 ];
 
 const SERVICE_LABEL = Object.fromEntries(SERVICES.map(([s, l]) => [s, l]));
@@ -190,7 +200,17 @@ const END = '<!-- LOCATION-LINKS:END -->';
 
 const FOOTER_INCLUDE = /^([ \t]*)(<\?php\s+include\s+__DIR__\s*\.\s*'\/(?:\.\.\/)?components\/footer\.php';\s*\?>)/m;
 
+/**
+ * Not every service exists in every area: the child development services
+ * currently have Delhi and Gurgaon pages only. Linking the whole matrix would
+ * emit dozens of links to pages that do not exist, so every combination is
+ * checked against disk first.
+ */
+const pageExists = (service, area) =>
+  fs.existsSync(path.join(__dirname, 'locations', `${service}-in-${area}.php`));
+
 function link(service, area) {
+  if (!pageExists(service, area)) return null;
   return `<li><a href="/locations/${service}-in-${area}">${SERVICE_LABEL[service]} in ${AREA_LABEL[area]}</a></li>`;
 }
 

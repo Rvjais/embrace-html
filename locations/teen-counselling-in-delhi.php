@@ -638,6 +638,15 @@
         <li><a href="/locations/speech-therapy-in-delhi">Speech Therapy in Delhi</a></li>
         <li><a href="/locations/occupational-therapy-in-delhi">Occupational Therapy in Delhi</a></li>
         <li><a href="/locations/special-education-in-delhi">Special Education in Delhi</a></li>
+        <li><a href="/locations/developmental-delay-treatment-in-delhi">Developmental Delay Treatment in Delhi</a></li>
+        <li><a href="/locations/intellectual-disability-treatment-in-delhi">Intellectual Disability Treatment in Delhi</a></li>
+        <li><a href="/locations/down-syndrome-treatment-in-delhi">Down Syndrome Treatment in Delhi</a></li>
+        <li><a href="/locations/oral-motor-therapy-in-delhi">Oral Motor Delay Treatment in Delhi</a></li>
+        <li><a href="/locations/aba-therapy-in-delhi">ABA Therapy in Delhi</a></li>
+        <li><a href="/locations/physiotherapy-in-delhi">Physiotherapy in Delhi</a></li>
+        <li><a href="/locations/pediatric-neurologist-in-delhi">Pediatric Neurologist in Delhi</a></li>
+        <li><a href="/locations/developmental-pediatrician-in-delhi">Developmental Pediatrician in Delhi</a></li>
+        <li><a href="/locations/child-development-centre-in-delhi">Child Development Centre in Delhi</a></li>
       </ul>
     </div>
     <div class="emb-nearby__group">
