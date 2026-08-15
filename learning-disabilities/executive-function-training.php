@@ -422,7 +422,7 @@
           <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Executive Function Training</h1>
           <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto italic">Developing executive function skills essential for academic success and daily independence.</p>
           <div class="mt-8 flex justify-center">
-            <a href="/appointment.php" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
+            <a href="/appointment" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
               Book a Consultation
             </a>
           </div>
@@ -430,9 +430,9 @@
       </div>
       <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
         <div class="max-w-7xl mx-auto flex items-center gap-2">
-          <a class="hover:text-[#234394]" href="/index.php">Home</a>
+          <a class="hover:text-[#234394]" href="/">Home</a>
           <span>/</span>
-          <a class="hover:text-[#234394]" href="/learning-disabilities/specific-learning-disability.php">Learning Disabilities Hub</a>
+          <a class="hover:text-[#234394]" href="/learning-disabilities/specific-learning-disability">Learning Disabilities Hub</a>
           <span>/</span>
           <span class="text-gray-800 font-medium">Executive Function Training</span>
         </div>
@@ -444,47 +444,47 @@
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #234394"></span>Core Concepts</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/specific-learning-disability.php">SLD Support Hub</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/learning-disabilities.php">Learning Disabilities Overview</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/learning-difficulties.php">Learning Difficulties vs Disabilities</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/dyslexia.php">Dyslexia</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/dysgraphia.php">Dysgraphia</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/dyscalculia.php">Dyscalculia</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/reading-disorder.php">Reading Disorder</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/writing-disorder.php">Writing Disorder</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/math-learning-disorder.php">Mathematics Learning Disorder</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/specific-learning-disability">SLD Support Hub</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/learning-disabilities">Learning Disabilities Overview</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/learning-difficulties">Learning Difficulties vs Disabilities</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/dyslexia">Dyslexia</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/dysgraphia">Dysgraphia</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/dyscalculia">Dyscalculia</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/reading-disorder">Reading Disorder</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/writing-disorder">Writing Disorder</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/math-learning-disorder">Mathematics Learning Disorder</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #2EC4B6"></span>Assessment & Testing</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/learning-disability-assessment.php">LD Assessment</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/psychoeducational-assessment.php">Psychoeducational Assessment</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/school-readiness-assessment.php">School Readiness Assessment</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/wisc-v-testing.php">WISC-V Testing</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/learning-disability-assessment">LD Assessment</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/psychoeducational-assessment">Psychoeducational Assessment</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/school-readiness-assessment">School Readiness Assessment</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/wisc-v-testing">WISC-V Testing</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #C499F6"></span>Intervention & Therapy</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/academic-intervention.php">Academic Intervention</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/dyslexia-therapy.php">Dyslexia Therapy</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/reading-intervention.php">Reading Intervention</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/writing-intervention.php">Writing Intervention</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/study-skills-training.php">Study Skills Training</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/learning-disabilities/executive-function-training.php">Executive Function Training</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/academic-intervention">Academic Intervention</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/dyslexia-therapy">Dyslexia Therapy</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/reading-intervention">Reading Intervention</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/writing-intervention">Writing Intervention</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/study-skills-training">Study Skills Training</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/learning-disabilities/executive-function-training">Executive Function Training</a></li>
     </ul>
   </div>
   <div class="mb-6">
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #F2B81B"></span>Educational Support</h3>
     <ul class="space-y-1 ml-2">
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/special-education-support.php">Special Education Support</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/inclusive-education.php">Inclusive Education</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/iep-support.php">IEP Support & Advocacy</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/school-accommodations.php">School Accommodations</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/exam-accommodations.php">Exam Accommodations</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/learning-disability-support.php">LD Support Services</a></li>
-      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/school-performance-problems.php">School Performance Problems</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/special-education-support">Special Education Support</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/inclusive-education">Inclusive Education</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/iep-support">IEP Support & Advocacy</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/school-accommodations">School Accommodations</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/exam-accommodations">Exam Accommodations</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/learning-disability-support">LD Support Services</a></li>
+      <li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/learning-disabilities/school-performance-problems">School Performance Problems</a></li>
     </ul>
   </div></div>
 <div class="w-full md:hidden mb-6 bg-[#F9FBFF] border border-[#E0E6F0] rounded-2xl p-4 shadow-sm">
@@ -497,47 +497,47 @@
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Core Concepts</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/specific-learning-disability.php">SLD Support Hub</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/learning-disabilities.php">Learning Disabilities</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/learning-difficulties.php">Learning Difficulties</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/dyslexia.php">Dyslexia</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/dysgraphia.php">Dysgraphia</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/dyscalculia.php">Dyscalculia</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/reading-disorder.php">Reading Disorder</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/writing-disorder.php">Writing Disorder</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/math-learning-disorder.php">Math Learning Disorder</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/specific-learning-disability">SLD Support Hub</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/learning-disabilities">Learning Disabilities</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/learning-difficulties">Learning Difficulties</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/dyslexia">Dyslexia</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/dysgraphia">Dysgraphia</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/dyscalculia">Dyscalculia</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/reading-disorder">Reading Disorder</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/writing-disorder">Writing Disorder</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/math-learning-disorder">Math Learning Disorder</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Assessment & Testing</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/learning-disability-assessment.php">Learning Disability Assessment</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/psychoeducational-assessment.php">Psychoeducational Assessment</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/school-readiness-assessment.php">School Readiness Assessment</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/wisc-v-testing.php">Wisc V Testing</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/learning-disability-assessment">Learning Disability Assessment</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/psychoeducational-assessment">Psychoeducational Assessment</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/school-readiness-assessment">School Readiness Assessment</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/wisc-v-testing">Wisc V Testing</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Intervention & Therapy</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/academic-intervention.php">Academic Intervention</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/dyslexia-therapy.php">Dyslexia Therapy</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/reading-intervention.php">Reading Intervention</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/writing-intervention.php">Writing Intervention</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/study-skills-training.php">Study Skills Training</a></li>
-          <li><a class="block py-1 text-xs text-[#234394] font-bold" href="/learning-disabilities/executive-function-training.php">Executive Function Training</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/academic-intervention">Academic Intervention</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/dyslexia-therapy">Dyslexia Therapy</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/reading-intervention">Reading Intervention</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/writing-intervention">Writing Intervention</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/study-skills-training">Study Skills Training</a></li>
+          <li><a class="block py-1 text-xs text-[#234394] font-bold" href="/learning-disabilities/executive-function-training">Executive Function Training</a></li>
         </ul>
       </div>
       <div class="mb-4">
         <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Educational Support</h4>
         <ul class="space-y-1 ml-1">
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/special-education-support.php">Special Education Support</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/inclusive-education.php">Inclusive Education</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/iep-support.php">Iep Support</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/school-accommodations.php">School Accommodations</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/exam-accommodations.php">Exam Accommodations</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/learning-disability-support.php">Learning Disability Support</a></li>
-          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/school-performance-problems.php">School Performance Problems</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/special-education-support">Special Education Support</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/inclusive-education">Inclusive Education</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/iep-support">Iep Support</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/school-accommodations">School Accommodations</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/exam-accommodations">Exam Accommodations</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/learning-disability-support">Learning Disability Support</a></li>
+          <li><a class="block py-1 text-xs text-gray-600" href="/learning-disabilities/school-performance-problems">School Performance Problems</a></li>
         </ul>
       </div>    </div>
   </details>
@@ -606,7 +606,7 @@
             <div class="cta-card my-12">
               <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Speak with a Specialist</h3>
               <p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Get personalised guidance, professional assessment, and structured support at eMbrace Delhi.</p>
-              <a href="/appointment.php" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
+              <a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
                 Schedule an Appointment
               </a>
             </div>

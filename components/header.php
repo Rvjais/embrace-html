@@ -84,51 +84,51 @@
 
 <nav class="glass-nav px-5 md:px-10 py-3 flex items-center justify-between fixed top-0 left-0 right-0 z-100">
   <div class="flex items-center">
-    <a data-discover="true" href="/index.php"><img decoding="async" width="152" height="99"
+    <a data-discover="true" href="/"><img decoding="async" width="152" height="99"
         alt="eMbrace Lives - Psychologist in Delhi" class="h-13 w-auto drop-shadow-md"
         src="/assets/Logo-DrHvIBUF.svg" /></a>
   </div>
 
   <!-- ============================ desktop ============================ -->
   <div class="emb-nav__desktop items-center">
-    <a class="emb-nav__top emb-nav__top--active" data-discover="true" href="/index.php">Home</a>
-    <a class="emb-nav__top" data-discover="true" href="/about.php">About</a>
+    <a class="emb-nav__top emb-nav__top--active" data-discover="true" href="/">Home</a>
+    <a class="emb-nav__top" data-discover="true" href="/about">About</a>
 
     <!-- Child -->
     <div class="emb-nav__item">
-      <a class="emb-nav__top" data-discover="true" href="/children_and_adolescents.php">Child
+      <a class="emb-nav__top" data-discover="true" href="/children_and_adolescents">Child
         <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
       <div class="emb-nav__drop">
         <div class="emb-nav__card">
           <div class="emb-nav__col">
             <p class="emb-nav__coltitle">Child &amp; Adolescence</p>
-            <a class="emb-nav__link emb-nav__link--lead" href="/children_and_adolescents.php">Children &amp; Adolescents</a>
-            <a class="emb-nav__link" href="/children.php">Children</a>
-            <a class="emb-nav__link" href="/adolescents.php">Adolescents</a>
-            <a class="emb-nav__link" href="/teacher.php">Teachers</a>
+            <a class="emb-nav__link emb-nav__link--lead" href="/children_and_adolescents">Children &amp; Adolescents</a>
+            <a class="emb-nav__link" href="/children">Children</a>
+            <a class="emb-nav__link" href="/adolescents">Adolescents</a>
+            <a class="emb-nav__link" href="/teacher">Teachers</a>
           </div>
           <div class="emb-nav__col">
             <p class="emb-nav__coltitle">Child Development</p>
-            <a class="emb-nav__link emb-nav__link--lead" href="/child-development-centre/child-development-centre.php">Child Development Centre</a>
-            <a class="emb-nav__link" href="/adhd/adhd.php">ADHD</a>
-            <a class="emb-nav__link" href="/autism/autism.php">Autism</a>
-            <a class="emb-nav__link" href="/learning-disabilities/learning-disabilities.php">Learning Disabilities</a>
-            <a class="emb-nav__link" href="/speech-therapy/speech-therapy.php">Speech Therapy</a>
-            <a class="emb-nav__link" href="/occupational-therapy/occupational-therapy.php">Occupational Therapy</a>
-            <a class="emb-nav__link" href="/child-psychology/child-counselling.php">Child Psychology</a>
-            <a class="emb-nav__link" href="/teen-mental-health/teen-counselling.php">Teen Mental Health</a>
+            <a class="emb-nav__link emb-nav__link--lead" href="/child-development-centre">Child Development Centre</a>
+            <a class="emb-nav__link" href="/adhd/adhd">ADHD</a>
+            <a class="emb-nav__link" href="/autism/autism">Autism</a>
+            <a class="emb-nav__link" href="/learning-disabilities/learning-disabilities">Learning Disabilities</a>
+            <a class="emb-nav__link" href="/speech-therapy/speech-therapy">Speech Therapy</a>
+            <a class="emb-nav__link" href="/occupational-therapy/occupational-therapy">Occupational Therapy</a>
+            <a class="emb-nav__link" href="/child-psychology/child-counselling">Child Psychology</a>
+            <a class="emb-nav__link" href="/teen-mental-health/teen-counselling">Teen Mental Health</a>
           </div>
           <div class="emb-nav__col">
             <p class="emb-nav__coltitle">Therapies &amp; Specialists</p>
-            <a class="emb-nav__link" href="/developmental-delay/developmental-delay-treatment.php">Developmental Delay</a>
-            <a class="emb-nav__link" href="/intellectual-disability/intellectual-disability-treatment.php">Intellectual Disability</a>
-            <a class="emb-nav__link" href="/down-syndrome/down-syndrome-treatment.php">Down Syndrome</a>
-            <a class="emb-nav__link" href="/oral-motor-therapy/oral-motor-therapy.php">Oral Motor &amp; Feeding</a>
-            <a class="emb-nav__link" href="/aba-therapy/aba-therapy.php">ABA Therapy</a>
-            <a class="emb-nav__link" href="/physiotherapy/physiotherapy.php">Physiotherapy</a>
+            <a class="emb-nav__link" href="/developmental-delay-treatment">Developmental Delay</a>
+            <a class="emb-nav__link" href="/intellectual-disability-treatment">Intellectual Disability</a>
+            <a class="emb-nav__link" href="/down-syndrome-treatment">Down Syndrome</a>
+            <a class="emb-nav__link" href="/oral-motor-therapy">Oral Motor &amp; Feeding</a>
+            <a class="emb-nav__link" href="/aba-therapy">ABA Therapy</a>
+            <a class="emb-nav__link" href="/physiotherapy">Physiotherapy</a>
             <div class="emb-nav__rule"></div>
-            <a class="emb-nav__link" href="/pediatric-neurology/pediatric-neurologist.php">Pediatric Neurologist</a>
-            <a class="emb-nav__link" href="/developmental-pediatrics/developmental-pediatrician.php">Developmental Pediatrician</a>
+            <a class="emb-nav__link" href="/pediatric-neurologist">Pediatric Neurologist</a>
+            <a class="emb-nav__link" href="/developmental-pediatrician">Developmental Pediatrician</a>
           </div>
         </div>
       </div>
@@ -136,21 +136,21 @@
 
     <!-- Adults & Parents -->
     <div class="emb-nav__item">
-      <a class="emb-nav__top" data-discover="true" href="/adult.php">Adults &amp; Parents
+      <a class="emb-nav__top" data-discover="true" href="/adult">Adults &amp; Parents
         <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
       <div class="emb-nav__drop">
         <div class="emb-nav__card">
           <div class="emb-nav__col">
             <p class="emb-nav__coltitle">Adults</p>
-            <a class="emb-nav__link emb-nav__link--lead" href="/adult.php">For Adults</a>
-            <a class="emb-nav__link" href="/individuals.php">Individuals</a>
-            <a class="emb-nav__link" href="/couples.php">Couples &amp; Marriage Counselling</a>
-            <a class="emb-nav__link" href="/adult-mental-health/adult-counselling.php">Adult Mental Health Hub</a>
+            <a class="emb-nav__link emb-nav__link--lead" href="/adult">For Adults</a>
+            <a class="emb-nav__link" href="/individuals">Individuals</a>
+            <a class="emb-nav__link" href="/couples">Couples &amp; Marriage Counselling</a>
+            <a class="emb-nav__link" href="/adult-mental-health/adult-counselling">Adult Mental Health Hub</a>
           </div>
           <div class="emb-nav__col">
             <p class="emb-nav__coltitle">Parents</p>
-            <a class="emb-nav__link emb-nav__link--lead" href="/parent-hub/parents.php">Parent Hub</a>
-            <a class="emb-nav__link" href="/parent.php">For Parents</a>
+            <a class="emb-nav__link emb-nav__link--lead" href="/parent-hub/parents">Parent Hub</a>
+            <a class="emb-nav__link" href="/parent">For Parents</a>
           </div>
         </div>
       </div>
@@ -158,20 +158,20 @@
 
     <!-- Partners -->
     <div class="emb-nav__item">
-      <a class="emb-nav__top" data-discover="true" href="/partners.php">Partners
+      <a class="emb-nav__top" data-discover="true" href="/partners">Partners
         <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
       <div class="emb-nav__drop">
         <div class="emb-nav__card">
           <div class="emb-nav__col">
             <p class="emb-nav__coltitle">School</p>
-            <a class="emb-nav__link emb-nav__link--lead" href="/schools-hub/schools.php">Schools Hub</a>
-            <a class="emb-nav__link" href="/university.php">Universities</a>
+            <a class="emb-nav__link emb-nav__link--lead" href="/schools-hub/schools">Schools Hub</a>
+            <a class="emb-nav__link" href="/university">Universities</a>
           </div>
           <div class="emb-nav__col">
             <p class="emb-nav__coltitle">Business</p>
-            <a class="emb-nav__link emb-nav__link--lead" href="/corporate.php">Corporates</a>
-            <a class="emb-nav__link" href="/corporate-wellness/corporates.php">Corporate Wellness Hub</a>
-            <a class="emb-nav__link" href="/hospitalAndHealthcare.php">Hospital &amp; Healthcare Partnerships</a>
+            <a class="emb-nav__link emb-nav__link--lead" href="/corporate">Corporates</a>
+            <a class="emb-nav__link" href="/corporate-wellness/corporates">Corporate Wellness Hub</a>
+            <a class="emb-nav__link" href="/hospitalAndHealthcare">Hospital &amp; Healthcare Partnerships</a>
           </div>
         </div>
       </div>
@@ -179,16 +179,16 @@
 
     <!-- Free Tools -->
     <div class="emb-nav__item">
-      <a class="emb-nav__top" style="color:#234394;font-weight:600" data-discover="true" href="/resources/index.php">Free Tools
+      <a class="emb-nav__top" style="color:#234394;font-weight:600" data-discover="true" href="/resources">Free Tools
         <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
       <div class="emb-nav__drop">
         <div class="emb-nav__card">
           <div class="emb-nav__col">
-            <a class="emb-nav__link" href="/resources/child-milestone-checker.php">Child Milestone Checker</a>
-            <a class="emb-nav__link" href="/resources/adhd-autism-screener.php">ADHD &amp; Autism Screener</a>
-            <a class="emb-nav__link" href="/resources/adult-stress-check.php">Adult Stress Check</a>
+            <a class="emb-nav__link" href="/resources/child-milestone-checker">Child Milestone Checker</a>
+            <a class="emb-nav__link" href="/resources/adhd-autism-screener">ADHD &amp; Autism Screener</a>
+            <a class="emb-nav__link" href="/resources/adult-stress-check">Adult Stress Check</a>
             <div class="emb-nav__rule"></div>
-            <a class="emb-nav__link emb-nav__link--lead" href="/resources/index.php">All Free Tools</a>
+            <a class="emb-nav__link emb-nav__link--lead" href="/resources">All Free Tools</a>
           </div>
         </div>
       </div>
@@ -196,13 +196,13 @@
 
     <!-- Resources -->
     <div class="emb-nav__item">
-      <a class="emb-nav__top" data-discover="true" href="/media.php">Resources
+      <a class="emb-nav__top" data-discover="true" href="/media">Resources
         <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
       <div class="emb-nav__drop emb-nav__drop--right">
         <div class="emb-nav__card">
           <div class="emb-nav__col">
-            <a class="emb-nav__link" href="/gallery.php">Gallery</a>
-            <a class="emb-nav__link" href="/media.php">Media &amp; News</a>
+            <a class="emb-nav__link" href="/gallery">Gallery</a>
+            <a class="emb-nav__link" href="/media">Media &amp; News</a>
           </div>
         </div>
       </div>
@@ -210,25 +210,25 @@
 
     <!-- Locations -->
     <div class="emb-nav__item">
-      <a class="emb-nav__top" data-discover="true" href="/locations/index.php">Locations
+      <a class="emb-nav__top" data-discover="true" href="/locations">Locations
         <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
       <div class="emb-nav__drop emb-nav__drop--right">
         <div class="emb-nav__card">
           <div class="emb-nav__col">
             <p class="emb-nav__coltitle">Delhi</p>
-            <a class="emb-nav__link emb-nav__link--lead" href="/contact-us.php">Vasant Kunj Centre</a>
-            <a class="emb-nav__link" href="/locations/index.php#saket">Saket</a>
-            <a class="emb-nav__link" href="/locations/index.php#hauz-khas">Hauz Khas</a>
-            <a class="emb-nav__link" href="/locations/index.php#greater-kailash">Greater Kailash</a>
-            <a class="emb-nav__link" href="/locations/index.php#defence-colony">Defence Colony</a>
-            <a class="emb-nav__link" href="/locations/index.php#south-delhi">South Delhi</a>
+            <a class="emb-nav__link emb-nav__link--lead" href="/contact-us">Vasant Kunj Centre</a>
+            <a class="emb-nav__link" href="/locations/#saket">Saket</a>
+            <a class="emb-nav__link" href="/locations/#hauz-khas">Hauz Khas</a>
+            <a class="emb-nav__link" href="/locations/#greater-kailash">Greater Kailash</a>
+            <a class="emb-nav__link" href="/locations/#defence-colony">Defence Colony</a>
+            <a class="emb-nav__link" href="/locations/#south-delhi">South Delhi</a>
           </div>
           <div class="emb-nav__col">
             <p class="emb-nav__coltitle">Gurgaon &amp; NCR</p>
-            <a class="emb-nav__link emb-nav__link--lead" href="/contact-us.php">Gurgaon Centre</a>
-            <a class="emb-nav__link" href="/locations/index.php#noida">Noida</a>
+            <a class="emb-nav__link emb-nav__link--lead" href="/contact-us">Gurgaon Centre</a>
+            <a class="emb-nav__link" href="/locations/#noida">Noida</a>
             <div class="emb-nav__rule"></div>
-            <a class="emb-nav__link emb-nav__link--lead" href="/locations/index.php">All Locations</a>
+            <a class="emb-nav__link emb-nav__link--lead" href="/locations">All Locations</a>
           </div>
         </div>
       </div>
@@ -236,7 +236,7 @@
   </div>
 
   <div class="emb-nav__cta">
-    <a href="/appointment.php" class="glass-btn px-5 py-2.5 text-sm rounded-full cursor-pointer font-medium inline-block text-center">
+    <a href="/appointment" class="glass-btn px-5 py-2.5 text-sm rounded-full cursor-pointer font-medium inline-block text-center">
       Book a Consultation
     </a>
   </div>
@@ -247,35 +247,35 @@
 
   <!-- ============================= mobile ============================= -->
   <div id="mobile-menu" class="emb-nav__panel hidden">
-    <a href="/index.php">Home</a>
-    <a href="/about.php">About</a>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
 
     <details>
       <summary>Child <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></summary>
       <div class="emb-nav__sub">
         <p class="emb-nav__subtitle">Child &amp; Adolescence</p>
-        <a href="/children_and_adolescents.php">Children &amp; Adolescents</a>
-        <a href="/children.php">Children</a>
-        <a href="/adolescents.php">Adolescents</a>
-        <a href="/teacher.php">Teachers</a>
+        <a href="/children_and_adolescents">Children &amp; Adolescents</a>
+        <a href="/children">Children</a>
+        <a href="/adolescents">Adolescents</a>
+        <a href="/teacher">Teachers</a>
         <p class="emb-nav__subtitle">Child Development</p>
-        <a href="/child-development-centre/child-development-centre.php">Child Development Centre</a>
-        <a href="/adhd/adhd.php">ADHD</a>
-        <a href="/autism/autism.php">Autism</a>
-        <a href="/learning-disabilities/learning-disabilities.php">Learning Disabilities</a>
-        <a href="/speech-therapy/speech-therapy.php">Speech Therapy</a>
-        <a href="/occupational-therapy/occupational-therapy.php">Occupational Therapy</a>
-        <a href="/child-psychology/child-counselling.php">Child Psychology</a>
-        <a href="/teen-mental-health/teen-counselling.php">Teen Mental Health</a>
+        <a href="/child-development-centre">Child Development Centre</a>
+        <a href="/adhd/adhd">ADHD</a>
+        <a href="/autism/autism">Autism</a>
+        <a href="/learning-disabilities/learning-disabilities">Learning Disabilities</a>
+        <a href="/speech-therapy/speech-therapy">Speech Therapy</a>
+        <a href="/occupational-therapy/occupational-therapy">Occupational Therapy</a>
+        <a href="/child-psychology/child-counselling">Child Psychology</a>
+        <a href="/teen-mental-health/teen-counselling">Teen Mental Health</a>
         <p class="emb-nav__subtitle">Therapies &amp; Specialists</p>
-        <a href="/developmental-delay/developmental-delay-treatment.php">Developmental Delay</a>
-        <a href="/intellectual-disability/intellectual-disability-treatment.php">Intellectual Disability</a>
-        <a href="/down-syndrome/down-syndrome-treatment.php">Down Syndrome</a>
-        <a href="/oral-motor-therapy/oral-motor-therapy.php">Oral Motor &amp; Feeding</a>
-        <a href="/aba-therapy/aba-therapy.php">ABA Therapy</a>
-        <a href="/physiotherapy/physiotherapy.php">Physiotherapy</a>
-        <a href="/pediatric-neurology/pediatric-neurologist.php">Pediatric Neurologist</a>
-        <a href="/developmental-pediatrics/developmental-pediatrician.php">Developmental Pediatrician</a>
+        <a href="/developmental-delay-treatment">Developmental Delay</a>
+        <a href="/intellectual-disability-treatment">Intellectual Disability</a>
+        <a href="/down-syndrome-treatment">Down Syndrome</a>
+        <a href="/oral-motor-therapy">Oral Motor &amp; Feeding</a>
+        <a href="/aba-therapy">ABA Therapy</a>
+        <a href="/physiotherapy">Physiotherapy</a>
+        <a href="/pediatric-neurologist">Pediatric Neurologist</a>
+        <a href="/developmental-pediatrician">Developmental Pediatrician</a>
       </div>
     </details>
 
@@ -283,13 +283,13 @@
       <summary>Adults &amp; Parents <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></summary>
       <div class="emb-nav__sub">
         <p class="emb-nav__subtitle">Adults</p>
-        <a href="/adult.php">For Adults</a>
-        <a href="/individuals.php">Individuals</a>
-        <a href="/couples.php">Couples &amp; Marriage Counselling</a>
-        <a href="/adult-mental-health/adult-counselling.php">Adult Mental Health Hub</a>
+        <a href="/adult">For Adults</a>
+        <a href="/individuals">Individuals</a>
+        <a href="/couples">Couples &amp; Marriage Counselling</a>
+        <a href="/adult-mental-health/adult-counselling">Adult Mental Health Hub</a>
         <p class="emb-nav__subtitle">Parents</p>
-        <a href="/parent-hub/parents.php">Parent Hub</a>
-        <a href="/parent.php">For Parents</a>
+        <a href="/parent-hub/parents">Parent Hub</a>
+        <a href="/parent">For Parents</a>
       </div>
     </details>
 
@@ -297,30 +297,30 @@
       <summary>Partners <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></summary>
       <div class="emb-nav__sub">
         <p class="emb-nav__subtitle">School</p>
-        <a href="/schools-hub/schools.php">Schools Hub</a>
-        <a href="/university.php">Universities</a>
+        <a href="/schools-hub/schools">Schools Hub</a>
+        <a href="/university">Universities</a>
         <p class="emb-nav__subtitle">Business</p>
-        <a href="/corporate.php">Corporates</a>
-        <a href="/corporate-wellness/corporates.php">Corporate Wellness Hub</a>
-        <a href="/hospitalAndHealthcare.php">Hospital &amp; Healthcare Partnerships</a>
+        <a href="/corporate">Corporates</a>
+        <a href="/corporate-wellness/corporates">Corporate Wellness Hub</a>
+        <a href="/hospitalAndHealthcare">Hospital &amp; Healthcare Partnerships</a>
       </div>
     </details>
 
     <details>
       <summary>Free Tools <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></summary>
       <div class="emb-nav__sub">
-        <a href="/resources/child-milestone-checker.php">Child Milestone Checker</a>
-        <a href="/resources/adhd-autism-screener.php">ADHD &amp; Autism Screener</a>
-        <a href="/resources/adult-stress-check.php">Adult Stress Check</a>
-        <a href="/resources/index.php">All Free Tools</a>
+        <a href="/resources/child-milestone-checker">Child Milestone Checker</a>
+        <a href="/resources/adhd-autism-screener">ADHD &amp; Autism Screener</a>
+        <a href="/resources/adult-stress-check">Adult Stress Check</a>
+        <a href="/resources">All Free Tools</a>
       </div>
     </details>
 
     <details>
       <summary>Resources <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></summary>
       <div class="emb-nav__sub">
-        <a href="/gallery.php">Gallery</a>
-        <a href="/media.php">Media &amp; News</a>
+        <a href="/gallery">Gallery</a>
+        <a href="/media">Media &amp; News</a>
       </div>
     </details>
 
@@ -328,19 +328,19 @@
       <summary>Locations <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></summary>
       <div class="emb-nav__sub">
         <p class="emb-nav__subtitle">Delhi</p>
-        <a href="/contact-us.php">Vasant Kunj Centre</a>
-        <a href="/locations/index.php#saket">Saket</a>
-        <a href="/locations/index.php#hauz-khas">Hauz Khas</a>
-        <a href="/locations/index.php#greater-kailash">Greater Kailash</a>
-        <a href="/locations/index.php#defence-colony">Defence Colony</a>
-        <a href="/locations/index.php#south-delhi">South Delhi</a>
+        <a href="/contact-us">Vasant Kunj Centre</a>
+        <a href="/locations/#saket">Saket</a>
+        <a href="/locations/#hauz-khas">Hauz Khas</a>
+        <a href="/locations/#greater-kailash">Greater Kailash</a>
+        <a href="/locations/#defence-colony">Defence Colony</a>
+        <a href="/locations/#south-delhi">South Delhi</a>
         <p class="emb-nav__subtitle">Gurgaon &amp; NCR</p>
-        <a href="/contact-us.php">Gurgaon Centre</a>
-        <a href="/locations/index.php#noida">Noida</a>
-        <a href="/locations/index.php">All Locations</a>
+        <a href="/contact-us">Gurgaon Centre</a>
+        <a href="/locations/#noida">Noida</a>
+        <a href="/locations">All Locations</a>
       </div>
     </details>
 
-    <a href="/appointment.php" class="glass-btn px-5 py-2.5 rounded-full mt-3 w-full text-center font-medium block">Book a Consultation</a>
+    <a href="/appointment" class="glass-btn px-5 py-2.5 rounded-full mt-3 w-full text-center font-medium block">Book a Consultation</a>
   </div>
 </nav>

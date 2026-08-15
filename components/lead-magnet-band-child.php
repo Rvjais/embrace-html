@@ -12,9 +12,9 @@
       </p>
     </div>
     <div class="lm-cta__btns">
-      <a class="lm-btn lm-btn--primary" href="/resources/child-milestone-checker.php"
+      <a class="lm-btn lm-btn--primary" href="/resources/child-milestone-checker"
          data-lm-cta="child-milestone-checker" data-lm-placement="page_band">Check my child's milestones</a>
-      <a class="lm-btn lm-btn--ghost" href="/resources/adhd-autism-screener.php"
+      <a class="lm-btn lm-btn--ghost" href="/resources/adhd-autism-screener"
          data-lm-cta="adhd-autism-screener" data-lm-placement="page_band">ADHD &amp; autism screener</a>
     </div>
   </div>

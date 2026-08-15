@@ -13,9 +13,9 @@
       </p>
     </div>
     <div class="lm-cta__btns">
-      <a class="lm-btn lm-btn--primary" href="/resources/adhd-autism-screener.php"
+      <a class="lm-btn lm-btn--primary" href="/resources/adhd-autism-screener"
          data-lm-cta="adhd-autism-screener" data-lm-placement="page_band">Take the free screener</a>
-      <a class="lm-btn lm-btn--ghost" href="/resources/child-milestone-checker.php"
+      <a class="lm-btn lm-btn--ghost" href="/resources/child-milestone-checker"
          data-lm-cta="child-milestone-checker" data-lm-placement="page_band">Milestone checker (0–12)</a>
     </div>
   </div>

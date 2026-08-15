@@ -407,7 +407,7 @@
             assessments, therapy, and psychiatric support. Each care plan is personalized, evidence-based, and focused
             on helping teens thrive in school, at home, and socially.
           </p>
-          <a href="/appointment.php"
+          <a href="/appointment"
             class="inline-block w-[70%] md:w-[20%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-4 2xl:mt-6 text-white font-medium cursor-pointer text-center"
           >
             Book a Session
@@ -834,7 +834,7 @@
               </div>
             </div>
             <div class="bg-white rounded-lg shadow-sm overflow-hidden">
-              <a href="/appointment.php"
+              <a href="/appointment"
                 class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
               >
                 <span class="font-medium text-gray-800 md:text-base text-sm break-words"

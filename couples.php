@@ -405,7 +405,7 @@
             across dating, marriage, or long-term relationships.<br />Therapy that meets you where you are—whether
             you're dating, living together, married, or rebuilding trust.
           </p>
-          <a href="/appointment.php"
+          <a href="/appointment"
             class="inline-block w-[70%] md:w-[24.25%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-2 2xl:mt-6 text-white font-medium cursor-pointer text-center"
           >
             Request Session
@@ -687,7 +687,7 @@
           </div>
           <div class="space-y-4 mb-12">
             <div class="bg-white rounded-lg shadow-sm overflow-hidden">
-              <a href="/appointment.php"
+              <a href="/appointment"
                 class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
               >
                 <span class="font-medium text-gray-800 md:text-base text-sm break-words"

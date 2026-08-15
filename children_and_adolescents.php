@@ -399,7 +399,7 @@
           <p class="font-medium text-sm md:text-base text-[var(--text-gray)] text-center italic">
             Early Intervention &amp; Quality Support for Every Stage of Growth
           </p>
-          <a href="/appointment.php"
+          <a href="/appointment"
             class="inline-block w-[70%] md:w-[50%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-2 2xl:mt-6 text-white font-medium cursor-pointer text-center"
           >
             Book a Session
@@ -641,7 +641,7 @@
               <a
                 class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
                 data-discover="true"
-                href="/children.php"
+                href="/children"
                 style="background-color: rgb(190, 237, 185)"
                 >Children</a
               >
@@ -664,7 +664,7 @@
               <a
                 class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
                 data-discover="true"
-                href="/adolescents.php"
+                href="/adolescents"
                 style="background-color: rgba(243, 167, 162, 0.79)"
                 >Adolescents</a
               >
@@ -687,7 +687,7 @@
               <a
                 class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
                 data-discover="true"
-                href="/parent.php"
+                href="/parent"
                 style="background-color: rgba(240, 203, 58, 0.79)"
                 >Parents</a
               >
@@ -710,7 +710,7 @@
               <a
                 class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
                 data-discover="true"
-                href="/teacher.php"
+                href="/teacher"
                 style="background-color: rgb(165, 217, 242)"
                 >Teachers</a
               >
@@ -733,7 +733,7 @@
               <a
                 class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
                 data-discover="true"
-                href="/schools-hub/schools.php"
+                href="/schools-hub/schools"
                 style="background-color: rgba(170, 170, 255, 0.79)"
                 >Schools</a
               >
@@ -756,7 +756,7 @@
               <a
                 class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
                 data-discover="true"
-                href="/hospitalAndHealthcare.php"
+                href="/hospitalAndHealthcare"
                 style="background-color: rgba(243, 167, 162, 0.79)"
                 >Hospitals</a
               >
@@ -781,7 +781,7 @@
               <a
                 class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
                 data-discover="true"
-                href="/children.php"
+                href="/children"
                 style="background-color: rgb(190, 237, 185)"
                 >Children</a
               >
@@ -804,7 +804,7 @@
               <a
                 class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
                 data-discover="true"
-                href="/adolescents.php"
+                href="/adolescents"
                 style="background-color: rgba(243, 167, 162, 0.79)"
                 >Adolescents</a
               >
@@ -827,7 +827,7 @@
               <a
                 class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
                 data-discover="true"
-                href="/parent.php"
+                href="/parent"
                 style="background-color: rgba(240, 203, 58, 0.79)"
                 >Parents</a
               >
@@ -850,7 +850,7 @@
               <a
                 class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
                 data-discover="true"
-                href="/teacher.php"
+                href="/teacher"
                 style="background-color: rgb(165, 217, 242)"
                 >Teachers</a
               >
@@ -873,7 +873,7 @@
               <a
                 class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
                 data-discover="true"
-                href="/schools-hub/schools.php"
+                href="/schools-hub/schools"
                 style="background-color: rgba(170, 170, 255, 0.79)"
                 >Schools</a
               >
@@ -896,7 +896,7 @@
               <a
                 class="hover:scale-105 hover:shadow-lg transition-all duration-150 px-8 py-6 rounded-lg text-xs font-semibold"
                 data-discover="true"
-                href="/hospitalAndHealthcare.php"
+                href="/hospitalAndHealthcare"
                 style="background-color: rgba(243, 167, 162, 0.79)"
                 >Hospitals</a
               >
@@ -1253,7 +1253,7 @@
             </div>
           </div>
           <div class="md:w-[60%] mx-auto bg-white rounded-2xl shadow-md/10 overflow-hidden">
-            <a href="/appointment.php"
+            <a href="/appointment"
               class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none"
             >
               <span class="font-medium text-gray-800 md:text-base text-sm break-words"

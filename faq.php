@@ -437,7 +437,7 @@
                               target="_blank"
                               >www.embracelives.com</a
                             >
-                            and click on "<a class="underline" data-discover="true" href="/userListing.php"
+                            and click on "<a class="underline" data-discover="true" href="/userListing"
                               >Book a Consultation</a
                             >."
                           </p>
@@ -542,7 +542,7 @@
                       </div>
                       <p class="pt-2">
                         Too see a full list of services, visit
-                        <a class="text-[#234394] font-bold" href="/contact-us.php">services page</a>
+                        <a class="text-[#234394] font-bold" href="/contact-us">services page</a>
                       </p>
                     </div>
                   </div>
@@ -706,7 +706,7 @@
                       </div>
                       <p class="pt-2">
                         For school details, see our
-                        <a class="text-[#234394] font-bold" data-discover="true" href="/bookingandCancellation.php"
+                        <a class="text-[#234394] font-bold" data-discover="true" href="/bookingandCancellation"
                           >Cancellation &amp; Refund Policy</a
                         >
                       </p>
@@ -852,7 +852,7 @@
                       </div>
                       <p class="pt-2">
                         For adolescent support, book a session
-                        <a class="text-[#234394] font-bold" data-discover="true" href="/adolescents.php">here</a>
+                        <a class="text-[#234394] font-bold" data-discover="true" href="/adolescents">here</a>
                       </p>
                     </div>
                   </div>
@@ -1147,7 +1147,7 @@
                       </div>
                       <p class="text-[#403D3D]">
                         For more details, refer to our
-                        <a class="text-[#234394] font-semibold" data-discover="true" href="/bookingandCancellation.php"
+                        <a class="text-[#234394] font-semibold" data-discover="true" href="/bookingandCancellation"
                           >Cancellation &amp; Refund Policy</a
                         >.
                       </p>

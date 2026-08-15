@@ -4,14 +4,14 @@
 <meta charset="utf-8"/>
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Developmental Pediatrician at eMbrace across Delhi NCR: medical diagnosis of autism, ADHD and delay, with one written plan. Book a free intake call today." name="description"/>
+<meta content="Down Syndrome Treatment at eMbrace across Delhi NCR: physiotherapy, speech, occupational therapy and special education. Start with a free 15-minute intake call." name="description"/>
 <meta content="index, follow" name="robots"/>
-<link href="https://embracelives.com/developmental-pediatrics/developmental-pediatrician" rel="canonical"/>
+<link href="https://embracelives.com/down-syndrome-treatment" rel="canonical"/>
 <!-- Open Graph -->
 <meta content="website" property="og:type"/>
-<meta content="https://embracelives.com/developmental-pediatrics/developmental-pediatrician" property="og:url"/>
-<meta content="Developmental Pediatrician | eMbrace Delhi NCR Centres" property="og:title"/>
-<meta content="Developmental Pediatrician at eMbrace across Delhi NCR: medical diagnosis of autism, ADHD and delay, with one written plan. Book a free intake call today." property="og:description"/>
+<meta content="https://embracelives.com/down-syndrome-treatment" property="og:url"/>
+<meta content="Down Syndrome Treatment | RCI-Certified Team | eMbrace" property="og:title"/>
+<meta content="Down Syndrome Treatment at eMbrace across Delhi NCR: physiotherapy, speech, occupational therapy and special education. Start with a free 15-minute intake call." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="1200" property="og:image:width"/>
 <meta content="630" property="og:image:height"/>
@@ -19,10 +19,10 @@
 <meta content="en_IN" property="og:locale"/>
 <!-- Twitter Card -->
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Developmental Pediatrician | eMbrace Delhi NCR Centres" name="twitter:title"/>
-<meta content="Developmental Pediatrician at eMbrace across Delhi NCR: medical diagnosis of autism, ADHD and delay, with one written plan. Book a free intake call today." name="twitter:description"/>
+<meta content="Down Syndrome Treatment | RCI-Certified Team | eMbrace" name="twitter:title"/>
+<meta content="Down Syndrome Treatment at eMbrace across Delhi NCR: physiotherapy, speech, occupational therapy and special education. Start with a free 15-minute intake call." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Developmental Pediatrician | eMbrace Delhi NCR Centres</title>
+<title>Down Syndrome Treatment | RCI-Certified Team | eMbrace</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -342,7 +342,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://embracelives.com/developmental-pediatrics/developmental-pediatrician#breadcrumb",
+      "@id": "https://embracelives.com/down-syndrome-treatment#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -354,15 +354,15 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Child Development Centre",
-          "item": "https://embracelives.com/child-development-centre/child-development-centre"
+          "item": "https://embracelives.com/child-development-centre"
         }
       ]
     },
     {
       "@type": "WebPage",
-      "@id": "https://embracelives.com/developmental-pediatrics/developmental-pediatrician#webpage",
-      "url": "https://embracelives.com/developmental-pediatrics/developmental-pediatrician",
-      "name": "Developmental Pediatrician | eMbrace Delhi NCR Centres",
+      "@id": "https://embracelives.com/down-syndrome-treatment#webpage",
+      "url": "https://embracelives.com/down-syndrome-treatment",
+      "name": "Down Syndrome Treatment | RCI-Certified Team | eMbrace",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -370,59 +370,59 @@
         "@id": "https://embracelives.com/#organization"
       },
       "inLanguage": "en-IN",
-      "description": "Developmental Pediatrician at eMbrace across Delhi NCR: medical diagnosis of autism, ADHD and delay, with one written plan. Book a free intake call today.",
+      "description": "Down Syndrome Treatment at eMbrace across Delhi NCR: physiotherapy, speech, occupational therapy and special education. Start with a free 15-minute intake call.",
       "breadcrumb": {
-        "@id": "https://embracelives.com/developmental-pediatrics/developmental-pediatrician#breadcrumb"
+        "@id": "https://embracelives.com/down-syndrome-treatment#breadcrumb"
       }
     },
     {
       "@type": "FAQPage",
-      "@id": "https://embracelives.com/developmental-pediatrics/developmental-pediatrician#faq",
-      "url": "https://embracelives.com/developmental-pediatrics/developmental-pediatrician",
-      "name": "Developmental Pediatrician | eMbrace Delhi NCR Centres — Frequently Asked Questions",
+      "@id": "https://embracelives.com/down-syndrome-treatment#faq",
+      "url": "https://embracelives.com/down-syndrome-treatment",
+      "name": "Down Syndrome Treatment | RCI-Certified Team | eMbrace — Frequently Asked Questions",
       "isPartOf": {
-        "@id": "https://embracelives.com/developmental-pediatrics/developmental-pediatrician#webpage"
+        "@id": "https://embracelives.com/down-syndrome-treatment#webpage"
       },
       "inLanguage": "en-IN",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is the difference from a general paediatrician?",
+          "name": "When should therapy start?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A general paediatrician manages health and growth. A developmental paediatrician specialises in development, learning and behaviour, and assesses those in far greater depth."
+            "text": "As early as you are ready, often within the first months. Early physiotherapy and feeding support are usually first, with speech and occupational therapy following as your child develops."
           }
         },
         {
           "@type": "Question",
-          "name": "Do I need a psychologist as well?",
+          "name": "Will using signs stop my child from speaking?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "For autism and ADHD, the strongest assessments combine both: standardised psychological testing plus a medical assessment. Here they happen in one team rather than two appointments elsewhere."
+            "text": "No. Signs and picture systems give a child a way to communicate while speech develops, and research does not support the fear that they delay speech."
           }
         },
         {
           "@type": "Question",
-          "name": "At what age can autism or ADHD be diagnosed?",
+          "name": "How many therapies does my child need at once?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Autism can often be identified from around 18 to 24 months. ADHD is usually diagnosed from about six, since younger behaviour overlaps heavily with normal preschool development."
+            "text": "That depends on age and current priorities, and more is not automatically better. We recommend a realistic plan your family can actually sustain week after week."
           }
         },
         {
           "@type": "Question",
-          "name": "Will my child be put on medication?",
+          "name": "Can my child go to a mainstream school?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not automatically. Medication is one option among several, discussed with you honestly, and many children we see are supported entirely through therapy and school accommodations."
+            "text": "Many children do, with accommodations in place and a willing school. Our assessment sets out precisely what support is needed for that to work."
           }
         },
         {
           "@type": "Question",
-          "name": "What should I bring to the first appointment?",
+          "name": "Do you support adults with Down syndrome?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Growth and immunisation records, previous reports, school observations in writing, and a list of your specific concerns. Teacher input carries real diagnostic weight."
+            "text": "Yes. Work with adults focuses on independence, communication, employment skills and wellbeing, alongside family and carer support."
           }
         }
       ]
@@ -434,20 +434,20 @@
 </head>
 <body class="overflow-x-hidden">
 <div id="root" class="overflow-x-hidden">
-<?php include __DIR__ . '/../components/header.php'; ?>
+<?php include __DIR__ . '/components/header.php'; ?>
 <div class="px-4 md:px-8 lg:px-16 py-14 md:py-20 bg-gradient-to-b from-[#E7F7FF] to-[#FFFFFF] text-center">
   <div class="max-w-4xl mx-auto">
     <span class="inline-block bg-[#234394] text-white text-xs font-bold tracking-wider uppercase px-4 py-1.5 rounded-full mb-5">Child Development</span>
-    <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Developmental Pediatrician</h1>
-    <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto">A developmental paediatrician is a doctor who specialises in how children develop, learn and behave. They are the specialist who takes the whole picture, medical, developmental and behavioural, and turns it into one plan instead of five opinions.</p>
-    <a href="/appointment.php" class="inline-block mt-8 px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free 15-minute call</a>
+    <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Down Syndrome Treatment &amp; Therapy</h1>
+    <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto">Down syndrome is a genetic condition, not an illness, and it is not something therapy sets out to cure. What therapy does, and does well, is build communication, movement, independence and confidence, starting as early as families are ready.</p>
+    <a href="/appointment" class="inline-block mt-8 px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free 15-minute call</a>
   </div>
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
   <div class="max-w-7xl mx-auto flex items-center gap-2 flex-wrap">
-      <a href="/index.php">Home</a><span class="text-gray-300">/</span>
-      <a href="/child-development-centre/child-development-centre.php">Child Development Centre</a><span class="text-gray-300">/</span>
-      <span class="text-gray-700 font-medium">Developmental Pediatrics</span>
+      <a href="/">Home</a><span class="text-gray-300">/</span>
+      <a href="/child-development-centre">Child Development Centre</a><span class="text-gray-300">/</span>
+      <span class="text-gray-700 font-medium">Down Syndrome</span>
   </div>
 </div>
 <div class="px-4 md:px-8 lg:px-16 py-12 bg-white">
@@ -456,115 +456,116 @@
   <div class="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm md:sticky md:top-24 side-menu">
     <h2 class="text-lg font-bold text-[#234394] mb-4 border-b pb-3">Child Development Services</h2>
     <div class="space-y-1">
-      <a class="" href="/developmental-delay/developmental-delay-treatment.php">Developmental Delay Treatment</a>
-      <a class="" href="/intellectual-disability/intellectual-disability-treatment.php">Intellectual Disability Treatment</a>
-      <a class="" href="/down-syndrome/down-syndrome-treatment.php">Down Syndrome Treatment &amp; Therapy</a>
-      <a class="" href="/oral-motor-therapy/oral-motor-therapy.php">Oral Motor Delay Treatment</a>
-      <a class="" href="/aba-therapy/aba-therapy.php">ABA Therapy</a>
-      <a class="" href="/physiotherapy/physiotherapy.php">Physiotherapy Clinic</a>
-      <a class="" href="/pediatric-neurology/pediatric-neurologist.php">Pediatric Neurologist</a>
-      <a class="is-current" href="/developmental-pediatrics/developmental-pediatrician.php">Developmental Pediatrician</a>
-      <a class="" href="/child-development-centre/child-development-centre.php">Child Development Centre</a>
+      <a class="" href="/developmental-delay-treatment">Developmental Delay Treatment</a>
+      <a class="" href="/intellectual-disability-treatment">Intellectual Disability Treatment</a>
+      <a class="is-current" href="/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
+      <a class="" href="/oral-motor-therapy">Oral Motor Delay Treatment</a>
+      <a class="" href="/aba-therapy">ABA Therapy</a>
+      <a class="" href="/physiotherapy">Physiotherapy Clinic</a>
+      <a class="" href="/pediatric-neurologist">Pediatric Neurologist</a>
+      <a class="" href="/developmental-pediatrician">Developmental Pediatrician</a>
+      <a class="" href="/child-development-centre">Child Development Centre</a>
     </div>
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mt-6 mb-2">Related</h3>
     <div class="space-y-1">
-      <a href="/autism/autism.php">Autism Hub</a>
-      <a href="/adhd/adhd.php">ADHD Hub</a>
+      <a href="/speech-therapy/speech-therapy">Speech &amp; Language Therapy</a>
+      <a href="/occupational-therapy/occupational-therapy">Occupational Therapy</a>
+      <a href="/learning-disabilities/special-education-support">Special Education Support</a>
     </div>
   </div>
 </aside>
     <div class="flex-grow max-w-4xl article-content">
-<h2>What a developmental paediatrician does</h2>
-<p>Where a general paediatrician manages health and growth, a developmental paediatrician looks at the developmental and behavioural picture in depth. That means milestones, learning, attention, social communication, sleep, feeding and behaviour, considered together and against a child's medical history.</p>
+<h2>What early intervention covers</h2>
+<p>The first six years carry the most therapeutic weight, and a coordinated programme in that window makes a visible difference to what a child can do at school age. Most children with Down syndrome benefit from several therapies running together rather than one at a time.</p>
 <ul>
-<li>Assessment and medical diagnosis of autism, ADHD and developmental delay</li>
-<li>Investigating medical contributors: hearing, vision, sleep, nutrition, thyroid, genetic conditions</li>
-<li>Medication review where it is appropriate, including for ADHD, with honest discussion of benefits and limits</li>
-<li>Coordinating therapy across speech, occupational therapy, physiotherapy and special education</li>
-<li>School reports, accommodations and disability certification support</li>
+<li>Physiotherapy for low muscle tone, sitting, walking, balance and stamina</li>
+<li>Speech and language therapy, often starting with feeding and oral motor work before words</li>
+<li>Occupational therapy for fine motor skills, self-care and sensory regulation</li>
+<li>Special education for early learning, reading and number concepts</li>
+<li>Parent coaching so the work continues between sessions</li>
 </ul>
 
-<h2>Why the medical picture matters</h2>
-<p>A striking share of developmental concerns have a medical component that is easy to miss. Undetected hearing loss presents as speech delay and inattention. Poor sleep, including sleep apnoea, presents as hyperactivity in children rather than tiredness. Iron deficiency, thyroid problems and vitamin deficiencies all affect attention and mood.</p>
-<p>Checking those before concluding anything is not being thorough for its own sake. It changes the plan, it is quick, and it occasionally makes further intervention unnecessary.</p>
+<h2>Communication, and why it starts before speech</h2>
+<p>Children with Down syndrome frequently understand considerably more than they can say. That gap is the single biggest source of frustration for a young child, and it is why we do not wait for speech to emerge before building communication.</p>
+<p>Gestures, signs and picture systems are introduced early where they help. They do not delay speech, which is the most common worry families arrive with, and they give a child a way to be understood while spoken language develops. Low muscle tone in the mouth and jaw is addressed directly through oral motor work, which supports both feeding and clarity of speech.</p>
 
 
-<h2>How this fits with psychological assessment</h2>
-<p>Families frequently ask whether they need a developmental paediatrician or a clinical psychologist. For autism and ADHD, the strongest assessments involve both: standardised psychological tools such as ADOS-2, Conners and cognitive testing, alongside a medical assessment that rules out or accounts for physical contributors.</p>
-<p>At eMbrace both sit in the same team, so you get one integrated opinion and one plan rather than two reports that have to be reconciled by the parent.</p>
+<h2>Working with your medical team</h2>
+<p>Down syndrome is associated with specific health considerations, including hearing, vision, thyroid function and heart conditions, and these are managed by your paediatrician or specialists. This matters for therapy for one practical reason: undetected hearing loss, which is common with glue ear, slows speech progress no matter how good the therapy is.</p>
+<p>We work alongside your medical team rather than around it, and our developmental paediatrician and paediatric neurologist are part of the same practice where a coordinated opinion is useful.</p>
 
 
-<h2>What happens after the diagnosis</h2>
-<p>A diagnosis is only useful if something follows it. The consultation ends with a written plan: which therapies, at what intensity, in what order, what the school needs to do, what to watch for, and when to come back.</p>
-<p>That plan is reviewed as your child changes. Fees are quoted upfront on your intake call so you know what you are committing to before you start.</p>
+<h2>School, and the years after it</h2>
+<p>Many children with Down syndrome do well in mainstream schools with proper accommodations, a school that will implement them, and a plan that is reviewed as needs change. We write reports schools can act on, and we speak to teachers directly when that helps.</p>
+<p>Beyond school, the work shifts towards independence: self-care, travel, money, work skills and social relationships. Starting that early makes adult life broader.</p>
 
 <div class="key-points-card my-10">
   <h3 class="text-lg font-bold text-[#1e293b] mb-4 mt-0">What you get at eMbrace</h3>
   <ul>
-    <li>Medical diagnosis of autism, ADHD and developmental delay, with the physical causes checked</li>
-    <li>Works alongside our psychologists rather than duplicating them</li>
-    <li>One written plan covering therapy, school and review, not a list of referrals</li>
-    <li>Medication discussed honestly, including when it is not needed</li>
+    <li>Physiotherapy, speech, occupational therapy and special education in one coordinated plan</li>
+    <li>Communication built from the start, including signs and pictures where they help</li>
+    <li>Oral motor and feeding work alongside speech</li>
+    <li>School reports and teacher liaison, then transition planning beyond school</li>
   </ul>
 </div>
-<h2>Where we offer developmental paediatrics</h2>
+<h2>Where we offer Down syndrome therapy</h2>
 <p>eMbrace runs three centres across Delhi NCR, plus online sessions for families elsewhere in India and abroad. For locality-specific details, including addresses, travel and what happens at a first visit:</p>
 <ul>
-  <li><a href="/locations/developmental-pediatrician-in-delhi.php" class="text-[#234394] font-semibold">Developmental Pediatrician in Delhi</a></li>
-  <li><a href="/locations/developmental-pediatrician-in-gurgaon.php" class="text-[#234394] font-semibold">Developmental Pediatrician in Gurgaon</a></li>
-  <li><a href="/locations/index.php" class="text-[#234394] font-semibold">All eMbrace locations across Delhi NCR</a></li>
+  <li><a href="/locations/down-syndrome-treatment-in-delhi" class="text-[#234394] font-semibold">Down Syndrome Treatment in Delhi</a></li>
+  <li><a href="/locations/down-syndrome-treatment-in-gurgaon" class="text-[#234394] font-semibold">Down Syndrome Treatment in Gurgaon</a></li>
+  <li><a href="/locations" class="text-[#234394] font-semibold">All eMbrace locations across Delhi NCR</a></li>
 </ul>
 <h2 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h2>
 <div class="space-y-2 mb-10">
 <div class="faq-item">
   <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">What is the difference from a general paediatrician?</span>
+    <span class="faq-q">When should therapy start?</span>
     <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-panel" hidden><p>A general paediatrician manages health and growth. A developmental paediatrician specialises in development, learning and behaviour, and assesses those in far greater depth.</p></div>
+  <div class="faq-panel" hidden><p>As early as you are ready, often within the first months. Early physiotherapy and feeding support are usually first, with speech and occupational therapy following as your child develops.</p></div>
 </div>
 <div class="faq-item">
   <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Do I need a psychologist as well?</span>
+    <span class="faq-q">Will using signs stop my child from speaking?</span>
     <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-panel" hidden><p>For autism and ADHD, the strongest assessments combine both: standardised psychological testing plus a medical assessment. Here they happen in one team rather than two appointments elsewhere.</p></div>
+  <div class="faq-panel" hidden><p>No. Signs and picture systems give a child a way to communicate while speech develops, and research does not support the fear that they delay speech.</p></div>
 </div>
 <div class="faq-item">
   <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">At what age can autism or ADHD be diagnosed?</span>
+    <span class="faq-q">How many therapies does my child need at once?</span>
     <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-panel" hidden><p>Autism can often be identified from around 18 to 24 months. ADHD is usually diagnosed from about six, since younger behaviour overlaps heavily with normal preschool development.</p></div>
+  <div class="faq-panel" hidden><p>That depends on age and current priorities, and more is not automatically better. We recommend a realistic plan your family can actually sustain week after week.</p></div>
 </div>
 <div class="faq-item">
   <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Will my child be put on medication?</span>
+    <span class="faq-q">Can my child go to a mainstream school?</span>
     <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-panel" hidden><p>Not automatically. Medication is one option among several, discussed with you honestly, and many children we see are supported entirely through therapy and school accommodations.</p></div>
+  <div class="faq-panel" hidden><p>Many children do, with accommodations in place and a willing school. Our assessment sets out precisely what support is needed for that to work.</p></div>
 </div>
 <div class="faq-item">
   <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">What should I bring to the first appointment?</span>
+    <span class="faq-q">Do you support adults with Down syndrome?</span>
     <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-panel" hidden><p>Growth and immunisation records, previous reports, school observations in writing, and a list of your specific concerns. Teacher input carries real diagnostic weight.</p></div>
+  <div class="faq-panel" hidden><p>Yes. Work with adults focuses on independence, communication, employment skills and wellbeing, alongside family and carer support.</p></div>
 </div>
 </div>
 <div class="pathway-card mt-12 rounded-3xl p-8 bg-gradient-to-br from-[#eef2ff] to-[#e0e7ff] border border-[#c7d2fe]">
   <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Not sure whether you need this yet?</h2>
-  <p class="text-gray-600 mb-6">Start with a free 15-minute intake call. A clinician will tell you honestly whether developmental paediatrics is the right next step, or whether something else is. There is no obligation and no waiting list to join.</p>
+  <p class="text-gray-600 mb-6">Start with a free 15-minute intake call. A clinician will tell you honestly whether Down syndrome therapy is the right next step, or whether something else is. There is no obligation and no waiting list to join.</p>
   <div class="flex flex-wrap gap-3">
-    <a href="/appointment.php" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
+    <a href="/appointment" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
     <a href="https://wa.me/919971576800" target="_blank" rel="noopener" class="inline-block px-7 py-3 rounded-full bg-white border border-[#c7d2fe] text-[#234394] font-semibold hover:bg-[#f8faff] transition-colors">WhatsApp +91 99715 76800</a>
   </div>
 </div>
     </div>
   </div>
 </div>
-<?php include __DIR__ . '/../components/lead-magnet-band-child.php'; ?>
-<?php include __DIR__ . '/../components/footer.php'; ?>
+<?php include __DIR__ . '/components/lead-magnet-band-child.php'; ?>
+<?php include __DIR__ . '/components/footer.php'; ?>
 </div>
 <script src="/assets/interactive.js"></script>
 <script src="/assets/lead-magnets.js"></script>

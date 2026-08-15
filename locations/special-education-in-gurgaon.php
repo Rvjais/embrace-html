@@ -453,7 +453,7 @@
 <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Special Education in Gurgaon</h1>
 <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto italic">Professional special education therapy at our Gurugram centre on MG Road, Sector 24, Haryana.</p>
 <div class="mt-8 flex justify-center">
-<a href="/appointment.php" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
+<a href="/appointment" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
               Book a Consultation
             </a>
 </div>
@@ -461,9 +461,9 @@
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
 <div class="max-w-7xl mx-auto flex items-center gap-2">
-<a class="hover:text-[#234394]" href="/index.php">Home</a>
+<a class="hover:text-[#234394]" href="/">Home</a>
 <span>/</span>
-<a class="hover:text-[#234394]" href="/schools-hub/schools.php">Schools Partnership Hub</a>
+<a class="hover:text-[#234394]" href="/schools-hub/schools">Schools Partnership Hub</a>
 <span>/</span>
 <span class="text-gray-800 font-medium">Special Education In Gurgaon</span>
 </div>
@@ -474,31 +474,31 @@
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #234394"></span>School Services</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/schools-hub/schools.php">Schools Partnership Hub</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/school-partnerships.php">School Partnerships</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/school-counselling.php">School Counselling</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/school-screening-programs.php">School Screening Programs</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/school-wellness-programs.php">School Wellness Programs</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/school-mental-health-programs.php">School Mental Health Programs</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/schools-hub/schools">Schools Partnership Hub</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/school-partnerships">School Partnerships</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/school-counselling">School Counselling</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/school-screening-programs">School Screening Programs</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/school-wellness-programs">School Wellness Programs</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/school-mental-health-programs">School Mental Health Programs</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #C499F6"></span>Inclusive Education</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/inclusive-education-consulting.php">Inclusive Education Consulting</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/autism-in-the-classroom.php">Autism in the Classroom</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/adhd-in-the-classroom.php">ADHD in the Classroom</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/learning-disabilities-in-school.php">Learning Disabilities in School</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/special-education-consulting.php">Special Education Consulting</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/classroom-accommodations.php">Classroom Accommodations</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/inclusive-education-consulting">Inclusive Education Consulting</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/autism-in-the-classroom">Autism in the Classroom</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/adhd-in-the-classroom">ADHD in the Classroom</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/learning-disabilities-in-school">Learning Disabilities in School</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/special-education-consulting">Special Education Consulting</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/classroom-accommodations">Classroom Accommodations</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #2EC4B6"></span>Staff Development</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/teacher-training.php">Teacher Training</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/teacher-wellbeing-programs.php">Teacher Wellbeing Programs</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/manager-training.php">Manager Training</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/teacher-training">Teacher Training</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/teacher-wellbeing-programs">Teacher Wellbeing Programs</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/schools-hub/manager-training">Manager Training</a></li>
 </ul>
 </div></div><div class="w-full md:hidden mb-6 bg-[#F9FBFF] border border-[#E0E6F0] rounded-2xl p-4 shadow-sm">
 <details class="group">
@@ -510,31 +510,31 @@
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">School Services</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-[#234394] font-bold" href="/schools-hub/schools.php">Schools Partnership Hub</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/school-partnerships.php">School Partnerships</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/school-counselling.php">School Counselling</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/school-screening-programs.php">School Screening Programs</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/school-wellness-programs.php">School Wellness Programs</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/school-mental-health-programs.php">School Mental Health Programs</a></li>
+<li><a class="block py-1 text-xs text-[#234394] font-bold" href="/schools-hub/schools">Schools Partnership Hub</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/school-partnerships">School Partnerships</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/school-counselling">School Counselling</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/school-screening-programs">School Screening Programs</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/school-wellness-programs">School Wellness Programs</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/school-mental-health-programs">School Mental Health Programs</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Inclusive Education</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/inclusive-education-consulting.php">Inclusive Education Consulting</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/autism-in-the-classroom.php">Autism in the Classroom</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/adhd-in-the-classroom.php">ADHD in the Classroom</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/learning-disabilities-in-school.php">Learning Disabilities in School</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/special-education-consulting.php">Special Education Consulting</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/classroom-accommodations.php">Classroom Accommodations</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/inclusive-education-consulting">Inclusive Education Consulting</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/autism-in-the-classroom">Autism in the Classroom</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/adhd-in-the-classroom">ADHD in the Classroom</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/learning-disabilities-in-school">Learning Disabilities in School</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/special-education-consulting">Special Education Consulting</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/classroom-accommodations">Classroom Accommodations</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Staff Development</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/teacher-training.php">Teacher Training</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/teacher-wellbeing-programs.php">Teacher Wellbeing Programs</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/manager-training.php">Manager Training</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/teacher-training">Teacher Training</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/teacher-wellbeing-programs">Teacher Wellbeing Programs</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/schools-hub/manager-training">Manager Training</a></li>
 </ul>
 </div> </div>
 </details>
@@ -610,7 +610,7 @@
 <div class="cta-card my-12">
 <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Gurgaon</h3>
 <p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your special education consultation at our Gurgaon centre.</p>
-<a href="/appointment.php" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
                 Schedule an Appointment
               </a>
 </div>

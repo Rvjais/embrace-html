@@ -347,7 +347,7 @@
             Join our mission in empowering
             <span class="text-[#234394]">diverse minds &amp; building a neuro-inclusive future!</span>
           </p>
-          <a href="/careers.php"
+          <a href="/careers"
             class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
           >
             <a href="mailto:enquiries@embracelives.com">Apply Now</a>
@@ -491,7 +491,7 @@
                   (Therapy, assessments, mental health interventions)
                 </p>
               </div>
-              <a href="/careers.php"
+              <a href="/careers"
                 class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
@@ -509,7 +509,7 @@
                   (Developmental support, early intervention, therapy for children)
                 </p>
               </div>
-              <a href="/careers.php"
+              <a href="/careers"
                 class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
@@ -527,7 +527,7 @@
                   (Developing motor, sensory, and daily living skills)
                 </p>
               </div>
-              <a href="/careers.php"
+              <a href="/careers"
                 class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
@@ -545,7 +545,7 @@
                   (Speech clarity, language comprehension, and communication)
                 </p>
               </div>
-              <a href="/careers.php"
+              <a href="/careers"
                 class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
@@ -570,7 +570,7 @@
                    (Evidence based practice for BA &amp; MA students, applications close by May 15)
                 </p>
               </div>
-              <a href="/careers.php"
+              <a href="/careers"
                 class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
@@ -588,7 +588,7 @@
                   (Advanced mentorship for early-career psychologists looking to specialize)
                 </p>
               </div>
-              <a href="/careers.php"
+              <a href="/careers"
                 class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
@@ -610,7 +610,7 @@
                   (Evidence based practice for BA &amp; MA students, applications close by November 15)
                 </p>
               </div>
-              <a href="/careers.php"
+              <a href="/careers"
                 class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
               >
                 <a href="mailto:enquiries@embracelives.com">Apply</a>
@@ -734,7 +734,7 @@
             >
               Looking for a <span class="text-[#234394]">meaningful career in mental health? </span>Apply today
             </p>
-            <a href="/careers.php"
+            <a href="/careers"
               class="inline-block 2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] mt-2 md:mt-0 text-white font-medium cursor-pointer"
             >
               <a href="mailto:enquiries@embracelives.com">Apply Now</a>

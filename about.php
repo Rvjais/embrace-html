@@ -804,7 +804,7 @@
           Our diverse team of licensed experts is committed to delivering personalized care through collaboration,
           compassion, and innovation
         </p>
-        <a href="/userListing.php" class="inline-block bg-[var(--blue-fig)] py-2 px-8 rounded-full text-white mt-10 cursor-pointer">
+        <a href="/userListing" class="inline-block bg-[var(--blue-fig)] py-2 px-8 rounded-full text-white mt-10 cursor-pointer">
           Meet our team
         </a>
         <div
@@ -836,21 +836,21 @@
         </p>
         <div class="flex md:flex-row flex-col gap-8 justify-center items-center mt-8">
           <div class="flex flex-col items-center bg-white rounded-4xl shadow-lg p-4 w-48">
-            <img loading="lazy" decoding="async" width="330" height="339" alt="Join Us" class="w-40 h-40 mb-4" src="/assets/JoinUs-BfUHuJmU.svg" /><a href="/careers.php"
+            <img loading="lazy" decoding="async" width="330" height="339" alt="Join Us" class="w-40 h-40 mb-4" src="/assets/JoinUs-BfUHuJmU.svg" /><a href="/careers"
               class="inline-block translate-y-6 -mt-8 px-4 py-2 bg-[var(--blue-fig)] cursor-pointer text-white rounded-full text-xs w-fit"
             >
               Join Us
             </a>
           </div>
           <div class="flex flex-col items-center bg-white rounded-4xl shadow-lg p-4 w-48">
-            <img loading="lazy" decoding="async" width="322" height="335" alt="Work With Us" class="w-40 h-40 mb-4" src="/assets/WorkWithUs-VpUY4tm9.svg" /><a href="/partners.php"
+            <img loading="lazy" decoding="async" width="322" height="335" alt="Work With Us" class="w-40 h-40 mb-4" src="/assets/WorkWithUs-VpUY4tm9.svg" /><a href="/partners"
               class="inline-block translate-y-6 -mt-8 px-4 py-2 bg-[var(--blue-fig)] cursor-pointer text-white rounded-full text-xs w-fit"
             >
               Work With Us
             </a>
           </div>
           <div class="flex flex-col items-center bg-white rounded-4xl shadow-lg p-4 w-48">
-            <img loading="lazy" decoding="async" width="330" height="329" alt="Connect With Us" class="w-40 h-40 mb-4" src="/assets/Connect-CiMwqMoR.svg" /><a href="/contact-us.php"
+            <img loading="lazy" decoding="async" width="330" height="329" alt="Connect With Us" class="w-40 h-40 mb-4" src="/assets/Connect-CiMwqMoR.svg" /><a href="/contact-us"
               class="inline-block translate-y-6 -mt-8 px-4 py-2 bg-[var(--blue-fig)] cursor-pointer text-white rounded-full text-xs w-fit"
             >
               Connect With Us

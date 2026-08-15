@@ -477,7 +477,7 @@
               <p class="text-[#403D3D] text-sm font-medium italic 2xl:text-base">
                 Empower yourself &amp; others with mental well-being
               </p>
-              <a href="/appointment.php"
+              <a href="/appointment"
                 class="cursor-pointer 2xl:text-2xl bg-[#234394] flex justify-center items-center text-white rounded-full h-10 w-fit md:px-8 px-10 py-6 font-semibold p-4"
               >
                 <p>Start Gifting</p>
@@ -528,7 +528,7 @@
         <p class="w-full md:w-fit md:not-italic italic 2xl:text-lg">
           A small act of kindness can make a world of difference.
         </p>
-        <a href="/appointment.php"
+        <a href="/appointment"
           class="inline-block bg-[#234394] 2xl:text-2xl text-white rounded-full w-fit px-20 md:px-8 py-4 md:py-2 font-semibold cursor-pointer"
         >
           Gift Now

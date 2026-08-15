@@ -610,7 +610,7 @@
         </div>
         <h2 class="font-semibold mx-auto md:mt-15 mt-10">Advance Booking Required for</h2>
         <h2 class="font-semibold mx-auto text-[var(--blue-fig)] mb-5">In-Person Visits</h2>
-        <a href="/appointment.php"
+        <a href="/appointment"
           class="inline-block w-[70%] md:w-[20%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-2 2xl:mt-6 text-white font-medium cursor-pointer text-center"
         >
           Book a Session
@@ -884,7 +884,7 @@
                   </div>
                   <p class="pt-2">
                     Too see a full list of services, visit
-                    <a class="text-[#234394] font-bold" href="/contact-us.php">services page</a>
+                    <a class="text-[#234394] font-bold" href="/contact-us">services page</a>
                   </p>
                 </div>
               </div>

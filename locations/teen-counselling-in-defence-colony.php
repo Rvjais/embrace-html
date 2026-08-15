@@ -453,7 +453,7 @@
 <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Teen Counselling in Defence Colony</h1>
 <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto italic">Professional teen counselling for teenagers and their families in Defence Colony, at our Malviya Nagar centre a short drive away.</p>
 <div class="mt-8 flex justify-center">
-<a href="/appointment.php" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
+<a href="/appointment" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
               Book a Consultation
             </a>
 </div>
@@ -461,9 +461,9 @@
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
 <div class="max-w-7xl mx-auto flex items-center gap-2">
-<a class="hover:text-[#234394]" href="/index.php">Home</a>
+<a class="hover:text-[#234394]" href="/">Home</a>
 <span>/</span>
-<a class="hover:text-[#234394]" href="/teen-mental-health/teen-counselling.php">Teen Mental Health Hub</a>
+<a class="hover:text-[#234394]" href="/teen-mental-health/teen-counselling">Teen Mental Health Hub</a>
 <span>/</span>
 <span class="text-gray-800 font-medium">Teen Counselling In Defence Colony</span>
 </div>
@@ -474,31 +474,31 @@
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #234394"></span>Common Concerns</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/teen-mental-health/teen-counselling.php">Teen Counselling &amp; Support Hub</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/teen-anxiety.php">Teen Anxiety</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/teen-depression.php">Teen Depression</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/teen-stress.php">Teen Stress &amp; Coping</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/social-anxiety-in-teens.php">Social Anxiety in Teens</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/peer-pressure.php">Peer Pressure</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/teen-mental-health/teen-counselling">Teen Counselling &amp; Support Hub</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/teen-anxiety">Teen Anxiety</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/teen-depression">Teen Depression</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/teen-stress">Teen Stress &amp; Coping</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/social-anxiety-in-teens">Social Anxiety in Teens</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/peer-pressure">Peer Pressure</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #C499F6"></span>Digital &amp; Lifestyle</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/digital-addiction.php">Digital Addiction</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/gaming-addiction.php">Gaming Addiction</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/career-stress.php">Career Stress</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/exam-anxiety.php">Exam Anxiety</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/college-transition-support.php">College Transition Support</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/digital-addiction">Digital Addiction</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/gaming-addiction">Gaming Addiction</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/career-stress">Career Stress</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/exam-anxiety">Exam Anxiety</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/college-transition-support">College Transition Support</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #2EC4B6"></span>Emotional Wellbeing</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/self-esteem-for-teens.php">Self-Esteem for Teens</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/emotional-regulation-for-teens.php">Emotional Regulation for Teens</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/anger-management-for-teens.php">Anger Management for Teens</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/teen-relationship-issues.php">Teen Relationship Issues</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/self-esteem-for-teens">Self-Esteem for Teens</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/emotional-regulation-for-teens">Emotional Regulation for Teens</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/anger-management-for-teens">Anger Management for Teens</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/teen-mental-health/teen-relationship-issues">Teen Relationship Issues</a></li>
 </ul>
 </div></div><div class="w-full md:hidden mb-6 bg-[#F9FBFF] border border-[#E0E6F0] rounded-2xl p-4 shadow-sm">
 <details class="group">
@@ -510,31 +510,31 @@
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Common Concerns</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-[#234394] font-bold" href="/teen-mental-health/teen-counselling.php">Teen Counselling &amp; Support Hub</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/teen-anxiety.php">Teen Anxiety</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/teen-depression.php">Teen Depression</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/teen-stress.php">Teen Stress &amp; Coping</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/social-anxiety-in-teens.php">Social Anxiety in Teens</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/peer-pressure.php">Peer Pressure</a></li>
+<li><a class="block py-1 text-xs text-[#234394] font-bold" href="/teen-mental-health/teen-counselling">Teen Counselling &amp; Support Hub</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/teen-anxiety">Teen Anxiety</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/teen-depression">Teen Depression</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/teen-stress">Teen Stress &amp; Coping</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/social-anxiety-in-teens">Social Anxiety in Teens</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/peer-pressure">Peer Pressure</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Digital &amp; Lifestyle</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/digital-addiction.php">Digital Addiction</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/gaming-addiction.php">Gaming Addiction</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/career-stress.php">Career Stress</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/exam-anxiety.php">Exam Anxiety</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/college-transition-support.php">College Transition Support</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/digital-addiction">Digital Addiction</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/gaming-addiction">Gaming Addiction</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/career-stress">Career Stress</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/exam-anxiety">Exam Anxiety</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/college-transition-support">College Transition Support</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Emotional Wellbeing</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/self-esteem-for-teens.php">Self-Esteem for Teens</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/emotional-regulation-for-teens.php">Emotional Regulation for Teens</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/anger-management-for-teens.php">Anger Management for Teens</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/teen-relationship-issues.php">Teen Relationship Issues</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/self-esteem-for-teens">Self-Esteem for Teens</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/emotional-regulation-for-teens">Emotional Regulation for Teens</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/anger-management-for-teens">Anger Management for Teens</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/teen-mental-health/teen-relationship-issues">Teen Relationship Issues</a></li>
 </ul>
 </div> </div>
 </details>
@@ -610,7 +610,7 @@
 <div class="cta-card my-12">
 <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Defence Colony</h3>
 <p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your teen counselling consultation at our Malviya Nagar centre.</p>
-<a href="/appointment.php" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
                 Schedule an Appointment
               </a>
 </div>

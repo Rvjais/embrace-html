@@ -354,7 +354,7 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Child Development Centre",
-          "item": "https://embracelives.com/child-development-centre/child-development-centre"
+          "item": "https://embracelives.com/child-development-centre"
         }
       ]
     },
@@ -462,13 +462,13 @@
     <span class="inline-block bg-[#234394] text-white text-xs font-bold tracking-wider uppercase px-4 py-1.5 rounded-full mb-5">Location Services</span>
     <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Child Development Centre in Gurgaon</h1>
     <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto">Child Development Centre for families in Gurgaon, delivered by the same multidisciplinary team that runs our assessments. This page covers where you will be seen, how to get there and what happens first.</p>
-    <a href="/appointment.php" class="inline-block mt-8 px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free 15-minute call</a>
+    <a href="/appointment" class="inline-block mt-8 px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free 15-minute call</a>
   </div>
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
   <div class="max-w-7xl mx-auto flex items-center gap-2 flex-wrap">
-      <a href="/index.php">Home</a><span class="text-gray-300">/</span>
-      <a href="/child-development-centre/child-development-centre.php">Child Development Centre</a><span class="text-gray-300">/</span>
+      <a href="/">Home</a><span class="text-gray-300">/</span>
+      <a href="/child-development-centre">Child Development Centre</a><span class="text-gray-300">/</span>
       <span class="text-gray-700 font-medium">In Gurgaon</span>
   </div>
 </div>
@@ -478,20 +478,20 @@
   <div class="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm md:sticky md:top-24 side-menu">
     <h2 class="text-lg font-bold text-[#234394] mb-4 border-b pb-3">Child Development Services</h2>
     <div class="space-y-1">
-      <a class="" href="/developmental-delay/developmental-delay-treatment.php">Developmental Delay Treatment</a>
-      <a class="" href="/intellectual-disability/intellectual-disability-treatment.php">Intellectual Disability Treatment</a>
-      <a class="" href="/down-syndrome/down-syndrome-treatment.php">Down Syndrome Treatment &amp; Therapy</a>
-      <a class="" href="/oral-motor-therapy/oral-motor-therapy.php">Oral Motor Delay Treatment</a>
-      <a class="" href="/aba-therapy/aba-therapy.php">ABA Therapy</a>
-      <a class="" href="/physiotherapy/physiotherapy.php">Physiotherapy Clinic</a>
-      <a class="" href="/pediatric-neurology/pediatric-neurologist.php">Pediatric Neurologist</a>
-      <a class="" href="/developmental-pediatrics/developmental-pediatrician.php">Developmental Pediatrician</a>
-      <a class="is-current" href="/child-development-centre/child-development-centre.php">Child Development Centre</a>
+      <a class="" href="/developmental-delay-treatment">Developmental Delay Treatment</a>
+      <a class="" href="/intellectual-disability-treatment">Intellectual Disability Treatment</a>
+      <a class="" href="/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
+      <a class="" href="/oral-motor-therapy">Oral Motor Delay Treatment</a>
+      <a class="" href="/aba-therapy">ABA Therapy</a>
+      <a class="" href="/physiotherapy">Physiotherapy Clinic</a>
+      <a class="" href="/pediatric-neurologist">Pediatric Neurologist</a>
+      <a class="" href="/developmental-pediatrician">Developmental Pediatrician</a>
+      <a class="is-current" href="/child-development-centre">Child Development Centre</a>
     </div>
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mt-6 mb-2">Related</h3>
     <div class="space-y-1">
-      <a href="/speech-therapy/speech-therapy.php">Speech &amp; Language Therapy</a>
-      <a href="/occupational-therapy/occupational-therapy.php">Occupational Therapy</a>
+      <a href="/speech-therapy/speech-therapy">Speech &amp; Language Therapy</a>
+      <a href="/occupational-therapy/occupational-therapy">Occupational Therapy</a>
     </div>
   </div>
 </aside>
@@ -510,7 +510,7 @@
     <li>Three centres across Delhi NCR plus online sessions</li>
   </ul>
 </div>
-<p>For the full clinical picture, including what the difficulty is, the signs worth acting on and how treatment is planned, read our <a href="/child-development-centre/child-development-centre.php" class="text-[#234394] font-semibold">Child Development Centre guide</a>.</p>
+<p>For the full clinical picture, including what the difficulty is, the signs worth acting on and how treatment is planned, read our <a href="/child-development-centre" class="text-[#234394] font-semibold">Child Development Centre guide</a>.</p>
 
 <h2>How to start</h2>
 <ul>
@@ -562,18 +562,18 @@
 
 <h2>Other eMbrace services near you</h2>
 <ul>
-<li><a href="/locations/child-psychologist-in-gurgaon.php" class="text-[#234394]">Child psychology in Gurgaon</a></li>
-<li><a href="/locations/child-psychologist-in-delhi.php" class="text-[#234394]">Child psychology in Delhi</a></li>
-<li><a href="/locations/child-psychologist-in-south-delhi.php" class="text-[#234394]">Child psychology in South Delhi</a></li>
-<li><a href="/locations/child-psychologist-in-noida.php" class="text-[#234394]">Child psychology in Noida</a></li>
-  <li><a href="/locations/index.php" class="text-[#234394]">View all eMbrace locations</a></li>
+<li><a href="/locations/child-psychologist-in-gurgaon" class="text-[#234394]">Child psychology in Gurgaon</a></li>
+<li><a href="/locations/child-psychologist-in-delhi" class="text-[#234394]">Child psychology in Delhi</a></li>
+<li><a href="/locations/child-psychologist-in-south-delhi" class="text-[#234394]">Child psychology in South Delhi</a></li>
+<li><a href="/locations/child-psychologist-in-noida" class="text-[#234394]">Child psychology in Noida</a></li>
+  <li><a href="/locations" class="text-[#234394]">View all eMbrace locations</a></li>
 </ul>
 
 <div class="pathway-card mt-12 rounded-3xl p-8 bg-gradient-to-br from-[#eef2ff] to-[#e0e7ff] border border-[#c7d2fe]">
   <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Not sure whether you need this yet?</h2>
   <p class="text-gray-600 mb-6">Start with a free 15-minute intake call. A clinician will tell you honestly whether child development centre is the right next step, or whether something else is. There is no obligation and no waiting list to join.</p>
   <div class="flex flex-wrap gap-3">
-    <a href="/appointment.php" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
+    <a href="/appointment" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
     <a href="https://wa.me/919971576800" target="_blank" rel="noopener" class="inline-block px-7 py-3 rounded-full bg-white border border-[#c7d2fe] text-[#234394] font-semibold hover:bg-[#f8faff] transition-colors">WhatsApp +91 99715 76800</a>
   </div>
 </div>

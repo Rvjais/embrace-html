@@ -358,7 +358,7 @@
               compassion and clinical precision, from the very first session.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 mt-8 w-full sm:w-auto justify-center md:justify-start">
-              <a href="/appointment.php"
+              <a href="/appointment"
                 class="inline-block px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3366] transition-colors cursor-pointer shadow-md"
               >
                 Book a Session</button
@@ -483,7 +483,7 @@
             </div>
           </div>
           <div class="text-center mt-10">
-            <a href="/appointment.php" class="inline-block text-[#234394] font-semibold text-sm md:text-base hover:underline cursor-pointer">
+            <a href="/appointment" class="inline-block text-[#234394] font-semibold text-sm md:text-base hover:underline cursor-pointer">
               Not sure which applies to your child? Book a free screening call →
             </a>
           </div>
@@ -960,7 +960,7 @@
             </div>
           </div>
           <div class="text-center mt-10">
-            <a href="/appointment.php"
+            <a href="/appointment"
               class="inline-block px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3366] transition-colors cursor-pointer shadow-md"
             >
               Ready to start? Book your intake appointment today →
@@ -1037,7 +1037,7 @@
             </div>
           </div>
           <div class="text-center">
-            <a href="/userListing.php" class="inline-block text-[#234394] font-semibold text-sm md:text-base hover:underline cursor-pointer">
+            <a href="/userListing" class="inline-block text-[#234394] font-semibold text-sm md:text-base hover:underline cursor-pointer">
               Meet the full team →
             </a>
           </div>
@@ -2404,7 +2404,7 @@
             </div>
           </div>
           <div class="text-center">
-            <a href="/parent-hub/parents.php" class="inline-block text-[#234394] font-semibold text-sm md:text-base hover:underline cursor-pointer">
+            <a href="/parent-hub/parents" class="inline-block text-[#234394] font-semibold text-sm md:text-base hover:underline cursor-pointer">
               Visit our Resource Centre →
             </a>
           </div>
@@ -2711,7 +2711,7 @@
             </div>
             <p class="mt-6 text-xs text-center text-[#403D3D]/60">
               Not sure if your child is on track?
-              <a href="/appointment.php"
+              <a href="/appointment"
                 class="inline-block text-[#234394] underline hover:text-[#1a3366] focus-visible:ring-2 focus-visible:ring-[#234394] cursor-pointer"
               >
                 Book a free developmental screening →

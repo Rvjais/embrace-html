@@ -4,14 +4,14 @@
 <meta charset="utf-8"/>
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Developmental Delay Treatment at eMbrace across Delhi NCR: assessment, therapy and a written baseline you can measure. Start with a free 15-minute intake call." name="description"/>
+<meta content="Pediatric Neurologist at eMbrace across Delhi NCR: seizures, regression, headaches, tone and movement concerns. Book a free 15-minute call with a clinician." name="description"/>
 <meta content="index, follow" name="robots"/>
-<link href="https://embracelives.com/developmental-delay/developmental-delay-treatment" rel="canonical"/>
+<link href="https://embracelives.com/pediatric-neurologist" rel="canonical"/>
 <!-- Open Graph -->
 <meta content="website" property="og:type"/>
-<meta content="https://embracelives.com/developmental-delay/developmental-delay-treatment" property="og:url"/>
-<meta content="Developmental Delay Treatment | RCI-Certified Team | eMbrace" property="og:title"/>
-<meta content="Developmental Delay Treatment at eMbrace across Delhi NCR: assessment, therapy and a written baseline you can measure. Start with a free 15-minute intake call." property="og:description"/>
+<meta content="https://embracelives.com/pediatric-neurologist" property="og:url"/>
+<meta content="Pediatric Neurologist | Child Development Centre | eMbrace" property="og:title"/>
+<meta content="Pediatric Neurologist at eMbrace across Delhi NCR: seizures, regression, headaches, tone and movement concerns. Book a free 15-minute call with a clinician." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="1200" property="og:image:width"/>
 <meta content="630" property="og:image:height"/>
@@ -19,10 +19,10 @@
 <meta content="en_IN" property="og:locale"/>
 <!-- Twitter Card -->
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Developmental Delay Treatment | RCI-Certified Team | eMbrace" name="twitter:title"/>
-<meta content="Developmental Delay Treatment at eMbrace across Delhi NCR: assessment, therapy and a written baseline you can measure. Start with a free 15-minute intake call." name="twitter:description"/>
+<meta content="Pediatric Neurologist | Child Development Centre | eMbrace" name="twitter:title"/>
+<meta content="Pediatric Neurologist at eMbrace across Delhi NCR: seizures, regression, headaches, tone and movement concerns. Book a free 15-minute call with a clinician." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Developmental Delay Treatment | RCI-Certified Team | eMbrace</title>
+<title>Pediatric Neurologist | Child Development Centre | eMbrace</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -342,7 +342,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://embracelives.com/developmental-delay/developmental-delay-treatment#breadcrumb",
+      "@id": "https://embracelives.com/pediatric-neurologist#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -354,15 +354,15 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Child Development Centre",
-          "item": "https://embracelives.com/child-development-centre/child-development-centre"
+          "item": "https://embracelives.com/child-development-centre"
         }
       ]
     },
     {
       "@type": "WebPage",
-      "@id": "https://embracelives.com/developmental-delay/developmental-delay-treatment#webpage",
-      "url": "https://embracelives.com/developmental-delay/developmental-delay-treatment",
-      "name": "Developmental Delay Treatment | RCI-Certified Team | eMbrace",
+      "@id": "https://embracelives.com/pediatric-neurologist#webpage",
+      "url": "https://embracelives.com/pediatric-neurologist",
+      "name": "Pediatric Neurologist | Child Development Centre | eMbrace",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -370,59 +370,59 @@
         "@id": "https://embracelives.com/#organization"
       },
       "inLanguage": "en-IN",
-      "description": "Developmental Delay Treatment at eMbrace across Delhi NCR: assessment, therapy and a written baseline you can measure. Start with a free 15-minute intake call.",
+      "description": "Pediatric Neurologist at eMbrace across Delhi NCR: seizures, regression, headaches, tone and movement concerns. Book a free 15-minute call with a clinician.",
       "breadcrumb": {
-        "@id": "https://embracelives.com/developmental-delay/developmental-delay-treatment#breadcrumb"
+        "@id": "https://embracelives.com/pediatric-neurologist#breadcrumb"
       }
     },
     {
       "@type": "FAQPage",
-      "@id": "https://embracelives.com/developmental-delay/developmental-delay-treatment#faq",
-      "url": "https://embracelives.com/developmental-delay/developmental-delay-treatment",
-      "name": "Developmental Delay Treatment | RCI-Certified Team | eMbrace — Frequently Asked Questions",
+      "@id": "https://embracelives.com/pediatric-neurologist#faq",
+      "url": "https://embracelives.com/pediatric-neurologist",
+      "name": "Pediatric Neurologist | Child Development Centre | eMbrace — Frequently Asked Questions",
       "isPartOf": {
-        "@id": "https://embracelives.com/developmental-delay/developmental-delay-treatment#webpage"
+        "@id": "https://embracelives.com/pediatric-neurologist#webpage"
       },
       "inLanguage": "en-IN",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Will my child grow out of a developmental delay?",
+          "name": "When should I see a neurologist rather than a psychologist?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Some children do catch up without help, particularly with mild speech delays. Others do not, and there is no reliable way to tell which is which without an assessment. Waiting costs more than checking."
+            "text": "See a neurologist first for seizures, regression, persistent headaches, or clear differences in strength or tone. Behaviour, attention and learning concerns usually start with a psychologist."
           }
         },
         {
           "@type": "Question",
-          "name": "What is the difference between developmental delay and autism?",
+          "name": "Will my child need an EEG or a scan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Delay describes timing: skills arriving later than expected. Autism describes a pattern in social communication, interests and sensory response. A child can have either, both, or a delay from an entirely different cause."
+            "text": "Only if it will change management. Many consultations end without investigations, and we will explain why a test is or is not needed before ordering anything."
           }
         },
         {
           "@type": "Question",
-          "name": "How early can my child be assessed?",
+          "name": "What should I bring to the appointment?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "From around 12 months, and earlier where there are clear concerns such as feeding difficulty, very low muscle tone, or loss of a skill. There is no age at which it is too early to ask."
+            "text": "Previous reports, discharge summaries, immunisation and growth records, a list of medicines, and a phone video of anything unusual you have seen. Video is genuinely valuable."
           }
         },
         {
           "@type": "Question",
-          "name": "How long does treatment take?",
+          "name": "Is a referral required?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It depends entirely on what is driving the delay and how much support is in place at home. We review progress against the baseline regularly, and we will tell you plainly when therapy is no longer needed."
+            "text": "No. You can book directly. If your paediatrician has already sent notes or investigations, bring them so nothing is repeated unnecessarily."
           }
         },
         {
           "@type": "Question",
-          "name": "Do we need a doctor referral to book?",
+          "name": "Do you treat epilepsy long term?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. You can book directly with us. If a medical opinion is needed, our developmental paediatrician and paediatric neurologist are part of the same team."
+            "text": "Yes, including medication management and review. We coordinate with your paediatrician and, where needed, with the school so staff know what to do."
           }
         }
       ]
@@ -434,20 +434,20 @@
 </head>
 <body class="overflow-x-hidden">
 <div id="root" class="overflow-x-hidden">
-<?php include __DIR__ . '/../components/header.php'; ?>
+<?php include __DIR__ . '/components/header.php'; ?>
 <div class="px-4 md:px-8 lg:px-16 py-14 md:py-20 bg-gradient-to-b from-[#E7F7FF] to-[#FFFFFF] text-center">
   <div class="max-w-4xl mx-auto">
     <span class="inline-block bg-[#234394] text-white text-xs font-bold tracking-wider uppercase px-4 py-1.5 rounded-full mb-5">Child Development</span>
-    <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Developmental Delay Treatment</h1>
-    <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto">Developmental delay means a child is reaching milestones noticeably later than expected for their age, in one area or several. It is a description of where a child is now, not a prediction of where they will end up, and it is the point at which support does the most good.</p>
-    <a href="/appointment.php" class="inline-block mt-8 px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free 15-minute call</a>
+    <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Pediatric Neurologist</h1>
+    <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto">A paediatric neurologist is a medical doctor who diagnoses and treats conditions affecting a child's brain, spinal cord, nerves and muscles. Where a developmental or behavioural concern may have a medical cause underneath it, this is the specialist who can say.</p>
+    <a href="/appointment" class="inline-block mt-8 px-8 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free 15-minute call</a>
   </div>
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
   <div class="max-w-7xl mx-auto flex items-center gap-2 flex-wrap">
-      <a href="/index.php">Home</a><span class="text-gray-300">/</span>
-      <a href="/child-development-centre/child-development-centre.php">Child Development Centre</a><span class="text-gray-300">/</span>
-      <span class="text-gray-700 font-medium">Developmental Delay</span>
+      <a href="/">Home</a><span class="text-gray-300">/</span>
+      <a href="/child-development-centre">Child Development Centre</a><span class="text-gray-300">/</span>
+      <span class="text-gray-700 font-medium">Pediatric Neurology</span>
   </div>
 </div>
 <div class="px-4 md:px-8 lg:px-16 py-12 bg-white">
@@ -456,117 +456,115 @@
   <div class="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm md:sticky md:top-24 side-menu">
     <h2 class="text-lg font-bold text-[#234394] mb-4 border-b pb-3">Child Development Services</h2>
     <div class="space-y-1">
-      <a class="is-current" href="/developmental-delay/developmental-delay-treatment.php">Developmental Delay Treatment</a>
-      <a class="" href="/intellectual-disability/intellectual-disability-treatment.php">Intellectual Disability Treatment</a>
-      <a class="" href="/down-syndrome/down-syndrome-treatment.php">Down Syndrome Treatment &amp; Therapy</a>
-      <a class="" href="/oral-motor-therapy/oral-motor-therapy.php">Oral Motor Delay Treatment</a>
-      <a class="" href="/aba-therapy/aba-therapy.php">ABA Therapy</a>
-      <a class="" href="/physiotherapy/physiotherapy.php">Physiotherapy Clinic</a>
-      <a class="" href="/pediatric-neurology/pediatric-neurologist.php">Pediatric Neurologist</a>
-      <a class="" href="/developmental-pediatrics/developmental-pediatrician.php">Developmental Pediatrician</a>
-      <a class="" href="/child-development-centre/child-development-centre.php">Child Development Centre</a>
+      <a class="" href="/developmental-delay-treatment">Developmental Delay Treatment</a>
+      <a class="" href="/intellectual-disability-treatment">Intellectual Disability Treatment</a>
+      <a class="" href="/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
+      <a class="" href="/oral-motor-therapy">Oral Motor Delay Treatment</a>
+      <a class="" href="/aba-therapy">ABA Therapy</a>
+      <a class="" href="/physiotherapy">Physiotherapy Clinic</a>
+      <a class="is-current" href="/pediatric-neurologist">Pediatric Neurologist</a>
+      <a class="" href="/developmental-pediatrician">Developmental Pediatrician</a>
+      <a class="" href="/child-development-centre">Child Development Centre</a>
     </div>
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mt-6 mb-2">Related</h3>
     <div class="space-y-1">
-      <a href="/speech-therapy/speech-therapy.php">Speech &amp; Language Therapy</a>
-      <a href="/occupational-therapy/occupational-therapy.php">Occupational Therapy</a>
-      <a href="/autism/autism.php">Autism Hub</a>
+      <a href="/autism/autism">Autism Hub</a>
     </div>
   </div>
 </aside>
     <div class="flex-grow max-w-4xl article-content">
-<h2>What developmental delay actually means</h2>
-<p>Children develop across five broad areas: speech and language, gross motor, fine motor, cognitive and problem-solving, and social and emotional skills. A delay in one of these is called a specific delay. Significant delay across two or more is usually described as global developmental delay.</p>
-<p>A delay is not a diagnosis in itself. It is a signal that something is making learning harder, and the useful question is what. Hearing loss, a language disorder, autism, an intellectual disability, a neurological condition, prematurity and, in some cases, simple late blooming all present as delay in the early years.</p>
-
-
-<h2>Signs that are worth acting on</h2>
-<p>Milestone ranges are wide, and children do not develop on a straight line. What matters clinically is the size of the gap, whether it is widening or closing, and whether it affects everyday life at home and at nursery or school.</p>
+<h2>When to see a paediatric neurologist</h2>
+<p>Many developmental concerns are best assessed by a psychologist or therapist first. Others need a medical opinion before anything else, and the difference matters.</p>
 <ul>
-<li>No babbling or gestures such as pointing and waving by 12 months</li>
-<li>Fewer than six clear words by 18 months, or no two-word phrases by two years</li>
-<li>Not walking independently by 18 months, or a marked difference between the two sides of the body</li>
-<li>Little interest in other children, or no pretend play by three years</li>
-<li>Loss of a skill your child previously had, at any age. Regression always warrants a same-month appointment</li>
+<li>Seizures, staring episodes, or unexplained loss of awareness</li>
+<li>Loss of skills a child previously had, at any age</li>
+<li>Persistent or worsening headaches, particularly with vomiting or waking a child at night</li>
+<li>Marked differences in strength, tone or movement between the two sides of the body</li>
+<li>Very low or very high muscle tone, or unexplained weakness</li>
+<li>An unusually large or small head, or a change in head growth</li>
+<li>Tics, abnormal movements, or unsteadiness that is getting worse</li>
 </ul>
 
-<h2>How treatment works at eMbrace</h2>
-<p>Treatment starts with working out what is driving the delay, because the answer changes the plan completely. A developmental assessment maps your child across all five areas and establishes a baseline you can measure progress against.</p>
-<p>From there, therapy is targeted rather than general. A child with a language delay and good motor skills does not need the same programme as a child with low muscle tone and feeding difficulty. Because our speech and language therapists, occupational therapists, physiotherapists, special educators, psychologists and developmental paediatrician work in the same team, a child who needs two or three of them is not sent on a fresh search each time.</p>
-<p>Parent coaching is part of the plan, not an add-on. A therapy hour a week matters far less than what happens in the other hundred and sixty-seven, and most of the gains families see come from what changes at home.</p>
+<h2>What the consultation involves</h2>
+<p>A first consultation is mostly history and examination. Expect detailed questions about pregnancy, birth, milestones, family history and exactly what you have observed, followed by a neurological examination of tone, strength, reflexes, coordination and cranial nerves.</p>
+<p>Investigations are ordered only where they will change what happens next. That may include an EEG where seizures are suspected, imaging in specific circumstances, or blood tests. A good consultation frequently ends with reassurance and no test at all, and that is a real result rather than a wasted visit.</p>
 
 
-<h2>Why the early years carry the most weight</h2>
-<p>The brain is at its most adaptable in the first years of life, which is why early intervention is the consistent recommendation across developmental paediatrics. The same difficulty usually takes fewer sessions to shift at three than at eight, and a child who gets support before school entry arrives with skills already in place rather than a gap to close.</p>
-<p>Waiting has a cost that is easy to miss, because nothing dramatic happens on the day you decide to wait. If you are unsure whether what you are seeing is a delay, the free 15-minute intake call is the cheapest way to find out.</p>
+<h2>Working alongside developmental care</h2>
+<p>Neurological and developmental concerns overlap constantly. Regression, delayed milestones, unusual movements and difficult behaviour can each be medical, developmental, or both, and families are too often sent back and forth between specialists who never speak to each other.</p>
+<p>Because our paediatric neurologist works in the same practice as our developmental paediatrician, psychologists, speech and language therapists, occupational therapists and physiotherapists, a child who needs a medical opinion and a therapy plan gets both without starting again.</p>
+
+
+<h2>A note on urgency</h2>
+<p>Some things should not wait for an appointment. A first seizure, a seizure lasting more than five minutes, sudden weakness, a severe sudden headache, a head injury with drowsiness or vomiting, or a rapid loss of skills all need emergency medical care. Go to your nearest emergency department or call 112.</p>
 
 <div class="key-points-card my-10">
   <h3 class="text-lg font-bold text-[#1e293b] mb-4 mt-0">What you get at eMbrace</h3>
   <ul>
-    <li>Assessment across all five developmental areas, not just the one you noticed</li>
-    <li>Speech, occupational therapy, physiotherapy and special education in one team</li>
-    <li>A written baseline so progress is measured rather than guessed at</li>
-    <li>Parent coaching built into the plan from the first session</li>
+    <li>Medical assessment for seizures, regression, headaches, tone and movement concerns</li>
+    <li>Investigations ordered only where they change the plan</li>
+    <li>Same team as our developmental paediatrician and therapy services</li>
+    <li>Clear guidance on what is urgent and what can wait</li>
   </ul>
 </div>
-<h2>Where we offer developmental delay treatment</h2>
+<h2>Where we offer paediatric neurology</h2>
 <p>eMbrace runs three centres across Delhi NCR, plus online sessions for families elsewhere in India and abroad. For locality-specific details, including addresses, travel and what happens at a first visit:</p>
 <ul>
-  <li><a href="/locations/developmental-delay-treatment-in-delhi.php" class="text-[#234394] font-semibold">Developmental Delay Treatment in Delhi</a></li>
-  <li><a href="/locations/developmental-delay-treatment-in-gurgaon.php" class="text-[#234394] font-semibold">Developmental Delay Treatment in Gurgaon</a></li>
-  <li><a href="/locations/index.php" class="text-[#234394] font-semibold">All eMbrace locations across Delhi NCR</a></li>
+  <li><a href="/locations/pediatric-neurologist-in-delhi" class="text-[#234394] font-semibold">Pediatric Neurologist in Delhi</a></li>
+  <li><a href="/locations/pediatric-neurologist-in-gurgaon" class="text-[#234394] font-semibold">Pediatric Neurologist in Gurgaon</a></li>
+  <li><a href="/locations" class="text-[#234394] font-semibold">All eMbrace locations across Delhi NCR</a></li>
 </ul>
 <h2 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h2>
 <div class="space-y-2 mb-10">
 <div class="faq-item">
   <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Will my child grow out of a developmental delay?</span>
+    <span class="faq-q">When should I see a neurologist rather than a psychologist?</span>
     <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-panel" hidden><p>Some children do catch up without help, particularly with mild speech delays. Others do not, and there is no reliable way to tell which is which without an assessment. Waiting costs more than checking.</p></div>
+  <div class="faq-panel" hidden><p>See a neurologist first for seizures, regression, persistent headaches, or clear differences in strength or tone. Behaviour, attention and learning concerns usually start with a psychologist.</p></div>
 </div>
 <div class="faq-item">
   <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">What is the difference between developmental delay and autism?</span>
+    <span class="faq-q">Will my child need an EEG or a scan?</span>
     <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-panel" hidden><p>Delay describes timing: skills arriving later than expected. Autism describes a pattern in social communication, interests and sensory response. A child can have either, both, or a delay from an entirely different cause.</p></div>
+  <div class="faq-panel" hidden><p>Only if it will change management. Many consultations end without investigations, and we will explain why a test is or is not needed before ordering anything.</p></div>
 </div>
 <div class="faq-item">
   <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">How early can my child be assessed?</span>
+    <span class="faq-q">What should I bring to the appointment?</span>
     <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-panel" hidden><p>From around 12 months, and earlier where there are clear concerns such as feeding difficulty, very low muscle tone, or loss of a skill. There is no age at which it is too early to ask.</p></div>
+  <div class="faq-panel" hidden><p>Previous reports, discharge summaries, immunisation and growth records, a list of medicines, and a phone video of anything unusual you have seen. Video is genuinely valuable.</p></div>
 </div>
 <div class="faq-item">
   <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">How long does treatment take?</span>
+    <span class="faq-q">Is a referral required?</span>
     <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-panel" hidden><p>It depends entirely on what is driving the delay and how much support is in place at home. We review progress against the baseline regularly, and we will tell you plainly when therapy is no longer needed.</p></div>
+  <div class="faq-panel" hidden><p>No. You can book directly. If your paediatrician has already sent notes or investigations, bring them so nothing is repeated unnecessarily.</p></div>
 </div>
 <div class="faq-item">
   <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Do we need a doctor referral to book?</span>
+    <span class="faq-q">Do you treat epilepsy long term?</span>
     <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
   </button>
-  <div class="faq-panel" hidden><p>No. You can book directly with us. If a medical opinion is needed, our developmental paediatrician and paediatric neurologist are part of the same team.</p></div>
+  <div class="faq-panel" hidden><p>Yes, including medication management and review. We coordinate with your paediatrician and, where needed, with the school so staff know what to do.</p></div>
 </div>
 </div>
 <div class="pathway-card mt-12 rounded-3xl p-8 bg-gradient-to-br from-[#eef2ff] to-[#e0e7ff] border border-[#c7d2fe]">
   <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Not sure whether you need this yet?</h2>
-  <p class="text-gray-600 mb-6">Start with a free 15-minute intake call. A clinician will tell you honestly whether developmental delay treatment is the right next step, or whether something else is. There is no obligation and no waiting list to join.</p>
+  <p class="text-gray-600 mb-6">Start with a free 15-minute intake call. A clinician will tell you honestly whether paediatric neurology is the right next step, or whether something else is. There is no obligation and no waiting list to join.</p>
   <div class="flex flex-wrap gap-3">
-    <a href="/appointment.php" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
+    <a href="/appointment" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
     <a href="https://wa.me/919971576800" target="_blank" rel="noopener" class="inline-block px-7 py-3 rounded-full bg-white border border-[#c7d2fe] text-[#234394] font-semibold hover:bg-[#f8faff] transition-colors">WhatsApp +91 99715 76800</a>
   </div>
 </div>
     </div>
   </div>
 </div>
-<?php include __DIR__ . '/../components/lead-magnet-band-child.php'; ?>
-<?php include __DIR__ . '/../components/footer.php'; ?>
+<?php include __DIR__ . '/components/lead-magnet-band-child.php'; ?>
+<?php include __DIR__ . '/components/footer.php'; ?>
 </div>
 <script src="/assets/interactive.js"></script>
 <script src="/assets/lead-magnets.js"></script>

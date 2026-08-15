@@ -740,7 +740,7 @@
                         </p>
                       </div>
                     </div>
-                    <a href="/appointment.php"
+                    <a href="/appointment"
                       class="flex items-center gap-1.5 bg-[#F39F9A] text-white text-xs font-semibold px-5 py-2 rounded-full hover:bg-[#e88480] transition-colors shadow-sm shrink-0"
                     >
                       <svg
@@ -857,7 +857,7 @@
                         </p>
                       </div>
                     </div>
-                    <a href="/appointment.php"
+                    <a href="/appointment"
                       class="flex items-center gap-1.5 bg-[#F39F9A] text-white text-xs font-semibold px-5 py-2 rounded-full hover:bg-[#e88480] transition-colors shadow-sm shrink-0"
                     >
                       <svg
@@ -996,7 +996,7 @@
                         </p>
                       </div>
                     </div>
-                    <a href="/appointment.php"
+                    <a href="/appointment"
                       class="flex items-center gap-1.5 bg-[#F39F9A] text-white text-xs font-semibold px-5 py-2 rounded-full hover:bg-[#e88480] transition-colors shadow-sm shrink-0"
                     >
                       <svg
@@ -1134,7 +1134,7 @@
                         </p>
                       </div>
                     </div>
-                    <a href="/appointment.php"
+                    <a href="/appointment"
                       class="flex items-center gap-1.5 bg-[#F39F9A] text-white text-xs font-semibold px-5 py-2 rounded-full hover:bg-[#e88480] transition-colors shadow-sm shrink-0"
                     >
                       <svg

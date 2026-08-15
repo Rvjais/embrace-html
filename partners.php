@@ -731,7 +731,7 @@
           <div
             class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-6 lg:gap-8 max-w-7xl mx-auto px-4 pb-5 lg:pb-8"
           >
-            <a data-discover="true" href="/university.php"
+            <a data-discover="true" href="/university"
               ><div
                 class="bg-white rounded-4xl h-80 lg:min-h-[350px] lg:h-auto shadow-md border border-[#D8D8D8] p-4 lg:p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 relative z-20"
               >
@@ -745,7 +745,7 @@
                   End-to-end student mental health support, faculty sensitization &amp; campus inclusion initiatives.
                 </p>
               </div></a
-            ><a data-discover="true" href="/schools-hub/schools.php"
+            ><a data-discover="true" href="/schools-hub/schools"
               ><div
                 class="bg-white rounded-4xl h-80 lg:min-h-[350px] lg:h-auto shadow-md border border-[#D8D8D8] p-4 lg:p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 relative z-20"
               >
@@ -759,7 +759,7 @@
                   Early screening, SEL integration, teacher training &amp; parent engagement for student well-being.
                 </p>
               </div></a
-            ><a data-discover="true" href="/corporate.php"
+            ><a data-discover="true" href="/corporate"
               ><div
                 class="bg-white rounded-4xl h-80 lg:min-h-[350px] lg:h-auto shadow-md border border-[#D8D8D8] p-4 lg:p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 relative z-20"
               >
@@ -773,7 +773,7 @@
                   Evidence-based employee wellness programs, mental health training &amp; workplace inclusion.
                 </p>
               </div></a
-            ><a data-discover="true" href="/hospitalAndHealthcare.php"
+            ><a data-discover="true" href="/hospitalAndHealthcare"
               ><div
                 class="bg-white rounded-4xl h-80 lg:min-h-[350px] lg:h-auto shadow-md border border-[#D8D8D8] p-4 lg:p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300 relative z-20"
               >

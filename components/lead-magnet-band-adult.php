@@ -13,9 +13,9 @@
       </p>
     </div>
     <div class="lm-cta__btns">
-      <a class="lm-btn lm-btn--primary" href="/resources/adult-stress-check.php"
+      <a class="lm-btn lm-btn--primary" href="/resources/adult-stress-check"
          data-lm-cta="adult-stress-check" data-lm-placement="page_band">Take the free self-check</a>
-      <a class="lm-btn lm-btn--ghost" href="/appointment.php"
+      <a class="lm-btn lm-btn--ghost" href="/appointment"
          data-lm-cta="book" data-lm-placement="page_band">Book a consultation</a>
     </div>
   </div>

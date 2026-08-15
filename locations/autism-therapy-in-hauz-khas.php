@@ -453,7 +453,7 @@
 <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Autism Therapy in Hauz Khas</h1>
 <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto italic">Professional autism therapy and treatment for families in Hauz Khas, at our Malviya Nagar centre just minutes away.</p>
 <div class="mt-8 flex justify-center">
-<a href="/appointment.php" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
+<a href="/appointment" class="inline-block bg-[#234394] hover:bg-[#1e3a80] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 cursor-pointer">
               Book a Consultation
             </a>
 </div>
@@ -461,9 +461,9 @@
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
 <div class="max-w-7xl mx-auto flex items-center gap-2">
-<a class="hover:text-[#234394]" href="/index.php">Home</a>
+<a class="hover:text-[#234394]" href="/">Home</a>
 <span>/</span>
-<a class="hover:text-[#234394]" href="/autism/autism.php">Autism Hub</a>
+<a class="hover:text-[#234394]" href="/autism/autism">Autism Hub</a>
 <span>/</span>
 <span class="text-gray-800 font-medium">Autism Therapy In Hauz Khas</span>
 </div>
@@ -474,86 +474,86 @@
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #234394"></span>Core Concepts</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism.php">Autism Support &amp; Resource Hub</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/what-is-autism.php">What is Autism?</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-spectrum-disorder.php">Autism Spectrum Disorder (ASD)</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/signs-of-autism.php">Recognizing the Signs of Autism</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-symptoms.php">Autism Symptoms &amp; Characteristics</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/social-communication-deficits.php">Social Communication Differences</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/restricted-repetitive-behaviours.php">Routines, Stimming &amp; Repetitive Behaviours</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism">Autism Support &amp; Resource Hub</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/what-is-autism">What is Autism?</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-spectrum-disorder">Autism Spectrum Disorder (ASD)</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/signs-of-autism">Recognizing the Signs of Autism</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-symptoms">Autism Symptoms &amp; Characteristics</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/social-communication-deficits">Social Communication Differences</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/restricted-repetitive-behaviours">Routines, Stimming &amp; Repetitive Behaviours</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #C499F6"></span>Life Stages</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-toddlers.php">Autism in Toddlers (Ages 0-3)</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-preschoolers.php">Autism in Preschoolers (Ages 3-5)</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-school-age-children.php">Autism in School-Age Children</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-adolescents.php">Autism in Adolescents (Ages 12-18)</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-adults.php">Autism in Adulthood</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-toddlers">Autism in Toddlers (Ages 0-3)</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-preschoolers">Autism in Preschoolers (Ages 3-5)</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-school-age-children">Autism in School-Age Children</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-adolescents">Autism in Adolescents (Ages 12-18)</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-adults">Autism in Adulthood</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #F39F9A"></span>Specific Profiles</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-girls.php">Autism in Girls &amp; Women</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-boys.php">Autism in Boys</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/late-autism-diagnosis.php">Late Autism Diagnosis</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/high-functioning-autism.php">High-Functioning Autism (Level 1)</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/level-1-autism.php">Level 1 Autism: Support Needs</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/level-2-autism.php">Level 2 Autism: Substantial Support</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/level-3-autism.php">Level 3 Autism: Comprehensive Care</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-girls">Autism in Girls &amp; Women</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-in-boys">Autism in Boys</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/late-autism-diagnosis">Late Autism Diagnosis</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/high-functioning-autism">High-Functioning Autism (Level 1)</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/level-1-autism">Level 1 Autism: Support Needs</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/level-2-autism">Level 2 Autism: Substantial Support</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/level-3-autism">Level 3 Autism: Comprehensive Care</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #2EC4B6"></span>Screening &amp; Diagnosis</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-screening.php">Developmental Autism Screening</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-testing.php">Clinical Autism Testing</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-assessment.php">Comprehensive Autism Assessments</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/ados-2-assessment.php">ADOS-2 Diagnostic Assessment</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-diagnostic-evaluation.php">Autism Diagnostic Evaluations</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-screening">Developmental Autism Screening</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-testing">Clinical Autism Testing</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-assessment">Comprehensive Autism Assessments</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/ados-2-assessment">ADOS-2 Diagnostic Assessment</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-diagnostic-evaluation">Autism Diagnostic Evaluations</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #C499F6"></span>Therapies &amp; Support</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-treatment.php">Multidisciplinary Autism Support</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/autism/autism-therapy.php">Autism Therapy Services</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-behaviour-therapy.php">Positive Behaviour Support &amp; Regulation</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-occupational-therapy.php">Occupational Therapy &amp; Sensory Integration</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-speech-therapy.php">Speech &amp; Language Therapy</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-social-skills.php">Affirming Peer Connection Groups</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-parent-training.php">Empowering Parents: Coaching &amp; Training</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-sensory-needs.php">Understanding Sensory Profiles &amp; Needs</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-treatment">Multidisciplinary Autism Support</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 bg-[#234394] text-white font-semibold" href="/autism/autism-therapy">Autism Therapy Services</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-behaviour-therapy">Positive Behaviour Support &amp; Regulation</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-occupational-therapy">Occupational Therapy &amp; Sensory Integration</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-speech-therapy">Speech &amp; Language Therapy</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-social-skills">Affirming Peer Connection Groups</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-parent-training">Empowering Parents: Coaching &amp; Training</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-sensory-needs">Understanding Sensory Profiles &amp; Needs</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #F2B81B"></span>Transitions &amp; Education</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-school-support.php">Autism School Support Plans</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-inclusive-education.php">Autism &amp; Inclusive Education</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-transition-to-adulthood.php">Transitioning to Adulthood</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-workplace-support.php">Neurodiversity in the Workplace</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-school-support">Autism School Support Plans</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-inclusive-education">Autism &amp; Inclusive Education</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-transition-to-adulthood">Transitioning to Adulthood</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-workplace-support">Neurodiversity in the Workplace</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #FF85A1"></span>Co-occurring Conditions</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-and-anxiety.php">Autism and Anxiety</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-and-adhd.php">Understanding AuDHD (Autism &amp; ADHD)</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-and-learning-disabilities.php">Autism &amp; Learning Disabilities</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-and-sleep.php">Autism and Sleep Support</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-and-feeding.php">Autism, Feeding &amp; Selective Eating</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-and-emotional-regulation.php">Emotional Regulation &amp; Meltdown Support</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-and-anxiety">Autism and Anxiety</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-and-adhd">Understanding AuDHD (Autism &amp; ADHD)</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-and-learning-disabilities">Autism &amp; Learning Disabilities</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-and-sleep">Autism and Sleep Support</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-and-feeding">Autism, Feeding &amp; Selective Eating</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-and-emotional-regulation">Emotional Regulation &amp; Meltdown Support</a></li>
 </ul>
 </div>
 <div class="mb-6">
 <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background-color: #5499C7"></span>FAQs &amp; Resources</h3>
 <ul class="space-y-1 ml-2">
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-faq.php">Autism: Frequently Asked Questions</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-resources.php">Autism Resources &amp; Support Guides</a></li>
-<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-support-groups.php">Autism Support &amp; Community Circles</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-faq">Autism: Frequently Asked Questions</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-resources">Autism Resources &amp; Support Guides</a></li>
+<li><a class="block px-3 py-1.5 text-xs rounded-xl transition-all duration-200 text-gray-600 hover:text-[#234394] hover:bg-white" href="/autism/autism-support-groups">Autism Support &amp; Community Circles</a></li>
 </ul>
 </div>
 </div><div class="w-full md:hidden mb-6 bg-[#F9FBFF] border border-[#E0E6F0] rounded-2xl p-4 shadow-sm">
@@ -566,86 +566,86 @@
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Core Concepts</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism.php">Autism Support &amp; Resource Hub</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/what-is-autism.php">What is Autism?</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-spectrum-disorder.php">Autism Spectrum Disorder (ASD)</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/signs-of-autism.php">Recognizing the Signs of Autism</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-symptoms.php">Autism Symptoms &amp; Characteristics</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/social-communication-deficits.php">Social Communication Differences</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/restricted-repetitive-behaviours.php">Routines, Stimming &amp; Repetitive Behaviours</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism">Autism Support &amp; Resource Hub</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/what-is-autism">What is Autism?</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-spectrum-disorder">Autism Spectrum Disorder (ASD)</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/signs-of-autism">Recognizing the Signs of Autism</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-symptoms">Autism Symptoms &amp; Characteristics</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/social-communication-deficits">Social Communication Differences</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/restricted-repetitive-behaviours">Routines, Stimming &amp; Repetitive Behaviours</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Life Stages</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-toddlers.php">Autism in Toddlers (Ages 0-3)</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-preschoolers.php">Autism in Preschoolers (Ages 3-5)</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-school-age-children.php">Autism in School-Age Children</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-adolescents.php">Autism in Adolescents (Ages 12-18)</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-adults.php">Autism in Adulthood</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-toddlers">Autism in Toddlers (Ages 0-3)</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-preschoolers">Autism in Preschoolers (Ages 3-5)</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-school-age-children">Autism in School-Age Children</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-adolescents">Autism in Adolescents (Ages 12-18)</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-adults">Autism in Adulthood</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Specific Profiles</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-girls.php">Autism in Girls &amp; Women</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-boys.php">Autism in Boys</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/late-autism-diagnosis.php">Late Autism Diagnosis</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/high-functioning-autism.php">High-Functioning Autism (Level 1)</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/level-1-autism.php">Level 1 Autism: Support Needs</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/level-2-autism.php">Level 2 Autism: Substantial Support</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/level-3-autism.php">Level 3 Autism: Comprehensive Care</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-girls">Autism in Girls &amp; Women</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-in-boys">Autism in Boys</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/late-autism-diagnosis">Late Autism Diagnosis</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/high-functioning-autism">High-Functioning Autism (Level 1)</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/level-1-autism">Level 1 Autism: Support Needs</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/level-2-autism">Level 2 Autism: Substantial Support</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/level-3-autism">Level 3 Autism: Comprehensive Care</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Screening &amp; Diagnosis</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-screening.php">Developmental Autism Screening</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-testing.php">Clinical Autism Testing</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-assessment.php">Comprehensive Autism Assessments</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/ados-2-assessment.php">ADOS-2 Diagnostic Assessment</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-diagnostic-evaluation.php">Autism Diagnostic Evaluations</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-screening">Developmental Autism Screening</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-testing">Clinical Autism Testing</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-assessment">Comprehensive Autism Assessments</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/ados-2-assessment">ADOS-2 Diagnostic Assessment</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-diagnostic-evaluation">Autism Diagnostic Evaluations</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Therapies &amp; Support</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-treatment.php">Multidisciplinary Autism Support</a></li>
-<li><a class="block py-1 text-xs text-[#234394] font-bold" href="/autism/autism-therapy.php">Autism Therapy Services</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-behaviour-therapy.php">Positive Behaviour Support &amp; Regulation</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-occupational-therapy.php">Occupational Therapy &amp; Sensory Integration</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-speech-therapy.php">Speech &amp; Language Therapy</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-social-skills.php">Affirming Peer Connection Groups</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-parent-training.php">Empowering Parents: Coaching &amp; Training</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-sensory-needs.php">Understanding Sensory Profiles &amp; Needs</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-treatment">Multidisciplinary Autism Support</a></li>
+<li><a class="block py-1 text-xs text-[#234394] font-bold" href="/autism/autism-therapy">Autism Therapy Services</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-behaviour-therapy">Positive Behaviour Support &amp; Regulation</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-occupational-therapy">Occupational Therapy &amp; Sensory Integration</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-speech-therapy">Speech &amp; Language Therapy</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-social-skills">Affirming Peer Connection Groups</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-parent-training">Empowering Parents: Coaching &amp; Training</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-sensory-needs">Understanding Sensory Profiles &amp; Needs</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Transitions &amp; Education</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-school-support.php">Autism School Support Plans</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-inclusive-education.php">Autism &amp; Inclusive Education</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-transition-to-adulthood.php">Transitioning to Adulthood</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-workplace-support.php">Neurodiversity in the Workplace</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-school-support">Autism School Support Plans</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-inclusive-education">Autism &amp; Inclusive Education</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-transition-to-adulthood">Transitioning to Adulthood</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-workplace-support">Neurodiversity in the Workplace</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">Co-occurring Conditions</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-and-anxiety.php">Autism and Anxiety</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-and-adhd.php">Understanding AuDHD (Autism &amp; ADHD)</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-and-learning-disabilities.php">Autism &amp; Learning Disabilities</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-and-sleep.php">Autism and Sleep Support</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-and-feeding.php">Autism, Feeding &amp; Selective Eating</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-and-emotional-regulation.php">Emotional Regulation &amp; Meltdown Support</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-and-anxiety">Autism and Anxiety</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-and-adhd">Understanding AuDHD (Autism &amp; ADHD)</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-and-learning-disabilities">Autism &amp; Learning Disabilities</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-and-sleep">Autism and Sleep Support</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-and-feeding">Autism, Feeding &amp; Selective Eating</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-and-emotional-regulation">Emotional Regulation &amp; Meltdown Support</a></li>
 </ul>
 </div>
 <div class="mb-4">
 <h4 class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1.5">FAQs &amp; Resources</h4>
 <ul class="space-y-1 ml-1">
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-faq.php">Autism: Frequently Asked Questions</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-resources.php">Autism Resources &amp; Support Guides</a></li>
-<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-support-groups.php">Autism Support &amp; Community Circles</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-faq">Autism: Frequently Asked Questions</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-resources">Autism Resources &amp; Support Guides</a></li>
+<li><a class="block py-1 text-xs text-gray-600" href="/autism/autism-support-groups">Autism Support &amp; Community Circles</a></li>
 </ul>
 </div>
 </div>
@@ -722,7 +722,7 @@
 <div class="cta-card my-12">
 <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Hauz Khas</h3>
 <p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your autism therapy consultation at our Malviya Nagar centre.</p>
-<a href="/appointment.php" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
                 Schedule an Appointment
               </a>
 </div>

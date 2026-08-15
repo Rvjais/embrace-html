@@ -415,12 +415,12 @@
             </p>
             <div class="flex flex-col sm:flex-row gap-4 mt-2">
               <a
-                href="/userListing.php"
+                href="/userListing"
                 class="2xl:text-2xl px-8 py-2 rounded-full bg-[var(--blue-fig)] text-white font-medium cursor-pointer text-center"
                 >Browse All Therapists</a
               >
               <a
-                href="/contact-us.php"
+                href="/contact-us"
                 class="2xl:text-2xl px-8 py-2 rounded-full border-2 border-[var(--blue-fig)] text-[var(--blue-fig)] font-medium cursor-pointer text-center"
                 >Contact Us</a
               >

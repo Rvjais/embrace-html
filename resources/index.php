@@ -353,7 +353,7 @@
           <li>Free milestone &amp; early-support guide included</li>
         </ul>
         <div class="lm-card__foot">
-          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/child-milestone-checker.php"
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/child-milestone-checker"
              data-lm-cta="child-milestone-checker" data-lm-placement="resources_hub">Start the 2-minute check</a>
           <p class="lm-card__meta">2 minutes &middot; 8 questions &middot; instant result</p>
         </div>
@@ -373,7 +373,7 @@
           <li>Includes a school accommodations letter template</li>
         </ul>
         <div class="lm-card__foot">
-          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/adhd-autism-screener.php"
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/adhd-autism-screener"
              data-lm-cta="adhd-autism-screener" data-lm-placement="resources_hub">Start the 3-minute screener</a>
           <p class="lm-card__meta">3 minutes &middot; 17 questions &middot; instant result</p>
         </div>
@@ -393,7 +393,7 @@
           <li>Confidential — even under employer programmes</li>
         </ul>
         <div class="lm-card__foot">
-          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/adult-stress-check.php"
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/adult-stress-check"
              data-lm-cta="adult-stress-check" data-lm-placement="resources_hub">Start the 3-minute check</a>
           <p class="lm-card__meta">3 minutes &middot; 17 questions &middot; instant result</p>
         </div>
@@ -416,7 +416,7 @@
       <ol>
         <li><strong>Your result is never held hostage.</strong> You see it in full before any form appears. The email is for the written report and the guide, not for the answer.</li>
         <li><strong>No manufactured urgency.</strong> A green result says so plainly, and we will tell you on the phone if you do not need us.</li>
-        <li><strong>Your data stays with the clinical team.</strong> Held under our <a href="/privacypolicy.php" style="color:#234394;font-weight:600">privacy policy</a>, never sold, never shared with third parties. Unsubscribe in one click.</li>
+        <li><strong>Your data stays with the clinical team.</strong> Held under our <a href="/privacypolicy" style="color:#234394;font-weight:600">privacy policy</a>, never sold, never shared with third parties. Unsubscribe in one click.</li>
       </ol>
     </div>
   </div>

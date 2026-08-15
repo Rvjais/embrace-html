@@ -412,7 +412,7 @@
           >
             Feel seen, supported, and empowered in your parenting journey.
           </p>
-          <a href="/appointment.php"
+          <a href="/appointment"
             class="w-[70%] md:w-[20%] py-2 rounded-full bg-[var(--blue-fig)] mt-4 md:mt-8 2xl:mt-6 text-white font-medium cursor-pointer flex items-center justify-center text-center"
           >
             Book a Session
