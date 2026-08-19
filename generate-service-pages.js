@@ -81,7 +81,7 @@ const CITY = {
     centres: 'our Gurugram centre',
     centreVariants: ['our Gurugram centre on MG Road', 'our Gurugram centre in Sector 24', 'our Gurugram centre'],
     where:
-      'Families in Gurgaon are seen at our Gurugram centre, 710 DLF City Court on Mehrauli-Gurgaon Road in Nathupur, Sector 24. It sits on the main MG Road corridor, which makes it reachable from DLF Phases 1 to 5, Sushant Lok, Sector 14 and Cyber City without crossing into Delhi, and it is a short walk from MG Road Metro Station.',
+      'Families in Gurgaon are seen at our Gurugram centre, 710 DLF City Court on Mehrauli-Gurgaon Road in Nathupur, Sector 24. It sits on the main MG Road corridor, which makes it reachable from DLF Phases 1 to 5, Sushant Lok, Sector 14 and Cyber City without crossing into Delhi, with Guru Dronacharya on the Yellow Line roughly 700 metres away.',
     nearby: ['gurgaon', 'delhi', 'south-delhi', 'noida'],
   },
 };
@@ -103,12 +103,18 @@ function fit(variants, min, max, label, problems) {
 }
 
 /**
- * RCI registration covers psychologists and allied therapists. A paediatric
- * neurologist and a developmental paediatrician are doctors, so claiming
- * "RCI-Certified" on their pages would be wrong.
+ * RCI registration covers psychologists and allied therapists, so this used to
+ * strip the RCI suffixes only for doctors (`medical`) and physiotherapists
+ * (`noRci`), where the claim would plainly be wrong.
+ *
+ * As of 19 August 2026 it strips them for everyone. The client's clinician
+ * table carries no RCI registration for any of the eleven clinicians, so the
+ * claim is unverified across the board rather than only for the doctors. The
+ * `medical` and `noRci` flags are kept because they still document why those
+ * services could never carry it. See LOCATION-PAGES-BRIEF.md section 10.
  */
 function suffixesFor(svc) {
-  return (svc.medical || svc.noRci) ? TITLE_SUFFIXES.filter(s => !/RCI/.test(s)) : TITLE_SUFFIXES;
+  return TITLE_SUFFIXES.filter(s => !/RCI/.test(s));
 }
 
 /**
@@ -485,6 +491,14 @@ const problems = [];
 let written = 0;
 
 function write(rel, contents) {
+  // Location pages carrying an authored body from generate-location-body.js are
+  // owned by that pipeline now. Regenerating them here would silently discard
+  // hand-written content. The hub pages this script also produces are
+  // unaffected, since they never carry the marker.
+  {
+    const target = path.join(ROOT, rel);
+    if (fs.existsSync(target) && fs.readFileSync(target, "utf8").includes("LOCATION-BODY:START")) return;
+  }
   const full = path.join(ROOT, rel);
   fs.mkdirSync(path.dirname(full), { recursive: true });
   if (!DRY) fs.writeFileSync(full, contents);

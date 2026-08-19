@@ -10,16 +10,16 @@
 <link href="https://embracelives.com/locations/speech-therapy-in-vasant-kunj" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/locations/speech-therapy-in-vasant-kunj" property="og:url"/>
-<meta content="Speech Therapy in Vasant Kunj | RCI-Certified Team | eMbrace" property="og:title"/>
+<meta content="Speech Therapy in Vasant Kunj | eMbrace Centres Delhi NCR" property="og:title"/>
 <meta content="Speech therapy in Vasant Kunj for speech delay, unclear speech, oral motor difficulty and stammering, at our Vasant Kunj centre. Book a free intake call today." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Speech Therapy in Vasant Kunj | RCI-Certified Team | eMbrace" name="twitter:title"/>
+<meta content="Speech Therapy in Vasant Kunj | eMbrace Centres Delhi NCR" name="twitter:title"/>
 <meta content="Speech therapy in Vasant Kunj for speech delay, unclear speech, oral motor difficulty and stammering, at our Vasant Kunj centre. Book a free intake call today." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Speech Therapy in Vasant Kunj | RCI-Certified Team | eMbrace</title>
+<title>Speech Therapy in Vasant Kunj | eMbrace Centres Delhi NCR</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet"/>
@@ -358,7 +358,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://embracelives.com/locations/speech-therapy-in-vasant-kunj#webpage",
       "url": "https://embracelives.com/locations/speech-therapy-in-vasant-kunj",
-      "name": "Speech Therapy in Vasant Kunj | RCI-Certified Team | eMbrace",
+      "name": "Speech Therapy in Vasant Kunj | eMbrace Centres Delhi NCR",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -375,7 +375,7 @@
       "@type": "FAQPage",
       "@id": "https://embracelives.com/locations/speech-therapy-in-vasant-kunj#faq",
       "url": "https://embracelives.com/locations/speech-therapy-in-vasant-kunj",
-      "name": "Speech Therapy in Vasant Kunj | RCI-Certified Team | eMbrace — Frequently Asked Questions",
+      "name": "Speech Therapy in Vasant Kunj | eMbrace Centres Delhi NCR — Frequently Asked Questions",
       "isPartOf": {
         "@id": "https://embracelives.com/locations/speech-therapy-in-vasant-kunj#webpage"
       },
@@ -383,34 +383,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Does eMbrace offer speech therapy in Vasant Kunj?",
+          "name": "My child is growing up with three languages. Is that causing the delay?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer professional speech therapy services at our Vasant Kunj location and online. Our team of experienced professionals provides personalised care."
+            "text": "Multilingualism does not cause language disorder. Distinguishing an ordinary bilingual pattern from a genuine disorder is a substantial part of the work at this centre."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I book speech therapy in Vasant Kunj?",
+          "name": "Can speech therapy run alongside other therapies?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Vasant Kunj centre."
+            "text": "Yes, and here it usually does. Speech and language input sits alongside behaviour and occupational therapy in the same building, so the clinicians coordinate directly."
           }
         },
         {
           "@type": "Question",
-          "name": "What are the qualifications of your speech therapy professionals in Vasant Kunj?",
+          "name": "Where is your Vasant Kunj centre?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care."
+            "text": "C-7, Sector C, Pocket 5, in the basement of Grand Vasant Kunj, where the largest multidisciplinary team is based."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you offer online speech therapy for Vasant Kunj residents?",
+          "name": "How much depends on practice at home?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer online speech therapy services for residents of Vasant Kunj who prefer remote consultations or have mobility concerns."
+            "text": "Most of it. Ten minutes of daily practice outperforms the weekly session, because this is skill work built by repetition in ordinary settings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does speech therapy cost in Vasant Kunj?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quoted on your free 15-minute intake call, depending on the clinician and how often sessions run."
           }
         }
       ]
@@ -553,82 +561,119 @@
 </div> </div>
 </details>
 </div><div class="flex-grow max-w-4xl article-content">
-<h2 class="text-2xl md:text-3xl font-bold mb-4 text-[#1e293b]">Speech Therapy Services in Vasant Kunj</h2>
-<p class="text-lg text-gray-700 leading-relaxed font-light mb-8">Our team provides speech and language therapy for families in Vasant Kunj. Sessions run at our Vasant Kunj centre, online or in person, with a free 15-minute intake call before you book anything.</p>
-<hr class="my-8 border-gray-100"/>
-<div class="key-points-card">
-<ul class="space-y-4 mb-8 key-points-list">
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>Speech and language therapy in Vasant Kunj covers a wider span than any other service we run: a toddler with no words, a child who stammers, and an adult relearning speech or swallowing after a stroke are all speech and language work. The centre is in Vasant Kunj itself. This page sets out what we treat, how often, and the part that actually decides whether it works.</p>
+<div class="key-points-card my-8">
+<ul class="space-y-4 key-points-list">
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Expert Professionals:</strong> Our speech therapy team in Vasant Kunj consists of qualified, experienced professionals dedicated to providing exceptional care.</span>
-</li>
-<li class="flex items-start gap-3">
-<img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Convenient Location:</strong> Our Vasant Kunj centre is easily accessible with flexible appointment scheduling to suit your busy lifestyle.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace Vasant Kunj</span>
 </li>
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Personalised Care:</strong> Every speech therapy plan is tailored to your unique needs, goals, and circumstances.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> C-7, Sector C, Pocket 5, Basement, Grand Vasant Kunj, New Delhi 110070</span>
 </li>
 <li class="flex items-start gap-3">
-<img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Comprehensive Support:</strong> From initial assessment to ongoing care, we provide complete speech therapy support for you and your family.</span>
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Munirka on the Magenta Line is nearest, Chhatarpur on the Yellow Line is the usual access point for the Vasant Kunj sectors</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99715 76800</span>
 </li>
 </ul>
-<h3 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h3><div class="space-y-2 mb-8">
+</div>
+<h2>Our Vasant Kunj centre</h2>
+<p>This is the one locality page where the centre really is in the locality. eMbrace Vasant Kunj is at C-7, Sector C, Pocket 5, in the basement of Grand Vasant Kunj, New Delhi 110070.</p>
+<p>It is our largest team, and the practical consequence is choice: if a clinician is not the right fit for your child, or you need a particular language, there is somebody else in the building rather than a wait for the one person who does that work.</p>
+<p>Families reach us here from across south-west Delhi, including Vasant Vihar, Munirka, R.K. Puram, Safdarjung Enclave, Anand Niketan, Shanti Niketan, West End Colony, Moti Bagh and Chanakyapuri.</p>
+<p>Sessions are weekly, and here is the part providers underplay: the session matters less than the ten minutes a day at home. This is skill practice, built by repetition in ordinary settings rather than in a clinic room once a week. If ten minutes daily is not realistic right now, say so and we will build a smaller programme that is.</p>
+<p>For parking, the nearest drop-off point and the quickest route at your particular time of day, ask on the intake call. Traffic and parking around every one of these centres change enough through the day that current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>What we treat</h2>
+<p>The two ends of the range look nothing alike. For children: late talking, unclear speech, language that is not developing, stammering, feeding and oral motor difficulty, cleft lip and palate, cochlear implant support, verbal dyspraxia, and the social use of language in autism. For adults, mostly after neurological illness: aphasia, dysarthria, voice and difficulty swallowing safely.</p>
+<ul>
+<li>A child with fewer than around fifty words at two, or not putting words together by two and a half</li>
+<li>Speech that people outside the family cannot understand by around four</li>
+<li>Stammering that has lasted more than six months, or that the child has become aware of</li>
+<li>Coughing or distress when eating or drinking, at any age, which should be looked at promptly</li>
+<li>Adults with speech, voice or swallowing difficulty after a stroke or with a progressive condition</li>
+</ul>
+<p>Each of these has its own page on our <a href="/speech-therapy/speech-therapy">speech and language hub</a>.</p>
+<h2>What the first appointment involves</h2>
+<p>An assessment first, because difficulties that look identical can have quite different causes. We take a history, analyse speech and language directly, and check the mechanics where feeding or oral motor control are involved. Hearing is always considered, being the commonest missed explanation for a language delay.</p>
+<p>You leave with a baseline, targets in plain terms, and specific things to do at home. With young children the parent session matters as much as the child session, since you run the practice.</p>
+<h2>What we see most of here</h2>
+<p>Vasant Kunj brings a multilingual caseload, and that changes the first question. A child growing up with three languages is not delayed for being multilingual, and distinguishing an ordinary bilingual pattern from a genuine language disorder is a substantial part of the work here.</p>
+<p>The second group is children on autism programmes, where speech and language input runs alongside behaviour and occupational therapy in the same building.</p>
+<h2>Who you would see at our Vasant Kunj centre</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>At our Vasant Kunj centre, the clinicians who take this work are:</p>
+<h3>Upasna, Speech Language Pathologist</h3>
+<p>Upasna holds a Master and a Bachelor in Speech Language Pathology from the Ali Yavar Jung National Institute for Speech and Hearing Disability in Kolkata. Her paediatric work covers spoken language disorders, misarticulation, late language emergence, developmental verbal dyspraxia, developmental stuttering and cluttering, cleft lip and palate, cochlear implant support, cerebral palsy and pragmatic language difficulty in autism.</p>
+<p>Which of them you see is decided on the intake call rather than by whoever has the next free slot, and you are told who it will be before you book. Fuller biographies are on our <a href="/about">about page</a>.</p>
+<h2>Schools and services we already work with</h2>
+<p>Referrals around Vasant Kunj reach this service through several routes, and the institutional ones are worth knowing about.</p>
+<p>We work with The British School in Chanakyapuri on psychoeducational, cognitive and risk assessments, therapy for children and adolescents, and workshops for teachers, parents and pupils.</p>
+<p>At the American Embassy School in Chanakyapuri we carry out psychoeducational, cognitive, comprehensive and brief assessments, including risk assessments, and provide therapy for children and adolescents.</p>
+<p>Our Malviya Nagar centre runs inside Rainbow Children's Hospital, New Delhi, which is why occupational therapy, physiotherapy, speech therapy, behaviour therapy and special education sit in the same building as assessment.</p>
+<h2>Fees and how long it takes</h2>
+<p>Fees are quoted upfront on your intake call and depend on the clinician and the frequency. Courses are typically blocks of eight to twelve weekly sessions followed by a review, rather than an open-ended commitment.</p>
+<p>How long depends on what is being treated. An articulation difficulty often resolves in a block or two. Language disorder, verbal dyspraxia and post-stroke aphasia are longer, and we say which you are looking at rather than letting you assume the shorter one.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Does eMbrace offer speech therapy in Vasant Kunj?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">My child is growing up with three languages. Is that causing the delay?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer professional speech therapy services at our Vasant Kunj location and online. Our team of experienced professionals provides personalised care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Multilingualism does not cause language disorder. Distinguishing an ordinary bilingual pattern from a genuine disorder is a substantial part of the work at this centre.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How do I book speech therapy in Vasant Kunj?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Can speech therapy run alongside other therapies?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Vasant Kunj centre.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Yes, and here it usually does. Speech and language input sits alongside behaviour and occupational therapy in the same building, so the clinicians coordinate directly.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What are the qualifications of your speech therapy professionals in Vasant Kunj?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Where is your Vasant Kunj centre?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">C-7, Sector C, Pocket 5, in the basement of Grand Vasant Kunj, where the largest multidisciplinary team is based.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Do you offer online speech therapy for Vasant Kunj residents?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much depends on practice at home?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer online speech therapy services for residents of Vasant Kunj who prefer remote consultations or have mobility concerns.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Most of it. Ten minutes of daily practice outperforms the weekly session, because this is skill work built by repetition in ordinary settings.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does speech therapy cost in Vasant Kunj?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Quoted on your free 15-minute intake call, depending on the clinician and how often sessions run.</p>
 </div>
 </div>
 </div>
 <div class="cta-card my-12">
-<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Vasant Kunj</h3>
-<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your speech therapy consultation at our Vasant Kunj centre.</p>
-<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
-                Schedule an Appointment
-              </a>
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
 </div>
-</div>
+<!-- LOCATION-BODY:END -->
 </div>
 </div>
     </div>
@@ -652,15 +697,6 @@
         <li><a href="/locations/learning-disability-assessment-in-vasant-kunj">Learning Disability Assessment in Vasant Kunj</a></li>
         <li><a href="/locations/occupational-therapy-in-vasant-kunj">Occupational Therapy in Vasant Kunj</a></li>
         <li><a href="/locations/special-education-in-vasant-kunj">Special Education in Vasant Kunj</a></li>
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
       </ul>
     </div>
     <div class="emb-nearby__group">

@@ -70,17 +70,23 @@ const SERVICES = {
   'adhd-assessment': {
     titles: ['ADHD Assessment & Treatment in {P}', 'ADHD Assessment in {P}', 'ADHD Testing in {P}'],
     props: [
-      'RCI-certified ADHD assessment and treatment for children and teens in {P}, covering attention, impulsivity and school support',
-      'RCI-certified ADHD assessment and treatment in {P}, covering attention, impulsivity and school support',
+      'Structured ADHD assessment and treatment for children and teens in {P}, covering attention, impulsivity and school support',
+      'Structured ADHD assessment and treatment in {P}, covering attention, impulsivity and school support',
       'ADHD assessment and treatment for children and teens in {P}',
     ],
   },
   'autism-assessment': {
     titles: ['Autism Assessment & Diagnosis in {P}', 'Autism Assessment in {P}', 'Autism Testing in {P}'],
     props: [
-      'ADOS-2 based autism assessment in {P} by RCI-certified clinical psychologists, with a written report your school will accept',
+      // ADOS-2 was queried with the client on 19 August 2026, because the
+      // clinician table lists ISAA and CARS as the autism instruments and never
+      // mentions ADOS-2. The client confirmed ADOS-2 is used and asked for it to
+      // stay. It is therefore a client-attested claim, not one derived from the
+      // clinician table. The RCI wording that sat alongside it is gone and does
+      // not come back without per-clinician confirmation.
+      'ADOS-2 based autism assessment in {P} by our clinical psychology team, with a written report your school will accept',
       'ADOS-2 based autism assessment in {P}, with a written report your school will accept',
-      'ADOS-2 based autism assessment in {P} by RCI-certified psychologists',
+      'ADOS-2 based autism assessment in {P} by our clinical psychology team',
     ],
   },
   'autism-therapy': {
@@ -94,9 +100,9 @@ const SERVICES = {
   'child-psychologist': {
     titles: ['Child Psychologist in {P}', 'Child Psychologist Near {P}', 'Child Psychology in {P}'],
     props: [
-      'See an RCI-certified child psychologist in {P} for anxiety, behaviour, school refusal and developmental concerns, from toddlers to teens',
-      'See an RCI-certified child psychologist in {P} for anxiety, behaviour, school refusal and developmental concerns',
-      'RCI-certified child psychologists in {P} for anxiety, behaviour and developmental concerns',
+      'See an experienced child psychologist in {P} for anxiety, behaviour, school refusal and developmental concerns, from toddlers to teens',
+      'See an experienced child psychologist in {P} for anxiety, behaviour, school refusal and developmental concerns',
+      'Experienced child psychologists in {P} for anxiety, behaviour and developmental concerns',
     ],
   },
   'child-counselling': {
@@ -157,10 +163,18 @@ const SERVICES = {
   },
 };
 
-/** Ranked title suffixes, longest first. */
+/**
+ * Ranked title suffixes, longest first.
+ *
+ * The two RCI suffixes that used to lead this list were removed on 18 August
+ * 2026. The client's clinician table carries no RCI registration data for any
+ * of the eleven clinicians, so "RCI-Certified" was an unverified credential
+ * claim sitting on 110 live pages. Do not reinstate without written
+ * confirmation, per clinician. See LOCATION-PAGES-BRIEF.md section 8.
+ */
 const TITLE_SUFFIXES = [
-  ' | RCI-Certified Team | eMbrace',
-  ' | RCI-Certified | eMbrace',
+  ' | eMbrace Centres Delhi NCR',
+  ' | eMbrace Lives Delhi NCR',
   ' | eMbrace Delhi NCR',
   ' | eMbrace Lives',
   ' | eMbrace',
@@ -326,6 +340,19 @@ for (const file of files.sort()) {
   const heroRe = /(<p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto italic">)[\s\S]*?(<\/p>)/i;
   if (heroRe.test(html)) html = html.replace(heroRe, `$1${hero}$2`);
   else problems.push(`${file}: hero sentence not found, geography not corrected`);
+
+  // Everything below this point patches the ORIGINAL templated body copy. Once
+  // a page has an authored body from generate-location-body.js, that copy no
+  // longer exists and these rewrites would only corrupt hand-written prose, so
+  // authored pages are left alone from here. Titles, descriptions, Open Graph,
+  // Twitter and the hero line above are still maintained for every page.
+  if (html.includes('LOCATION-BODY:START')) {
+    if (html !== before) {
+      changed++;
+      if (!DRY) fs.writeFileSync(full, html);
+    }
+    continue;
+  }
 
   const intro = encode(
     `Our team provides ${phrase} for ${audience} in ${place}. ` +

@@ -10,16 +10,16 @@
 <link href="https://embracelives.com/locations/occupational-therapy-in-green-park" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/locations/occupational-therapy-in-green-park" property="og:url"/>
-<meta content="Occupational Therapy in Green Park | RCI-Certified | eMbrace" property="og:title"/>
+<meta content="Occupational Therapy in Green Park | eMbrace Lives Delhi NCR" property="og:title"/>
 <meta content="Occupational therapy in Green Park for sensory, handwriting and fine motor difficulties, at our Malviya Nagar centre, minutes away. Book a free 15-minute call." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Occupational Therapy in Green Park | RCI-Certified | eMbrace" name="twitter:title"/>
+<meta content="Occupational Therapy in Green Park | eMbrace Lives Delhi NCR" name="twitter:title"/>
 <meta content="Occupational therapy in Green Park for sensory, handwriting and fine motor difficulties, at our Malviya Nagar centre, minutes away. Book a free 15-minute call." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Occupational Therapy in Green Park | RCI-Certified | eMbrace</title>
+<title>Occupational Therapy in Green Park | eMbrace Lives Delhi NCR</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet"/>
@@ -358,7 +358,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://embracelives.com/locations/occupational-therapy-in-green-park#webpage",
       "url": "https://embracelives.com/locations/occupational-therapy-in-green-park",
-      "name": "Occupational Therapy in Green Park | RCI-Certified | eMbrace",
+      "name": "Occupational Therapy in Green Park | eMbrace Lives Delhi NCR",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -375,7 +375,7 @@
       "@type": "FAQPage",
       "@id": "https://embracelives.com/locations/occupational-therapy-in-green-park#faq",
       "url": "https://embracelives.com/locations/occupational-therapy-in-green-park",
-      "name": "Occupational Therapy in Green Park | RCI-Certified | eMbrace — Frequently Asked Questions",
+      "name": "Occupational Therapy in Green Park | eMbrace Lives Delhi NCR — Frequently Asked Questions",
       "isPartOf": {
         "@id": "https://embracelives.com/locations/occupational-therapy-in-green-park#webpage"
       },
@@ -383,34 +383,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Does eMbrace offer occupational therapy in Green Park?",
+          "name": "My four year old cannot manage buttons or cutlery. Is that a concern?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer professional occupational therapy services at our Malviya Nagar centre and online. Our team of experienced professionals provides personalised care."
+            "text": "It can be, and self-care independence is one of the commonest reasons children this age are referred from Green Park."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I book occupational therapy in Green Park?",
+          "name": "My child refuses most food textures. Whose job is that?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Malviya Nagar centre."
+            "text": "It sits at the boundary between occupational therapy and speech and language work, so we usually assess it jointly rather than sending you between two services."
           }
         },
         {
           "@type": "Question",
-          "name": "What are the qualifications of your occupational therapy professionals in Green Park?",
+          "name": "Will you drill my child on the skill?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care."
+            "text": "Usually not. At this age far more is achieved by changing the task, the tool or the routine than by repetition of something a child cannot yet do."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you offer online occupational therapy for Green Park residents?",
+          "name": "Where would we go from Green Park?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer online occupational therapy services for residents of Green Park who prefer remote consultations or have mobility concerns."
+            "text": "Our Malviya Nagar centre, two Yellow Line stops south or straight down Aurobindo Marg."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost in Green Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The figure comes on your free 15-minute intake call, depending on the therapist and how often sessions run."
           }
         }
       ]
@@ -561,82 +569,114 @@
 </div> </div>
 </details>
 </div><div class="flex-grow max-w-4xl article-content">
-<h2 class="text-2xl md:text-3xl font-bold mb-4 text-[#1e293b]">Occupational Therapy Services in Green Park</h2>
-<p class="text-lg text-gray-700 leading-relaxed font-light mb-8">Our team provides occupational therapy for families in Green Park. Sessions run at our Malviya Nagar centre, minutes away, with a free 15-minute intake call before you book anything.</p>
-<hr class="my-8 border-gray-100"/>
-<div class="key-points-card">
-<ul class="space-y-4 mb-8 key-points-list">
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>Occupational therapy in Green Park is the least well understood service we offer, so it is worth starting with what it is: helping someone do the ordinary things a day is made of. Dressing, handwriting, eating, sitting still enough to learn, tolerating noise and touch. The short answer is our Malviya Nagar centre, because we do not have a centre in Green Park. It is not physiotherapy, and it is not tuition.</p>
+<div class="key-points-card my-8">
+<ul class="space-y-4 key-points-list">
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Expert Professionals:</strong> Our occupational therapy team in Green Park consists of qualified, experienced professionals dedicated to providing exceptional care.</span>
-</li>
-<li class="flex items-start gap-3">
-<img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Convenient Location:</strong> Our Malviya Nagar centre is easily accessible with flexible appointment scheduling to suit your busy lifestyle.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace at Rainbow, Malviya Nagar</span>
 </li>
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Personalised Care:</strong> Every occupational therapy plan is tailored to your unique needs, goals, and circumstances.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> FC-29, Plot No. 5, Geetanjali, near Malviya Nagar Metro Station Gate No. 1, New Delhi 110017</span>
 </li>
 <li class="flex items-start gap-3">
-<img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Comprehensive Support:</strong> From initial assessment to ongoing care, we provide complete occupational therapy support for you and your family.</span>
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Malviya Nagar, Yellow Line, beside Gate No. 1</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99715 76800</span>
 </li>
 </ul>
-<h3 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h3><div class="space-y-2 mb-8">
+</div>
+<h2>Which eMbrace centre Green Park families use</h2>
+<p>Our nearest centre to Green Park is in Malviya Nagar, two Yellow Line stops south, at FC-29, Plot No. 5, Geetanjali, beside Malviya Nagar Metro Station Gate No. 1. We do not have a centre in Green Park.</p>
+<p>From Green Park, Yusuf Sarai, Sarvapriya Vihar and Hauz Khas Enclave the run down Aurobindo Marg is direct, and the metro covers it in two stops on one line with no change.</p>
+<p>Because the centre is inside Rainbow Children's Hospital, a child who needs speech and language therapy or occupational therapy after assessment continues in the same building with clinicians who already have the report.</p>
+<p>Weekly to begin with, often reducing as a home and school programme takes over. Occupational therapy is unusual in how much of it is environmental: changing a chair, a pencil grip, a routine or a classroom seat can matter more than another session. That means the useful measure of progress is not what happens in the gym here, it is whether mornings at home got easier.</p>
+<p>For parking, the nearest drop-off point and the quickest route at your particular time of day, ask on the intake call. Traffic and parking around every one of these centres change enough through the day that current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>What occupational therapy actually addresses</h2>
+<p>Broadly three things: fine motor and hand skills, sensory processing, and the practical independence that both feed into. A child may come because handwriting is illegible and leave with work on shoulder stability and pencil grip. Another comes because they cannot tolerate a school assembly and the work is about regulation and sensory strategy.</p>
+<ul>
+<li>Handwriting that is slow, effortful, painful or illegible despite practice</li>
+<li>Strong reactions to noise, texture, clothing, food or touch that shrink daily life</li>
+<li>Difficulty with buttons, laces, cutlery, or self-care well past the usual age</li>
+<li>A child described as clumsy, who avoids playgrounds, bikes or ball games</li>
+<li>Difficulty settling to a task, where the underlying problem is regulation rather than attention</li>
+</ul>
+<p>Sensory processing, handwriting, fine motor skills and daily living each have their own page on our <a href="/occupational-therapy/occupational-therapy">occupational therapy hub</a>.</p>
+<h2>What the first appointment involves</h2>
+<p>An assessment through observation and structured tasks rather than questionnaires: watching how a child moves, grips, balances, organises themselves and responds to sensory input, alongside a history from you about which parts of the day are hardest.</p>
+<p>You leave with a small number of goals framed as daily tasks rather than as abstractions, so the target is fastening a shirt or writing a paragraph without pain, not improving fine motor skills in general. Most of the plan is things to change at home and school.</p>
+<h2>What we see most of here</h2>
+<p>From Green Park the referrals are the youngest, often four to seven, for coordination, self-care independence and early handwriting readiness. At this age a great deal is achieved by changing the task rather than drilling the child.</p>
+<p>Feeding and food texture difficulty is a recurring second reason, and it sits at the boundary with speech and language work, so the two are often assessed together.</p>
+<h2>Who you would see at our Malviya Nagar centre</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>Occupational therapy runs at our Malviya Nagar centre inside Rainbow. The occupational therapist named on this site, Dr Agrima Aggarwal, works from our Vasant Kunj and Gurugram centres, so who you would see at Malviya Nagar is confirmed on the intake call rather than assumed here. If seeing a specific therapist matters to you, say so when you call and we will tell you which centre to book.</p>
+<h2>Schools and services we already work with</h2>
+<p>Occupational therapy around Green Park is usually part of something larger, and these are the settings it connects to.</p>
+<p>Our Malviya Nagar centre runs inside Rainbow Children's Hospital, New Delhi, which is why occupational therapy, physiotherapy, speech therapy, behaviour therapy and special education sit in the same building as assessment.</p>
+<h2>Fees and how long it runs</h2>
+<p>Fees are quoted upfront on your intake call. Courses usually run in blocks of eight to twelve weekly sessions with a review at the end, and frequency often reduces once the home and school programme is doing the work.</p>
+<p>Progress is judged against the daily tasks written at the start. If a child is doing better in the therapy room and no better at home, that is a signal the plan needs to change rather than continue.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Does eMbrace offer occupational therapy in Green Park?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">My four year old cannot manage buttons or cutlery. Is that a concern?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer professional occupational therapy services at our Malviya Nagar centre and online. Our team of experienced professionals provides personalised care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">It can be, and self-care independence is one of the commonest reasons children this age are referred from Green Park.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How do I book occupational therapy in Green Park?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">My child refuses most food textures. Whose job is that?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Malviya Nagar centre.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">It sits at the boundary between occupational therapy and speech and language work, so we usually assess it jointly rather than sending you between two services.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What are the qualifications of your occupational therapy professionals in Green Park?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Will you drill my child on the skill?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Usually not. At this age far more is achieved by changing the task, the tool or the routine than by repetition of something a child cannot yet do.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Do you offer online occupational therapy for Green Park residents?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Where would we go from Green Park?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer online occupational therapy services for residents of Green Park who prefer remote consultations or have mobility concerns.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Our Malviya Nagar centre, two Yellow Line stops south or straight down Aurobindo Marg.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does it cost in Green Park?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">The figure comes on your free 15-minute intake call, depending on the therapist and how often sessions run.</p>
 </div>
 </div>
 </div>
 <div class="cta-card my-12">
-<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Green Park</h3>
-<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your occupational therapy consultation at our Malviya Nagar centre.</p>
-<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
-                Schedule an Appointment
-              </a>
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
 </div>
-</div>
+<!-- LOCATION-BODY:END -->
 </div>
 </div>
     </div>
@@ -660,15 +700,6 @@
         <li><a href="/locations/learning-disability-assessment-in-green-park">Learning Disability Assessment in Green Park</a></li>
         <li><a href="/locations/speech-therapy-in-green-park">Speech Therapy in Green Park</a></li>
         <li><a href="/locations/special-education-in-green-park">Special Education in Green Park</a></li>
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
       </ul>
     </div>
     <div class="emb-nearby__group">

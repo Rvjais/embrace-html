@@ -10,16 +10,16 @@
 <link href="https://embracelives.com/locations/occupational-therapy-in-gurgaon" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/locations/occupational-therapy-in-gurgaon" property="og:url"/>
-<meta content="Occupational Therapy in Gurgaon | RCI-Certified | eMbrace" property="og:title"/>
+<meta content="Occupational Therapy in Gurgaon | eMbrace Centres Delhi NCR" property="og:title"/>
 <meta content="Occupational therapy in Gurgaon for sensory, handwriting and fine motor difficulties, at our Gurugram centre on MG Road. Free 15-minute intake call available." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Occupational Therapy in Gurgaon | RCI-Certified | eMbrace" name="twitter:title"/>
+<meta content="Occupational Therapy in Gurgaon | eMbrace Centres Delhi NCR" name="twitter:title"/>
 <meta content="Occupational therapy in Gurgaon for sensory, handwriting and fine motor difficulties, at our Gurugram centre on MG Road. Free 15-minute intake call available." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Occupational Therapy in Gurgaon | RCI-Certified | eMbrace</title>
+<title>Occupational Therapy in Gurgaon | eMbrace Centres Delhi NCR</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet"/>
@@ -358,7 +358,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://embracelives.com/locations/occupational-therapy-in-gurgaon#webpage",
       "url": "https://embracelives.com/locations/occupational-therapy-in-gurgaon",
-      "name": "Occupational Therapy in Gurgaon | RCI-Certified | eMbrace",
+      "name": "Occupational Therapy in Gurgaon | eMbrace Centres Delhi NCR",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -375,7 +375,7 @@
       "@type": "FAQPage",
       "@id": "https://embracelives.com/locations/occupational-therapy-in-gurgaon#faq",
       "url": "https://embracelives.com/locations/occupational-therapy-in-gurgaon",
-      "name": "Occupational Therapy in Gurgaon | RCI-Certified | eMbrace — Frequently Asked Questions",
+      "name": "Occupational Therapy in Gurgaon | eMbrace Centres Delhi NCR — Frequently Asked Questions",
       "isPartOf": {
         "@id": "https://embracelives.com/locations/occupational-therapy-in-gurgaon#webpage"
       },
@@ -383,34 +383,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Does eMbrace offer occupational therapy in Gurgaon?",
+          "name": "Is there an occupational therapist at the Gurgaon centre?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer professional occupational therapy services at our Gurgaon location and online. Our team of experienced professionals provides personalised care."
+            "text": "Yes. Dr Agrima Aggarwal works from Gurugram as well as Vasant Kunj, which is why sensory and regulation work is well established here."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I book occupational therapy in Gurgaon?",
+          "name": "My preschooler cannot cope with noise or crowds. Is that occupational therapy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Gurgaon centre."
+            "text": "Often yes. Sensory processing and regulation in preschool and early primary children is the commonest referral to this centre."
           }
         },
         {
           "@type": "Question",
-          "name": "What are the qualifications of your occupational therapy professionals in Gurgaon?",
+          "name": "Where is the Gurugram centre?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care."
+            "text": "710, DLF City Court, Mehrauli-Gurgaon Road, Sector 24, with Guru Dronacharya on the Yellow Line roughly 700 metres away."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you offer online occupational therapy for Gurgaon residents?",
+          "name": "Our school has flagged handwriting. What happens next?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer online occupational therapy services for residents of Gurgaon who prefer remote consultations or have mobility concerns."
+            "text": "An assessment through observation and structured tasks. Where a school has documented the classroom picture already, that makes the assessment faster."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost in Gurgaon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quoted on the free 15-minute intake call before booking, depending on therapist and frequency."
           }
         }
       ]
@@ -561,82 +569,118 @@
 </div> </div>
 </details>
 </div><div class="flex-grow max-w-4xl article-content">
-<h2 class="text-2xl md:text-3xl font-bold mb-4 text-[#1e293b]">Occupational Therapy Services in Gurgaon</h2>
-<p class="text-lg text-gray-700 leading-relaxed font-light mb-8">Our team provides occupational therapy for families in Gurgaon. Sessions run at our Gurugram centre on MG Road, with a free 15-minute intake call before you book anything.</p>
-<hr class="my-8 border-gray-100"/>
-<div class="key-points-card">
-<ul class="space-y-4 mb-8 key-points-list">
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>Occupational therapy in Gurgaon is the least well understood service we offer, so it is worth starting with what it is: helping someone do the ordinary things a day is made of. Dressing, handwriting, eating, sitting still enough to learn, tolerating noise and touch. The centre is in Gurgaon itself. It is not physiotherapy, and it is not tuition.</p>
+<div class="key-points-card my-8">
+<ul class="space-y-4 key-points-list">
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Expert Professionals:</strong> Our occupational therapy team in Gurgaon consists of qualified, experienced professionals dedicated to providing exceptional care.</span>
-</li>
-<li class="flex items-start gap-3">
-<img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Convenient Location:</strong> Our Gurgaon centre is easily accessible with flexible appointment scheduling to suit your busy lifestyle.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace Gurugram</span>
 </li>
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Personalised Care:</strong> Every occupational therapy plan is tailored to your unique needs, goals, and circumstances.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> 710, DLF City Court, Mehrauli-Gurgaon Road, Nathupur, Sector 24, Gurugram, Haryana 122002</span>
 </li>
 <li class="flex items-start gap-3">
-<img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Comprehensive Support:</strong> From initial assessment to ongoing care, we provide complete occupational therapy support for you and your family.</span>
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Guru Dronacharya, Yellow Line, roughly 700 metres away</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99109 77626</span>
 </li>
 </ul>
-<h3 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h3><div class="space-y-2 mb-8">
+</div>
+<h2>Our Gurugram centre</h2>
+<p>eMbrace Gurugram is at 710, DLF City Court, Mehrauli-Gurgaon Road, Nathupur, Sector 24, Gurugram 122002. Guru Dronacharya on the Yellow Line is roughly 700 metres away, which makes this one of the few specialist child psychology services in Gurugram you can reach without a car.</p>
+<p>That matters for families coming from DLF Phases 1 to 4, Sushant Lok, Sector 54 and the sectors around it, and it matters again for teenagers who would rather come to a session independently than be dropped off by a parent.</p>
+<p>Delhi families sometimes choose Gurugram over our Delhi centres simply because the Mehrauli-Gurgaon Road run is easier from where they live than crossing south Delhi. Either centre is fine, and the same pathway runs at both.</p>
+<p>Weekly to begin with, often reducing as a home and school programme takes over. Occupational therapy is unusual in how much of it is environmental: changing a chair, a pencil grip, a routine or a classroom seat can matter more than another session. That means the useful measure of progress is not what happens in the gym here, it is whether mornings at home got easier.</p>
+<p>For parking, the nearest drop-off point and the quickest route at your particular time of day, ask on the intake call. Traffic and parking around every one of these centres change enough through the day that current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>What occupational therapy actually addresses</h2>
+<p>Broadly three things: fine motor and hand skills, sensory processing, and the practical independence that both feed into. A child may come because handwriting is illegible and leave with work on shoulder stability and pencil grip. Another comes because they cannot tolerate a school assembly and the work is about regulation and sensory strategy.</p>
+<ul>
+<li>Handwriting that is slow, effortful, painful or illegible despite practice</li>
+<li>Strong reactions to noise, texture, clothing, food or touch that shrink daily life</li>
+<li>Difficulty with buttons, laces, cutlery, or self-care well past the usual age</li>
+<li>A child described as clumsy, who avoids playgrounds, bikes or ball games</li>
+<li>Difficulty settling to a task, where the underlying problem is regulation rather than attention</li>
+</ul>
+<p>Sensory processing, handwriting, fine motor skills and daily living each have their own page on our <a href="/occupational-therapy/occupational-therapy">occupational therapy hub</a>.</p>
+<h2>What the first appointment involves</h2>
+<p>An assessment through observation and structured tasks rather than questionnaires: watching how a child moves, grips, balances, organises themselves and responds to sensory input, alongside a history from you about which parts of the day are hardest.</p>
+<p>You leave with a small number of goals framed as daily tasks rather than as abstractions, so the target is fastening a shirt or writing a paragraph without pain, not improving fine motor skills in general. Most of the plan is things to change at home and school.</p>
+<h2>What we see most of here</h2>
+<p>Gurugram is our other centre with an occupational therapist based on site, and the referrals skew young: sensory processing and regulation in preschool and early primary children, frequently as part of an autism programme.</p>
+<p>The second group is handwriting in primary-age children, usually flagged by schools with established learning support teams, which means the classroom picture is documented before we start.</p>
+<h2>Who you would see at our Gurugram centre</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>At our Gurugram centre, the clinicians who take this work are:</p>
+<h3>Dr Agrima Aggarwal, Occupational Therapist</h3>
+<p>Dr Agrima Aggarwal is a PhD scholar in Occupational Therapy at Mahatma Gandhi University of Medical Sciences and Technology. She holds an MOT in Neurology from SVNIRTAR, Utkal University, where she was gold medallist, and a BOT from PDUNIPPD, University of Delhi. She works in paediatric occupational therapy and early intervention, alongside neurorehabilitation and cognitive rehabilitation.</p>
+<p>Which of them you see is decided on the intake call rather than by whoever has the next free slot, and you are told who it will be before you book. Fuller biographies are on our <a href="/about">about page</a>.</p>
+<h2>Schools and services we already work with</h2>
+<p>Occupational therapy around Gurgaon is usually part of something larger, and these are the settings it connects to.</p>
+<p>We work with Pathways School Gurgaon on psychoeducational, cognitive and risk assessments, therapy for children and adolescents, and workshops for teachers, parents and pupils.</p>
+<p>Through The Medical Travel Company we provide autism and ADHD assessment and therapy for families in the UK, across Africa and elsewhere in India, on hybrid, in-person and online programmes.</p>
+<h2>Fees and how long it runs</h2>
+<p>Fees are quoted upfront on your intake call. Courses usually run in blocks of eight to twelve weekly sessions with a review at the end, and frequency often reduces once the home and school programme is doing the work.</p>
+<p>Progress is judged against the daily tasks written at the start. If a child is doing better in the therapy room and no better at home, that is a signal the plan needs to change rather than continue.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Does eMbrace offer occupational therapy in Gurgaon?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Is there an occupational therapist at the Gurgaon centre?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer professional occupational therapy services at our Gurgaon location and online. Our team of experienced professionals provides personalised care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Yes. Dr Agrima Aggarwal works from Gurugram as well as Vasant Kunj, which is why sensory and regulation work is well established here.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How do I book occupational therapy in Gurgaon?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">My preschooler cannot cope with noise or crowds. Is that occupational therapy?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Gurgaon centre.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Often yes. Sensory processing and regulation in preschool and early primary children is the commonest referral to this centre.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What are the qualifications of your occupational therapy professionals in Gurgaon?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Where is the Gurugram centre?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">710, DLF City Court, Mehrauli-Gurgaon Road, Sector 24, with Guru Dronacharya on the Yellow Line roughly 700 metres away.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Do you offer online occupational therapy for Gurgaon residents?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Our school has flagged handwriting. What happens next?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer online occupational therapy services for residents of Gurgaon who prefer remote consultations or have mobility concerns.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">An assessment through observation and structured tasks. Where a school has documented the classroom picture already, that makes the assessment faster.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does it cost in Gurgaon?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Quoted on the free 15-minute intake call before booking, depending on therapist and frequency.</p>
 </div>
 </div>
 </div>
 <div class="cta-card my-12">
-<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Gurgaon</h3>
-<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your occupational therapy consultation at our Gurgaon centre.</p>
-<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
-                Schedule an Appointment
-              </a>
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
 </div>
-</div>
+<!-- LOCATION-BODY:END -->
 </div>
 </div>
     </div>

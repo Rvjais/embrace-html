@@ -5,21 +5,21 @@
 <meta charset="utf-8"/>
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="RCI-certified child psychologists in Saket for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Free 15-minute intake call available." name="description"/>
+<meta content="Experienced child psychologists in Saket for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Free 15-minute intake call available." name="description"/>
 <meta content="index, follow" name="robots"/>
 <link href="https://embracelives.com/locations/child-psychologist-in-saket" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/locations/child-psychologist-in-saket" property="og:url"/>
-<meta content="Child Psychologist in Saket | RCI-Certified Team | eMbrace" property="og:title"/>
-<meta content="RCI-certified child psychologists in Saket for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Free 15-minute intake call available." property="og:description"/>
+<meta content="Child Psychologist in Saket | eMbrace Centres Delhi NCR" property="og:title"/>
+<meta content="Experienced child psychologists in Saket for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Free 15-minute intake call available." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Child Psychologist in Saket | RCI-Certified Team | eMbrace" name="twitter:title"/>
-<meta content="RCI-certified child psychologists in Saket for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Free 15-minute intake call available." name="twitter:description"/>
+<meta content="Child Psychologist in Saket | eMbrace Centres Delhi NCR" name="twitter:title"/>
+<meta content="Experienced child psychologists in Saket for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Free 15-minute intake call available." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Child Psychologist in Saket | RCI-Certified Team | eMbrace</title>
+<title>Child Psychologist in Saket | eMbrace Centres Delhi NCR</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet"/>
@@ -358,7 +358,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://embracelives.com/locations/child-psychologist-in-saket#webpage",
       "url": "https://embracelives.com/locations/child-psychologist-in-saket",
-      "name": "Child Psychologist in Saket | RCI-Certified Team | eMbrace",
+      "name": "Child Psychologist in Saket | eMbrace Centres Delhi NCR",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -366,7 +366,7 @@
         "@id": "https://embracelives.com/#organization"
       },
       "inLanguage": "en-IN",
-      "description": "RCI-certified child psychologists in Saket for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Free 15-minute intake call available.",
+      "description": "Experienced child psychologists in Saket for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Free 15-minute intake call available.",
       "breadcrumb": {
         "@id": "https://embracelives.com/locations/child-psychologist-in-saket#breadcrumb"
       }
@@ -375,7 +375,7 @@
       "@type": "FAQPage",
       "@id": "https://embracelives.com/locations/child-psychologist-in-saket#faq",
       "url": "https://embracelives.com/locations/child-psychologist-in-saket",
-      "name": "Child Psychologist in Saket | RCI-Certified Team | eMbrace — Frequently Asked Questions",
+      "name": "Child Psychologist in Saket | eMbrace Centres Delhi NCR — Frequently Asked Questions",
       "isPartOf": {
         "@id": "https://embracelives.com/locations/child-psychologist-in-saket#webpage"
       },
@@ -383,34 +383,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Does eMbrace offer child psychologist in Saket?",
+          "name": "Is there an eMbrace centre in Saket?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer professional child psychologist services at our Malviya Nagar centre and online. Our team of experienced professionals provides personalised care."
+            "text": "No. Our nearest centre is in Malviya Nagar, one Yellow Line stop north of Saket metro station, at FC-29 Geetanjali beside Gate No. 1."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I book child psychologist in Saket?",
+          "name": "How do Saket families usually get to the Malviya Nagar centre?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Malviya Nagar centre."
+            "text": "Most drive up Press Enclave Marg, which is a short run. If you would rather not drive, it is one metro stop from Saket with no interchange."
           }
         },
         {
           "@type": "Question",
-          "name": "What are the qualifications of your child psychologist professionals in Saket?",
+          "name": "Can therapy happen in the same place as the assessment?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care."
+            "text": "Yes. The Malviya Nagar centre runs inside Rainbow Children's Hospital, so occupational therapy, speech therapy and physiotherapy are in the same building rather than at a second address."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you offer online child psychologist for Saket residents?",
+          "name": "Will my child be given a diagnosis at the first appointment?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer online child psychologist services for residents of Saket who prefer remote consultations or have mobility concerns."
+            "text": "No. The first appointment is a consultation. Any diagnosis follows structured assessment across more than one session and more than one source of information."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a child psychologist cost in Saket?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees are quoted on your free 15-minute intake call, before anything is booked. The figure depends on which clinician you see and what the work actually involves."
           }
         }
       ]
@@ -559,82 +567,119 @@
 </div> </div>
 </details>
 </div><div class="flex-grow max-w-4xl article-content">
-<h2 class="text-2xl md:text-3xl font-bold mb-4 text-[#1e293b]">Child Psychologist Services in Saket</h2>
-<p class="text-lg text-gray-700 leading-relaxed font-light mb-8">Our team provides child psychology services for families in Saket. Sessions run at our Malviya Nagar centre, minutes from Saket, with a free 15-minute intake call before you book anything.</p>
-<hr class="my-8 border-gray-100"/>
-<div class="key-points-card">
-<ul class="space-y-4 mb-8 key-points-list">
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>If you are looking for a child psychologist in Saket, this page tells you which of our centres you would actually come to, what happens at the first appointment and who you would see. The short answer is our Malviya Nagar centre, because we do not have a centre in Saket. Nothing is booked until you have had a free 15-minute intake call, which is with a clinician rather than a receptionist.</p>
+<div class="key-points-card my-8">
+<ul class="space-y-4 key-points-list">
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Expert Professionals:</strong> Our child psychologist team in Saket consists of qualified, experienced professionals dedicated to providing exceptional care.</span>
-</li>
-<li class="flex items-start gap-3">
-<img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Convenient Location:</strong> Our Malviya Nagar centre is easily accessible with flexible appointment scheduling to suit your busy lifestyle.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace at Rainbow, Malviya Nagar</span>
 </li>
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Personalised Care:</strong> Every child psychologist plan is tailored to your unique needs, goals, and circumstances.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> FC-29, Plot No. 5, Geetanjali, near Malviya Nagar Metro Station Gate No. 1, New Delhi 110017</span>
 </li>
 <li class="flex items-start gap-3">
-<img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Comprehensive Support:</strong> From initial assessment to ongoing care, we provide complete child psychologist support for you and your family.</span>
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Malviya Nagar, Yellow Line, beside Gate No. 1</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99715 76800</span>
 </li>
 </ul>
-<h3 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h3><div class="space-y-2 mb-8">
+</div>
+<h2>Which eMbrace centre Saket families use</h2>
+<p>Our centre is not in Saket. It is in Malviya Nagar, one Yellow Line stop north of Saket metro station, at FC-29, Plot No. 5, Geetanjali, beside Malviya Nagar Metro Station Gate No. 1. By road it is a short run up Press Enclave Marg.</p>
+<p>It is worth saying that plainly, because a good many clinic pages that rank for Saket are describing a room somewhere else entirely. Ours is the closest eMbrace centre to Saket, and for most families in Saket, Sainik Farms and Pushp Vihar it is the nearest specialist child psychology service of any kind.</p>
+<p>The centre runs inside Rainbow Children's Hospital, which is the practical reason a child who turns out to need occupational therapy, speech therapy or physiotherapy after an assessment does not have to be referred out to a second address.</p>
+<p>Worth knowing before you plan the journey: seeing a child psychologist starts as a small number of appointments, not a standing weekly commitment. The consultation, the parent history and the feedback session are usually three visits over a few weeks. Whether anything follows, and how often, is decided at the feedback session with you rather than assumed at the start.</p>
+<p>For parking, the nearest drop-off point and the quickest route at your particular time of day, ask on the intake call. Traffic and parking around every one of these centres change enough through the day that current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>When a child psychologist is the right call</h2>
+<p>Most of what worries parents is developmentally ordinary and passes. What separates the two is not how bad the behaviour looks on its worst day, but whether it has persisted, whether it shows up in more than one setting, and whether it has started to get in the way of ordinary life.</p>
+<ul>
+<li>The same difficulty at home and at school, rather than in only one place</li>
+<li>A change that has lasted more than a few weeks and is not shifting</li>
+<li>Anxiety that has started to shrink what your child will attempt</li>
+<li>Any talk of self-harm, at any age, which warrants an appointment the same week</li>
+</ul>
+<p>The longer version, including the signs that usually do not need a psychologist at all, is on our <a href="/child-psychology/child-psychologist">child psychology hub</a>.</p>
+<h2>What happens at your first appointment</h2>
+<p>The first appointment is a consultation, not a test. Nothing is diagnosed on day one. You start with the free 15-minute intake call, then a parent history session usually without your child present, then a session with your child pitched to their age, then a feedback session where you get the formulation in plain language, a written summary and a plan with a review point in it.</p>
+<p>Bring school reports and any previous assessment. If a class teacher or school counsellor knows your child well, their observations are often the single most useful thing you can bring.</p>
+<h2>What we see most often</h2>
+<p>From the Saket catchment the most common referral reasons are school-related: refusal, avoidance around specific subjects, exam anxiety in the senior years, and behaviour that teachers have flagged before parents did. Saket and Sainik Farms sit in a dense school belt, and a good number of our referrals arrive with a class teacher already involved, which is helpful, because it means we are not relying on a single account of what is happening.</p>
+<p>The second group is younger: parents of three to six year olds who have been told to wait and see for a year and are no longer comfortable waiting. That instinct is usually right, and an early consultation costs far less than the year.</p>
+<h2>Who you would see at our Malviya Nagar centre</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>At our Malviya Nagar centre, the clinicians who take this work are:</p>
+<h3>Taranpreet Kaur, Clinical Psychologist</h3>
+<p>M.Phil in Clinical Psychology with distinction, plus a Post Graduate Diploma in School Counselling from Symbiosis. ACT and MBCT for anxiety, depression, OCD and trauma, and comprehensive psychological assessment. Works in English, Hindi and Punjabi.</p>
+<h3>Cheesha Kanwar, Psychologist</h3>
+<p>Completing an MSc in Clinical Psychology at Christ (Deemed to be University), with a BA (Hons) in Applied Psychology from the University of Delhi. Behaviour therapy and assessment support using WISC-V, NEPSY-II, Conners-3 and BRIEF-2. Works in English and Hindi.</p>
+<p>Which of them you see is decided on the intake call rather than by whoever has the next free slot, and you are told who it will be before you book. Fuller biographies are on our <a href="/about">about page</a>.</p>
+<h2>Schools and services we already work with</h2>
+<p>Some of what we do around Saket happens inside institutions rather than at a centre, which is often how a family first hears of us.</p>
+<p>Our Malviya Nagar centre runs inside Rainbow Children's Hospital, New Delhi, which is why occupational therapy, physiotherapy, speech therapy, behaviour therapy and special education sit in the same building as assessment.</p>
+<p>Where a child or adult needs psychiatric input, we work with Sukoon across Delhi NCR for psychiatric assessment, consultation and medication management, so you are not left to find a psychiatrist yourself.</p>
+<h2>Fees and timelines</h2>
+<p>Fees are quoted upfront on your intake call, before anything is booked. We do not publish a number because it depends on which clinician you see and what the work involves, and a figure on a web page would be a guess at your situation rather than a price for it.</p>
+<p>A therapy course is reviewed formally at around session six, and we would expect you to be seeing some change by then. If you are not, that is a reason to change the plan rather than persist with it.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Does eMbrace offer child psychologist in Saket?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Is there an eMbrace centre in Saket?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer professional child psychologist services at our Malviya Nagar centre and online. Our team of experienced professionals provides personalised care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">No. Our nearest centre is in Malviya Nagar, one Yellow Line stop north of Saket metro station, at FC-29 Geetanjali beside Gate No. 1.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How do I book child psychologist in Saket?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How do Saket families usually get to the Malviya Nagar centre?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Malviya Nagar centre.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Most drive up Press Enclave Marg, which is a short run. If you would rather not drive, it is one metro stop from Saket with no interchange.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What are the qualifications of your child psychologist professionals in Saket?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Can therapy happen in the same place as the assessment?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Yes. The Malviya Nagar centre runs inside Rainbow Children's Hospital, so occupational therapy, speech therapy and physiotherapy are in the same building rather than at a second address.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Do you offer online child psychologist for Saket residents?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Will my child be given a diagnosis at the first appointment?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer online child psychologist services for residents of Saket who prefer remote consultations or have mobility concerns.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">No. The first appointment is a consultation. Any diagnosis follows structured assessment across more than one session and more than one source of information.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does a child psychologist cost in Saket?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Fees are quoted on your free 15-minute intake call, before anything is booked. The figure depends on which clinician you see and what the work actually involves.</p>
 </div>
 </div>
 </div>
 <div class="cta-card my-12">
-<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Saket</h3>
-<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your child psychologist consultation at our Malviya Nagar centre.</p>
-<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
-                Schedule an Appointment
-              </a>
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
 </div>
-</div>
+<!-- LOCATION-BODY:END -->
 </div>
 </div>
     </div>
@@ -658,15 +703,6 @@
         <li><a href="/locations/speech-therapy-in-saket">Speech Therapy in Saket</a></li>
         <li><a href="/locations/occupational-therapy-in-saket">Occupational Therapy in Saket</a></li>
         <li><a href="/locations/special-education-in-saket">Special Education in Saket</a></li>
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
       </ul>
     </div>
     <div class="emb-nearby__group">

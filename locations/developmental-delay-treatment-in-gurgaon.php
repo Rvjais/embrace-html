@@ -387,42 +387,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Do you offer developmental delay treatment in Gurgaon?",
+          "name": "What runs at the Gurgaon centre?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Families in Gurgaon are seen at our Gurugram centre, and online where that suits the work. Start with a free 15-minute intake call."
+            "text": "Assessment, psychology and occupational therapy on site. Speech and language therapy and physiotherapy run from our Delhi centres or online."
           }
         },
         {
           "@type": "Question",
-          "name": "How quickly can we be seen in Gurgaon?",
+          "name": "My child is eighteen months and not walking. Too early to worry?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The intake call is usually arranged within a few working days. Appointment timing depends on the service and the clinician needed, and we will tell you honestly on the call."
+            "text": "It is the point to ask rather than the point to worry. Early intervention is time-sensitive, and we would rather see you now and say the picture is unclear."
           }
         },
         {
           "@type": "Question",
-          "name": "Can we be seen outside school hours?",
+          "name": "Is this the same as autism assessment?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We offer later slots and Saturday appointments where availability allows. Tell the intake team what you need and they will work around school."
+            "text": "No. Delay is the observation; autism is one of several possible explanations. The developmental assessment works out which explanation fits."
           }
         },
         {
           "@type": "Question",
-          "name": "Will my child grow out of a developmental delay?",
+          "name": "How much of the work falls to us?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Some children do catch up without help, particularly with mild speech delays. Others do not, and there is no reliable way to tell which is which without an assessment. Waiting costs more than checking."
+            "text": "A great deal, particularly at this age. Parent coaching is part of the plan rather than an extra, because most change happens in the hours we are not there."
           }
         },
         {
           "@type": "Question",
-          "name": "What is the difference between developmental delay and autism?",
+          "name": "How much does treatment cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Delay describes timing: skills arriving later than expected. Autism describes a pattern in social communication, interests and sensory response. A child can have either, both, or a delay from an entirely different cause."
+            "text": "Quoted upfront on your free 15-minute intake call, depending on which disciplines the plan uses."
           }
         }
       ]
@@ -467,7 +467,7 @@
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
   <div class="max-w-7xl mx-auto flex items-center gap-2 flex-wrap">
-      <a href="/">Home</a><span class="text-gray-300">/</span>
+      <a href="/index.php">Home</a><span class="text-gray-300">/</span>
       <a href="/developmental-delay-treatment">Developmental Delay</a><span class="text-gray-300">/</span>
       <span class="text-gray-700 font-medium">In Gurgaon</span>
   </div>
@@ -478,15 +478,15 @@
   <div class="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm md:sticky md:top-24 side-menu">
     <h2 class="text-lg font-bold text-[#234394] mb-4 border-b pb-3">Child Development Services</h2>
     <div class="space-y-1">
-      <a class="is-current" href="/developmental-delay-treatment">Developmental Delay Treatment</a>
-      <a class="" href="/intellectual-disability-treatment">Intellectual Disability Treatment</a>
-      <a class="" href="/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
-      <a class="" href="/oral-motor-therapy">Oral Motor Delay Treatment</a>
-      <a class="" href="/aba-therapy">ABA Therapy</a>
-      <a class="" href="/physiotherapy">Physiotherapy Clinic</a>
-      <a class="" href="/pediatric-neurologist">Pediatric Neurologist</a>
-      <a class="" href="/developmental-pediatrician">Developmental Pediatrician</a>
-      <a class="" href="/child-development-centre">Child Development Centre</a>
+      <a class="is-current" href="/developmental-delay/developmental-delay-treatment">Developmental Delay Treatment</a>
+      <a class="" href="/intellectual-disability/intellectual-disability-treatment">Intellectual Disability Treatment</a>
+      <a class="" href="/down-syndrome/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
+      <a class="" href="/oral-motor-therapy/oral-motor-therapy">Oral Motor Delay Treatment</a>
+      <a class="" href="/aba-therapy/aba-therapy">ABA Therapy</a>
+      <a class="" href="/physiotherapy/physiotherapy">Physiotherapy Clinic</a>
+      <a class="" href="/pediatric-neurology/pediatric-neurologist">Pediatric Neurologist</a>
+      <a class="" href="/developmental-pediatrics/developmental-pediatrician">Developmental Pediatrician</a>
+      <a class="" href="/child-development-centre/child-development-centre">Child Development Centre</a>
     </div>
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mt-6 mb-2">Related</h3>
     <div class="space-y-1">
@@ -497,142 +497,120 @@
   </div>
 </aside>
     <div class="flex-grow max-w-4xl article-content">
-
-<h2>Where you will be seen in Gurgaon</h2>
-<p>Families in Gurgaon are seen at our Gurugram centre, 710 DLF City Court on Mehrauli-Gurgaon Road in Nathupur, Sector 24. It sits on the main MG Road corridor, which makes it reachable from DLF Phases 1 to 5, Sushant Lok, Sector 14 and Cyber City without crossing into Delhi, and it is a short walk from MG Road Metro Station.</p>
-<p>Sessions can also run online where the work suits it. History-taking, feedback and a good deal of therapy transfer well to video; direct assessment components are done in person.</p>
-
-<h2>What developmental delay treatment covers here</h2>
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>Developmental delay treatment in Gurgaon begins with a question the word delay does not answer: delayed by what? The centre is in Gurgaon itself. Delay is a description of where a child is now, not a diagnosis and not a prediction, and the useful work is finding out what is making learning harder.</p>
 <div class="key-points-card my-8">
-  <ul>
-    <li>Assessment across all five developmental areas, not just the one you noticed</li>
-    <li>Speech, occupational therapy, physiotherapy and special education in one team</li>
-    <li>A written baseline so progress is measured rather than guessed at</li>
-    <li>Parent coaching built into the plan from the first session</li>
-  </ul>
-</div>
-<p>For the full clinical picture, including what the difficulty is, the signs worth acting on and how treatment is planned, read our <a href="/developmental-delay-treatment" class="text-[#234394] font-semibold">Developmental Delay Treatment guide</a>.</p>
-
-<h2>How to start</h2>
-<ul>
-  <li><strong>Free 15-minute intake call.</strong> A clinician hears your concern and tells you honestly whether an appointment is the right next step. Some calls end with strategies to try at home instead.</li>
-  <li><strong>Assessment or first session.</strong> Booked at whichever Gurgaon centre suits you, at a time that works around school where possible.</li>
-  <li><strong>A written plan.</strong> What happens, how often, what to do at home, and what the school is being asked to do.</li>
-  <li><strong>Review.</strong> Progress measured against the baseline set at the start, discussed openly with you.</li>
+<ul class="space-y-4 key-points-list">
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace Gurugram</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> 710, DLF City Court, Mehrauli-Gurgaon Road, Nathupur, Sector 24, Gurugram, Haryana 122002</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Guru Dronacharya, Yellow Line, roughly 700 metres away</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99109 77626</span>
+</li>
 </ul>
-<p>Fees are quoted upfront on your intake call, in writing, before you commit to anything.</p>
-
-<h2 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h2>
-<div class="space-y-2 mb-10">
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Do you offer developmental delay treatment in Gurgaon?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>Yes. Families in Gurgaon are seen at our Gurugram centre, and online where that suits the work. Start with a free 15-minute intake call.</p></div>
 </div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">How quickly can we be seen in Gurgaon?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>The intake call is usually arranged within a few working days. Appointment timing depends on the service and the clinician needed, and we will tell you honestly on the call.</p></div>
-</div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Can we be seen outside school hours?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>We offer later slots and Saturday appointments where availability allows. Tell the intake team what you need and they will work around school.</p></div>
-</div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Will my child grow out of a developmental delay?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>Some children do catch up without help, particularly with mild speech delays. Others do not, and there is no reliable way to tell which is which without an assessment. Waiting costs more than checking.</p></div>
-</div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">What is the difference between developmental delay and autism?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>Delay describes timing: skills arriving later than expected. Autism describes a pattern in social communication, interests and sensory response. A child can have either, both, or a delay from an entirely different cause.</p></div>
-</div>
-</div>
-
-<h2>Other eMbrace services near you</h2>
+<h2>Our Gurugram centre</h2>
+<p>eMbrace Gurugram is at 710, DLF City Court, Mehrauli-Gurgaon Road, Nathupur, Sector 24, Gurugram 122002. Guru Dronacharya on the Yellow Line is roughly 700 metres away, which makes this one of the few specialist child psychology services in Gurugram you can reach without a car.</p>
+<p>That matters for families coming from DLF Phases 1 to 4, Sushant Lok, Sector 54 and the sectors around it, and it matters again for teenagers who would rather come to a session independently than be dropped off by a parent.</p>
+<p>Delhi families sometimes choose Gurugram over our Delhi centres simply because the Mehrauli-Gurgaon Road run is easier from where they live than crossing south Delhi. Either centre is fine, and the same pathway runs at both.</p>
+<p>Early intervention is time-sensitive in a way that little else we do is. The first three years carry more change than any period after them, so where there is doubt we would rather see a child early and tell you the picture is not yet clear than hold the appointment for a year to be sure.</p>
+<p>For parking, the nearest drop-off point and the quickest route at your particular time of day, ask on the intake call. Traffic and parking around every one of these centres change enough through the day that current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>What counts as a delay worth acting on</h2>
+<p>Milestone ranges are wide and children do not develop in straight lines. What matters is the size of the gap, whether it is widening or closing, and whether it affects everyday life. One area behind is a specific delay; two or more is usually described as global.</p>
 <ul>
-<li><a href="/locations/child-psychologist-in-gurgaon" class="text-[#234394]">Child psychology in Gurgaon</a></li>
-<li><a href="/locations/child-psychologist-in-delhi" class="text-[#234394]">Child psychology in Delhi</a></li>
-<li><a href="/locations/child-psychologist-in-south-delhi" class="text-[#234394]">Child psychology in South Delhi</a></li>
-<li><a href="/locations/child-psychologist-in-noida" class="text-[#234394]">Child psychology in Noida</a></li>
-  <li><a href="/locations" class="text-[#234394]">View all eMbrace locations</a></li>
+<li>No babbling, pointing or waving by twelve months</li>
+<li>Fewer than around six clear words by eighteen months, or no two-word phrases by two years</li>
+<li>Not walking independently by eighteen months, or a marked difference between the two sides</li>
+<li>Loss of a skill your child previously had, at any age, which always warrants a same-month appointment</li>
 </ul>
-
-<div class="pathway-card mt-12 rounded-3xl p-8 bg-gradient-to-br from-[#eef2ff] to-[#e0e7ff] border border-[#c7d2fe]">
-  <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Not sure whether you need this yet?</h2>
-  <p class="text-gray-600 mb-6">Start with a free 15-minute intake call. A clinician will tell you honestly whether developmental delay treatment is the right next step, or whether something else is. There is no obligation and no waiting list to join.</p>
-  <div class="flex flex-wrap gap-3">
-    <a href="/appointment" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
-    <a href="https://wa.me/919971576800" target="_blank" rel="noopener" class="inline-block px-7 py-3 rounded-full bg-white border border-[#c7d2fe] text-[#234394] font-semibold hover:bg-[#f8faff] transition-colors">WhatsApp +91 99715 76800</a>
-  </div>
+<p>The full picture is on our <a href="/developmental-delay-treatment">developmental delay treatment</a> page.</p>
+<h2>How treatment is decided</h2>
+<p>With a developmental assessment across all five areas, because the answer changes the plan completely. Hearing loss, a language disorder, autism, an intellectual disability, a neurological condition and prematurity all present as delay in the early years and none of them want the same programme.</p>
+<p>From there therapy is targeted rather than general, and parent coaching is part of the plan rather than an extra, because most of what changes happens in the hours we are not there.</p>
+<h2>What we see most of</h2>
+<p>Gurugram referrals skew very young and often arrive through preschools rather than paediatricians. Assessment, psychology and occupational therapy run on site; speech and language therapy and physiotherapy run from the Delhi centres or online, and we set that out before you commit rather than after.</p>
+<h2>Who you would see at our Gurugram centre</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>At our Gurugram centre, the clinicians who take this work are:</p>
+<h3>Dr Agrima Aggarwal, Occupational Therapist</h3>
+<p>Dr Agrima Aggarwal is a PhD scholar in Occupational Therapy at Mahatma Gandhi University of Medical Sciences and Technology. She holds an MOT in Neurology from SVNIRTAR, Utkal University, where she was gold medallist, and a BOT from PDUNIPPD, University of Delhi. She works in paediatric occupational therapy and early intervention, alongside neurorehabilitation and cognitive rehabilitation.</p>
+<p>Which of them you see is decided on the intake call rather than by whoever has the next free slot, and you are told who it will be before you book. Fuller biographies are on our <a href="/about">about page</a>.</p>
+<h2>Schools and services we already work with</h2>
+<p>Early intervention around Gurgaon depends on the routes families arrive by, which include:</p>
+<p>Through The Medical Travel Company we provide autism and ADHD assessment and therapy for families in the UK, across Africa and elsewhere in India, on hybrid, in-person and online programmes.</p>
+<p>We work with Pathways School Gurgaon on psychoeducational, cognitive and risk assessments, therapy for children and adolescents, and workshops for teachers, parents and pupils.</p>
+<h2>Fees and how progress is judged</h2>
+<p>Fees are quoted upfront on your intake call and depend on which disciplines the plan uses.</p>
+<p>Progress is measured against the written baseline from the assessment, not against a milestone chart, because the question is whether your child is moving rather than whether they have caught up with an average. Reviews happen on a set date.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What runs at the Gurgaon centre?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Assessment, psychology and occupational therapy on site. Speech and language therapy and physiotherapy run from our Delhi centres or online.</p>
 </div>
-    </div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">My child is eighteen months and not walking. Too early to worry?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">It is the point to ask rather than the point to worry. Early intervention is time-sensitive, and we would rather see you now and say the picture is unclear.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Is this the same as autism assessment?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">No. Delay is the observation; autism is one of several possible explanations. The developmental assessment works out which explanation fits.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much of the work falls to us?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">A great deal, particularly at this age. Parent coaching is part of the plan rather than an extra, because most change happens in the hours we are not there.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does treatment cost?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Quoted upfront on your free 15-minute intake call, depending on which disciplines the plan uses.</p>
+</div>
+</div>
+</div>
+<div class="cta-card my-12">
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
+</div>
+<!-- LOCATION-BODY:END -->
+</div>
   </div>
 </div>
 <?php include __DIR__ . '/../components/lead-magnet-band-child.php'; ?>
-<!-- LOCATION-LINKS:START (generated by generate-location-links.js — do not edit by hand) -->
-<div class="px-6 md:px-16 bg-white">
-<div class="max-w-7xl mx-auto">
-<section class="emb-nearby" aria-labelledby="emb-nearby-title">
-  <h2 class="emb-nearby__title" id="emb-nearby-title">More eMbrace services near you</h2>
-  <p class="emb-nearby__sub">Explore the other assessments and therapies we offer in Gurgaon, or find developmental delay treatment at another eMbrace location.</p>
-  <div class="emb-nearby__cols emb-nearby__cols--two">
-    <div class="emb-nearby__group">
-      <h4>Other services in Gurgaon</h4>
-      <ul class="emb-nearby__list">
-        <li><a href="/locations/child-psychologist-in-gurgaon">Child Psychologist in Gurgaon</a></li>
-        <li><a href="/locations/child-counselling-in-gurgaon">Child Counselling in Gurgaon</a></li>
-        <li><a href="/locations/teen-counselling-in-gurgaon">Teen Counselling in Gurgaon</a></li>
-        <li><a href="/locations/adult-counselling-in-gurgaon">Adult Counselling in Gurgaon</a></li>
-        <li><a href="/locations/autism-assessment-in-gurgaon">Autism Assessment in Gurgaon</a></li>
-        <li><a href="/locations/autism-therapy-in-gurgaon">Autism Therapy in Gurgaon</a></li>
-        <li><a href="/locations/adhd-assessment-in-gurgaon">ADHD Assessment in Gurgaon</a></li>
-        <li><a href="/locations/learning-disability-assessment-in-gurgaon">Learning Disability Assessment in Gurgaon</a></li>
-        <li><a href="/locations/speech-therapy-in-gurgaon">Speech Therapy in Gurgaon</a></li>
-        <li><a href="/locations/occupational-therapy-in-gurgaon">Occupational Therapy in Gurgaon</a></li>
-        <li><a href="/locations/special-education-in-gurgaon">Special Education in Gurgaon</a></li>
-        <li><a href="/locations/intellectual-disability-treatment-in-gurgaon">Intellectual Disability Treatment in Gurgaon</a></li>
-        <li><a href="/locations/down-syndrome-treatment-in-gurgaon">Down Syndrome Treatment in Gurgaon</a></li>
-        <li><a href="/locations/oral-motor-therapy-in-gurgaon">Oral Motor Delay Treatment in Gurgaon</a></li>
-        <li><a href="/locations/aba-therapy-in-gurgaon">ABA Therapy in Gurgaon</a></li>
-        <li><a href="/locations/physiotherapy-in-gurgaon">Physiotherapy in Gurgaon</a></li>
-        <li><a href="/locations/pediatric-neurologist-in-gurgaon">Pediatric Neurologist in Gurgaon</a></li>
-        <li><a href="/locations/developmental-pediatrician-in-gurgaon">Developmental Pediatrician in Gurgaon</a></li>
-        <li><a href="/locations/child-development-centre-in-gurgaon">Child Development Centre in Gurgaon</a></li>
-      </ul>
-    </div>
-    <div class="emb-nearby__group">
-      <h4>Developmental Delay Treatment in other areas</h4>
-      <ul class="emb-nearby__list">
-        <li><a href="/locations/developmental-delay-treatment-in-delhi">Developmental Delay Treatment in Delhi</a></li>
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-      </ul>
-    </div>
-  </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
-</section>
-</div>
-</div>
-<!-- LOCATION-LINKS:END -->
 <?php include __DIR__ . '/../components/footer.php'; ?>
 </div>
 <script src="/assets/interactive.js"></script>

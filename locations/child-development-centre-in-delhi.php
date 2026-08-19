@@ -10,7 +10,7 @@
 <!-- Open Graph -->
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/locations/child-development-centre-in-delhi" property="og:url"/>
-<meta content="Child Development Centre in Delhi | RCI-Certified | eMbrace" property="og:title"/>
+<meta content="Child Development Centre in Delhi | eMbrace Delhi NCR" property="og:title"/>
 <meta content="Child Development Centre in Delhi at our two Delhi centres: assessment and every relevant therapy in one team, one plan. Free 15-minute intake call available." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="1200" property="og:image:width"/>
@@ -19,10 +19,10 @@
 <meta content="en_IN" property="og:locale"/>
 <!-- Twitter Card -->
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Child Development Centre in Delhi | RCI-Certified | eMbrace" name="twitter:title"/>
+<meta content="Child Development Centre in Delhi | eMbrace Delhi NCR" name="twitter:title"/>
 <meta content="Child Development Centre in Delhi at our two Delhi centres: assessment and every relevant therapy in one team, one plan. Free 15-minute intake call available." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Child Development Centre in Delhi | RCI-Certified | eMbrace</title>
+<title>Child Development Centre in Delhi | eMbrace Delhi NCR</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -362,7 +362,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://embracelives.com/locations/child-development-centre-in-delhi#webpage",
       "url": "https://embracelives.com/locations/child-development-centre-in-delhi",
-      "name": "Child Development Centre in Delhi | RCI-Certified | eMbrace",
+      "name": "Child Development Centre in Delhi | eMbrace Delhi NCR",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -379,7 +379,7 @@
       "@type": "FAQPage",
       "@id": "https://embracelives.com/locations/child-development-centre-in-delhi#faq",
       "url": "https://embracelives.com/locations/child-development-centre-in-delhi",
-      "name": "Child Development Centre in Delhi | RCI-Certified | eMbrace — Frequently Asked Questions",
+      "name": "Child Development Centre in Delhi | eMbrace Delhi NCR — Frequently Asked Questions",
       "isPartOf": {
         "@id": "https://embracelives.com/locations/child-development-centre-in-delhi#webpage"
       },
@@ -387,42 +387,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Do you offer child development centre in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Families in Delhi are seen at our Vasant Kunj and Malviya Nagar centres, and online where that suits the work. Start with a free 15-minute intake call."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How quickly can we be seen in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The intake call is usually arranged within a few working days. Appointment timing depends on the service and the clinician needed, and we will tell you honestly on the call."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can we be seen outside school hours?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We offer later slots and Saturday appointments where availability allows. Tell the intake team what you need and they will work around school."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "What is a child development centre?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A practice bringing developmental assessment and therapies together under one team and one plan, rather than treating each difficulty separately at separate clinics."
+            "text": "An address where assessment and the therapies that follow it sit under one roof, so a family is not sent on a fresh search each time something new is identified."
           }
         },
         {
           "@type": "Question",
-          "name": "What age range do you work with?",
+          "name": "Which Delhi centre has the most services?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "From infancy through adolescence for developmental services, and adults for psychology, counselling and physiotherapy. Early intervention work often starts in the first year."
+            "text": "Malviya Nagar, which runs inside Rainbow Children’s Hospital, so paediatric care sits alongside the therapies. Vasant Kunj carries the largest psychology and therapy team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do we have to use every service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Where nothing further is needed we say so. A centre that finds work for every child who walks in is not one worth trusting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can appointments be on the same day?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually, and that is much of the point. A child needing three disciplines can often be seen on one day rather than across three."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quoted upfront on your free 15-minute intake call, itemised by what the plan actually contains rather than as a bundle."
           }
         }
       ]
@@ -467,7 +467,7 @@
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
   <div class="max-w-7xl mx-auto flex items-center gap-2 flex-wrap">
-      <a href="/">Home</a><span class="text-gray-300">/</span>
+      <a href="/index.php">Home</a><span class="text-gray-300">/</span>
       <a href="/child-development-centre">Child Development Centre</a><span class="text-gray-300">/</span>
       <span class="text-gray-700 font-medium">In Delhi</span>
   </div>
@@ -478,15 +478,15 @@
   <div class="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm md:sticky md:top-24 side-menu">
     <h2 class="text-lg font-bold text-[#234394] mb-4 border-b pb-3">Child Development Services</h2>
     <div class="space-y-1">
-      <a class="" href="/developmental-delay-treatment">Developmental Delay Treatment</a>
-      <a class="" href="/intellectual-disability-treatment">Intellectual Disability Treatment</a>
-      <a class="" href="/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
-      <a class="" href="/oral-motor-therapy">Oral Motor Delay Treatment</a>
-      <a class="" href="/aba-therapy">ABA Therapy</a>
-      <a class="" href="/physiotherapy">Physiotherapy Clinic</a>
-      <a class="" href="/pediatric-neurologist">Pediatric Neurologist</a>
-      <a class="" href="/developmental-pediatrician">Developmental Pediatrician</a>
-      <a class="is-current" href="/child-development-centre">Child Development Centre</a>
+      <a class="" href="/developmental-delay/developmental-delay-treatment">Developmental Delay Treatment</a>
+      <a class="" href="/intellectual-disability/intellectual-disability-treatment">Intellectual Disability Treatment</a>
+      <a class="" href="/down-syndrome/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
+      <a class="" href="/oral-motor-therapy/oral-motor-therapy">Oral Motor Delay Treatment</a>
+      <a class="" href="/aba-therapy/aba-therapy">ABA Therapy</a>
+      <a class="" href="/physiotherapy/physiotherapy">Physiotherapy Clinic</a>
+      <a class="" href="/pediatric-neurology/pediatric-neurologist">Pediatric Neurologist</a>
+      <a class="" href="/developmental-pediatrics/developmental-pediatrician">Developmental Pediatrician</a>
+      <a class="is-current" href="/child-development-centre/child-development-centre">Child Development Centre</a>
     </div>
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mt-6 mb-2">Related</h3>
     <div class="space-y-1">
@@ -496,145 +496,132 @@
   </div>
 </aside>
     <div class="flex-grow max-w-4xl article-content">
-
-<h2>Where you will be seen in Delhi</h2>
-<p>Families across Delhi are seen at one of our two Delhi centres. Vasant Kunj sits in South West Delhi at C-7, Sector C, Pocket 5, Grand Vasant Kunj. Malviya Nagar is in South Delhi at FC-29, Plot No. 5, Geetanjali, beside Malviya Nagar Metro Station Gate No. 1, which puts it within reach of Saket, Hauz Khas, Green Park, Greater Kailash and Defence Colony without a long drive.</p>
-<p>Sessions can also run online where the work suits it. History-taking, feedback and a good deal of therapy transfer well to video; direct assessment components are done in person.</p>
-
-<h2>What child development centre covers here</h2>
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>A child development centre in Delhi is not a service so much as an address: the place where assessment and every therapy a child might need after it sit under one roof, so a family is not sent on a fresh search each time something new is identified. The short answer is both our Delhi centres, Vasant Kunj and Malviya Nagar, and which one is a question of your journey rather than of the service.</p>
 <div class="key-points-card my-8">
-  <ul>
-    <li>Assessment, medical opinion and every relevant therapy in one team</li>
-    <li>A free 15-minute intake call that can honestly end in "not yet"</li>
-    <li>One written plan covering therapy, home and school, reviewed against a baseline</li>
-    <li>Three centres across Delhi NCR plus online sessions</li>
-  </ul>
-</div>
-<p>For the full clinical picture, including what the difficulty is, the signs worth acting on and how treatment is planned, read our <a href="/child-development-centre" class="text-[#234394] font-semibold">Child Development Centre guide</a>.</p>
-
-<h2>How to start</h2>
-<ul>
-  <li><strong>Free 15-minute intake call.</strong> A clinician hears your concern and tells you honestly whether an appointment is the right next step. Some calls end with strategies to try at home instead.</li>
-  <li><strong>Assessment or first session.</strong> Booked at whichever Delhi centre suits you, at a time that works around school where possible.</li>
-  <li><strong>A written plan.</strong> What happens, how often, what to do at home, and what the school is being asked to do.</li>
-  <li><strong>Review.</strong> Progress measured against the baseline set at the start, discussed openly with you.</li>
+<ul class="space-y-4 key-points-list">
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace Vasant Kunj</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> C-7, Sector C, Pocket 5, Basement, Grand Vasant Kunj, New Delhi 110070</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Munirka on the Magenta Line is nearest, Chhatarpur on the Yellow Line is the usual access point for the Vasant Kunj sectors</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99715 76800</span>
+</li>
 </ul>
-<p>Fees are quoted upfront on your intake call, in writing, before you commit to anything.</p>
-
-<h2 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h2>
-<div class="space-y-2 mb-10">
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Do you offer child development centre in Delhi?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>Yes. Families in Delhi are seen at our Vasant Kunj and Malviya Nagar centres, and online where that suits the work. Start with a free 15-minute intake call.</p></div>
 </div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">How quickly can we be seen in Delhi?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>The intake call is usually arranged within a few working days. Appointment timing depends on the service and the clinician needed, and we will tell you honestly on the call.</p></div>
-</div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Can we be seen outside school hours?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>We offer later slots and Saturday appointments where availability allows. Tell the intake team what you need and they will work around school.</p></div>
-</div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">What is a child development centre?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>A practice bringing developmental assessment and therapies together under one team and one plan, rather than treating each difficulty separately at separate clinics.</p></div>
-</div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">What age range do you work with?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>From infancy through adolescence for developmental services, and adults for psychology, counselling and physiotherapy. Early intervention work often starts in the first year.</p></div>
-</div>
-</div>
-
-<h2>Other eMbrace services near you</h2>
+<h2>Which of our Delhi centres you would use</h2>
+<p>We have two centres in Delhi, and which one you use is a question of geography rather than service, because the same pathway runs at both.</p>
+<p>eMbrace Vasant Kunj, at C-7, Sector C, Pocket 5, Grand Vasant Kunj, is the larger team and serves south-west Delhi: Vasant Vihar, Munirka, R.K. Puram, Safdarjung Enclave, Anand Niketan, Shanti Niketan, Moti Bagh and Chanakyapuri.</p>
+<p>eMbrace at Rainbow, Malviya Nagar, at FC-29, Plot No. 5, Geetanjali, beside Malviya Nagar Metro Station Gate No. 1, serves the Yellow Line corridor through Saket, Hauz Khas and Green Park, and the drive-in catchment of Greater Kailash and Defence Colony. It runs inside Rainbow Children's Hospital, so multidisciplinary therapy sits in the same building as assessment.</p>
+<p>If you are in north or west Delhi, either centre is a real journey, and we would usually suggest starting online and coming in only for the parts that have to happen in a room.</p>
+<p>The point of a centre rather than a list of separate providers is that appointments can be grouped. A child needing three disciplines can often be seen on one day rather than three, and the clinicians can speak to each other about your child without you having to carry messages between them.</p>
+<p>For parking, the nearest drop-off point and the quickest route at your particular time of day, ask on the intake call. Traffic and parking around every one of these centres change enough through the day that current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>What a development centre is for</h2>
+<p>Children rarely have difficulty in only one area. A child referred for late speech often turns out to have sensory difficulties too; a child referred for behaviour often has an unidentified learning difficulty underneath. A centre exists so that the second and third question can be answered by the same team that answered the first.</p>
 <ul>
-<li><a href="/locations/child-psychologist-in-saket" class="text-[#234394]">Child psychology in Saket</a></li>
-<li><a href="/locations/child-psychologist-in-hauz-khas" class="text-[#234394]">Child psychology in Hauz Khas</a></li>
-<li><a href="/locations/child-psychologist-in-green-park" class="text-[#234394]">Child psychology in Green Park</a></li>
-<li><a href="/locations/child-psychologist-in-greater-kailash" class="text-[#234394]">Child psychology in Greater Kailash</a></li>
-<li><a href="/locations/child-psychologist-in-defence-colony" class="text-[#234394]">Child psychology in Defence Colony</a></li>
-<li><a href="/locations/child-psychologist-in-south-delhi" class="text-[#234394]">Child psychology in South Delhi</a></li>
-<li><a href="/locations/child-psychologist-in-vasant-kunj" class="text-[#234394]">Child psychology in Vasant Kunj</a></li>
-  <li><a href="/locations" class="text-[#234394]">View all eMbrace locations</a></li>
+<li>Developmental assessment across communication, motor, cognitive, social and self-care skills</li>
+<li>Speech and language therapy, occupational therapy and physiotherapy</li>
+<li>Behaviour therapy, parent training and special education</li>
+<li>Psychological assessment for autism, ADHD and learning difficulties</li>
 </ul>
-
-<div class="pathway-card mt-12 rounded-3xl p-8 bg-gradient-to-br from-[#eef2ff] to-[#e0e7ff] border border-[#c7d2fe]">
-  <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Not sure whether you need this yet?</h2>
-  <p class="text-gray-600 mb-6">Start with a free 15-minute intake call. A clinician will tell you honestly whether child development centre is the right next step, or whether something else is. There is no obligation and no waiting list to join.</p>
-  <div class="flex flex-wrap gap-3">
-    <a href="/appointment" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
-    <a href="https://wa.me/919971576800" target="_blank" rel="noopener" class="inline-block px-7 py-3 rounded-full bg-white border border-[#c7d2fe] text-[#234394] font-semibold hover:bg-[#f8faff] transition-colors">WhatsApp +91 99715 76800</a>
-  </div>
+<p>What each service involves is set out on our <a href="/child-development-centre">child development centre</a> page.</p>
+<h2>How it starts</h2>
+<p>With a free 15-minute intake call, then a developmental assessment that maps your child across all areas rather than only the one that prompted the call. That produces a written baseline you can measure against, and a plan naming which disciplines are involved, in what order, and when it will be reviewed.</p>
+<p>Where nothing further is needed we say so. A centre that finds work for every child who walks in is not a centre worth trusting.</p>
+<h2>What the centre does most of</h2>
+<p>Our Malviya Nagar centre runs inside Rainbow Children’s Hospital, which is the fullest version of this: assessment, occupational therapy, physiotherapy, speech therapy, behaviour therapy and special education at one address, with paediatric care in the same building. Vasant Kunj carries the largest psychology and therapy team.</p>
+<p>The commonest route in is a paediatrician or a nursery raising a concern about speech or milestones in the first three years.</p>
+<h2>Who you would see</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>Across our Delhi centres, the clinicians who take this work are:</p>
+<h3>Dhriti Dharana, Clinical Lead</h3>
+<p>MSc in Clinical Health Psychology and Well-being from Middlesex University, UK. Behavioural therapy with neurodivergent children and parent training, from a neurodiversity-affirming position. Works in fluent English and native Hindi.</p>
+<h3>Mannat Kaur Arora, Psychologist</h3>
+<p>Professional Diploma in Clinical Psychology from Amity University Haryana and an MA in Psychology from the University of Delhi. Assessment across MISIC, WISC-IV, Conners 3, CBCL, ISAA, CARS and the NIMHANS SLD battery. Works in English and Hindi.</p>
+<h3>Cheesha Kanwar, Psychologist</h3>
+<p>Completing an MSc in Clinical Psychology at Christ (Deemed to be University), with a BA (Hons) in Applied Psychology from the University of Delhi. Behaviour therapy and assessment support using WISC-V, NEPSY-II, Conners-3 and BRIEF-2. Works in English and Hindi.</p>
+<h3>Dr Agrima Aggarwal, Occupational Therapist</h3>
+<p>Dr Agrima Aggarwal is a PhD scholar in Occupational Therapy at Mahatma Gandhi University of Medical Sciences and Technology. She holds an MOT in Neurology from SVNIRTAR, Utkal University, where she was gold medallist, and a BOT from PDUNIPPD, University of Delhi. She works in paediatric occupational therapy and early intervention, alongside neurorehabilitation and cognitive rehabilitation.</p>
+<h3>Upasna, Speech Language Pathologist</h3>
+<p>Upasna holds a Master and a Bachelor in Speech Language Pathology from the Ali Yavar Jung National Institute for Speech and Hearing Disability in Kolkata. Her paediatric work covers spoken language disorders, misarticulation, late language emergence, developmental verbal dyspraxia, developmental stuttering and cluttering, cleft lip and palate, cochlear implant support, cerebral palsy and pragmatic language difficulty in autism.</p>
+<p>Which of them you see is decided on the intake call rather than by whoever has the next free slot, and you are told who it will be before you book. Fuller biographies are on our <a href="/about">about page</a>.</p>
+<h2>Schools and services we already work with</h2>
+<p>A child development centre is only as good as what it connects to, and around Delhi that includes:</p>
+<p>Our Malviya Nagar centre runs inside Rainbow Children's Hospital, New Delhi, which is why occupational therapy, physiotherapy, speech therapy, behaviour therapy and special education sit in the same building as assessment.</p>
+<p>We work with The British School in Chanakyapuri on psychoeducational, cognitive and risk assessments, therapy for children and adolescents, and workshops for teachers, parents and pupils.</p>
+<p>At the American Embassy School in Chanakyapuri we carry out psychoeducational, cognitive, comprehensive and brief assessments, including risk assessments, and provide therapy for children and adolescents.</p>
+<p>Where a child or adult needs psychiatric input, we work with Sukoon across Delhi NCR for psychiatric assessment, consultation and medication management, so you are not left to find a psychiatrist yourself.</p>
+<h2>Fees and how it is reviewed</h2>
+<p>Fees are quoted upfront on your intake call, itemised by what the plan actually contains rather than as a bundle.</p>
+<p>Plans are reviewed on a set date against the written baseline. The measure that matters is not how many disciplines are involved but whether the specific things you came about have changed.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What is a child development centre?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">An address where assessment and the therapies that follow it sit under one roof, so a family is not sent on a fresh search each time something new is identified.</p>
 </div>
-    </div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Which Delhi centre has the most services?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Malviya Nagar, which runs inside Rainbow Children’s Hospital, so paediatric care sits alongside the therapies. Vasant Kunj carries the largest psychology and therapy team.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Do we have to use every service?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">No. Where nothing further is needed we say so. A centre that finds work for every child who walks in is not one worth trusting.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Can appointments be on the same day?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Usually, and that is much of the point. A child needing three disciplines can often be seen on one day rather than across three.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does it cost?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Quoted upfront on your free 15-minute intake call, itemised by what the plan actually contains rather than as a bundle.</p>
+</div>
+</div>
+</div>
+<div class="cta-card my-12">
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
+</div>
+<!-- LOCATION-BODY:END -->
+</div>
   </div>
 </div>
 <?php include __DIR__ . '/../components/lead-magnet-band-child.php'; ?>
-<!-- LOCATION-LINKS:START (generated by generate-location-links.js — do not edit by hand) -->
-<div class="px-6 md:px-16 bg-white">
-<div class="max-w-7xl mx-auto">
-<section class="emb-nearby" aria-labelledby="emb-nearby-title">
-  <h2 class="emb-nearby__title" id="emb-nearby-title">More eMbrace services near you</h2>
-  <p class="emb-nearby__sub">Explore the other assessments and therapies we offer in Delhi, or find child development services at another eMbrace location.</p>
-  <div class="emb-nearby__cols emb-nearby__cols--two">
-    <div class="emb-nearby__group">
-      <h4>Other services in Delhi</h4>
-      <ul class="emb-nearby__list">
-        <li><a href="/locations/child-psychologist-in-delhi">Child Psychologist in Delhi</a></li>
-        <li><a href="/locations/child-counselling-in-delhi">Child Counselling in Delhi</a></li>
-        <li><a href="/locations/teen-counselling-in-delhi">Teen Counselling in Delhi</a></li>
-        <li><a href="/locations/adult-counselling-in-delhi">Adult Counselling in Delhi</a></li>
-        <li><a href="/locations/autism-assessment-in-delhi">Autism Assessment in Delhi</a></li>
-        <li><a href="/locations/autism-therapy-in-delhi">Autism Therapy in Delhi</a></li>
-        <li><a href="/locations/adhd-assessment-in-delhi">ADHD Assessment in Delhi</a></li>
-        <li><a href="/locations/learning-disability-assessment-in-delhi">Learning Disability Assessment in Delhi</a></li>
-        <li><a href="/locations/speech-therapy-in-delhi">Speech Therapy in Delhi</a></li>
-        <li><a href="/locations/occupational-therapy-in-delhi">Occupational Therapy in Delhi</a></li>
-        <li><a href="/locations/special-education-in-delhi">Special Education in Delhi</a></li>
-        <li><a href="/locations/developmental-delay-treatment-in-delhi">Developmental Delay Treatment in Delhi</a></li>
-        <li><a href="/locations/intellectual-disability-treatment-in-delhi">Intellectual Disability Treatment in Delhi</a></li>
-        <li><a href="/locations/down-syndrome-treatment-in-delhi">Down Syndrome Treatment in Delhi</a></li>
-        <li><a href="/locations/oral-motor-therapy-in-delhi">Oral Motor Delay Treatment in Delhi</a></li>
-        <li><a href="/locations/aba-therapy-in-delhi">ABA Therapy in Delhi</a></li>
-        <li><a href="/locations/physiotherapy-in-delhi">Physiotherapy in Delhi</a></li>
-        <li><a href="/locations/pediatric-neurologist-in-delhi">Pediatric Neurologist in Delhi</a></li>
-        <li><a href="/locations/developmental-pediatrician-in-delhi">Developmental Pediatrician in Delhi</a></li>
-      </ul>
-    </div>
-    <div class="emb-nearby__group">
-      <h4>Child Development Centre in other areas</h4>
-      <ul class="emb-nearby__list">
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        <li><a href="/locations/child-development-centre-in-gurgaon">Child Development Centre in Gurgaon</a></li>
-        null
-      </ul>
-    </div>
-  </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
-</section>
-</div>
-</div>
-<!-- LOCATION-LINKS:END -->
 <?php include __DIR__ . '/../components/footer.php'; ?>
 </div>
 <script src="/assets/interactive.js"></script>

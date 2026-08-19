@@ -10,16 +10,16 @@
 <link href="https://embracelives.com/locations/speech-therapy-in-noida" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/locations/speech-therapy-in-noida" property="og:url"/>
-<meta content="Speech Therapy in Noida | RCI-Certified Team | eMbrace" property="og:title"/>
+<meta content="Speech Therapy in Noida | eMbrace Centres Delhi NCR" property="og:title"/>
 <meta content="Speech therapy in Noida for speech delay, unclear speech, oral motor difficulty and stammering, at our Delhi NCR centres or online. Book a free 15-minute call." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Speech Therapy in Noida | RCI-Certified Team | eMbrace" name="twitter:title"/>
+<meta content="Speech Therapy in Noida | eMbrace Centres Delhi NCR" name="twitter:title"/>
 <meta content="Speech therapy in Noida for speech delay, unclear speech, oral motor difficulty and stammering, at our Delhi NCR centres or online. Book a free 15-minute call." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Speech Therapy in Noida | RCI-Certified Team | eMbrace</title>
+<title>Speech Therapy in Noida | eMbrace Centres Delhi NCR</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet"/>
@@ -358,7 +358,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://embracelives.com/locations/speech-therapy-in-noida#webpage",
       "url": "https://embracelives.com/locations/speech-therapy-in-noida",
-      "name": "Speech Therapy in Noida | RCI-Certified Team | eMbrace",
+      "name": "Speech Therapy in Noida | eMbrace Centres Delhi NCR",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -375,7 +375,7 @@
       "@type": "FAQPage",
       "@id": "https://embracelives.com/locations/speech-therapy-in-noida#faq",
       "url": "https://embracelives.com/locations/speech-therapy-in-noida",
-      "name": "Speech Therapy in Noida | RCI-Certified Team | eMbrace — Frequently Asked Questions",
+      "name": "Speech Therapy in Noida | eMbrace Centres Delhi NCR — Frequently Asked Questions",
       "isPartOf": {
         "@id": "https://embracelives.com/locations/speech-therapy-in-noida#webpage"
       },
@@ -383,34 +383,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Does eMbrace offer speech therapy in Noida?",
+          "name": "Can speech therapy be done online?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer professional speech therapy services at our Delhi NCR centres and online. Our team of experienced professionals provides personalised care."
+            "text": "Most of it, yes, and it is one of the better fits for video. Language work, parent coaching and much of articulation practice transfer well."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I book speech therapy in Noida?",
+          "name": "What would we need to travel for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Delhi NCR centres."
+            "text": "Feeding, swallowing and oral motor difficulty, which need hands-on assessment. That means a trip to our Malviya Nagar centre."
           }
         },
         {
           "@type": "Question",
-          "name": "What are the qualifications of your speech therapy professionals in Noida?",
+          "name": "Is there an eMbrace centre in Noida?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care."
+            "text": "No. Online sessions run from wherever you are; in-person work is at Malviya Nagar in south Delhi."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you offer online speech therapy for Noida residents?",
+          "name": "How much depends on us at home?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer online speech therapy services for residents of Noida who prefer remote consultations or have mobility concerns."
+            "text": "A great deal. Ten minutes daily beats the weekly session, and online delivery makes that easier because the practice happens where you already are."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does online speech therapy cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quoted upfront on your free 15-minute intake call, depending on the clinician and how often sessions run."
           }
         }
       ]
@@ -553,82 +561,118 @@
 </div> </div>
 </details>
 </div><div class="flex-grow max-w-4xl article-content">
-<h2 class="text-2xl md:text-3xl font-bold mb-4 text-[#1e293b]">Speech Therapy Services in Noida</h2>
-<p class="text-lg text-gray-700 leading-relaxed font-light mb-8">Our team provides speech and language therapy for families in Noida. Sessions run at our Delhi NCR centres or online, with a free 15-minute intake call before you book anything.</p>
-<hr class="my-8 border-gray-100"/>
-<div class="key-points-card">
-<ul class="space-y-4 mb-8 key-points-list">
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>Speech and language therapy in Noida covers a wider span than any other service we run: a toddler with no words, a child who stammers, and an adult relearning speech or swallowing after a stroke are all speech and language work. The short answer is our Malviya Nagar centre, because we do not have a centre in Noida. This page sets out what we treat, how often, and the part that actually decides whether it works.</p>
+<div class="key-points-card my-8">
+<ul class="space-y-4 key-points-list">
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Expert Professionals:</strong> Our speech therapy team in Noida consists of qualified, experienced professionals dedicated to providing exceptional care.</span>
-</li>
-<li class="flex items-start gap-3">
-<img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Convenient Location:</strong> Our Delhi NCR centres is easily accessible with flexible appointment scheduling to suit your busy lifestyle.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace at Rainbow, Malviya Nagar</span>
 </li>
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Personalised Care:</strong> Every speech therapy plan is tailored to your unique needs, goals, and circumstances.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> FC-29, Plot No. 5, Geetanjali, near Malviya Nagar Metro Station Gate No. 1, New Delhi 110017</span>
 </li>
 <li class="flex items-start gap-3">
-<img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Comprehensive Support:</strong> From initial assessment to ongoing care, we provide complete speech therapy support for you and your family.</span>
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Malviya Nagar, Yellow Line, beside Gate No. 1</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99715 76800</span>
 </li>
 </ul>
-<h3 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h3><div class="space-y-2 mb-8">
+</div>
+<h2>How Noida families see us</h2>
+<p>We should be straight about this one: eMbrace has no centre in Noida. Our three centres are in Vasant Kunj, Malviya Nagar and Gurugram, and from most of Noida that is a genuine cross-city journey with a Blue Line to Yellow Line change at Rajiv Chowk.</p>
+<p>So for most Noida families the sensible answer is online. Consultation, parent sessions, feedback appointments and a good deal of therapy run perfectly well over video, and it removes the part of the process that most often causes families to drop out, which is the travel.</p>
+<p>Where an in-person appointment is genuinely necessary, and cognitive and psychoeducational assessment is the clearest case, we usually schedule it at Malviya Nagar and try to group the testing so you make the trip once rather than weekly. If your child is at school in south Delhi, that often works out easier than it sounds.</p>
+<p>Sessions are weekly, and here is the part providers underplay: the session matters less than the ten minutes a day at home. This is skill practice, built by repetition in ordinary settings rather than in a clinic room once a week. If ten minutes daily is not realistic right now, say so and we will build a smaller programme that is.</p>
+<p>On the occasions you do travel in for an in-person appointment, ask about parking and the nearest drop-off point on the intake call. Current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>What we treat</h2>
+<p>The two ends of the range look nothing alike. For children: late talking, unclear speech, language that is not developing, stammering, feeding and oral motor difficulty, cleft lip and palate, cochlear implant support, verbal dyspraxia, and the social use of language in autism. For adults, mostly after neurological illness: aphasia, dysarthria, voice and difficulty swallowing safely.</p>
+<ul>
+<li>A child with fewer than around fifty words at two, or not putting words together by two and a half</li>
+<li>Speech that people outside the family cannot understand by around four</li>
+<li>Stammering that has lasted more than six months, or that the child has become aware of</li>
+<li>Coughing or distress when eating or drinking, at any age, which should be looked at promptly</li>
+<li>Adults with speech, voice or swallowing difficulty after a stroke or with a progressive condition</li>
+</ul>
+<p>Each of these has its own page on our <a href="/speech-therapy/speech-therapy">speech and language hub</a>.</p>
+<h2>What the first appointment involves</h2>
+<p>An assessment first, because difficulties that look identical can have quite different causes. We take a history, analyse speech and language directly, and check the mechanics where feeding or oral motor control are involved. Hearing is always considered, being the commonest missed explanation for a language delay.</p>
+<p>You leave with a baseline, targets in plain terms, and specific things to do at home. With young children the parent session matters as much as the child session, since you run the practice.</p>
+<h2>What we see most of here</h2>
+<p>Noida families run this service almost entirely online, and speech and language therapy is one of the better fits for that. Language work, parent coaching and much of articulation practice transfer well to video, and being in the child’s own home is an advantage rather than a compromise.</p>
+<p>The exception is anything involving feeding, swallowing or oral motor control, which needs hands-on assessment and a trip to Malviya Nagar.</p>
+<h2>Who you would see at our Malviya Nagar centre</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>At our Malviya Nagar centre, the clinicians who take this work are:</p>
+<h3>Upasna, Speech Language Pathologist</h3>
+<p>Upasna holds a Master and a Bachelor in Speech Language Pathology from the Ali Yavar Jung National Institute for Speech and Hearing Disability in Kolkata. Her paediatric work covers spoken language disorders, misarticulation, late language emergence, developmental verbal dyspraxia, developmental stuttering and cluttering, cleft lip and palate, cochlear implant support, cerebral palsy and pragmatic language difficulty in autism.</p>
+<p>Which of them you see is decided on the intake call rather than by whoever has the next free slot, and you are told who it will be before you book. Fuller biographies are on our <a href="/about">about page</a>.</p>
+<h2>Schools and services we already work with</h2>
+<p>Referrals around Noida reach this service through several routes, and the institutional ones are worth knowing about.</p>
+<p>Through The Medical Travel Company we provide autism and ADHD assessment and therapy for families in the UK, across Africa and elsewhere in India, on hybrid, in-person and online programmes.</p>
+<p>Our Malviya Nagar centre runs inside Rainbow Children's Hospital, New Delhi, which is why occupational therapy, physiotherapy, speech therapy, behaviour therapy and special education sit in the same building as assessment.</p>
+<h2>Fees and how long it takes</h2>
+<p>Fees are quoted upfront on your intake call and depend on the clinician and the frequency. Courses are typically blocks of eight to twelve weekly sessions followed by a review, rather than an open-ended commitment.</p>
+<p>How long depends on what is being treated. An articulation difficulty often resolves in a block or two. Language disorder, verbal dyspraxia and post-stroke aphasia are longer, and we say which you are looking at rather than letting you assume the shorter one.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Does eMbrace offer speech therapy in Noida?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Can speech therapy be done online?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer professional speech therapy services at our Delhi NCR centres and online. Our team of experienced professionals provides personalised care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Most of it, yes, and it is one of the better fits for video. Language work, parent coaching and much of articulation practice transfer well.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How do I book speech therapy in Noida?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What would we need to travel for?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Delhi NCR centres.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Feeding, swallowing and oral motor difficulty, which need hands-on assessment. That means a trip to our Malviya Nagar centre.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What are the qualifications of your speech therapy professionals in Noida?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Is there an eMbrace centre in Noida?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">No. Online sessions run from wherever you are; in-person work is at Malviya Nagar in south Delhi.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Do you offer online speech therapy for Noida residents?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much depends on us at home?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer online speech therapy services for residents of Noida who prefer remote consultations or have mobility concerns.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">A great deal. Ten minutes daily beats the weekly session, and online delivery makes that easier because the practice happens where you already are.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does online speech therapy cost?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Quoted upfront on your free 15-minute intake call, depending on the clinician and how often sessions run.</p>
 </div>
 </div>
 </div>
 <div class="cta-card my-12">
-<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Noida</h3>
-<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your speech therapy consultation at our Delhi NCR centres.</p>
-<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
-                Schedule an Appointment
-              </a>
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
 </div>
-</div>
+<!-- LOCATION-BODY:END -->
 </div>
 </div>
     </div>
@@ -652,15 +696,6 @@
         <li><a href="/locations/learning-disability-assessment-in-noida">Learning Disability Assessment in Noida</a></li>
         <li><a href="/locations/occupational-therapy-in-noida">Occupational Therapy in Noida</a></li>
         <li><a href="/locations/special-education-in-noida">Special Education in Noida</a></li>
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
       </ul>
     </div>
     <div class="emb-nearby__group">

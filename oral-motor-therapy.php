@@ -10,7 +10,7 @@
 <!-- Open Graph -->
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/oral-motor-therapy" property="og:url"/>
-<meta content="Oral Motor Delay Treatment | RCI-Certified Team | eMbrace" property="og:title"/>
+<meta content="Oral Motor Delay Treatment | eMbrace Delhi NCR Centres" property="og:title"/>
 <meta content="Oral Motor Delay Treatment at eMbrace across Delhi NCR: feeding and speech clarity work by speech and language therapists. Free 15-minute intake call available." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="1200" property="og:image:width"/>
@@ -19,10 +19,10 @@
 <meta content="en_IN" property="og:locale"/>
 <!-- Twitter Card -->
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Oral Motor Delay Treatment | RCI-Certified Team | eMbrace" name="twitter:title"/>
+<meta content="Oral Motor Delay Treatment | eMbrace Delhi NCR Centres" name="twitter:title"/>
 <meta content="Oral Motor Delay Treatment at eMbrace across Delhi NCR: feeding and speech clarity work by speech and language therapists. Free 15-minute intake call available." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Oral Motor Delay Treatment | RCI-Certified Team | eMbrace</title>
+<title>Oral Motor Delay Treatment | eMbrace Delhi NCR Centres</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -362,7 +362,7 @@
       "@type": "WebPage",
       "@id": "https://embracelives.com/oral-motor-therapy#webpage",
       "url": "https://embracelives.com/oral-motor-therapy",
-      "name": "Oral Motor Delay Treatment | RCI-Certified Team | eMbrace",
+      "name": "Oral Motor Delay Treatment | eMbrace Delhi NCR Centres",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -379,7 +379,7 @@
       "@type": "FAQPage",
       "@id": "https://embracelives.com/oral-motor-therapy#faq",
       "url": "https://embracelives.com/oral-motor-therapy",
-      "name": "Oral Motor Delay Treatment | RCI-Certified Team | eMbrace — Frequently Asked Questions",
+      "name": "Oral Motor Delay Treatment | eMbrace Delhi NCR Centres — Frequently Asked Questions",
       "isPartOf": {
         "@id": "https://embracelives.com/oral-motor-therapy#webpage"
       },
@@ -445,7 +445,7 @@
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
   <div class="max-w-7xl mx-auto flex items-center gap-2 flex-wrap">
-      <a href="/">Home</a><span class="text-gray-300">/</span>
+      <a href="/index.php">Home</a><span class="text-gray-300">/</span>
       <a href="/child-development-centre">Child Development Centre</a><span class="text-gray-300">/</span>
       <span class="text-gray-700 font-medium">Oral Motor Therapy</span>
   </div>
@@ -456,15 +456,15 @@
   <div class="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm md:sticky md:top-24 side-menu">
     <h2 class="text-lg font-bold text-[#234394] mb-4 border-b pb-3">Child Development Services</h2>
     <div class="space-y-1">
-      <a class="" href="/developmental-delay-treatment">Developmental Delay Treatment</a>
-      <a class="" href="/intellectual-disability-treatment">Intellectual Disability Treatment</a>
-      <a class="" href="/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
-      <a class="is-current" href="/oral-motor-therapy">Oral Motor Delay Treatment</a>
-      <a class="" href="/aba-therapy">ABA Therapy</a>
-      <a class="" href="/physiotherapy">Physiotherapy Clinic</a>
-      <a class="" href="/pediatric-neurologist">Pediatric Neurologist</a>
-      <a class="" href="/developmental-pediatrician">Developmental Pediatrician</a>
-      <a class="" href="/child-development-centre">Child Development Centre</a>
+      <a class="" href="/developmental-delay/developmental-delay-treatment">Developmental Delay Treatment</a>
+      <a class="" href="/intellectual-disability/intellectual-disability-treatment">Intellectual Disability Treatment</a>
+      <a class="" href="/down-syndrome/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
+      <a class="is-current" href="/oral-motor-therapy/oral-motor-therapy">Oral Motor Delay Treatment</a>
+      <a class="" href="/aba-therapy/aba-therapy">ABA Therapy</a>
+      <a class="" href="/physiotherapy/physiotherapy">Physiotherapy Clinic</a>
+      <a class="" href="/pediatric-neurology/pediatric-neurologist">Pediatric Neurologist</a>
+      <a class="" href="/developmental-pediatrics/developmental-pediatrician">Developmental Pediatrician</a>
+      <a class="" href="/child-development-centre/child-development-centre">Child Development Centre</a>
     </div>
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mt-6 mb-2">Related</h3>
     <div class="space-y-1">

@@ -5,19 +5,19 @@
 <meta charset="utf-8"/>
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="ADOS-2 based autism assessment in Saket by RCI-certified psychologists, at our Malviya Nagar centre, minutes from Saket. Free 15-minute intake call available." name="description"/>
+<meta content="ADOS-2 based autism assessment in Saket by our clinical psychology team, at our Malviya Nagar centre, minutes from Saket. Free 15-minute intake call available." name="description"/>
 <meta content="index, follow" name="robots"/>
 <link href="https://embracelives.com/locations/autism-assessment-in-saket" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/locations/autism-assessment-in-saket" property="og:url"/>
 <meta content="Autism Assessment &amp; Diagnosis in Saket | eMbrace Delhi NCR" property="og:title"/>
-<meta content="ADOS-2 based autism assessment in Saket by RCI-certified psychologists, at our Malviya Nagar centre, minutes from Saket. Free 15-minute intake call available." property="og:description"/>
+<meta content="ADOS-2 based autism assessment in Saket by our clinical psychology team, at our Malviya Nagar centre, minutes from Saket. Free 15-minute intake call available." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="Autism Assessment &amp; Diagnosis in Saket | eMbrace Delhi NCR" name="twitter:title"/>
-<meta content="ADOS-2 based autism assessment in Saket by RCI-certified psychologists, at our Malviya Nagar centre, minutes from Saket. Free 15-minute intake call available." name="twitter:description"/>
+<meta content="ADOS-2 based autism assessment in Saket by our clinical psychology team, at our Malviya Nagar centre, minutes from Saket. Free 15-minute intake call available." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
 <title>Autism Assessment &amp; Diagnosis in Saket | eMbrace Delhi NCR</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
@@ -366,7 +366,7 @@
         "@id": "https://embracelives.com/#organization"
       },
       "inLanguage": "en-IN",
-      "description": "ADOS-2 based autism assessment in Saket by RCI-certified psychologists, at our Malviya Nagar centre, minutes from Saket. Free 15-minute intake call available.",
+      "description": "ADOS-2 based autism assessment in Saket by our clinical psychology team, at our Malviya Nagar centre, minutes from Saket. Free 15-minute intake call available.",
       "breadcrumb": {
         "@id": "https://embracelives.com/locations/autism-assessment-in-saket#breadcrumb"
       }
@@ -383,34 +383,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Does eMbrace offer autism assessment in Saket?",
+          "name": "How young can a child be assessed for autism?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer professional autism assessment services at our Malviya Nagar centre and online. Our team of experienced professionals provides personalised care."
+            "text": "From around eighteen months. With very young children we would rather see you early and say the picture is not yet clear than have you wait a year."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I book autism assessment in Saket?",
+          "name": "What is ADOS-2?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Malviya Nagar centre."
+            "text": "A semi-structured session where a clinician sets up ordinary social situations and records how your child responds. To a watching parent it looks like someone playing with your child."
           }
         },
         {
           "@type": "Question",
-          "name": "What are the qualifications of your autism assessment professionals in Saket?",
+          "name": "Where would we go from Saket?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care."
+            "text": "Our Malviya Nagar centre, one Yellow Line stop north of Saket metro. Speech and language input sits in the same building, which matters for this assessment."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you offer online autism assessment for Saket residents?",
+          "name": "Does a diagnosis get us a disability certificate?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer online autism assessment services for residents of Saket who prefer remote consultations or have mobility concerns."
+            "text": "Not directly. Ours is a clinical diagnosis. A certificate under the RPwD Act comes from a government medical board through its own process, which we explain on the call."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does an autism assessment cost in Saket?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quoted upfront on your free 15-minute intake call, as one figure covering observation, history, report and feedback."
           }
         }
       ]
@@ -651,82 +659,119 @@
 </div>
 </details>
 </div><div class="flex-grow max-w-4xl article-content">
-<h2 class="text-2xl md:text-3xl font-bold mb-4 text-[#1e293b]">Autism Assessment Services in Saket</h2>
-<p class="text-lg text-gray-700 leading-relaxed font-light mb-8">Our team provides autism assessment and diagnosis for families in Saket. Sessions run at our Malviya Nagar centre, minutes from Saket, with a free 15-minute intake call before you book anything.</p>
-<hr class="my-8 border-gray-100"/>
-<div class="key-points-card">
-<ul class="space-y-4 mb-8 key-points-list">
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>An autism assessment in Saket is a structured diagnostic process built around watching your child directly, not around filling in forms about them. The short answer is our Malviya Nagar centre, because we do not have a centre in Saket. This page covers what the assessment involves, how young we can start, and what a diagnosis does and does not give you on paper.</p>
+<div class="key-points-card my-8">
+<ul class="space-y-4 key-points-list">
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Expert Professionals:</strong> Our autism assessment team in Saket consists of qualified, experienced professionals dedicated to providing exceptional care.</span>
-</li>
-<li class="flex items-start gap-3">
-<img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Convenient Location:</strong> Our Malviya Nagar centre is easily accessible with flexible appointment scheduling to suit your busy lifestyle.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace at Rainbow, Malviya Nagar</span>
 </li>
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Personalised Care:</strong> Every autism assessment plan is tailored to your unique needs, goals, and circumstances.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> FC-29, Plot No. 5, Geetanjali, near Malviya Nagar Metro Station Gate No. 1, New Delhi 110017</span>
 </li>
 <li class="flex items-start gap-3">
-<img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Comprehensive Support:</strong> From initial assessment to ongoing care, we provide complete autism assessment support for you and your family.</span>
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Malviya Nagar, Yellow Line, beside Gate No. 1</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99715 76800</span>
 </li>
 </ul>
-<h3 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h3><div class="space-y-2 mb-8">
+</div>
+<h2>Which eMbrace centre Saket families use</h2>
+<p>Our centre is not in Saket. It is in Malviya Nagar, one Yellow Line stop north of Saket metro station, at FC-29, Plot No. 5, Geetanjali, beside Malviya Nagar Metro Station Gate No. 1. By road it is a short run up Press Enclave Marg.</p>
+<p>It is worth saying that plainly, because a good many clinic pages that rank for Saket are describing a room somewhere else entirely. Ours is the closest eMbrace centre to Saket, and for most families in Saket, Sainik Farms and Pushp Vihar it is the nearest specialist child psychology service of any kind.</p>
+<p>The centre runs inside Rainbow Children's Hospital, which is the practical reason a child who turns out to need occupational therapy, speech therapy or physiotherapy after an assessment does not have to be referred out to a second address.</p>
+<p>This is a defined piece of work rather than a weekly commitment: normally two or three appointments plus report writing. It also starts younger than most services here, from around eighteen months, and with very young children we would rather see you sooner and say the picture is not yet clear than have you wait a year for certainty. Where a child has lost skills they previously had, at any age, say so when you call and we will bring the appointment forward.</p>
+<p>For parking, the nearest drop-off point and the quickest route at your particular time of day, ask on the intake call. Traffic and parking around every one of these centres change enough through the day that current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>When an autism assessment is worth doing</h2>
+<p>The question is rarely whether a child is unusual. It is whether the pattern of social communication, interaction and behaviour is consistent enough to be recognisable, and whether naming it would change what your child is offered. Early identification matters more here than in any other assessment we do, because what follows it is time-sensitive.</p>
+<ul>
+<li>Limited eye contact, response to name or shared attention in the second year</li>
+<li>Speech that is late, absent, or present but not used to connect with other people</li>
+<li>Strong preference for routine, with distress out of proportion when it changes</li>
+<li>Loss of words, gestures or social skills a child previously had, at any age</li>
+</ul>
+<p>Diagnostic evaluation, ADOS-2, sleep, feeding and emotional regulation each have their own page on our <a href="/autism/autism-assessment">autism hub</a>.</p>
+<h2>What the assessment actually involves</h2>
+<p>The core of it is direct observation. ADOS-2 is a semi-structured session in which a clinician sets up ordinary social situations, play, conversation, small frustrations, and records how your child responds. To a watching parent it looks like someone playing with your child, and it is the closest thing there is to a standardised way of seeing social communication rather than asking about it.</p>
+<p>Around that sits a developmental history from you, structured tools such as ISAA and CARS, and input on communication and on sensory and motor profiles from our speech and language and occupational therapy colleagues. That part is not decoration. It separates a diagnosis from a description, and it is why this team is larger than for other assessments.</p>
+<h2>What brings families to autism assessment here</h2>
+<p>From Saket the two routes are quite distinct. The early one is a two to three year old whose speech has not arrived on schedule and who is not using what speech there is to connect, usually flagged by a paediatrician or a nursery.</p>
+<p>The later one is a school-age child, often already doing academically well, referred once the social side of school became harder than the academic side. In a catchment this dense with schools, that second group reaches us more often than most people would expect.</p>
+<h2>Who you would see at our Malviya Nagar centre</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>At our Malviya Nagar centre, the clinicians who take this work are:</p>
+<h3>Cheesha Kanwar, Psychologist</h3>
+<p>Completing an MSc in Clinical Psychology at Christ (Deemed to be University), with a BA (Hons) in Applied Psychology from the University of Delhi. Behaviour therapy and assessment support using WISC-V, NEPSY-II, Conners-3 and BRIEF-2. Works in English and Hindi.</p>
+<h3>Upasna, Speech Language Pathologist</h3>
+<p>Upasna holds a Master and a Bachelor in Speech Language Pathology from the Ali Yavar Jung National Institute for Speech and Hearing Disability in Kolkata. Her paediatric work covers spoken language disorders, misarticulation, late language emergence, developmental verbal dyspraxia, developmental stuttering and cluttering, cleft lip and palate, cochlear implant support, cerebral palsy and pragmatic language difficulty in autism.</p>
+<p>Which of them you see is decided on the intake call rather than by whoever has the next free slot, and you are told who it will be before you book. Fuller biographies are on our <a href="/about">about page</a>.</p>
+<h2>Schools and services we already work with</h2>
+<p>Families around Saket reach our autism assessment service through several routes, and the institutional ones are worth knowing about.</p>
+<p>Our Malviya Nagar centre runs inside Rainbow Children's Hospital, New Delhi, which is why occupational therapy, physiotherapy, speech therapy, behaviour therapy and special education sit in the same building as assessment.</p>
+<p>Since 2025 Ashoka University in Sonepat has referred students to us for psychoeducational and cognitive assessment, and for neurodiversity assessment covering autism and ADHD.</p>
+<h2>Fees, the report, and the certification question</h2>
+<p>Fees are quoted upfront on your intake call, as one piece of work covering observation, history, report and feedback. The report names the instruments used, states the conclusion plainly, and sets out what your child needs next in specific terms.</p>
+<p>On paperwork, where families are most often confused: what we give you is a clinical diagnosis, and schools and therapy services act on it. A disability certificate under the Rights of Persons with Disabilities Act is a different document, issued by a government medical board through its own process. We explain that route on the intake call rather than leaving you to discover afterwards that you needed something else.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Does eMbrace offer autism assessment in Saket?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How young can a child be assessed for autism?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer professional autism assessment services at our Malviya Nagar centre and online. Our team of experienced professionals provides personalised care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">From around eighteen months. With very young children we would rather see you early and say the picture is not yet clear than have you wait a year.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How do I book autism assessment in Saket?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What is ADOS-2?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Malviya Nagar centre.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">A semi-structured session where a clinician sets up ordinary social situations and records how your child responds. To a watching parent it looks like someone playing with your child.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What are the qualifications of your autism assessment professionals in Saket?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Where would we go from Saket?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Our Malviya Nagar centre, one Yellow Line stop north of Saket metro. Speech and language input sits in the same building, which matters for this assessment.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Do you offer online autism assessment for Saket residents?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Does a diagnosis get us a disability certificate?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer online autism assessment services for residents of Saket who prefer remote consultations or have mobility concerns.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Not directly. Ours is a clinical diagnosis. A certificate under the RPwD Act comes from a government medical board through its own process, which we explain on the call.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does an autism assessment cost in Saket?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Quoted upfront on your free 15-minute intake call, as one figure covering observation, history, report and feedback.</p>
 </div>
 </div>
 </div>
 <div class="cta-card my-12">
-<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Saket</h3>
-<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your autism assessment consultation at our Malviya Nagar centre.</p>
-<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
-                Schedule an Appointment
-              </a>
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
 </div>
-</div>
+<!-- LOCATION-BODY:END -->
 </div>
 </div>
     </div>
@@ -750,15 +795,6 @@
         <li><a href="/locations/speech-therapy-in-saket">Speech Therapy in Saket</a></li>
         <li><a href="/locations/occupational-therapy-in-saket">Occupational Therapy in Saket</a></li>
         <li><a href="/locations/special-education-in-saket">Special Education in Saket</a></li>
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
       </ul>
     </div>
     <div class="emb-nearby__group">

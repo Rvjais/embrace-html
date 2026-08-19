@@ -10,7 +10,7 @@
 <!-- Open Graph -->
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/locations/aba-therapy-in-delhi" property="og:url"/>
-<meta content="ABA Therapy in Delhi | RCI-Certified Team | eMbrace" property="og:title"/>
+<meta content="ABA Therapy in Delhi | Child Development Centre | eMbrace" property="og:title"/>
 <meta content="ABA Therapy in Delhi at our Vasant Kunj and Malviya Nagar centres: play-based, goals set with parents and reviewed against the data. Book a free intake call." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="1200" property="og:image:width"/>
@@ -19,10 +19,10 @@
 <meta content="en_IN" property="og:locale"/>
 <!-- Twitter Card -->
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="ABA Therapy in Delhi | RCI-Certified Team | eMbrace" name="twitter:title"/>
+<meta content="ABA Therapy in Delhi | Child Development Centre | eMbrace" name="twitter:title"/>
 <meta content="ABA Therapy in Delhi at our Vasant Kunj and Malviya Nagar centres: play-based, goals set with parents and reviewed against the data. Book a free intake call." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>ABA Therapy in Delhi | RCI-Certified Team | eMbrace</title>
+<title>ABA Therapy in Delhi | Child Development Centre | eMbrace</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -362,7 +362,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://embracelives.com/locations/aba-therapy-in-delhi#webpage",
       "url": "https://embracelives.com/locations/aba-therapy-in-delhi",
-      "name": "ABA Therapy in Delhi | RCI-Certified Team | eMbrace",
+      "name": "ABA Therapy in Delhi | Child Development Centre | eMbrace",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -379,7 +379,7 @@
       "@type": "FAQPage",
       "@id": "https://embracelives.com/locations/aba-therapy-in-delhi#faq",
       "url": "https://embracelives.com/locations/aba-therapy-in-delhi",
-      "name": "ABA Therapy in Delhi | RCI-Certified Team | eMbrace — Frequently Asked Questions",
+      "name": "ABA Therapy in Delhi | Child Development Centre | eMbrace — Frequently Asked Questions",
       "isPartOf": {
         "@id": "https://embracelives.com/locations/aba-therapy-in-delhi#webpage"
       },
@@ -387,42 +387,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Do you offer ABA therapy in Delhi?",
+          "name": "Is this ABA?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Families in Delhi are seen at our Vasant Kunj and Malviya Nagar centres, and online where that suits the work. Start with a free 15-minute intake call."
+            "text": "It draws on applied behaviour analysis principles, delivered as part of a wider programme rather than as an intensive standalone package, and always alongside parent training."
           }
         },
         {
           "@type": "Question",
-          "name": "How quickly can we be seen in Delhi?",
+          "name": "Why does the first session involve watching rather than doing?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The intake call is usually arranged within a few working days. Appointment timing depends on the service and the clinician needed, and we will tell you honestly on the call."
+            "text": "Because behaviour that looks baffling is almost always achieving something. A plan written before anyone knows what it is achieving tends not to hold."
           }
         },
         {
           "@type": "Question",
-          "name": "Can we be seen outside school hours?",
+          "name": "How many hours will my child need?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We offer later slots and Saturday appointments where availability allows. Tell the intake team what you need and they will work around school."
+            "text": "We will not give you a number before we have seen your child, and we would be cautious about anyone who does. It depends entirely on the targets."
           }
         },
         {
           "@type": "Question",
-          "name": "Is ABA harmful?",
+          "name": "Where would we go in Delhi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Older compliance-focused programmes drew serious and legitimate criticism. Modern practice looks different, and how a programme is run matters far more than the label. Ask any provider exactly how they work."
+            "text": "Vasant Kunj, or Malviya Nagar inside Rainbow, where behaviour therapy sits alongside speech and language and occupational therapy."
           }
         },
         {
           "@type": "Question",
-          "name": "Is ABA only for autistic children?",
+          "name": "How much does behaviour therapy cost in Delhi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It is most commonly used with autistic children, but the principles apply to skill teaching and behaviour support more broadly, including developmental delay and intellectual disability."
+            "text": "Quoted upfront on your free 15-minute intake call, depending on frequency and whether parent training runs separately."
           }
         }
       ]
@@ -467,7 +467,7 @@
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
   <div class="max-w-7xl mx-auto flex items-center gap-2 flex-wrap">
-      <a href="/">Home</a><span class="text-gray-300">/</span>
+      <a href="/index.php">Home</a><span class="text-gray-300">/</span>
       <a href="/aba-therapy">ABA Therapy</a><span class="text-gray-300">/</span>
       <span class="text-gray-700 font-medium">In Delhi</span>
   </div>
@@ -478,15 +478,15 @@
   <div class="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm md:sticky md:top-24 side-menu">
     <h2 class="text-lg font-bold text-[#234394] mb-4 border-b pb-3">Child Development Services</h2>
     <div class="space-y-1">
-      <a class="" href="/developmental-delay-treatment">Developmental Delay Treatment</a>
-      <a class="" href="/intellectual-disability-treatment">Intellectual Disability Treatment</a>
-      <a class="" href="/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
-      <a class="" href="/oral-motor-therapy">Oral Motor Delay Treatment</a>
-      <a class="is-current" href="/aba-therapy">ABA Therapy</a>
-      <a class="" href="/physiotherapy">Physiotherapy Clinic</a>
-      <a class="" href="/pediatric-neurologist">Pediatric Neurologist</a>
-      <a class="" href="/developmental-pediatrician">Developmental Pediatrician</a>
-      <a class="" href="/child-development-centre">Child Development Centre</a>
+      <a class="" href="/developmental-delay/developmental-delay-treatment">Developmental Delay Treatment</a>
+      <a class="" href="/intellectual-disability/intellectual-disability-treatment">Intellectual Disability Treatment</a>
+      <a class="" href="/down-syndrome/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
+      <a class="" href="/oral-motor-therapy/oral-motor-therapy">Oral Motor Delay Treatment</a>
+      <a class="is-current" href="/aba-therapy/aba-therapy">ABA Therapy</a>
+      <a class="" href="/physiotherapy/physiotherapy">Physiotherapy Clinic</a>
+      <a class="" href="/pediatric-neurology/pediatric-neurologist">Pediatric Neurologist</a>
+      <a class="" href="/developmental-pediatrics/developmental-pediatrician">Developmental Pediatrician</a>
+      <a class="" href="/child-development-centre/child-development-centre">Child Development Centre</a>
     </div>
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mt-6 mb-2">Related</h3>
     <div class="space-y-1">
@@ -497,145 +497,123 @@
   </div>
 </aside>
     <div class="flex-grow max-w-4xl article-content">
-
-<h2>Where you will be seen in Delhi</h2>
-<p>Families across Delhi are seen at one of our two Delhi centres. Vasant Kunj sits in South West Delhi at C-7, Sector C, Pocket 5, Grand Vasant Kunj. Malviya Nagar is in South Delhi at FC-29, Plot No. 5, Geetanjali, beside Malviya Nagar Metro Station Gate No. 1, which puts it within reach of Saket, Hauz Khas, Green Park, Greater Kailash and Defence Colony without a long drive.</p>
-<p>Sessions can also run online where the work suits it. History-taking, feedback and a good deal of therapy transfer well to video; direct assessment components are done in person.</p>
-
-<h2>What ABA therapy covers here</h2>
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>Behaviour therapy in Delhi starts from a question rather than a technique: what is this behaviour achieving for the child? The short answer is both our Delhi centres, Vasant Kunj and Malviya Nagar, and which one is a question of your journey rather than of the service. Behaviour that looks baffling is almost always doing a job, and the useful work is finding a better way for that job to get done.</p>
 <div class="key-points-card my-8">
-  <ul>
-    <li>Goals set around quality of life, chosen with parents and reviewed openly</li>
-    <li>Naturalistic, play-based teaching rather than long table-top drilling</li>
-    <li>Function of behaviour understood before any plan is written</li>
-    <li>Hours matched to what the child and family can sustain, not a fixed number</li>
-  </ul>
-</div>
-<p>For the full clinical picture, including what the difficulty is, the signs worth acting on and how treatment is planned, read our <a href="/aba-therapy" class="text-[#234394] font-semibold">ABA Therapy guide</a>.</p>
-
-<h2>How to start</h2>
-<ul>
-  <li><strong>Free 15-minute intake call.</strong> A clinician hears your concern and tells you honestly whether an appointment is the right next step. Some calls end with strategies to try at home instead.</li>
-  <li><strong>Assessment or first session.</strong> Booked at whichever Delhi centre suits you, at a time that works around school where possible.</li>
-  <li><strong>A written plan.</strong> What happens, how often, what to do at home, and what the school is being asked to do.</li>
-  <li><strong>Review.</strong> Progress measured against the baseline set at the start, discussed openly with you.</li>
+<ul class="space-y-4 key-points-list">
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace Vasant Kunj</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> C-7, Sector C, Pocket 5, Basement, Grand Vasant Kunj, New Delhi 110070</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Munirka on the Magenta Line is nearest, Chhatarpur on the Yellow Line is the usual access point for the Vasant Kunj sectors</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99715 76800</span>
+</li>
 </ul>
-<p>Fees are quoted upfront on your intake call, in writing, before you commit to anything.</p>
-
-<h2 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h2>
-<div class="space-y-2 mb-10">
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Do you offer ABA therapy in Delhi?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>Yes. Families in Delhi are seen at our Vasant Kunj and Malviya Nagar centres, and online where that suits the work. Start with a free 15-minute intake call.</p></div>
 </div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">How quickly can we be seen in Delhi?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>The intake call is usually arranged within a few working days. Appointment timing depends on the service and the clinician needed, and we will tell you honestly on the call.</p></div>
-</div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Can we be seen outside school hours?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>We offer later slots and Saturday appointments where availability allows. Tell the intake team what you need and they will work around school.</p></div>
-</div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Is ABA harmful?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>Older compliance-focused programmes drew serious and legitimate criticism. Modern practice looks different, and how a programme is run matters far more than the label. Ask any provider exactly how they work.</p></div>
-</div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Is ABA only for autistic children?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>It is most commonly used with autistic children, but the principles apply to skill teaching and behaviour support more broadly, including developmental delay and intellectual disability.</p></div>
-</div>
-</div>
-
-<h2>Other eMbrace services near you</h2>
+<h2>Which of our Delhi centres you would use</h2>
+<p>We have two centres in Delhi, and which one you use is a question of geography rather than service, because the same pathway runs at both.</p>
+<p>eMbrace Vasant Kunj, at C-7, Sector C, Pocket 5, Grand Vasant Kunj, is the larger team and serves south-west Delhi: Vasant Vihar, Munirka, R.K. Puram, Safdarjung Enclave, Anand Niketan, Shanti Niketan, Moti Bagh and Chanakyapuri.</p>
+<p>eMbrace at Rainbow, Malviya Nagar, at FC-29, Plot No. 5, Geetanjali, beside Malviya Nagar Metro Station Gate No. 1, serves the Yellow Line corridor through Saket, Hauz Khas and Green Park, and the drive-in catchment of Greater Kailash and Defence Colony. It runs inside Rainbow Children's Hospital, so multidisciplinary therapy sits in the same building as assessment.</p>
+<p>If you are in north or west Delhi, either centre is a real journey, and we would usually suggest starting online and coming in only for the parts that have to happen in a room.</p>
+<p>Sessions are weekly or twice weekly, with parent training running alongside from the start rather than added later. Behaviour changes where it happens, which is at home and at school, so a programme nobody can run between sessions will not work however well designed it is.</p>
+<p>For parking, the nearest drop-off point and the quickest route at your particular time of day, ask on the intake call. Traffic and parking around every one of these centres change enough through the day that current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>When behaviour therapy is the right approach</h2>
+<p>It suits behaviour that is frequent, entrenched and getting in the way of learning, safety or family life. It is the wrong starting point when nobody has yet asked why the behaviour is happening, which is why our work begins with observation rather than with a plan.</p>
 <ul>
-<li><a href="/locations/child-psychologist-in-saket" class="text-[#234394]">Child psychology in Saket</a></li>
-<li><a href="/locations/child-psychologist-in-hauz-khas" class="text-[#234394]">Child psychology in Hauz Khas</a></li>
-<li><a href="/locations/child-psychologist-in-green-park" class="text-[#234394]">Child psychology in Green Park</a></li>
-<li><a href="/locations/child-psychologist-in-greater-kailash" class="text-[#234394]">Child psychology in Greater Kailash</a></li>
-<li><a href="/locations/child-psychologist-in-defence-colony" class="text-[#234394]">Child psychology in Defence Colony</a></li>
-<li><a href="/locations/child-psychologist-in-south-delhi" class="text-[#234394]">Child psychology in South Delhi</a></li>
-<li><a href="/locations/child-psychologist-in-vasant-kunj" class="text-[#234394]">Child psychology in Vasant Kunj</a></li>
-  <li><a href="/locations" class="text-[#234394]">View all eMbrace locations</a></li>
+<li>Behaviour that has not shifted with ordinary parenting approaches over months</li>
+<li>Aggression or self-injury, which we would see promptly</li>
+<li>Difficulty with transitions, routines or waiting that limits what a family can do</li>
+<li>Skills a child could learn but has not, where teaching needs to be broken down</li>
 </ul>
-
-<div class="pathway-card mt-12 rounded-3xl p-8 bg-gradient-to-br from-[#eef2ff] to-[#e0e7ff] border border-[#c7d2fe]">
-  <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Not sure whether you need this yet?</h2>
-  <p class="text-gray-600 mb-6">Start with a free 15-minute intake call. A clinician will tell you honestly whether ABA therapy is the right next step, or whether something else is. There is no obligation and no waiting list to join.</p>
-  <div class="flex flex-wrap gap-3">
-    <a href="/appointment" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
-    <a href="https://wa.me/919971576800" target="_blank" rel="noopener" class="inline-block px-7 py-3 rounded-full bg-white border border-[#c7d2fe] text-[#234394] font-semibold hover:bg-[#f8faff] transition-colors">WhatsApp +91 99715 76800</a>
-  </div>
+<p>The clinical detail sits on our <a href="/aba-therapy">behaviour therapy</a> page.</p>
+<h2>How a programme is built</h2>
+<p>Observation first, then a written account of what typically comes before the behaviour, what the behaviour is, and what follows it. From that we agree a small number of targets, the strategies to be used, and how progress will be recorded so it is judged on data rather than on impression.</p>
+<p>Parent training runs alongside, because you are the person who will be there when it happens.</p>
+<h2>What we see most of</h2>
+<p>At our Delhi centres behaviour therapy usually forms part of a wider autism or developmental programme rather than standing alone, which is why it sits alongside speech and language and occupational therapy in the same building. The commonest targets are communication as an alternative to distressed behaviour, transitions, and self-care routines.</p>
+<h2>Who you would see</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>Across our Delhi centres, the clinicians who take this work are:</p>
+<h3>Dhriti Dharana, Clinical Lead</h3>
+<p>MSc in Clinical Health Psychology and Well-being from Middlesex University, UK. Behavioural therapy with neurodivergent children and parent training, from a neurodiversity-affirming position. Works in fluent English and native Hindi.</p>
+<h3>Cheesha Kanwar, Psychologist</h3>
+<p>Completing an MSc in Clinical Psychology at Christ (Deemed to be University), with a BA (Hons) in Applied Psychology from the University of Delhi. Behaviour therapy and assessment support using WISC-V, NEPSY-II, Conners-3 and BRIEF-2. Works in English and Hindi.</p>
+<p>Which of them you see is decided on the intake call rather than by whoever has the next free slot, and you are told who it will be before you book. Fuller biographies are on our <a href="/about">about page</a>.</p>
+<h2>Schools and services we already work with</h2>
+<p>Behaviour work around Delhi usually forms part of a wider programme, and these are the settings it connects to.</p>
+<p>Our Malviya Nagar centre runs inside Rainbow Children's Hospital, New Delhi, which is why occupational therapy, physiotherapy, speech therapy, behaviour therapy and special education sit in the same building as assessment.</p>
+<p>Since 2025 we have delivered corporate workshops with Atypical Advantage on inclusivity and neurodiversity, autism awareness and mental health awareness.</p>
+<h2>Fees, review, and what we will not promise</h2>
+<p>Fees are quoted upfront on your intake call and depend on frequency and on whether parent training runs separately.</p>
+<p>Progress is reviewed against recorded data on a set date. We will not promise a number of hours or an outcome, and we would be cautious about anyone who does. Where a behaviour is serving a purpose, the honest goal is a better route to that purpose, not simple suppression of it.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Is this ABA?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">It draws on applied behaviour analysis principles, delivered as part of a wider programme rather than as an intensive standalone package, and always alongside parent training.</p>
 </div>
-    </div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Why does the first session involve watching rather than doing?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Because behaviour that looks baffling is almost always achieving something. A plan written before anyone knows what it is achieving tends not to hold.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How many hours will my child need?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">We will not give you a number before we have seen your child, and we would be cautious about anyone who does. It depends entirely on the targets.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Where would we go in Delhi?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Vasant Kunj, or Malviya Nagar inside Rainbow, where behaviour therapy sits alongside speech and language and occupational therapy.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does behaviour therapy cost in Delhi?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Quoted upfront on your free 15-minute intake call, depending on frequency and whether parent training runs separately.</p>
+</div>
+</div>
+</div>
+<div class="cta-card my-12">
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
+</div>
+<!-- LOCATION-BODY:END -->
+</div>
   </div>
 </div>
 <?php include __DIR__ . '/../components/lead-magnet-band-child.php'; ?>
-<!-- LOCATION-LINKS:START (generated by generate-location-links.js — do not edit by hand) -->
-<div class="px-6 md:px-16 bg-white">
-<div class="max-w-7xl mx-auto">
-<section class="emb-nearby" aria-labelledby="emb-nearby-title">
-  <h2 class="emb-nearby__title" id="emb-nearby-title">More eMbrace services near you</h2>
-  <p class="emb-nearby__sub">Explore the other assessments and therapies we offer in Delhi, or find ABA therapy at another eMbrace location.</p>
-  <div class="emb-nearby__cols emb-nearby__cols--two">
-    <div class="emb-nearby__group">
-      <h4>Other services in Delhi</h4>
-      <ul class="emb-nearby__list">
-        <li><a href="/locations/child-psychologist-in-delhi">Child Psychologist in Delhi</a></li>
-        <li><a href="/locations/child-counselling-in-delhi">Child Counselling in Delhi</a></li>
-        <li><a href="/locations/teen-counselling-in-delhi">Teen Counselling in Delhi</a></li>
-        <li><a href="/locations/adult-counselling-in-delhi">Adult Counselling in Delhi</a></li>
-        <li><a href="/locations/autism-assessment-in-delhi">Autism Assessment in Delhi</a></li>
-        <li><a href="/locations/autism-therapy-in-delhi">Autism Therapy in Delhi</a></li>
-        <li><a href="/locations/adhd-assessment-in-delhi">ADHD Assessment in Delhi</a></li>
-        <li><a href="/locations/learning-disability-assessment-in-delhi">Learning Disability Assessment in Delhi</a></li>
-        <li><a href="/locations/speech-therapy-in-delhi">Speech Therapy in Delhi</a></li>
-        <li><a href="/locations/occupational-therapy-in-delhi">Occupational Therapy in Delhi</a></li>
-        <li><a href="/locations/special-education-in-delhi">Special Education in Delhi</a></li>
-        <li><a href="/locations/developmental-delay-treatment-in-delhi">Developmental Delay Treatment in Delhi</a></li>
-        <li><a href="/locations/intellectual-disability-treatment-in-delhi">Intellectual Disability Treatment in Delhi</a></li>
-        <li><a href="/locations/down-syndrome-treatment-in-delhi">Down Syndrome Treatment in Delhi</a></li>
-        <li><a href="/locations/oral-motor-therapy-in-delhi">Oral Motor Delay Treatment in Delhi</a></li>
-        <li><a href="/locations/physiotherapy-in-delhi">Physiotherapy in Delhi</a></li>
-        <li><a href="/locations/pediatric-neurologist-in-delhi">Pediatric Neurologist in Delhi</a></li>
-        <li><a href="/locations/developmental-pediatrician-in-delhi">Developmental Pediatrician in Delhi</a></li>
-        <li><a href="/locations/child-development-centre-in-delhi">Child Development Centre in Delhi</a></li>
-      </ul>
-    </div>
-    <div class="emb-nearby__group">
-      <h4>ABA Therapy in other areas</h4>
-      <ul class="emb-nearby__list">
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        <li><a href="/locations/aba-therapy-in-gurgaon">ABA Therapy in Gurgaon</a></li>
-        null
-      </ul>
-    </div>
-  </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
-</section>
-</div>
-</div>
-<!-- LOCATION-LINKS:END -->
 <?php include __DIR__ . '/../components/footer.php'; ?>
 </div>
 <script src="/assets/interactive.js"></script>

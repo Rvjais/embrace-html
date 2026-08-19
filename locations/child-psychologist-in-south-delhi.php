@@ -5,21 +5,21 @@
 <meta charset="utf-8"/>
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="RCI-certified child psychologists in South Delhi for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Book a free intake call today." name="description"/>
+<meta content="Experienced child psychologists in South Delhi for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Book a free intake call today." name="description"/>
 <meta content="index, follow" name="robots"/>
 <link href="https://embracelives.com/locations/child-psychologist-in-south-delhi" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/locations/child-psychologist-in-south-delhi" property="og:url"/>
-<meta content="Child Psychologist in South Delhi | RCI-Certified | eMbrace" property="og:title"/>
-<meta content="RCI-certified child psychologists in South Delhi for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Book a free intake call today." property="og:description"/>
+<meta content="Child Psychologist in South Delhi | eMbrace Lives Delhi NCR" property="og:title"/>
+<meta content="Experienced child psychologists in South Delhi for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Book a free intake call today." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Child Psychologist in South Delhi | RCI-Certified | eMbrace" name="twitter:title"/>
-<meta content="RCI-certified child psychologists in South Delhi for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Book a free intake call today." name="twitter:description"/>
+<meta content="Child Psychologist in South Delhi | eMbrace Lives Delhi NCR" name="twitter:title"/>
+<meta content="Experienced child psychologists in South Delhi for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Book a free intake call today." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Child Psychologist in South Delhi | RCI-Certified | eMbrace</title>
+<title>Child Psychologist in South Delhi | eMbrace Lives Delhi NCR</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet"/>
@@ -358,7 +358,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://embracelives.com/locations/child-psychologist-in-south-delhi#webpage",
       "url": "https://embracelives.com/locations/child-psychologist-in-south-delhi",
-      "name": "Child Psychologist in South Delhi | RCI-Certified | eMbrace",
+      "name": "Child Psychologist in South Delhi | eMbrace Lives Delhi NCR",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -366,7 +366,7 @@
         "@id": "https://embracelives.com/#organization"
       },
       "inLanguage": "en-IN",
-      "description": "RCI-certified child psychologists in South Delhi for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Book a free intake call today.",
+      "description": "Experienced child psychologists in South Delhi for anxiety, behaviour and developmental concerns, at our Malviya Nagar centre. Book a free intake call today.",
       "breadcrumb": {
         "@id": "https://embracelives.com/locations/child-psychologist-in-south-delhi#breadcrumb"
       }
@@ -375,7 +375,7 @@
       "@type": "FAQPage",
       "@id": "https://embracelives.com/locations/child-psychologist-in-south-delhi#faq",
       "url": "https://embracelives.com/locations/child-psychologist-in-south-delhi",
-      "name": "Child Psychologist in South Delhi | RCI-Certified | eMbrace — Frequently Asked Questions",
+      "name": "Child Psychologist in South Delhi | eMbrace Lives Delhi NCR — Frequently Asked Questions",
       "isPartOf": {
         "@id": "https://embracelives.com/locations/child-psychologist-in-south-delhi#webpage"
       },
@@ -383,34 +383,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Does eMbrace offer child psychologist in South Delhi?",
+          "name": "Which South Delhi centre is closer to us?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer professional child psychologist services at our Malviya Nagar centre and online. Our team of experienced professionals provides personalised care."
+            "text": "Malviya Nagar from Saket, Hauz Khas, Green Park, Greater Kailash and Defence Colony. Vasant Kunj from Vasant Vihar, Munirka, R.K. Puram and Safdarjung Enclave."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I book child psychologist in South Delhi?",
+          "name": "Does it matter which one we pick?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Malviya Nagar centre."
+            "text": "Only for travel. The same pathway runs at both. The free intake call settles it in a couple of minutes, which beats driving to the wrong side of Aurobindo Marg."
           }
         },
         {
           "@type": "Question",
-          "name": "What are the qualifications of your child psychologist professionals in South Delhi?",
+          "name": "Our child was fine at primary school and is struggling now. Why?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care."
+            "text": "A very common pattern in this catchment. Attention or learning difficulties that a small primary class absorbed often become visible when the workload rises."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you offer online child psychologist for South Delhi residents?",
+          "name": "We were told to wait and see. Should we?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer online child psychologist services for residents of South Delhi who prefer remote consultations or have mobility concerns."
+            "text": "That advice is sometimes right and often not. If you are no longer comfortable waiting, an early consultation costs considerably less than the year does."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a child psychologist cost in South Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees are quoted upfront on your free 15-minute intake call. We quote your situation rather than an average, so it depends on the clinician and the work."
           }
         }
       ]
@@ -559,82 +567,130 @@
 </div> </div>
 </details>
 </div><div class="flex-grow max-w-4xl article-content">
-<h2 class="text-2xl md:text-3xl font-bold mb-4 text-[#1e293b]">Child Psychologist Services in South Delhi</h2>
-<p class="text-lg text-gray-700 leading-relaxed font-light mb-8">Our team provides child psychology services for families in South Delhi. Sessions run at our Malviya Nagar and Vasant Kunj centres, with a free 15-minute intake call before you book anything.</p>
-<hr class="my-8 border-gray-100"/>
-<div class="key-points-card">
-<ul class="space-y-4 mb-8 key-points-list">
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>If you are looking for a child psychologist in South Delhi, this page tells you which of our centres you would actually come to, what happens at the first appointment and who you would see. The short answer is either of our two south Delhi centres, Malviya Nagar or Vasant Kunj, and which one is a question of your journey rather than of the service. Nothing is booked until you have had a free 15-minute intake call, which is with a clinician rather than a receptionist.</p>
+<div class="key-points-card my-8">
+<ul class="space-y-4 key-points-list">
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Expert Professionals:</strong> Our child psychologist team in South Delhi consists of qualified, experienced professionals dedicated to providing exceptional care.</span>
-</li>
-<li class="flex items-start gap-3">
-<img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Convenient Location:</strong> Our Malviya Nagar centre is easily accessible with flexible appointment scheduling to suit your busy lifestyle.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace at Rainbow, Malviya Nagar</span>
 </li>
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Personalised Care:</strong> Every child psychologist plan is tailored to your unique needs, goals, and circumstances.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> FC-29, Plot No. 5, Geetanjali, near Malviya Nagar Metro Station Gate No. 1, New Delhi 110017</span>
 </li>
 <li class="flex items-start gap-3">
-<img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Comprehensive Support:</strong> From initial assessment to ongoing care, we provide complete child psychologist support for you and your family.</span>
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Malviya Nagar, Yellow Line, beside Gate No. 1</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99715 76800</span>
 </li>
 </ul>
-<h3 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h3><div class="space-y-2 mb-8">
+</div>
+<h2>Which eMbrace centre South Delhi families use</h2>
+<p>Both our Delhi centres are in south Delhi, which makes this the one part of the city where you have a real choice rather than a nearest option.</p>
+<p>eMbrace at Rainbow, Malviya Nagar, at FC-29, Plot No. 5, Geetanjali, sits beside Malviya Nagar Metro Station Gate No. 1 on the Yellow Line. It is the closer centre from Saket, Hauz Khas, Green Park, Greater Kailash and Defence Colony, and because it runs inside Rainbow Children's Hospital, therapy across occupational therapy, speech therapy and physiotherapy is in the same building.</p>
+<p>eMbrace Vasant Kunj, at C-7, Sector C, Pocket 5, Grand Vasant Kunj, is the closer centre from Vasant Vihar, Munirka, R.K. Puram and Safdarjung Enclave, and carries the larger clinical team.</p>
+<p>If you are unsure which to pick, the free intake call sorts it out in a couple of minutes, and we would rather do that than have you drive to the wrong side of Aurobindo Marg.</p>
+<p>Worth knowing before you plan the journey: seeing a child psychologist starts as a small number of appointments, not a standing weekly commitment. The consultation, the parent history and the feedback session are usually three visits over a few weeks. Whether anything follows, and how often, is decided at the feedback session with you rather than assumed at the start.</p>
+<p>For parking, the nearest drop-off point and the quickest route at your particular time of day, ask on the intake call. Traffic and parking around every one of these centres change enough through the day that current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>When a child psychologist is the right call</h2>
+<p>Most of what worries parents is developmentally ordinary and passes. What separates the two is not how bad the behaviour looks on its worst day, but whether it has persisted, whether it shows up in more than one setting, and whether it has started to get in the way of ordinary life.</p>
+<ul>
+<li>The same difficulty at home and at school, rather than in only one place</li>
+<li>A change that has lasted more than a few weeks and is not shifting</li>
+<li>Anxiety that has started to shrink what your child will attempt</li>
+<li>Any talk of self-harm, at any age, which warrants an appointment the same week</li>
+</ul>
+<p>The longer version, including the signs that usually do not need a psychologist at all, is on our <a href="/child-psychology/child-psychologist">child psychology hub</a>.</p>
+<h2>What happens at your first appointment</h2>
+<p>The first appointment is a consultation, not a test. Nothing is diagnosed on day one. You start with the free 15-minute intake call, then a parent history session usually without your child present, then a session with your child pitched to their age, then a feedback session where you get the formulation in plain language, a written summary and a plan with a review point in it.</p>
+<p>Bring school reports and any previous assessment. If a class teacher or school counsellor knows your child well, their observations are often the single most useful thing you can bring.</p>
+<h2>What we see most often</h2>
+<p>Across the south Delhi catchment the picture is dominated by school-related presentations, which is unsurprising given the density of schools between Vasant Kunj and Greater Kailash. Refusal, exam anxiety, subject-specific avoidance and attention difficulties that surfaced when the workload rose account for a large share of referrals.</p>
+<p>The second group is early years: parents of three to six year olds who have been told to wait and see, and who have decided not to. The third is adolescents, where low mood and social anxiety are the usual reasons and where the family conflict that arrives with them is often the more urgent thing to work on.</p>
+<h2>Who you would see</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>Across our Delhi centres, the clinicians who take this work are:</p>
+<h3>Dhriti Dharana, Clinical Lead</h3>
+<p>MSc in Clinical Health Psychology and Well-being from Middlesex University, UK. Behavioural therapy with neurodivergent children and parent training, from a neurodiversity-affirming position. Works in fluent English and native Hindi.</p>
+<h3>Shruti Ghosh, Clinical Psychologist</h3>
+<p>M.Phil in Clinical Psychology with distinction from Amity University, Noida, and UGC-NET qualified. CBT, DBT, ACT and Parent Management Training across neurodevelopmental, mood and obsessive-compulsive presentations. Works in Hindi, English and Bengali.</p>
+<h3>Taranpreet Kaur, Clinical Psychologist</h3>
+<p>M.Phil in Clinical Psychology with distinction, plus a Post Graduate Diploma in School Counselling from Symbiosis. ACT and MBCT for anxiety, depression, OCD and trauma, and comprehensive psychological assessment. Works in English, Hindi and Punjabi.</p>
+<h3>Mannat Kaur Arora, Psychologist</h3>
+<p>Professional Diploma in Clinical Psychology from Amity University Haryana and an MA in Psychology from the University of Delhi. Assessment across MISIC, WISC-IV, Conners 3, CBCL, ISAA, CARS and the NIMHANS SLD battery. Works in English and Hindi.</p>
+<h3>Cheesha Kanwar, Psychologist</h3>
+<p>Completing an MSc in Clinical Psychology at Christ (Deemed to be University), with a BA (Hons) in Applied Psychology from the University of Delhi. Behaviour therapy and assessment support using WISC-V, NEPSY-II, Conners-3 and BRIEF-2. Works in English and Hindi.</p>
+<h3>Arshita Matta, Psychologist</h3>
+<p>Integrated BA and MA in Clinical Psychology from Amity University, Noida. Case history taking, mental state examination, psychoeducation and counselling with children and adolescents. Works in English and Hindi.</p>
+<p>Which of them you see is decided on the intake call rather than by whoever has the next free slot, and you are told who it will be before you book. Fuller biographies are on our <a href="/about">about page</a>.</p>
+<h2>Schools and services we already work with</h2>
+<p>Some of what we do around South Delhi happens inside institutions rather than at a centre, which is often how a family first hears of us.</p>
+<p>Our Malviya Nagar centre runs inside Rainbow Children's Hospital, New Delhi, which is why occupational therapy, physiotherapy, speech therapy, behaviour therapy and special education sit in the same building as assessment.</p>
+<p>We work with The British School in Chanakyapuri on psychoeducational, cognitive and risk assessments, therapy for children and adolescents, and workshops for teachers, parents and pupils.</p>
+<p>At the American Embassy School in Chanakyapuri we carry out psychoeducational, cognitive, comprehensive and brief assessments, including risk assessments, and provide therapy for children and adolescents.</p>
+<p>Where a child or adult needs psychiatric input, we work with Sukoon across Delhi NCR for psychiatric assessment, consultation and medication management, so you are not left to find a psychiatrist yourself.</p>
+<h2>Fees and timelines</h2>
+<p>Fees are quoted upfront on your intake call, before anything is booked. We do not publish a number because it depends on which clinician you see and what the work involves, and a figure on a web page would be a guess at your situation rather than a price for it.</p>
+<p>A therapy course is reviewed formally at around session six, and we would expect you to be seeing some change by then. If you are not, that is a reason to change the plan rather than persist with it.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Does eMbrace offer child psychologist in South Delhi?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Which South Delhi centre is closer to us?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer professional child psychologist services at our Malviya Nagar centre and online. Our team of experienced professionals provides personalised care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Malviya Nagar from Saket, Hauz Khas, Green Park, Greater Kailash and Defence Colony. Vasant Kunj from Vasant Vihar, Munirka, R.K. Puram and Safdarjung Enclave.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How do I book child psychologist in South Delhi?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Does it matter which one we pick?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Malviya Nagar centre.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Only for travel. The same pathway runs at both. The free intake call settles it in a couple of minutes, which beats driving to the wrong side of Aurobindo Marg.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What are the qualifications of your child psychologist professionals in South Delhi?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Our child was fine at primary school and is struggling now. Why?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">A very common pattern in this catchment. Attention or learning difficulties that a small primary class absorbed often become visible when the workload rises.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Do you offer online child psychologist for South Delhi residents?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">We were told to wait and see. Should we?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer online child psychologist services for residents of South Delhi who prefer remote consultations or have mobility concerns.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">That advice is sometimes right and often not. If you are no longer comfortable waiting, an early consultation costs considerably less than the year does.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does a child psychologist cost in South Delhi?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Fees are quoted upfront on your free 15-minute intake call. We quote your situation rather than an average, so it depends on the clinician and the work.</p>
 </div>
 </div>
 </div>
 <div class="cta-card my-12">
-<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in South Delhi</h3>
-<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your child psychologist consultation at our Malviya Nagar centre.</p>
-<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
-                Schedule an Appointment
-              </a>
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
 </div>
-</div>
+<!-- LOCATION-BODY:END -->
 </div>
 </div>
     </div>
@@ -658,15 +714,6 @@
         <li><a href="/locations/speech-therapy-in-south-delhi">Speech Therapy in South Delhi</a></li>
         <li><a href="/locations/occupational-therapy-in-south-delhi">Occupational Therapy in South Delhi</a></li>
         <li><a href="/locations/special-education-in-south-delhi">Special Education in South Delhi</a></li>
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
       </ul>
     </div>
     <div class="emb-nearby__group">

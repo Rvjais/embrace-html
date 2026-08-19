@@ -228,7 +228,13 @@ ${section}
 
 /** Block for a topic/service page: the matched service in all 10 areas. */
 function serviceBlock(service) {
-  const items = AREAS.map(([a]) => '      ' + link(service, a)).join('\n');
+  // link() returns null where the page does not exist. Without the filter,
+  // join() stringifies those nulls and the literal word "null" was rendering
+  // inside the link list on 106 pages.
+  const items = AREAS.map(([a]) => link(service, a))
+    .filter(Boolean)
+    .map(l => '      ' + l)
+    .join('\n');
   return wrap(`<section class="emb-nearby" aria-labelledby="emb-nearby-title">
   <h2 class="emb-nearby__title" id="emb-nearby-title">${SERVICE_LABEL[service]} across Delhi NCR</h2>
   <p class="emb-nearby__sub">We offer ${SERVICE_PHRASE[service]} at eMbrace centres throughout Delhi and the wider NCR. Choose the location closest to you.</p>
@@ -247,11 +253,15 @@ ${items}
 function locationBlock(service, area) {
   const sameArea = SERVICES
     .filter(([s]) => s !== service)
-    .map(([s]) => '        ' + link(s, area))
+    .map(([s]) => link(s, area))
+    .filter(Boolean)
+    .map(l => '        ' + l)
     .join('\n');
   const otherAreas = AREAS
     .filter(([a]) => a !== area)
-    .map(([a]) => '        ' + link(service, a))
+    .map(([a]) => link(service, a))
+    .filter(Boolean)
+    .map(l => '        ' + l)
     .join('\n');
 
   return wrap(`<section class="emb-nearby" aria-labelledby="emb-nearby-title">

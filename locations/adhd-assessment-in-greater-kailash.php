@@ -560,34 +560,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Does eMbrace offer ADHD assessment in Greater Kailash?",
+          "name": "We already have a diagnosis. Is a second opinion worth it?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer professional ADHD assessment services at our Malviya Nagar centre and online. Our team of experienced professionals provides personalised care."
+            "text": "Often, and it is a common reason families come to us from GK, particularly where a diagnosis was given quickly or medication started without much discussion."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I book ADHD assessment in Greater Kailash?",
+          "name": "Will the report get board concessions?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Malviya Nagar centre."
+            "text": "Not by itself. Boards set their own certification route, frequently running through a designated government centre. We map yours out before you commit."
           }
         },
         {
           "@type": "Question",
-          "name": "What are the qualifications of your ADHD assessment professionals in Greater Kailash?",
+          "name": "How many trips is this from Greater Kailash?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care."
+            "text": "Usually two or three, and we group the testing where the journey is long. Unlike therapy it has a defined end rather than running weekly."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you offer online ADHD assessment for Greater Kailash residents?",
+          "name": "Do you prescribe medication?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer online ADHD assessment services for residents of Greater Kailash who prefer remote consultations or have mobility concerns."
+            "text": "No, that is a prescribing decision. We work with Sukoon across Delhi NCR for psychiatric assessment and medication management where it is being considered."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does an ADHD assessment cost in Greater Kailash?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quoted on the free 15-minute intake call before you commit. A second opinion is priced the same way as a first assessment, as one piece of work."
           }
         }
       ]
@@ -934,119 +942,121 @@
           </details>
         </div>
         <div class="flex-grow max-w-4xl article-content">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4 text-[#1e293b]">ADHD Assessment Services in Greater Kailash
-          </h2>
-          <p class="text-lg text-gray-700 leading-relaxed font-light mb-8">Our team provides ADHD assessment and treatment for families in Greater Kailash. Sessions run at our Malviya Nagar centre, a short drive away, with a free 15-minute intake call before you book anything.</p>
-          <hr class="my-8 border-gray-100" />
-          <div class="key-points-card">
-            <ul class="space-y-4 mb-8 key-points-list">
-              <li class="flex items-start gap-3">
-                <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
-                <span class="text-sm md:text-base text-gray-700"><strong>Expert Professionals:</strong> Our ADHD
-                  assessment team in Greater Kailash consists of qualified, experienced professionals dedicated to
-                  providing exceptional care.</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
-                <span class="text-sm md:text-base text-gray-700"><strong>Convenient Location:</strong> Our Greater
-                  Kailash centre is easily accessible with flexible appointment scheduling to suit your busy
-                  lifestyle.</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
-                <span class="text-sm md:text-base text-gray-700"><strong>Personalised Care:</strong> Every ADHD
-                  assessment plan is tailored to your unique needs, goals, and circumstances.</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg" />
-
-                <span class="text-sm md:text-base text-gray-700"><strong>Comprehensive Support:</strong> From initial
-                  assessment to ongoing care, we provide complete ADHD assessment support for you and your
-                  family.</span>
-              </li>
-            </ul>
-            <h3 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h3>
-            <div class="space-y-2 mb-8">
-              <div class="faq-item">
-                <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-                  <span
-                    class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Does
-                    eMbrace offer ADHD assessment in Greater Kailash?</span>
-                  <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2"
-                    viewbox="0 0 24 24">
-                    <path d="M12 5v14M5 12h14"></path>
-                  </svg>
-                </button>
-                <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-                  <p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-                    Yes, we offer professional ADHD assessment services at our Malviya Nagar centre and online. Our
-                    team of experienced professionals provides personalised care.
-                  </p>
-                </div>
-              </div>
-              <div class="faq-item">
-                <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-                  <span
-                    class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How
-                    do I book ADHD assessment in Greater Kailash?</span>
-                  <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2"
-                    viewbox="0 0 24 24">
-                    <path d="M12 5v14M5 12h14"></path>
-                  </svg>
-                </button>
-                <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-                  <p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-                    You can book a consultation by calling us or using our online booking system. We offer flexible
-                    appointment times including evenings and weekends at our Malviya Nagar centre.
-                  </p>
-                </div>
-              </div>
-              <div class="faq-item">
-                <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-                  <span
-                    class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What
-                    are the qualifications of your ADHD assessment professionals in Greater Kailash?</span>
-                  <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2"
-                    viewbox="0 0 24 24">
-                    <path d="M12 5v14M5 12h14"></path>
-                  </svg>
-                </button>
-                <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-                  <p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-                    All our professionals are qualified, experienced, and registered with their respective professional
-                    bodies. We maintain the highest standards of care.
-                  </p>
-                </div>
-              </div>
-              <div class="faq-item">
-                <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-                  <span
-                    class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Do
-                    you offer online ADHD assessment for Greater Kailash residents?</span>
-                  <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2"
-                    viewbox="0 0 24 24">
-                    <path d="M12 5v14M5 12h14"></path>
-                  </svg>
-                </button>
-                <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-                  <p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-                    Yes, we offer online ADHD assessment services for residents of Greater Kailash who prefer remote
-                    consultations or have mobility concerns.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="cta-card my-12">
-              <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Greater Kailash</h3>
-              <p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your ADHD
-                assessment consultation at our Malviya Nagar centre.</p>
-              <a href="/appointment"
-                class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
-                Schedule an Appointment
-              </a>
-            </div>
-          </div>
-        </div>
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>An ADHD assessment in Greater Kailash is a finite piece of work with a written report at the end of it, not an open-ended course of therapy. The short answer is our Malviya Nagar centre, because we do not have a centre in Greater Kailash. This page sets out what the assessment involves, what the report is and is not accepted for, and who would carry it out.</p>
+<div class="key-points-card my-8">
+<ul class="space-y-4 key-points-list">
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace at Rainbow, Malviya Nagar</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> FC-29, Plot No. 5, Geetanjali, near Malviya Nagar Metro Station Gate No. 1, New Delhi 110017</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Malviya Nagar, Yellow Line, beside Gate No. 1</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99715 76800</span>
+</li>
+</ul>
+</div>
+<h2>Which eMbrace centre Greater Kailash families use</h2>
+<p>Families from Greater Kailash come to our Malviya Nagar centre at FC-29, Plot No. 5, Geetanjali, beside Malviya Nagar Metro Station Gate No. 1. There is no eMbrace centre in GK itself, and the honest position is that this is a drive rather than a walk.</p>
+<p>From GK-1 and GK-2 the usual route is across Outer Ring Road to Press Enclave Marg. On the metro it means a Violet Line to Yellow Line change, so most GK families drive, and we schedule around the school run rather than pretending traffic does not exist.</p>
+<p>The centre runs inside Rainbow Children's Hospital, which matters most to GK families precisely because the journey is longer: assessment, therapy and any onward paediatric input happen at one address rather than three.</p>
+<p>Unlike therapy this has a defined end: two or three appointments over a few weeks plus report writing, so it is a handful of trips rather than a weekly commitment, and we group the testing where the journey is long. One part cannot happen at our end at all. Teacher rating scales need filling in by someone who sees your child in a classroom, and how quickly school returns them usually decides the timeline.</p>
+<p>For parking, the nearest drop-off point and the quickest route at your particular time of day, ask on the intake call. Traffic and parking around every one of these centres change enough through the day that current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>When an ADHD assessment is worth doing</h2>
+<p>Assessment is worth doing when the answer would change something. If a diagnosis would unlock accommodations at school or work, settle a long-running disagreement about whether a child is careless or struggling, or open the door to medication, it earns its place. If nothing would be done differently afterwards, it is worth saying so before you spend the money.</p>
+<ul>
+<li>Difficulties present before age twelve and showing up in more than one setting, not only at home or only at school</li>
+<li>Attention, organisation or impulsivity problems that are out of step with the person’s ability</li>
+<li>A bright child working far harder than classmates for the same result</li>
+<li>An adult who recognises the pattern in themselves, often after a child has been assessed</li>
+</ul>
+<p>Symptoms, treatment, classroom accommodations, ADHD at work and ADHD in adults each have their own page on our ADHD hub.</p>
+<h2>What the assessment actually involves</h2>
+<p>ADHD cannot be diagnosed from a single questionnaire, and anywhere offering that is not doing an assessment. Ours combines a detailed developmental and clinical history, standardised rating scales completed by more than one person, and direct testing of attention, memory and executive function, drawing on instruments such as Conners 3, CBCL, BASC-3, BRIEF-2, NEPSY-II and the Wechsler scales.</p>
+<p>The multi-informant part is not optional. A scale filled in only by a parent describes home, and ADHD is defined partly by showing up in more than one place. Where school has not noticed, that is useful information rather than a problem.</p>
+<h2>What brings people to ADHD assessment here</h2>
+<p>From Greater Kailash and CR Park a large share of assessments are second opinions. Someone has already been given a diagnosis quickly, or started on medication without much discussion, and the family wants the question examined more slowly and with proper testing behind it.</p>
+<p>The other steady group is adolescents in board years, where the cost of an unidentified attention difficulty rises sharply and the family wants to know whether accommodations are worth pursuing.</p>
+<h2>Who you would see at our Malviya Nagar centre</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>At our Malviya Nagar centre, the clinicians who take this work are:</p>
+<h3>Taranpreet Kaur, Clinical Psychologist</h3>
+<p>M.Phil in Clinical Psychology with distinction, plus a Post Graduate Diploma in School Counselling from Symbiosis. ACT and MBCT for anxiety, depression, OCD and trauma, and comprehensive psychological assessment. Works in English, Hindi and Punjabi.</p>
+<h3>Cheesha Kanwar, Psychologist</h3>
+<p>Completing an MSc in Clinical Psychology at Christ (Deemed to be University), with a BA (Hons) in Applied Psychology from the University of Delhi. Behaviour therapy and assessment support using WISC-V, NEPSY-II, Conners-3 and BRIEF-2. Works in English and Hindi.</p>
+<p>Which of them you see is decided on the intake call rather than by whoever has the next free slot, and you are told who it will be before you book. Fuller biographies are on our <a href="/about">about page</a>.</p>
+<h2>Schools and services we already work with</h2>
+<p>A good deal of our assessment work around Greater Kailash reaches us through institutions rather than directly, and the referral routes are worth knowing about.</p>
+<p>Our Malviya Nagar centre runs inside Rainbow Children's Hospital, New Delhi, which is why occupational therapy, physiotherapy, speech therapy, behaviour therapy and special education sit in the same building as assessment.</p>
+<p>Since 2025 Ashoka University in Sonepat has referred students to us for psychoeducational and cognitive assessment, and for neurodiversity assessment covering autism and ADHD.</p>
+<p>Where a child or adult needs psychiatric input, we work with Sukoon across Delhi NCR for psychiatric assessment, consultation and medication management, so you are not left to find a psychiatrist yourself.</p>
+<h2>Fees, the report, and what it is accepted for</h2>
+<p>Fees are quoted upfront on your intake call. Assessment is priced as a piece of work covering testing, report and feedback, not per session. The report names the instruments used, gives the scores, states the conclusion plainly and sets out specific recommendations. Ask any provider for that standard before you pay.</p>
+<p>On what it is accepted for, which is where families are most often misled: a good report supports classroom accommodations, and most schools act on it. Formal board concessions are separate. Requirements differ by board and frequently involve a designated government centre, so we tell you what yours needs rather than leaving you to find out afterwards. Medication is a prescribing decision, and we work with Sukoon across Delhi NCR where it is being considered.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">We already have a diagnosis. Is a second opinion worth it?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Often, and it is a common reason families come to us from GK, particularly where a diagnosis was given quickly or medication started without much discussion.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Will the report get board concessions?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Not by itself. Boards set their own certification route, frequently running through a designated government centre. We map yours out before you commit.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How many trips is this from Greater Kailash?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Usually two or three, and we group the testing where the journey is long. Unlike therapy it has a defined end rather than running weekly.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Do you prescribe medication?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">No, that is a prescribing decision. We work with Sukoon across Delhi NCR for psychiatric assessment and medication management where it is being considered.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does an ADHD assessment cost in Greater Kailash?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Quoted on the free 15-minute intake call before you commit. A second opinion is priced the same way as a first assessment, as one piece of work.</p>
+</div>
+</div>
+</div>
+<div class="cta-card my-12">
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
+</div>
+<!-- LOCATION-BODY:END -->
+</div>
       </div>
     </div>
     <!-- LOCATION-LINKS:START (generated by generate-location-links.js — do not edit by hand) -->
@@ -1069,15 +1079,6 @@
         <li><a href="/locations/speech-therapy-in-greater-kailash">Speech Therapy in Greater Kailash</a></li>
         <li><a href="/locations/occupational-therapy-in-greater-kailash">Occupational Therapy in Greater Kailash</a></li>
         <li><a href="/locations/special-education-in-greater-kailash">Special Education in Greater Kailash</a></li>
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
       </ul>
     </div>
     <div class="emb-nearby__group">

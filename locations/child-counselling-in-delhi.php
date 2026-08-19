@@ -10,16 +10,16 @@
 <link href="https://embracelives.com/locations/child-counselling-in-delhi" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/locations/child-counselling-in-delhi" property="og:url"/>
-<meta content="Child Counselling in Delhi | RCI-Certified Team | eMbrace" property="og:title"/>
+<meta content="Child Counselling in Delhi | eMbrace Centres Delhi NCR" property="og:title"/>
 <meta content="Child counselling in Delhi for anxiety, anger, confidence and friendship difficulties, at our Vasant Kunj and Malviya Nagar centres. Book a free 15-minute call." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Child Counselling in Delhi | RCI-Certified Team | eMbrace" name="twitter:title"/>
+<meta content="Child Counselling in Delhi | eMbrace Centres Delhi NCR" name="twitter:title"/>
 <meta content="Child counselling in Delhi for anxiety, anger, confidence and friendship difficulties, at our Vasant Kunj and Malviya Nagar centres. Book a free 15-minute call." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Child Counselling in Delhi | RCI-Certified Team | eMbrace</title>
+<title>Child Counselling in Delhi | eMbrace Centres Delhi NCR</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet"/>
@@ -358,7 +358,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://embracelives.com/locations/child-counselling-in-delhi#webpage",
       "url": "https://embracelives.com/locations/child-counselling-in-delhi",
-      "name": "Child Counselling in Delhi | RCI-Certified Team | eMbrace",
+      "name": "Child Counselling in Delhi | eMbrace Centres Delhi NCR",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -375,7 +375,7 @@
       "@type": "FAQPage",
       "@id": "https://embracelives.com/locations/child-counselling-in-delhi#faq",
       "url": "https://embracelives.com/locations/child-counselling-in-delhi",
-      "name": "Child Counselling in Delhi | RCI-Certified Team | eMbrace — Frequently Asked Questions",
+      "name": "Child Counselling in Delhi | eMbrace Centres Delhi NCR — Frequently Asked Questions",
       "isPartOf": {
         "@id": "https://embracelives.com/locations/child-counselling-in-delhi#webpage"
       },
@@ -383,34 +383,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Does eMbrace offer child counselling in Delhi?",
+          "name": "Which Delhi centre would we go to for counselling?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer professional child counselling services at our Delhi centres and online. Our team of experienced professionals provides personalised care."
+            "text": "Vasant Kunj if you are in south-west Delhi, Malviya Nagar if you are on the Yellow Line corridor. For a weekly appointment, pick on journey rather than on anything else."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I book child counselling in Delhi?",
+          "name": "What is the difference between counselling and seeing a child psychologist?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Delhi centres."
+            "text": "Counselling is the therapy itself. Seeing a psychologist usually starts with working out what is going on, which may or may not lead into counselling."
           }
         },
         {
           "@type": "Question",
-          "name": "What are the qualifications of your child counselling professionals in Delhi?",
+          "name": "Will you tell me what my child says?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care."
+            "text": "You get themes, progress and what to do at home, not a transcript. Anything suggesting your child is at risk is always shared, and your child is told that at the start."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you offer online child counselling for Delhi residents?",
+          "name": "Can counselling run alongside an assessment?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer online child counselling services for residents of Delhi who prefer remote consultations or have mobility concerns."
+            "text": "Yes, and it commonly does. A child can be in weekly counselling while an assessment runs in parallel, and the two clinicians talk to each other."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does child counselling cost in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees are quoted on your free 15-minute intake call, before anything is booked, and depend on which clinician your child works with and what the work involves."
           }
         }
       ]
@@ -559,82 +567,129 @@
 </div> </div>
 </details>
 </div><div class="flex-grow max-w-4xl article-content">
-<h2 class="text-2xl md:text-3xl font-bold mb-4 text-[#1e293b]">Child Counselling Services in Delhi</h2>
-<p class="text-lg text-gray-700 leading-relaxed font-light mb-8">Our team provides child counselling for families in Delhi. Sessions run at our Vasant Kunj and Malviya Nagar centres, with a free 15-minute intake call before you book anything.</p>
-<hr class="my-8 border-gray-100"/>
-<div class="key-points-card">
-<ul class="space-y-4 mb-8 key-points-list">
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>Child counselling in Delhi is the therapy itself: the weekly hour in which a child works on what is actually troubling them. The short answer is both our Delhi centres, Vasant Kunj and Malviya Nagar, and which one is a question of your journey rather than of the service. This page covers what happens in that room, what you will and will not be told about it, and how long a course usually runs.</p>
+<div class="key-points-card my-8">
+<ul class="space-y-4 key-points-list">
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Expert Professionals:</strong> Our child counselling team in Delhi consists of qualified, experienced professionals dedicated to providing exceptional care.</span>
-</li>
-<li class="flex items-start gap-3">
-<img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Convenient Location:</strong> Our Delhi centres is easily accessible with flexible appointment scheduling to suit your busy lifestyle.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace Vasant Kunj</span>
 </li>
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Personalised Care:</strong> Every child counselling plan is tailored to your unique needs, goals, and circumstances.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> C-7, Sector C, Pocket 5, Basement, Grand Vasant Kunj, New Delhi 110070</span>
 </li>
 <li class="flex items-start gap-3">
-<img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Comprehensive Support:</strong> From initial assessment to ongoing care, we provide complete child counselling support for you and your family.</span>
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Munirka on the Magenta Line is nearest, Chhatarpur on the Yellow Line is the usual access point for the Vasant Kunj sectors</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99715 76800</span>
 </li>
 </ul>
-<h3 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h3><div class="space-y-2 mb-8">
+</div>
+<h2>Which of our Delhi centres you would use</h2>
+<p>We have two centres in Delhi, and which one you use is a question of geography rather than service, because the same pathway runs at both.</p>
+<p>eMbrace Vasant Kunj, at C-7, Sector C, Pocket 5, Grand Vasant Kunj, is the larger team and serves south-west Delhi: Vasant Vihar, Munirka, R.K. Puram, Safdarjung Enclave, Anand Niketan, Shanti Niketan, Moti Bagh and Chanakyapuri.</p>
+<p>eMbrace at Rainbow, Malviya Nagar, at FC-29, Plot No. 5, Geetanjali, beside Malviya Nagar Metro Station Gate No. 1, serves the Yellow Line corridor through Saket, Hauz Khas and Green Park, and the drive-in catchment of Greater Kailash and Defence Colony. It runs inside Rainbow Children's Hospital, so multidisciplinary therapy sits in the same building as assessment.</p>
+<p>If you are in north or west Delhi, either centre is a real journey, and we would usually suggest starting online and coming in only for the parts that have to happen in a room.</p>
+<p>Counselling is a weekly commitment rather than a single appointment, which changes how much the journey matters. A route that is fine once is a different proposition every week for three months, and travel is the commonest reason a family stops coming before the work is finished. Say so on the intake call and we will build the scheduling around your week, including running some sessions online.</p>
+<p>For parking, the nearest drop-off point and the quickest route at your particular time of day, ask on the intake call. Traffic and parking around every one of these centres change enough through the day that current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>Counselling, or assessment first?</h2>
+<p>Counselling is therapy: a child works on anxiety, anger, confidence, friendships, grief or a change at home. Assessment is diagnostic testing for something like ADHD, autism or a learning difficulty. Most children need the first, but some need the second before the first will work, because counselling a child for low confidence when the cause is an unidentified reading difficulty treats the symptom and leaves the cause.</p>
+<ul>
+<li>Counselling suits a child whose difficulty is emotional or relational</li>
+<li>Assessment comes first where the difficulty is with learning, attention or communication</li>
+<li>Both at once is common, and the two clinicians talk to each other</li>
+</ul>
+<p>The full picture of how the therapy itself works is on our <a href="/child-psychology/child-counselling">child counselling</a> page.</p>
+<h2>What a counselling session actually looks like</h2>
+<p>It depends almost entirely on age. Under about eight it is play-based and looks like playing, because that is how young children process what they cannot yet say. From eight to twelve it mixes talking, drawing and structured activities. With teenagers it looks much more like adult therapy, with the young person setting a good deal of the agenda. Sessions run weekly at the same time, because the predictability is part of what makes it work.</p>
+<p>On confidentiality, which is what parents ask about most: what your child says in the room is broadly theirs, and that privacy is what makes them willing to say anything at all. You get themes, progress and what to do at home, not a transcript. The exception, which we explain to your child at the start, is anything suggesting they are at risk.</p>
+<h2>What children work on in counselling here</h2>
+<p>Across both Delhi centres the counselling themes are anxiety, anger and emotional regulation, confidence, friendship difficulties, and adjusting to change at home. What varies is age: the Vasant Kunj caseload runs wider and more international, while Malviya Nagar sees more school-referred work from the Yellow Line corridor.</p>
+<p>The other steady thread across the city is grief and family change, including separation, which is work that needs a slower course than the six to eight sessions most other themes take.</p>
+<h2>Who you would see</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>Across our Delhi centres, the clinicians who take this work are:</p>
+<h3>Dhriti Dharana, Clinical Lead</h3>
+<p>MSc in Clinical Health Psychology and Well-being from Middlesex University, UK. Behavioural therapy with neurodivergent children and parent training, from a neurodiversity-affirming position. Works in fluent English and native Hindi.</p>
+<h3>Shruti Ghosh, Clinical Psychologist</h3>
+<p>M.Phil in Clinical Psychology with distinction from Amity University, Noida, and UGC-NET qualified. CBT, DBT, ACT and Parent Management Training across neurodevelopmental, mood and obsessive-compulsive presentations. Works in Hindi, English and Bengali.</p>
+<h3>Taranpreet Kaur, Clinical Psychologist</h3>
+<p>M.Phil in Clinical Psychology with distinction, plus a Post Graduate Diploma in School Counselling from Symbiosis. ACT and MBCT for anxiety, depression, OCD and trauma, and comprehensive psychological assessment. Works in English, Hindi and Punjabi.</p>
+<h3>Mannat Kaur Arora, Psychologist</h3>
+<p>Professional Diploma in Clinical Psychology from Amity University Haryana and an MA in Psychology from the University of Delhi. Assessment across MISIC, WISC-IV, Conners 3, CBCL, ISAA, CARS and the NIMHANS SLD battery. Works in English and Hindi.</p>
+<h3>Cheesha Kanwar, Psychologist</h3>
+<p>Completing an MSc in Clinical Psychology at Christ (Deemed to be University), with a BA (Hons) in Applied Psychology from the University of Delhi. Behaviour therapy and assessment support using WISC-V, NEPSY-II, Conners-3 and BRIEF-2. Works in English and Hindi.</p>
+<h3>Arshita Matta, Psychologist</h3>
+<p>Integrated BA and MA in Clinical Psychology from Amity University, Noida. Case history taking, mental state examination, psychoeducation and counselling with children and adolescents. Works in English and Hindi.</p>
+<p>Which of them you see is decided on the intake call rather than by whoever has the next free slot, and you are told who it will be before you book. Fuller biographies are on our <a href="/about">about page</a>.</p>
+<h2>Schools and services we already work with</h2>
+<p>Some of what we do around Delhi happens inside institutions rather than at a centre, which is often how a family first hears of us.</p>
+<p>Our Malviya Nagar centre runs inside Rainbow Children's Hospital, New Delhi, which is why occupational therapy, physiotherapy, speech therapy, behaviour therapy and special education sit in the same building as assessment.</p>
+<p>We work with The British School in Chanakyapuri on psychoeducational, cognitive and risk assessments, therapy for children and adolescents, and workshops for teachers, parents and pupils.</p>
+<p>At the American Embassy School in Chanakyapuri we carry out psychoeducational, cognitive, comprehensive and brief assessments, including risk assessments, and provide therapy for children and adolescents.</p>
+<p>Where a child or adult needs psychiatric input, we work with Sukoon across Delhi NCR for psychiatric assessment, consultation and medication management, so you are not left to find a psychiatrist yourself.</p>
+<h2>Fees, how long a course runs, and how it ends</h2>
+<p>Fees are quoted upfront on your intake call, before anything is booked, and depend on which clinician your child works with.</p>
+<p>Most courses run eight to sixteen weekly sessions, formally reviewed at around session six. Grief, trauma and family change need longer. If a course is not working the answer is to change it, not to book more of it. Endings are planned over the last two or three sessions, because a child who has trusted an adult with difficult material should not simply stop seeing them one week.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Does eMbrace offer child counselling in Delhi?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Which Delhi centre would we go to for counselling?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer professional child counselling services at our Delhi centres and online. Our team of experienced professionals provides personalised care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Vasant Kunj if you are in south-west Delhi, Malviya Nagar if you are on the Yellow Line corridor. For a weekly appointment, pick on journey rather than on anything else.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How do I book child counselling in Delhi?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What is the difference between counselling and seeing a child psychologist?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Delhi centres.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Counselling is the therapy itself. Seeing a psychologist usually starts with working out what is going on, which may or may not lead into counselling.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What are the qualifications of your child counselling professionals in Delhi?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Will you tell me what my child says?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">You get themes, progress and what to do at home, not a transcript. Anything suggesting your child is at risk is always shared, and your child is told that at the start.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Do you offer online child counselling for Delhi residents?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Can counselling run alongside an assessment?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer online child counselling services for residents of Delhi who prefer remote consultations or have mobility concerns.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Yes, and it commonly does. A child can be in weekly counselling while an assessment runs in parallel, and the two clinicians talk to each other.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does child counselling cost in Delhi?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Fees are quoted on your free 15-minute intake call, before anything is booked, and depend on which clinician your child works with and what the work involves.</p>
 </div>
 </div>
 </div>
 <div class="cta-card my-12">
-<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Delhi</h3>
-<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your child counselling consultation at our Delhi centres.</p>
-<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
-                Schedule an Appointment
-              </a>
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
 </div>
-</div>
+<!-- LOCATION-BODY:END -->
 </div>
 </div>
     </div>

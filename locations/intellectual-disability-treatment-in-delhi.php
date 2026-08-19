@@ -387,42 +387,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Do you offer intellectual disability support in Delhi?",
+          "name": "Does an IQ score decide what my child can do?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Families in Delhi are seen at our Vasant Kunj and Malviya Nagar centres, and online where that suits the work. Start with a free 15-minute intake call."
+            "text": "No. Adaptive functioning, meaning daily living skills, predicts real life far better. Two people with similar scores can live very differently."
           }
         },
         {
           "@type": "Question",
-          "name": "How quickly can we be seen in Delhi?",
+          "name": "Do we get a disability certificate from you?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The intake call is usually arranged within a few working days. Appointment timing depends on the service and the clinician needed, and we will tell you honestly on the call."
+            "text": "No. Ours is a clinical assessment. The RPwD certificate is issued by a government medical board through its own process, which we explain on the call."
           }
         },
         {
           "@type": "Question",
-          "name": "Can we be seen outside school hours?",
+          "name": "The school wants documentation. Can you provide it?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We offer later slots and Saturday appointments where availability allows. Tell the intake team what you need and they will work around school."
+            "text": "We can provide a clinical assessment naming the instruments, scores and specific recommendations, which is what most schools act on for placement and support."
           }
         },
         {
           "@type": "Question",
-          "name": "Can intellectual disability be cured?",
+          "name": "Where would we go in Delhi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No, and any provider promising otherwise is not being honest with you. What changes substantially is independence, communication and quality of life, through systematic skill teaching and the right support."
+            "text": "Vasant Kunj or Malviya Nagar. Malviya Nagar runs inside Rainbow, which helps where a medical question sits alongside the developmental one."
           }
         },
         {
           "@type": "Question",
-          "name": "What is the difference between intellectual disability and learning disability?",
+          "name": "How much does assessment cost in Delhi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In India, learning disability usually means a specific difficulty such as dyslexia alongside typical overall ability. Intellectual disability affects general intellectual and adaptive functioning together, across most areas of life."
+            "text": "Quoted upfront on your free 15-minute intake call, priced as one piece of work covering testing, report and feedback."
           }
         }
       ]
@@ -467,7 +467,7 @@
 </div>
 <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
   <div class="max-w-7xl mx-auto flex items-center gap-2 flex-wrap">
-      <a href="/">Home</a><span class="text-gray-300">/</span>
+      <a href="/index.php">Home</a><span class="text-gray-300">/</span>
       <a href="/intellectual-disability-treatment">Intellectual Disability</a><span class="text-gray-300">/</span>
       <span class="text-gray-700 font-medium">In Delhi</span>
   </div>
@@ -478,15 +478,15 @@
   <div class="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm md:sticky md:top-24 side-menu">
     <h2 class="text-lg font-bold text-[#234394] mb-4 border-b pb-3">Child Development Services</h2>
     <div class="space-y-1">
-      <a class="" href="/developmental-delay-treatment">Developmental Delay Treatment</a>
-      <a class="is-current" href="/intellectual-disability-treatment">Intellectual Disability Treatment</a>
-      <a class="" href="/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
-      <a class="" href="/oral-motor-therapy">Oral Motor Delay Treatment</a>
-      <a class="" href="/aba-therapy">ABA Therapy</a>
-      <a class="" href="/physiotherapy">Physiotherapy Clinic</a>
-      <a class="" href="/pediatric-neurologist">Pediatric Neurologist</a>
-      <a class="" href="/developmental-pediatrician">Developmental Pediatrician</a>
-      <a class="" href="/child-development-centre">Child Development Centre</a>
+      <a class="" href="/developmental-delay/developmental-delay-treatment">Developmental Delay Treatment</a>
+      <a class="is-current" href="/intellectual-disability/intellectual-disability-treatment">Intellectual Disability Treatment</a>
+      <a class="" href="/down-syndrome/down-syndrome-treatment">Down Syndrome Treatment &amp; Therapy</a>
+      <a class="" href="/oral-motor-therapy/oral-motor-therapy">Oral Motor Delay Treatment</a>
+      <a class="" href="/aba-therapy/aba-therapy">ABA Therapy</a>
+      <a class="" href="/physiotherapy/physiotherapy">Physiotherapy Clinic</a>
+      <a class="" href="/pediatric-neurology/pediatric-neurologist">Pediatric Neurologist</a>
+      <a class="" href="/developmental-pediatrics/developmental-pediatrician">Developmental Pediatrician</a>
+      <a class="" href="/child-development-centre/child-development-centre">Child Development Centre</a>
     </div>
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mt-6 mb-2">Related</h3>
     <div class="space-y-1">
@@ -497,145 +497,126 @@
   </div>
 </aside>
     <div class="flex-grow max-w-4xl article-content">
-
-<h2>Where you will be seen in Delhi</h2>
-<p>Families across Delhi are seen at one of our two Delhi centres. Vasant Kunj sits in South West Delhi at C-7, Sector C, Pocket 5, Grand Vasant Kunj. Malviya Nagar is in South Delhi at FC-29, Plot No. 5, Geetanjali, beside Malviya Nagar Metro Station Gate No. 1, which puts it within reach of Saket, Hauz Khas, Green Park, Greater Kailash and Defence Colony without a long drive.</p>
-<p>Sessions can also run online where the work suits it. History-taking, feedback and a good deal of therapy transfer well to video; direct assessment components are done in person.</p>
-
-<h2>What intellectual disability support covers here</h2>
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>Intellectual disability support in Delhi is about function rather than about a number. An IQ score sets a context; what actually decides a life is how much someone can do for themselves and how much the world around them adapts. The short answer is both our Delhi centres, Vasant Kunj and Malviya Nagar, and which one is a question of your journey rather than of the service.</p>
 <div class="key-points-card my-8">
-  <ul>
-    <li>Cognitive and adaptive assessment together, never a number in isolation</li>
-    <li>Reports written to the standard schools, boards and UDID applications require</li>
-    <li>Life skills and vocational planning, not only classroom academics</li>
-    <li>Family and sibling support included in the plan</li>
-  </ul>
-</div>
-<p>For the full clinical picture, including what the difficulty is, the signs worth acting on and how treatment is planned, read our <a href="/intellectual-disability-treatment" class="text-[#234394] font-semibold">Intellectual Disability Treatment guide</a>.</p>
-
-<h2>How to start</h2>
-<ul>
-  <li><strong>Free 15-minute intake call.</strong> A clinician hears your concern and tells you honestly whether an appointment is the right next step. Some calls end with strategies to try at home instead.</li>
-  <li><strong>Assessment or first session.</strong> Booked at whichever Delhi centre suits you, at a time that works around school where possible.</li>
-  <li><strong>A written plan.</strong> What happens, how often, what to do at home, and what the school is being asked to do.</li>
-  <li><strong>Review.</strong> Progress measured against the baseline set at the start, discussed openly with you.</li>
+<ul class="space-y-4 key-points-list">
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace Vasant Kunj</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> C-7, Sector C, Pocket 5, Basement, Grand Vasant Kunj, New Delhi 110070</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Munirka on the Magenta Line is nearest, Chhatarpur on the Yellow Line is the usual access point for the Vasant Kunj sectors</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99715 76800</span>
+</li>
 </ul>
-<p>Fees are quoted upfront on your intake call, in writing, before you commit to anything.</p>
-
-<h2 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h2>
-<div class="space-y-2 mb-10">
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Do you offer intellectual disability support in Delhi?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>Yes. Families in Delhi are seen at our Vasant Kunj and Malviya Nagar centres, and online where that suits the work. Start with a free 15-minute intake call.</p></div>
 </div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">How quickly can we be seen in Delhi?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>The intake call is usually arranged within a few working days. Appointment timing depends on the service and the clinician needed, and we will tell you honestly on the call.</p></div>
-</div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Can we be seen outside school hours?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>We offer later slots and Saturday appointments where availability allows. Tell the intake team what you need and they will work around school.</p></div>
-</div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">Can intellectual disability be cured?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>No, and any provider promising otherwise is not being honest with you. What changes substantially is independence, communication and quality of life, through systematic skill teaching and the right support.</p></div>
-</div>
-<div class="faq-item">
-  <button type="button" class="faq-btn" aria-expanded="false">
-    <span class="faq-q">What is the difference between intellectual disability and learning disability?</span>
-    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-  </button>
-  <div class="faq-panel" hidden><p>In India, learning disability usually means a specific difficulty such as dyslexia alongside typical overall ability. Intellectual disability affects general intellectual and adaptive functioning together, across most areas of life.</p></div>
-</div>
-</div>
-
-<h2>Other eMbrace services near you</h2>
+<h2>Which of our Delhi centres you would use</h2>
+<p>We have two centres in Delhi, and which one you use is a question of geography rather than service, because the same pathway runs at both.</p>
+<p>eMbrace Vasant Kunj, at C-7, Sector C, Pocket 5, Grand Vasant Kunj, is the larger team and serves south-west Delhi: Vasant Vihar, Munirka, R.K. Puram, Safdarjung Enclave, Anand Niketan, Shanti Niketan, Moti Bagh and Chanakyapuri.</p>
+<p>eMbrace at Rainbow, Malviya Nagar, at FC-29, Plot No. 5, Geetanjali, beside Malviya Nagar Metro Station Gate No. 1, serves the Yellow Line corridor through Saket, Hauz Khas and Green Park, and the drive-in catchment of Greater Kailash and Defence Colony. It runs inside Rainbow Children's Hospital, so multidisciplinary therapy sits in the same building as assessment.</p>
+<p>If you are in north or west Delhi, either centre is a real journey, and we would usually suggest starting online and coming in only for the parts that have to happen in a room.</p>
+<p>This is measured in years and transitions rather than in courses. The heaviest periods are early childhood, the move into school, and adolescence into adulthood, and families commonly work with us in blocks around those rather than continuously.</p>
+<p>For parking, the nearest drop-off point and the quickest route at your particular time of day, ask on the intake call. Traffic and parking around every one of these centres change enough through the day that current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>What support covers</h2>
+<p>Two strands run together. One is assessment: establishing the profile properly, which matters because support and entitlements both depend on it being documented accurately. The other is teaching and adaptation, aimed at the specific things that would make daily life work better.</p>
 <ul>
-<li><a href="/locations/child-psychologist-in-saket" class="text-[#234394]">Child psychology in Saket</a></li>
-<li><a href="/locations/child-psychologist-in-hauz-khas" class="text-[#234394]">Child psychology in Hauz Khas</a></li>
-<li><a href="/locations/child-psychologist-in-green-park" class="text-[#234394]">Child psychology in Green Park</a></li>
-<li><a href="/locations/child-psychologist-in-greater-kailash" class="text-[#234394]">Child psychology in Greater Kailash</a></li>
-<li><a href="/locations/child-psychologist-in-defence-colony" class="text-[#234394]">Child psychology in Defence Colony</a></li>
-<li><a href="/locations/child-psychologist-in-south-delhi" class="text-[#234394]">Child psychology in South Delhi</a></li>
-<li><a href="/locations/child-psychologist-in-vasant-kunj" class="text-[#234394]">Child psychology in Vasant Kunj</a></li>
-  <li><a href="/locations" class="text-[#234394]">View all eMbrace locations</a></li>
+<li>Cognitive and adaptive assessment, covering daily living skills as well as reasoning</li>
+<li>Special education and functional academics aimed at use rather than at curriculum coverage</li>
+<li>Communication support, and occupational therapy for self-care and independence</li>
+<li>Family support, and guidance on school placement and what documentation is needed</li>
 </ul>
-
-<div class="pathway-card mt-12 rounded-3xl p-8 bg-gradient-to-br from-[#eef2ff] to-[#e0e7ff] border border-[#c7d2fe]">
-  <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Not sure whether you need this yet?</h2>
-  <p class="text-gray-600 mb-6">Start with a free 15-minute intake call. A clinician will tell you honestly whether intellectual disability support is the right next step, or whether something else is. There is no obligation and no waiting list to join.</p>
-  <div class="flex flex-wrap gap-3">
-    <a href="/appointment" class="inline-block px-7 py-3 rounded-full bg-[#234394] text-white font-semibold hover:bg-[#1a3272] transition-colors">Book a free call</a>
-    <a href="https://wa.me/919971576800" target="_blank" rel="noopener" class="inline-block px-7 py-3 rounded-full bg-white border border-[#c7d2fe] text-[#234394] font-semibold hover:bg-[#f8faff] transition-colors">WhatsApp +91 99715 76800</a>
-  </div>
+<p>The detail sits on our <a href="/intellectual-disability-treatment">intellectual disability support</a> page.</p>
+<h2>Assessment first, and why it matters</h2>
+<p>A proper assessment covers cognitive ability and adaptive functioning together, because the second predicts daily life far better than the first does. Two people with similar scores can live very differently depending on what they have been taught and what has been adapted around them.</p>
+<p>On paperwork: what we provide is a clinical assessment. A disability certificate under the Rights of Persons with Disabilities Act is issued by a government medical board through its own process, and we explain that route rather than leaving you to discover it later.</p>
+<h2>What we work on most</h2>
+<p>At our Delhi centres the commonest work is assessment for school placement and documentation, followed by functional academics and daily living skills. Malviya Nagar runs inside Rainbow, so where a medical or genetic question sits alongside the developmental one, both are in the same building.</p>
+<h2>Who you would see</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>Across our Delhi centres, the clinicians who take this work are:</p>
+<h3>Dhriti Dharana, Clinical Lead</h3>
+<p>MSc in Clinical Health Psychology and Well-being from Middlesex University, UK. Behavioural therapy with neurodivergent children and parent training, from a neurodiversity-affirming position. Works in fluent English and native Hindi.</p>
+<h3>Taranpreet Kaur, Clinical Psychologist</h3>
+<p>M.Phil in Clinical Psychology with distinction, plus a Post Graduate Diploma in School Counselling from Symbiosis. ACT and MBCT for anxiety, depression, OCD and trauma, and comprehensive psychological assessment. Works in English, Hindi and Punjabi.</p>
+<h3>Mannat Kaur Arora, Psychologist</h3>
+<p>Professional Diploma in Clinical Psychology from Amity University Haryana and an MA in Psychology from the University of Delhi. Assessment across MISIC, WISC-IV, Conners 3, CBCL, ISAA, CARS and the NIMHANS SLD battery. Works in English and Hindi.</p>
+<p>Which of them you see is decided on the intake call rather than by whoever has the next free slot, and you are told who it will be before you book. Fuller biographies are on our <a href="/about">about page</a>.</p>
+<h2>Schools and services we already work with</h2>
+<p>Support around Delhi reaches past the therapy room, particularly towards work and independence, through:</p>
+<p>Our Malviya Nagar centre runs inside Rainbow Children's Hospital, New Delhi, which is why occupational therapy, physiotherapy, speech therapy, behaviour therapy and special education sit in the same building as assessment.</p>
+<p>Since 2025 we have delivered corporate workshops with Atypical Advantage on inclusivity and neurodiversity, autism awareness and mental health awareness.</p>
+<p>Where a child or adult needs psychiatric input, we work with Sukoon across Delhi NCR for psychiatric assessment, consultation and medication management, so you are not left to find a psychiatrist yourself.</p>
+<h2>Fees and how progress is judged</h2>
+<p>Fees are quoted upfront on your intake call. Assessment is priced as one piece of work; ongoing support depends on frequency.</p>
+<p>Progress is judged on daily function rather than on scores: whether someone can do more for themselves this year than last. That is the measure that changes a life, and it is the one we write goals against.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Does an IQ score decide what my child can do?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">No. Adaptive functioning, meaning daily living skills, predicts real life far better. Two people with similar scores can live very differently.</p>
 </div>
-    </div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Do we get a disability certificate from you?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">No. Ours is a clinical assessment. The RPwD certificate is issued by a government medical board through its own process, which we explain on the call.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">The school wants documentation. Can you provide it?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">We can provide a clinical assessment naming the instruments, scores and specific recommendations, which is what most schools act on for placement and support.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Where would we go in Delhi?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Vasant Kunj or Malviya Nagar. Malviya Nagar runs inside Rainbow, which helps where a medical question sits alongside the developmental one.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does assessment cost in Delhi?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Quoted upfront on your free 15-minute intake call, priced as one piece of work covering testing, report and feedback.</p>
+</div>
+</div>
+</div>
+<div class="cta-card my-12">
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
+</div>
+<!-- LOCATION-BODY:END -->
+</div>
   </div>
 </div>
 <?php include __DIR__ . '/../components/lead-magnet-band-child.php'; ?>
-<!-- LOCATION-LINKS:START (generated by generate-location-links.js — do not edit by hand) -->
-<div class="px-6 md:px-16 bg-white">
-<div class="max-w-7xl mx-auto">
-<section class="emb-nearby" aria-labelledby="emb-nearby-title">
-  <h2 class="emb-nearby__title" id="emb-nearby-title">More eMbrace services near you</h2>
-  <p class="emb-nearby__sub">Explore the other assessments and therapies we offer in Delhi, or find intellectual disability support at another eMbrace location.</p>
-  <div class="emb-nearby__cols emb-nearby__cols--two">
-    <div class="emb-nearby__group">
-      <h4>Other services in Delhi</h4>
-      <ul class="emb-nearby__list">
-        <li><a href="/locations/child-psychologist-in-delhi">Child Psychologist in Delhi</a></li>
-        <li><a href="/locations/child-counselling-in-delhi">Child Counselling in Delhi</a></li>
-        <li><a href="/locations/teen-counselling-in-delhi">Teen Counselling in Delhi</a></li>
-        <li><a href="/locations/adult-counselling-in-delhi">Adult Counselling in Delhi</a></li>
-        <li><a href="/locations/autism-assessment-in-delhi">Autism Assessment in Delhi</a></li>
-        <li><a href="/locations/autism-therapy-in-delhi">Autism Therapy in Delhi</a></li>
-        <li><a href="/locations/adhd-assessment-in-delhi">ADHD Assessment in Delhi</a></li>
-        <li><a href="/locations/learning-disability-assessment-in-delhi">Learning Disability Assessment in Delhi</a></li>
-        <li><a href="/locations/speech-therapy-in-delhi">Speech Therapy in Delhi</a></li>
-        <li><a href="/locations/occupational-therapy-in-delhi">Occupational Therapy in Delhi</a></li>
-        <li><a href="/locations/special-education-in-delhi">Special Education in Delhi</a></li>
-        <li><a href="/locations/developmental-delay-treatment-in-delhi">Developmental Delay Treatment in Delhi</a></li>
-        <li><a href="/locations/down-syndrome-treatment-in-delhi">Down Syndrome Treatment in Delhi</a></li>
-        <li><a href="/locations/oral-motor-therapy-in-delhi">Oral Motor Delay Treatment in Delhi</a></li>
-        <li><a href="/locations/aba-therapy-in-delhi">ABA Therapy in Delhi</a></li>
-        <li><a href="/locations/physiotherapy-in-delhi">Physiotherapy in Delhi</a></li>
-        <li><a href="/locations/pediatric-neurologist-in-delhi">Pediatric Neurologist in Delhi</a></li>
-        <li><a href="/locations/developmental-pediatrician-in-delhi">Developmental Pediatrician in Delhi</a></li>
-        <li><a href="/locations/child-development-centre-in-delhi">Child Development Centre in Delhi</a></li>
-      </ul>
-    </div>
-    <div class="emb-nearby__group">
-      <h4>Intellectual Disability Treatment in other areas</h4>
-      <ul class="emb-nearby__list">
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        <li><a href="/locations/intellectual-disability-treatment-in-gurgaon">Intellectual Disability Treatment in Gurgaon</a></li>
-        null
-      </ul>
-    </div>
-  </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
-</section>
-</div>
-</div>
-<!-- LOCATION-LINKS:END -->
 <?php include __DIR__ . '/../components/footer.php'; ?>
 </div>
 <script src="/assets/interactive.js"></script>

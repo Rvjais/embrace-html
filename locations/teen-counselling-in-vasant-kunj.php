@@ -10,16 +10,16 @@
 <link href="https://embracelives.com/locations/teen-counselling-in-vasant-kunj" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/locations/teen-counselling-in-vasant-kunj" property="og:url"/>
-<meta content="Teen Counselling in Vasant Kunj | RCI-Certified | eMbrace" property="og:title"/>
+<meta content="Teen Counselling in Vasant Kunj | eMbrace Centres Delhi NCR" property="og:title"/>
 <meta content="Teen counselling in Vasant Kunj for exam stress, anxiety, low mood and screen use, at our Vasant Kunj centre, online or in person. Book a free 15-minute call." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Teen Counselling in Vasant Kunj | RCI-Certified | eMbrace" name="twitter:title"/>
+<meta content="Teen Counselling in Vasant Kunj | eMbrace Centres Delhi NCR" name="twitter:title"/>
 <meta content="Teen counselling in Vasant Kunj for exam stress, anxiety, low mood and screen use, at our Vasant Kunj centre, online or in person. Book a free 15-minute call." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Teen Counselling in Vasant Kunj | RCI-Certified | eMbrace</title>
+<title>Teen Counselling in Vasant Kunj | eMbrace Centres Delhi NCR</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet"/>
@@ -358,7 +358,7 @@
       "@type": "MedicalWebPage",
       "@id": "https://embracelives.com/locations/teen-counselling-in-vasant-kunj#webpage",
       "url": "https://embracelives.com/locations/teen-counselling-in-vasant-kunj",
-      "name": "Teen Counselling in Vasant Kunj | RCI-Certified | eMbrace",
+      "name": "Teen Counselling in Vasant Kunj | eMbrace Centres Delhi NCR",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -375,7 +375,7 @@
       "@type": "FAQPage",
       "@id": "https://embracelives.com/locations/teen-counselling-in-vasant-kunj#faq",
       "url": "https://embracelives.com/locations/teen-counselling-in-vasant-kunj",
-      "name": "Teen Counselling in Vasant Kunj | RCI-Certified | eMbrace — Frequently Asked Questions",
+      "name": "Teen Counselling in Vasant Kunj | eMbrace Centres Delhi NCR — Frequently Asked Questions",
       "isPartOf": {
         "@id": "https://embracelives.com/locations/teen-counselling-in-vasant-kunj#webpage"
       },
@@ -383,34 +383,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Does eMbrace offer teen counselling in Vasant Kunj?",
+          "name": "Will you tell my parents what I say?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer professional teen counselling services at our Vasant Kunj location and online. Our team of experienced professionals provides personalised care."
+            "text": "They get themes and progress, not a transcript. The only thing we always share is serious risk of harm, and we tell you before we do it."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I book teen counselling in Vasant Kunj?",
+          "name": "My teenager has grown up in several countries and feels from nowhere. Do you work with that?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Vasant Kunj centre."
+            "text": "Yes, and it is a distinctive theme at this centre, alongside the loss that comes when a parent posting ends and everything changes again."
           }
         },
         {
           "@type": "Question",
-          "name": "What are the qualifications of your teen counselling professionals in Vasant Kunj?",
+          "name": "Can we choose the counsellor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care."
+            "text": "Within the team, largely yes. With teenagers the fit is not a nicety, it is the whole thing, so tell us on the intake call what would suit."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you offer online teen counselling for Vasant Kunj residents?",
+          "name": "Can counselling help with applying to universities abroad?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer online teen counselling services for residents of Vasant Kunj who prefer remote consultations or have mobility concerns."
+            "text": "Yes, where the stress of it has become the problem. It is a recurring theme here from about sixteen, particularly where family expectations and the young person diverge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does teen counselling cost in Vasant Kunj?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees are quoted upfront on your free 15-minute intake call, and depend on which clinician the young person works with and what the work involves."
           }
         }
       ]
@@ -539,82 +547,126 @@
 </div> </div>
 </details>
 </div><div class="flex-grow max-w-4xl article-content">
-<h2 class="text-2xl md:text-3xl font-bold mb-4 text-[#1e293b]">Teen Counselling Services in Vasant Kunj</h2>
-<p class="text-lg text-gray-700 leading-relaxed font-light mb-8">Our team provides teen counselling for teenagers and their families in Vasant Kunj. Sessions run at our Vasant Kunj centre, online or in person, with a free 15-minute intake call before you book anything.</p>
-<hr class="my-8 border-gray-100"/>
-<div class="key-points-card">
-<ul class="space-y-4 mb-8 key-points-list">
+<!-- LOCATION-BODY:START (generated by generate-location-body.js from location-pages-content.js, do not edit by hand) -->
+<p>Teen counselling in Vasant Kunj is confidential therapy for young people between roughly thirteen and eighteen. The centre is in Vasant Kunj itself. If you are the teenager reading this rather than the parent, the section on what stays private is the one worth reading first.</p>
+<div class="key-points-card my-8">
+<ul class="space-y-4 key-points-list">
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Expert Professionals:</strong> Our teen counselling team in Vasant Kunj consists of qualified, experienced professionals dedicated to providing exceptional care.</span>
-</li>
-<li class="flex items-start gap-3">
-<img fetchpriority="high" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Convenient Location:</strong> Our Vasant Kunj centre is easily accessible with flexible appointment scheduling to suit your busy lifestyle.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Centre:</strong> eMbrace Vasant Kunj</span>
 </li>
 <li class="flex items-start gap-3">
 <img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Personalised Care:</strong> Every teen counselling plan is tailored to your unique needs, goals, and circumstances.</span>
+<span class="text-sm md:text-base text-gray-700"><strong>Address:</strong> C-7, Sector C, Pocket 5, Basement, Grand Vasant Kunj, New Delhi 110070</span>
 </li>
 <li class="flex items-start gap-3">
-<img loading="lazy" decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
-<span class="text-sm md:text-base text-gray-700"><strong>Comprehensive Support:</strong> From initial assessment to ongoing care, we provide complete teen counselling support for you and your family.</span>
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Nearest metro:</strong> Munirka on the Magenta Line is nearest, Chhatarpur on the Yellow Line is the usual access point for the Vasant Kunj sectors</span>
+</li>
+<li class="flex items-start gap-3">
+<img decoding="async" width="100" height="100" alt="Bullet" class="w-4 h-4 flex-shrink-0 mt-1" src="/assets/Diamond-dGu0kMrR.svg"/>
+<span class="text-sm md:text-base text-gray-700"><strong>Phone:</strong> +91 99715 76800</span>
 </li>
 </ul>
-<h3 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h3><div class="space-y-2 mb-8">
+</div>
+<h2>Our Vasant Kunj centre</h2>
+<p>This is the one locality page where the centre really is in the locality. eMbrace Vasant Kunj is at C-7, Sector C, Pocket 5, in the basement of Grand Vasant Kunj, New Delhi 110070.</p>
+<p>It is our largest team, and the practical consequence is choice: if a clinician is not the right fit for your child, or you need a particular language, there is somebody else in the building rather than a wait for the one person who does that work.</p>
+<p>Families reach us here from across south-west Delhi, including Vasant Vihar, Munirka, R.K. Puram, Safdarjung Enclave, Anand Niketan, Shanti Niketan, West End Colony, Moti Bagh and Chanakyapuri.</p>
+<p>Two practical things about adolescents specifically. They can usually travel to a session alone, and a young person who arrives under their own steam engages very differently from one who has been driven there by a parent. And their week is genuinely full: school, coaching, boards. We schedule around that rather than expecting a teenager to drop something, and late-afternoon and evening slots are the ones that hold.</p>
+<p>For parking, the nearest drop-off point and the quickest route at your particular time of day, ask on the intake call. Traffic and parking around every one of these centres change enough through the day that current directions from someone who works there beat anything we could fix on a web page.</p>
+<h2>When teen counselling is the right call</h2>
+<p>Adolescence is legitimately turbulent, and most of it does not need a therapist. What matters is duration, spread and function: whether something has persisted for weeks rather than days, whether it shows up in more than one part of their life, and whether it has started to shrink what they will do.</p>
+<ul>
+<li>Low mood or anxiety that has lasted several weeks and is not lifting</li>
+<li>Withdrawal from friends, activities or school they previously managed</li>
+<li>Exam or performance pressure that has stopped being motivating and started being disabling</li>
+<li>Any self-harm, or any talk of not wanting to be here, which we see the same week</li>
+</ul>
+<p>Exam anxiety, social anxiety, low mood and digital and gaming difficulties each have their own page on our <a href="/teen-mental-health/teen-counselling">teen mental health hub</a>.</p>
+<h2>What stays private, and what does not</h2>
+<p>This is the part that decides whether counselling works for a teenager, so we settle it in the first session with the young person and the parent in the room together. What a young person says is theirs. A parent gets themes, progress and what would help at home. A parent does not get a transcript, and we will not pass on what was said because it was asked for.</p>
+<p>The limit is risk. If we believe a young person is at serious risk of harm, we share what we need to in order to keep them safe, and we tell them we are doing it rather than going behind them. Setting that out plainly at the start is what makes the privacy credible for the rest of the work.</p>
+<h2>What teenagers bring to counselling here</h2>
+<p>Vasant Kunj brings the most international adolescent caseload we see. Distinctive themes: identity for a young person who has grown up across several countries and does not feel fully from any of them, the loss that comes with a parent posting ending, and applications to universities abroad.</p>
+<p>Alongside that, the ordinary run of adolescent work: anxiety, low mood, friendships, self-esteem and conflict at home. Being our largest team matters here because with teenagers the fit between young person and counsellor is not a nicety, it is the whole thing.</p>
+<h2>Who you would see at our Vasant Kunj centre</h2>
+<h3>Dr Supriya Malik, Founder and CEO, and Head of the Child Development Centre at Rainbow</h3>
+<p>PhD in Developmental Psychology from the University of Birmingham, where she was also a postdoctoral researcher, and a Chartered Psychologist with the British Psychological Society in the UK. She designed the assessment and therapy pathways every eMbrace centre runs.</p>
+<p>At our Vasant Kunj centre, the clinicians who take this work are:</p>
+<h3>Dhriti Dharana, Clinical Lead</h3>
+<p>MSc in Clinical Health Psychology and Well-being from Middlesex University, UK. Behavioural therapy with neurodivergent children and parent training, from a neurodiversity-affirming position. Works in fluent English and native Hindi.</p>
+<h3>Shruti Ghosh, Clinical Psychologist</h3>
+<p>M.Phil in Clinical Psychology with distinction from Amity University, Noida, and UGC-NET qualified. CBT, DBT, ACT and Parent Management Training across neurodevelopmental, mood and obsessive-compulsive presentations. Works in Hindi, English and Bengali.</p>
+<h3>Taranpreet Kaur, Clinical Psychologist</h3>
+<p>M.Phil in Clinical Psychology with distinction, plus a Post Graduate Diploma in School Counselling from Symbiosis. ACT and MBCT for anxiety, depression, OCD and trauma, and comprehensive psychological assessment. Works in English, Hindi and Punjabi.</p>
+<h3>Mannat Kaur Arora, Psychologist</h3>
+<p>Professional Diploma in Clinical Psychology from Amity University Haryana and an MA in Psychology from the University of Delhi. Assessment across MISIC, WISC-IV, Conners 3, CBCL, ISAA, CARS and the NIMHANS SLD battery. Works in English and Hindi.</p>
+<h3>Arshita Matta, Psychologist</h3>
+<p>Integrated BA and MA in Clinical Psychology from Amity University, Noida. Case history taking, mental state examination, psychoeducation and counselling with children and adolescents. Works in English and Hindi.</p>
+<p>Which of them you see is decided on the intake call rather than by whoever has the next free slot, and you are told who it will be before you book. Fuller biographies are on our <a href="/about">about page</a>.</p>
+<h2>Schools and services we already work with</h2>
+<p>Some of what we do around Vasant Kunj happens inside institutions rather than at a centre, which is often how a family first hears of us.</p>
+<p>We work with The British School in Chanakyapuri on psychoeducational, cognitive and risk assessments, therapy for children and adolescents, and workshops for teachers, parents and pupils.</p>
+<p>At the American Embassy School in Chanakyapuri we carry out psychoeducational, cognitive, comprehensive and brief assessments, including risk assessments, and provide therapy for children and adolescents.</p>
+<p>Where a child or adult needs psychiatric input, we work with Sukoon across Delhi NCR for psychiatric assessment, consultation and medication management, so you are not left to find a psychiatrist yourself.</p>
+<h2>Fees, consent and how long it runs</h2>
+<p>Fees are quoted upfront on your intake call, before anything is booked, and depend on which clinician the young person works with.</p>
+<p>Most courses run eight to sixteen weekly sessions with a formal review at around session six. On consent: a parent books and pays for a young person under eighteen, but the therapy only works if the teenager has agreed to it. We will not do useful work with someone who has been sent under protest, and we would rather spend the first session earning their agreement than pretend we have it.</p>
+<h2>Frequently asked questions</h2>
+<div class="space-y-2 mb-8">
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Does eMbrace offer teen counselling in Vasant Kunj?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Will you tell my parents what I say?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer professional teen counselling services at our Vasant Kunj location and online. Our team of experienced professionals provides personalised care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">They get themes and progress, not a transcript. The only thing we always share is serious risk of harm, and we tell you before we do it.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How do I book teen counselling in Vasant Kunj?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">My teenager has grown up in several countries and feels from nowhere. Do you work with that?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              You can book a consultation by calling us or using our online booking system. We offer flexible appointment times including evenings and weekends at our Vasant Kunj centre.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Yes, and it is a distinctive theme at this centre, alongside the loss that comes when a parent posting ends and everything changes again.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">What are the qualifications of your teen counselling professionals in Vasant Kunj?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Can we choose the counsellor?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              All our professionals are qualified, experienced, and registered with their respective professional bodies. We maintain the highest standards of care.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Within the team, largely yes. With teenagers the fit is not a nicety, it is the whole thing, so tell us on the intake call what would suit.</p>
 </div>
 </div>
 <div class="faq-item">
 <button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
-<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Do you offer online teen counselling for Vasant Kunj residents?</span>
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">Can counselling help with applying to universities abroad?</span>
 <svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
 </button>
 <div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
-<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">
-              Yes, we offer online teen counselling services for residents of Vasant Kunj who prefer remote consultations or have mobility concerns.
-            </p>
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Yes, where the stress of it has become the problem. It is a recurring theme here from about sixteen, particularly where family expectations and the young person diverge.</p>
+</div>
+</div>
+<div class="faq-item">
+<button class="w-full text-left flex justify-between items-center focus:outline-none faq-btn">
+<span class="font-semibold text-base md:text-lg text-[#234394] group-hover:text-purple-600 transition-colors">How much does teen counselling cost in Vasant Kunj?</span>
+<svg class="faq-icon" fill="none" stroke="#234394" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+</button>
+<div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden">
+<p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Fees are quoted upfront on your free 15-minute intake call, and depend on which clinician the young person works with and what the work involves.</p>
 </div>
 </div>
 </div>
 <div class="cta-card my-12">
-<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book Your Appointment in Vasant Kunj</h3>
-<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Contact us today to schedule your teen counselling consultation at our Vasant Kunj centre.</p>
-<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
-                Schedule an Appointment
-              </a>
+<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Book, or check first</h3>
+<p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Start with the free 15-minute intake call. It is with a clinician, fees are quoted on it, and if we are not the right service for your child we will tell you on that call rather than after you have paid for an appointment.</p>
+<a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Book a free intake call</a>
 </div>
-</div>
+<!-- LOCATION-BODY:END -->
 </div>
 </div>
     </div>
@@ -638,15 +690,6 @@
         <li><a href="/locations/speech-therapy-in-vasant-kunj">Speech Therapy in Vasant Kunj</a></li>
         <li><a href="/locations/occupational-therapy-in-vasant-kunj">Occupational Therapy in Vasant Kunj</a></li>
         <li><a href="/locations/special-education-in-vasant-kunj">Special Education in Vasant Kunj</a></li>
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
-        null
       </ul>
     </div>
     <div class="emb-nearby__group">
