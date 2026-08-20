@@ -5,6 +5,12 @@
     <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="Thank you for booking an appointment with eMbrace Lives." name="description" />
+    <!-- Post-conversion page. Excluded from sitemap.xml, but the booking flow
+         links straight here, so it needs noindex to actually stay out of the
+         index; a direct arrival from search would also fire conversion
+         tracking and inflate the booking numbers. "follow" so the links back
+         into the site are still crawled. -->
+    <meta content="noindex, follow" name="robots" />
     <title>Thank You | eMbrace Lives</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />

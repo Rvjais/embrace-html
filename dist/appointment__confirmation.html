@@ -9,8 +9,11 @@
       content="Your appointment with eMbrace is confirmed. We look forward to supporting you on your mental health journey."
       name="description"
     />
-    <meta content="index, follow" name="robots" />
-    <link href="https://embracelives.com/appointment__confirmation" rel="canonical" />
+    <!-- Post-conversion page: noindex, matching thank-you.php. The canonical is
+         deliberately dropped rather than left pointing at itself, because a
+         canonical on a noindex page sends Google contradictory signals. The
+         gated guides under resources/guides/ follow the same pattern. -->
+    <meta content="noindex, follow" name="robots" />
     <!-- Open Graph -->
     <meta content="website" property="og:type" />
     <meta content="https://embracelives.com/appointment__confirmation" property="og:url" />
