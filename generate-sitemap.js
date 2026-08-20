@@ -36,7 +36,7 @@ const HUB_PAGES = new Set([
   'learning-disabilities/learning-disabilities.php',
   'child-psychology/child-psychologist.php', 'parent-hub/parents.php',
   'schools-hub/schools.php', 'corporate-wellness/corporate-wellness.php',
-  'locations/index.php', 'resources/index.php',
+  'locations/index.php', 'resources/index.php', 'blog.php',
   'resources/child-milestone-checker.php', 'resources/adhd-autism-screener.php',
   'resources/adult-stress-check.php',
   // Child development services. These are the canonical target for each service

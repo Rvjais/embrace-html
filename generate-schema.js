@@ -124,6 +124,26 @@ const getDesc = h =>
   attr(h, /<meta[^>]*name="description"[^>]*content="([^"]*)"/i) ||
   attr(h, /<meta[^>]*content="([^"]*)"[^>]*name="description"/i);
 
+/** The visible <h1>, which is the real headline; <title> carries SEO padding. */
+const getH1 = h => attr(h, /<h1[^>]*>([\s\S]*?)<\/h1>/i);
+
+/** ISO publication date from the article:published_time meta tag. */
+const getPublished = h =>
+  attr(h, /<meta[^>]*property="article:published_time"[^>]*content="([^"]*)"/i) ||
+  attr(h, /<meta[^>]*content="([^"]*)"[^>]*property="article:published_time"/i);
+
+/**
+ * Reviewer name from the visible author card, e.g. "Reviewed by Dr. Supriya
+ * Malik". Read out of the page like everything else here, never invented: if a
+ * post carries no author card, the BlogPosting simply gets no reviewer.
+ */
+function getReviewer(html) {
+  const m = html.match(/<div class="author-card"[\s\S]*?<strong>([\s\S]*?)<\/strong>/i);
+  if (!m) return null;
+  const name = decode(m[1]).replace(/^Reviewed by\s+/i, '').trim();
+  return name || null;
+}
+
 /** Pull visible Q&A pairs out of whichever accordion pattern the page uses. */
 function extractFaqs(html) {
   const out = [];
@@ -208,7 +228,13 @@ const PAGE_TYPE_OVERRIDES = {
   'privacypolicy.php': 'WebPage',
   'terms_and_conditions.php': 'WebPage',
   'bookingandCancellation.php': 'WebPage',
+  // The blog hub lives at blog.php, not blog/index.php, so its URL is /blog
+  // with no index segment. The blog/ directory beside it holds the articles.
+  'blog.php': 'CollectionPage',
 };
+
+/** Articles under blog/. The hub itself (blog.php) is not one of them. */
+const isBlogPost = rel => rel.startsWith('blog/');
 
 function pageTypeFor(rel) {
   if (PAGE_TYPE_OVERRIDES[rel]) return PAGE_TYPE_OVERRIDES[rel];
@@ -406,6 +432,38 @@ function buildGraph(rel, html) {
     });
   }
 
+  if (isBlogPost(rel)) {
+    const posting = {
+      '@type': 'BlogPosting',
+      '@id': `${url}#article`,
+      isPartOf: { '@id': pageId },
+      mainEntityOfPage: { '@id': pageId },
+      headline: getH1(html) || title,
+      url,
+      inLanguage: 'en-IN',
+      // The practice is the author of record; a named clinician signs off on the
+      // clinical content and appears as reviewedBy below when the page says so.
+      author: { '@id': ORG_ID },
+      publisher: { '@id': ORG_ID },
+      image: `${BASE}/og-image.png`,
+    };
+    if (desc) posting.description = desc;
+
+    const published = getPublished(html);
+    if (published) {
+      posting.datePublished = published;
+      posting.dateModified = published;
+    }
+
+    const reviewer = getReviewer(html);
+    if (reviewer) {
+      posting.reviewedBy = { '@type': 'Person', name: reviewer, worksFor: { '@id': ORG_ID } };
+    }
+
+    page.mainEntity = { '@id': `${url}#article` };
+    graph.push(posting);
+  }
+
   if (rel === 'contact-us.php') {
     page.mainEntity = { '@id': ORG_ID };
   }
@@ -422,7 +480,7 @@ const MARKER_RE = new RegExp('[ \\t]*' + esc(START) + '[\\s\\S]*?' + esc(END) + 
 // Legacy hand-written blocks, replaced by the generated graph.
 const LEGACY_RE = /[ \t]*<script[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>\s*/gi;
 
-const stats = { written: 0, faqPages: 0, faqQuestions: 0, crumbs: 0, services: 0, legacyRemoved: 0, preserved: 0, noHead: [] };
+const stats = { written: 0, faqPages: 0, faqQuestions: 0, crumbs: 0, services: 0, posts: 0, legacyRemoved: 0, preserved: 0, noHead: [] };
 
 for (const rel of walk(ROOT).sort()) {
   const full = path.join(ROOT, rel);
@@ -453,11 +511,13 @@ for (const rel of walk(ROOT).sort()) {
   if (faq) { stats.faqPages++; stats.faqQuestions += faq.mainEntity.length; }
   if (graph['@graph'].some(n => n['@type'] === 'BreadcrumbList')) stats.crumbs++;
   if (graph['@graph'].some(n => n['@type'] === 'Service')) stats.services++;
+  if (graph['@graph'].some(n => n['@type'] === 'BlogPosting')) stats.posts++;
 }
 
 console.log(`Schema written to ${stats.written} pages (legacy blocks replaced on ${stats.legacyRemoved}).`);
 console.log(`  FAQPage nodes: ${stats.faqPages} (${stats.faqQuestions} questions)`);
 console.log(`  BreadcrumbList nodes: ${stats.crumbs}`);
 console.log(`  Service nodes (location pages): ${stats.services}`);
+console.log(`  BlogPosting nodes: ${stats.posts}`);
 console.log(`  MedicalCondition detail applied: ${stats.preserved}`);
 if (stats.noHead.length) console.log(`  NO </head> — skipped: ${stats.noHead.join(', ')}`);

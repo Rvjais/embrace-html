@@ -276,7 +276,7 @@
         '</div>' +
         '<label class="lm-consent"><input type="checkbox" name="consent_check">' +
           '<span>I agree that eMbrace may contact me about my results by email, phone or WhatsApp, ' +
-          'and I have read the <a href="/privacypolicy.php" target="_blank" rel="noopener">privacy policy</a>.</span></label>' +
+          'and I have read the <a href="/privacypolicy" target="_blank" rel="noopener">privacy policy</a>.</span></label>' +
         '<p class="lm-error" hidden></p>' +
         '<button type="submit" class="lm-btn lm-btn--gold lm-btn--wide" style="margin-top:1.15rem">' +
           esc(cfg.offer.button) + '</button>' +
@@ -438,7 +438,7 @@
       '<div class="lm-success__cta">' +
         '<a class="lm-btn lm-btn--primary" href="' + esc(cfg.guide.url) + '" target="_blank" rel="noopener">' +
           'Open ' + esc(cfg.guide.title) + '</a>' +
-        '<a class="lm-btn lm-btn--ghost" href="/appointment.php">Book a consultation</a>' +
+        '<a class="lm-btn lm-btn--ghost" href="/appointment">Book a consultation</a>' +
         '<a class="lm-btn lm-btn--ghost" href="' + esc(whatsappHref(msg)) + '" target="_blank" rel="noopener">' +
           'Ask a question on WhatsApp</a>' +
       '</div>';

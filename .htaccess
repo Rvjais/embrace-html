@@ -2,12 +2,22 @@
     RewriteEngine On
     RewriteBase /
 
-    # Redirect trailing slashes
-    RewriteCond %{REQUEST_FILENAME} !-d
+    # Redirect trailing slashes. The second condition covers hub pages such as
+    # /blog/, where a blog/ directory of child pages sits beside the blog.php
+    # that serves the hub itself; without it that URL keeps its trailing slash
+    # and splits from the canonical.
+    RewriteCond %{REQUEST_FILENAME} !-d [OR]
+    RewriteCond %{DOCUMENT_ROOT}/$1.php -f
     RewriteRule ^(.*)/$ /$1 [L,R=301]
 
-    # Handle Front Controller / Clean PHP URLs
-    RewriteCond %{REQUEST_FILENAME} !-d
+    # Handle Front Controller / Clean PHP URLs.
+    #
+    # The .php file check runs without a "not a directory" guard on purpose. A
+    # hub page like /blog must resolve to blog.php even though a blog/ directory
+    # of child articles exists; with the guard in place the directory would win
+    # and the hub would fall through to DirectoryIndex, which has no index file.
+    # The rule still only fires when the matching .php file genuinely exists, so
+    # directories without a same-named page are unaffected.
     RewriteCond %{REQUEST_FILENAME}\.php -f
     RewriteRule ^(.*)$ $1.php [L,QSA]
 </IfModule>

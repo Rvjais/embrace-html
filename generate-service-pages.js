@@ -242,8 +242,11 @@ function breadcrumbs(trail) {
 }
 
 function sidebar(svc, services, currentSlug) {
+  // hubUrl, not `/${s.folder}/${s.slug}`: these hubs are written to the site
+  // root by write(`${svc.slug}.php`), so the folder segment points at a URL
+  // that has never existed and every sibling link in this sidebar 404s.
   const links = services.map(s =>
-    `<a class="${s.slug === currentSlug ? 'is-current' : ''}" href="/${s.folder}/${s.slug}">${enc(s.hubName)}</a>`
+    `<a class="${s.slug === currentSlug ? 'is-current' : ''}" href="${hubUrl(s)}">${enc(s.hubName)}</a>`
   ).join('\n      ');
   // Only outward links here. Sibling services are already listed above, and
   // showing them twice in one sidebar just looks like a bug.

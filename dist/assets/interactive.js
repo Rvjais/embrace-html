@@ -30,7 +30,10 @@ document.addEventListener('DOMContentLoaded', () => {
   faqs.forEach(btn => {
     btn.addEventListener('click', () => {
       const content = btn.nextElementSibling;
-      const icon = btn.querySelector('img');
+      // Older accordions use an <img> chevron; the topic, location and blog
+      // pages use an inline <svg class="faq-icon"> plus sign. Both need the
+      // rotate class or the indicator sits still while the panel opens.
+      const icon = btn.querySelector('img, svg.faq-icon');
       if (content && content.classList.contains('transition-all')) {
         const isHidden = content.classList.contains('max-h-0');
         if (isHidden) {
