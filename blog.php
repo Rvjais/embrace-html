@@ -383,6 +383,17 @@
           <h2 class="text-2xl md:text-3xl font-bold text-[#1e293b] mb-8">Latest articles</h2>
 
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            <a class="post-card" href="/blog/marriage-counselling-myths-delhi">
+              <span class="post-card__tag">Couples &amp; Marriage</span>
+              <h3 class="post-card__title">5 Myths About Couples Therapy That Stop Delhi Couples From Seeking Help</h3>
+              <p class="post-card__excerpt">Is counselling only for marriages that are ending? Will the therapist take sides? The five beliefs that cause most of the delay, answered honestly.</p>
+              <div class="post-card__meta">
+                <span>28 August 2026</span>
+                <span>&middot;</span>
+                <span>Reviewed by Dr. Supriya Malik</span>
+              </div>
+              <span class="post-card__more">Read the article &rsaquo;</span>
+            </a>
             <a class="post-card" href="/blog/symptoms-of-adhd-in-adulthood">
               <span class="post-card__tag">ADHD</span>
               <h3 class="post-card__title">Adult ADHD Symptoms That Get Mistaken for &lsquo;Disorganised&rsquo; or &lsquo;Lazy&rsquo;</h3>
