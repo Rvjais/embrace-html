@@ -39,10 +39,19 @@ function collect(dir, out = []) {
   return out;
 }
 
-/** `about.php` -> `/about`; `index.php` -> `/`; `locations/index.php` -> `/locations` */
+/**
+ * `about.php` -> `/about`; `index.php` -> `/`; `blog/index.php` -> `/blog/`.
+ *
+ * A page at `<dir>/index.php` keeps its trailing slash. embracelives.com runs
+ * on nginx, which 301s `/<dir>` to `/<dir>/` the moment the directory exists,
+ * so the slashless form is a redirect and never the address that serves the
+ * page. Pointing a canonical at it tells Google the real version of the page
+ * lives somewhere that immediately bounces back here.
+ */
 function canonicalFor(rel) {
   if (rel === 'index.php') return BASE + '/';
-  return BASE + '/' + rel.replace(/\/index\.php$/, '').replace(/\.php$/, '');
+  if (rel.endsWith('/index.php')) return BASE + '/' + rel.replace(/index\.php$/, '');
+  return BASE + '/' + rel.replace(/\.php$/, '');
 }
 
 let canonFixed = 0, ogFixed = 0, canonMissing = [], ogMissing = [], unchanged = 0;

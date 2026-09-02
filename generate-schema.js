@@ -77,7 +77,8 @@ const SERVICES = [
 /* ------------------------------------------------------------- page walking */
 
 const SKIP_DIRS = new Set(['node_modules', 'dist', '.git', 'api', 'components', '_external', 'assets', 'assets_backup', 'practitioner-images', 'practitioner-images_backup', 'embrace-media', 'videos', '__pycache__']);
-const SKIP_FILES = new Set(['build.php']);
+// blog.php is a bare 301 stub pointing at /blog/; it has no markup to describe.
+const SKIP_FILES = new Set(['build.php', 'blog.php']);
 
 function walk(dir, out = []) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -92,9 +93,13 @@ function walk(dir, out = []) {
   return out;
 }
 
-const urlFor = rel => rel === 'index.php'
-  ? `${BASE}/`
-  : `${BASE}/` + rel.replace(/\/index\.php$/, '').replace(/\.php$/, '');
+// A page at `<dir>/index.php` is served at `/<dir>/`, slash included: nginx
+// 301s `/<dir>` to `/<dir>/` as soon as the directory exists, so the slashless
+// form is only ever a redirect.
+const urlFor = rel =>
+  rel === 'index.php' ? `${BASE}/`
+  : rel.endsWith('/index.php') ? `${BASE}/` + rel.replace(/index\.php$/, '')
+  : `${BASE}/` + rel.replace(/\.php$/, '');
 
 /** Turn an internal href from the markup into the site's clean URL form. */
 function cleanHref(href) {
@@ -228,13 +233,13 @@ const PAGE_TYPE_OVERRIDES = {
   'privacypolicy.php': 'WebPage',
   'terms_and_conditions.php': 'WebPage',
   'bookingandCancellation.php': 'WebPage',
-  // The blog hub lives at blog.php, not blog/index.php, so its URL is /blog
-  // with no index segment. The blog/ directory beside it holds the articles.
-  'blog.php': 'CollectionPage',
+  // The blog hub is blog/index.php, served at /blog/. The rest of the blog/
+  // directory holds the articles.
+  'blog/index.php': 'CollectionPage',
 };
 
-/** Articles under blog/. The hub itself (blog.php) is not one of them. */
-const isBlogPost = rel => rel.startsWith('blog/');
+/** Articles under blog/. The hub itself (blog/index.php) is not one of them. */
+const isBlogPost = rel => rel.startsWith('blog/') && rel !== 'blog/index.php';
 
 function pageTypeFor(rel) {
   if (PAGE_TYPE_OVERRIDES[rel]) return PAGE_TYPE_OVERRIDES[rel];

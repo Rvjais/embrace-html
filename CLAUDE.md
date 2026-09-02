@@ -11,30 +11,45 @@ form.
 
 | Correct | Wrong |
 |---|---|
-| `/blog` | `/blog.php`, `/blog/index.php`, `/blog/` |
+| `/blog/` | `/blog.php`, `/blog/index.php`, `/blog` |
 | `/blog/symptoms-of-adhd-in-adulthood` | `/blog/symptoms-of-adhd-in-adulthood.php` |
 | `/adhd/adhd-symptoms` | `/adhd/adhd-symptoms.php` |
+
+**The production server is nginx, not Apache.** `.htaccess` is read by nobody.
+Anything the clean URL scheme needs must therefore hold under nginx's own
+`try_files` behaviour, and the one rule that matters is: **when a directory
+exists, nginx 301s `/<dir>` to `/<dir>/` before any other handler sees the
+request.** A section hub whose name collides with a directory is only ever
+reachable at the trailing-slash form.
 
 Rules for new pages:
 
 1. **Write `href` values extensionless from the start.** Do not add `.php` and rely
    on the build to strip it. `build.js` does strip it, and `clean-urls.js` can
    retrofit a whole tree, but source and output should already agree.
-2. **A section hub goes at `<section>.php` in the repo root, not `<section>/index.php`.**
-   `blog.php` serves `/blog`; the `blog/` directory beside it holds the articles at
-   `/blog/<slug>`. This keeps `index` out of the URL entirely.
-   - Older hubs (`locations/index.php`, `resources/index.php`) predate this rule.
-     They resolve to `/locations` and `/resources` correctly, so leave them alone,
-     but do not copy the pattern for anything new.
-   - A root-level hub sitting beside a same-named directory needs the `.htaccess`
-     rewrite to test for the `.php` file *without* a `!-d` directory guard, or
-     Apache hands the request to `DirectoryIndex` and the hub 404s. That fix is
-     already in `.htaccess`; do not reintroduce the guard.
+2. **A section hub with child pages goes at `<section>/index.php`, and its URL keeps
+   the trailing slash.** `blog/index.php` serves `/blog/`; the articles beside it
+   are at `/blog/<slug>`. `locations/index.php` and `resources/index.php` follow
+   the same shape.
+   - A root-level `<section>.php` sitting beside a `<section>/` directory does
+     **not** work here. nginx redirects `/<section>` to `/<section>/` because the
+     directory exists, then serves that directory's index; the root-level hub is
+     never consulted. This is exactly how `/blog` broke: it 301'd to `/blog/`,
+     which 403'd for want of an index file, leaving the hub reachable only at the
+     `/blog.php` the clean URL rule forbids.
+   - `blog.php` now survives only as a 301 stub to `/blog/`, and is excluded from
+     `build.js`, `generate-schema.js` and `generate-sitemap.js`.
+   - A hub with **no** child directory still lives at `<page>.php` and has no
+     trailing slash: `/about`, `/contact-us`, `/faq`.
 3. **PHP `include` paths keep their `.php` extension.** Those are resolved on disk by
    PHP, not by the web server. `<?php include __DIR__ . '/components/header.php'; ?>`
    is correct and must not be cleaned.
-4. **Canonical, `og:url` and breadcrumb hrefs must match the clean URL exactly**, with
-   no trailing slash. `.htaccess` 301s trailing slashes away.
+4. **Canonical, `og:url`, breadcrumb hrefs and sitemap entries must match the URL
+   that actually returns 200** — trailing slash for a `<dir>/index.php` hub, no
+   trailing slash for everything else. `generate-canonicals.js`,
+   `generate-schema.js` and `generate-sitemap.js` all encode this same rule; if you
+   change one, change all three. A canonical pointing at a URL that redirects tells
+   Google the real version of the page is somewhere it is not.
 5. Slugs are lowercase, hyphen-separated, and match the page's primary keyword.
 
 Verify before committing:
@@ -63,12 +78,13 @@ New pages are picked up automatically by both generators. Add a page to `HUB_PAG
 
 ## Blog
 
-- Hub: `blog.php` at repo root, URL `/blog`.
+- Hub: `blog/index.php`, URL `/blog/` (trailing slash — see the Clean URL rule).
 - Articles: `blog/<slug>.php`, URL `/blog/<slug>`.
+- `blog.php` at the repo root is a 301 stub only. Do not add content to it.
 - Every article carries an `article:published_time` meta tag and a visible
   `.author-card` block. `generate-schema.js` reads both to build the `BlogPosting`
   node, including `reviewedBy`. Omit either and the schema silently loses that field.
-- Add each new post to the card grid in `blog.php`; nothing auto-generates that list.
+- Add each new post to the card grid in `blog/index.php`; nothing auto-generates that list.
 - Nav entry for the blog lives in `components/header.php`, in both the desktop
   `emb-nav__item` list and the `#mobile-menu` panel.
 

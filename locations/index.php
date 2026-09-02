@@ -7,9 +7,9 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="Find eMbrace psychology and therapy services near you: child psychologists, autism and ADHD assessments, speech and occupational therapy across Delhi NCR." name="description"/>
 <meta content="index, follow" name="robots"/>
-<link href="https://embracelives.com/locations" rel="canonical"/>
+<link href="https://embracelives.com/locations/" rel="canonical"/>
 <meta content="website" property="og:type"/>
-<meta content="https://embracelives.com/locations" property="og:url"/>
+<meta content="https://embracelives.com/locations/" property="og:url"/>
 <meta content="Psychology &amp; Therapy Locations Across Delhi NCR | eMbrace" property="og:title"/>
 <meta content="Find eMbrace psychology, assessment and therapy services near you across Delhi, South Delhi, Gurgaon and Noida." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
@@ -319,7 +319,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://embracelives.com/locations#breadcrumb",
+      "@id": "https://embracelives.com/locations/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -336,8 +336,8 @@
     },
     {
       "@type": "CollectionPage",
-      "@id": "https://embracelives.com/locations#webpage",
-      "url": "https://embracelives.com/locations",
+      "@id": "https://embracelives.com/locations/#webpage",
+      "url": "https://embracelives.com/locations/",
       "name": "Psychology & Therapy Locations Across Delhi NCR | eMbrace",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
@@ -348,7 +348,7 @@
       "inLanguage": "en-IN",
       "description": "Find eMbrace psychology and therapy services near you: child psychologists, autism and ADHD assessments, speech and occupational therapy across Delhi NCR.",
       "breadcrumb": {
-        "@id": "https://embracelives.com/locations#breadcrumb"
+        "@id": "https://embracelives.com/locations/#breadcrumb"
       }
     }
   ]

@@ -76,7 +76,10 @@ function component(name) {
 const INCLUDE_RE = /<\?php\s+include\s+__DIR__\s*\.\s*'(?:\/\.\.)*\/components\/([A-Za-z0-9_-]+)\.php';\s*\?>/g;
 
 for (const file of phpFiles) {
+    // blog.php is a PHP-only 301 stub for the old hub URL. It has no markup,
+    // and the string-substitution build below cannot execute its redirect.
     if (file === __filename || file.endsWith('build.php')) continue;
+    if (path.relative(__dirname, file) === 'blog.php') continue;
     
     let content = fs.readFileSync(file, 'utf8');
     

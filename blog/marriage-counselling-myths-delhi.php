@@ -349,7 +349,7 @@
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://embracelives.com/blog"
+            "item": "https://embracelives.com/blog/"
           },
           {
             "@type": "ListItem",
@@ -483,7 +483,7 @@
         <div class="max-w-7xl mx-auto flex items-center gap-2 flex-wrap">
           <a class="hover:text-[#234394]" href="/">Home</a>
           <span>/</span>
-          <a class="hover:text-[#234394]" href="/blog">Blog</a>
+          <a class="hover:text-[#234394]" href="/blog/">Blog</a>
           <span>/</span>
           <span class="text-gray-800 font-medium">5 Myths About Couples Therapy</span>
         </div>

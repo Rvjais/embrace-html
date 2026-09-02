@@ -2,22 +2,20 @@
     RewriteEngine On
     RewriteBase /
 
-    # Redirect trailing slashes. The second condition covers hub pages such as
-    # /blog/, where a blog/ directory of child pages sits beside the blog.php
-    # that serves the hub itself; without it that URL keeps its trailing slash
-    # and splits from the canonical.
-    RewriteCond %{REQUEST_FILENAME} !-d [OR]
-    RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+    # Strip trailing slashes, but never from a real directory. Section hubs are
+    # served by <section>/index.php and canonicalised WITH the slash (/blog/,
+    # /locations/, /resources/), because nginx — the actual production server —
+    # 301s /<section> to /<section>/ whenever the directory exists. Stripping the
+    # slash here would fight that redirect and loop.
+    RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)/$ /$1 [L,R=301]
 
-    # Handle Front Controller / Clean PHP URLs.
+    # Handle Front Controller / Clean PHP URLs: /about -> about.php.
     #
-    # The .php file check runs without a "not a directory" guard on purpose. A
-    # hub page like /blog must resolve to blog.php even though a blog/ directory
-    # of child articles exists; with the guard in place the directory would win
-    # and the hub would fall through to DirectoryIndex, which has no index file.
-    # The rule still only fires when the matching .php file genuinely exists, so
-    # directories without a same-named page are unaffected.
+    # The !-d guard matters. A request for /blog must reach the blog/ directory
+    # and its index.php, not a same-named .php file at the root; blog.php is only
+    # a 301 stub for the retired /blog.php URL and must never serve the hub.
+    RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME}\.php -f
     RewriteRule ^(.*)$ $1.php [L,QSA]
 </IfModule>

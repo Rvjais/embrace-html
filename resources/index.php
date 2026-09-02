@@ -6,9 +6,9 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="Three free clinician-built screeners: child milestones, ADHD and autism early signs, and adult stress and burnout. Instant results, no sign-up needed." name="description"/>
 <meta content="index, follow" name="robots"/>
-<link href="https://embracelives.com/resources" rel="canonical"/>
+<link href="https://embracelives.com/resources/" rel="canonical"/>
 <meta content="website" property="og:type"/>
-<meta content="https://embracelives.com/resources" property="og:url"/>
+<meta content="https://embracelives.com/resources/" property="og:url"/>
 <meta content="Free Mental Health Tools &amp; Screeners | eMbrace Delhi" property="og:title"/>
 <meta content="Three free clinician-built screeners: child milestones, ADHD and autism early signs, and adult stress and burnout. Instant results, no sign-up needed." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
@@ -303,8 +303,8 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://embracelives.com/resources#webpage",
-      "url": "https://embracelives.com/resources",
+      "@id": "https://embracelives.com/resources/#webpage",
+      "url": "https://embracelives.com/resources/",
       "name": "Free Mental Health Tools & Screeners | eMbrace Delhi",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"

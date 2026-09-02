@@ -22,6 +22,8 @@ const SKIP_DIRS = new Set(['node_modules', 'dist', '.git', 'api', 'components', 
 // email step is pointless.
 const SKIP_FILES = new Set([
   'build.php', 'thank-you.php', 'appointment__confirmation.php',
+  // A bare 301 stub redirecting the old /blog.php to the hub at /blog/.
+  'blog.php',
   'resources/guides/child-milestone-guide.php',
   'resources/guides/adhd-autism-next-steps.php',
   'resources/guides/7-day-reset-plan.php',
@@ -36,7 +38,7 @@ const HUB_PAGES = new Set([
   'learning-disabilities/learning-disabilities.php',
   'child-psychology/child-psychologist.php', 'parent-hub/parents.php',
   'schools-hub/schools.php', 'corporate-wellness/corporate-wellness.php',
-  'locations/index.php', 'resources/index.php', 'blog.php',
+  'locations/index.php', 'resources/index.php', 'blog/index.php',
   'resources/child-milestone-checker.php', 'resources/adhd-autism-screener.php',
   'resources/adult-stress-check.php',
   // Child development services. These are the canonical target for each service
@@ -63,10 +65,18 @@ function collect(dir, out = []) {
   return out;
 }
 
-/** `about.php` -> `/about`; `index.php` -> `/`; `locations/index.php` -> `/locations` */
+/**
+ * `about.php` -> `/about`; `index.php` -> `/`; `blog/index.php` -> `/blog/`.
+ *
+ * A `<dir>/index.php` hub keeps its trailing slash, because that is the only
+ * form the server answers with a 200. nginx 301s `/<dir>` to `/<dir>/` whenever
+ * the directory exists, and a sitemap should list the destination, not the
+ * redirect.
+ */
 function toUrl(rel) {
   if (rel === 'index.php') return '/';
-  return '/' + rel.replace(/\/index\.php$/, '').replace(/\.php$/, '');
+  if (rel.endsWith('/index.php')) return '/' + rel.replace(/index\.php$/, '');
+  return '/' + rel.replace(/\.php$/, '');
 }
 
 function priorityFor(rel) {
