@@ -383,6 +383,17 @@
           <h2 class="text-2xl md:text-3xl font-bold text-[#1e293b] mb-8">Latest articles</h2>
 
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            <a class="post-card" href="/blog/early-signs-of-autism-in-toddlers-mchat">
+              <span class="post-card__tag">Autism</span>
+              <h3 class="post-card__title">Early Signs of Autism in Toddlers: The M-CHAT Checklist Explained</h3>
+              <p class="post-card__excerpt">Eye contact is one question out of twenty. What the screener your paediatrician uses actually asks, and what a positive score does and does not mean.</p>
+              <div class="post-card__meta">
+                <span>3 September 2026</span>
+                <span>&middot;</span>
+                <span>Reviewed by Dr. Supriya Malik</span>
+              </div>
+              <span class="post-card__more">Read the article &rsaquo;</span>
+            </a>
             <a class="post-card" href="/blog/marriage-counselling-myths-delhi">
               <span class="post-card__tag">Couples &amp; Marriage</span>
               <h3 class="post-card__title">5 Myths About Couples Therapy That Stop Delhi Couples From Seeking Help</h3>
