@@ -383,6 +383,17 @@
           <h2 class="text-2xl md:text-3xl font-bold text-[#1e293b] mb-8">Latest articles</h2>
 
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            <a class="post-card" href="/blog/adhd-in-girls-diagnosed-later">
+              <span class="post-card__tag">ADHD</span>
+              <h3 class="post-card__title">ADHD in Girls: Why It Is Diagnosed Years Later Than in Boys</h3>
+              <p class="post-card__excerpt">She does not have to be hyperactive to have ADHD. Why the brightest, best behaved girls are the ones most likely to be missed, and when to ask for an assessment.</p>
+              <div class="post-card__meta">
+                <span>7 September 2026</span>
+                <span>&middot;</span>
+                <span>Reviewed by Dr. Supriya Malik</span>
+              </div>
+              <span class="post-card__more">Read the article &rsaquo;</span>
+            </a>
             <a class="post-card" href="/blog/early-signs-of-autism-in-toddlers-mchat">
               <span class="post-card__tag">Autism</span>
               <h3 class="post-card__title">Early Signs of Autism in Toddlers: The M-CHAT Checklist Explained</h3>
