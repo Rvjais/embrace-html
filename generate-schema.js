@@ -491,6 +491,10 @@ for (const rel of walk(ROOT).sort()) {
   const full = path.join(ROOT, rel);
   let html = fs.readFileSync(full, 'utf8');
 
+  // Scheduled articles use the shared runtime renderer, which owns their
+  // visible FAQ and JSON-LD. They intentionally have no literal </head> here.
+  if (html.includes('scheduled-blog-renderer.php') || rel === 'sitemap-blog.php') continue;
+
   // Drop any previously generated block first so the legacy sweep cannot eat it.
   html = html.replace(MARKER_RE, '');
 

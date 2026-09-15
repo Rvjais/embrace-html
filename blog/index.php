@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . '/../components/publish-gate.php';
+$scheduledPosts = require __DIR__ . '/../components/scheduled-blog-catalog.php';
+?>
 <!doctype html>
 <html lang="en-IN">
   <head>
@@ -383,6 +387,18 @@
           <h2 class="text-2xl md:text-3xl font-bold text-[#1e293b] mb-8">Latest articles</h2>
 
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            <?php foreach ($scheduledPosts as $post): ?>
+              <?php if (embrace_is_published($post['date'])): ?>
+                <?php $postDate = DateTimeImmutable::createFromFormat('!Y-m-d', $post['date'], embrace_publication_timezone()); ?>
+                <a class="post-card" href="/blog/<?= htmlspecialchars($post['slug']) ?>">
+                  <span class="post-card__tag"><?= $post['tag'] ?></span>
+                  <h3 class="post-card__title"><?= $post['title'] ?></h3>
+                  <p class="post-card__excerpt"><?= $post['excerpt'] ?></p>
+                  <div class="post-card__meta"><span><?= $postDate->format('j F Y') ?></span><span>&middot;</span><span>Reviewed by Dr. Supriya Malik</span></div>
+                  <span class="post-card__more">Read the article &rsaquo;</span>
+                </a>
+              <?php endif; ?>
+            <?php endforeach; ?>
             <a class="post-card" href="/blog/speech-delay-vs-autism">
               <span class="post-card__tag">Autism</span>
               <h3 class="post-card__title">Speech Delay or Autism? How to Tell the Difference Before You Panic</h3>

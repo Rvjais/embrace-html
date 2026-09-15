@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 
 console.log("Starting static build via Node.js...");
 
@@ -37,7 +38,7 @@ for (const folder of staticFolders) {
     }
 }
 
-['Favicon.png', 'og-image.png', 'Logo.svg', 'robots.txt', 'sitemap.xml'].forEach(file => {
+['Favicon.png', 'og-image.png', 'Logo.svg', 'robots.txt', 'sitemap.xml', 'sitemap-pages.xml'].forEach(file => {
     if (fs.existsSync(path.join(__dirname, file))) {
         fs.copyFileSync(path.join(__dirname, file), path.join(outDir, file));
     }
@@ -80,8 +81,24 @@ for (const file of phpFiles) {
     // and the string-substitution build below cannot execute its redirect.
     if (file === __filename || file.endsWith('build.php')) continue;
     if (path.relative(__dirname, file) === 'blog.php') continue;
+    if (path.relative(__dirname, file) === 'sitemap-blog.php') continue;
     
     let content = fs.readFileSync(file, 'utf8');
+
+    // Static output cannot enforce future release dates at request time. Do not
+    // emit a future article into dist; production PHP publishes it automatically.
+    const gate = content.match(/embrace_require_published\('(\d{4}-\d{2}-\d{2})'\)/);
+    if (gate) {
+        const today = new Intl.DateTimeFormat('en-CA', {
+            timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit'
+        }).format(new Date());
+        if (gate[1] > today) continue;
+    }
+
+    const relativePath = path.relative(__dirname, file);
+    if (gate || relativePath === path.join('blog', 'index.php')) {
+        content = execFileSync('php', [file], { encoding: 'utf8' });
+    }
     
     // Inline every component include, at any directory depth
     content = content.replace(INCLUDE_RE, (match, name) => component(name));
@@ -97,7 +114,6 @@ for (const file of phpFiles) {
     
     // Fix asset paths if they use leading slash incorrectly (Vercel resolves them anyway, but just in case)
     
-    const relativePath = path.relative(__dirname, file);
     const outFilePath = path.join(outDir, relativePath).replace(/\.php$/, '.html');
     
     const outDirName = path.dirname(outFilePath);

@@ -59,6 +59,10 @@ function collect(dir, out = []) {
     } else if (entry.name.endsWith('.php')) {
       const rel = path.relative(ROOT, full).split(path.sep).join('/');
       if (SKIP_FILES.has(rel) || SKIP_FILES.has(entry.name)) continue;
+      // Blog articles live in a date-aware PHP sitemap so future posts are not
+      // disclosed before publication. Keep only the blog hub in this static map.
+      if (rel.startsWith('blog/') && rel !== 'blog/index.php') continue;
+      if (rel === 'sitemap-blog.php') continue;
       out.push(rel);
     }
   }
@@ -109,13 +113,26 @@ const body = pages.map(rel => {
   ].join('\n');
 }).join('\n');
 
-const xml = `<?xml version="1.0" encoding="UTF-8"?>
+const pagesXml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${body}
 </urlset>
 `;
 
-fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), xml);
+fs.writeFileSync(path.join(ROOT, 'sitemap-pages.xml'), pagesXml);
+
+const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>${BASE}/sitemap-pages.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>${BASE}/sitemap-blog</loc>
+  </sitemap>
+</sitemapindex>
+`;
+
+fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemapIndex);
 
 const locationCount = pages.filter(p => p.startsWith('locations/')).length;
-console.log(`sitemap.xml written: ${pages.length} URLs (${locationCount} location pages).`);
+console.log(`sitemap index and sitemap-pages.xml written: ${pages.length} static URLs (${locationCount} location pages).`);
