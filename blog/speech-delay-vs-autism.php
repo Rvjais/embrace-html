@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    <link href="/Favicon.png" rel="icon" type="image/svg+xml" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Speech delay does not automatically mean autism. Learn which social, communication, play, and behaviour signs to notice and when to seek an evaluation." name="description" />
+    <meta content="index, follow" name="robots" />
+    <link href="https://embracelives.com/blog/speech-delay-vs-autism" rel="canonical" />
+    <meta content="article" property="og:type" />
+    <meta content="https://embracelives.com/blog/speech-delay-vs-autism" property="og:url" />
+    <meta content="Speech Delay vs Autism: Signs Parents Should Notice" property="og:title" />
+    <meta content="Speech delay does not automatically mean autism. Learn which social, communication, play, and behaviour signs to notice and when to seek an evaluation." property="og:description" />
+    <meta content="https://embracelives.com/og-image.png" property="og:image" />
+    <meta content="eMbrace Lives" property="og:site_name" />
+    <meta content="en_IN" property="og:locale" />
+    <meta content="2026-09-15" property="article:published_time" />
+    <meta content="Autism Spectrum Disorder" property="article:section" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="Speech Delay vs Autism: Signs Parents Should Notice" name="twitter:title" />
+    <meta content="Speech delay does not automatically mean autism. Learn which social, communication, play, and behaviour signs to notice and when to seek an evaluation." name="twitter:description" />
+    <meta content="https://embracelives.com/og-image.png" name="twitter:image" />
+    <title>Speech Delay vs Autism: Signs Parents Should Notice</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="/_external/fonts.googleapis.com/css2_4d2f350a.css" rel="stylesheet" />
+    <link href="/assets/index-B-kGA3UA.css" rel="stylesheet" />
+    <style>
+      .breadcrumbs { background: linear-gradient(to right, #f8fafc, #f1f5f9); }
+      .breadcrumbs a { color: #234394; transition: color 0.2s; }
+      .breadcrumbs a:hover { color: #1a1a2e; text-decoration: underline; }
+      .article-content h2 { color: #1e293b; font-weight: 800; font-size: 1.65rem; margin-top: 2.5rem; margin-bottom: 0.75rem; letter-spacing: -0.02em; }
+      .article-content h3 { color: #334155; font-weight: 700; font-size: 1.25rem; margin-top: 2rem; margin-bottom: 0.5rem; }
+      .article-content p { color: #475569; line-height: 1.8; margin-bottom: 1.25rem; font-size: 1rem; }
+      .article-content a { color: #234394; font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+      .article-content a:hover { color: #1a1a2e; }
+      .article-content ul { list-style: none; padding-left: 0; margin-bottom: 1.5rem; }
+      .article-content ul li { position: relative; padding-left: 1.75rem; margin-bottom: 0.9rem; color: #475569; line-height: 1.7; }
+      .article-content ul li::before { content: "\25B8"; position: absolute; left: 0; color: #234394; font-weight: 700; }
+      .article-content li strong { color: #1e293b; }
+      .author-card { display: flex; align-items: center; gap: 1rem; background: #F9FBFF; border: 1px solid #E0E6F0; border-radius: 1.25rem; padding: 1.25rem 1.5rem; margin-bottom: 2rem; }
+      .author-card img { width: 3.5rem; height: 3.5rem; border-radius: 9999px; object-fit: cover; flex-shrink: 0; }
+      .author-card .meta { font-size: 0.8rem; color: #64748b; line-height: 1.6; }
+      .author-card .meta strong { color: #234394; display: block; font-size: 0.9rem; }
+      .callout-card { background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%); border: 1px solid #c7d2fe; border-radius: 1.5rem; padding: 2rem; margin: 2rem 0; }
+      .callout-card h3 { margin-top: 0 !important; }
+      .safety-card { background: #FFF7ED; border: 1px solid #FED7AA; border-left: 4px solid #F59E0B; border-radius: 1rem; padding: 1.5rem; margin: 2rem 0; }
+      .safety-card p { margin-bottom: 0; font-size: 0.95rem; }
+      .faq-item { border-bottom: 1px solid #e2e8f0; transition: background 0.2s; }
+      .faq-item:hover { background: #f8fafc; }
+      .faq-item button { padding: 1.25rem 1rem; border-radius: 0.75rem; }
+      .faq-icon { transition: transform 0.3s ease; width: 1.5rem; height: 1.5rem; flex-shrink: 0; }
+      .faq-icon.open { transform: rotate(45deg); }
+      .cta-card { background: linear-gradient(135deg, #fef9e7 0%, #fef3c7 50%, #fff8e1 100%); border: 1px solid #fde68a; border-radius: 2rem; padding: 2.5rem 2rem; text-align: center; }
+      .hero-tag { background: linear-gradient(135deg, #234394, #1e3a8a) !important; color: white !important; }
+    </style>
+    <link href="/assets/lead-magnets.css" rel="stylesheet" />
+  <!-- SCHEMA:START (generated by generate-schema.js — do not edit by hand) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ImageObject",
+        "@id": "https://embracelives.com/#logo",
+        "url": "https://embracelives.com/assets/Logo-DrHvIBUF.svg",
+        "contentUrl": "https://embracelives.com/assets/Logo-DrHvIBUF.svg",
+        "caption": "eMbrace"
+      },
+      {
+        "@type": [
+          "MedicalBusiness",
+          "MedicalOrganization"
+        ],
+        "@id": "https://embracelives.com/#organization",
+        "name": "eMbrace",
+        "alternateName": "eMbrace Lives",
+        "legalName": "eMbrace, a unit of SMD Wellness",
+        "url": "https://embracelives.com/",
+        "logo": {
+          "@id": "https://embracelives.com/#logo"
+        },
+        "image": {
+          "@id": "https://embracelives.com/#logo"
+        },
+        "description": "Psychology and mental health practice in Delhi NCR offering evidence-based therapy, assessments and neurodevelopmental care for children, adolescents and adults.",
+        "telephone": "+91-9971576800",
+        "email": "info@embracelives.com",
+        "priceRange": "$$",
+        "currenciesAccepted": "INR",
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Delhi NCR"
+          },
+          {
+            "@type": "Place",
+            "name": "Delhi"
+          },
+          {
+            "@type": "Place",
+            "name": "South Delhi"
+          },
+          {
+            "@type": "Place",
+            "name": "Saket"
+          },
+          {
+            "@type": "Place",
+            "name": "Hauz Khas"
+          },
+          {
+            "@type": "Place",
+            "name": "Green Park"
+          },
+          {
+            "@type": "Place",
+            "name": "Greater Kailash"
+          },
+          {
+            "@type": "Place",
+            "name": "Defence Colony"
+          },
+          {
+            "@type": "Place",
+            "name": "Vasant Kunj"
+          },
+          {
+            "@type": "Place",
+            "name": "Gurgaon"
+          },
+          {
+            "@type": "Place",
+            "name": "Noida"
+          }
+        ],
+        "medicalSpecialty": [
+          "Psychiatric",
+          "Pediatric"
+        ],
+        "availableService": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "Child Psychology"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Clinical Psychology"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Autism Assessment"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "ADHD Assessment"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Learning Disability Assessment"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Speech and Language Therapy"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Occupational Therapy"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Special Education"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Teen Counselling"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Adult Counselling"
+          },
+          {
+            "@type": "MedicalTherapy",
+            "name": "Couples Therapy"
+          }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C-7, Sector C, Pocket 5, Basement, Grand Vasant Kunj",
+          "addressLocality": "New Delhi",
+          "addressRegion": "Delhi",
+          "postalCode": "110070",
+          "addressCountry": "IN"
+        },
+        "location": [
+          {
+            "@type": "MedicalClinic",
+            "@id": "https://embracelives.com/contact-us#vasant-kunj",
+            "name": "eMbrace — Vasant Kunj Centre",
+            "parentOrganization": {
+              "@id": "https://embracelives.com/#organization"
+            },
+            "telephone": "+91-9971576800",
+            "email": "info@embracelives.com",
+            "url": "https://embracelives.com/contact-us",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "C-7, Sector C, Pocket 5, Basement, Grand Vasant Kunj",
+              "addressLocality": "New Delhi",
+              "addressRegion": "Delhi",
+              "postalCode": "110070",
+              "addressCountry": "IN"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "10:00",
+                "closes": "18:00"
+              }
+            ]
+          },
+          {
+            "@type": "MedicalClinic",
+            "@id": "https://embracelives.com/contact-us#gurugram",
+            "name": "eMbrace — Gurugram Centre",
+            "parentOrganization": {
+              "@id": "https://embracelives.com/#organization"
+            },
+            "telephone": "+91-9971576800",
+            "email": "info@embracelives.com",
+            "url": "https://embracelives.com/contact-us",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "710, Dlf City Court, Mehrauli-Gurgaon Rd, Nathupur, Sector 24",
+              "addressLocality": "Gurugram",
+              "addressRegion": "Haryana",
+              "postalCode": "122002",
+              "addressCountry": "IN"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "10:00",
+                "closes": "18:00"
+              }
+            ]
+          },
+          {
+            "@type": "MedicalClinic",
+            "@id": "https://embracelives.com/contact-us#malviya-nagar",
+            "name": "eMbrace — Malviya Nagar Centre",
+            "parentOrganization": {
+              "@id": "https://embracelives.com/#organization"
+            },
+            "telephone": "+91-9971576800",
+            "email": "info@embracelives.com",
+            "url": "https://embracelives.com/contact-us",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "FC-29, Plot No.5, Geetanjali, Near Malviya Nagar Metro Station Gate No.1",
+              "addressLocality": "New Delhi",
+              "addressRegion": "Delhi",
+              "postalCode": "110017",
+              "addressCountry": "IN"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "10:00",
+                "closes": "18:00"
+              }
+            ]
+          }
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "10:00",
+            "closes": "18:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/embracelives/",
+          "https://www.instagram.com/embracelives/",
+          "https://www.facebook.com/embracelives22/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://embracelives.com/#website",
+        "url": "https://embracelives.com/",
+        "name": "eMbrace",
+        "publisher": {
+          "@id": "https://embracelives.com/#organization"
+        },
+        "inLanguage": "en-IN"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://embracelives.com/blog/speech-delay-vs-autism#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://embracelives.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://embracelives.com/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Speech Delay vs Autism"
+          }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://embracelives.com/blog/speech-delay-vs-autism#webpage",
+        "url": "https://embracelives.com/blog/speech-delay-vs-autism",
+        "name": "Speech Delay vs Autism: Signs Parents Should Notice",
+        "isPartOf": {
+          "@id": "https://embracelives.com/#website"
+        },
+        "about": {
+          "@id": "https://embracelives.com/#organization"
+        },
+        "inLanguage": "en-IN",
+        "description": "Speech delay does not automatically mean autism. Learn which social, communication, play, and behaviour signs to notice and when to seek an evaluation.",
+        "breadcrumb": {
+          "@id": "https://embracelives.com/blog/speech-delay-vs-autism#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://embracelives.com/blog/speech-delay-vs-autism#article"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://embracelives.com/blog/speech-delay-vs-autism#faq",
+        "url": "https://embracelives.com/blog/speech-delay-vs-autism",
+        "name": "Speech Delay vs Autism: Signs Parents Should Notice — Frequently Asked Questions",
+        "isPartOf": {
+          "@id": "https://embracelives.com/blog/speech-delay-vs-autism#webpage"
+        },
+        "inLanguage": "en-IN",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can a child have a speech delay without autism?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Speech and language delays have several possible causes and can occur without autism. An assessment examines communication, understanding, hearing, play and overall development."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can an autistic toddler make eye contact?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Some autistic toddlers make eye contact. Clinicians assess the broader pattern, including gestures, shared attention, social interaction, play, routines and sensory responses."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "At what age should I worry if my toddler is not talking?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Raise concerns whenever they arise instead of waiting for a particular birthday. A paediatrician can review milestones and recommend hearing, language or developmental assessment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who can evaluate speech delay and autism?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Speech-language pathologists assess communication. Autism evaluations may involve developmental paediatricians, psychologists and other trained clinicians who consider development, behaviour and family observations together."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should bilingual parents stop using two languages?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Bilingualism does not cause a language disorder. Families should use the languages in which they communicate most naturally, unless an assessing professional advises otherwise."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": "https://embracelives.com/blog/speech-delay-vs-autism#article",
+        "isPartOf": {
+          "@id": "https://embracelives.com/blog/speech-delay-vs-autism#webpage"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://embracelives.com/blog/speech-delay-vs-autism#webpage"
+        },
+        "headline": "Speech Delay or Autism? How to Tell the Difference Before You Panic",
+        "url": "https://embracelives.com/blog/speech-delay-vs-autism",
+        "inLanguage": "en-IN",
+        "author": {
+          "@id": "https://embracelives.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://embracelives.com/#organization"
+        },
+        "image": "https://embracelives.com/og-image.png",
+        "description": "Speech delay does not automatically mean autism. Learn which social, communication, play, and behaviour signs to notice and when to seek an evaluation.",
+        "datePublished": "2026-09-15",
+        "dateModified": "2026-09-15",
+        "reviewedBy": {
+          "@type": "Person",
+          "name": "Dr. Supriya Malik",
+          "worksFor": {
+            "@id": "https://embracelives.com/#organization"
+          }
+        }
+      }
+    ]
+  }
+  </script>
+  <!-- SCHEMA:END -->
+  </head>
+  <body style="overflow: auto">
+    <div id="root">
+      <?php include __DIR__ . '/../components/header.php'; ?>
+
+      <div class="px-6 md:px-16 py-12 md:py-20 bg-gradient-to-b from-[#E7F7FF] to-white relative overflow-hidden flex items-center justify-center border-b border-[#E0E6F0]">
+        <div class="w-full max-w-4xl mx-auto text-center">
+          <span class="inline-block px-5 py-1.5 text-xs font-bold rounded-full hero-tag mb-5 tracking-wider uppercase shadow-sm">Autism</span>
+          <h1 class="text-3xl md:text-5xl font-extrabold text-[#234394] leading-tight mb-4">Speech Delay or Autism? How to Tell the Difference Before You Panic</h1>
+          <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto italic">Your toddler&rsquo;s word count is only one part of the communication picture.</p>
+        </div>
+      </div>
+
+      <div class="py-3 px-6 md:px-16 border-b border-gray-100 text-xs md:text-sm text-gray-500 breadcrumbs">
+        <div class="max-w-7xl mx-auto flex items-center gap-2 flex-wrap">
+          <a href="/">Home</a><span>/</span><a href="/blog/">Blog</a><span>/</span>
+          <span class="text-gray-800 font-medium">Speech Delay vs Autism</span>
+        </div>
+      </div>
+
+      <div class="px-6 md:px-16 py-12 bg-white">
+        <div class="max-w-3xl mx-auto article-content">
+          <div class="author-card">
+            <img loading="lazy" decoding="async" width="375" height="392" alt="Dr. Supriya Malik, Founder of eMbrace" src="/embrace-media/Dr%20Supriya%20Photos-20260806T082436Z-1-001/Dr%20Supriya%20Photos/supriyaProfile.png" />
+            <div class="meta"><strong>Reviewed by Dr. Supriya Malik</strong>Founder, eMbrace. 17+ years in psychology and developmental care.<br />Published 15 September 2026</div>
+          </div>
+
+          <p class="text-lg text-gray-700 leading-relaxed font-light">If your toddler is not talking yet, it does not automatically mean autism. A speech or language delay can occur on its own, while autism involves a broader pattern that includes differences in social communication and interaction, along with restricted or repetitive behaviours or interests.</p>
+
+          <p>That distinction can be hard to see at home. A child who cannot say what they want may become frustrated, play alone or appear not to listen. Those behaviours can resemble autism from a distance, but their meaning depends on the whole pattern. When professionals consider <strong>speech delay vs autism</strong>, they look beyond the number of words a child uses.</p>
+
+          <h2>What is a speech or language delay?</h2>
+
+          <p>A speech delay usually means a child is developing spoken sounds more slowly than expected. A language delay concerns how a child understands or uses words, gestures and sentences. A toddler may understand a request and communicate clearly with pointing or facial expression, yet have difficulty producing words. Another child may talk but struggle to understand what words mean.</p>
+
+          <p>The American Speech-Language-Hearing Association describes late language emergence as language beginning later than expected without another diagnosed developmental delay. Some late talkers catch up, while others continue to need support. At the beginning, no checklist can reliably tell a family which path an individual child will take.</p>
+
+          <p>Speech and language can also be affected by hearing differences, developmental language disorder or broader developmental differences. This is why a useful assessment considers understanding, gestures, play, social communication and hearing rather than treating a missed word milestone as a diagnosis.</p>
+
+          <h2>Speech delay vs autism: what differences matter?</h2>
+
+          <p>There is no single behaviour that cleanly separates the two. Autistic children can be affectionate, seek connection and make eye contact. Children with an isolated language delay can also become withdrawn or upset when communication is difficult. Look for patterns across everyday situations instead of testing your child in one stressful moment.</p>
+
+          <ul>
+            <li><strong>Interest in communicating:</strong> A late talker may compensate with pointing, sounds, facial expressions or leading you to what they want. An autistic toddler may communicate too, but their gestures can be less frequent, less conventional or used mainly to obtain something.</li>
+            <li><strong>Understanding language:</strong> Some children with an expressive delay understand far more than they can say. Difficulty following familiar instructions or recognising everyday words suggests receptive language should also be assessed.</li>
+            <li><strong>Shared attention:</strong> Notice whether your child points simply to show you something interesting, follows your point across the room or looks back to check that you noticed the same event.</li>
+            <li><strong>Play and imitation:</strong> Watch for copying actions, taking turns and early pretend play, such as feeding a doll. Differences here can be more informative than whether toys are played with in a particular order once or twice.</li>
+            <li><strong>Repetition, routines and sensory responses:</strong> Repeating movements, becoming very distressed by small changes or reacting unusually to sounds, textures, smells or tastes can form part of an autism pattern when they occur alongside social-communication differences.</li>
+          </ul>
+
+          <p>One sign can have several explanations. A child may not respond to their name because they are absorbed in play, do not understand the situation or cannot hear it clearly. The Centers for Disease Control and Prevention specifically notes that hearing loss can affect speech, language and social development. A hearing check is therefore a routine and important part of investigating delayed communication.</p>
+
+          <h2>Why joint attention tells you more than eye contact</h2>
+
+          <p>Joint attention means sharing focus on the same thing with another person. Imagine your toddler sees an aeroplane, points towards it, then looks back at you as if to say, &ldquo;Did you see that too?&rdquo; No spoken word is required. The child is inviting you into their experience.</p>
+
+          <p>This is more useful to notice than prolonged eye contact. Eye contact varies with temperament, culture, tiredness and the demands of the moment. Joint attention asks a broader question: does your child naturally coordinate attention between a person and an object or event?</p>
+
+          <p>Examples include bringing you a toy just to show it, following where you point, looking towards a sound and then checking your reaction, or trying to share enjoyment during a game. The American Academy of Pediatrics identifies delays in joint attention as an important early developmental difference associated with autism.</p>
+
+          <div class="callout-card">
+            <h3>Try observing, not testing</h3>
+            <p>For one week, note what your child does spontaneously during play, meals and outings. Record gestures, responses to language, shared enjoyment and any words used. Natural examples give a clinician more useful information than repeatedly asking your child to perform.</p>
+          </div>
+
+          <h2>Signs that deserve a developmental conversation</h2>
+
+          <p>Development varies, and a list on the internet cannot diagnose a child. It is still worth speaking to a paediatrician or developmental professional if you notice a cluster of concerns, including:</p>
+
+          <ul>
+            <li>few gestures, such as pointing, waving or showing objects;</li>
+            <li>limited response to their name across different settings;</li>
+            <li>difficulty understanding familiar words or simple directions;</li>
+            <li>little interest in sharing enjoyment, attention or play with others;</li>
+            <li>repetitive movements, intense routines or marked sensory responses alongside communication differences;</li>
+            <li>loss of words, gestures, social engagement or another skill previously used.</li>
+          </ul>
+
+          <p>Loss of an acquired skill deserves prompt professional attention. For other concerns, you do not need to wait until several milestones have been missed. The CDC advises parents to talk with their child&rsquo;s doctor whenever they are concerned about development.</p>
+
+          <p>Sensory differences may also show up around textures, smells and mealtimes. If food refusal or a very narrow range of accepted foods is part of the wider picture, read about <a href="/autism/autism-and-feeding">autism, feeding and selective eating</a>. Feeding behaviour does not diagnose autism, but it is useful information to share during an assessment.</p>
+
+          <div class="safety-card">
+            <p><strong>Important:</strong> autism cannot be confirmed or ruled out from speech alone. Online articles and screeners can organise your observations, but diagnosis requires a comprehensive evaluation by qualified professionals.</p>
+          </div>
+
+          <h2>What parents can do next</h2>
+
+          <p>Start by writing down what concerns you, when you first noticed it and examples from ordinary routines. Include what your child understands, how they request help, whether they point to share, how they play and how they respond to people. Short videos from natural interactions may help if your clinician agrees to review them.</p>
+
+          <p>Discuss the pattern with your child&rsquo;s paediatrician. Ask whether a hearing evaluation, speech and language assessment or broader developmental screening is appropriate. A speech-language pathologist can assess speech sounds, expressive language, understanding and social communication. Where autism is a possibility, a multidisciplinary developmental evaluation may be recommended.</p>
+
+          <p>You do not need to wait for a final diagnosis before addressing an identified communication need. Support should follow the child&rsquo;s profile, whether the eventual explanation is an isolated language delay, autism, hearing loss or something else. At home, keep communication warm and low pressure: follow your child&rsquo;s interests, comment on what they are doing, pause for a response and treat gestures or sounds as meaningful attempts to connect.</p>
+
+          <h2>Frequently Asked Questions</h2>
+          <div class="space-y-2 mb-8">
+            <div class="faq-item"><button class="w-full text-left flex justify-between items-center faq-btn"><span class="font-semibold text-base md:text-lg text-[#234394]">Can a child have a speech delay without autism?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button><div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden"><p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Yes. Speech and language delays have several possible causes and can occur without autism. An assessment examines communication, understanding, hearing, play and overall development.</p></div></div>
+            <div class="faq-item"><button class="w-full text-left flex justify-between items-center faq-btn"><span class="font-semibold text-base md:text-lg text-[#234394]">Can an autistic toddler make eye contact?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button><div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden"><p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Yes. Some autistic toddlers make eye contact. Clinicians assess the broader pattern, including gestures, shared attention, social interaction, play, routines and sensory responses.</p></div></div>
+            <div class="faq-item"><button class="w-full text-left flex justify-between items-center faq-btn"><span class="font-semibold text-base md:text-lg text-[#234394]">At what age should I worry if my toddler is not talking?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button><div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden"><p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Raise concerns whenever they arise instead of waiting for a particular birthday. A paediatrician can review milestones and recommend hearing, language or developmental assessment.</p></div></div>
+            <div class="faq-item"><button class="w-full text-left flex justify-between items-center faq-btn"><span class="font-semibold text-base md:text-lg text-[#234394]">Who can evaluate speech delay and autism?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button><div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden"><p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">Speech-language pathologists assess communication. Autism evaluations may involve developmental paediatricians, psychologists and other trained clinicians who consider development, behaviour and family observations together.</p></div></div>
+            <div class="faq-item"><button class="w-full text-left flex justify-between items-center faq-btn"><span class="font-semibold text-base md:text-lg text-[#234394]">Should bilingual parents stop using two languages?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="#234394" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button><div class="transition-all duration-300 max-h-0 opacity-0 overflow-hidden"><p class="text-sm md:text-base text-gray-600 mt-2 pb-2 leading-relaxed">No. Bilingualism does not cause a language disorder. Families should use the languages in which they communicate most naturally, unless an assessing professional advises otherwise.</p></div></div>
+          </div>
+
+          <h2>A concern is a reason to check, not a reason to panic</h2>
+
+          <p>The most honest answer to &ldquo;Is this speech delay or autism?&rdquo; is that speech alone cannot tell you. Look at how your toddler understands, gestures, shares attention, plays and adapts to everyday experiences. Then let a qualified professional put those observations into context.</p>
+
+          <p>An evaluation is not a label imposed on your child. It is a way to understand what is making communication difficult and what support may help. If your instinct says something deserves attention, you are allowed to ask now.</p>
+
+          <div class="cta-card my-12">
+            <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">Discuss your child&rsquo;s communication</h3>
+            <p class="text-sm md:text-base text-gray-600 mb-6 max-w-xl mx-auto">Speak with the developmental team at eMbrace, Delhi NCR, about the right assessment pathway for your toddler.</p>
+            <a href="/appointment" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">Schedule an Appointment</a>
+          </div>
+        </div>
+      </div>
+
+      <?php include __DIR__ . '/../components/lead-magnet-band-neuro.php'; ?>
+      <?php include __DIR__ . '/../components/footer.php'; ?>
+    </div>
+    <script src="/assets/interactive.js"></script>
+    <script src="/assets/lead-magnets.js"></script>
+  </body>
+</html>

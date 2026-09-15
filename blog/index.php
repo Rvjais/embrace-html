@@ -383,6 +383,17 @@
           <h2 class="text-2xl md:text-3xl font-bold text-[#1e293b] mb-8">Latest articles</h2>
 
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            <a class="post-card" href="/blog/speech-delay-vs-autism">
+              <span class="post-card__tag">Autism</span>
+              <h3 class="post-card__title">Speech Delay or Autism? How to Tell the Difference Before You Panic</h3>
+              <p class="post-card__excerpt">Late talking does not automatically mean autism. Learn why gestures, shared attention, understanding and play reveal more than word count alone.</p>
+              <div class="post-card__meta">
+                <span>15 September 2026</span>
+                <span>&middot;</span>
+                <span>Reviewed by Dr. Supriya Malik</span>
+              </div>
+              <span class="post-card__more">Read the article &rsaquo;</span>
+            </a>
             <a class="post-card" href="/blog/adhd-in-girls-diagnosed-later">
               <span class="post-card__tag">ADHD</span>
               <h3 class="post-card__title">ADHD in Girls: Why It Is Diagnosed Years Later Than in Boys</h3>
