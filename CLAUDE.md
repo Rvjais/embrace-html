@@ -84,7 +84,16 @@ New pages are picked up automatically by both generators. Add a page to `HUB_PAG
 - Every article carries an `article:published_time` meta tag and a visible
   `.author-card` block. `generate-schema.js` reads both to build the `BlogPosting`
   node, including `reviewedBy`. Omit either and the schema silently loses that field.
-- Add each new post to the card grid in `blog/index.php`; nothing auto-generates that list.
+- **The card grid in `blog/index.php` is built from two lists and sorted by date.**
+  Standalone posts are rows in the `$manualPosts` array at the top of that file;
+  scheduled series posts come from `components/scheduled-blog-catalog.php` and only
+  appear once their date has passed. Both are merged and sorted newest first before
+  rendering, so a card's position follows its publication date rather than which list
+  it came from. Do not render them as two separate blocks again: that is what put a
+  13 September post above a 15 September one.
+  - Adding a standalone post means adding one row to `$manualPosts`, not pasting card
+    markup. Its `date` must match the article's own `article:published_time`, because
+    that field is what orders the grid and what the card displays.
 - Nav entry for the blog lives in `components/header.php`, in both the desktop
   `emb-nav__item` list and the `#mobile-menu` panel.
 

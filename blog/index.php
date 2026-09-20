@@ -1,6 +1,33 @@
 <?php
 require_once __DIR__ . '/../components/publish-gate.php';
-$scheduledPosts = require __DIR__ . '/../components/scheduled-blog-catalog.php';
+
+/*
+ * The card grid draws on two streams: posts written as their own file, listed
+ * here, and the scheduled series in components/scheduled-blog-catalog.php.
+ *
+ * They are merged and sorted newest first before rendering. Rendering them as
+ * two separate blocks is what put a 13 September post above a 15 September one,
+ * because each block was ordered only within itself. A card's position must
+ * follow its publication date, not which list it came from.
+ *
+ * Adding a standalone post means adding a row here; the date field is what
+ * orders it, so keep it identical to the article:published_time in the article.
+ */
+$manualPosts = [
+    ['date'=>'2026-09-15','slug'=>'speech-delay-vs-autism','tag'=>'Autism','title'=>'Speech Delay or Autism? How to Tell the Difference Before You Panic','excerpt'=>'Late talking does not automatically mean autism. Learn why gestures, shared attention, understanding and play reveal more than word count alone.'],
+    ['date'=>'2026-09-07','slug'=>'adhd-in-girls-diagnosed-later','tag'=>'ADHD','title'=>'ADHD in Girls: Why It Is Diagnosed Years Later Than in Boys','excerpt'=>'She does not have to be hyperactive to have ADHD. Why the brightest, best behaved girls are the ones most likely to be missed, and when to ask for an assessment.'],
+    ['date'=>'2026-09-03','slug'=>'early-signs-of-autism-in-toddlers-mchat','tag'=>'Autism','title'=>'Early Signs of Autism in Toddlers: The M-CHAT Checklist Explained','excerpt'=>'Eye contact is one question out of twenty. What the screener your paediatrician uses actually asks, and what a positive score does and does not mean.'],
+    ['date'=>'2026-08-28','slug'=>'marriage-counselling-myths-delhi','tag'=>'Couples &amp; Marriage','title'=>'5 Myths About Couples Therapy That Stop Delhi Couples From Seeking Help','excerpt'=>'Is counselling only for marriages that are ending? Will the therapist take sides? The five beliefs that cause most of the delay, answered honestly.'],
+    ['date'=>'2026-08-20','slug'=>'symptoms-of-adhd-in-adulthood','tag'=>'ADHD','title'=>'Adult ADHD Symptoms That Get Mistaken for &lsquo;Disorganised&rsquo; or &lsquo;Lazy&rsquo;','excerpt'=>'Nine signs of adult ADHD that are routinely read as character flaws, why the condition goes unnoticed through childhood, and how it is actually assessed.'],
+];
+
+$posts = $manualPosts;
+foreach (require __DIR__ . '/../components/scheduled-blog-catalog.php' as $scheduled) {
+    if (embrace_is_published($scheduled['date'])) {
+        $posts[] = $scheduled;
+    }
+}
+usort($posts, static fn(array $a, array $b): int => $b['date'] <=> $a['date']);
 ?>
 <!doctype html>
 <html lang="en-IN">
@@ -387,71 +414,17 @@ $scheduledPosts = require __DIR__ . '/../components/scheduled-blog-catalog.php';
           <h2 class="text-2xl md:text-3xl font-bold text-[#1e293b] mb-8">Latest articles</h2>
 
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-            <?php foreach ($scheduledPosts as $post): ?>
-              <?php if (embrace_is_published($post['date'])): ?>
-                <?php $postDate = DateTimeImmutable::createFromFormat('!Y-m-d', $post['date'], embrace_publication_timezone()); ?>
-                <a class="post-card" href="/blog/<?= htmlspecialchars($post['slug']) ?>">
-                  <span class="post-card__tag"><?= $post['tag'] ?></span>
-                  <h3 class="post-card__title"><?= $post['title'] ?></h3>
-                  <p class="post-card__excerpt"><?= $post['excerpt'] ?></p>
-                  <div class="post-card__meta"><span><?= $postDate->format('j F Y') ?></span><span>&middot;</span><span>Reviewed by Dr. Supriya Malik</span></div>
-                  <span class="post-card__more">Read the article &rsaquo;</span>
-                </a>
-              <?php endif; ?>
+            <?php foreach ($posts as $post): ?>
+              <?php $postDate = DateTimeImmutable::createFromFormat('!Y-m-d', $post['date'], embrace_publication_timezone()); ?>
+              <a class="post-card" href="/blog/<?= htmlspecialchars($post['slug']) ?>">
+                <span class="post-card__tag"><?= $post['tag'] ?></span>
+                <h3 class="post-card__title"><?= $post['title'] ?></h3>
+                <p class="post-card__excerpt"><?= $post['excerpt'] ?></p>
+                <div class="post-card__meta"><span><?= $postDate->format('j F Y') ?></span><span>&middot;</span><span>Reviewed by Dr. Supriya Malik</span></div>
+                <span class="post-card__more">Read the article &rsaquo;</span>
+              </a>
             <?php endforeach; ?>
-            <a class="post-card" href="/blog/speech-delay-vs-autism">
-              <span class="post-card__tag">Autism</span>
-              <h3 class="post-card__title">Speech Delay or Autism? How to Tell the Difference Before You Panic</h3>
-              <p class="post-card__excerpt">Late talking does not automatically mean autism. Learn why gestures, shared attention, understanding and play reveal more than word count alone.</p>
-              <div class="post-card__meta">
-                <span>15 September 2026</span>
-                <span>&middot;</span>
-                <span>Reviewed by Dr. Supriya Malik</span>
-              </div>
-              <span class="post-card__more">Read the article &rsaquo;</span>
-            </a>
-            <a class="post-card" href="/blog/adhd-in-girls-diagnosed-later">
-              <span class="post-card__tag">ADHD</span>
-              <h3 class="post-card__title">ADHD in Girls: Why It Is Diagnosed Years Later Than in Boys</h3>
-              <p class="post-card__excerpt">She does not have to be hyperactive to have ADHD. Why the brightest, best behaved girls are the ones most likely to be missed, and when to ask for an assessment.</p>
-              <div class="post-card__meta">
-                <span>7 September 2026</span>
-                <span>&middot;</span>
-                <span>Reviewed by Dr. Supriya Malik</span>
-              </div>
-              <span class="post-card__more">Read the article &rsaquo;</span>
-            </a>
-            <a class="post-card" href="/blog/early-signs-of-autism-in-toddlers-mchat">
-              <span class="post-card__tag">Autism</span>
-              <h3 class="post-card__title">Early Signs of Autism in Toddlers: The M-CHAT Checklist Explained</h3>
-              <p class="post-card__excerpt">Eye contact is one question out of twenty. What the screener your paediatrician uses actually asks, and what a positive score does and does not mean.</p>
-              <div class="post-card__meta">
-                <span>3 September 2026</span>
-                <span>&middot;</span>
-                <span>Reviewed by Dr. Supriya Malik</span>
-              </div>
-              <span class="post-card__more">Read the article &rsaquo;</span>
-            </a>
-            <a class="post-card" href="/blog/marriage-counselling-myths-delhi">
-              <span class="post-card__tag">Couples &amp; Marriage</span>
-              <h3 class="post-card__title">5 Myths About Couples Therapy That Stop Delhi Couples From Seeking Help</h3>
-              <p class="post-card__excerpt">Is counselling only for marriages that are ending? Will the therapist take sides? The five beliefs that cause most of the delay, answered honestly.</p>
-              <div class="post-card__meta">
-                <span>28 August 2026</span>
-                <span>&middot;</span>
-                <span>Reviewed by Dr. Supriya Malik</span>
-              </div>
-              <span class="post-card__more">Read the article &rsaquo;</span>
-            </a>
-            <a class="post-card" href="/blog/symptoms-of-adhd-in-adulthood">
-              <span class="post-card__tag">ADHD</span>
-              <h3 class="post-card__title">Adult ADHD Symptoms That Get Mistaken for &lsquo;Disorganised&rsquo; or &lsquo;Lazy&rsquo;</h3>
-              <p class="post-card__excerpt">Nine signs of adult ADHD that are routinely read as character flaws, why the condition goes unnoticed through childhood, and how it is actually assessed.</p>
-              <div class="post-card__meta">
-                <span>20 August 2026</span>
-                <span>&middot;</span>
-                <span>Reviewed by Dr. Supriya Malik</span>
-              </div>
+          </div>
               <span class="post-card__more">Read the article &rsaquo;</span>
             </a>
           </div>
