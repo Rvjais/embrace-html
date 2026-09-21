@@ -584,7 +584,7 @@
         <div
           class="gap-10 bg-white border-2 border-[#399349]/80 w-full shadow-[#399349] shadow-md/80 rounded-xl p-3 flex flex-row items-center mb-6"
         >
-          <img loading="lazy" decoding="async" width="120" height="120" alt="" class="w-15" src="/assets/EmbraceFor1-BTcU4aAd.svg" />
+          <img loading="lazy" decoding="async" width="120" height="120" alt="Pre-primary, primary & secondary school teachers" class="w-15" src="/assets/EmbraceFor1-BTcU4aAd.svg" />
           <h2 class="text-[var(--text-gray)] font-semibold text-sm md:text-lg">
             Pre-primary, primary &amp; secondary school teachers
           </h2>
@@ -592,7 +592,7 @@
         <div
           class="gap-10 bg-white border-2 border-[#399349]/80 w-full shadow-[#399349] shadow-md/80 rounded-xl p-3 flex flex-row items-center mb-6"
         >
-          <img loading="lazy" decoding="async" width="120" height="120" alt="" class="w-15" src="/assets/EmbraceFor2-Be5RPjOT.svg" />
+          <img loading="lazy" decoding="async" width="120" height="120" alt="Special educators & learning support staff" class="w-15" src="/assets/EmbraceFor2-Be5RPjOT.svg" />
           <h2 class="text-[var(--text-gray)] font-semibold text-sm md:text-lg">
             Special educators &amp; learning support staff
           </h2>
@@ -600,7 +600,7 @@
         <div
           class="gap-10 bg-white border-2 border-[#399349]/80 w-full shadow-[#399349] shadow-md/80 rounded-xl p-3 flex flex-row items-center mb-6"
         >
-          <img loading="lazy" decoding="async" width="120" height="120" alt="" class="w-15" src="/assets/EmbraceFor1-BTcU4aAd.svg" />
+          <img loading="lazy" decoding="async" width="120" height="120" alt="School counselors & administrators" class="w-15" src="/assets/EmbraceFor1-BTcU4aAd.svg" />
           <h2 class="text-[var(--text-gray)] font-semibold text-sm md:text-lg">
             School counselors &amp; administrators
           </h2>
@@ -669,7 +669,7 @@
       </ul>
     </div>
   </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
+  <a class="emb-nearby__more" href="/locations/">View all eMbrace locations &rsaquo;</a>
 </section>
 </div>
 </div>

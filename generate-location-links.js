@@ -245,7 +245,7 @@ ${items}
       </ul>
     </div>
   </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
+  <a class="emb-nearby__more" href="/locations/">View all eMbrace locations &rsaquo;</a>
 </section>`);
 }
 
@@ -281,7 +281,7 @@ ${otherAreas}
       </ul>
     </div>
   </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
+  <a class="emb-nearby__more" href="/locations/">View all eMbrace locations &rsaquo;</a>
 </section>`);
 }
 

@@ -423,7 +423,7 @@
         <div class="flex w-full h-full md:flex-row flex-col justify-center gap-6 md:gap-0">
           <div class="flex justify-center items-center flex-col w-[20]%">
             <img loading="lazy" decoding="async" width="424" height="424"
-              alt=""
+              alt="Gold-Standard Neurodivergence Care"
               class="w-50 h-50 lg:w-52 lg:h-52 md:h-32 md:w-32 rounded-full overflow-hidden md:z-10 -z-10"
               src="/assets/Why1-DpKY9-Qj.svg"
             />
@@ -442,7 +442,7 @@
           </div>
           <div class="flex justify-center items-center flex-col w-[20]%">
             <img loading="lazy" decoding="async" width="424" height="424"
-              alt=""
+              alt="Seamless Integration"
               class="w-50 h-50 lg:w-52 lg:h-52 md:h-32 md:w-32 rounded-full overflow-hidden md:z-10 -z-10"
               src="/assets/Why2-DLujFsG6.svg"
             />
@@ -461,7 +461,7 @@
           </div>
           <div class="flex justify-center items-center flex-col w-[20]%">
             <img loading="lazy" decoding="async" width="424" height="424"
-              alt=""
+              alt="Lifespan Support"
               class="w-50 h-50 lg:w-52 lg:h-52 md:h-32 md:w-32 rounded-full overflow-hidden md:z-10 -z-10"
               src="/assets/Why3-CpOWiVhc.svg"
             />
@@ -480,7 +480,7 @@
           </div>
           <div class="flex justify-center items-center flex-col w-[20]%">
             <img loading="lazy" decoding="async" width="424" height="424"
-              alt=""
+              alt="Internationally Recognized Tools"
               class="w-50 h-50 lg:w-52 lg:h-52 md:h-32 md:w-32 rounded-full overflow-hidden md:z-10 -z-10"
               src="/assets/Why4-ZdN5MNvJ.svg"
             />
@@ -512,7 +512,7 @@
           <div
             class="shadow-[0px_2px_4.2px_0px_#000000DB] md:shadow-[0px_3px_8.2px_0px_#00000040] md:p-4 md:py-8 p-6 bg-white rounded-2xl md:w-[99%] lg:w-[70%] 2xl:w-[80%] flex flex-col md:flex-row gap-4 items-stretch"
           >
-            <img loading="lazy" decoding="async" width="579" height="659" alt="" class="md:h-78 md:w-1/3 w-full" src="/assets/Program1-DdBzzioK.svg" />
+            <img loading="lazy" decoding="async" width="579" height="659" alt="Adult Mental Health Integration" class="md:h-78 md:w-1/3 w-full" src="/assets/Program1-DdBzzioK.svg" />
             <div class="flex flex-col w-full gap-4 items-center">
               <div
                 class="font-semibold flex justify-between text-lg rounded-2xl 2xl:pl-20 bg-[#F3A7A240] border-3 border-[#F3A7A2FC] w-[95%] px-3 py-2 md:p-6"
@@ -556,7 +556,7 @@
           <div
             class="shadow-[0px_2px_4.2px_0px_#000000DB] md:shadow-[0px_3px_8.2px_0px_#00000040] md:p-4 md:py-8 p-6 bg-white rounded-2xl md:w-[99%] lg:w-[70%] 2xl:w-[80%] flex flex-col md:flex-row gap-4 items-stretch"
           >
-            <img loading="lazy" decoding="async" width="603" height="699" alt="" class="md:h-78 md:w-1/3 w-full" src="/assets/Program2-aNJWik7x.svg" />
+            <img loading="lazy" decoding="async" width="603" height="699" alt="Pediatric & Adolescent Support" class="md:h-78 md:w-1/3 w-full" src="/assets/Program2-aNJWik7x.svg" />
             <div class="flex flex-col w-full gap-4 items-center">
               <div
                 class="font-semibold flex justify-between text-lg rounded-2xl 2xl:pl-20 bg-[#F3A7A240] border-3 border-[#F3A7A2FC] w-[95%] px-3 py-2 md:p-6"
@@ -600,7 +600,7 @@
           <div
             class="shadow-[0px_2px_4.2px_0px_#000000DB] md:shadow-[0px_3px_8.2px_0px_#00000040] md:p-4 md:py-8 p-6 bg-white rounded-2xl md:w-[99%] lg:w-[70%] 2xl:w-[80%] flex flex-col md:flex-row gap-4 items-stretch"
           >
-            <img loading="lazy" decoding="async" width="603" height="699" alt="" class="md:h-78 md:w-1/3 w-full" src="/assets/Program3-CwpuI0zi.svg" />
+            <img loading="lazy" decoding="async" width="603" height="699" alt="Early Intervention & NICU Programs" class="md:h-78 md:w-1/3 w-full" src="/assets/Program3-CwpuI0zi.svg" />
             <div class="flex flex-col w-full gap-4 items-center">
               <div
                 class="font-semibold flex justify-between text-lg rounded-2xl 2xl:pl-20 bg-[#F3A7A240] border-3 border-[#F3A7A2FC] w-[95%] px-3 py-2 md:p-6"
@@ -1019,7 +1019,7 @@
       </ul>
     </div>
   </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
+  <a class="emb-nearby__more" href="/locations/">View all eMbrace locations &rsaquo;</a>
 </section>
 </div>
 </div>

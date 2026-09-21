@@ -60,7 +60,7 @@
     <div class="emb-locnav__inner">
       <div class="emb-locnav__head">
         <h2 class="emb-locnav__title">All Locations</h2>
-        <a class="emb-locnav__all" href="/locations">View all locations &rsaquo;</a>
+        <a class="emb-locnav__all" href="/locations/">View all locations &rsaquo;</a>
       </div>
       <div class="emb-locnav__grid">
       <details class="emb-locnav__item">
@@ -294,7 +294,7 @@
     <div>
       <h3 class="font-bold text-lg mb-6 text-white">Quick Links</h3>
       <ul class="space-y-4 text-sm text-gray-400">
-        <li><a href="/resources" class="hover:text-[#F2DC68] transition-colors font-semibold text-[#F2DC68]">Free Tools &amp; Screeners</a></li>
+        <li><a href="/resources/" class="hover:text-[#F2DC68] transition-colors font-semibold text-[#F2DC68]">Free Tools &amp; Screeners</a></li>
         <li><a href="/about" class="hover:text-[#F2DC68] transition-colors">About Us</a></li>
         <li><a href="/careers" class="hover:text-[#F2DC68] transition-colors">Careers</a></li>
         <li><a href="/contact-us" class="hover:text-[#F2DC68] transition-colors">Contact Us</a></li>

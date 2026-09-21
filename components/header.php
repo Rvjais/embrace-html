@@ -179,7 +179,7 @@
 
     <!-- Free Tools -->
     <div class="emb-nav__item">
-      <a class="emb-nav__top" style="color:#234394;font-weight:600" data-discover="true" href="/resources">Free Tools
+      <a class="emb-nav__top" style="color:#234394;font-weight:600" data-discover="true" href="/resources/">Free Tools
         <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
       <div class="emb-nav__drop">
         <div class="emb-nav__card">
@@ -188,7 +188,7 @@
             <a class="emb-nav__link" href="/resources/adhd-autism-screener">ADHD &amp; Autism Screener</a>
             <a class="emb-nav__link" href="/resources/adult-stress-check">Adult Stress Check</a>
             <div class="emb-nav__rule"></div>
-            <a class="emb-nav__link emb-nav__link--lead" href="/resources">All Free Tools</a>
+            <a class="emb-nav__link emb-nav__link--lead" href="/resources/">All Free Tools</a>
           </div>
         </div>
       </div>
@@ -210,7 +210,7 @@
 
     <!-- Locations -->
     <div class="emb-nav__item">
-      <a class="emb-nav__top" data-discover="true" href="/locations">Locations
+      <a class="emb-nav__top" data-discover="true" href="/locations/">Locations
         <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
       <div class="emb-nav__drop emb-nav__drop--right">
         <div class="emb-nav__card">
@@ -228,7 +228,7 @@
             <a class="emb-nav__link emb-nav__link--lead" href="/contact-us">Gurgaon Centre</a>
             <a class="emb-nav__link" href="/locations/#noida">Noida</a>
             <div class="emb-nav__rule"></div>
-            <a class="emb-nav__link emb-nav__link--lead" href="/locations">All Locations</a>
+            <a class="emb-nav__link emb-nav__link--lead" href="/locations/">All Locations</a>
           </div>
         </div>
       </div>
@@ -317,7 +317,7 @@
         <a href="/resources/child-milestone-checker">Child Milestone Checker</a>
         <a href="/resources/adhd-autism-screener">ADHD &amp; Autism Screener</a>
         <a href="/resources/adult-stress-check">Adult Stress Check</a>
-        <a href="/resources">All Free Tools</a>
+        <a href="/resources/">All Free Tools</a>
       </div>
     </details>
 
@@ -342,7 +342,7 @@
         <p class="emb-nav__subtitle">Gurgaon &amp; NCR</p>
         <a href="/contact-us">Gurgaon Centre</a>
         <a href="/locations/#noida">Noida</a>
-        <a href="/locations">All Locations</a>
+        <a href="/locations/">All Locations</a>
       </div>
     </details>
 

@@ -431,7 +431,7 @@
               class="2xl:gap-2 pb-2 2xl:py-10 md:border-[1.5px] border-[#90A7E1] md:w-[90%] w-full lg:w-[40%] justify-center items-center px-4 md:h-auto pt-6 md:pt-0 z-10 bg-[#FFFFFFDE] rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)]"
             >
               <img loading="lazy" decoding="async" width="835" height="551"
-                alt=""
+                alt="Assessments"
                 class="md:w-[80%] md:h-[60%] w-[90%] md:mb-0 mb-2"
                 src="/assets/Individuals1-B0t43PEj.svg"
               /><span class="text-base 2xl:text-2xl 3xl:text-5xl font-bold text-center md:mb-4 mb-2"
@@ -454,7 +454,7 @@
               class="2xl:gap-2 pb-2 2xl:py-10 md:border-[1.5px] border-[#90A7E1] md:w-[90%] w-full lg:w-[40%] justify-center items-center px-4 md:h-auto pt-6 md:pt-0 z-10 bg-[#FFFFFFDE] rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)]"
             >
               <img loading="lazy" decoding="async" width="835" height="551"
-                alt=""
+                alt="Individual Therapy"
                 class="md:w-[80%] md:h-[60%] w-[90%] md:mb-0 mb-2"
                 src="/assets/Individuals2-Dl2lw0um.svg"
               /><span class="text-base 2xl:text-2xl 3xl:text-5xl font-bold text-center md:mb-4 mb-2"
@@ -483,7 +483,7 @@
               class="2xl:gap-2 pb-2 2xl:py-10 md:border-[1.5px] border-[#90A7E1] md:w-[90%] w-full lg:w-[40%] justify-center items-center px-4 md:h-auto pt-6 md:pt-0 z-10 bg-[#FFFFFFDE] rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)]"
             >
               <img loading="lazy" decoding="async" width="835" height="551"
-                alt=""
+                alt="Psychiatric Consults"
                 class="md:w-[80%] md:h-[60%] w-[90%] md:mb-0 mb-2"
                 src="/assets/Individuals3-BA03dIp1.svg"
               /><span class="text-base 2xl:text-2xl 3xl:text-5xl font-bold text-center md:mb-4 mb-2"
@@ -506,7 +506,7 @@
               class="2xl:gap-2 pb-2 2xl:py-10 md:border-[1.5px] border-[#90A7E1] md:w-[90%] w-full lg:w-[40%] justify-center items-center px-4 md:h-auto pt-6 md:pt-0 z-10 bg-[#FFFFFFDE] rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)]"
             >
               <img loading="lazy" decoding="async" width="835" height="551"
-                alt=""
+                alt="Support for Neurodivergence"
                 class="md:w-[80%] md:h-[60%] w-[90%] md:mb-0 mb-2"
                 src="/assets/Individuals4-B27Cwrx9.svg"
               /><span class="text-base 2xl:text-2xl 3xl:text-5xl font-bold text-center md:mb-4 mb-2"
@@ -760,7 +760,7 @@
       </ul>
     </div>
   </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
+  <a class="emb-nearby__more" href="/locations/">View all eMbrace locations &rsaquo;</a>
 </section>
 </div>
 </div>

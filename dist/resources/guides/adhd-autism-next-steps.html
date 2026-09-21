@@ -5,7 +5,7 @@
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="noindex, nofollow" name="robots"/>
-<meta content="The Parent's ADHD &amp; Autism Assessment Guide — what each assessment tool measures, what to ask before you pay, school accommodations, and a ready-to-send letter template." name="description"/>
+<meta content="The Parent's ADHD &amp; Autism Assessment Guide — what each tool measures, what to ask before you pay, school accommodations and a ready-to-send letter template." name="description"/>
 <title>The Parent's ADHD &amp; Autism Assessment Guide | eMbrace</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
@@ -296,7 +296,7 @@
         "@id": "https://embracelives.com/#organization"
       },
       "inLanguage": "en-IN",
-      "description": "The Parent's ADHD & Autism Assessment Guide — what each assessment tool measures, what to ask before you pay, school accommodations, and a ready-to-send letter template."
+      "description": "The Parent's ADHD & Autism Assessment Guide — what each tool measures, what to ask before you pay, school accommodations and a ready-to-send letter template."
     }
   ]
 }

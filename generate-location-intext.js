@@ -17,7 +17,7 @@ const END = '<!-- LOCATION-INTEXT:END -->';
 
 const A = 'class="text-[#234394] font-semibold hover:underline"';
 const link = (slug, text) => `<a ${A} href="/locations/${slug}">${text}</a>`;
-const allLocations = `<a ${A} href="/locations">all eMbrace locations</a>`;
+const allLocations = `<a ${A} href="/locations/">all eMbrace locations</a>`;
 
 const COPY = {
   'autism/autism.php':

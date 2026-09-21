@@ -493,7 +493,7 @@ for (const rel of walk(ROOT).sort()) {
 
   // Scheduled articles use the shared runtime renderer, which owns their
   // visible FAQ and JSON-LD. They intentionally have no literal </head> here.
-  if (html.includes('scheduled-blog-renderer.php') || rel === 'sitemap-blog.php') continue;
+  if (html.includes('scheduled-blog-renderer.php') || rel === 'sitemap-blog.xml.php') continue;
 
   // Drop any previously generated block first so the legacy sweep cannot eat it.
   html = html.replace(MARKER_RE, '');

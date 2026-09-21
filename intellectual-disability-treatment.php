@@ -514,7 +514,7 @@
 <ul>
   <li><a href="/locations/intellectual-disability-treatment-in-delhi" class="text-[#234394] font-semibold">Intellectual Disability Treatment in Delhi</a></li>
   <li><a href="/locations/intellectual-disability-treatment-in-gurgaon" class="text-[#234394] font-semibold">Intellectual Disability Treatment in Gurgaon</a></li>
-  <li><a href="/locations" class="text-[#234394] font-semibold">All eMbrace locations across Delhi NCR</a></li>
+  <li><a href="/locations/" class="text-[#234394] font-semibold">All eMbrace locations across Delhi NCR</a></li>
 </ul>
 <h2 class="text-2xl font-bold mt-12 mb-6 text-[#1e293b]">Frequently Asked Questions</h2>
 <div class="space-y-2 mb-10">

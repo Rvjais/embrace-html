@@ -539,7 +539,7 @@
         <div class="md:w-1/2 z-10 md:mt-0 mt-12 flex flex-col justify-center items-center">
           <p class="md:hidden font-semibold text-center text-lg md:mr-3">Our Vision</p>
           <img loading="lazy" decoding="async" width="393" height="397"
-            alt=""
+            alt="Our Vision"
             class="md:hidden w-[45%] md:w-[40%] mx-auto md:ml-37 2xl:ml-60 translate-y-6 md:-translate-y-6"
             src="/assets/Vision-fJWo-ySU.svg"
           />
@@ -550,14 +550,14 @@
             </p>
           </div>
           <div class="flex flex-col justify-center items-center w-[45%] md:w-[40%]">
-            <img loading="lazy" decoding="async" width="393" height="397" alt="" class="hidden md:block w-[45%] md:w-full -mt-8" src="/assets/Vision-fJWo-ySU.svg" />
+            <img loading="lazy" decoding="async" width="393" height="397" alt="Our Vision" class="hidden md:block w-[45%] md:w-full -mt-8" src="/assets/Vision-fJWo-ySU.svg" />
             <p class="hidden md:block font-semibold text-center text-lg pt-4">Our Vision</p>
           </div>
         </div>
         <div class="md:w-1/2 z-10 md:mt-0 flex flex-col w-full justify-center items-center">
           <div class="flex flex-col justify-center items-center w-[45%] md:w-[40%] -mb-8">
             <p class="font-semibold text-center text-lg pb-4">Our Mission</p>
-            <img loading="lazy" decoding="async" width="393" height="397" alt="" class="w-full md:w-full" src="/assets/Mission-CPElHvJm.svg" />
+            <img loading="lazy" decoding="async" width="393" height="397" alt="Our Mission" class="w-full md:w-full" src="/assets/Mission-CPElHvJm.svg" />
           </div>
           <div class="bg-[#FFF8E0] px-0 py-7 md:px-7 md:py-10 rounded-3xl shadow-lg flex justify-center items-center">
             <p class="w-[80%] text-center text-sm md:text-lg font-medium">

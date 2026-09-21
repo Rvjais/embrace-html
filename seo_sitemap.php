@@ -553,7 +553,7 @@
         <div class="cluster">
           <h2>Locations &ndash; Delhi <span>(20 pages)</span></h2>
           <div class="url-grid">
-            <a href="/locations">/locations</a>
+            <a href="/locations/">/locations/</a>
             <a href="/locations/child-psychologist-in-delhi">/child-psychologist-in-delhi</a>
             <a href="/locations/child-counselling-in-delhi">/child-counselling-in-delhi</a>
             <a href="/locations/teen-counselling-in-delhi">/teen-counselling-in-delhi</a>
@@ -579,7 +579,7 @@
         <div class="cluster">
           <h2>Locations &ndash; South Delhi <span>(11 pages)</span></h2>
           <div class="url-grid">
-            <a href="/locations">/locations</a>
+            <a href="/locations/">/locations/</a>
             <a href="/locations/child-psychologist-in-south-delhi">/child-psychologist-in-south-delhi</a>
             <a href="/locations/child-counselling-in-south-delhi">/child-counselling-in-south-delhi</a>
             <a href="/locations/teen-counselling-in-south-delhi">/teen-counselling-in-south-delhi</a>
@@ -596,7 +596,7 @@
         <div class="cluster">
           <h2>Locations &ndash; Saket <span>(11 pages)</span></h2>
           <div class="url-grid">
-            <a href="/locations">/locations</a>
+            <a href="/locations/">/locations/</a>
             <a href="/locations/child-psychologist-in-saket">/child-psychologist-in-saket</a>
             <a href="/locations/child-counselling-in-saket">/child-counselling-in-saket</a>
             <a href="/locations/teen-counselling-in-saket">/teen-counselling-in-saket</a>
@@ -613,7 +613,7 @@
         <div class="cluster">
           <h2>Locations &ndash; Hauz Khas <span>(11 pages)</span></h2>
           <div class="url-grid">
-            <a href="/locations">/locations</a>
+            <a href="/locations/">/locations/</a>
             <a href="/locations/child-psychologist-in-hauz-khas">/child-psychologist-in-hauz-khas</a>
             <a href="/locations/child-counselling-in-hauz-khas">/child-counselling-in-hauz-khas</a>
             <a href="/locations/teen-counselling-in-hauz-khas">/teen-counselling-in-hauz-khas</a>
@@ -630,7 +630,7 @@
         <div class="cluster">
           <h2>Locations &ndash; Green Park <span>(11 pages)</span></h2>
           <div class="url-grid">
-            <a href="/locations">/locations</a>
+            <a href="/locations/">/locations/</a>
             <a href="/locations/child-psychologist-in-green-park">/child-psychologist-in-green-park</a>
             <a href="/locations/child-counselling-in-green-park">/child-counselling-in-green-park</a>
             <a href="/locations/teen-counselling-in-green-park">/teen-counselling-in-green-park</a>
@@ -647,7 +647,7 @@
         <div class="cluster">
           <h2>Locations &ndash; Greater Kailash <span>(11 pages)</span></h2>
           <div class="url-grid">
-            <a href="/locations">/locations</a>
+            <a href="/locations/">/locations/</a>
             <a href="/locations/child-psychologist-in-greater-kailash">/child-psychologist-in-greater-kailash</a>
             <a href="/locations/child-counselling-in-greater-kailash">/child-counselling-in-greater-kailash</a>
             <a href="/locations/teen-counselling-in-greater-kailash">/teen-counselling-in-greater-kailash</a>
@@ -664,7 +664,7 @@
         <div class="cluster">
           <h2>Locations &ndash; Defence Colony <span>(11 pages)</span></h2>
           <div class="url-grid">
-            <a href="/locations">/locations</a>
+            <a href="/locations/">/locations/</a>
             <a href="/locations/child-psychologist-in-defence-colony">/child-psychologist-in-defence-colony</a>
             <a href="/locations/child-counselling-in-defence-colony">/child-counselling-in-defence-colony</a>
             <a href="/locations/teen-counselling-in-defence-colony">/teen-counselling-in-defence-colony</a>
@@ -681,7 +681,7 @@
         <div class="cluster">
           <h2>Locations &ndash; Vasant Kunj <span>(11 pages)</span></h2>
           <div class="url-grid">
-            <a href="/locations">/locations</a>
+            <a href="/locations/">/locations/</a>
             <a href="/locations/child-psychologist-in-vasant-kunj">/child-psychologist-in-vasant-kunj</a>
             <a href="/locations/child-counselling-in-vasant-kunj">/child-counselling-in-vasant-kunj</a>
             <a href="/locations/teen-counselling-in-vasant-kunj">/teen-counselling-in-vasant-kunj</a>
@@ -698,7 +698,7 @@
         <div class="cluster">
           <h2>Locations &ndash; Gurgaon <span>(20 pages)</span></h2>
           <div class="url-grid">
-            <a href="/locations">/locations</a>
+            <a href="/locations/">/locations/</a>
             <a href="/locations/child-psychologist-in-gurgaon">/child-psychologist-in-gurgaon</a>
             <a href="/locations/child-counselling-in-gurgaon">/child-counselling-in-gurgaon</a>
             <a href="/locations/teen-counselling-in-gurgaon">/teen-counselling-in-gurgaon</a>
@@ -724,7 +724,7 @@
         <div class="cluster">
           <h2>Locations &ndash; Noida <span>(11 pages)</span></h2>
           <div class="url-grid">
-            <a href="/locations">/locations</a>
+            <a href="/locations/">/locations/</a>
             <a href="/locations/child-psychologist-in-noida">/child-psychologist-in-noida</a>
             <a href="/locations/child-counselling-in-noida">/child-counselling-in-noida</a>
             <a href="/locations/teen-counselling-in-noida">/teen-counselling-in-noida</a>

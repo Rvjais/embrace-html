@@ -383,15 +383,15 @@
           class="md:min-h-screen bg-gradient-to-b from-blue-100 to-white p-6 font-sans relative overflow-hidden drop-shadow-xs"
         >
           <img
-            alt="img"
+            alt=""
             class="-z-1 absolute md:h-10 h-7 md:top-[35.5%] top-[8.5%] md:left-[5%] left-[2%] opacity-70"
             src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
           /><img
-            alt="img"
+            alt=""
             class="-z-1 absolute md:h-10 h-7 md:top-[35%] top-[8%] left-[7%] md:left-[7%] opacity-70"
             src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
           /><img
-            alt="img"
+            alt=""
             class="absolute md:h-25 h-20 md:top-[55%] md:right-[3%] bottom-[1%] right-[1%] opacity-70 -z-10"
             src="data:image/svg+xml,%3csvg%20width='132'%20height='199'%20viewBox='0%200%20132%20199'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M72%2079L123.962%20169H20.0385L72%2079Z'%20fill='%23BEEDB9'/%3e%3ccircle%20cx='60'%20cy='60'%20r='60'%20fill='%23F2B81B'%20fill-opacity='0.57'/%3e%3c/svg%3e"
           />
@@ -1226,10 +1226,10 @@
         </div>
         <div class="max-w-3xl mx-auto md:py-20 py-10 relative md:mt-10 mt-6 px-2 sm:px-4">
           <img fetchpriority="high" decoding="async" width="855" height="795"
-            alt="img"
+            alt="Parent and child talking"
             class="hidden md:block absolute z-0 md:h-70 h-35 md:-left-55 -left-6 md:bottom-65 bottom-32"
             src="/assets/ParentsPlaying-Dk_2SuQj.svg"
-          /><img decoding="async" width="855" height="795" alt="img" class="md:hidden z-0 h-40 flex mx-auto mb-6" src="/assets/ParentsPlaying-Dk_2SuQj.svg" />
+          /><img decoding="async" width="855" height="795" alt="Parent and child talking" class="md:hidden z-0 h-40 flex mx-auto mb-6" src="/assets/ParentsPlaying-Dk_2SuQj.svg" />
           <div class="text-center mb-6">
             <h2 class="text-2 xl font-semibold italic text-[#234394]">Got more questions?</h2>
           </div>
@@ -1294,19 +1294,19 @@
           <div class="md:hidden flex mt-10"><img loading="lazy" decoding="async" width="604" height="473" alt="Speech therapist practising oral motor exercises with a young child" class="w-45 mx-auto" src="/assets/image-gt1pF_Zw.png" /></div>
         </div>
         <img
-          alt="img"
+          alt=""
           class="absolute h-10 md:left-[0%] bottom-6 opacity-70"
           src="data:image/svg+xml,%3csvg%20width='62'%20height='120'%20viewBox='0%200%2062%20120'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='2'%20cy='60'%20r='60'%20fill='%23F2B81B'%20fill-opacity='0.57'/%3e%3c/svg%3e"
         /><img
-          alt="img"
+          alt=""
           class="absolute h-10 md:left-[0%] bottom-0 opacity-70"
           src="data:image/svg+xml,%3csvg%20width='66'%20height='90'%20viewBox='0%200%2066%2090'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14%200L65.9615%2090H-37.9615L14%200Z'%20fill='%23BEEDB9'/%3e%3c/svg%3e"
         /><img
-          alt="img"
+          alt=""
           class="absolute h-10 right-16 bottom-4 opacity-70"
           src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
         /><img
-          alt="img"
+          alt=""
           class="absolute h-10 right-12 bottom-6 opacity-70"
           src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
         />

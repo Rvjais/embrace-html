@@ -150,7 +150,7 @@ ${links.map(l => '          ' + l).join('\n')}
     <div class="emb-locnav__inner">
       <div class="emb-locnav__head">
         <h2 class="emb-locnav__title">All Locations</h2>
-        <a class="emb-locnav__all" href="/locations">View all locations &rsaquo;</a>
+        <a class="emb-locnav__all" href="/locations/">View all locations &rsaquo;</a>
       </div>
       <div class="emb-locnav__grid">
 ${items}
@@ -184,7 +184,7 @@ ${links.map(l => '  ' + l).join('\n')}
     return `        <div class="cluster">
           <h2>Locations &ndash; ${areaLabel} <span>(${links.length} pages)</span></h2>
           <div class="url-grid">
-            <a href="/locations">/locations</a>
+            <a href="/locations/">/locations/</a>
 ${links.join('\n')}
           </div>
         </div>`;

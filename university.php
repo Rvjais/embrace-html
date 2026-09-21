@@ -532,7 +532,7 @@
           <div
             class="bg-white border-2 border-gray-200 rounded-4xl p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
           >
-            <img loading="lazy" decoding="async" width="523" height="312" alt="" class="w-[90%] md:w-full md:mb-12 mb-4" src="/assets/Counseling-BzBwEfbx.svg" />
+            <img loading="lazy" decoding="async" width="523" height="312" alt="Counseling & Therapy" class="w-[90%] md:w-full md:mb-12 mb-4" src="/assets/Counseling-BzBwEfbx.svg" />
             <div class="text-start">
               <h2 class="text-base italic font-semibold mb-4 md:mb-6 text-center text-[var(--blue-fig)]">
                 Counseling &amp; Therapy
@@ -546,7 +546,7 @@
           <div
             class="bg-white border-2 border-gray-200 rounded-4xl p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
           >
-            <img loading="lazy" decoding="async" width="523" height="312" alt="" class="w-[90%] md:w-full md:mb-12 mb-4" src="/assets/Assessment-B_iWBW-P.svg" />
+            <img loading="lazy" decoding="async" width="523" height="312" alt="Assessment & Screenings" class="w-[90%] md:w-full md:mb-12 mb-4" src="/assets/Assessment-B_iWBW-P.svg" />
             <div class="text-start">
               <h2 class="text-base italic font-semibold mb-4 md:mb-6 text-center text-[var(--blue-fig)]">
                 Assessment &amp; Screenings
@@ -560,7 +560,7 @@
           <div
             class="bg-white border-2 border-gray-200 rounded-4xl p-6 flex flex-col items-center mx-auto w-[90%] md:w-[50%] h-auto"
           >
-            <img loading="lazy" decoding="async" width="523" height="312" alt="" class="w-[90%] md:w-full md:mb-12 mb-4" src="/assets/CrisisIntervention-6_JbgQut.svg" />
+            <img loading="lazy" decoding="async" width="523" height="312" alt="Crisis Intervention & Suicide Prevention" class="w-[90%] md:w-full md:mb-12 mb-4" src="/assets/CrisisIntervention-6_JbgQut.svg" />
             <div class="text-start">
               <h2 class="text-base italic font-semibold mb-4 md:mb-6 text-center text-[var(--blue-fig)]">
                 Crisis Intervention &amp; Suicide Prevention
@@ -989,7 +989,7 @@
       </ul>
     </div>
   </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
+  <a class="emb-nearby__more" href="/locations/">View all eMbrace locations &rsaquo;</a>
 </section>
 </div>
 </div>

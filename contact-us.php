@@ -357,12 +357,12 @@
                 >
               </p>
             </div>
-            <img decoding="async" width="823" height="812" alt="" class="w-[90%] mx-auto md:hidden block" src="/assets/ContactUs-Csn1-Qhu.svg" />
+            <img decoding="async" width="823" height="812" alt="Contact eMbrace" class="w-[90%] mx-auto md:hidden block" src="/assets/ContactUs-Csn1-Qhu.svg" />
             <div class="md:mt-10 mt-4 flex flex-row gap-4">
-              <div><img fetchpriority="high" decoding="async" width="56" height="56" alt="" class="w-6 2xl:w-12 hidden md:block" src="/assets/whatsapp-CJHvNXx4.svg" /></div>
+              <div><img fetchpriority="high" decoding="async" width="56" height="56" alt="WhatsApp" class="w-6 2xl:w-12 hidden md:block" src="/assets/whatsapp-CJHvNXx4.svg" /></div>
               <div>
                 <div class="flex flex-row gap-2 w-[90%] md:w-full justify-center md:justify-start">
-                  <img decoding="async" width="56" height="56" alt="" class="w-6 md:hidden block" src="/assets/whatsapp-CJHvNXx4.svg" />
+                  <img decoding="async" width="56" height="56" alt="WhatsApp" class="w-6 md:hidden block" src="/assets/whatsapp-CJHvNXx4.svg" />
                   <h2 class="text-base text-center md:text-start md:text-xl 2xl:text-3xl font-semibold">
                     Get in Touch Quickly
                   </h2>
@@ -374,7 +374,7 @@
             </div>
           </div>
           <div class="w-[40%] flex flex-col justify-center">
-            <img loading="lazy" decoding="async" width="823" height="812" alt="" class="w-[70%] -mt-10 2xl:-mt-20 hidden md:block" src="/assets/ContactUs-Csn1-Qhu.svg" />
+            <img loading="lazy" decoding="async" width="823" height="812" alt="Contact eMbrace" class="w-[70%] -mt-10 2xl:-mt-20 hidden md:block" src="/assets/ContactUs-Csn1-Qhu.svg" />
           </div>
         </div>
         <div class="w-full gap-6 flex md:flex-row flex-col">
@@ -635,7 +635,7 @@
               <h3 class="md:text-base text-sm text-center font-semibold text-[var(--blue-fig)] mx-auto">
                 Therapy &amp; Booking Assistance
               </h3>
-              <img loading="lazy" decoding="async" width="558" height="386" alt="" class="md:w-[40%] mt-4 mx-auto" src="/assets/TherapyAndBooking-W07t2HLB.svg" />
+              <img loading="lazy" decoding="async" width="558" height="386" alt="Therapy & Booking Assistance" class="md:w-[40%] mt-4 mx-auto" src="/assets/TherapyAndBooking-W07t2HLB.svg" />
               <p class="text-[var(--blue-fig)] font-medium text-xs mt-4 w-[90%]">
                 Need help booking a session or have question about ongoing therapy?
               </p>
@@ -661,7 +661,7 @@
               <h3 class="md:text-base text-sm font-semibold text-[var(--blue-fig)] mx-auto">
                 Media &amp; Press Inquiries
               </h3>
-              <img loading="lazy" decoding="async" width="520" height="331" alt="" class="md:w-[40%] mt-4 mx-auto" src="/assets/Media-B5L1JSSZ.svg" />
+              <img loading="lazy" decoding="async" width="520" height="331" alt="Media & Press Inquiries" class="md:w-[40%] mt-4 mx-auto" src="/assets/Media-B5L1JSSZ.svg" />
               <p class="text-[var(--blue-fig)] font-medium text-xs mt-4 w-[90%]">
                 For interviews, collaborations, or expert insights from our psychologists, reach out to:
               </p>
@@ -691,7 +691,7 @@
               <h3 class="md:text-base text-sm font-semibold text-[var(--blue-fig)] mx-auto">
                 Technical Support &amp; Website Issues
               </h3>
-              <img loading="lazy" decoding="async" width="520" height="309" alt="" class="md:w-[40%] mt-4 mx-auto" src="/assets/TechnicalSupport-BZD3Ttly.svg" />
+              <img loading="lazy" decoding="async" width="520" height="309" alt="Technical Support & Website Issues" class="md:w-[40%] mt-4 mx-auto" src="/assets/TechnicalSupport-BZD3Ttly.svg" />
               <p class="text-[var(--blue-fig)] font-medium text-xs mt-4 w-[90%]">
                 Having trouble with your account, login, or payments?
               </p>
@@ -713,7 +713,7 @@
               class="md:w-[80%] rounded-tr-4xl rounded-bl-4xl border bg-white border-gray-300 px-10 py-4 md:py-2 2xl:py-6 flex flex-col justify-center md:mt-0 -mt-4"
             >
               <h3 class="text-base font-semibold text-[var(--blue-fig)] mx-auto">Partnerships</h3>
-              <img loading="lazy" decoding="async" width="730" height="439" alt="" class="md:w-[40%] mt-4 mx-auto" src="/assets/Partnership-BAj9Nit_.svg" />
+              <img loading="lazy" decoding="async" width="730" height="439" alt="Partnerships" class="md:w-[40%] mt-4 mx-auto" src="/assets/Partnership-BAj9Nit_.svg" />
               <p class="text-[var(--blue-fig)] font-medium text-xs mt-4 w-[90%]">
                 Want to integrate mental health programs into your organization?
               </p>

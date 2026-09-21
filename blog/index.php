@@ -445,7 +445,7 @@ usort($posts, static fn(array $a, array $b): int => $b['date'] <=> $a['date']);
           <div class="bg-[#F9FBFF] border border-[#E0E6F0] rounded-3xl p-8 md:p-10 text-center">
             <h2 class="text-xl md:text-2xl font-bold text-[#1e293b] mb-3">Not sure where to start?</h2>
             <p class="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto">Our free, clinician-built screeners give you an instant sense of whether a formal assessment is worth considering. No sign-up needed.</p>
-            <a href="/resources" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
+            <a href="/resources/" class="inline-block bg-[#234394] text-white px-8 py-3 rounded-full hover:bg-blue-800 font-semibold cursor-pointer shadow">
               Try a free screener
             </a>
           </div>

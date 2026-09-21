@@ -281,3 +281,55 @@ Run against a local PHP server using the same clean-URL rules as the nginx confi
 | Duplicate or unbalanced generated blocks | 0 |
 | Location pages linking to themselves | 0 |
 | All six generators idempotent on re-run | confirmed |
+
+## 9. SEO/technical audit, 2026-09-21 — items needing server access
+
+Everything findable and fixable from the repo was fixed in that same pass: a schema field that
+leaked raw HTML entities into JSON-LD, a `robots.txt` rule that conflicted with `noindex` on
+five pages, 391+ internal links missing a trailing slash on `/locations/` and `/resources/`,
+`sitemap-blog`'s URL given a proper `.xml` extension, `lastmod` switched from filesystem mtime
+(which resets to "today" on every `git pull`, making it meaningless) to the page's actual last
+commit date, and real alt text added to 58 content icons that were shipping `alt=""`.
+
+Three findings need someone with server access. None of them are reachable from this repo.
+
+**1. `www.embracelives.com` serves a full duplicate of the site.** The nginx block in §1 above
+listens on `server_name embracelives.com www.embracelives.com;` with no host-level redirect
+between them, so both serve the same content as a real `200`. Every page's `<link
+rel="canonical">` correctly points at the non-www host, which is why this hasn't caused visible
+duplicate-content problems, but a canonical is a hint, not a guarantee, and other crawlers and
+inbound links don't necessarily respect it. Add a redirect above the shared block:
+
+```nginx
+server {
+    listen 443 ssl;
+    server_name www.embracelives.com;
+    # ... same ssl_certificate directives as the main block ...
+    return 301 https://embracelives.com$request_uri;
+}
+```
+
+**2. No security response headers anywhere** — no HSTS, `X-Content-Type-Options`,
+`X-Frame-Options`, `Referrer-Policy`, or CSP on any response checked. Add inside the main
+`server { }` block:
+
+```nginx
+add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+add_header X-Content-Type-Options "nosniff" always;
+add_header X-Frame-Options "SAMEORIGIN" always;
+add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+```
+
+Start without `preload` on HSTS until it's been running cleanly for a while — that flag is
+awkward to undo once submitted to browsers' preload lists. A `Content-Security-Policy` is worth
+having too, but needs auditing against every external resource the site actually loads (Google
+Fonts, any third-party scripts) before it can be written safely, so it's left out here rather
+than shipped as a guess.
+
+**3. Server response time is slow enough to constrain Core Web Vitals on every page.** Measured
+from outside the network: 1.3–1.5s time-to-first-byte on the homepage, an inner page, and a
+location page alike, with 0.6–0.9s of that inside the TLS handshake alone. That's before a
+single byte of CSS, JS, or image starts downloading, so it eats most of the budget for LCP
+before the page has even begun rendering. This isn't something the repo can fix — it needs
+investigating on the server itself: whether PHP opcache is enabled, whether TLS session
+resumption/tickets are configured, and general load-balancer-to-PHP-FPM latency.

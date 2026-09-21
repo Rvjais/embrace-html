@@ -81,7 +81,11 @@ for (const file of phpFiles) {
     // and the string-substitution build below cannot execute its redirect.
     if (file === __filename || file.endsWith('build.php')) continue;
     if (path.relative(__dirname, file) === 'blog.php') continue;
-    if (path.relative(__dirname, file) === 'sitemap-blog.php') continue;
+    // sitemap-blog.xml.php is a dynamic XML endpoint (it reads the blog/ folder
+    // and the publish gate at request time to list only already-live posts).
+    // Static HTML can't reproduce that, so it isn't part of the dist/ build;
+    // production serves it as PHP directly, same as blog/index.php.
+    if (path.relative(__dirname, file) === 'sitemap-blog.xml.php') continue;
     
     let content = fs.readFileSync(file, 'utf8');
 

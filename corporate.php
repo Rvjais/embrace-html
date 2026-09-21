@@ -432,7 +432,7 @@
         <h2 class="md:text-3xl 2xl:text-4xl text-lg font-bold text-center">Why Corporates Choose eMbrace</h2>
         <div class="w-full flex flex-col gap-6 items-center mt-12">
           <div class="md:w-[80%] 2xl:w-[65%] bg-white rounded-2xl py-2 px-4 shadow-sm/20 flex flex-row gap-4">
-            <div class="w-fit"><img loading="lazy" decoding="async" width="80" height="80" alt="" class="w-12 2xl:w-18" src="/assets/Card1-CwIVRNcF.svg" /></div>
+            <div class="w-fit"><img loading="lazy" decoding="async" width="80" height="80" alt="Neurodiversity & Inclusion" class="w-12 2xl:w-18" src="/assets/Card1-CwIVRNcF.svg" /></div>
             <div class="w-full flex flex-col">
               <h2 class="text-left text-[var(--text-gray)] text-sm md:text-lg 2xl:text-2xl font-semibold">
                 Neurodiversity &amp; Inclusion
@@ -443,7 +443,7 @@
             </div>
           </div>
           <div class="md:w-[80%] 2xl:w-[65%] bg-white rounded-2xl py-2 px-4 shadow-sm/20 flex flex-row gap-4">
-            <div class="w-fit"><img loading="lazy" decoding="async" width="80" height="80" alt="" class="w-12 2xl:w-18" src="/assets/Card2-px5EWGr_.svg" /></div>
+            <div class="w-fit"><img loading="lazy" decoding="async" width="80" height="80" alt="Confidential EAP & Assessments" class="w-12 2xl:w-18" src="/assets/Card2-px5EWGr_.svg" /></div>
             <div class="w-full flex flex-col">
               <h2 class="text-left text-[var(--text-gray)] text-sm md:text-lg 2xl:text-2xl font-semibold">
                 Confidential EAP &amp; Assessments
@@ -454,7 +454,7 @@
             </div>
           </div>
           <div class="md:w-[80%] 2xl:w-[65%] bg-white rounded-2xl py-2 px-4 shadow-sm/20 flex flex-row gap-4">
-            <div class="w-fit"><img loading="lazy" decoding="async" width="80" height="80" alt="" class="w-12 2xl:w-18" src="/assets/Card3-CpKIplDb.svg" /></div>
+            <div class="w-fit"><img loading="lazy" decoding="async" width="80" height="80" alt="Manager & HR Training" class="w-12 2xl:w-18" src="/assets/Card3-CpKIplDb.svg" /></div>
             <div class="w-full flex flex-col">
               <h2 class="text-left text-[var(--text-gray)] text-sm md:text-lg 2xl:text-2xl font-semibold">
                 Manager &amp; HR Training
@@ -465,7 +465,7 @@
             </div>
           </div>
           <div class="md:w-[80%] 2xl:w-[65%] bg-white rounded-2xl py-2 px-4 shadow-sm/20 flex flex-row gap-4">
-            <div class="w-fit"><img loading="lazy" decoding="async" width="80" height="80" alt="" class="w-12 2xl:w-18" src="/assets/Card4-6Rtd8vSm.svg" /></div>
+            <div class="w-fit"><img loading="lazy" decoding="async" width="80" height="80" alt="Culture of Well-Being" class="w-12 2xl:w-18" src="/assets/Card4-6Rtd8vSm.svg" /></div>
             <div class="w-full flex flex-col">
               <h2 class="text-left text-[var(--text-gray)] text-sm md:text-lg 2xl:text-2xl font-semibold">
                 Culture of Well-Being
@@ -640,7 +640,7 @@
               <p class="text-gray-600 text-xs md:text-sm">We share insights, not identities.</p>
             </div>
             <div class="w-[40%] md:w-[20%] justify-end flex">
-              <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/ZeroData-DhE4yI-J.svg" />
+              <img loading="lazy" decoding="async" width="200" height="200" alt="Zero Data Sharing" class="w-[90%]" src="/assets/ZeroData-DhE4yI-J.svg" />
             </div>
           </div>
           <div
@@ -651,7 +651,7 @@
               <p class="text-gray-600 text-xs md:text-sm">Therapy is one click away.</p>
             </div>
             <div class="w-[40%] md:w-[20%] justify-end flex">
-              <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/EasyEmployee-lg7wFvdK.svg" />
+              <img loading="lazy" decoding="async" width="200" height="200" alt="Easy Employee Onboarding" class="w-[90%]" src="/assets/EasyEmployee-lg7wFvdK.svg" />
             </div>
           </div>
           <div
@@ -664,7 +664,7 @@
               </p>
             </div>
             <div class="w-[40%] md:w-[20%] justify-end flex">
-              <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/ImpactTraining-DVog4EhH.svg" />
+              <img loading="lazy" decoding="async" width="200" height="200" alt="Impact Tracking for HR" class="w-[90%]" src="/assets/ImpactTraining-DVog4EhH.svg" />
             </div>
           </div>
           <div
@@ -675,7 +675,7 @@
               <p class="text-gray-600 text-xs md:text-sm">From the top down, we foster mental health advocacy.</p>
             </div>
             <div class="w-[40%] md:w-[20%] justify-end flex">
-              <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/CultureShift-B3rRBoZC.svg" />
+              <img loading="lazy" decoding="async" width="200" height="200" alt="Culture Shift with Leadership Buy-In" class="w-[90%]" src="/assets/CultureShift-B3rRBoZC.svg" />
             </div>
           </div>
         </div>
@@ -1080,7 +1080,7 @@
       </ul>
     </div>
   </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
+  <a class="emb-nearby__more" href="/locations/">View all eMbrace locations &rsaquo;</a>
 </section>
 </div>
 </div>

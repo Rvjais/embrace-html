@@ -649,13 +649,13 @@
               <div
                 class="border-[2px] border-[#399349] shadow-[0px_2px_4px_0px_#36A729] items-center flex md:gap-8 gap-4 w-full md:w-[40%] rounded-2xl pl-4 px-8 py-4"
               >
-                <img loading="lazy" decoding="async" width="100" height="100" alt="" class="h-10 w-10" src="/assets/Psy1-DeFgA123.svg" />
+                <img loading="lazy" decoding="async" width="100" height="100" alt="Diagnostic Clarification" class="h-10 w-10" src="/assets/Psy1-DeFgA123.svg" />
                 <p class="font-semibold text-sm md:text-base">Diagnostic Clarification</p>
               </div>
               <div
                 class="border-[2px] border-[#399349] shadow-[0px_2px_4px_0px_#36A729] items-center flex md:gap-8 gap-4 w-full md:w-[40%] rounded-2xl pl-4 px-8 py-4"
               >
-                <img loading="lazy" decoding="async" width="100" height="100" alt="" class="h-10 w-10" src="/assets/Psy2-C9DvQadH.svg" />
+                <img loading="lazy" decoding="async" width="100" height="100" alt="Medication Management" class="h-10 w-10" src="/assets/Psy2-C9DvQadH.svg" />
                 <p class="font-semibold text-sm md:text-base">Medication Management</p>
               </div>
             </div>
@@ -663,7 +663,7 @@
               <div
                 class="border-[2px] border-[#399349] shadow-[0px_2px_4px_0px_#36A729] items-center flex md:gap-8 gap-4 w-full md:w-[40%] rounded-2xl pl-4 px-8 py-4"
               >
-                <img loading="lazy" decoding="async" width="100" height="100" alt="" class="h-10 w-10" src="/assets/Psy3-BjjPD7tO.svg" />
+                <img loading="lazy" decoding="async" width="100" height="100" alt="Collaborative Care Plans" class="h-10 w-10" src="/assets/Psy3-BjjPD7tO.svg" />
                 <p class="font-semibold">Collaborative Care Plans</p>
               </div>
             </div>
@@ -888,7 +888,7 @@
       </ul>
     </div>
   </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
+  <a class="emb-nearby__more" href="/locations/">View all eMbrace locations &rsaquo;</a>
 </section>
 </div>
 </div>

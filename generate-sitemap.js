@@ -10,6 +10,7 @@
  */
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 
 const ROOT = __dirname;
 const BASE = 'https://embracelives.com';
@@ -62,7 +63,7 @@ function collect(dir, out = []) {
       // Blog articles live in a date-aware PHP sitemap so future posts are not
       // disclosed before publication. Keep only the blog hub in this static map.
       if (rel.startsWith('blog/') && rel !== 'blog/index.php') continue;
-      if (rel === 'sitemap-blog.php') continue;
+      if (rel === 'sitemap-blog.xml.php') continue;
       out.push(rel);
     }
   }
@@ -95,8 +96,48 @@ function changefreqFor(rel) {
   return 'monthly';
 }
 
+/**
+ * Each page's lastmod is its most recent git commit date, not the file's
+ * filesystem mtime. A deploy that runs `git pull` (or any fresh checkout)
+ * resets every file's mtime to the checkout time regardless of whether its
+ * content actually changed, so mtime-based lastmod jumped to "today" for the
+ * entire sitemap on every single deploy. That is meaningless as a change
+ * signal, and search engines are known to start discounting a sitemap's
+ * lastmod once it stops looking trustworthy. git's own commit history is
+ * unaffected by checkout time and survives every deploy.
+ *
+ * One `git log` walks the whole history once (a few hundred ms), rather than
+ * shelling out per file, which is the only way this stays fast across ~400
+ * pages.
+ */
+function buildLastmodMap() {
+  const map = new Map();
+  let out;
+  try {
+    out = execFileSync(
+      'git', ['log', '--format=@@%cs', '--name-only', '--diff-filter=ACMR'],
+      { cwd: ROOT, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 }
+    );
+  } catch {
+    return map; // Not a git checkout (or git unavailable) — callers fall back to today.
+  }
+  let date = null;
+  for (const line of out.split('\n')) {
+    if (line.startsWith('@@')) {
+      date = line.slice(2);
+    } else if (line && date && !map.has(line)) {
+      // git log is newest-first, so the first date seen for a path is its most recent commit.
+      map.set(line, date);
+    }
+  }
+  return map;
+}
+
+const lastmodMap = buildLastmodMap();
+const today = new Date().toISOString().slice(0, 10);
+
 function lastmod(rel) {
-  return fs.statSync(path.join(ROOT, rel)).mtime.toISOString().slice(0, 10);
+  return lastmodMap.get(rel) || today; // Uncommitted file: only "now" is true of it.
 }
 
 const pages = collect(ROOT).sort();
@@ -127,7 +168,7 @@ const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
     <loc>${BASE}/sitemap-pages.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>${BASE}/sitemap-blog</loc>
+    <loc>${BASE}/sitemap-blog.xml</loc>
   </sitemap>
 </sitemapindex>
 `;

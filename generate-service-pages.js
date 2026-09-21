@@ -362,7 +362,7 @@ ${svc.keyPoints.map(k => `    <li>${enc(k)}</li>`).join('\n')}
 <ul>
   <li><a href="/locations/${svc.slug}-in-delhi" class="text-[#234394] font-semibold">${enc(svc.keyword)} in Delhi</a></li>
   <li><a href="/locations/${svc.slug}-in-gurgaon" class="text-[#234394] font-semibold">${enc(svc.keyword)} in Gurgaon</a></li>
-  <li><a href="/locations" class="text-[#234394] font-semibold">All eMbrace locations across Delhi NCR</a></li>
+  <li><a href="/locations/" class="text-[#234394] font-semibold">All eMbrace locations across Delhi NCR</a></li>
 </ul>`;
 
   return `${head({ title, desc, url })}
@@ -473,7 +473,7 @@ ${faqBlock([
 <h2>Other eMbrace services near you</h2>
 <ul>
 ${nearbyLinks}
-  <li><a href="/locations" class="text-[#234394]">View all eMbrace locations</a></li>
+  <li><a href="/locations/" class="text-[#234394]">View all eMbrace locations</a></li>
 </ul>
 
 ${ctaBlock(svc.shortName)}

@@ -336,47 +336,47 @@
       <?php include __DIR__ . '/components/header.php'; ?>
       <div class="bg-white min-h-screen w-full overflow-hidden relative">
         <img
-          alt="decoration"
+          alt=""
           class="absolute h-10 w-10 -right-4 lg:top-[19%] top-[14%] opacity-70"
           src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
         /><img
-          alt="decoration"
+          alt=""
           class="absolute h-10 w-10 -right-7 lg:top-[20%] top-[15%] opacity-70"
           src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
         /><img
-          alt="decoration"
+          alt=""
           class="absolute h-7 w-7 right-5 lg:hidden top-[88.5%] opacity-70"
           src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
         /><img
-          alt="decoration"
+          alt=""
           class="absolute h-7 w-7 right-7 lg:hidden top-[89%] opacity-70"
           src="data:image/svg+xml,%3csvg%20width='120'%20height='120'%20viewBox='0%200%20120%20120'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='60'%20cy='60'%20r='60'%20fill='%23FFCC008A'%20fill-opacity='0.62'%20stroke-opacity='0.55'/%3e%3c/svg%3e"
         /><img
-          alt="decoration"
+          alt=""
           class="absolute h-10 w-10 -left-7 lg:left-4 top-[91%]"
           src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
         /><img
-          alt="decoration"
+          alt=""
           class="absolute h-10 w-10 -left-4 lg:left-7 top-[91.5%]"
           src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
         /><img
-          alt="decoration"
+          alt=""
           class="absolute h-10 w-10 -right-7 lg:right-7 top-[98%]"
           src="data:image/svg+xml,%3csvg%20width='107'%20height='114'%20viewBox='0%200%20107%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='53.5'%20cy='57'%20rx='53.5'%20ry='57'%20fill='%23B9F1DA'/%3e%3c/svg%3e"
         /><img
-          alt="decoration"
+          alt=""
           class="absolute h-10 w-10 -right-4 lg:right-10 top-[98.5%]"
           src="data:image/svg+xml,%3csvg%20width='93'%20height='91'%20viewBox='0%200%2093%2091'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20opacity='0.5'%20cx='44.5925'%20cy='46.287'%20rx='44.5925'%20ry='46.287'%20transform='matrix(0.560339%20-0.828264%200.835376%200.549679%20-17%2056.9253)'%20fill='%2390A7E1'/%3e%3c/svg%3e"
         /><img
-          alt="decoration"
+          alt=""
           class="absolute h-10 w-10 -left-3 hidden lg:block lg:top-[45%]"
           src="data:image/svg+xml,%3csvg%20width='120'%20height='120'%20viewBox='0%200%20120%20120'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='60'%20cy='60'%20r='60'%20fill='%23D2ADFE96'%20fill-opacity='0.53'/%3e%3c/svg%3e"
         /><img
-          alt="decoration"
+          alt=""
           class="absolute h-12 w-12 lg:top-[91%] lg:-right-3 top-[45.3%] z-0 -left-1 lg:left-auto"
           src="data:image/svg+xml,%3csvg%20width='120'%20height='120'%20viewBox='0%200%20120%20120'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='60'%20cy='60'%20r='60'%20fill='%23FFAAF9'%20fill-opacity='0.62'%20stroke='%23BA57D6'%20stroke-opacity='0.55'/%3e%3c/svg%3e"
         /><img
-          alt="decoration"
+          alt=""
           class="absolute h-10 w-10 right-0 lg:-right-3 top-[36%] lg:top-[48%] z-0 rotate-180"
           src="data:image/svg+xml,%3csvg%20width='120'%20height='120'%20viewBox='0%200%20120%20120'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='60'%20cy='60'%20r='60'%20fill='%23FFCC008A'%20fill-opacity='0.62'%20stroke-opacity='0.55'/%3e%3c/svg%3e"
         />
@@ -390,7 +390,7 @@
             ></div>
           </div>
           <img
-            alt="img"
+            alt=""
             class="h-15 w-9 absolute -right-3 top-[65%]"
             src="data:image/svg+xml,%3csvg%20width='120'%20height='192'%20viewBox='0%200%20120%20192'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M60%2072L111.962%20162H8.03848L60%2072Z'%20fill='%23ABE6A4'/%3e%3ccircle%20cx='60'%20cy='60'%20r='60'%20fill='%2390A7E1'%20fill-opacity='0.53'/%3e%3c/svg%3e"
           />
@@ -2459,7 +2459,7 @@
       </ul>
     </div>
   </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
+  <a class="emb-nearby__more" href="/locations/">View all eMbrace locations &rsaquo;</a>
 </section>
 </div>
 </div>

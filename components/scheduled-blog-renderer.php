@@ -10,15 +10,20 @@ $faqSchema = [];
 foreach ($article['faqs'] as $faq) {
     $faqSchema[] = ['@type'=>'Question','name'=>$faq[0],'acceptedAnswer'=>['@type'=>'Answer','text'=>$faq[1]]];
 }
+// $article['h1'] is authored with HTML entities (&rsquo; etc.) for the visible
+// <h1>. JSON-LD is plain JSON, not HTML — a consumer never decodes it — so
+// reusing the raw entity-laden string here puts the literal text "&rsquo;"
+// into the headline and breadcrumb name instead of an apostrophe.
+$plainHeadline = html_entity_decode($article['h1'], ENT_QUOTES, 'UTF-8');
 $schema = [
     '@context'=>'https://schema.org',
     '@graph'=>[
         ['@type'=>'BreadcrumbList','itemListElement'=>[
             ['@type'=>'ListItem','position'=>1,'name'=>'Home','item'=>'https://embracelives.com/'],
             ['@type'=>'ListItem','position'=>2,'name'=>'Blog','item'=>'https://embracelives.com/blog/'],
-            ['@type'=>'ListItem','position'=>3,'name'=>$article['h1']],
+            ['@type'=>'ListItem','position'=>3,'name'=>$plainHeadline],
         ]],
-        ['@type'=>'BlogPosting','headline'=>$article['h1'],'url'=>$url,'datePublished'=>$article['date'],'dateModified'=>$article['date'],'inLanguage'=>'en-IN','author'=>['@type'=>'Organization','name'=>'eMbrace'],'reviewedBy'=>['@type'=>'Person','name'=>'Dr. Supriya Malik'],'publisher'=>['@type'=>'Organization','name'=>'eMbrace','url'=>'https://embracelives.com/'],'image'=>'https://embracelives.com/og-image.png','description'=>$article['description']],
+        ['@type'=>'BlogPosting','headline'=>$plainHeadline,'url'=>$url,'datePublished'=>$article['date'],'dateModified'=>$article['date'],'inLanguage'=>'en-IN','author'=>['@type'=>'Organization','name'=>'eMbrace'],'reviewedBy'=>['@type'=>'Person','name'=>'Dr. Supriya Malik'],'publisher'=>['@type'=>'Organization','name'=>'eMbrace','url'=>'https://embracelives.com/'],'image'=>'https://embracelives.com/og-image.png','description'=>$article['description']],
         ['@type'=>'FAQPage','mainEntity'=>$faqSchema],
     ],
 ];

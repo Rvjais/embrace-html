@@ -338,7 +338,7 @@
         class="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-50 bg-gradient-to-b from-[#FFE9E7] to-[#FFFFFF] mb-6 md:mb-0 relative overflow-hidden h-fit md:min-h-fit md:py-0 py-6 2xl:py-10 flex flex-col items-center md:flex-row md:gap-8"
       >
         <div class="bg-[#FF00484A] h-12 w-12 rounded-full absolute -bottom-[3.5%] left-[5%] md:left-[40%]"></div>
-        <div class="md:w-[40%] w-full flex"><img decoding="async" width="826" height="821" alt="" class="" src="/assets/CareersHero-DQRuZDUV.svg" /></div>
+        <div class="md:w-[40%] w-full flex"><img decoding="async" width="826" height="821" alt="Careers at eMbrace" class="" src="/assets/CareersHero-DQRuZDUV.svg" /></div>
         <div class="w-full md:w-[60%] flex flex-col items-center justify-center gap-2 md:gap-6">
           <h1 class="text-3xl font-bold">Careers</h1>
           <p

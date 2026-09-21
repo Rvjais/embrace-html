@@ -1,12 +1,15 @@
 User-agent: *
 Allow: /
 
-# Conversion / confirmation pages — no search value
-Disallow: /thank-you
-Disallow: /appointment__confirmation
-
-# Gated lead-magnet deliverables — reachable only after the form
-Disallow: /resources/guides/
+# Conversion/confirmation pages and the gated lead-magnet deliverables all
+# carry <meta name="robots" content="noindex">, which is the only thing
+# actually keeping them out of search. They are NOT Disallow'd here on
+# purpose: noindex only works if Googlebot is allowed to crawl the page and
+# see the tag. Disallowing a noindex page blocks that, and if the URL was
+# ever indexed before noindex was added, or picks up a stray external link,
+# it can get stuck in the index as a bare URL with no way for Google to
+# recrawl it and drop it. See thank-you.php, appointment__confirmation.php
+# and resources/guides/*.php for the noindex tags themselves.
 
 # Internals
 Disallow: /api/

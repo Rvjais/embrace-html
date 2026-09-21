@@ -1794,7 +1794,7 @@
 
     <p class="lm-sub lm-center" style="margin-top:2rem;font-size:.88rem;color:#7d8294">
       These are educational screening tools, not diagnoses. Only a qualified clinician can diagnose, after a
-      full assessment. <a href="/resources" style="color:#234394;font-weight:600">See all free tools &rarr;</a>
+      full assessment. <a href="/resources/" style="color:#234394;font-weight:600">See all free tools &rarr;</a>
     </p>
   </div>
 </section>

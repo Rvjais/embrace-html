@@ -433,7 +433,7 @@
                   </p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img loading="lazy" decoding="async" width="209" height="209" alt="" class="w-[90%]" src="/assets/developmentPsychology-DXm3_gc8.svg" />
+                  <img loading="lazy" decoding="async" width="209" height="209" alt="Developmental Psychology" class="w-[90%]" src="/assets/developmentPsychology-DXm3_gc8.svg" />
                 </div>
               </div>
               <div
@@ -446,7 +446,7 @@
                   </p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img loading="lazy" decoding="async" width="201" height="200" alt="" class="w-[90%]" src="/assets/behaviorTherapt-DQyHqSoO.svg" />
+                  <img loading="lazy" decoding="async" width="201" height="200" alt="Behavior Therapy" class="w-[90%]" src="/assets/behaviorTherapt-DQyHqSoO.svg" />
                 </div>
               </div>
               <div
@@ -457,7 +457,7 @@
                   <p class="text-gray-600 text-sm">Tailored learning plans for diverse learning needs.</p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/specialEducation-BUTLj0Ko.svg" />
+                  <img loading="lazy" decoding="async" width="200" height="200" alt="Special Education" class="w-[90%]" src="/assets/specialEducation-BUTLj0Ko.svg" />
                 </div>
               </div>
               <div
@@ -470,7 +470,7 @@
                   </p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/physiotherapy-DUPd0OwH.svg" />
+                  <img loading="lazy" decoding="async" width="200" height="200" alt="Physiotherapy" class="w-[90%]" src="/assets/physiotherapy-DUPd0OwH.svg" />
                 </div>
               </div>
               <div
@@ -481,7 +481,7 @@
                   <p class="text-gray-600 text-sm">Structured programs to build self-regulation and social skills.</p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img loading="lazy" decoding="async" width="200" height="200" alt="" class="w-[90%]" src="/assets/occupationalTherapy-BjQOUevQ.svg" />
+                  <img loading="lazy" decoding="async" width="200" height="200" alt="Occupational Therapy" class="w-[90%]" src="/assets/occupationalTherapy-BjQOUevQ.svg" />
                 </div>
               </div>
               <div
@@ -494,7 +494,7 @@
                   </p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img loading="lazy" decoding="async" width="201" height="201" alt="" class="w-[90%]" src="/assets/speechAndLanguage-BsW3n376.svg" />
+                  <img loading="lazy" decoding="async" width="201" height="201" alt="Speech & Language Pathology" class="w-[90%]" src="/assets/speechAndLanguage-BsW3n376.svg" />
                 </div>
               </div>
               <div
@@ -507,7 +507,7 @@
                   </p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img loading="lazy" decoding="async" width="201" height="201" alt="" class="w-[90%]" src="/assets/earlyIntervention-s6QF48x4.svg" />
+                  <img loading="lazy" decoding="async" width="201" height="201" alt="Early Intervention" class="w-[90%]" src="/assets/earlyIntervention-s6QF48x4.svg" />
                 </div>
               </div>
               <div
@@ -520,7 +520,7 @@
                   </p>
                 </div>
                 <div class="w-[20%] justify-end flex">
-                  <img loading="lazy" decoding="async" width="201" height="201" alt="" class="w-[90%]" src="/assets/expressiveArts-DoGeG7O8.svg" />
+                  <img loading="lazy" decoding="async" width="201" height="201" alt="Expressive Arts" class="w-[90%]" src="/assets/expressiveArts-DoGeG7O8.svg" />
                 </div>
               </div>
             </div>
@@ -529,7 +529,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img loading="lazy" decoding="async" width="414" height="208" alt="" class="w-[90%]" src="/assets/developmentalPsychologyMobile-D4VCYwK5.svg" />
+                  <img loading="lazy" decoding="async" width="414" height="208" alt="Developmental Psychology" class="w-[90%]" src="/assets/developmentalPsychologyMobile-D4VCYwK5.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Developmental Psychology</h3>
@@ -542,7 +542,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/occupationalTherapyMobile-hjyLdyhC.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="Occupational Therapy" class="w-[90%]" src="/assets/occupationalTherapyMobile-hjyLdyhC.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Occupational Therapy</h3>
@@ -555,7 +555,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/specialEducationMobile-CxEqEIRt.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="Special Education" class="w-[90%]" src="/assets/specialEducationMobile-CxEqEIRt.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Special Education</h3>
@@ -566,7 +566,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/physiotherapyMobile-B1QC8_YN.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="Physiotherapy" class="w-[90%]" src="/assets/physiotherapyMobile-B1QC8_YN.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Physiotherapy</h3>
@@ -579,7 +579,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/behaviorTherapyMobile-CpFSsYep.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="Behavior Therapy" class="w-[90%]" src="/assets/behaviorTherapyMobile-CpFSsYep.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Behavior Therapy</h3>
@@ -590,7 +590,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/speechLanguageMobile-DI_EEffe.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="Speech & Language Pathology" class="w-[90%]" src="/assets/speechLanguageMobile-DI_EEffe.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Speech &amp; Language Pathology</h3>
@@ -603,7 +603,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/earlyInterventionMobile-B7Bveluo.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="Early Intervention" class="w-[90%]" src="/assets/earlyInterventionMobile-B7Bveluo.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Early Intervention</h3>
@@ -616,7 +616,7 @@
                 class="w-[98%] bg-white border-2 rounded-xl border-gray-200/70 p-3 flex flex-col items-center justify-center text-center"
               >
                 <div class="w-full justify-center flex">
-                  <img loading="lazy" decoding="async" width="406" height="200" alt="" class="w-[90%]" src="/assets/expressiveArtsMobile-C-nNnat_.svg" />
+                  <img loading="lazy" decoding="async" width="406" height="200" alt="Expressive Arts" class="w-[90%]" src="/assets/expressiveArtsMobile-C-nNnat_.svg" />
                 </div>
                 <div class="w-full">
                   <h3 class="text-lg font-semibold mb-2 mt-2">Expressive Arts</h3>
@@ -1357,7 +1357,7 @@
       </ul>
     </div>
   </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
+  <a class="emb-nearby__more" href="/locations/">View all eMbrace locations &rsaquo;</a>
 </section>
 </div>
 </div>

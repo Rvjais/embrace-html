@@ -425,7 +425,7 @@
             class="bg-gradient bg-[#FFF7D747] pb-2 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center px-4 md:h-auto pt-6 md:pt-0 z-10 rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
           >
             <img loading="lazy" decoding="async" width="588" height="343"
-              alt=""
+              alt="Relationship & Pre-Marital Counseling"
               class="md:w-[90%] md:h-40 2xl:h-[70%] w-[90%] md:mb-0 mb-2 md:mt-4"
               src="/assets/What1-CBWtBqC0.svg"
             /><span class="text-lg 2xl:text-2xl 3xl:text-5xl font-semibold text-center mb-2"
@@ -443,7 +443,7 @@
             class="bg-gradient bg-[#FFF7D747] pb-2 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center px-4 md:h-auto pt-6 md:pt-0 z-10 rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
           >
             <img loading="lazy" decoding="async" width="588" height="343"
-              alt=""
+              alt="Marriage & Partnership Therapy"
               class="md:w-[90%] md:h-40 2xl:h-[70%] w-[90%] md:mb-0 mb-2 md:mt-4"
               src="/assets/What2-CGGveSaT.svg"
             /><span class="text-lg 2xl:text-2xl 3xl:text-5xl font-semibold text-center mb-2"
@@ -461,7 +461,7 @@
             class="bg-gradient bg-[#FFF7D747] pb-2 md:pb-4 2xl:py-10 2xl:gap-8 md:w-[90%] w-full lg:w-[40%] items-center px-4 md:h-auto pt-6 md:pt-0 z-10 rounded-xl md:rounded-2xl flex flex-col shadow-[0_2px_6.2px_rgba(0,0,0,0.1)] md:gap-4"
           >
             <img loading="lazy" decoding="async" width="588" height="343"
-              alt=""
+              alt="Therapy for Separation, Divorce, or Co-Parenting"
               class="md:w-[90%] md:h-40 2xl:h-[70%] w-[90%] md:mb-0 mb-2 md:mt-4"
               src="/assets/What3-7sJb5i9K.svg"
             /><span class="text-lg 2xl:text-2xl 3xl:text-5xl font-semibold text-center mb-2"
@@ -871,7 +871,7 @@
       </ul>
     </div>
   </div>
-  <a class="emb-nearby__more" href="/locations">View all eMbrace locations &rsaquo;</a>
+  <a class="emb-nearby__more" href="/locations/">View all eMbrace locations &rsaquo;</a>
 </section>
 </div>
 </div>
