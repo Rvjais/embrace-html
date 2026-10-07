@@ -20,6 +20,25 @@
     LEAD_KEY: 'embrace_lead',
   };
 
+  var captchaScript;
+  function loadCaptcha() {
+    if (window.EmbraceCaptcha) return Promise.resolve(window.EmbraceCaptcha);
+    if (!captchaScript) {
+      captchaScript = new Promise(function (resolve, reject) {
+        var script = el('script');
+        script.src = '/assets/recaptcha.js';
+        script.onload = function () { resolve(window.EmbraceCaptcha); };
+        script.onerror = function () {
+          captchaScript = null;
+          script.remove();
+          reject(new Error('CAPTCHA could not load. Please refresh and try again.'));
+        };
+        document.head.appendChild(script);
+      });
+    }
+    return captchaScript;
+  }
+
   /* ------------------------------------------------------------ helpers */
 
   function el(tag, className, html) {
@@ -277,7 +296,8 @@
         '<label class="lm-consent"><input type="checkbox" name="consent_check">' +
           '<span>I agree that eMbrace may contact me about my results by email, phone or WhatsApp, ' +
           'and I have read the <a href="/privacypolicy" target="_blank" rel="noopener">privacy policy</a>.</span></label>' +
-        '<p class="lm-error" hidden></p>' +
+        '<div data-captcha-widget aria-label="Bot prevention" style="margin-top:1rem"></div>' +
+        '<p class="lm-error" role="alert" hidden></p>' +
         '<button type="submit" class="lm-btn lm-btn--gold lm-btn--wide" style="margin-top:1.15rem">' +
           esc(cfg.offer.button) + '</button>' +
         '<p class="lm-fineprint">No spam. One report, a short follow-up, and you can unsubscribe in a click. ' +
@@ -286,6 +306,14 @@
 
     var form = wrap.querySelector('form');
     var error = wrap.querySelector('.lm-error');
+    var captcha = form.querySelector('[data-captcha-widget]');
+    // captureBlock is attached by paint() after it returns; mount on the next turn.
+    window.setTimeout(function () {
+      loadCaptcha().then(function (api) { return api.mount(captcha); }).catch(function (problem) {
+        error.hidden = false;
+        error.textContent = problem.message;
+      });
+    }, 0);
 
     form.addEventListener('submit', function (event) {
       event.preventDefault();
@@ -308,12 +336,22 @@
         error.textContent = 'Please add ' + problems.join(', ') + '.';
         return;
       }
+      var captchaToken;
+      try {
+        if (!window.EmbraceCaptcha) throw new Error('CAPTCHA is still loading. Please try again.');
+        captchaToken = window.EmbraceCaptcha.token(captcha);
+      } catch (problem) {
+        error.hidden = false;
+        error.textContent = problem.message;
+        loadCaptcha().then(function (api) { return api.mount(captcha); }).catch(function () {});
+        return;
+      }
       error.hidden = true;
       form.querySelector('button[type="submit"]').disabled = true;
       form.querySelector('button[type="submit"]').textContent = 'Sending your report…';
 
       store(LM.LEAD_KEY, JSON.stringify({ name: name, email: email, phone: phone }));
-      self.send({ name: name, email: email, phone: phone }, wrap);
+      self.send({ name: name, email: email, phone: phone }, wrap, captchaToken);
     });
 
     return wrap;
@@ -324,7 +362,7 @@
    * The iframe's load event confirms the round trip; a timer covers the case
    * where a cross-origin redirect never fires a readable load.
    */
-  Quiz.prototype.send = function (lead, wrap) {
+  Quiz.prototype.send = function (lead, wrap, captchaToken) {
     var self = this;
     var result = this.result;
     var query = params();
@@ -371,6 +409,7 @@
     ].join('\n');
 
     var fields = {
+      'g-recaptcha-response': captchaToken,
       name: lead.name,
       email: lead.email,
       phone: lead.phone,

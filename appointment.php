@@ -651,7 +651,7 @@
                   <p class="form-subtitle">Please fill out the form below. Our intake coordinators will review your details and align you with the right specialist.</p>
                 </div>
 
-                <form accept-charset='UTF-8' action='https://app.formester.com/forms/6rj1mkdNE/submissions' method='POST' class="flex flex-col gap-8">
+                <form accept-charset='UTF-8' action='https://app.formester.com/forms/6rj1mkdNE/submissions' method='POST' data-recaptcha class="flex flex-col gap-8">
                   
                   <!-- Step 1: Patient Profile -->
                   <div class="step-section">
@@ -774,6 +774,9 @@
                     </div>
                   </div>
 
+                  <div data-captcha-widget aria-label="Bot prevention"></div>
+                  <noscript>Please enable JavaScript to complete the CAPTCHA and submit this form.</noscript>
+
                   <div class="btn-container">
                     <button type="submit" class="submit-btn">Book Appointment</button>
                   </div>
@@ -822,6 +825,7 @@
       <?php include __DIR__ . '/components/footer.php'; ?>
     </div>
     
+    <script src="/assets/recaptcha.js"></script>
     <script src="/assets/interactive.js"></script>
   </body>
 </html>
