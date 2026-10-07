@@ -412,21 +412,21 @@
                 class="rounded-full flex items-center hover:cursor-pointer gap-2 px-4 py-2 lg:px-6 lg:py-3 transition-all duration-200 bg-white text-gray-700"
                 style="box-shadow: rgba(194, 105, 105, 0.54) 0px 3px 4px"
               >
-                <img alt="Child Psychology Department" class="w-5 h-5" /><span class="text-sm lg:text-base font-medium"
+                <span aria-hidden="true" class="w-5 h-5 flex items-center justify-center text-lg">🧠</span><span class="text-sm lg:text-base font-medium"
                   >Child Psychology Department</span
                 ></button
               ><button
                 class="rounded-full flex items-center hover:cursor-pointer gap-2 px-4 py-2 lg:px-6 lg:py-3 transition-all duration-200 bg-white text-gray-700"
                 style="box-shadow: rgba(194, 105, 105, 0.54) 0px 3px 4px"
               >
-                <img alt="Child and Adolescent" class="w-5 h-5" /><span class="text-sm lg:text-base font-medium"
+                <span aria-hidden="true" class="w-5 h-5 flex items-center justify-center text-lg">🧒</span><span class="text-sm lg:text-base font-medium"
                   >Child and Adolescent</span
                 ></button
               ><button
                 class="rounded-full flex items-center hover:cursor-pointer gap-2 px-4 py-2 lg:px-6 lg:py-3 transition-all duration-200 bg-white text-gray-700"
                 style="box-shadow: rgba(194, 105, 105, 0.54) 0px 3px 4px"
               >
-                <img alt="Speech &amp; Language Diagnosis and Therapy" class="w-5 h-5" /><span
+                <span aria-hidden="true" class="w-5 h-5 flex items-center justify-center text-lg">💬</span><span
                   class="text-sm lg:text-base font-medium"
                   >Speech &amp; Language Diagnosis and Therapy</span
                 ></button
@@ -434,28 +434,28 @@
                 class="rounded-full flex items-center hover:cursor-pointer gap-2 px-4 py-2 lg:px-6 lg:py-3 transition-all duration-200 bg-white text-gray-700"
                 style="box-shadow: rgba(194, 105, 105, 0.54) 0px 3px 4px"
               >
-                <img alt="Psychologist" class="w-5 h-5" /><span class="text-sm lg:text-base font-medium"
+                <span aria-hidden="true" class="w-5 h-5 flex items-center justify-center text-lg">🫶</span><span class="text-sm lg:text-base font-medium"
                   >Psychologist</span
                 ></button
               ><button
                 class="rounded-full flex items-center hover:cursor-pointer gap-2 px-4 py-2 lg:px-6 lg:py-3 transition-all duration-200 bg-white text-gray-700"
                 style="box-shadow: rgba(194, 105, 105, 0.54) 0px 3px 4px"
               >
-                <img alt="Clinical Psychology" class="w-5 h-5" /><span class="text-sm lg:text-base font-medium"
+                <span aria-hidden="true" class="w-5 h-5 flex items-center justify-center text-lg">🩺</span><span class="text-sm lg:text-base font-medium"
                   >Clinical Psychology</span
                 ></button
               ><button
                 class="rounded-full flex items-center hover:cursor-pointer gap-2 px-4 py-2 lg:px-6 lg:py-3 transition-all duration-200 bg-white text-gray-700"
                 style="box-shadow: rgba(194, 105, 105, 0.54) 0px 3px 4px"
               >
-                <img alt="Occupational Therapy" class="w-5 h-5" /><span class="text-sm lg:text-base font-medium"
+                <span aria-hidden="true" class="w-5 h-5 flex items-center justify-center text-lg">🖐️</span><span class="text-sm lg:text-base font-medium"
                   >Occupational Therapy</span
                 ></button
               ><button
                 class="rounded-full flex items-center hover:cursor-pointer gap-2 px-4 py-2 lg:px-6 lg:py-3 transition-all duration-200 bg-white text-gray-700"
                 style="box-shadow: rgba(194, 105, 105, 0.54) 0px 3px 4px"
               >
-                <img alt="Child developmental Centre" class="w-5 h-5" /><span class="text-sm lg:text-base font-medium"
+                <span aria-hidden="true" class="w-5 h-5 flex items-center justify-center text-lg">🌱</span><span class="text-sm lg:text-base font-medium"
                   >Child developmental Centre</span
                 >
               </button>
@@ -2468,5 +2468,6 @@
     </div>
     
     <script src="/assets/interactive.js"></script>
+    <script src="/assets/user-listing.js?v=20261006-2"></script>
   </body>
 </html>
