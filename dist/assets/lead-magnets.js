@@ -679,14 +679,18 @@
     var msg = 'Hi eMbrace, I just downloaded the ' + cfg.name + ' from your website. ' +
       'I would like to talk to someone about the next step.';
 
+    // One deliberate click, not a script-triggered save-as. An automatic
+    // download is silently blocked by some browsers and extensions — exactly
+    // the unreliability a promised download should avoid — and a visible
+    // button is also simply what was asked for: fill the form, then a
+    // download option appears.
     box.innerHTML =
       '<div class="lm-success__tick">✓</div>' +
-      '<h3>' + esc(lead.name.split(' ')[0]) + ', your guide is downloading now.</h3>' +
-      '<p>We have also emailed a copy to <strong>' + esc(lead.email) + '</strong>, in case the download ' +
-      'does not start automatically.</p>' +
+      '<h3>' + esc(lead.name.split(' ')[0]) + ', your guide is ready.</h3>' +
+      '<p>Click below to save it.</p>' +
       '<div class="lm-success__cta">' +
         '<a class="lm-btn lm-btn--primary" href="' + esc(cfg.fileUrl) + '" download="' + esc(cfg.fileName || '') + '">' +
-          'Download the guide again</a>' +
+          'Download the guide (PDF)</a>' +
         '<a class="lm-btn lm-btn--ghost" href="/appointment">Book a consultation</a>' +
         '<a class="lm-btn lm-btn--ghost" href="' + esc(whatsappHref(msg)) + '" target="_blank" rel="noopener">' +
           'Ask a question on WhatsApp</a>' +
@@ -696,19 +700,6 @@
     fixLinks(box);
     box.scrollIntoView({ behavior: 'smooth', block: 'center' });
     store('embrace_lm_' + cfg.id, 'done');
-
-    // Trigger the save-as immediately — this is the moment the visitor was
-    // promised a download, not a second click away from one. The visible
-    // "Download the guide again" link above covers browsers that block a
-    // script-triggered download, or a visitor who dismisses the save dialog
-    // by mistake.
-    var trigger = el('a');
-    trigger.href = cfg.fileUrl;
-    trigger.download = cfg.fileName || '';
-    trigger.style.display = 'none';
-    document.body.appendChild(trigger);
-    trigger.click();
-    window.setTimeout(function () { trigger.remove(); }, 1000);
   };
 
   LM.gate = function (config) { return new Gate(config); };

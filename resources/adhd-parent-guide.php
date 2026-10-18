@@ -448,7 +448,7 @@ EmbraceLM.gate({
   specialtyTag: 'child_psychologist',
   offer: {
     title: 'Get the free guide',
-    subtitle: 'An 11-page PDF, yours to keep. We will also email a copy so you always have it.',
+    subtitle: 'An 11-page PDF, yours to keep. Fill in your details and a download button appears below.',
     bullets: [
       'Early signs by age, from preschool to the teen years',
       'A printable parent observation checklist and one-week log',

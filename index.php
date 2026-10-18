@@ -507,6 +507,8 @@
          style="background:rgba(255,255,255,.14);color:#fff;font-size:.82rem;font-weight:700;padding:.45rem 1rem;border-radius:999px;text-decoration:none;border:1px solid rgba(255,255,255,.35)">ADHD &amp; autism signs</a>
       <a href="/resources/adult-stress-check" data-lm-cta="adult-stress-check" data-lm-placement="home_strip"
          style="background:rgba(255,255,255,.14);color:#fff;font-size:.82rem;font-weight:700;padding:.45rem 1rem;border-radius:999px;text-decoration:none;border:1px solid rgba(255,255,255,.35)">Adult stress check</a>
+      <a href="/resources/adhd-parent-guide" data-lm-cta="adhd-parent-guide" data-lm-placement="home_strip"
+         style="background:rgba(255,255,255,.14);color:#fff;font-size:.82rem;font-weight:700;padding:.45rem 1rem;border-radius:999px;text-decoration:none;border:1px solid rgba(255,255,255,.35)">Free ADHD guide (PDF)</a>
     </div>
   </div>
 </div>
@@ -1721,16 +1723,17 @@
   <div class="lm-blob lm-blob--c"></div>
   <div class="lm-wrap">
     <div class="lm-center">
-      <span class="lm-eyebrow"><i class="ph-fill ph-gift"></i> Free &amp; instant &middot; no sign-up to see results</span>
-      <h2 class="lm-h2">Start with a free 3-minute check</h2>
+      <span class="lm-eyebrow"><i class="ph-fill ph-gift"></i> Free &amp; instant</span>
+      <h2 class="lm-h2">Start with a free 3-minute check — or the ADHD parent guide</h2>
       <p class="lm-sub">
         Most families arrive here unsure whether their worry is worth an appointment. These three screeners
         are built by the same clinicians who run our assessments — you get a domain-by-domain result on
-        screen straight away, and a written report plus a full guide by email if you want one.
+        screen straight away, no sign-up needed to see it. Prefer to read first? The ADHD parent guide is a
+        straight PDF download.
       </p>
     </div>
 
-    <div class="lm-grid">
+    <div class="lm-grid lm-grid--4">
       <div class="lm-card">
         <div class="lm-card__icon lm-card__icon--child"><i class="ph-fill ph-baby"></i></div>
         <span class="lm-card__tag">Parents &middot; 0–12 years</span>
@@ -1790,10 +1793,30 @@
           <p class="lm-card__meta">3 minutes &middot; 17 questions</p>
         </div>
       </div>
+
+      <div class="lm-card">
+        <div class="lm-card__icon lm-card__icon--neuro"><i class="ph-fill ph-file-pdf"></i></div>
+        <span class="lm-card__tag">Parents &middot; free PDF</span>
+        <h3 class="lm-card__title">Is It ADHD? Parent guide</h3>
+        <p class="lm-card__desc">
+          Early signs by age, a parent observation checklist, the look-alikes worth ruling out first, and
+          what an assessment actually involves — eleven pages, yours to download.
+        </p>
+        <ul class="lm-card__list">
+          <li>Signs from preschool through the teen years</li>
+          <li>Printable checklist and one-week observation log</li>
+          <li>No quiz — a download button after your details</li>
+        </ul>
+        <div class="lm-card__foot">
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/adhd-parent-guide"
+             data-lm-cta="adhd-parent-guide" data-lm-placement="home_section">Get the free guide</a>
+          <p class="lm-card__meta">PDF &middot; 11 pages</p>
+        </div>
+      </div>
     </div>
 
     <p class="lm-sub lm-center" style="margin-top:2rem;font-size:.88rem;color:#7d8294">
-      These are educational screening tools, not diagnoses. Only a qualified clinician can diagnose, after a
+      These are educational tools, not diagnoses. Only a qualified clinician can diagnose, after a
       full assessment. <a href="/resources/" style="color:#234394;font-weight:600">See all free tools &rarr;</a>
     </p>
   </div>

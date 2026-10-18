@@ -6,6 +6,21 @@
   var widgets = new WeakMap();
   var loading;
 
+  /**
+   * The reCAPTCHA site key is domain-restricted in Google's console to the
+   * live site, so it always fails with "not in the list of supported
+   * domains" when testing against a local PHP dev server. This check only
+   * ever matches an exact localhost-style hostname — never a real domain,
+   * and never anything an outside request could spoof, since the bypass
+   * only runs in the visitor's own browser against window.location, which a
+   * remote attacker cannot set. A fake token from here would still be
+   * rejected server-side by Formester's secret-key check on any real host.
+   */
+  function isLocalDev() {
+    var h = window.location.hostname;
+    return h === 'localhost' || h === '127.0.0.1' || h === '::1' || h === '0.0.0.0';
+  }
+
   function loadApi() {
     if (window.grecaptcha && window.grecaptcha.render) return Promise.resolve();
     if (loading) return loading;
@@ -33,6 +48,16 @@
 
   function mount(container) {
     if (widgets.has(container)) return Promise.resolve();
+    if (isLocalDev()) {
+      container.textContent = '';
+      var note = document.createElement('p');
+      note.style.cssText = 'margin:0;font-size:13px;color:#8a6100;background:#fff3d9;' +
+        'border-radius:8px;padding:.6rem .8rem';
+      note.textContent = 'CAPTCHA skipped — local dev only (' + window.location.hostname + ').';
+      container.appendChild(note);
+      widgets.set(container, { local: true });
+      return Promise.resolve();
+    }
     container.textContent = 'Loading CAPTCHA…';
     return loadApi().then(function () {
       if (widgets.has(container) || !container.isConnected) return;
@@ -63,6 +88,7 @@
 
   function token(container) {
     var widget = widgets.get(container);
+    if (widget && widget.local) return 'local-dev-bypass';
     var response = widget && window.grecaptcha.getResponse(widget.id);
     if (!response) {
       var message = 'Please complete the “I’m not a robot” CAPTCHA before submitting.';
@@ -77,7 +103,7 @@
     token: token,
     reset: function (container) {
       var widget = widgets.get(container);
-      if (widget) window.grecaptcha.reset(widget.id);
+      if (widget && !widget.local) window.grecaptcha.reset(widget.id);
     },
   };
 
