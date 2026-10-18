@@ -11,6 +11,15 @@ Allow: /
 # recrawl it and drop it. See thank-you.php, appointment__confirmation.php
 # and resources/guides/*.php for the noindex tags themselves.
 
+# PDF lead magnets. Different case from the paragraph above: a PDF has no
+# <meta noindex> equivalent, so Disallow is the only lever available, and it
+# does not create the same stuck-URL risk because these files are never
+# linked from crawlable markup in the first place — only revealed by JS after
+# a form submits. This rule is scoped to *.pdf on purpose; it must never
+# widen back to the whole resources/guides/ folder, which would re-trap the
+# noindex'd HTML guides the comment above explains.
+Disallow: /resources/guides/*.pdf
+
 # Internals
 Disallow: /api/
 Disallow: /components/

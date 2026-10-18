@@ -86,6 +86,10 @@ for (const file of phpFiles) {
     // Static HTML can't reproduce that, so it isn't part of the dist/ build;
     // production serves it as PHP directly, same as blog/index.php.
     if (path.relative(__dirname, file) === 'sitemap-blog.xml.php') continue;
+    // router.php is a dev-only helper for PHP's built-in server (`php -S`),
+    // not a page. It has no <head> and nothing to compile; without this it
+    // was shipping its own raw, unexecuted PHP source as dist/router.html.
+    if (path.relative(__dirname, file) === 'router.php') continue;
     
     let content = fs.readFileSync(file, 'utf8');
 

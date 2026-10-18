@@ -490,6 +490,229 @@
 
   LM.init = function (config) { return new Quiz(config); };
 
+  /* --------------------------------------------------------- simple gate */
+
+  /**
+   * A one-step lead capture for a straight PDF download — no quiz, no score.
+   * Same Formester endpoint, same validation, same captcha as Quiz, so a lead
+   * from this flow lands in the identical inbox the quiz-based magnets use;
+   * only the fields that make sense for a quiz (result band, answers) are
+   * dropped. Config:
+   *   mount        — selector to render into
+   *   id, name     — magnet_id / magnet_name for tracking and the Formester digest
+   *   fileUrl      — the PDF to hand over once the form succeeds
+   *   fileName     — filename suggested to the browser's save dialog
+   *   offer        — { title, subtitle, bullets[], button }
+   *   conditionTag, specialtyTag — optional, mirror the appointment form's select values
+   */
+  function Gate(config) {
+    this.cfg = config;
+    this.mount = document.querySelector(config.mount);
+    if (this.mount) this.render();
+  }
+
+  Gate.prototype.render = function () {
+    var self = this;
+    var cfg = this.cfg;
+    var wrap = el('div', 'lm-capture');
+    var saved = {};
+    try { saved = JSON.parse(store(LM.LEAD_KEY) || '{}'); } catch (e) { saved = {}; }
+
+    wrap.innerHTML =
+      '<h3 class="lm-capture__title">' + esc(cfg.offer.title) + '</h3>' +
+      '<p class="lm-capture__sub">' + cfg.offer.subtitle + '</p>' +
+      '<ul class="lm-capture__bullets">' +
+        cfg.offer.bullets.map(function (b) { return '<li>' + esc(b) + '</li>'; }).join('') +
+      '</ul>' +
+      '<form novalidate>' +
+        '<div class="lm-fields lm-fields--2">' +
+          '<div class="lm-field"><label for="lm-g-name">Your name</label>' +
+            '<input id="lm-g-name" name="name" type="text" autocomplete="name" placeholder="First and last name" value="' + esc(saved.name || '') + '"></div>' +
+          '<div class="lm-field"><label for="lm-g-email">Email</label>' +
+            '<input id="lm-g-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" value="' + esc(saved.email || '') + '"></div>' +
+        '</div>' +
+        '<div class="lm-fields">' +
+          '<div class="lm-field"><label for="lm-g-phone">Mobile number</label>' +
+            '<input id="lm-g-phone" name="phone" type="tel" autocomplete="tel" placeholder="10-digit mobile number" value="' + esc(saved.phone || '') + '"></div>' +
+        '</div>' +
+        '<label class="lm-consent"><input type="checkbox" name="consent_check">' +
+          '<span>I agree that eMbrace may contact me about this guide by email, phone or WhatsApp, ' +
+          'and I have read the <a href="/privacypolicy" target="_blank" rel="noopener">privacy policy</a>.</span></label>' +
+        '<div data-captcha-widget aria-label="Bot prevention" style="margin-top:1rem"></div>' +
+        '<p class="lm-error" role="alert" hidden></p>' +
+        '<button type="submit" class="lm-btn lm-btn--gold lm-btn--wide" style="margin-top:1.15rem">' +
+          esc(cfg.offer.button) + '</button>' +
+        '<p class="lm-fineprint">No spam. One guide, a short follow-up, and you can unsubscribe in a click. ' +
+        'Your details are never shared outside eMbrace\'s clinical team.</p>' +
+      '</form>';
+
+    this.mount.innerHTML = '';
+    this.mount.appendChild(wrap);
+
+    var form = wrap.querySelector('form');
+    var error = wrap.querySelector('.lm-error');
+    var captcha = form.querySelector('[data-captcha-widget]');
+    loadCaptcha().then(function (api) { return api.mount(captcha); }).catch(function (problem) {
+      error.hidden = false;
+      error.textContent = problem.message;
+    });
+
+    track('lead_magnet_start', { magnet_id: cfg.id, magnet_name: cfg.name });
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      var name = form.elements.name.value.trim();
+      var email = form.elements.email.value.trim();
+      var phone = form.elements.phone.value.trim();
+      var digits = phone.replace(/[^0-9]/g, '');
+      var problems = [];
+
+      [form.elements.name, form.elements.email, form.elements.phone]
+        .forEach(function (f) { f.classList.remove('is-error'); });
+
+      if (name.length < 2) { problems.push('your name'); form.elements.name.classList.add('is-error'); }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { problems.push('a valid email'); form.elements.email.classList.add('is-error'); }
+      if (digits.length < 10 || digits.length > 13) { problems.push('a valid mobile number'); form.elements.phone.classList.add('is-error'); }
+      if (!form.elements.consent_check.checked) problems.push('your consent to be contacted');
+
+      if (problems.length) {
+        error.hidden = false;
+        error.textContent = 'Please add ' + problems.join(', ') + '.';
+        return;
+      }
+      var captchaToken;
+      try {
+        if (!window.EmbraceCaptcha) throw new Error('CAPTCHA is still loading. Please try again.');
+        captchaToken = window.EmbraceCaptcha.token(captcha);
+      } catch (problem) {
+        error.hidden = false;
+        error.textContent = problem.message;
+        loadCaptcha().then(function (api) { return api.mount(captcha); }).catch(function () {});
+        return;
+      }
+      error.hidden = true;
+      form.querySelector('button[type="submit"]').disabled = true;
+      form.querySelector('button[type="submit"]').textContent = 'Preparing your download…';
+
+      store(LM.LEAD_KEY, JSON.stringify({ name: name, email: email, phone: phone }));
+      self.send({ name: name, email: email, phone: phone }, wrap, captchaToken);
+    });
+  };
+
+  /** Posts to Formester through a hidden iframe, same pattern as Quiz.prototype.send. */
+  Gate.prototype.send = function (lead, wrap, captchaToken) {
+    var self = this;
+    var cfg = this.cfg;
+    var query = params();
+    var sink = el('iframe');
+    sink.name = 'lm-gate-sink-' + cfg.id;
+    sink.style.display = 'none';
+    document.body.appendChild(sink);
+
+    var form = el('form');
+    form.method = 'POST';
+    form.action = cfg.formAction || LM.FORM_ACTION;
+    form.target = sink.name;
+    form.acceptCharset = 'UTF-8';
+    form.style.display = 'none';
+
+    var utm = ['utm_source', 'utm_medium', 'utm_campaign']
+      .filter(function (k) { return query[k]; })
+      .map(function (k) { return k.replace('utm_', '') + '=' + query[k]; }).join(', ');
+
+    var digest = [
+      'FREE GUIDE LEAD — ' + cfg.name,
+      'Page: ' + window.location.pathname,
+      'Source: ' + (utm || document.referrer || 'direct'),
+      '',
+      'Direct download — no quiz attached to this lead.',
+    ].join('\n');
+
+    var fields = {
+      'g-recaptcha-response': captchaToken,
+      name: lead.name,
+      email: lead.email,
+      phone: lead.phone,
+      form_type: 'lead_magnet',
+      lead_source: 'website_free_tool',
+      magnet_id: cfg.id,
+      magnet_name: cfg.name,
+      priority: 'medium',
+      source_page: window.location.pathname,
+      referrer: document.referrer || 'direct',
+      utm_source: query.utm_source || '',
+      utm_medium: query.utm_medium || '',
+      utm_campaign: query.utm_campaign || '',
+      submitted_at: new Date().toISOString(),
+      parent_name: lead.name,
+      condition: cfg.conditionTag || '',
+      specialty: cfg.specialtyTag || '',
+      message: digest,
+    };
+
+    Object.keys(fields).forEach(function (key) {
+      var input = el('input');
+      input.type = 'hidden';
+      input.name = key;
+      input.value = fields[key];
+      form.appendChild(input);
+    });
+
+    document.body.appendChild(form);
+
+    var done = false;
+    function finish() {
+      if (done) return;
+      done = true;
+      self.showSuccess(wrap, lead);
+    }
+    sink.addEventListener('load', finish);
+    window.setTimeout(finish, 2500);
+    form.submit();
+
+    track('generate_lead', { magnet_id: cfg.id, magnet_name: cfg.name, value: 1, currency: 'INR' });
+  };
+
+  Gate.prototype.showSuccess = function (wrap, lead) {
+    var cfg = this.cfg;
+    var box = el('div', 'lm-success');
+    var msg = 'Hi eMbrace, I just downloaded the ' + cfg.name + ' from your website. ' +
+      'I would like to talk to someone about the next step.';
+
+    box.innerHTML =
+      '<div class="lm-success__tick">✓</div>' +
+      '<h3>' + esc(lead.name.split(' ')[0]) + ', your guide is downloading now.</h3>' +
+      '<p>We have also emailed a copy to <strong>' + esc(lead.email) + '</strong>, in case the download ' +
+      'does not start automatically.</p>' +
+      '<div class="lm-success__cta">' +
+        '<a class="lm-btn lm-btn--primary" href="' + esc(cfg.fileUrl) + '" download="' + esc(cfg.fileName || '') + '">' +
+          'Download the guide again</a>' +
+        '<a class="lm-btn lm-btn--ghost" href="/appointment">Book a consultation</a>' +
+        '<a class="lm-btn lm-btn--ghost" href="' + esc(whatsappHref(msg)) + '" target="_blank" rel="noopener">' +
+          'Ask a question on WhatsApp</a>' +
+      '</div>';
+
+    wrap.parentNode.replaceChild(box, wrap);
+    fixLinks(box);
+    box.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    store('embrace_lm_' + cfg.id, 'done');
+
+    // Trigger the save-as immediately — this is the moment the visitor was
+    // promised a download, not a second click away from one. The visible
+    // "Download the guide again" link above covers browsers that block a
+    // script-triggered download, or a visitor who dismisses the save dialog
+    // by mistake.
+    var trigger = el('a');
+    trigger.href = cfg.fileUrl;
+    trigger.download = cfg.fileName || '';
+    trigger.style.display = 'none';
+    document.body.appendChild(trigger);
+    trigger.click();
+    window.setTimeout(function () { trigger.remove(); }, 1000);
+  };
+
+  LM.gate = function (config) { return new Gate(config); };
+
   /* -------------------------------------------------------------- popup */
 
   /**

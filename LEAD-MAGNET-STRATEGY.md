@@ -47,16 +47,61 @@ team call the right person first (see §4).
 - `resources/child-milestone-checker.php`
 - `resources/adhd-autism-screener.php`
 - `resources/adult-stress-check.php`
+- `resources/adhd-parent-guide.php` — added 18 October 2026, see §2a below. A direct PDF
+  download rather than a quiz; the odd one out of the four and documented separately because
+  its funnel is genuinely different, not because it is lesser.
 
 **Gated deliverables** (printable, `noindex`, "Save as PDF" button)
 - `resources/guides/child-milestone-guide.php`
 - `resources/guides/adhd-autism-next-steps.php`
 - `resources/guides/7-day-reset-plan.php`
+- `resources/guides/adhd-parent-guide.pdf` — a real PDF file, not an HTML guide. See §2a.
 
 **Shared engine**
-- `assets/lead-magnets.js` — quiz engine, scoring, result rendering, lead capture, tracking
+- `assets/lead-magnets.js` — quiz engine (`EmbraceLM.init`), scoring, result rendering, lead
+  capture, tracking, plus a separate one-step capture flow for a direct download
+  (`EmbraceLM.gate`, §2a) that reuses the same validation, captcha and Formester posting code
 - `assets/lead-magnets.css` — all styling (self-contained; the site's Tailwind build is purged
   and does not see these files)
+
+### 2a. The fourth magnet: a direct PDF, not a quiz
+
+**"Is It ADHD?"** is an 11-page guide supplied as a finished PDF (not built from this repo's
+own content), covering the three ADHD presentations, age-by-age signs, a parent observation
+checklist, look-alikes to rule out, myths and facts, what an assessment involves, and a
+printable one-week observation log.
+
+It intentionally does not go through the `Quiz` engine above. A quiz earns the email by giving
+an answer first (§1's "why an interactive tool rather than a PDF download" still holds for the
+other three); this one is a straightforward "fill in your details, the guide downloads" offer,
+because the deliverable itself — not a personalised result — is the draw, and forcing a
+17-question quiz in front of it would just be friction. `EmbraceLM.gate()` in
+`assets/lead-magnets.js` is a parallel, simpler flow for exactly this shape of magnet, kept
+separate from `Quiz` rather than bolted onto it.
+
+**How it is gated.** The same way the three HTML guides always have been: the PDF is never
+linked from any crawlable page, only revealed (and auto-downloaded) by JavaScript after the
+form succeeds. The one difference from the HTML guides is `robots.txt` — a PDF cannot carry a
+`<meta noindex>` tag the way an HTML page can, so it gets a narrowly scoped
+`Disallow: /resources/guides/*.pdf` instead. That rule must stay scoped to `*.pdf` and never
+widen to the whole folder; doing so would re-trap the three `noindex`'d HTML guides, which is
+the exact anti-pattern `robots.txt`'s own comment documents and the 2026-09-21 SEO audit fixed.
+
+**Placement.** A full landing page at `/resources/adhd-parent-guide`, a fourth card on the
+`/resources/` hub, and a compact contextual band
+(`components/lead-magnet-band-adhd-guide.php`) hand-placed in the body of eight pages chosen
+for direct relevance: the ADHD hub and five ADHD condition pages, plus the parent hub and the
+"raising a child with ADHD" page. Deliberately **not** added to `inject-lead-magnets.js`'s
+automated placement — that script already puts the screener-based `lead-magnet-band-neuro.php`
+on every page under `adhd/`, and stacking two full bands on all 36 of those pages would be
+repetitive. The new band sits mid-page instead, not beside the footer where the screener band
+already lives, so a visitor can reasonably meet both without it reading as one magnet repeated
+twice.
+
+**Lead data.** Posts to the same Formester endpoint as everything else in this document, with
+`magnet_id: 'adhd-parent-guide'`, `condition: 'adhd'`, `specialty: 'child_psychologist'` and
+`priority: 'medium'` (there is no result band to derive it from, unlike the quiz-based magnets).
+Add it to the nurture sequence and call SOP in §4 and §7 the same way as the other three.
 
 **Placements**
 - `index.php` — a blue "free & instant" strip directly under the hero, and a full three-card

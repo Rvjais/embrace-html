@@ -59,6 +59,10 @@
 .lm-grid { display: grid; gap: 1.5rem; margin-top: 2.5rem; grid-template-columns: 1fr; }
 @media (min-width: 900px) { .lm-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 
+/* Four cards (the /resources/ hub) read better as 2x2 than 3-then-1. */
+@media (min-width: 640px) { .lm-grid--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1100px) { .lm-grid--4 { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
 .lm-card {
   display: flex; flex-direction: column;
   background: #fff; border: 1px solid var(--lm-line); border-radius: 1.5rem;

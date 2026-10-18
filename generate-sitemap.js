@@ -28,6 +28,9 @@ const SKIP_FILES = new Set([
   'resources/guides/child-milestone-guide.php',
   'resources/guides/adhd-autism-next-steps.php',
   'resources/guides/7-day-reset-plan.php',
+  // Local-dev helper for PHP's built-in server (`php -S`); has no <head> of
+  // its own and nothing a search engine should ever land on.
+  'router.php',
 ]);
 
 // Higher priority for the entry points that should be crawled most often.
@@ -41,7 +44,7 @@ const HUB_PAGES = new Set([
   'schools-hub/schools.php', 'corporate-wellness/corporate-wellness.php',
   'locations/index.php', 'resources/index.php', 'blog/index.php',
   'resources/child-milestone-checker.php', 'resources/adhd-autism-screener.php',
-  'resources/adult-stress-check.php',
+  'resources/adult-stress-check.php', 'resources/adhd-parent-guide.php',
   // Child development services. These are the canonical target for each service
   // keyword; the Delhi and Gurgaon pages under locations/ point back to them.
   'developmental-delay-treatment.php', 'intellectual-disability-treatment.php',
