@@ -31,7 +31,7 @@
 <link href="https://unpkg.com" rel="preconnect" crossorigin />
 <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
 <link href="/assets/index-B-kGA3UA.css" rel="stylesheet"/>
-<link href="/assets/lead-magnets.css" rel="stylesheet"/>
+<link href="/assets/lead-magnets.css?v=d67a124c" rel="stylesheet"/>
 <style>
   body, h1, h2, h3, h4, h5, h6, p, a, span, div, button, input {
     font-family: 'Outfit', sans-serif;
@@ -1881,7 +1881,7 @@
     </script>
 <script src="/assets/interactive.js"></script>
 <?php include __DIR__ . '/components/lead-magnet-popup.php'; ?>
-<script src="/assets/lead-magnets.js"></script>
+<script src="/assets/lead-magnets.js?v=b6c0300c"></script>
 <script>EmbraceLM.popup({ id: 'lm-popup' });</script>
 <div class="hidden fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 bg-black/60 backdrop-blur-sm" id="review-modal-0" style="margin: 0;">
 <div class="bg-white rounded-3xl shadow-2xl p-6 sm:p-8 max-w-2xl w-full max-h-[90vh] flex flex-col relative overflow-hidden transform transition-all text-left" onclick="event.stopPropagation()">

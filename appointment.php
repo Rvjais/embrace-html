@@ -825,7 +825,7 @@
       <?php include __DIR__ . '/components/footer.php'; ?>
     </div>
     
-    <script src="/assets/recaptcha.js"></script>
+    <script src="/assets/recaptcha.js?v=4bf82f3c"></script>
     <script src="/assets/interactive.js"></script>
   </body>
 </html>

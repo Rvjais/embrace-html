@@ -26,7 +26,7 @@
     if (!captchaScript) {
       captchaScript = new Promise(function (resolve, reject) {
         var script = el('script');
-        script.src = '/assets/recaptcha.js';
+        script.src = '/assets/recaptcha.js?v=4bf82f3c';
         script.onload = function () { resolve(window.EmbraceCaptcha); };
         script.onerror = function () {
           captchaScript = null;

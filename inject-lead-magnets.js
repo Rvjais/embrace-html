@@ -26,8 +26,8 @@ const path = require('path');
 const ROOT = __dirname;
 const DRY = process.argv.includes('--dry');
 
-const CSS_TAG = '<link href="/assets/lead-magnets.css" rel="stylesheet"/>';
-const JS_TAG = '<script src="/assets/lead-magnets.js"></script>';
+const CSS_TAG = '<link href="/assets/lead-magnets.css?v=d67a124c" rel="stylesheet"/>';
+const JS_TAG = '<script src="/assets/lead-magnets.js?v=b6c0300c"></script>';
 const POPUP_INIT = "<script>EmbraceLM.popup({ id: 'lm-popup' });</script>";
 
 /** Folders whose every page is in scope. */
