@@ -3,6 +3,19 @@
 
   // Overrides dictionary: easily customize name, image, department, experience, etc.
   var PROFILE_OVERRIDES = {
+    // Dr Nandini Jhawar
+    'drnandinijhawar': {
+      name: 'Dr Nandini Jhawar',
+      image: '/practitioner-images/Dr-Nandini-Jhawar.jpeg',
+      department: 'Senior Clinical Psychologist',
+      experience: 'Contact our team for experience details'
+    },
+    'nandinijhawar': {
+      name: 'Dr Nandini Jhawar',
+      image: '/practitioner-images/Dr-Nandini-Jhawar.jpeg',
+      department: 'Senior Clinical Psychologist',
+      experience: 'Contact our team for experience details'
+    },
     // Dr. Abha Mattoo (UID: 48280)
     '48280': {
       name: 'Dr. Abha Mattoo',
@@ -18,12 +31,35 @@
     }
   };
 
+  // Custom profiles added manually (always preserved at the top)
+  var CUSTOM_PROFILES = [
+    {
+      uid: 'dr-nandini-jhawar',
+      name: 'Dr Nandini Jhawar',
+      department: 'Senior Clinical Psychologist',
+      image: '/practitioner-images/Dr-Nandini-Jhawar.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: true,
+      fees: 'N/A'
+    }
+  ];
+
   // Verified default providers from directory (works instantly locally & on server)
   var DEFAULT_PROVIDERS = [
+    {
+      uid: 'dr-nandini-jhawar',
+      name: 'Dr Nandini Jhawar',
+      department: 'Senior Clinical Psychologist',
+      image: '/practitioner-images/Dr-Nandini-Jhawar.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: true,
+      fees: 'N/A'
+    },
     {
       uid: 48280,
       name: 'Dr. Abha Mattoo',
       department: 'Physiotherapist',
+      image: '/practitioner-images/Dr-Abha-Mattoo.jpeg',
       inPersonConsultEnabled: true,
       videoConsultEnabled: false,
       fees: 'N/A'
@@ -132,6 +168,9 @@
   }
 
   function providerImage(provider) {
+    if (provider.image) {
+      return provider.image;
+    }
     if (provider.imageFileName) {
       return 'https://mmdconnect.appspot.com/images?id=' + encodeURIComponent(provider.uid) + '&ifn=' + encodeURIComponent(provider.imageFileName);
     }
@@ -344,6 +383,14 @@
         return provider && provider.isDoctor !== false;
       }) : [];
       if (liveProviders.length) {
+        // Prepend any custom profiles not present in API
+        var apiNames = liveProviders.map(function (p) { return normaliseName(p.name); });
+        for (var i = CUSTOM_PROFILES.length - 1; i >= 0; i--) {
+          var custom = CUSTOM_PROFILES[i];
+          if (apiNames.indexOf(normaliseName(custom.name)) === -1) {
+            liveProviders.unshift(custom);
+          }
+        }
         setCardsFromProviders(liveProviders);
       }
     } catch (e) {
