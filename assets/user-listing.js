@@ -28,6 +28,19 @@
       image: '/practitioner-images/Dr-Abha-Mattoo.jpeg',
       department: 'Physiotherapist',
       experience: 'Contact our team for experience details'
+    },
+    // Amritpal Kaur (UID: 50429)
+    '50429': {
+      name: 'Amritpal Kaur',
+      image: '/practitioner-images/Amritpal-Kaur.jpeg',
+      department: 'Occupational Therapist',
+      experience: 'Contact our team for experience details'
+    },
+    'amritpalkaur': {
+      name: 'Amritpal Kaur',
+      image: '/practitioner-images/Amritpal-Kaur.jpeg',
+      department: 'Occupational Therapist',
+      experience: 'Contact our team for experience details'
     }
   };
 
@@ -77,6 +90,7 @@
       uid: 50429,
       name: 'Amritpal Kaur',
       department: 'Occupational Therapist',
+      image: '/practitioner-images/Amritpal-Kaur.jpeg',
       inPersonConsultEnabled: true,
       videoConsultEnabled: false,
       fees: 'N/A'
