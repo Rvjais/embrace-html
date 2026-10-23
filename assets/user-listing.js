@@ -16,6 +16,13 @@
       department: 'Senior Clinical Psychologist',
       experience: 'Contact our team for experience details'
     },
+    // Taranpreet
+    'taranpreet': {
+      name: 'Taranpreet',
+      image: '/practitioner-images/Taranpreet.jpeg',
+      department: 'Clinical Psychologist',
+      experience: 'Contact our team for experience details'
+    },
     // Dr. Abha Mattoo (UID: 48280)
     '48280': {
       name: 'Dr. Abha Mattoo',
@@ -41,6 +48,44 @@
       image: '/practitioner-images/Amritpal-Kaur.jpeg',
       department: 'Occupational Therapist',
       experience: 'Contact our team for experience details'
+    },
+    // Cheesha Kanwar (UID: 49838)
+    '49838': {
+      name: 'Cheesha Kanwar',
+      image: '/practitioner-images/Cheesha-Kanwar.jpeg',
+      department: 'Psychology',
+      experience: 'Contact our team for experience details'
+    },
+    'cheeshakanwar': {
+      name: 'Cheesha Kanwar',
+      image: '/practitioner-images/Cheesha-Kanwar.jpeg',
+      department: 'Psychology',
+      experience: 'Contact our team for experience details'
+    },
+    'cheesha': {
+      name: 'Cheesha Kanwar',
+      image: '/practitioner-images/Cheesha-Kanwar.jpeg',
+      department: 'Psychology',
+      experience: 'Contact our team for experience details'
+    },
+    // Dr Isha Batra (UID: 50111)
+    '50111': {
+      name: 'Dr Isha',
+      image: '/practitioner-images/Dr-Isha-Batra.jpeg',
+      department: 'Consultant Psychiatrist',
+      experience: 'Contact our team for experience details'
+    },
+    'ishabatra': {
+      name: 'Dr Isha',
+      image: '/practitioner-images/Dr-Isha-Batra.jpeg',
+      department: 'Consultant Psychiatrist',
+      experience: 'Contact our team for experience details'
+    },
+    'drisha': {
+      name: 'Dr Isha',
+      image: '/practitioner-images/Dr-Isha-Batra.jpeg',
+      department: 'Consultant Psychiatrist',
+      experience: 'Contact our team for experience details'
     }
   };
 
@@ -54,6 +99,15 @@
       inPersonConsultEnabled: true,
       videoConsultEnabled: true,
       fees: 'N/A'
+    },
+    {
+      uid: 'taranpreet',
+      name: 'Taranpreet',
+      department: 'Clinical Psychologist',
+      image: '/practitioner-images/Taranpreet.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: true,
+      fees: 'N/A'
     }
   ];
 
@@ -64,6 +118,15 @@
       name: 'Dr Nandini Jhawar',
       department: 'Senior Clinical Psychologist',
       image: '/practitioner-images/Dr-Nandini-Jhawar.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: true,
+      fees: 'N/A'
+    },
+    {
+      uid: 'taranpreet',
+      name: 'Taranpreet',
+      department: 'Clinical Psychologist',
+      image: '/practitioner-images/Taranpreet.jpeg',
       inPersonConsultEnabled: true,
       videoConsultEnabled: true,
       fees: 'N/A'
@@ -99,14 +162,16 @@
       uid: 49838,
       name: 'Cheesha Kanwar',
       department: 'Psychology',
+      image: '/practitioner-images/Cheesha-Kanwar.jpeg',
       inPersonConsultEnabled: true,
       videoConsultEnabled: false,
       fees: 'N/A'
     },
     {
       uid: 50111,
-      name: 'Isha Batra',
+      name: 'Dr Isha',
       department: 'Consultant Psychiatrist',
+      image: '/practitioner-images/Dr-Isha-Batra.jpeg',
       inPersonConsultEnabled: true,
       videoConsultEnabled: false,
       fees: 'N/A'
