@@ -623,7 +623,7 @@
               <hr class="flex-1 border-t border-[#FFB5B5] border-solid" />
             </div>
           </div>
-          <div class="grid-cols-1 gap-4 gap-5">
+          <template id="provider-card-template">
             <div
               class="bg-white rounded-2xl shadow-sm hover:shadow-md border border-[#FFE1DF] transition-all duration-200 overflow-hidden group"
             >
@@ -632,20 +632,20 @@
                   <div
                     class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border-3 border-[#FFE1DF] shadow-sm bg-[#FFE1DF]"
                   >
-                    <img decoding="async" width="1254" height="1254"
-                      alt="Dhriti Dharana"
+                    <img decoding="async"
+                      alt=""
                       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      src="/practitioner-images/Dhriti-Dharana.jpeg"
+                      src=""
                     />
                   </div>
                 </div>
                 <div class="flex-1 min-w-0 flex flex-col gap-3">
                   <div>
-                    <h3 class="font-semibold text-gray-900 text-base leading-tight mb-0.5">Dhriti Dharana</h3>
-                    <p class="text-xs text-[#F39F9A] font-medium leading-tight">Child Psychologist</p>
+                    <h3 class="font-semibold text-gray-900 text-base leading-tight mb-0.5"></h3>
+                    <p class="text-xs text-[#F39F9A] font-medium leading-tight"></p>
                   </div>
                   <div class="flex flex-wrap gap-x-4 gap-y-2">
-                    <div class="flex items-center gap-1.5">
+                    <div class="flex items-center gap-1.5" data-badge="experience">
                       <div class="w-5 h-5 rounded-full bg-[#F39F9A]/10 flex items-center justify-center shrink-0">
                         <svg fill="#F39F9A" height="10" stroke="none" viewbox="0 0 24 24" width="10">
                           <path
@@ -653,9 +653,9 @@
                           ></path>
                         </svg>
                       </div>
-                      <span class="text-xs text-gray-600">6+ months of experience</span>
+                      <span class="text-xs text-gray-600">Contact our team for experience details</span>
                     </div>
-                    <div class="flex items-center gap-1.5">
+                    <div class="flex items-center gap-1.5" data-badge="languages">
                       <div class="w-5 h-5 rounded-full bg-[#234394]/10 flex items-center justify-center shrink-0">
                         <svg
                           fill="none"
@@ -675,14 +675,11 @@
                         </svg>
                       </div>
                       <div class="flex flex-wrap gap-1">
-                        <span class="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">English</span
-                        ><span class="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">Hindi</span
-                        ><span class="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full"
-                          >Basic Sign Language</span
-                        >
+                        <span class="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">English</span>
+                        <span class="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">Hindi</span>
                       </div>
                     </div>
-                    <div class="flex items-center gap-1.5">
+                    <div class="flex items-center gap-1.5" data-badge="consult-modes">
                       <div class="w-5 h-5 rounded-full bg-[#F39F9A]/10 flex items-center justify-center shrink-0">
                         <svg
                           fill="none"
@@ -726,7 +723,7 @@
                       </svg>
                     </div>
                     <span class="text-[10px] bg-[#FFE1DF] text-[#F39F9A] px-2 py-0.5 rounded-full font-medium"
-                      >Child Psychology Department</span
+                      >Department</span
                     >
                   </div>
                   <div class="flex items-center justify-between pt-2 border-t border-dashed border-[#FFE1DF] gap-3">
@@ -736,7 +733,7 @@
                           Per Session
                         </p>
                         <p class="text-base font-bold text-gray-900 leading-none">
-                          ₹1770<span class="text-xs font-normal text-gray-400">/session</span>
+                          <span class="text-xs font-normal text-gray-500">Price on request</span>
                         </p>
                       </div>
                     </div>
@@ -764,398 +761,33 @@
                 </div>
               </div>
             </div>
-            <div
-              class="bg-white rounded-2xl shadow-sm hover:shadow-md border border-[#FFE1DF] transition-all duration-200 overflow-hidden group"
-            >
-              <div class="flex flex-col sm:flex-row sm:items-start p-4 sm:p-5 gap-4">
-                <div class="flex-shrink-0 flex justify-center sm:justify-start">
-                  <div
-                    class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border-3 border-[#FFE1DF] shadow-sm bg-[#FFE1DF]"
-                  >
-                    <img fetchpriority="high" decoding="async" width="867" height="999"
-                      alt="Aarti"
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      src="/practitioner-images/Aarti.jpeg"
-                    />
-                  </div>
-                </div>
-                <div class="flex-1 min-w-0 flex flex-col gap-3">
-                  <div>
-                    <h3 class="font-semibold text-gray-900 text-base leading-tight mb-0.5">Aarti</h3>
-                    <p class="text-xs text-[#F39F9A] font-medium leading-tight">Special Educator Consultant</p>
-                  </div>
-                  <div class="flex flex-wrap gap-x-4 gap-y-2">
-                    <div class="flex items-center gap-1.5">
-                      <div class="w-5 h-5 rounded-full bg-[#F39F9A]/10 flex items-center justify-center shrink-0">
-                        <svg fill="#F39F9A" height="10" stroke="none" viewbox="0 0 24 24" width="10">
-                          <path
-                            d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <span class="text-xs text-gray-600">5+ months of experience</span>
-                    </div>
-                    <div class="flex items-center gap-1.5">
-                      <div class="w-5 h-5 rounded-full bg-[#234394]/10 flex items-center justify-center shrink-0">
-                        <svg
-                          fill="none"
-                          height="9"
-                          stroke="#234394"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2.5"
-                          viewbox="0 0 24 24"
-                          width="9"
-                        >
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <line x1="2" x2="22" y1="12" y2="12"></line>
-                          <path
-                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <div class="flex flex-wrap gap-1">
-                        <span class="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">English</span
-                        ><span class="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">Hindi</span>
-                      </div>
-                    </div>
-                    <div class="flex items-center gap-1.5">
-                      <div class="w-5 h-5 rounded-full bg-[#F39F9A]/10 flex items-center justify-center shrink-0">
-                        <svg
-                          fill="none"
-                          height="9"
-                          stroke="#F39F9A"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2.5"
-                          viewbox="0 0 24 24"
-                          width="9"
-                        >
-                          <polygon points="23 7 16 12 23 17 23 7"></polygon>
-                          <rect height="14" rx="2" ry="2" width="15" x="1" y="5"></rect>
-                        </svg>
-                      </div>
-                      <div class="flex gap-1.5">
-                        <span
-                          class="text-[10px] bg-[#234394]/10 text-[#234394] px-2 py-0.5 rounded-full font-medium border border-[#234394]/15"
-                          >Video</span
-                        ><span
-                          class="text-[10px] bg-[#F39F9A]/10 text-[#F39F9A] px-2 py-0.5 rounded-full font-medium border border-[#F39F9A]/20"
-                          >In-Person</span
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div class="flex items-center justify-between pt-2 border-t border-dashed border-[#FFE1DF] gap-3">
-                    <div>
-                      <div>
-                        <p class="text-[9px] text-gray-400 font-medium uppercase tracking-wide leading-none mb-0.5">
-                          Per Session
-                        </p>
-                        <p class="text-base font-bold text-gray-900 leading-none">
-                          ₹1770<span class="text-xs font-normal text-gray-400">/session</span>
-                        </p>
-                      </div>
-                    </div>
-                    <a href="/appointment"
-                      class="flex items-center gap-1.5 bg-[#F39F9A] text-white text-xs font-semibold px-5 py-2 rounded-full hover:bg-[#e88480] transition-colors shadow-sm shrink-0"
-                    >
-                      <svg
-                        fill="none"
-                        height="12"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        viewbox="0 0 24 24"
-                        width="12"
-                      >
-                        <rect height="18" rx="2" ry="2" width="18" x="3" y="4"></rect>
-                        <line x1="16" x2="16" y1="2" y2="6"></line>
-                        <line x1="8" x2="8" y1="2" y2="6"></line>
-                        <line x1="3" x2="21" y1="10" y2="10"></line>
-                        <path d="M9 16l2 2 4-4"></path></svg
-                      >Book
-                    </a>
-                  </div>
-                </div>
+          </template>
+          <div id="provider-card-grid" class="grid-cols-1 gap-4 gap-5">
+            <div class="bg-white rounded-2xl shadow-sm border border-[#FFE1DF] p-4 sm:p-5 flex flex-col sm:flex-row gap-4 animate-pulse">
+              <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-[#FFE1DF]/60 shrink-0 mx-auto sm:mx-0"></div>
+              <div class="flex-1 min-w-0 flex flex-col gap-3 justify-center">
+                <div class="h-5 bg-[#FFE1DF]/60 rounded-full w-48"></div>
+                <div class="h-3 bg-[#FFE1DF]/40 rounded-full w-32"></div>
+                <div class="h-3 bg-[#FFE1DF]/30 rounded-full w-64 mt-2"></div>
+                <div class="h-8 bg-[#FFE1DF]/20 rounded-xl w-full mt-2"></div>
               </div>
             </div>
-            <div
-              class="bg-white rounded-2xl shadow-sm hover:shadow-md border border-[#FFE1DF] transition-all duration-200 overflow-hidden group"
-            >
-              <div class="flex flex-col sm:flex-row sm:items-start p-4 sm:p-5 gap-4">
-                <div class="flex-shrink-0 flex justify-center sm:justify-start">
-                  <div
-                    class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border-3 border-[#FFE1DF] shadow-sm bg-[#FFE1DF]"
-                  >
-                    <img decoding="async" width="906" height="981"
-                      alt="Mannat Kaur Arora"
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      src="/practitioner-images/Mannat-Kaur-Arora.jpeg"
-                    />
-                  </div>
-                </div>
-                <div class="flex-1 min-w-0 flex flex-col gap-3">
-                  <div>
-                    <h3 class="font-semibold text-gray-900 text-base leading-tight mb-0.5">Mannat Kaur Arora</h3>
-                    <p class="text-xs text-[#F39F9A] font-medium leading-tight">
-                      Clinical Psychologist – Child and Adolescent
-                    </p>
-                  </div>
-                  <div class="flex flex-wrap gap-x-4 gap-y-2">
-                    <div class="flex items-center gap-1.5">
-                      <div class="w-5 h-5 rounded-full bg-[#F39F9A]/10 flex items-center justify-center shrink-0">
-                        <svg fill="#F39F9A" height="10" stroke="none" viewbox="0 0 24 24" width="10">
-                          <path
-                            d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <span class="text-xs text-gray-600">5+ months experience</span>
-                    </div>
-                    <div class="flex items-center gap-1.5">
-                      <div class="w-5 h-5 rounded-full bg-[#234394]/10 flex items-center justify-center shrink-0">
-                        <svg
-                          fill="none"
-                          height="9"
-                          stroke="#234394"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2.5"
-                          viewbox="0 0 24 24"
-                          width="9"
-                        >
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <line x1="2" x2="22" y1="12" y2="12"></line>
-                          <path
-                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <div class="flex flex-wrap gap-1">
-                        <span class="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">Hindi</span
-                        ><span class="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">English</span>
-                      </div>
-                    </div>
-                    <div class="flex items-center gap-1.5">
-                      <div class="w-5 h-5 rounded-full bg-[#F39F9A]/10 flex items-center justify-center shrink-0">
-                        <svg
-                          fill="none"
-                          height="9"
-                          stroke="#F39F9A"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2.5"
-                          viewbox="0 0 24 24"
-                          width="9"
-                        >
-                          <polygon points="23 7 16 12 23 17 23 7"></polygon>
-                          <rect height="14" rx="2" ry="2" width="15" x="1" y="5"></rect>
-                        </svg>
-                      </div>
-                      <div class="flex gap-1.5">
-                        <span
-                          class="text-[10px] bg-[#234394]/10 text-[#234394] px-2 py-0.5 rounded-full font-medium border border-[#234394]/15"
-                          >Video</span
-                        ><span
-                          class="text-[10px] bg-[#F39F9A]/10 text-[#F39F9A] px-2 py-0.5 rounded-full font-medium border border-[#F39F9A]/20"
-                          >In-Person</span
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div class="flex items-center gap-1.5">
-                    <div class="w-5 h-5 rounded-full bg-[#F39F9A]/10 flex items-center justify-center shrink-0">
-                      <svg
-                        fill="none"
-                        height="9"
-                        stroke="#F39F9A"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2.5"
-                        viewbox="0 0 24 24"
-                        width="9"
-                      >
-                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="12" cy="7" r="4"></circle>
-                      </svg>
-                    </div>
-                    <span class="text-[10px] bg-[#FFE1DF] text-[#F39F9A] px-2 py-0.5 rounded-full font-medium"
-                      >Child and Adolescent</span
-                    >
-                  </div>
-                  <div class="flex items-center justify-between pt-2 border-t border-dashed border-[#FFE1DF] gap-3">
-                    <div>
-                      <div>
-                        <p class="text-[9px] text-gray-400 font-medium uppercase tracking-wide leading-none mb-0.5">
-                          Per Session
-                        </p>
-                        <p class="text-base font-bold text-gray-900 leading-none">
-                          ₹1770<span class="text-xs font-normal text-gray-400">/session</span>
-                        </p>
-                      </div>
-                    </div>
-                    <a href="/appointment"
-                      class="flex items-center gap-1.5 bg-[#F39F9A] text-white text-xs font-semibold px-5 py-2 rounded-full hover:bg-[#e88480] transition-colors shadow-sm shrink-0"
-                    >
-                      <svg
-                        fill="none"
-                        height="12"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        viewbox="0 0 24 24"
-                        width="12"
-                      >
-                        <rect height="18" rx="2" ry="2" width="18" x="3" y="4"></rect>
-                        <line x1="16" x2="16" y1="2" y2="6"></line>
-                        <line x1="8" x2="8" y1="2" y2="6"></line>
-                        <line x1="3" x2="21" y1="10" y2="10"></line>
-                        <path d="M9 16l2 2 4-4"></path></svg
-                      >Book
-                    </a>
-                  </div>
-                </div>
+            <div class="bg-white rounded-2xl shadow-sm border border-[#FFE1DF] p-4 sm:p-5 flex flex-col sm:flex-row gap-4 animate-pulse">
+              <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-[#FFE1DF]/60 shrink-0 mx-auto sm:mx-0"></div>
+              <div class="flex-1 min-w-0 flex flex-col gap-3 justify-center">
+                <div class="h-5 bg-[#FFE1DF]/60 rounded-full w-48"></div>
+                <div class="h-3 bg-[#FFE1DF]/40 rounded-full w-32"></div>
+                <div class="h-3 bg-[#FFE1DF]/30 rounded-full w-64 mt-2"></div>
+                <div class="h-8 bg-[#FFE1DF]/20 rounded-xl w-full mt-2"></div>
               </div>
             </div>
-            <div
-              class="bg-white rounded-2xl shadow-sm hover:shadow-md border border-[#FFE1DF] transition-all duration-200 overflow-hidden group"
-            >
-              <div class="flex flex-col sm:flex-row sm:items-start p-4 sm:p-5 gap-4">
-                <div class="flex-shrink-0 flex justify-center sm:justify-start">
-                  <div
-                    class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border-3 border-[#FFE1DF] shadow-sm bg-[#FFE1DF]"
-                  >
-                    <img loading="lazy" decoding="async" width="1000" height="977"
-                      alt="Upasna"
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      src="/practitioner-images/Upasna.jpeg"
-                    />
-                  </div>
-                </div>
-                <div class="flex-1 min-w-0 flex flex-col gap-3">
-                  <div>
-                    <h3 class="font-semibold text-gray-900 text-base leading-tight mb-0.5">Upasna</h3>
-                    <p class="text-xs text-[#F39F9A] font-medium leading-tight">Speech Language Therapist</p>
-                  </div>
-                  <div class="flex flex-wrap gap-x-4 gap-y-2">
-                    <div class="flex items-center gap-1.5">
-                      <div class="w-5 h-5 rounded-full bg-[#F39F9A]/10 flex items-center justify-center shrink-0">
-                        <svg fill="#F39F9A" height="10" stroke="none" viewbox="0 0 24 24" width="10">
-                          <path
-                            d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <span class="text-xs text-gray-600">4 years</span>
-                    </div>
-                    <div class="flex items-center gap-1.5">
-                      <div class="w-5 h-5 rounded-full bg-[#234394]/10 flex items-center justify-center shrink-0">
-                        <svg
-                          fill="none"
-                          height="9"
-                          stroke="#234394"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2.5"
-                          viewbox="0 0 24 24"
-                          width="9"
-                        >
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <line x1="2" x2="22" y1="12" y2="12"></line>
-                          <path
-                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <div class="flex flex-wrap gap-1">
-                        <span class="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">English</span
-                        ><span class="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">Hindi</span
-                        ><span class="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">Bengali</span>
-                      </div>
-                    </div>
-                    <div class="flex items-center gap-1.5">
-                      <div class="w-5 h-5 rounded-full bg-[#F39F9A]/10 flex items-center justify-center shrink-0">
-                        <svg
-                          fill="none"
-                          height="9"
-                          stroke="#F39F9A"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2.5"
-                          viewbox="0 0 24 24"
-                          width="9"
-                        >
-                          <polygon points="23 7 16 12 23 17 23 7"></polygon>
-                          <rect height="14" rx="2" ry="2" width="15" x="1" y="5"></rect>
-                        </svg>
-                      </div>
-                      <div class="flex gap-1.5">
-                        <span
-                          class="text-[10px] bg-[#234394]/10 text-[#234394] px-2 py-0.5 rounded-full font-medium border border-[#234394]/15"
-                          >Video</span
-                        ><span
-                          class="text-[10px] bg-[#F39F9A]/10 text-[#F39F9A] px-2 py-0.5 rounded-full font-medium border border-[#F39F9A]/20"
-                          >In-Person</span
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div class="flex items-center gap-1.5">
-                    <div class="w-5 h-5 rounded-full bg-[#F39F9A]/10 flex items-center justify-center shrink-0">
-                      <svg
-                        fill="none"
-                        height="9"
-                        stroke="#F39F9A"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2.5"
-                        viewbox="0 0 24 24"
-                        width="9"
-                      >
-                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="12" cy="7" r="4"></circle>
-                      </svg>
-                    </div>
-                    <span class="text-[10px] bg-[#FFE1DF] text-[#F39F9A] px-2 py-0.5 rounded-full font-medium"
-                      >Speech &amp; Language Diagnosis and Therapy</span
-                    >
-                  </div>
-                  <div class="flex items-center justify-between pt-2 border-t border-dashed border-[#FFE1DF] gap-3">
-                    <div>
-                      <div>
-                        <p class="text-[9px] text-gray-400 font-medium uppercase tracking-wide leading-none mb-0.5">
-                          Per Session
-                        </p>
-                        <p class="text-base font-bold text-gray-900 leading-none">
-                          ₹1770<span class="text-xs font-normal text-gray-400">/session</span>
-                        </p>
-                      </div>
-                    </div>
-                    <a href="/appointment"
-                      class="flex items-center gap-1.5 bg-[#F39F9A] text-white text-xs font-semibold px-5 py-2 rounded-full hover:bg-[#e88480] transition-colors shadow-sm shrink-0"
-                    >
-                      <svg
-                        fill="none"
-                        height="12"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        viewbox="0 0 24 24"
-                        width="12"
-                      >
-                        <rect height="18" rx="2" ry="2" width="18" x="3" y="4"></rect>
-                        <line x1="16" x2="16" y1="2" y2="6"></line>
-                        <line x1="8" x2="8" y1="2" y2="6"></line>
-                        <line x1="3" x2="21" y1="10" y2="10"></line>
-                        <path d="M9 16l2 2 4-4"></path></svg
-                      >Book
-                    </a>
-                  </div>
-                </div>
+            <div class="bg-white rounded-2xl shadow-sm border border-[#FFE1DF] p-4 sm:p-5 flex flex-col sm:flex-row gap-4 animate-pulse">
+              <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-[#FFE1DF]/60 shrink-0 mx-auto sm:mx-0"></div>
+              <div class="flex-1 min-w-0 flex flex-col gap-3 justify-center">
+                <div class="h-5 bg-[#FFE1DF]/60 rounded-full w-48"></div>
+                <div class="h-3 bg-[#FFE1DF]/40 rounded-full w-32"></div>
+                <div class="h-3 bg-[#FFE1DF]/30 rounded-full w-64 mt-2"></div>
+                <div class="h-8 bg-[#FFE1DF]/20 rounded-xl w-full mt-2"></div>
               </div>
             </div>
           </div>
@@ -2468,6 +2100,6 @@
     </div>
     
     <script src="/assets/interactive.js"></script>
-    <script src="/assets/user-listing.js?v=20261006-2"></script>
+    <script src="/assets/user-listing.js?v=1792672100000"></script>
   </body>
 </html>

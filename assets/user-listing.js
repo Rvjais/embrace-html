@@ -1,27 +1,255 @@
 (async function () {
   'use strict';
 
+  // Overrides dictionary: easily customize name, image, department, experience, etc.
+  var PROFILE_OVERRIDES = {
+    // Dr Nandini Jhawar
+    'drnandinijhawar': {
+      name: 'Dr Nandini Jhawar',
+      image: '/practitioner-images/Dr-Nandini-Jhawar.jpeg',
+      department: 'Senior Clinical Psychologist',
+      experience: 'Contact our team for experience details'
+    },
+    'nandinijhawar': {
+      name: 'Dr Nandini Jhawar',
+      image: '/practitioner-images/Dr-Nandini-Jhawar.jpeg',
+      department: 'Senior Clinical Psychologist',
+      experience: 'Contact our team for experience details'
+    },
+    // Taranpreet
+    'taranpreet': {
+      name: 'Taranpreet',
+      image: '/practitioner-images/Taranpreet.jpeg',
+      department: 'Clinical Psychologist',
+      experience: 'Contact our team for experience details'
+    },
+    // Dr. Abha Mattoo (UID: 48280)
+    '48280': {
+      name: 'Dr. Abha Mattoo',
+      image: '/practitioner-images/Dr-Abha-Mattoo.jpeg',
+      department: 'Physiotherapist',
+      experience: 'Contact our team for experience details'
+    },
+    'abhamattoo': {
+      name: 'Dr. Abha Mattoo',
+      image: '/practitioner-images/Dr-Abha-Mattoo.jpeg',
+      department: 'Physiotherapist',
+      experience: 'Contact our team for experience details'
+    },
+    // Amritpal Kaur (UID: 50429)
+    '50429': {
+      name: 'Amritpal Kaur',
+      image: '/practitioner-images/Amritpal-Kaur.jpeg',
+      department: 'Occupational Therapist',
+      experience: 'Contact our team for experience details'
+    },
+    'amritpalkaur': {
+      name: 'Amritpal Kaur',
+      image: '/practitioner-images/Amritpal-Kaur.jpeg',
+      department: 'Occupational Therapist',
+      experience: 'Contact our team for experience details'
+    },
+    // Cheesha Kanwar (UID: 49838)
+    '49838': {
+      name: 'Cheesha Kanwar',
+      image: '/practitioner-images/Cheesha-Kanwar.jpeg',
+      department: 'Psychology',
+      experience: 'Contact our team for experience details'
+    },
+    'cheeshakanwar': {
+      name: 'Cheesha Kanwar',
+      image: '/practitioner-images/Cheesha-Kanwar.jpeg',
+      department: 'Psychology',
+      experience: 'Contact our team for experience details'
+    },
+    'cheesha': {
+      name: 'Cheesha Kanwar',
+      image: '/practitioner-images/Cheesha-Kanwar.jpeg',
+      department: 'Psychology',
+      experience: 'Contact our team for experience details'
+    },
+    // Dr Isha Batra (UID: 50111)
+    '50111': {
+      name: 'Dr Isha',
+      image: '/practitioner-images/Dr-Isha-Batra.jpeg',
+      department: 'Consultant Psychiatrist',
+      experience: 'Contact our team for experience details'
+    },
+    'ishabatra': {
+      name: 'Dr Isha',
+      image: '/practitioner-images/Dr-Isha-Batra.jpeg',
+      department: 'Consultant Psychiatrist',
+      experience: 'Contact our team for experience details'
+    },
+    'drisha': {
+      name: 'Dr Isha',
+      image: '/practitioner-images/Dr-Isha-Batra.jpeg',
+      department: 'Consultant Psychiatrist',
+      experience: 'Contact our team for experience details'
+    }
+  };
+
+  // Custom profiles added manually (always preserved at the top)
+  var CUSTOM_PROFILES = [
+    {
+      uid: 'dr-nandini-jhawar',
+      name: 'Dr Nandini Jhawar',
+      department: 'Senior Clinical Psychologist',
+      image: '/practitioner-images/Dr-Nandini-Jhawar.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: true,
+      fees: 'N/A'
+    },
+    {
+      uid: 'taranpreet',
+      name: 'Taranpreet',
+      department: 'Clinical Psychologist',
+      image: '/practitioner-images/Taranpreet.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: true,
+      fees: 'N/A'
+    }
+  ];
+
+  // Verified default providers from directory (works instantly locally & on server)
+  var DEFAULT_PROVIDERS = [
+    {
+      uid: 'dr-nandini-jhawar',
+      name: 'Dr Nandini Jhawar',
+      department: 'Senior Clinical Psychologist',
+      image: '/practitioner-images/Dr-Nandini-Jhawar.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: true,
+      fees: 'N/A'
+    },
+    {
+      uid: 'taranpreet',
+      name: 'Taranpreet',
+      department: 'Clinical Psychologist',
+      image: '/practitioner-images/Taranpreet.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: true,
+      fees: 'N/A'
+    },
+    {
+      uid: 48280,
+      name: 'Dr. Abha Mattoo',
+      department: 'Physiotherapist',
+      image: '/practitioner-images/Dr-Abha-Mattoo.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: false,
+      fees: 'N/A'
+    },
+    {
+      uid: 49395,
+      name: 'Agrima Aggarwal',
+      department: 'Sr. Occupational Therapist',
+      imageFileName: '1782253110548.png',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: false,
+      fees: 'N/A'
+    },
+    {
+      uid: 50429,
+      name: 'Amritpal Kaur',
+      department: 'Occupational Therapist',
+      image: '/practitioner-images/Amritpal-Kaur.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: false,
+      fees: 'N/A'
+    },
+    {
+      uid: 49838,
+      name: 'Cheesha Kanwar',
+      department: 'Psychology',
+      image: '/practitioner-images/Cheesha-Kanwar.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: false,
+      fees: 'N/A'
+    },
+    {
+      uid: 50111,
+      name: 'Dr Isha',
+      department: 'Consultant Psychiatrist',
+      image: '/practitioner-images/Dr-Isha-Batra.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: false,
+      fees: 'N/A'
+    },
+    {
+      uid: 49182,
+      name: 'Mannat Arora',
+      department: 'Child Psychologist',
+      imageFileName: '1782253392931.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: false,
+      fees: 'N/A'
+    },
+    {
+      uid: 48668,
+      name: 'Shruti Ghosh',
+      department: 'Clinical Psychologist',
+      imageFileName: '1782253226936.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: false,
+      fees: 'N/A'
+    },
+    {
+      uid: 49394,
+      name: 'Upasna',
+      department: 'Speech Therapist',
+      imageFileName: '1782253254611.jpeg',
+      inPersonConsultEnabled: true,
+      videoConsultEnabled: false,
+      fees: 'N/A'
+    }
+  ];
+
   var search = document.querySelector('input[placeholder="Search by name, specialty, language..."]');
   if (!search) return;
 
   var listingSection = search.closest('.max-w-6xl');
   if (!listingSection) return;
 
-  var cardGrid = Array.from(listingSection.querySelectorAll('div')).find(function (element) {
-    return element.classList.contains('grid-cols-1') && element.querySelector('h3');
+  var cardGrid = document.getElementById('provider-card-grid') || Array.from(listingSection.querySelectorAll('div')).find(function (element) {
+    return element.classList.contains('grid-cols-1');
   });
   if (!cardGrid) return;
 
-  var staticCards = Array.from(cardGrid.children).filter(function (element) {
-    return element.querySelector && element.querySelector('h3');
-  });
-  var cardTemplate = staticCards[0] ? staticCards[0].cloneNode(true) : null;
+  var templateEl = document.getElementById('provider-card-template');
+  var cardTemplate = templateEl && templateEl.content ? templateEl.content.firstElementChild.cloneNode(true) : null;
+  if (!cardTemplate) {
+    var staticCards = Array.from(cardGrid.children).filter(function (element) {
+      return element.querySelector && element.querySelector('h3');
+    });
+    cardTemplate = staticCards[0] ? staticCards[0].cloneNode(true) : null;
+  }
+  if (!cardTemplate) return;
 
   function normaliseName(name) {
     return String(name || '').toLowerCase().replace(/[^a-z]/g, '');
   }
 
+  function getOverride(provider) {
+    if (!provider) return null;
+    if (provider.uid && PROFILE_OVERRIDES[String(provider.uid)]) {
+      return PROFILE_OVERRIDES[String(provider.uid)];
+    }
+    var norm = normaliseName(provider.name);
+    if (norm && PROFILE_OVERRIDES[norm]) {
+      return PROFILE_OVERRIDES[norm];
+    }
+    var lower = String(provider.name || '').toLowerCase().trim();
+    if (lower && PROFILE_OVERRIDES[lower]) {
+      return PROFILE_OVERRIDES[lower];
+    }
+    return null;
+  }
+
   function providerImage(provider) {
+    if (provider.image) {
+      return provider.image;
+    }
     if (provider.imageFileName) {
       return 'https://mmdconnect.appspot.com/images?id=' + encodeURIComponent(provider.uid) + '&ifn=' + encodeURIComponent(provider.imageFileName);
     }
@@ -31,16 +259,11 @@
   }
 
   function buildProviderCard(provider) {
-    var existing = staticCards.find(function (card) {
-      var heading = card.querySelector('h3');
-      var existingName = heading ? normaliseName(heading.textContent) : '';
-      var providerName = normaliseName(provider.name);
-      return existingName === providerName || existingName.indexOf(providerName) !== -1 || providerName.indexOf(existingName) !== -1;
-    });
-    var card = (existing || cardTemplate).cloneNode(true);
+    var override = getOverride(provider);
+    var card = cardTemplate.cloneNode(true);
     var heading = card.querySelector('h3');
     var designation = heading.nextElementSibling;
-    var image = card.querySelector('img[alt]');
+    var image = card.querySelector('img');
     var experience = Array.from(card.querySelectorAll('span')).find(function (span) {
       return /experience|years|months/i.test(span.textContent);
     });
@@ -52,20 +275,45 @@
     });
     var booking = card.querySelector('a[href*="appointment"]');
 
-    heading.textContent = provider.name || 'eMbrace therapist';
-    designation.textContent = provider.department || 'Therapist';
-    image.src = providerImage(provider);
-    image.alt = provider.name || 'eMbrace therapist';
+    var displayName = (override && override.name) ? override.name : (provider.name || 'eMbrace therapist');
+    var displayDept = (override && override.department) ? override.department : (provider.department || 'Therapist');
+    var displayImage = (override && override.image) ? override.image : providerImage(provider);
+    var displayExp = (override && override.experience) ? override.experience : 'Contact our team for experience details';
+
+    heading.textContent = displayName;
+    designation.textContent = displayDept;
+    image.src = displayImage;
+    image.alt = displayName;
     image.removeAttribute('width');
     image.removeAttribute('height');
-    if (!existing && experience) experience.textContent = 'Contact our team for experience details';
-    if (!existing) {
+
+    if (experience) experience.textContent = displayExp;
+
+    if (override && override.languages && Array.isArray(override.languages)) {
+      var langContainer = card.querySelector('[data-badge="languages"] div.flex-wrap') || (card.querySelector('.bg-gray-100') && card.querySelector('.bg-gray-100').parentElement);
+      if (langContainer) {
+        langContainer.innerHTML = override.languages.map(function (lang) {
+          return '<span class="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">' + lang + '</span>';
+        }).join('');
+      }
+    } else {
       var languageBadge = card.querySelector('.bg-gray-100');
       var languageRow = languageBadge && languageBadge.parentElement ? languageBadge.parentElement.parentElement : null;
       if (languageRow) languageRow.remove();
     }
-    if (departmentBadge) departmentBadge.textContent = provider.department || 'eMbrace';
-    if (price && (!provider.fees || provider.fees === 'N/A')) price.innerHTML = '<span class="text-xs font-normal text-gray-500">Price on request</span>';
+
+    if (departmentBadge) departmentBadge.textContent = displayDept;
+
+    if (price) {
+      if (override && override.fees) {
+        price.innerHTML = '₹' + override.fees + '<span class="text-xs font-normal text-gray-400">/session</span>';
+      } else if (!provider.fees || provider.fees === 'N/A') {
+        price.innerHTML = '<span class="text-xs font-normal text-gray-500">Price on request</span>';
+      } else {
+        price.innerHTML = '₹' + provider.fees + '<span class="text-xs font-normal text-gray-400">/session</span>';
+      }
+    }
+
     if (booking) booking.href = '/appointment?pid=' + encodeURIComponent(provider.uid);
 
     var modeBadges = Array.from(card.querySelectorAll('span')).filter(function (span) {
@@ -75,39 +323,10 @@
       if (badge.textContent.trim() === 'Video' && !provider.videoConsultEnabled) badge.remove();
       if (badge.textContent.trim() === 'In-Person' && !provider.inPersonConsultEnabled) badge.remove();
     });
+
     return card;
   }
 
-  try {
-    var response = await fetch('https://mmdconnect.appspot.com/api?request=getDoctorInfo', {
-      method: 'POST',
-      credentials: 'include',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        requestType: 'getDoctorInfo',
-        entityId: 47033,
-        fetchCalendarInfo: false,
-        startRow: 0,
-        numRows: 100,
-        mmd: true
-      })
-    });
-    if (!response.ok) throw new Error('Provider service returned ' + response.status);
-    var providerData = await response.json();
-    var providers = Array.isArray(providerData.doctorInfoList) ? providerData.doctorInfoList.filter(function (provider) {
-      return provider && provider.isDoctor !== false;
-    }) : [];
-    if (providers.length) {
-      var liveCards = providers.map(buildProviderCard);
-      cardGrid.replaceChildren.apply(cardGrid, liveCards);
-    }
-  } catch (error) {
-    console.warn('Live provider directory unavailable; showing the verified local profiles.', error);
-  }
-
-  var cards = Array.from(cardGrid.children).filter(function (element) {
-    return element.querySelector && element.querySelector('h3');
-  });
   var pageSize = 4;
   var visibleLimit = pageSize;
   var query = '';
@@ -117,32 +336,7 @@
   var condition = '';
   var ageGroup = '';
   var location = '';
-
-  cards.forEach(function (card) {
-    var heading = card.querySelector('h3');
-    var designation = heading && heading.nextElementSibling;
-    var languageNodes = card.querySelectorAll('.bg-gray-100');
-    var departmentNode = Array.from(card.querySelectorAll('span')).find(function (span) {
-      return span.className.indexOf('bg-[#FFE1DF]') !== -1;
-    });
-
-    card.dataset.name = heading ? heading.textContent.trim() : '';
-    card.dataset.specialty = designation ? designation.textContent.trim() : '';
-    card.dataset.languages = Array.from(languageNodes).map(function (node) {
-      return node.textContent.trim();
-    }).join('|');
-    card.dataset.department = departmentNode ? departmentNode.textContent.trim() : '';
-    card.dataset.search = card.textContent.replace(/\s+/g, ' ').trim().toLowerCase();
-
-    var profileText = (card.dataset.specialty + ' ' + card.dataset.department).toLowerCase();
-    if (profileText.indexOf('speech') !== -1) card.dataset.conditions = 'Speech & language concerns|Developmental delays';
-    else if (profileText.indexOf('special educator') !== -1) card.dataset.conditions = 'Learning difficulties|Developmental delays';
-    else if (profileText.indexOf('clinical') !== -1) card.dataset.conditions = 'Emotional & behavioural concerns|Autism & ADHD';
-    else card.dataset.conditions = 'Emotional & behavioural concerns|Developmental delays';
-
-    card.dataset.ageGroups = profileText.indexOf('adolescent') !== -1 ? 'Children|Adolescents' : 'Children';
-    card.dataset.locations = 'Vasant Kunj';
-  });
+  var cards = [];
 
   var liveRegion = listingSection.querySelector('[aria-live="polite"]');
   var headingLabel = Array.from(listingSection.querySelectorAll('span')).find(function (span) {
@@ -202,6 +396,86 @@
       loadButton.textContent = 'Load More';
     }
   }
+
+  function setCardsFromProviders(providers) {
+    if (!providers || !providers.length) return;
+    var liveCards = providers.map(buildProviderCard);
+    cardGrid.replaceChildren.apply(cardGrid, liveCards);
+    cards = Array.from(cardGrid.children).filter(function (element) {
+      return element.querySelector && element.querySelector('h3');
+    });
+
+    cards.forEach(function (card) {
+      var heading = card.querySelector('h3');
+      var designation = heading && heading.nextElementSibling;
+      var languageNodes = card.querySelectorAll('.bg-gray-100');
+      var departmentNode = Array.from(card.querySelectorAll('span')).find(function (span) {
+        return span.className.indexOf('bg-[#FFE1DF]') !== -1;
+      });
+
+      card.dataset.name = heading ? heading.textContent.trim() : '';
+      card.dataset.specialty = designation ? designation.textContent.trim() : '';
+      card.dataset.languages = Array.from(languageNodes).map(function (node) {
+        return node.textContent.trim();
+      }).join('|');
+      card.dataset.department = departmentNode ? departmentNode.textContent.trim() : '';
+      card.dataset.search = card.textContent.replace(/\s+/g, ' ').trim().toLowerCase();
+
+      var profileText = (card.dataset.specialty + ' ' + card.dataset.department).toLowerCase();
+      if (profileText.indexOf('speech') !== -1) card.dataset.conditions = 'Speech & language concerns|Developmental delays';
+      else if (profileText.indexOf('special educator') !== -1) card.dataset.conditions = 'Learning difficulties|Developmental delays';
+      else if (profileText.indexOf('clinical') !== -1) card.dataset.conditions = 'Emotional & behavioural concerns|Autism & ADHD';
+      else card.dataset.conditions = 'Emotional & behavioural concerns|Developmental delays';
+
+      card.dataset.ageGroups = profileText.indexOf('adolescent') !== -1 ? 'Children|Adolescents' : 'Children';
+      card.dataset.locations = 'Vasant Kunj';
+    });
+
+    render();
+  }
+
+  // 1. Immediately render default verified providers (instant load, no glitch, works offline/locally)
+  setCardsFromProviders(DEFAULT_PROVIDERS);
+
+  // 2. Try fetching live updates in the background (updates seamlessly on server)
+  (async function fetchLiveUpdates() {
+    try {
+      var controller = new AbortController();
+      var timer = setTimeout(function () { controller.abort(); }, 4000);
+      var response = await fetch('https://mmdconnect.appspot.com/api?request=getDoctorInfo', {
+        method: 'POST',
+        signal: controller.signal,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          requestType: 'getDoctorInfo',
+          entityId: 47033,
+          fetchCalendarInfo: false,
+          startRow: 0,
+          numRows: 100,
+          mmd: true
+        })
+      });
+      clearTimeout(timer);
+      if (!response.ok) return;
+      var providerData = await response.json();
+      var liveProviders = Array.isArray(providerData.doctorInfoList) ? providerData.doctorInfoList.filter(function (provider) {
+        return provider && provider.isDoctor !== false;
+      }) : [];
+      if (liveProviders.length) {
+        // Prepend any custom profiles not present in API
+        var apiNames = liveProviders.map(function (p) { return normaliseName(p.name); });
+        for (var i = CUSTOM_PROFILES.length - 1; i >= 0; i--) {
+          var custom = CUSTOM_PROFILES[i];
+          if (apiNames.indexOf(normaliseName(custom.name)) === -1) {
+            liveProviders.unshift(custom);
+          }
+        }
+        setCardsFromProviders(liveProviders);
+      }
+    } catch (e) {
+      console.info('Live provider directory unreachable; using verified local profiles.');
+    }
+  })();
 
   search.addEventListener('input', function () {
     query = search.value.trim().toLowerCase();
@@ -344,6 +618,4 @@
   document.addEventListener('click', function (event) {
     if (openMenu && !openMenu.parentElement.contains(event.target)) closeMenus();
   });
-
-  render();
 })();
