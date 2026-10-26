@@ -513,6 +513,10 @@
          style="background:rgba(255,255,255,.14);color:#fff;font-size:.82rem;font-weight:700;padding:.45rem 1rem;border-radius:999px;text-decoration:none;border:1px solid rgba(255,255,255,.35)">Stress &amp; burnout guide (PDF)</a>
       <a href="/resources/learning-difficulties-checklist" data-lm-cta="learning-difficulties-checklist" data-lm-placement="home_strip"
          style="background:rgba(255,255,255,.14);color:#fff;font-size:.82rem;font-weight:700;padding:.45rem 1rem;border-radius:999px;text-decoration:none;border:1px solid rgba(255,255,255,.35)">Learning checklist (PDF)</a>
+      <a href="/resources/assessment-guide" data-lm-cta="assessment-guide" data-lm-placement="home_strip"
+         style="background:rgba(255,255,255,.14);color:#fff;font-size:.82rem;font-weight:700;padding:.45rem 1rem;border-radius:999px;text-decoration:none;border:1px solid rgba(255,255,255,.35)">Assessment guide (PDF)</a>
+      <a href="/resources/speech-language-checklist" data-lm-cta="speech-language-checklist" data-lm-placement="home_strip"
+         style="background:rgba(255,255,255,.14);color:#fff;font-size:.82rem;font-weight:700;padding:.45rem 1rem;border-radius:999px;text-decoration:none;border:1px solid rgba(255,255,255,.35)">Speech checklist (PDF)</a>
     </div>
   </div>
 </div>
@@ -1732,7 +1736,7 @@
       <p class="lm-sub">
         Most families arrive here unsure whether their worry is worth an appointment. These three screeners
         are built by the same clinicians who run our assessments — you get a domain-by-domain result on
-        screen straight away, no sign-up needed to see it. Prefer to read first? Three guides are a
+        screen straight away, no sign-up needed to see it. Prefer to read first? Five guides are a
         straight PDF download.
       </p>
     </div>
@@ -1855,6 +1859,46 @@
           <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/learning-difficulties-checklist"
              data-lm-cta="learning-difficulties-checklist" data-lm-placement="home_section">Get the free checklist</a>
           <p class="lm-card__meta">PDF &middot; 8 pages</p>
+        </div>
+      </div>
+
+      <div class="lm-card">
+        <div class="lm-card__icon lm-card__icon--adult"><i class="ph-fill ph-file-pdf"></i></div>
+        <span class="lm-card__tag">Families &middot; free PDF</span>
+        <h3 class="lm-card__title">Do I need an assessment?</h3>
+        <p class="lm-card__desc">
+          The seven types of psychological and developmental assessments explained, signs it may be time,
+          and how to prepare — nine pages, yours to download.
+        </p>
+        <ul class="lm-card__list">
+          <li>Developmental, autism, ADHD, cognitive, learning and more</li>
+          <li>Step-by-step process, from consultation to report</li>
+          <li>No quiz — a download button after your details</li>
+        </ul>
+        <div class="lm-card__foot">
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/assessment-guide"
+             data-lm-cta="assessment-guide" data-lm-placement="home_section">Get the free guide</a>
+          <p class="lm-card__meta">PDF &middot; 9 pages</p>
+        </div>
+      </div>
+
+      <div class="lm-card">
+        <div class="lm-card__icon lm-card__icon--child"><i class="ph-fill ph-file-pdf"></i></div>
+        <span class="lm-card__tag">Parents &middot; free PDF</span>
+        <h3 class="lm-card__title">Is my child's speech on track?</h3>
+        <p class="lm-card__desc">
+          Speech and language milestones from 6 months to age 12, a checklist by age, and what your
+          answers mean — nine pages, yours to download.
+        </p>
+        <ul class="lm-card__list">
+          <li>Milestone table, 6 months to 5 years</li>
+          <li>Checklist by age, plus a hearing-check callout</li>
+          <li>No quiz — a download button after your details</li>
+        </ul>
+        <div class="lm-card__foot">
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/speech-language-checklist"
+             data-lm-cta="speech-language-checklist" data-lm-placement="home_section">Get the free checklist</a>
+          <p class="lm-card__meta">PDF &middot; 9 pages</p>
         </div>
       </div>
     </div>

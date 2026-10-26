@@ -419,7 +419,9 @@
                 </div>
                 <div class="flex flex-row gap-1 md:gap-2">
                   <p class="font-medium text-xs md:text-sm 2xl:text-lg">
-                    <a href="https://wa.me/919971576800" target="_blank">+91 9971576800</a>
+                    <a href="tel:+919971576800">+91 9971576800</a>
+                    &middot;
+                    <a href="https://wa.me/919971576800" target="_blank">WhatsApp</a>
                   </p>
                 </div>
                 <div class="flex flex-row gap-1 md:gap-2">
@@ -460,7 +462,7 @@
         >
         <h2 class="mx-auto mt-8 font-semibold text-center">
           <span class="italic text-base text-[#403D3D]">Need Immediate Assistance?</span> Call/WhatsApp us at
-          <span class="text-[var(--blue-fig)]">+91 9971576800</span>.
+          <a class="text-[var(--blue-fig)]" href="tel:+919971576800">+91 9971576800</a>.
         </h2>
         <h2 class="mx-auto mt-2">
           <span class="italic font-semibold">Expected Response Time:</span>

@@ -52,6 +52,8 @@ team call the right person first (see §4).
   genuinely different, not because they are lesser.
 - `resources/adult-stress-burnout-guide.php` — added 26 October 2026, see §2b.
 - `resources/learning-difficulties-checklist.php` — added 26 October 2026, see §2b.
+- `resources/assessment-guide.php` — added 26 October 2026, see §2c.
+- `resources/speech-language-checklist.php` — added 26 October 2026, see §2c.
 
 **Gated deliverables** (printable, `noindex`, "Save as PDF" button)
 - `resources/guides/child-milestone-guide.php`
@@ -60,6 +62,8 @@ team call the right person first (see §4).
 - `resources/guides/adhd-parent-guide.pdf` — a real PDF file, not an HTML guide. See §2a.
 - `resources/guides/adult-stress-burnout-guide.pdf` — real PDF. See §2b.
 - `resources/guides/learning-difficulties-checklist.pdf` — real PDF. See §2b.
+- `resources/guides/assessment-guide.pdf` — real PDF. See §2c.
+- `resources/guides/speech-language-checklist.pdf` — real PDF. See §2c.
 
 **Shared engine**
 - `assets/lead-magnets.js` — quiz engine (`EmbraceLM.init`), scoring, result rendering, lead
@@ -148,10 +152,58 @@ Both bands follow §2a's rule exactly: never added to `inject-lead-magnets.js`'s
 placement (which already puts `lead-magnet-band-adult.php` / `-child.php` on these same pages),
 and placed mid-page rather than beside the footer where those already live.
 
-The `/resources/` hub and the homepage's free-tools section went from four cards to six with
-this addition. Both grids dropped the `lm-grid--4` modifier (added for the earlier four-card
-imbalance) back to the plain three-column `.lm-grid`, since six divides evenly into two full
-rows of three — check this again before adding a seventh.
+### 2c. Two more `EmbraceLM.gate()` magnets, added 26 October 2026
+
+Same mechanism again — no engine changes. Also supplied as finished PDFs, not built from this
+repo's content.
+
+**"Do I Need an Assessment?"** — 9 pages. Explains the seven assessment types (developmental,
+autism/ADOS-2, ADHD/Conners-3, cognitive/WISC-V, psychoeducational, emotional and behavioural/
+BASC-3, speech/language/OT), signs it may be time for children, teens and adults, the six-step
+process, how to prepare (what to bring, questions to ask any clinic, green/red flags), what you
+receive and how to use it at school or work, myths about assessments, and a fillable preparation
+worksheet.
+
+This guide is genuinely cross-cutting — it is not tied to one condition cluster the way the
+other four are. There is no exact match in the real `condition` select used by
+`appointment.php`, so the lead is tagged `condition: 'learning_disability'` (the guide's own
+closing CTA links psychoeducational assessment first, ahead of ADOS-2 and ADHD assessment) with
+`specialty: 'clinical_psychologist'` (the role the guide itself names as coordinating the
+process). This is a judgement call, not an exact fit — revisit it if lead routing data later
+shows most of these leads are actually asking about autism or ADHD specifically.
+
+Landing page: `/resources/assessment-guide`. Band: `components/lead-magnet-band-assessment-guide.php`,
+hand-placed on seven assessment-focused pages spanning the clusters the guide itself covers —
+one per cluster, to avoid stacking two hand-placed bands on the same page: `autism/autism-assessment.php`,
+`autism/ados-2-assessment.php`, `adhd/adhd-testing.php`, `adhd/conners-3-assessment.php`,
+`learning-disabilities/wisc-v-testing.php`, `speech-therapy/speech-assessment.php`,
+`occupational-therapy/occupational-therapy-assessment.php`.
+
+**"Is My Child's Speech On Track?"** — 9 pages. Speech vs. language vs. communication explained;
+a milestone table from 6 months to 5 years (sourced from ASHA/CDC); a checklist by age for babies
+and toddlers (0–2), toddlers and preschoolers (2–4), and older children (4–12); a voice-and-hearing
+callout for any age; what different tick counts suggest; common patterns (late talker, speech
+sound disorder, language disorder, stuttering, social communication); six things to do at home,
+including a note that bilingual homes do not cause delay; and a fillable observation log.
+
+Landing page: `/resources/speech-language-checklist`. Gate: `magnet_id:
+'speech-language-checklist'`, `condition: 'speech_delay'`, `specialty:
+'speech_language_therapist'` — a clean match, unlike the assessment guide above. Band:
+`components/lead-magnet-band-speech-guide.php`, hand-placed on seven pages: the
+`speech-therapy/` hub plus five condition pages (`speech-delay`, `language-delay`,
+`articulation-therapy`, `stuttering-therapy`, `speech-therapy-for-children`), and
+`resources/child-milestone-checker.php`, whose own screener content leads directly into this
+topic.
+
+Both new bands follow the same rule as §2a/§2b: never added to `inject-lead-magnets.js`'s
+automated placement, and placed before the `emb-nearby` section (or before
+`lead-magnet-cta.php` on the one page without an `emb-nearby` block) rather than stacked with an
+existing hand-placed band on the same page — confirmed by checking every target page carried no
+existing `lead-magnet-band-*` include before adding one.
+
+The `/resources/` hub and the homepage's free-tools section went from six cards to eight with
+this addition; both stay on the plain three-column `.lm-grid` (eight wraps 3+3+2, which is fine
+— re-check the grid modifier before adding a ninth).
 
 **Placements**
 - `index.php` — a blue "free & instant" strip directly under the hero, and a full three-card
@@ -172,7 +224,68 @@ rows of three — check this again before adding a seventh.
   resolves the footer's copyright year (it was previously shipping `<?php echo date('Y'); ?>`
   literally into `dist/`)
 - `generate-sitemap.js` — tools added as priority hub pages, guides excluded
-- `robots.txt` — `Disallow: /resources/guides/`
+- `robots.txt` — `Disallow: /resources/guides/*.pdf` (scoped to PDFs only — see §2a on why this
+  must never widen to the whole folder)
+
+### 2c. Two more `EmbraceLM.gate()` magnets, added 26 October 2026
+
+Same mechanism as §2a/§2b, no engine changes. Also supplied as finished PDFs.
+
+**"Do I Need an Assessment?"** — 9 pages. Seven assessment types explained (developmental,
+autism/ADOS-2, ADHD/Conners-3, cognitive/WISC-V, psychoeducational, emotional and
+behavioural/BASC-3, speech/language/OT); signs it may be time for children, teens and adults; the
+six-step process from first consultation to feedback and report; how to prepare, including green
+flags/red flags for choosing a clinic; what you receive and how to use the report at school or
+work; four myths about assessments answered; a fillable preparation worksheet.
+
+Unlike the first four magnets, this one is deliberately **cross-cutting** rather than tied to one
+condition — it spans every assessment type the practice offers. There is no single `condition`
+value in `appointment.php`'s real option list that fits all of it; `learning_disability` was
+chosen as the closest defensible single tag because psychoeducational assessment is the first and
+broadest of the three services the PDF's own closing page links to (the others are ADOS-2 and
+ADHD assessment). This is a judgment call, not a clean mapping — revisit if conversion data later
+suggests a different tag, or if a general "assessment" condition value is ever added to the
+appointment form.
+
+Landing page: `/resources/assessment-guide`. Gate: `id: 'assessment-guide'`, `conditionTag:
+'learning_disability'`, `specialtyTag: 'clinical_psychologist'`. Band:
+`components/lead-magnet-band-assessment-guide.php`, hand-placed on seven assessment-specific pages
+spanning different condition clusters rather than scoped to one section:
+`autism/autism-assessment.php`, `autism/ados-2-assessment.php`, `adhd/adhd-testing.php`,
+`adhd/conners-3-assessment.php`, `learning-disabilities/wisc-v-testing.php`,
+`speech-therapy/speech-assessment.php`, `occupational-therapy/occupational-therapy-assessment.php`
+— each chosen specifically because it did **not** already carry a different hand-placed guide
+band (e.g. `adhd/adhd-assessment.php` was skipped because it already carries
+`lead-magnet-band-adhd-guide.php`, and stacking two full CTA bands on one page was avoided).
+
+**"Is My Child's Speech On Track?"** — 9 pages. Speech vs. language vs. communication explained;
+a milestone table from 6 months to 5 years (sourced from ASHA/CDC guidance); a checklist by age
+band (0–2, 2–4, 4–12) plus a voice-and-hearing callout for any age; three-tier guidance on what a
+given number of ticks might mean, plus common patterns (late talker, speech sound disorder,
+language disorder, stuttering, social communication); six things to do at home, including a
+bilingual-homes myth-buster; a fillable observation log and questions to bring to an assessment.
+
+Landing page: `/resources/speech-language-checklist`. Gate: `id: 'speech-language-checklist'`,
+`conditionTag: 'speech_delay'`, `specialtyTag: 'speech_language_therapist'` — a clean, direct
+match, unlike the assessment guide above. Band: `components/lead-magnet-band-speech-guide.php`,
+hand-placed on seven pages: the `speech-therapy/` hub plus five condition pages
+(`speech-delay.php`, `language-delay.php`, `articulation-therapy.php`, `stuttering-therapy.php`,
+`speech-therapy-for-children.php`), and `resources/child-milestone-checker.php` (named directly in
+the PDF's own closing page as a related eMbrace resource). `speech-therapy/speech-assessment.php`
+was deliberately left to the assessment-guide band instead, to avoid stacking two guide bands on
+that one page.
+
+Both bands follow §2a's rule: never added to `inject-lead-magnets.js`'s automated placement, and
+placed mid-page (before `emb-nearby`, or before the `lead-magnet-cta.php` include on the one page
+without an `emb-nearby` section) rather than beside the footer.
+
+The `/resources/` hub and the homepage's free-tools section went from six cards to eight with this
+addition; both stayed on the plain three-column `.lm-grid` (eight wraps as 3+3+2, no modifier
+needed). The homepage's blue "free & instant" strip and the header's "Free Tools" dropdown
+(desktop + mobile) each picked up two more entries. `generate-sitemap.js`'s `HUB_PAGES` set
+picked up both new landing pages at priority 0.9; `robots.txt`'s existing
+`Disallow: /resources/guides/*.pdf` wildcard already covered the two new PDFs with no change
+needed.
 
 ---
 

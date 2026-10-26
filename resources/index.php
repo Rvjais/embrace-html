@@ -4,21 +4,21 @@
 <meta charset="utf-8"/>
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Three free clinician-built screeners: child milestones, ADHD and autism early signs, and adult stress and burnout. Instant results, no sign-up needed." name="description"/>
+<meta content="8 free tools from eMbrace's clinical team: 3 instant screeners and 5 PDF guides covering child development, ADHD, autism, learning, speech and adult stress." name="description"/>
 <meta content="index, follow" name="robots"/>
 <link href="https://embracelives.com/resources/" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/resources/" property="og:url"/>
-<meta content="Free Mental Health Tools &amp; Screeners | eMbrace Delhi" property="og:title"/>
-<meta content="Three free clinician-built screeners: child milestones, ADHD and autism early signs, and adult stress and burnout. Instant results, no sign-up needed." property="og:description"/>
+<meta content="Free Mental Health Tools &amp; Guides | eMbrace Delhi" property="og:title"/>
+<meta content="8 free tools from eMbrace's clinical team: 3 instant screeners and 5 PDF guides covering child development, ADHD, autism, learning, speech and adult stress." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="eMbrace Lives" property="og:site_name"/>
 <meta content="en_IN" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Free Mental Health Tools &amp; Screeners | eMbrace Delhi" name="twitter:title"/>
-<meta content="Three free clinician-built screeners: child milestones, ADHD and autism early signs, and adult stress and burnout. Instant results, no sign-up needed." name="twitter:description"/>
+<meta content="Free Mental Health Tools &amp; Guides | eMbrace Delhi" name="twitter:title"/>
+<meta content="8 free tools from eMbrace's clinical team: 3 instant screeners and 5 PDF guides covering child development, ADHD, autism, learning, speech and adult stress." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
-<title>Free Mental Health Tools &amp; Screeners | eMbrace Delhi</title>
+<title>Free Mental Health Tools &amp; Guides | eMbrace Delhi</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -305,7 +305,7 @@
       "@type": "WebPage",
       "@id": "https://embracelives.com/resources/#webpage",
       "url": "https://embracelives.com/resources/",
-      "name": "Free Mental Health Tools & Screeners | eMbrace Delhi",
+      "name": "Free Mental Health Tools & Guides | eMbrace Delhi",
       "isPartOf": {
         "@id": "https://embracelives.com/#website"
       },
@@ -313,7 +313,7 @@
         "@id": "https://embracelives.com/#organization"
       },
       "inLanguage": "en-IN",
-      "description": "Three free clinician-built screeners: child milestones, ADHD and autism early signs, and adult stress and burnout. Instant results, no sign-up needed."
+      "description": "8 free tools from eMbrace's clinical team: 3 instant screeners and 5 PDF guides covering child development, ADHD, autism, learning, speech and adult stress."
     }
   ]
 }
@@ -332,7 +332,7 @@
       <span class="lm-eyebrow"><i class="ph-fill ph-gift"></i> Free &middot; built by our clinical team</span>
       <h1 class="lm-h2">Free tools from our clinical team</h1>
       <p class="lm-sub">
-        Three self-check screeners and three downloadable guides, built by the psychologists who run our
+        Three self-check screeners and five downloadable guides, built by the psychologists who run our
         assessments — the same domains, the same thresholds, the same honesty about what a
         questionnaire can and cannot tell you. The screeners show your result immediately, no sign-up
         needed to see it; the guides download straight to your device.
@@ -457,6 +457,46 @@
           <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/learning-difficulties-checklist"
              data-lm-cta="learning-difficulties-checklist" data-lm-placement="resources_hub">Get the free checklist</a>
           <p class="lm-card__meta">PDF &middot; 8 pages &middot; instant download</p>
+        </div>
+      </div>
+
+      <div class="lm-card">
+        <div class="lm-card__icon lm-card__icon--adult"><i class="ph-fill ph-file-pdf"></i></div>
+        <span class="lm-card__tag">For families &middot; free PDF</span>
+        <h2 class="lm-card__title">Do I Need an Assessment?</h2>
+        <p class="lm-card__desc">
+          A 9-page downloadable guide: the seven types of psychological and developmental assessments
+          explained, signs it may be time, and how to prepare.
+        </p>
+        <ul class="lm-card__list">
+          <li>Developmental, autism, ADHD, cognitive, learning and more</li>
+          <li>Step-by-step process, from consultation to report</li>
+          <li>No quiz — instant download after your details</li>
+        </ul>
+        <div class="lm-card__foot">
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/assessment-guide"
+             data-lm-cta="assessment-guide" data-lm-placement="resources_hub">Get the free guide</a>
+          <p class="lm-card__meta">PDF &middot; 9 pages &middot; instant download</p>
+        </div>
+      </div>
+
+      <div class="lm-card">
+        <div class="lm-card__icon lm-card__icon--child"><i class="ph-fill ph-file-pdf"></i></div>
+        <span class="lm-card__tag">For parents &middot; free PDF</span>
+        <h2 class="lm-card__title">Is My Child&rsquo;s Speech On Track?</h2>
+        <p class="lm-card__desc">
+          A 9-page downloadable checklist: speech and language milestones from 6 months to age 12, and
+          what your answers mean.
+        </p>
+        <ul class="lm-card__list">
+          <li>Milestone table, 6 months to 5 years</li>
+          <li>Checklist by age, plus a hearing-check callout</li>
+          <li>No quiz — instant download after your details</li>
+        </ul>
+        <div class="lm-card__foot">
+          <a class="lm-btn lm-btn--primary lm-btn--wide" href="/resources/speech-language-checklist"
+             data-lm-cta="speech-language-checklist" data-lm-placement="resources_hub">Get the free checklist</a>
+          <p class="lm-card__meta">PDF &middot; 9 pages &middot; instant download</p>
         </div>
       </div>
     </div>

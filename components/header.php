@@ -190,6 +190,8 @@
             <a class="emb-nav__link" href="/resources/adhd-parent-guide">Is It ADHD? Parent Guide (PDF)</a>
             <a class="emb-nav__link" href="/resources/adult-stress-burnout-guide">Stress &amp; Burnout Guide (PDF)</a>
             <a class="emb-nav__link" href="/resources/learning-difficulties-checklist">Learning Difficulties Checklist (PDF)</a>
+            <a class="emb-nav__link" href="/resources/assessment-guide">Do I Need an Assessment? (PDF)</a>
+            <a class="emb-nav__link" href="/resources/speech-language-checklist">Speech &amp; Language Checklist (PDF)</a>
             <div class="emb-nav__rule"></div>
             <a class="emb-nav__link emb-nav__link--lead" href="/resources/">All Free Tools</a>
           </div>
@@ -323,6 +325,8 @@
         <a href="/resources/adhd-parent-guide">Is It ADHD? Parent Guide (PDF)</a>
         <a href="/resources/adult-stress-burnout-guide">Stress &amp; Burnout Guide (PDF)</a>
         <a href="/resources/learning-difficulties-checklist">Learning Difficulties Checklist (PDF)</a>
+        <a href="/resources/assessment-guide">Do I Need an Assessment? (PDF)</a>
+        <a href="/resources/speech-language-checklist">Speech &amp; Language Checklist (PDF)</a>
         <a href="/resources/">All Free Tools</a>
       </div>
     </details>
