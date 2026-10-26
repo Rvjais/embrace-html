@@ -48,14 +48,18 @@ team call the right person first (see §4).
 - `resources/adhd-autism-screener.php`
 - `resources/adult-stress-check.php`
 - `resources/adhd-parent-guide.php` — added 18 October 2026, see §2a below. A direct PDF
-  download rather than a quiz; the odd one out of the four and documented separately because
-  its funnel is genuinely different, not because it is lesser.
+  download rather than a quiz; the first of three documented separately because their funnel is
+  genuinely different, not because they are lesser.
+- `resources/adult-stress-burnout-guide.php` — added 26 October 2026, see §2b.
+- `resources/learning-difficulties-checklist.php` — added 26 October 2026, see §2b.
 
 **Gated deliverables** (printable, `noindex`, "Save as PDF" button)
 - `resources/guides/child-milestone-guide.php`
 - `resources/guides/adhd-autism-next-steps.php`
 - `resources/guides/7-day-reset-plan.php`
 - `resources/guides/adhd-parent-guide.pdf` — a real PDF file, not an HTML guide. See §2a.
+- `resources/guides/adult-stress-burnout-guide.pdf` — real PDF. See §2b.
+- `resources/guides/learning-difficulties-checklist.pdf` — real PDF. See §2b.
 
 **Shared engine**
 - `assets/lead-magnets.js` — quiz engine (`EmbraceLM.init`), scoring, result rendering, lead
@@ -102,6 +106,52 @@ twice.
 `magnet_id: 'adhd-parent-guide'`, `condition: 'adhd'`, `specialty: 'child_psychologist'` and
 `priority: 'medium'` (there is no result band to derive it from, unlike the quiz-based magnets).
 Add it to the nurture sequence and call SOP in §4 and §7 the same way as the other three.
+
+### 2b. Two more `EmbraceLM.gate()` magnets, added 26 October 2026
+
+Same mechanism as §2a — no engine changes, both are config blocks on top of the existing `Gate`
+class. Also supplied as finished PDFs, not built from this repo's content.
+
+**"Stress, Burnout or Something More?"** — 8 pages. A comparison table distinguishing stress,
+burnout, anxiety and depression; a two-week self-check; the three-stage slide from stress into
+burnout; six quick reset tools; boundary scripts; a fill-in weekly reset plan; when to get help.
+
+The PDF's own "when to get help" page names three 24/7 Indian crisis helplines (Snehi, AASRA,
+Vandrevala Foundation). That content is **also surfaced directly on the landing page itself**,
+in a visible `.lm-guide__box--warn` callout above the fold — not left inside the gated PDF a
+visitor has to hand over an email to reach. A visitor on this specific page may be in genuine
+distress before they ever fill in the form; the crisis numbers must not be the thing paywalled
+behind the lead capture.
+
+Landing page: `/resources/adult-stress-burnout-guide`. Gate: `magnet_id:
+'adult-stress-burnout-guide'`, `condition: 'anxiety_stress'`, `specialty:
+'clinical_psychologist'`. Band: `components/lead-magnet-band-adult-guide.php`, hand-placed on
+nine pages — the five `adult-mental-health/` pages most directly on-topic (burnout, stress,
+workplace stress, adult anxiety, adult depression), three `corporate-wellness/` pages (the PDF
+itself closes with an HR/manager line pointing at corporate wellness), and
+`resources/adult-stress-check.php` itself, whose own screener already delivers this guide as its
+reward.
+
+**"Is My Child Struggling to Learn?"** — 8 pages. What SLD, dyslexia, dysgraphia and dyscalculia
+actually are; a checklist by school stage from preschool to secondary; look-alikes (vision/
+hearing, language mismatch, ADHD, anxiety, teaching gaps, giftedness with boredom); what helps
+at home and school; what a psychoeducational assessment includes; a printable two-week
+observation log.
+
+Landing page: `/resources/learning-difficulties-checklist`. Gate: `magnet_id:
+'learning-difficulties-checklist'`, `condition: 'learning_disability'`, `specialty:
+'special_educator'`. Band: `components/lead-magnet-band-learning-guide.php`, hand-placed on
+eight pages — the `learning-disabilities/` hub plus six condition/assessment pages under it, and
+`schools-hub/learning-disabilities-in-school.php`.
+
+Both bands follow §2a's rule exactly: never added to `inject-lead-magnets.js`'s automated
+placement (which already puts `lead-magnet-band-adult.php` / `-child.php` on these same pages),
+and placed mid-page rather than beside the footer where those already live.
+
+The `/resources/` hub and the homepage's free-tools section went from four cards to six with
+this addition. Both grids dropped the `lm-grid--4` modifier (added for the earlier four-card
+imbalance) back to the plain three-column `.lm-grid`, since six divides evenly into two full
+rows of three — check this again before adding a seventh.
 
 **Placements**
 - `index.php` — a blue "free & instant" strip directly under the hero, and a full three-card

@@ -45,6 +45,7 @@ const HUB_PAGES = new Set([
   'locations/index.php', 'resources/index.php', 'blog/index.php',
   'resources/child-milestone-checker.php', 'resources/adhd-autism-screener.php',
   'resources/adult-stress-check.php', 'resources/adhd-parent-guide.php',
+  'resources/adult-stress-burnout-guide.php', 'resources/learning-difficulties-checklist.php',
   // Child development services. These are the canonical target for each service
   // keyword; the Delhi and Gurgaon pages under locations/ point back to them.
   'developmental-delay-treatment.php', 'intellectual-disability-treatment.php',

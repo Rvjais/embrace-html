@@ -449,6 +449,8 @@
   </div>
 </section>
 
+<?php include __DIR__ . '/../components/lead-magnet-band-adult-guide.php'; ?>
+
 <?php include __DIR__ . '/../components/lead-magnet-cta.php'; ?>
 
 <?php include __DIR__ . '/../components/footer.php'; ?>
