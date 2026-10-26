@@ -15,6 +15,15 @@
  * caching there) could still look unchanged on the live site. Run this
  * after every edit to one of the three files; it is idempotent, so running
  * it with no underlying change is a no-op.
+ *
+ * ALSO run it after adding any new page that references these assets, even
+ * if their content hasn't changed. A hand-written <link>/<script> tag on a
+ * new page carries no version string until this runs once — it isn't wrong
+ * today, but it ships with no cache-busting protection for the next time
+ * one of the three files changes. This has already happened once (the two
+ * PDF-guide landing pages added 26 October 2026 shipped bare, unversioned
+ * tags because this step was skipped) — caught in a later QA pass, not at
+ * build time, because a bare tag isn't a syntax error.
  */
 const fs = require('fs');
 const path = require('path');
