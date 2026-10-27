@@ -4,14 +4,14 @@
 <meta charset="utf-8"/>
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Child Psychiatrist in Gurgaon: psychological assessment and therapy at eMbrace Gurugram, with psychiatric consultation and medication management coordinated through our partner Sukoon. Free 15-minute intake call." name="description"/>
+<meta content="Child psychiatrist in Gurgaon: psychological assessment and therapy at eMbrace Gurugram, with psychiatric consultation via Sukoon. Free 15-minute call." name="description"/>
 <meta content="index, follow" name="robots"/>
 <link href="https://embracelives.com/locations/child-psychiatrist-in-gurgaon" rel="canonical"/>
 <!-- Open Graph -->
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/locations/child-psychiatrist-in-gurgaon" property="og:url"/>
 <meta content="Child Psychiatrist in Gurgaon | eMbrace Delhi NCR Centres" property="og:title"/>
-<meta content="Child Psychiatrist in Gurgaon: psychological assessment and therapy at eMbrace Gurugram, with psychiatric consultation and medication management coordinated through our partner Sukoon. Free 15-minute intake call." property="og:description"/>
+<meta content="Child psychiatrist in Gurgaon: psychological assessment and therapy at eMbrace Gurugram, with psychiatric consultation via Sukoon. Free 15-minute call." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="1200" property="og:image:width"/>
 <meta content="630" property="og:image:height"/>
@@ -20,7 +20,7 @@
 <!-- Twitter Card -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="Child Psychiatrist in Gurgaon | eMbrace Delhi NCR Centres" name="twitter:title"/>
-<meta content="Child Psychiatrist in Gurgaon: psychological assessment and therapy at eMbrace Gurugram, with psychiatric consultation and medication management coordinated through our partner Sukoon. Free 15-minute intake call." name="twitter:description"/>
+<meta content="Child psychiatrist in Gurgaon: psychological assessment and therapy at eMbrace Gurugram, with psychiatric consultation via Sukoon. Free 15-minute call." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
 <title>Child Psychiatrist in Gurgaon | eMbrace Delhi NCR Centres</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
@@ -367,7 +367,7 @@
         "@id": "https://embracelives.com/#organization"
       },
       "inLanguage": "en-IN",
-      "description": "Child Psychiatrist in Gurgaon: psychological assessment and therapy at eMbrace Gurugram, with psychiatric consultation and medication management coordinated through our partner Sukoon. Free 15-minute intake call.",
+      "description": "Child psychiatrist in Gurgaon: psychological assessment and therapy at eMbrace Gurugram, with psychiatric consultation via Sukoon. Free 15-minute call.",
       "breadcrumb": {
         "@id": "https://embracelives.com/locations/child-psychiatrist-in-gurgaon#breadcrumb"
       }

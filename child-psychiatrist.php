@@ -4,14 +4,14 @@
 <meta charset="utf-8"/>
 <link href="/Favicon.png" rel="icon" type="image/svg+xml"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Child & Adolescent Psychiatry coordinated through eMbrace across Delhi NCR: psychological assessment in-house, psychiatric consultation and medication management via our partner Sukoon. Book a free 15-minute call." name="description"/>
+<meta content="Child & adolescent psychiatry across Delhi NCR: psychological assessment in-house, psychiatric consultation and medication via Sukoon. Free 15-minute call." name="description"/>
 <meta content="index, follow" name="robots"/>
 <link href="https://embracelives.com/child-psychiatrist" rel="canonical"/>
 <!-- Open Graph -->
 <meta content="website" property="og:type"/>
 <meta content="https://embracelives.com/child-psychiatrist" property="og:url"/>
 <meta content="Child & Adolescent Psychiatry | eMbrace Delhi NCR Centres" property="og:title"/>
-<meta content="Child & Adolescent Psychiatry coordinated through eMbrace across Delhi NCR: psychological assessment in-house, psychiatric consultation and medication management via our partner Sukoon. Book a free 15-minute call." property="og:description"/>
+<meta content="Child & adolescent psychiatry across Delhi NCR: psychological assessment in-house, psychiatric consultation and medication via Sukoon. Free 15-minute call." property="og:description"/>
 <meta content="https://embracelives.com/og-image.png" property="og:image"/>
 <meta content="1200" property="og:image:width"/>
 <meta content="630" property="og:image:height"/>
@@ -20,7 +20,7 @@
 <!-- Twitter Card -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="Child & Adolescent Psychiatry | eMbrace Delhi NCR Centres" name="twitter:title"/>
-<meta content="Child & Adolescent Psychiatry coordinated through eMbrace across Delhi NCR: psychological assessment in-house, psychiatric consultation and medication management via our partner Sukoon. Book a free 15-minute call." name="twitter:description"/>
+<meta content="Child & adolescent psychiatry across Delhi NCR: psychological assessment in-house, psychiatric consultation and medication via Sukoon. Free 15-minute call." name="twitter:description"/>
 <meta content="https://embracelives.com/og-image.png" name="twitter:image"/>
 <title>Child & Adolescent Psychiatry | eMbrace Delhi NCR Centres</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
@@ -372,7 +372,7 @@
         "@id": "https://embracelives.com/#organization"
       },
       "inLanguage": "en-IN",
-      "description": "Child & Adolescent Psychiatry coordinated through eMbrace across Delhi NCR: psychological assessment in-house, psychiatric consultation and medication management via our partner Sukoon. Book a free 15-minute call.",
+      "description": "Child & adolescent psychiatry across Delhi NCR: psychological assessment in-house, psychiatric consultation and medication via Sukoon. Free 15-minute call.",
       "breadcrumb": {
         "@id": "https://embracelives.com/child-psychiatrist#breadcrumb"
       }
@@ -487,7 +487,7 @@
 <li>Coordination with your child's therapist and school, with your consent</li>
 </ul>
 <h2>How this fits with assessment and therapy at eMbrace</h2>
-<p>Families most often come to this question through an existing concern — an ADHD or autism assessment, a diagnosis of anxiety or depression in a child or teen, or a case where therapy and school support have not been enough on their own. Our clinical and child psychologists carry out the psychological assessment and deliver the therapy. Where the picture suggests a medical and medication opinion is also worth having, we coordinate that referral to Sukoon directly, so you are not sent away to start again with someone who knows nothing about your child.</p>
+<p>Families most often come to this question through an existing concern: an ADHD or autism assessment, a diagnosis of anxiety or depression in a child or teen, or a case where therapy and school support have not been enough on their own. Our clinical and child psychologists carry out the psychological assessment and deliver the therapy. Where the picture suggests a medical and medication opinion is also worth having, we coordinate that referral to Sukoon directly, so you are not sent away to start again with someone who knows nothing about your child.</p>
 <p>With your consent, we share the assessment and therapy notes that are relevant, so the psychiatric opinion is informed by the same picture your therapist is working from, rather than a fresh ten-minute history.</p>
 <h2>When psychiatric input is usually considered</h2>
 <p>Medication is one option among several, and it is never assumed to be the first one. A psychiatric opinion is usually worth having when:</p>
