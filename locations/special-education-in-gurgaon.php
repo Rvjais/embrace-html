@@ -686,6 +686,7 @@
         <li><a href="/locations/physiotherapy-in-gurgaon">Physiotherapy in Gurgaon</a></li>
         <li><a href="/locations/pediatric-neurologist-in-gurgaon">Pediatric Neurologist in Gurgaon</a></li>
         <li><a href="/locations/developmental-pediatrician-in-gurgaon">Developmental Pediatrician in Gurgaon</a></li>
+        <li><a href="/locations/child-psychiatrist-in-gurgaon">Child Psychiatrist in Gurgaon</a></li>
         <li><a href="/locations/child-development-centre-in-gurgaon">Child Development Centre in Gurgaon</a></li>
       </ul>
     </div>

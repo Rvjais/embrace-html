@@ -486,6 +486,7 @@
       <a class="" href="/physiotherapy">Physiotherapy Clinic</a>
       <a class="" href="/pediatric-neurologist">Pediatric Neurologist</a>
       <a class="" href="/developmental-pediatrician">Developmental Pediatrician</a>
+      <a class="" href="/child-psychiatrist">Child Psychiatry</a>
       <a class="" href="/child-development-centre">Child Development Centre</a>
     </div>
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mt-6 mb-2">Related</h3>
@@ -645,6 +646,7 @@
         <li><a href="/locations/physiotherapy-in-delhi">Physiotherapy in Delhi</a></li>
         <li><a href="/locations/pediatric-neurologist-in-delhi">Pediatric Neurologist in Delhi</a></li>
         <li><a href="/locations/developmental-pediatrician-in-delhi">Developmental Pediatrician in Delhi</a></li>
+        <li><a href="/locations/child-psychiatrist-in-delhi">Child Psychiatrist in Delhi</a></li>
         <li><a href="/locations/child-development-centre-in-delhi">Child Development Centre in Delhi</a></li>
       </ul>
     </div>

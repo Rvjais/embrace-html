@@ -129,6 +129,7 @@
             <div class="emb-nav__rule"></div>
             <a class="emb-nav__link" href="/pediatric-neurologist">Pediatric Neurologist</a>
             <a class="emb-nav__link" href="/developmental-pediatrician">Developmental Pediatrician</a>
+            <a class="emb-nav__link" href="/child-psychiatrist">Child Psychiatry</a>
           </div>
         </div>
       </div>
@@ -286,6 +287,7 @@
         <a href="/physiotherapy">Physiotherapy</a>
         <a href="/pediatric-neurologist">Pediatric Neurologist</a>
         <a href="/developmental-pediatrician">Developmental Pediatrician</a>
+        <a href="/child-psychiatrist">Child Psychiatry</a>
       </div>
     </details>
 

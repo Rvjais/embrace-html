@@ -486,6 +486,7 @@
       <a class="" href="/physiotherapy">Physiotherapy Clinic</a>
       <a class="" href="/pediatric-neurologist">Pediatric Neurologist</a>
       <a class="" href="/developmental-pediatrician">Developmental Pediatrician</a>
+      <a class="" href="/child-psychiatrist">Child Psychiatry</a>
       <a class="" href="/child-development-centre">Child Development Centre</a>
     </div>
     <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mt-6 mb-2">Related</h3>
@@ -634,6 +635,7 @@
         <li><a href="/locations/physiotherapy-in-gurgaon">Physiotherapy in Gurgaon</a></li>
         <li><a href="/locations/pediatric-neurologist-in-gurgaon">Pediatric Neurologist in Gurgaon</a></li>
         <li><a href="/locations/developmental-pediatrician-in-gurgaon">Developmental Pediatrician in Gurgaon</a></li>
+        <li><a href="/locations/child-psychiatrist-in-gurgaon">Child Psychiatrist in Gurgaon</a></li>
         <li><a href="/locations/child-development-centre-in-gurgaon">Child Development Centre in Gurgaon</a></li>
       </ul>
     </div>

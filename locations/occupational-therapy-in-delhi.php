@@ -713,6 +713,7 @@
         <li><a href="/locations/physiotherapy-in-delhi">Physiotherapy in Delhi</a></li>
         <li><a href="/locations/pediatric-neurologist-in-delhi">Pediatric Neurologist in Delhi</a></li>
         <li><a href="/locations/developmental-pediatrician-in-delhi">Developmental Pediatrician in Delhi</a></li>
+        <li><a href="/locations/child-psychiatrist-in-delhi">Child Psychiatrist in Delhi</a></li>
         <li><a href="/locations/child-development-centre-in-delhi">Child Development Centre in Delhi</a></li>
       </ul>
     </div>

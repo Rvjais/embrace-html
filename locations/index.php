@@ -418,6 +418,7 @@
   <li><a href="/locations/physiotherapy-in-delhi">Physiotherapy in Delhi</a></li>
   <li><a href="/locations/pediatric-neurologist-in-delhi">Pediatric Neurologist in Delhi</a></li>
   <li><a href="/locations/developmental-pediatrician-in-delhi">Developmental Pediatrician in Delhi</a></li>
+  <li><a href="/locations/child-psychiatrist-in-delhi">Child Psychiatrist in Delhi</a></li>
   <li><a href="/locations/child-development-centre-in-delhi">Child Development Centre in Delhi</a></li>
 </ul>
 </div>
@@ -563,6 +564,7 @@
   <li><a href="/locations/physiotherapy-in-gurgaon">Physiotherapy in Gurgaon</a></li>
   <li><a href="/locations/pediatric-neurologist-in-gurgaon">Pediatric Neurologist in Gurgaon</a></li>
   <li><a href="/locations/developmental-pediatrician-in-gurgaon">Developmental Pediatrician in Gurgaon</a></li>
+  <li><a href="/locations/child-psychiatrist-in-gurgaon">Child Psychiatrist in Gurgaon</a></li>
   <li><a href="/locations/child-development-centre-in-gurgaon">Child Development Centre in Gurgaon</a></li>
 </ul>
 </div>
